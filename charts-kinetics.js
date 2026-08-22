@@ -1,7 +1,7 @@
 /**
  * ==============================================================================
  * HARMONICUS SX // PÁGINA 3: ASSET DYNAMICS & MULTI-TIMEFRAME KINETICS CONTROLLER
- * Suporte a 6 Janelas de Tempo (1h, 24h, 1sem, 1m, 1a, tudo), Crosshair & Física
+ * Suporte a 6 Janelas de Tempo (1h, 24h, 1sem, 1m, 1a, tudo), Crosshair & Zoom Retangular
  * ==============================================================================
  */
 
@@ -13,6 +13,10 @@ let currentKineticsAsset = 'BTCBRL';
 let currentKineticsTimeframe = '24h';
 let kineticsPollerTimer = null;
 let hoveredDataIndex = -1;
+let kineticsZoomRange = null; // [startIdx, endIdx] ou null
+let isDraggingKineticsZoom = false;
+let kineticsDragStartX = 0;
+let kineticsDragCurrentX = 0;
 
 function initChartsKinetics() {
   const assetsData = window.ASSETS_KINETICS_DATA || {};
@@ -53,6 +57,7 @@ function initAssetPills(assetsData) {
       btn.classList.add('active');
       currentKineticsAsset = btn.getAttribute('data-asset');
       hoveredDataIndex = -1;
+      kineticsZoomRange = null; // Reseta zoom ao trocar de ativo
       
       const data = window.ASSETS_KINETICS_DATA || {};
       renderKineticsCockpit(currentKineticsAsset, currentKineticsTimeframe, data);
@@ -72,6 +77,7 @@ function initTimeframeButtons() {
       btn.classList.add('active');
       currentKineticsTimeframe = btn.getAttribute('data-tf');
       hoveredDataIndex = -1;
+      kineticsZoomRange = null; // Reseta zoom ao trocar de escala
 
       // Atualizar título do card
       const titleEl = document.getElementById('chartTitleText');
@@ -92,6 +98,16 @@ function initTimeframeButtons() {
       renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, data);
     });
   });
+
+  const resetBtn = document.getElementById('kineticsResetZoomBtn');
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      kineticsZoomRange = null;
+      resetBtn.style.display = 'none';
+      const data = window.ASSETS_KINETICS_DATA || {};
+      renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, data);
+    });
+  }
 }
 
 function renderKineticsCockpit(symbol, tfKey, data) {
@@ -149,59 +165,75 @@ function renderKineticsCockpit(symbol, tfKey, data) {
     if (st === 'PROPULSAO_ALTA') {
       elKinState.textContent = '🚀 FORTE PROPULSÃO COMPRADORA';
       elKinState.style.color = '#10B981';
-      elKinState.style.borderColor = '#10B981';
-    } else if (st === 'DESACELERACAO_EXAUSTAO') {
-      elKinState.textContent = '⚠️ EXAUSTÃO / PRESSÃO VENDEDORA';
+    } else if (st === 'PRESSAO_QUEDA') {
+      elKinState.textContent = '⚠️ FORTE PRESSÃO VENDEDORA';
       elKinState.style.color = '#EF4444';
-      elKinState.style.borderColor = '#EF4444';
-    } else {
-      elKinState.textContent = '⚖️ ESTABILIDADE INERCIAL';
+    } else if (st === 'DESACELERACAO_ALTA') {
+      elKinState.textContent = '⏱️ DESACELERAÇÃO DE ALTA (TOPO)';
+      elKinState.style.color = '#F59E0B';
+    } else if (st === 'EXAUSTAO_QUEDA') {
+      elKinState.textContent = '🧲 EXAUSTÃO VENDEDORA (FUNDO)';
       elKinState.style.color = '#06B6D4';
-      elKinState.style.borderColor = '#06B6D4';
+    } else {
+      elKinState.textContent = '⚖️ EQUILÍBRIO INERCIAL / CONSOLIDAÇÃO';
+      elKinState.style.color = '#9CA3AF';
     }
   }
 }
 
+// ------------------------------------------------------------------------------
+// RENDERIZAÇÃO DO CANVAS PRINCIPAL COM SUPORTE A BOX ZOOM
+// ------------------------------------------------------------------------------
 function renderKineticsChart(symbol, tfKey, data) {
   const canvas = document.getElementById('kineticsMainCanvas');
   if (!canvas) return;
-
   const ctx = canvas.getContext('2d');
+
   const asset = data[symbol] || {};
   const tfData = (asset.timeframes && asset.timeframes[tfKey]) || {};
-  const s = tfData.series || {};
-  
-  const timestamps = s.timestamps || [];
-  const prices = s.prices || [];
-  const upper = s.bb_upper || [];
-  const lower = s.bb_lower || [];
-  const velocities = s.velocities || [];
+  const series = tfData.series || {};
 
-  if (prices.length === 0) return;
+  const fullPrices = series.prices || [];
+  const fullUpper = series.bollinger_upper || [];
+  const fullLower = series.bollinger_lower || [];
+  const fullVelocities = series.velocities || [];
+  const fullTimestamps = series.timestamps || [];
 
-  // Ajuste de DPI e tamanho fluido
-  const wrapper = canvas.parentElement;
+  if (fullPrices.length === 0) return;
+
+  // Aplicar slice de zoom se ativo
+  const startIndex = kineticsZoomRange ? kineticsZoomRange[0] : 0;
+  const endIndex = kineticsZoomRange ? kineticsZoomRange[1] : (fullPrices.length - 1);
+
+  const prices = fullPrices.slice(startIndex, endIndex + 1);
+  const upper = fullUpper.slice(startIndex, endIndex + 1);
+  const lower = fullLower.slice(startIndex, endIndex + 1);
+  const velocities = fullVelocities.slice(startIndex, endIndex + 1);
+  const timestamps = fullTimestamps.slice(startIndex, endIndex + 1);
+
+  const resetBtn = document.getElementById('kineticsResetZoomBtn');
+  if (resetBtn) {
+    resetBtn.style.display = kineticsZoomRange ? 'inline-block' : 'none';
+  }
+
   const dpr = window.devicePixelRatio || 1;
-  const displayW = wrapper.clientWidth || 1000;
-  const displayH = 380;
+  const rect = canvas.getBoundingClientRect();
+  const w = rect.width || 1100;
+  const h = 380;
 
-  canvas.width = displayW * dpr;
-  canvas.height = displayH * dpr;
-  canvas.style.width = `${displayW}px`;
-  canvas.style.height = `${displayH}px`;
+  canvas.width = w * dpr;
+  canvas.height = h * dpr;
   ctx.scale(dpr, dpr);
 
-  const w = displayW;
-  const h = displayH;
   const padLeft = 75;
   const padRight = 30;
-  const padTop = 25;
-  const padBottom = 80;
+  const padTop = 20;
+  const padBottom = 65;
   const chartH = h - padBottom - padTop;
 
   ctx.clearRect(0, 0, w, h);
 
-  // Fundo Dark Cyberpunk
+  // Fundo Dark
   ctx.fillStyle = '#050811';
   ctx.fillRect(0, 0, w, h);
 
@@ -237,7 +269,7 @@ function renderKineticsChart(symbol, tfKey, data) {
     ctx.fillText(labelStr, padLeft - 8, yPos + 3);
   }
 
-  // 1. Faixa de Bollinger (Sombra de Incerteza)
+  // 1. Faixa de Bollinger
   ctx.beginPath();
   for (let i = 0; i < upper.length; i++) {
     const x = getX(i);
@@ -276,7 +308,7 @@ function renderKineticsChart(symbol, tfKey, data) {
   ctx.stroke();
   ctx.setLineDash([]);
 
-  // 2. Linha Principal de Preço (Gradiente Luminoso Neon)
+  // 2. Linha Principal de Preço
   ctx.beginPath();
   for (let i = 0; i < prices.length; i++) {
     const x = getX(i);
@@ -290,7 +322,7 @@ function renderKineticsChart(symbol, tfKey, data) {
   ctx.stroke();
   ctx.shadowBlur = 0;
 
-  // 3. Painel Inferior: Histograma de Velocidade Instantânea (dP/dt) Normalizado
+  // 3. Painel Inferior: Histograma de Velocidade Instantânea (dP/dt)
   const derivY0 = h - 35;
   ctx.strokeStyle = 'rgba(255, 255, 255, 0.15)';
   ctx.lineWidth = 1;
@@ -304,9 +336,8 @@ function renderKineticsChart(symbol, tfKey, data) {
   ctx.textAlign = 'left';
   ctx.fillText('VELOCIDADE RELATIVA dP/dt (NORMALIZADA POR JANELA)', padLeft, derivY0 - 24);
 
-  // Normalização adaptativa pela velocidade máxima da região analisada
   const maxAbsVel = Math.max(...velocities.map(v => Math.abs(v)), 0.0001);
-  const maxBarH = 22; // Altura máxima da barra em pixels
+  const maxBarH = 22;
   const barW = (w - padLeft - padRight) / velocities.length;
 
   for (let i = 0; i < velocities.length; i++) {
@@ -333,12 +364,11 @@ function renderKineticsChart(symbol, tfKey, data) {
   }
 
   // 4. CROSSHAIR & INSPEÇÃO INTERATIVA
-  if (hoveredDataIndex >= 0 && hoveredDataIndex < prices.length) {
+  if (hoveredDataIndex >= 0 && hoveredDataIndex < prices.length && !isDraggingKineticsZoom) {
     const i = hoveredDataIndex;
     const x = getX(i);
     const y = getY(prices[i]);
 
-    // Linha vertical do crosshair
     ctx.strokeStyle = 'rgba(255, 255, 255, 0.4)';
     ctx.lineWidth = 1;
     ctx.setLineDash([2, 2]);
@@ -347,7 +377,6 @@ function renderKineticsChart(symbol, tfKey, data) {
     ctx.lineTo(x, h - padBottom + 10);
     ctx.stroke();
 
-    // Ponto no preço
     ctx.setLineDash([]);
     ctx.fillStyle = '#F59E0B';
     ctx.beginPath();
@@ -357,7 +386,6 @@ function renderKineticsChart(symbol, tfKey, data) {
     ctx.lineWidth = 2;
     ctx.stroke();
 
-    // Atualizar badge flutuante
     const badge = document.getElementById('chartInspectBadge');
     if (badge) {
       const pVal = isUsdt ? `R$ ${prices[i].toFixed(4)}` : `R$ ${prices[i].toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`;
@@ -383,52 +411,140 @@ function renderKineticsChart(symbol, tfKey, data) {
     const badge = document.getElementById('chartInspectBadge');
     if (badge) badge.style.display = 'none';
   }
+
+  // ----------------------------------------------------------------------------
+  // DESENHO DO RETÂNGULO DE SELEÇÃO DE ZOOM (DRAG-TO-ZOOM)
+  // ----------------------------------------------------------------------------
+  if (isDraggingKineticsZoom) {
+    const rx1 = Math.min(kineticsDragStartX, kineticsDragCurrentX);
+    const rx2 = Math.max(kineticsDragStartX, kineticsDragCurrentX);
+    const rw = rx2 - rx1;
+
+    ctx.save();
+    ctx.fillStyle = 'rgba(6, 182, 212, 0.25)';
+    ctx.fillRect(rx1, padTop, rw, chartH);
+    ctx.strokeStyle = '#06B6D4';
+    ctx.lineWidth = 1.5;
+    ctx.setLineDash([4, 4]);
+    ctx.strokeRect(rx1, padTop, rw, chartH);
+    ctx.restore();
+  }
 }
 
 function initCanvasInteractions() {
   const canvas = document.getElementById('kineticsMainCanvas');
-  const wrapper = document.getElementById('canvasWrapper');
-  if (!canvas || !wrapper) return;
+  if (!canvas) return;
 
-  const handleMove = (e) => {
-    const rect = canvas.getBoundingClientRect();
-    const clientX = e.clientX - rect.left;
-    const padLeft = 75;
-    const padRight = 30;
-    const w = rect.width;
+  const padLeft = 75;
+  const padRight = 30;
 
+  const getActiveSeriesLength = () => {
     const assetsData = window.ASSETS_KINETICS_DATA || {};
     const asset = assetsData[currentKineticsAsset] || {};
     const tfData = (asset.timeframes && asset.timeframes[currentKineticsTimeframe]) || {};
-    const prices = (tfData.series && tfData.series.prices) || [];
+    const fullPrices = (tfData.series && tfData.series.prices) || [];
+    if (!kineticsZoomRange) return fullPrices.length;
+    return kineticsZoomRange[1] - kineticsZoomRange[0] + 1;
+  };
 
-    if (prices.length === 0 || clientX < padLeft || clientX > w - padRight) {
-      hoveredDataIndex = -1;
-      renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, assetsData);
+  const handlePointerMove = (clientX) => {
+    const rect = canvas.getBoundingClientRect();
+    const x = clientX - rect.left;
+    const plotW = rect.width - padLeft - padRight;
+    const relX = x - padLeft;
+    const totalLen = getActiveSeriesLength();
+
+    if (isDraggingKineticsZoom) {
+      kineticsDragCurrentX = Math.max(padLeft, Math.min(rect.width - padRight, x));
+      renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, window.ASSETS_KINETICS_DATA || {});
       return;
     }
 
-    const relX = (clientX - padLeft) / (w - padLeft - padRight);
-    const idx = Math.max(0, Math.min(prices.length - 1, Math.round(relX * (prices.length - 1))));
+    if (totalLen === 0 || relX < 0 || relX > plotW) {
+      hoveredDataIndex = -1;
+      renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, window.ASSETS_KINETICS_DATA || {});
+      return;
+    }
+
+    const pct = relX / plotW;
+    const idx = Math.max(0, Math.min(totalLen - 1, Math.round(pct * (totalLen - 1))));
 
     if (hoveredDataIndex !== idx) {
       hoveredDataIndex = idx;
-      renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, assetsData);
+      renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, window.ASSETS_KINETICS_DATA || {});
     }
   };
 
-  const handleLeave = () => {
-    hoveredDataIndex = -1;
-    const data = window.ASSETS_KINETICS_DATA || {};
-    renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, data);
+  const handlePointerDown = (clientX) => {
+    const rect = canvas.getBoundingClientRect();
+    const x = clientX - rect.left;
+    if (x >= padLeft && x <= rect.width - padRight) {
+      isDraggingKineticsZoom = true;
+      kineticsDragStartX = x;
+      kineticsDragCurrentX = x;
+    }
   };
 
-  canvas.addEventListener('mousemove', handleMove);
-  canvas.addEventListener('mouseleave', handleLeave);
-  canvas.addEventListener('touchmove', (e) => {
-    if (e.touches && e.touches[0]) handleMove(e.touches[0]);
+  const handlePointerUp = () => {
+    if (!isDraggingKineticsZoom) return;
+    isDraggingKineticsZoom = false;
+
+    const rect = canvas.getBoundingClientRect();
+    const plotW = rect.width - padLeft - padRight;
+    const dragDist = Math.abs(kineticsDragCurrentX - kineticsDragStartX);
+
+    if (dragDist >= 15) {
+      const assetsData = window.ASSETS_KINETICS_DATA || {};
+      const asset = assetsData[currentKineticsAsset] || {};
+      const tfData = (asset.timeframes && asset.timeframes[currentKineticsTimeframe]) || {};
+      const fullPrices = (tfData.series && tfData.series.prices) || [];
+
+      const currentOffset = kineticsZoomRange ? kineticsZoomRange[0] : 0;
+      const currentLen = kineticsZoomRange ? (kineticsZoomRange[1] - kineticsZoomRange[0] + 1) : fullPrices.length;
+
+      const relStart = Math.min(kineticsDragStartX, kineticsDragCurrentX) - padLeft;
+      const relEnd = Math.max(kineticsDragStartX, kineticsDragCurrentX) - padLeft;
+
+      const pctA = Math.max(0, Math.min(1, relStart / plotW));
+      const pctB = Math.max(0, Math.min(1, relEnd / plotW));
+
+      const idxA = currentOffset + Math.round(pctA * (currentLen - 1));
+      const idxB = currentOffset + Math.round(pctB * (currentLen - 1));
+
+      if (idxB - idxA >= 3) {
+        kineticsZoomRange = [idxA, idxB];
+      }
+    }
+
+    hoveredDataIndex = -1;
+    renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, window.ASSETS_KINETICS_DATA || {});
+  };
+
+  canvas.addEventListener('mousedown', (e) => handlePointerDown(e.clientX));
+  window.addEventListener('mousemove', (e) => {
+    if (isDraggingKineticsZoom) handlePointerMove(e.clientX);
   });
-  canvas.addEventListener('touchend', handleLeave);
+  canvas.addEventListener('mousemove', (e) => {
+    if (!isDraggingKineticsZoom) handlePointerMove(e.clientX);
+  });
+  window.addEventListener('mouseup', handlePointerUp);
+
+  canvas.addEventListener('mouseleave', () => {
+    if (!isDraggingKineticsZoom) {
+      hoveredDataIndex = -1;
+      renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, window.ASSETS_KINETICS_DATA || {});
+    }
+  });
+
+  canvas.addEventListener('touchstart', (e) => {
+    if (e.touches && e.touches[0]) handlePointerDown(e.touches[0].clientX);
+  }, { passive: true });
+
+  canvas.addEventListener('touchmove', (e) => {
+    if (e.touches && e.touches[0]) handlePointerMove(e.touches[0].clientX);
+  }, { passive: true });
+
+  canvas.addEventListener('touchend', handlePointerUp);
 }
 
 // ------------------------------------------------------------------------------
@@ -450,41 +566,22 @@ function startLiveBinancePoller() {
           }
         });
 
-        // Adicionar PAXG calculado
-        if (pricesMap['USDTBRL']) {
-          pricesMap['PAXGBRL'] = 4587.0 * pricesMap['USDTBRL'];
+        if (pricesMap.USDTBRL) {
+          pricesMap.PAXGBRL = pricesMap.USDTBRL * 4587.0;
         }
 
-        for (const [sym, p] of Object.entries(pricesMap)) {
+        Object.keys(pricesMap).forEach(sym => {
           if (window.ASSETS_KINETICS_DATA[sym]) {
-            const oldP = window.ASSETS_KINETICS_DATA[sym].preco_atual || p;
-            const deltaPct = ((p / oldP) - 1) * 100;
-            window.ASSETS_KINETICS_DATA[sym].preco_atual = p;
-            
-            // Atualizar timeframe ativo na memória
-            const curTF = window.ASSETS_KINETICS_DATA[sym].timeframes[currentKineticsTimeframe];
-            if (curTF) {
-              curTF.velocidade_inst = deltaPct;
-              curTF.poder_subida_thrust = Math.max(5, Math.min(95, 50 + deltaPct * 30));
-              curTF.estado_cinetico = curTF.poder_subida_thrust > 62 ? 'PROPULSAO_ALTA' : (curTF.poder_subida_thrust < 38 ? 'DESACELERACAO_EXAUSTAO' : 'EQUILIBRIO_INERCIAL');
-              
-              if (curTF.series && curTF.series.prices) {
-                curTF.series.prices[curTF.series.prices.length - 1] = p;
-              }
-            }
+            window.ASSETS_KINETICS_DATA[sym].preco_atual = pricesMap[sym];
           }
-        }
+        });
 
         renderKineticsCockpit(currentKineticsAsset, currentKineticsTimeframe, window.ASSETS_KINETICS_DATA);
-        if (hoveredDataIndex === -1) {
-          renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, window.ASSETS_KINETICS_DATA);
-        }
       }
     } catch (e) {
-      // Silencioso em caso de rate limit
+      // Falha segura
     }
   };
 
-  if (kineticsPollerTimer) clearInterval(kineticsPollerTimer);
   kineticsPollerTimer = setInterval(fetchLive, 5000);
 }

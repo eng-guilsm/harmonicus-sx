@@ -1,8 +1,9 @@
 /**
  * ==============================================================================
- * HARMONICUS SX // PÁGINA 1: PORTFOLIO TACTICAL HUD CONTROLLER (v4.3)
- * Termômetro 100% AO VIVO com Filtro de Risco, Séries Históricas Reais (1H a 365D),
- * Tooltip Interativa com Crosshair no Canvas e 3 Pilares Executivos Oficiais
+ * HARMONICUS SX // PÁGINA 1: PORTFOLIO TACTICAL HUD CONTROLLER (v4.5)
+ * Termômetro 100% AO VIVO com Filtro de Risco, Séries Históricas de Alta Densidade (1H a 365D),
+ * Tooltip Interativa com Crosshair, Zoom Retangular Interativo (Drag-to-Zoom & Reset)
+ * e 3 Pilares Executivos Oficiais
  * ==============================================================================
  */
 
@@ -14,6 +15,10 @@ let activePlanFilter = 'all';
 let activeModalPlanId = null;
 let activeModalTimeframe = '24h';
 let modalHoverIdx = -1;
+let modalZoomRange = null; // [startIdx, endIdx] ou null
+let isDraggingZoom = false;
+let zoomDragStartX = 0;
+let zoomDragCurrentX = 0;
 
 function initTacticalHUD() {
   const plans = window.PLANOS_TACTICAL_DATA || [];
@@ -79,7 +84,7 @@ function renderLiveThermometer(plans, filter) {
     const badgeText = isLow ? '🛡️ BAIXO RISCO' : '⚡ MÉDIO RISCO';
 
     return `
-      <div class="thermo-card" data-plan-id="${plan.id}" style="border-top: 3px solid ${plan.cor};" title="Clique para abrir análise executiva e gráfico histórico (1H a 365D)">
+      <div class="thermo-card" data-plan-id="${plan.id}" style="border-top: 3px solid ${plan.cor};" title="Clique para abrir análise executiva, zoom retangular e histórico">
         <div class="thermo-header">
           <span class="thermo-rank">#${idx + 1} AO VIVO</span>
           <span class="plan-badge ${badgeClass}">${badgeText}</span>
@@ -100,13 +105,12 @@ function renderLiveThermometer(plans, filter) {
         </div>
         <div class="thermo-hint">
           <span>🔍</span>
-          <span>Clique para abrir gráfico (1H a 365D) e tese</span>
+          <span>Clique para abrir gráfico interativo & zoom retangular</span>
         </div>
       </div>
     `;
   }).join('');
 
-  // Ao clicar em qualquer card, abre o Modal com o Gráfico Histórico Real
   container.querySelectorAll('.thermo-card').forEach(card => {
     card.addEventListener('click', () => {
       const pId = parseInt(card.getAttribute('data-plan-id'), 10);
@@ -128,7 +132,7 @@ function initFilterButtons(plans) {
 }
 
 // ------------------------------------------------------------------------------
-// 2. MODAL DE ANÁLISE EXECUTIVA & GRÁFICO HISTÓRICO DE PROXIMIDADE (1H A 365D)
+// 2. MODAL DE ANÁLISE EXECUTIVA & GRÁFICO HISTÓRICO COM ZOOM RETANGULAR
 // ------------------------------------------------------------------------------
 function initModalEvents() {
   const overlay = document.getElementById('planModalOverlay');
@@ -155,6 +159,7 @@ window.openPlanModal = function(planId, initialTf) {
   activeModalPlanId = planId;
   activeModalTimeframe = initialTf || '24h';
   modalHoverIdx = -1;
+  modalZoomRange = null;
 
   const overlay = document.getElementById('planModalOverlay');
   const content = document.getElementById('planModalContent');
@@ -182,22 +187,27 @@ function renderModalLayout(plan, tf) {
     </div>
 
     <!-- SELETOR DE ESCALA HISTÓRICA DO GRÁFICO (1H A 365D) -->
-    <div class="modal-tf-selector">
-      <span class="tf-label">HISTÓRICO REAL:</span>
-      <button class="modal-tf-btn ${tf === '1h' ? 'active' : ''}" data-tf="1h">1H</button>
-      <button class="modal-tf-btn ${tf === '24h' ? 'active' : ''}" data-tf="24h">24H</button>
-      <button class="modal-tf-btn ${tf === '7d' ? 'active' : ''}" data-tf="7d">7D</button>
-      <button class="modal-tf-btn ${tf === '30d' ? 'active' : ''}" data-tf="30d">30D</button>
-      <button class="modal-tf-btn ${tf === '365d' ? 'active' : ''}" data-tf="365d">365D</button>
+    <div class="modal-tf-selector" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+      <div style="display: flex; align-items: center; gap: 6px;">
+        <span class="tf-label">HISTÓRICO REAL:</span>
+        <button class="modal-tf-btn ${tf === '1h' ? 'active' : ''}" data-tf="1h">1H</button>
+        <button class="modal-tf-btn ${tf === '24h' ? 'active' : ''}" data-tf="24h">24H</button>
+        <button class="modal-tf-btn ${tf === '7d' ? 'active' : ''}" data-tf="7d">7D</button>
+        <button class="modal-tf-btn ${tf === '30d' ? 'active' : ''}" data-tf="30d">30D</button>
+        <button class="modal-tf-btn ${tf === '365d' ? 'active' : ''}" data-tf="365d">365D</button>
+      </div>
+      <button id="modalResetZoomBtn" style="display: none; background: rgba(6, 182, 212, 0.15); border: 1px solid #06B6D4; color: #06B6D4; border-radius: 6px; padding: 4px 10px; font-family: var(--font-mono); font-size: 0.70rem; cursor: pointer; transition: all 0.2s;">
+        ↩️ RESETAR ZOOM
+      </button>
     </div>
 
-    <!-- GRÁFICO HISTÓRICO REAL DE PROXIMIDADE À META COM TOOLTIP -->
+    <!-- GRÁFICO HISTÓRICO REAL DE PROXIMIDADE À META COM TOOLTIP & BOX ZOOM -->
     <div class="modal-chart-wrapper" id="planChartWrapper" style="position: relative; background: rgba(5, 8, 17, 0.95); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 12px; margin-bottom: 16px;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted);">
-        <span>EVOLUÇÃO HISTÓRICA DA PROXIMIDADE AO DISPARO (0% A 100%)</span>
+        <span>EVOLUÇÃO HISTÓRICA DA PROXIMIDADE (ARRASTE PARA DAR ZOOM RETANGULAR)</span>
         <span style="color: ${plan.cor}; font-weight: 700;">AO VIVO: ${plan.proximidade_score}%</span>
       </div>
-      <canvas id="planHistoryCanvas" width="620" height="150" style="width: 100%; height: 150px; display: block; cursor: crosshair;"></canvas>
+      <canvas id="planHistoryCanvas" width="620" height="150" style="width: 100%; height: 150px; display: block; cursor: crosshair; user-select: none;"></canvas>
       <div id="planCanvasTooltip" class="plan-canvas-tooltip" style="display: none; position: absolute; pointer-events: none; z-index: 50; background: rgba(10, 15, 29, 0.95); border: 1px solid ${plan.cor}; border-radius: 6px; padding: 6px 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); font-family: var(--font-mono); font-size: 0.72rem;"></div>
     </div>
 
@@ -225,11 +235,20 @@ function renderModalLayout(plan, tf) {
     btn.addEventListener('click', () => {
       const newTf = btn.getAttribute('data-tf');
       activeModalTimeframe = newTf;
+      modalZoomRange = null; // Reseta zoom ao trocar de escala
       renderModalLayout(plan, newTf);
     });
   });
 
-  // Renderizar o gráfico Canvas histórico e ativar tooltips
+  const resetZoomBtn = document.getElementById('modalResetZoomBtn');
+  if (resetZoomBtn) {
+    resetZoomBtn.addEventListener('click', () => {
+      modalZoomRange = null;
+      resetZoomBtn.style.display = 'none';
+      drawPlanHistoryChart(plan, tf);
+    });
+  }
+
   setTimeout(() => {
     drawPlanHistoryChart(plan, tf);
     initPlanCanvasInteractions(plan, tf);
@@ -237,7 +256,7 @@ function renderModalLayout(plan, tf) {
 }
 
 // ------------------------------------------------------------------------------
-// 3. DESENHO DO CANVAS HISTÓRICO REAL DE PROXIMIDADE COM CROSSHAIR
+// 3. DESENHO DO CANVAS HISTÓRICO REAL DE PROXIMIDADE COM BOX ZOOM & CROSSHAIR
 // ------------------------------------------------------------------------------
 function drawPlanHistoryChart(plan, tf) {
   const canvas = document.getElementById('planHistoryCanvas');
@@ -256,8 +275,17 @@ function drawPlanHistoryChart(plan, tf) {
 
   ctx.clearRect(0, 0, w, h);
 
-  const series = (plan.series_historica && plan.series_historica[tf]) || [];
-  if (series.length === 0) return;
+  const fullSeries = (plan.series_historica && plan.series_historica[tf]) || [];
+  if (fullSeries.length === 0) return;
+
+  // Aplicar fatia de zoom se houver
+  const series = modalZoomRange ? fullSeries.slice(modalZoomRange[0], modalZoomRange[1] + 1) : fullSeries;
+  if (series.length < 2) return;
+
+  const resetBtn = document.getElementById('modalResetZoomBtn');
+  if (resetBtn) {
+    resetBtn.style.display = modalZoomRange ? 'inline-block' : 'none';
+  }
 
   const padLeft = 40;
   const padRight = 20;
@@ -330,18 +358,17 @@ function drawPlanHistoryChart(plan, tf) {
   ctx.fillStyle = '#6B7280';
   ctx.font = '9px JetBrains Mono';
   ctx.textAlign = 'center';
-  const labelSteps = Math.min(5, series.length);
+  const labelSteps = Math.min(6, series.length);
   const step = Math.max(1, Math.floor(series.length / (labelSteps - 1)));
   for (let i = 0; i < series.length; i += step) {
     ctx.fillText(series[i].label, getX(i), h - 8);
   }
 
   // Crosshair e Ponto de Inspeção em Hover
-  if (modalHoverIdx >= 0 && modalHoverIdx < series.length) {
+  if (modalHoverIdx >= 0 && modalHoverIdx < series.length && !isDraggingZoom) {
     const hX = getX(modalHoverIdx);
     const hY = getY(series[modalHoverIdx].score);
 
-    // Linha vertical pontilhada
     ctx.save();
     ctx.setLineDash([3, 3]);
     ctx.strokeStyle = 'rgba(255, 255, 255, 0.4)';
@@ -352,7 +379,6 @@ function drawPlanHistoryChart(plan, tf) {
     ctx.stroke();
     ctx.restore();
 
-    // Ponto destacado
     ctx.beginPath();
     ctx.arc(hX, hY, 5.5, 0, Math.PI * 2);
     ctx.fillStyle = '#FFFFFF';
@@ -361,7 +387,7 @@ function drawPlanHistoryChart(plan, tf) {
     ctx.lineWidth = 2.5;
     ctx.stroke();
   } else {
-    // Ponto ao vivo no final por padrão
+    // Ponto no final por padrão
     const lastX = getX(series.length - 1);
     const lastY = getY(series[series.length - 1].score);
     ctx.beginPath();
@@ -372,6 +398,24 @@ function drawPlanHistoryChart(plan, tf) {
     ctx.lineWidth = 2;
     ctx.stroke();
   }
+
+  // ----------------------------------------------------------------------------
+  // DESENHO DO RETÂNGULO DE SELEÇÃO DE ZOOM (DRAG-TO-ZOOM)
+  // ----------------------------------------------------------------------------
+  if (isDraggingZoom) {
+    const rx1 = Math.min(zoomDragStartX, zoomDragCurrentX);
+    const rx2 = Math.max(zoomDragStartX, zoomDragCurrentX);
+    const rw = rx2 - rx1;
+
+    ctx.save();
+    ctx.fillStyle = 'rgba(6, 182, 212, 0.25)';
+    ctx.fillRect(rx1, padTop, rw, plotH);
+    ctx.strokeStyle = '#06B6D4';
+    ctx.lineWidth = 1.5;
+    ctx.setLineDash([4, 4]);
+    ctx.strokeRect(rx1, padTop, rw, plotH);
+    ctx.restore();
+  }
 }
 
 function initPlanCanvasInteractions(plan, tf) {
@@ -379,17 +423,29 @@ function initPlanCanvasInteractions(plan, tf) {
   const tooltip = document.getElementById('planCanvasTooltip');
   if (!canvas || !tooltip) return;
 
-  const series = (plan.series_historica && plan.series_historica[tf]) || [];
-  if (series.length === 0) return;
-
   const padLeft = 40;
   const padRight = 20;
 
-  const handlePointer = (clientX, clientY) => {
+  const getActiveSeries = () => {
+    const fullSeries = (plan.series_historica && plan.series_historica[tf]) || [];
+    return modalZoomRange ? fullSeries.slice(modalZoomRange[0], modalZoomRange[1] + 1) : fullSeries;
+  };
+
+  const handlePointerMove = (clientX, clientY) => {
+    const series = getActiveSeries();
+    if (series.length === 0) return;
+
     const rect = canvas.getBoundingClientRect();
     const x = clientX - rect.left;
     const plotW = rect.width - padLeft - padRight;
     const relX = x - padLeft;
+
+    if (isDraggingZoom) {
+      zoomDragCurrentX = Math.max(padLeft, Math.min(rect.width - padRight, x));
+      tooltip.style.display = 'none';
+      drawPlanHistoryChart(plan, tf);
+      return;
+    }
 
     if (relX < 0 || relX > plotW) {
       modalHoverIdx = -1;
@@ -424,20 +480,72 @@ function initPlanCanvasInteractions(plan, tf) {
     drawPlanHistoryChart(plan, tf);
   };
 
-  canvas.addEventListener('mousemove', (e) => handlePointer(e.clientX, e.clientY));
-  canvas.addEventListener('mouseleave', () => {
-    modalHoverIdx = -1;
-    tooltip.style.display = 'none';
-    drawPlanHistoryChart(plan, tf);
-  });
-  canvas.addEventListener('touchmove', (e) => {
-    if (e.touches && e.touches[0]) {
-      handlePointer(e.touches[0].clientX, e.touches[0].clientY);
+  const handlePointerDown = (clientX) => {
+    const rect = canvas.getBoundingClientRect();
+    const x = clientX - rect.left;
+    if (x >= padLeft && x <= rect.width - padRight) {
+      isDraggingZoom = true;
+      zoomDragStartX = x;
+      zoomDragCurrentX = x;
+      tooltip.style.display = 'none';
     }
-  }, { passive: true });
-  canvas.addEventListener('touchend', () => {
+  };
+
+  const handlePointerUp = () => {
+    if (!isDraggingZoom) return;
+    isDraggingZoom = false;
+
+    const rect = canvas.getBoundingClientRect();
+    const plotW = rect.width - padLeft - padRight;
+    const dragDist = Math.abs(zoomDragCurrentX - zoomDragStartX);
+
+    if (dragDist >= 15) {
+      const fullSeries = (plan.series_historica && plan.series_historica[tf]) || [];
+      const currentOffset = modalZoomRange ? modalZoomRange[0] : 0;
+      const currentLen = modalZoomRange ? (modalZoomRange[1] - modalZoomRange[0] + 1) : fullSeries.length;
+
+      const relStart = Math.min(zoomDragStartX, zoomDragCurrentX) - padLeft;
+      const relEnd = Math.max(zoomDragStartX, zoomDragCurrentX) - padLeft;
+
+      const pctA = Math.max(0, Math.min(1, relStart / plotW));
+      const pctB = Math.max(0, Math.min(1, relEnd / plotW));
+
+      const idxA = currentOffset + Math.round(pctA * (currentLen - 1));
+      const idxB = currentOffset + Math.round(pctB * (currentLen - 1));
+
+      if (idxB - idxA >= 3) {
+        modalZoomRange = [idxA, idxB];
+      }
+    }
+
     modalHoverIdx = -1;
-    tooltip.style.display = 'none';
     drawPlanHistoryChart(plan, tf);
+  };
+
+  canvas.addEventListener('mousedown', (e) => handlePointerDown(e.clientX));
+  window.addEventListener('mousemove', (e) => {
+    if (isDraggingZoom) handlePointerMove(e.clientX, e.clientY);
   });
+  canvas.addEventListener('mousemove', (e) => {
+    if (!isDraggingZoom) handlePointerMove(e.clientX, e.clientY);
+  });
+  window.addEventListener('mouseup', handlePointerUp);
+
+  canvas.addEventListener('mouseleave', () => {
+    if (!isDraggingZoom) {
+      modalHoverIdx = -1;
+      tooltip.style.display = 'none';
+      drawPlanHistoryChart(plan, tf);
+    }
+  });
+
+  canvas.addEventListener('touchstart', (e) => {
+    if (e.touches && e.touches[0]) handlePointerDown(e.touches[0].clientX);
+  }, { passive: true });
+
+  canvas.addEventListener('touchmove', (e) => {
+    if (e.touches && e.touches[0]) handlePointerMove(e.touches[0].clientX, e.touches[0].clientY);
+  }, { passive: true });
+
+  canvas.addEventListener('touchend', handlePointerUp);
 }
