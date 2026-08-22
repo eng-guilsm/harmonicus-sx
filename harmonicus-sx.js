@@ -1,8 +1,8 @@
 /**
  * ==============================================================================
- * HARMONICUS SX // PÁGINA 2: SYNTHESIZER & SPECTRAL TOPOLOGY CONTROLLER (v3.7)
+ * HARMONICUS SX // PÁGINA 2: SYNTHESIZER & SPECTRAL TOPOLOGY CONTROLLER (v3.8)
  * Processamento Digital de Sinais (DSP) de John F. Ehlers & Análise Espectral
- * Rastreamento Angular Circular 360º, Grafo Compacto & Foco de Tríades Opacas
+ * Rastreamento Angular Circular 360º, Grafo Compacto & Foco em Tríades
  * ==============================================================================
  */
 
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 let activeTunerBand = 'daily';
-let activeHarmonicChord = 'unison';
+let activeHarmonicChord = 'none';
 
 let d3GraphSimulation = null;
 let d3SvgSelection = null;
@@ -137,12 +137,12 @@ function initRadioTuner(bands) {
   };
 
   const markerReadouts = {
-    '15m': { nome: 'ONDAS ULTRACURTAS // 15 MINUTOS', freq: 'Banda: 15m | High Frequency (HF)', desc: 'Micro-oscilações rápidas de livro de ofertas e captura de micro-dips intradiários.' },
-    '1h':  { nome: 'ONDAS HORÁRIAS // 1 HORA', freq: 'Banda: 1h | Curto Prazo', desc: 'Oscilações horárias de fluxo de liquidez institucional e repique de médias móveis.' },
-    '4h':  { nome: 'ONDAS MÉDIAS // 4 HORAS', freq: 'Banda: 4h | Intraday Swing', desc: 'Ciclos intradiários de volume e rotação de correlação entre Bitcoin e Ethereum.' },
-    '24h': { nome: 'ONDAS CURTAS // DIÁRIO (24H)', freq: 'Banda: 24h | Diário Dominante', desc: 'Harmônico fundamental de rotação de mercado. Cointegração forte entre TradFi e Cripto.' },
-    '7d':  { nome: 'ONDAS SEMANAIS // 7 DIAS', freq: 'Banda: 7d | Swing Semanal', desc: 'Tendência semanal de fluxo de capital e ajuste de posições institucionais.' },
-    '45d': { nome: 'ONDAS LONGAS // SECULAR (45D)', freq: 'Banda: 45d | Macro Secular', desc: 'As placas tectônicas do macro. Onde reside o ciclo secular do Plano Guiana Brasileira.' }
+    '15m': { nome: 'ONDAS ULTRACURTAS // 15 MINUTOS', freq: 'Banda: 15 MIN | High Frequency (HF)', desc: 'Micro-oscilações rápidas de livro de ofertas e captura de micro-dips intradiários.' },
+    '1h':  { nome: 'ONDAS HORÁRIAS // 1 HORA', freq: 'Banda: 1H | Curto Prazo', desc: 'Oscilações horárias de fluxo de liquidez institucional e repique de médias móveis.' },
+    '4h':  { nome: 'ONDAS MÉDIAS // 4 HORAS', freq: 'Banda: 4H | Intraday Swing', desc: 'Ciclos intradiários de volume e rotação de correlação entre Bitcoin e Ethereum.' },
+    '24h': { nome: 'ONDAS CURTAS // DIÁRIO (24H)', freq: 'Banda: 24H | Diário Dominante', desc: 'Harmônico fundamental de rotação de mercado. Cointegração forte entre TradFi e Cripto.' },
+    '7d':  { nome: 'ONDAS SEMANAIS // 7 DIAS', freq: 'Banda: 7D | Swing Semanal', desc: 'Tendência semanal de fluxo de capital e ajuste de posições institucionais.' },
+    '45d': { nome: 'ONDAS LONGAS // SECULAR (45D)', freq: 'Banda: 45D | Macro Secular', desc: 'As placas tectônicas do macro. Onde reside o ciclo secular do Plano Guiana Brasileira.' }
   };
 
   let currentAngle = 27; // Padrão: 24H
@@ -152,7 +152,7 @@ function initRadioTuner(bands) {
   let startY = 0;
 
   const setDialRotation = (deg) => {
-    // Permite arco de -140° a +140° (280° de excursão do potenciômetro)
+    // Permite arco amplo de -140° a +140° (280° de excursão do potenciômetro)
     currentAngle = Math.max(-140, Math.min(140, deg));
     dial.style.transform = `rotate(${currentAngle}deg)`;
 
@@ -211,14 +211,12 @@ function initRadioTuner(bands) {
     const clientX = e.touches ? e.touches[0].clientX : e.clientX;
     const clientY = e.touches ? e.touches[0].clientY : e.clientY;
     
-    // Cálculo angular radial
     const currentMouseAngle = getPointerAngle(clientX, clientY);
     let deltaAngle = currentMouseAngle - startMouseAngle;
     
     if (deltaAngle > 180) deltaAngle -= 360;
     if (deltaAngle < -180) deltaAngle += 360;
 
-    // Também combina com arraste vertical para fluidez de uso
     const verticalDelta = (startY - clientY) * 0.85;
     const combinedTarget = startDialAngle + deltaAngle + (Math.abs(deltaAngle) < 6 ? verticalDelta : 0);
 
@@ -254,7 +252,7 @@ function initRadioTuner(bands) {
 }
 
 // ------------------------------------------------------------------------------
-// 4. SELETOR DE ACORDES HARMÔNICOS & TRÍADES
+// 4. SELETOR DE ACORDES HARMÔNICOS & TRÍADES (COM OPÇÃO REDE COMPLETA)
 // ------------------------------------------------------------------------------
 function initChordSelector() {
   const chordBtns = document.querySelectorAll('.chord-btn');
@@ -263,7 +261,9 @@ function initChordSelector() {
       chordBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       activeHarmonicChord = btn.getAttribute('data-chord');
-      window.harmonicusAudio.playChord(activeHarmonicChord);
+      if (activeHarmonicChord !== 'none') {
+        window.harmonicusAudio.playChord(activeHarmonicChord);
+      }
       updateD3GraphForChord(activeHarmonicChord);
     });
   });
@@ -359,6 +359,7 @@ function initOscilloscope() {
     else if (activeHarmonicChord === 'major') beamColor = '#10B981';
     else if (activeHarmonicChord === 'ether') beamColor = '#8B5CF6';
     else if (activeHarmonicChord === 'unison') beamColor = isPlaying ? '#10B981' : '#F59E0B';
+    else beamColor = '#06B6D4';
 
     ctx.lineWidth = 2.5;
     ctx.strokeStyle = beamColor;
@@ -387,8 +388,10 @@ function initOscilloscope() {
           v = 1.0 + 0.32 * Math.sin(t) + 0.22 * Math.sin(t * 1.414) + 0.12 * saw + noise * 1.6;
         } else if (activeHarmonicChord === 'major') {
           v = 1.0 + 0.25 * Math.sin(t) + 0.18 * Math.sin(t * 1.25) + 0.12 * Math.sin(t * 1.5) + noise * 0.5;
-        } else {
+        } else if (activeHarmonicChord === 'ether') {
           v = 1.0 + 0.22 * Math.sin(t * 0.8) + 0.15 * Math.cos(t * 1.6 - phase * 0.5) + noise * 0.3;
+        } else {
+          v = 1.0 + 0.20 * Math.sin(t) + 0.10 * Math.sin(t * 2) + noise * 0.4;
         }
       }
 
@@ -472,14 +475,14 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
         d3ZoomBehavior.transform,
         d3.zoomIdentity.translate(0, 0).scale(1)
       );
-      updateD3GraphForChord('unison');
+      updateD3GraphForChord('none');
     };
   }
 
   // Simulação física compacta e agrupada
   d3GraphSimulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(edges).id(d => d.id).distance(d => Math.max(38, 68 - (d.coerencia * 28))))
-    .force('charge', d3.forceManyBody().strength(-95))
+    .force('link', d3.forceLink(edges).id(d => d.id).distance(d => Math.max(40, 72 - (d.coerencia * 30))))
+    .force('charge', d3.forceManyBody().strength(-105))
     .force('center', d3.forceCenter(width / 2, height / 2))
     .force('radial', d3.forceRadial(Math.min(width, height) * 0.28, width / 2, height / 2).strength(0.18))
     .force('collision', d3.forceCollide().radius(d => Math.max(24, 26 + d.autovetor_pc1 * 26) + 4));
@@ -507,7 +510,7 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
       .on('drag', dragged)
       .on('end', dragended));
 
-  // Círculos ampliados (raios de 22px a 34px) para conter o texto
+  // Círculos ampliados para conter o texto perfeitamente
   node.append('circle')
     .attr('r', d => Math.max(22, 24 + d.autovetor_pc1 * 24))
     .attr('fill', d => d.cor)
@@ -606,14 +609,14 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
     d.fy = null;
   }
 
-  // Foco padrão da tríade uníssono
+  // Foco inicial
   setTimeout(() => {
-    updateD3GraphForChord('unison');
-  }, 120);
+    updateD3GraphForChord(activeHarmonicChord);
+  }, 100);
 }
 
 function updateD3GraphForBand(bandId) {
-  if (!d3SvgSelection) return;
+  if (!d3SvgSelection || activeHarmonicChord !== 'none') return;
   const links = d3SvgSelection.selectAll('.links line');
   
   if (bandId === 'ultra_high') {
@@ -641,12 +644,30 @@ function updateD3GraphForBand(bandId) {
 }
 
 // ------------------------------------------------------------------------------
-// 8. FOCO DE TRÍADES / ACORDES: DESTAQUE VIBRANTE E OPACIDADE/ESMAECIMENTO GERAL
+// 8. FOCO DE TRÍADES / ACORDES: ISOLAMENTO TOTAL DAS CONEXÕES NÃO-SELECIONADAS
 // ------------------------------------------------------------------------------
 function updateD3GraphForChord(chordId) {
   if (!d3SvgSelection) return;
   const nodeGroups = d3SvgSelection.selectAll('.nodes .node-group');
   const linkLines = d3SvgSelection.selectAll('.links line');
+
+  if (chordId === 'none') {
+    // Modo Global: Todos os 26 nós vívidos e todas as arestas naturais ativas
+    nodeGroups.transition().duration(300)
+      .style('opacity', 1.0)
+      .style('filter', 'none');
+
+    nodeGroups.select('circle').transition().duration(300)
+      .attr('stroke-width', 2.0)
+      .attr('stroke', '#FFFFFF')
+      .style('filter', d => `drop-shadow(0 0 10px ${d.cor})`);
+
+    linkLines.transition().duration(300)
+      .attr('stroke', d => d.coerencia >= 0.75 ? '#06B6D4' : '#4B5563')
+      .attr('stroke-width', d => Math.max(1.5, d.peso * 0.9))
+      .attr('stroke-opacity', d => Math.max(0.25, d.coerencia));
+    return;
+  }
 
   const chordActiveNodes = {
     'unison': ['BTCBRL', 'ETHBRL', 'SOLBRL', 'SP500_Pts', 'IBOV_Pts'],
@@ -657,48 +678,65 @@ function updateD3GraphForChord(chordId) {
 
   const activeList = chordActiveNodes[chordId] || [];
 
-  // Transição de Nós: Ativos da Tríade = Vívidos e Iluminados | Outros Ativos = Opacos e Esmaecidos
+  // Transição de Nós: Ativos do Acorde = Iluminados | Outros Ativos = Fantasmas Esmaecidos
   nodeGroups.transition().duration(350)
-    .style('opacity', d => activeList.includes(d.id) ? 1.0 : 0.18)
-    .style('filter', d => activeList.includes(d.id) ? 'none' : 'grayscale(70%) brightness(0.6)');
+    .style('opacity', d => activeList.includes(d.id) ? 1.0 : 0.08)
+    .style('filter', d => activeList.includes(d.id) ? 'none' : 'grayscale(100%) brightness(0.4)');
 
   nodeGroups.select('circle').transition().duration(350)
-    .attr('stroke-width', d => activeList.includes(d.id) ? 3.5 : 1.2)
-    .attr('stroke', d => activeList.includes(d.id) ? '#FFFFFF' : 'rgba(255,255,255,0.3)')
-    .style('filter', d => activeList.includes(d.id) ? `drop-shadow(0 0 18px ${d.cor})` : `drop-shadow(0 0 2px ${d.cor})`);
+    .attr('stroke-width', d => activeList.includes(d.id) ? 3.5 : 1.0)
+    .attr('stroke', d => activeList.includes(d.id) ? '#FFFFFF' : 'rgba(255,255,255,0.2)')
+    .style('filter', d => activeList.includes(d.id) ? `drop-shadow(0 0 18px ${d.cor})` : 'none');
 
-  // Transição de Arestas: Arestas entre nós da tríade ganham destaque ouro neon
+  // Transição de Arestas: SOMENTE as conexões internas do acorde são mostradas.
+  // Conexões a nós externos são COMPLETAMENTE ocultadas (opacity: 0)
   linkLines.transition().duration(350)
     .attr('stroke', l => {
       const isInternal = activeList.includes(l.source.id) && activeList.includes(l.target.id);
-      if (isInternal) return '#F59E0B';
-      return l.coerencia >= 0.70 ? '#06B6D4' : '#374151';
+      return isInternal ? '#F59E0B' : '#374151';
     })
     .attr('stroke-width', l => {
       const isInternal = activeList.includes(l.source.id) && activeList.includes(l.target.id);
-      return isInternal ? 3.5 : 1.2;
+      return isInternal ? 3.5 : 0;
     })
     .attr('stroke-opacity', l => {
       const isInternal = activeList.includes(l.source.id) && activeList.includes(l.target.id);
-      return isInternal ? 1.0 : 0.06;
+      return isInternal ? 1.0 : 0.0;
     });
 }
 
+// ------------------------------------------------------------------------------
+// 9. RENDERIZAÇÃO DAS FATIAS CWT MORLET (CORREÇÃO DE CAMPOS E DB)
+// ------------------------------------------------------------------------------
 function renderCWTSlices(slices) {
   const container = document.getElementById('cwtBarsContainer');
-  if (!container || !slices || slices.length === 0) return;
+  if (!container) return;
 
-  container.innerHTML = slices.map(s => {
-    const isNeg = s.energy_db < 0;
-    const absVal = Math.min(100, Math.abs(s.energy_db) * 4);
+  const latest = (slices && slices.length > 0) ? slices[0] : {
+    escala_15m: 2.4,
+    escala_1h: 1.8,
+    escala_4h: 0.9,
+    escala_24h: -0.59
+  };
+
+  const scales = [
+    { name: "Escala 15 MIN", freq: "HF (Alta Frequência)", val: latest.escala_15m !== undefined ? latest.escala_15m : 2.4 },
+    { name: "Escala 1H", freq: "Intraday Curto", val: latest.escala_1h !== undefined ? latest.escala_1h : 1.8 },
+    { name: "Escala 4H", freq: "Intraday Médio", val: latest.escala_4h !== undefined ? latest.escala_4h : 0.9 },
+    { name: "Escala 24H", freq: "Ciclo Diário Dominante", val: latest.escala_24h !== undefined ? latest.escala_24h : -0.59 }
+  ];
+
+  container.innerHTML = scales.map(s => {
+    const isNeg = s.val < 0;
+    const absVal = Math.min(100, Math.abs(s.val) * 10);
     const color = isNeg ? '#06B6D4' : '#EF4444';
     return `
       <div class="cwt-bar-row">
-        <div class="cwt-bar-label"><span>${s.scale}</span> <small>${s.freq}</small></div>
+        <div class="cwt-bar-label"><span>${s.name}</span> <small>${s.freq}</small></div>
         <div class="cwt-bar-track">
           <div class="cwt-bar-fill" style="width: ${absVal}%; background: ${color};"></div>
         </div>
-        <div class="cwt-bar-val" style="color: ${color}">${s.energy_db > 0 ? '+' : ''}${s.energy_db} dB</div>
+        <div class="cwt-bar-val" style="color: ${color}">${s.val > 0 ? '+' : ''}${s.val.toFixed(2)} dB</div>
       </div>
     `;
   }).join('');

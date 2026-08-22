@@ -116,20 +116,12 @@
       </div>
 
       <!-- EXECUTION PROXIMITY THERMOMETER -->
-      <div class="section-divider thermo-section-header">
+      <div class="section-divider">
         <div class="divider-title">
           <span class="d-icon">🔥</span>
-          <h2>TERMÔMETRO DE PROXIMIDADE DE DISPARO (RANKING AO VIVO)</h2>
+          <h2>TERMÔMETRO DE PROXIMIDADE DE DISPARO (100% AO VIVO)</h2>
         </div>
-        <div class="thermo-tf-bar" id="thermoTfBar">
-          <span class="tf-label">HISTÓRICO:</span>
-          <button class="thermo-tf-btn" data-tf="1h">1H</button>
-          <button class="thermo-tf-btn" data-tf="5h">5H</button>
-          <button class="thermo-tf-btn active" data-tf="24h">24H</button>
-          <button class="thermo-tf-btn" data-tf="7d">7D</button>
-          <button class="thermo-tf-btn" data-tf="1m">1M</button>
-          <button class="thermo-tf-btn" data-tf="tudo">TUDO</button>
-        </div>
+        <span class="divider-desc">Ordenado em tempo real pela distância estatística de Z-Score • Clique em qualquer plano para abrir análise executiva e histórico (1H a 30D)</span>
       </div>
 
       <div class="thermometer-container" id="thermometerList">
@@ -153,61 +145,50 @@
         <!-- Injetado dinamicamente via tactical-hud.js -->
       </div>
 
-      <!-- BOTTOM AUDIT & BALANCE SECTION -->
+      <!-- PAINEL DE CUSTÓDIA & BLINDAGENS GLOBAIS -->
       <div class="tactical-bottom-grid">
-        <div class="hud-card asset-alloc-card">
+        <div class="tactical-subcard custody-alloc-card">
           <div class="card-header-clean">
-            <span class="ch-icon">📊</span>
-            <h3>ALOCAÇÃO DE CUSTÓDIA PATRIMONIAL</h3>
+            <h3>DISTRIBUIÇÃO PATRIMONIAL EM TEMPO REAL</h3>
+            <span class="badge-custody">CUSTÓDIA ATIVA</span>
           </div>
-          <div class="alloc-content">
-            <div class="alloc-bars">
-              <div class="alloc-bar-item">
-                <div class="abi-head"><span>🇧🇷 Caixa BRL (Líquido)</span> <span>67,3% (R$ 1.150,00)</span></div>
-                <div class="abi-track"><div class="abi-fill brl" style="width: 67.3%;"></div></div>
-              </div>
-              <div class="alloc-bar-item">
-                <div class="abi-head"><span>🪙 Bitcoin (0,001126 BTC)</span> <span>26,2% (R$ 448,19)</span></div>
-                <div class="abi-track"><div class="abi-fill btc" style="width: 26.2%;"></div></div>
-              </div>
-              <div class="alloc-bar-item">
-                <div class="abi-head"><span>🥇 PAX Gold (0,004563 PAXG)</span> <span>6,3% (R$ 108,04)</span></div>
-                <div class="abi-track"><div class="abi-fill paxg" style="width: 6.3%;"></div></div>
-              </div>
-              <div class="alloc-bar-item">
-                <div class="abi-head"><span>💵 Tether (0,676 USDT)</span> <span>0,2% (R$ 3,49)</span></div>
-                <div class="abi-track"><div class="abi-fill usdt" style="width: 0.2%;"></div></div>
-              </div>
+          <div class="alloc-bars">
+            <div class="alloc-bar-item">
+              <div class="abi-head"><span>Caixa Livre BRL</span> <b>R$ 1.150,00 (67,3%)</b></div>
+              <div class="abi-track"><div class="abi-fill brl" style="width: 67.3%;"></div></div>
+            </div>
+            <div class="alloc-bar-item">
+              <div class="abi-head"><span>Bitcoin Spot (0.00112671 BTC)</span> <b>R$ 448,19 (26,2%)</b></div>
+              <div class="abi-track"><div class="abi-fill btc" style="width: 26.2%;"></div></div>
+            </div>
+            <div class="alloc-bar-item">
+              <div class="abi-head"><span>Ouro PAXG (0.00344075 PAXG)</span> <b>R$ 81,48 (4,8%)</b></div>
+              <div class="abi-track"><div class="abi-fill paxg" style="width: 4.8%;"></div></div>
+            </div>
+            <div class="alloc-bar-item">
+              <div class="abi-head"><span>Tether USD (5.8206 USDT)</span> <b>R$ 30,05 (1,8%)</b></div>
+              <div class="abi-track"><div class="abi-fill usdt" style="width: 1.8%;"></div></div>
             </div>
           </div>
         </div>
 
-        <div class="hud-card safeguards-card">
+        <div class="tactical-subcard safeguards-card">
           <div class="card-header-clean">
-            <span class="ch-icon">🛡️</span>
-            <h3>BLINDAGENS & TRAVAS DE RUPTURA ATIVAS</h3>
+            <h3>PROTOCOLOS DE BLINDAGEM QUANT</h3>
+            <span class="badge-safe">4 SISTEMAS ATIVOS</span>
           </div>
           <div class="safeguards-list">
-            <div class="safe-item active">
-              <span class="safe-tag">RUPTURA 1</span>
-              <div class="safe-desc">
-                <b>Trava de Pânico Sistêmico (PC1 > 70%):</b>
-                <span>Bloqueia compras de Altcoins se a rede entrar em colapso; foca 100% em Ouro PAXG e Dólar.</span>
-              </div>
+            <div class="safe-item">
+              <span class="safe-tag">TRAVA PC1</span>
+              <div class="safe-desc"><b>Proteção Contra Pânico Sistêmico (PC1 > 70%)</b> Se a correlação global explodir, todas as ordens de altcoins são congeladas instantaneamente.</div>
             </div>
-            <div class="safe-item active">
-              <span class="safe-tag">RUPTURA 2</span>
-              <div class="safe-desc">
-                <b>Filtro Anti-Faca Caindo (Wavelet Ew < 50):</b>
-                <span>Proíbe comprar fundos antes da desaceleração da onda espectral e inflexão do fluxo STE.</span>
-              </div>
+            <div class="safe-item">
+              <span class="safe-tag">WAVELET MORLET</span>
+              <div class="safe-desc"><b>Filtro Anti-Faca Caindo (Ew < 50.0)</b> Proíbe recompras prematuras enquanto a energia de queda de alta frequência estiver em expansão.</div>
             </div>
-            <div class="safe-item active">
-              <span class="safe-tag">RUPTURA 3</span>
-              <div class="safe-desc">
-                <b>Weekend Shield (Sáb/Dom):</b>
-                <span>Desativa perseguição de rompimentos para anular os 83% de falsos rompimentos (whipsaws).</span>
-              </div>
+            <div class="safe-item">
+              <span class="safe-tag">COOLDOWN</span>
+              <div class="safe-desc"><b>Janela de Quarentena Obrigatória</b> Exige intervalo de 1.5h a 4h entre execuções consecutivas para anular reações a falso ruído.</div>
             </div>
           </div>
         </div>
@@ -232,25 +213,25 @@
             <label class="group-label">SINTONIZADOR DE ONDAS ESPECTRAIS (RADIO TUNER)</label>
             <div class="radio-tuner-widget">
               <div class="knob-container">
-                <svg class="dial-face-svg" viewBox="0 0 200 200">
+                <svg class="dial-face-svg" viewBox="0 0 220 220" width="220" height="220">
                   <!-- Arco Externo de Calibração -->
-                  <path d="M 42 158 A 82 82 0 1 1 158 158" fill="none" stroke="rgba(6, 182, 212, 0.25)" stroke-width="2" stroke-dasharray="4 3" />
+                  <path d="M 45 175 A 92 92 0 1 1 175 175" fill="none" stroke="rgba(6, 182, 212, 0.3)" stroke-width="2" stroke-dasharray="4 3" />
                   
                   <!-- Ticks Principais -->
-                  <line x1="57.6" y1="142.4" x2="49.0" y2="151.0" stroke="#06B6D4" stroke-width="2" />
-                  <line x1="40.7" y1="90.6" x2="31.8" y2="89.2" stroke="#06B6D4" stroke-width="2" />
-                  <line x1="72.8" y1="46.5" x2="68.2" y2="37.5" stroke="#06B6D4" stroke-width="2" />
-                  <line x1="127.2" y1="46.5" x2="131.8" y2="37.5" stroke="#06B6D4" stroke-width="2" />
-                  <line x1="159.3" y1="90.6" x2="168.2" y2="89.2" stroke="#06B6D4" stroke-width="2" />
-                  <line x1="142.4" y1="142.4" x2="151.0" y2="151.0" stroke="#06B6D4" stroke-width="2" />
+                  <line x1="63.3" y1="156.7" x2="56.3" y2="163.7" stroke="#06B6D4" stroke-width="2.5" />
+                  <line x1="44.8" y1="99.7" x2="34.9" y2="98.1" stroke="#06B6D4" stroke-width="2.5" />
+                  <line x1="80.0" y1="51.2" x2="75.5" y2="42.3" stroke="#06B6D4" stroke-width="2.5" />
+                  <line x1="140.0" y1="51.2" x2="144.5" y2="42.3" stroke="#06B6D4" stroke-width="2.5" />
+                  <line x1="175.2" y1="99.7" x2="185.1" y2="98.1" stroke="#06B6D4" stroke-width="2.5" />
+                  <line x1="156.7" y1="156.7" x2="163.7" y2="163.7" stroke="#06B6D4" stroke-width="2.5" />
 
-                  <!-- Rótulos em Coordenadas Trigonométricas Rigorosas -->
-                  <text class="svg-marker m-15m" data-marker="15m" x="38" y="165" text-anchor="middle" dominant-baseline="central">15M</text>
-                  <text class="svg-marker m-1h" data-marker="1h" x="18" y="88" text-anchor="middle" dominant-baseline="central">1H</text>
-                  <text class="svg-marker m-4h" data-marker="4h" x="62" y="24" text-anchor="middle" dominant-baseline="central">4H</text>
-                  <text class="svg-marker m-24h active" data-marker="24h" x="138" y="24" text-anchor="middle" dominant-baseline="central">24H</text>
-                  <text class="svg-marker m-7d" data-marker="7d" x="182" y="88" text-anchor="middle" dominant-baseline="central">7D</text>
-                  <text class="svg-marker m-45d" data-marker="45d" x="162" y="165" text-anchor="middle" dominant-baseline="central">45D</text>
+                  <!-- Rótulos Padronizados: MIN para Minutos, D para Dias -->
+                  <text class="svg-marker m-15m" data-marker="15m" x="42" y="180" text-anchor="middle" dominant-baseline="central">15 MIN</text>
+                  <text class="svg-marker m-1h" data-marker="1h" x="18" y="96" text-anchor="middle" dominant-baseline="central">1H</text>
+                  <text class="svg-marker m-4h" data-marker="4h" x="68" y="24" text-anchor="middle" dominant-baseline="central">4H</text>
+                  <text class="svg-marker m-24h active" data-marker="24h" x="152" y="24" text-anchor="middle" dominant-baseline="central">24H</text>
+                  <text class="svg-marker m-7d" data-marker="7d" x="202" y="96" text-anchor="middle" dominant-baseline="central">7D</text>
+                  <text class="svg-marker m-45d" data-marker="45d" x="178" y="180" text-anchor="middle" dominant-baseline="central">45D</text>
                 </svg>
 
                 <div class="rotary-dial" id="tunerDial" title="Gire o Knob com o mouse ou scroll para sintonizar a frequência">
@@ -262,7 +243,7 @@
               </div>
 
               <div class="tuner-readout-card">
-                <div class="tro-band" id="tunerBandName">ONDAS CURTAS // DIÁRIO (24h)</div>
+                <div class="tro-band" id="tunerBandName">ONDAS CURTAS // DIÁRIO (24H)</div>
                 <div class="tro-freq" id="tunerBandFreq">Banda Fundamental: 24 Horas</div>
                 <p class="tro-desc" id="tunerBandDesc">Harmônico fundamental de rotação de mercado. Cointegração forte entre TradFi e Criptoativos.</p>
               </div>
@@ -273,24 +254,29 @@
           <div class="deck-group chord-group">
             <label class="group-label">SELETOR DE ACORDES & MODOS HARMÔNICOS</label>
             <div class="chord-selector-grid">
-              <button class="chord-btn active" data-chord="unison">
+              <button class="chord-btn active" data-chord="none">
+                <span class="chord-tag">GLOBAL</span>
+                <span class="chord-name">🌐 Rede Completa (Sem Filtro)</span>
+                <span class="chord-sub">Todos os 26 ativos e conexões</span>
+              </button>
+              <button class="chord-btn" data-chord="unison">
                 <span class="chord-tag">MODO 1</span>
-                <span class="chord-name">Uníssono Sistêmico</span>
+                <span class="chord-name">Tríade Bitcoin (Uníssono)</span>
                 <span class="chord-sub">Ressonância Plena (PC1 > 60%)</span>
               </button>
               <button class="chord-btn" data-chord="tension">
                 <span class="chord-tag">MODO 2</span>
-                <span class="chord-name">Trítono de Tensão</span>
+                <span class="chord-name">Trítono de Tensão Macro</span>
                 <span class="chord-sub">Choque e Pânico VIX (F#3-C3)</span>
               </button>
               <button class="chord-btn" data-chord="major">
                 <span class="chord-tag">MODO 3</span>
-                <span class="chord-name">Tríade Maior Expansão</span>
+                <span class="chord-name">Tríade Alts (Expansão)</span>
                 <span class="chord-sub">Fluxo Causal Positivo (STE > 0)</span>
               </button>
               <button class="chord-btn" data-chord="ether">
                 <span class="chord-tag">MODO 4</span>
-                <span class="chord-name">Arpeggio Etéreo</span>
+                <span class="chord-name">Âncoras Peg (Arpeggio)</span>
                 <span class="chord-sub">Dispersão Calma e Renda Passiva</span>
               </button>
             </div>

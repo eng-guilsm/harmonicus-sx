@@ -972,19 +972,27 @@ input[type="range"]::-webkit-slider-thumb {
 
 .knob-container {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
+  min-width: 220px;
+  min-height: 220px;
+  max-width: 220px;
+  max-height: 220px;
+  aspect-ratio: 1 / 1;
+  flex-shrink: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 .dial-face-svg {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 220px;
+  height: 220px;
+  aspect-ratio: 1 / 1;
   pointer-events: none;
 }
 
@@ -995,6 +1003,7 @@ input[type="range"]::-webkit-slider-thumb {
   fill: #6B7280;
   cursor: pointer;
   pointer-events: auto;
+  user-select: none;
   transition: all 0.2s ease;
 }
 
@@ -1009,9 +1018,16 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .rotary-dial {
-  width: 110px;
-  height: 110px;
+  width: 116px;
+  height: 116px;
+  min-width: 116px;
+  min-height: 116px;
+  max-width: 116px;
+  max-height: 116px;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
+  box-sizing: border-box;
+  flex-shrink: 0;
   background: radial-gradient(circle at 35% 35%, #252e42, #0e1422 75%, #050811);
   border: 3px solid rgba(6, 182, 212, 0.4);
   box-shadow: 
