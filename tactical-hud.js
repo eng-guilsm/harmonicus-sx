@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 let activePlanFilter = 'all';
 let activeModalPlanId = null;
-let activeModalTimeframe = '24h';
+let activeModalTimeframe = '1h';
 let modalHoverIdx = -1;
 
 function initTacticalHUD() {
@@ -109,7 +109,7 @@ function renderLiveThermometer(plans, filter) {
   container.querySelectorAll('.thermo-card').forEach(card => {
     card.addEventListener('click', () => {
       const pId = parseInt(card.getAttribute('data-plan-id'), 10);
-      openPlanModal(pId, '24h');
+      openPlanModal(pId, '1h');
     });
   });
 }
@@ -152,7 +152,7 @@ window.openPlanModal = function(planId, initialTf) {
   if (!plan) return;
 
   activeModalPlanId = planId;
-  activeModalTimeframe = initialTf || '24h';
+  activeModalTimeframe = initialTf || '1h';
   modalHoverIdx = -1;
 
   const overlay = document.getElementById('planModalOverlay');
