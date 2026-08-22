@@ -1,4 +1,4 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-22 19:08:09)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-22 19:26:42)
 window.HARMONICUS_SX_DATA = {
   nodes: [
   {
@@ -479,7 +479,7 @@ window.HARMONICUS_SX_DATA = {
 ],
   cwt_slices: [
   {
-    "timestamp": "2026-08-22 18:30",
+    "timestamp": "2026-08-22 19:00",
     "escala_15m": 2.4,
     "escala_1h": 1.8,
     "escala_4h": 0.9,

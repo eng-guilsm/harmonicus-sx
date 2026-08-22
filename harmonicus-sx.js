@@ -546,7 +546,7 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
       Volatilidade Anual: <b>${d.vol}%</b><br>
       Peso Autovetor PC1: <b>${d.autovetor_pc1.toFixed(3)}</b><br>
       Afinação Sonora: <b>${d.nota} (${d.fundamental_hz} Hz)</b><br>
-      <i style="color:#06B6D4; font-size:10px;">Clique para tocar a nota • Arraste para mover</i>
+      <i style="color:#06B6D4; font-size:10px;">Clique para isolar sub-rede • Arraste para mover</i>
     `;
   })
   .on('mousemove', (event) => {
@@ -559,20 +559,45 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
     if (tooltip) tooltip.style.display = 'none';
   })
   .on('click', (event, d) => {
+    event.stopPropagation();
     window.harmonicusAudio.playNodeTone(d.fundamental_hz, d.nome);
     
-    // Pulso no nó clicado
-    const circle = d3.select(event.currentTarget).select('circle');
-    const origR = Math.max(22, 24 + d.autovetor_pc1 * 24);
-    circle
-      .transition().duration(120).attr('r', origR * 1.35)
-      .transition().duration(250).attr('r', origR);
+    // Identificar vizinhos conectados de 1º grau
+    const connectedNodeIds = new Set([d.id]);
+    edges.forEach(l => {
+      const sId = typeof l.source === 'object' ? l.source.id : l.source;
+      const tId = typeof l.target === 'object' ? l.target.id : l.target;
+      if (sId === d.id) connectedNodeIds.add(tId);
+      if (tId === d.id) connectedNodeIds.add(sId);
+    });
 
-    // Acender arestas conectadas
-    link.transition().duration(180)
-      .attr('stroke', l => (l.source.id === d.id || l.target.id === d.id) ? '#F59E0B' : '#374151')
-      .attr('stroke-width', l => (l.source.id === d.id || l.target.id === d.id) ? 3.5 : 1.2)
-      .attr('stroke-opacity', l => (l.source.id === d.id || l.target.id === d.id) ? 1.0 : 0.15);
+    // Nós conectados: 100% opacidade. Nós desconectados: quase invisíveis (0.03)
+    node.transition().duration(250)
+      .style('opacity', n => connectedNodeIds.has(n.id) ? 1.0 : 0.03)
+      .style('filter', n => connectedNodeIds.has(n.id) ? 'none' : 'grayscale(100%) brightness(0.15)');
+
+    // Arestas incidentes: iluminadas em ouro. Arestas desconectadas: completamente invisíveis (0.0)
+    link.transition().duration(250)
+      .attr('stroke', l => {
+        const sId = typeof l.source === 'object' ? l.source.id : l.source;
+        const tId = typeof l.target === 'object' ? l.target.id : l.target;
+        return (sId === d.id || tId === d.id) ? '#F59E0B' : '#374151';
+      })
+      .attr('stroke-width', l => {
+        const sId = typeof l.source === 'object' ? l.source.id : l.source;
+        const tId = typeof l.target === 'object' ? l.target.id : l.target;
+        return (sId === d.id || tId === d.id) ? 3.5 : 0;
+      })
+      .attr('stroke-opacity', l => {
+        const sId = typeof l.source === 'object' ? l.source.id : l.source;
+        const tId = typeof l.target === 'object' ? l.target.id : l.target;
+        return (sId === d.id || tId === d.id) ? 1.0 : 0.0;
+      });
+  });
+
+  // Clique no fundo do SVG restaura a visão do acorde ativo
+  svg.on('click', () => {
+    updateD3GraphForChord(activeHarmonicChord);
   });
 
   // Tick com contenção suave
@@ -698,17 +723,17 @@ function updateD3GraphForChord(chordId) {
 
   const activeList = chordActiveNodes[chordId] || [];
 
-  // Transição de Nós: Ativos do Acorde = Iluminados | Outros Ativos = Fantasmas Esmaecidos
+  // Transição de Nós: Ativos do Acorde = Iluminados | Outros Ativos = Quase Invisíveis (0.03)
   nodeGroups.transition().duration(350)
-    .style('opacity', d => activeList.includes(d.id) ? 1.0 : 0.08)
-    .style('filter', d => activeList.includes(d.id) ? 'none' : 'grayscale(100%) brightness(0.4)');
+    .style('opacity', d => activeList.includes(d.id) ? 1.0 : 0.03)
+    .style('filter', d => activeList.includes(d.id) ? 'none' : 'grayscale(100%) brightness(0.15)');
 
   nodeGroups.select('circle').transition().duration(350)
     .attr('stroke-width', d => activeList.includes(d.id) ? 3.5 : 1.0)
     .attr('stroke', d => activeList.includes(d.id) ? '#FFFFFF' : 'rgba(255,255,255,0.2)')
     .style('filter', d => activeList.includes(d.id) ? `drop-shadow(0 0 18px ${d.cor})` : 'none');
 
-  // Transição de Arestas: SOMENTE as conexões internas do acorde são mostradas
+  // Transição de Arestas: SOMENTE as conexões internas do acorde são mostradas (externas = 0.0)
   linkLines.transition().duration(350)
     .attr('stroke', l => {
       const isInternal = activeList.includes(l.source.id) && activeList.includes(l.target.id);

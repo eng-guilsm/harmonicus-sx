@@ -1,8 +1,8 @@
 /**
  * ==============================================================================
- * HARMONICUS SX // PÁGINA 1: PORTFOLIO TACTICAL HUD CONTROLLER (v3.9)
- * Termômetro 100% AO VIVO com Filtro de Risco, Séries Históricas Reais (1H a 30D),
- * Gráfico Interativo no Modal e 3 Pilares Executivos Oficiais
+ * HARMONICUS SX // PÁGINA 1: PORTFOLIO TACTICAL HUD CONTROLLER (v4.3)
+ * Termômetro 100% AO VIVO com Filtro de Risco, Séries Históricas Reais (1H a 365D),
+ * Tooltip Interativa com Crosshair no Canvas e 3 Pilares Executivos Oficiais
  * ==============================================================================
  */
 
@@ -79,7 +79,7 @@ function renderLiveThermometer(plans, filter) {
     const badgeText = isLow ? '🛡️ BAIXO RISCO' : '⚡ MÉDIO RISCO';
 
     return `
-      <div class="thermo-card" data-plan-id="${plan.id}" style="border-top: 3px solid ${plan.cor};" title="Clique para abrir análise executiva e gráfico histórico (1H a 30D)">
+      <div class="thermo-card" data-plan-id="${plan.id}" style="border-top: 3px solid ${plan.cor};" title="Clique para abrir análise executiva e gráfico histórico (1H a 365D)">
         <div class="thermo-header">
           <span class="thermo-rank">#${idx + 1} AO VIVO</span>
           <span class="plan-badge ${badgeClass}">${badgeText}</span>
@@ -100,7 +100,7 @@ function renderLiveThermometer(plans, filter) {
         </div>
         <div class="thermo-hint">
           <span>🔍</span>
-          <span>Clique para abrir gráfico (1H a 30D) e tese</span>
+          <span>Clique para abrir gráfico (1H a 365D) e tese</span>
         </div>
       </div>
     `;
@@ -128,7 +128,7 @@ function initFilterButtons(plans) {
 }
 
 // ------------------------------------------------------------------------------
-// 2. MODAL DE ANÁLISE EXECUTIVA & GRÁFICO HISTÓRICO DE PROXIMIDADE (1H A 30D)
+// 2. MODAL DE ANÁLISE EXECUTIVA & GRÁFICO HISTÓRICO DE PROXIMIDADE (1H A 365D)
 // ------------------------------------------------------------------------------
 function initModalEvents() {
   const overlay = document.getElementById('planModalOverlay');
@@ -184,20 +184,21 @@ function renderModalLayout(plan, tf) {
     <!-- SELETOR DE ESCALA HISTÓRICA DO GRÁFICO (1H A 365D) -->
     <div class="modal-tf-selector">
       <span class="tf-label">HISTÓRICO REAL:</span>
-      <button class="modal-tf-btn ${tf === '1h' ? 'active' : ''}" data-tf="1h">1H (60 MIN)</button>
-      <button class="modal-tf-btn ${tf === '24h' ? 'active' : ''}" data-tf="24h">24H (DIÁRIO)</button>
-      <button class="modal-tf-btn ${tf === '7d' ? 'active' : ''}" data-tf="7d">7D (SEMANAL)</button>
-      <button class="modal-tf-btn ${tf === '30d' ? 'active' : ''}" data-tf="30d">30D (MENSAL)</button>
-      <button class="modal-tf-btn ${tf === '365d' ? 'active' : ''}" data-tf="365d">365D (1 ANO)</button>
+      <button class="modal-tf-btn ${tf === '1h' ? 'active' : ''}" data-tf="1h">1H</button>
+      <button class="modal-tf-btn ${tf === '24h' ? 'active' : ''}" data-tf="24h">24H</button>
+      <button class="modal-tf-btn ${tf === '7d' ? 'active' : ''}" data-tf="7d">7D</button>
+      <button class="modal-tf-btn ${tf === '30d' ? 'active' : ''}" data-tf="30d">30D</button>
+      <button class="modal-tf-btn ${tf === '365d' ? 'active' : ''}" data-tf="365d">365D</button>
     </div>
 
-    <!-- GRÁFICO HISTÓRICO REAL DE PROXIMIDADE À META -->
-    <div class="modal-chart-wrapper" style="background: rgba(5, 8, 17, 0.95); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 12px; margin-bottom: 16px;">
+    <!-- GRÁFICO HISTÓRICO REAL DE PROXIMIDADE À META COM TOOLTIP -->
+    <div class="modal-chart-wrapper" id="planChartWrapper" style="position: relative; background: rgba(5, 8, 17, 0.95); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 12px; margin-bottom: 16px;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted);">
         <span>EVOLUÇÃO HISTÓRICA DA PROXIMIDADE AO DISPARO (0% A 100%)</span>
-        <span style="color: ${plan.cor}; font-weight: 700;">PROXIMIDADE AO VIVO: ${plan.proximidade_score}%</span>
+        <span style="color: ${plan.cor}; font-weight: 700;">AO VIVO: ${plan.proximidade_score}%</span>
       </div>
-      <canvas id="planHistoryCanvas" width="620" height="150" style="width: 100%; height: 150px; display: block;"></canvas>
+      <canvas id="planHistoryCanvas" width="620" height="150" style="width: 100%; height: 150px; display: block; cursor: crosshair;"></canvas>
+      <div id="planCanvasTooltip" class="plan-canvas-tooltip" style="display: none; position: absolute; pointer-events: none; z-index: 50; background: rgba(10, 15, 29, 0.95); border: 1px solid ${plan.cor}; border-radius: 6px; padding: 6px 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); font-family: var(--font-mono); font-size: 0.72rem;"></div>
     </div>
 
     <!-- OS 3 PILARES EXECUTIVOS OFICIAIS -->
@@ -228,14 +229,15 @@ function renderModalLayout(plan, tf) {
     });
   });
 
-  // Renderizar o gráfico Canvas histórico de proximidade real
+  // Renderizar o gráfico Canvas histórico e ativar tooltips
   setTimeout(() => {
     drawPlanHistoryChart(plan, tf);
+    initPlanCanvasInteractions(plan, tf);
   }, 30);
 }
 
 // ------------------------------------------------------------------------------
-// 3. DESENHO DO CANVAS HISTÓRICO REAL DE PROXIMIDADE
+// 3. DESENHO DO CANVAS HISTÓRICO REAL DE PROXIMIDADE COM CROSSHAIR
 // ------------------------------------------------------------------------------
 function drawPlanHistoryChart(plan, tf) {
   const canvas = document.getElementById('planHistoryCanvas');
@@ -254,7 +256,6 @@ function drawPlanHistoryChart(plan, tf) {
 
   ctx.clearRect(0, 0, w, h);
 
-  // Obter a série real exportada do SQLite
   const series = (plan.series_historica && plan.series_historica[tf]) || [];
   if (series.length === 0) return;
 
@@ -325,17 +326,6 @@ function drawPlanHistoryChart(plan, tf) {
   ctx.stroke();
   ctx.shadowBlur = 0;
 
-  // Ponto ao vivo no final
-  const lastX = getX(series.length - 1);
-  const lastY = getY(series[series.length - 1].score);
-  ctx.beginPath();
-  ctx.arc(lastX, lastY, 4.5, 0, Math.PI * 2);
-  ctx.fillStyle = '#FFFFFF';
-  ctx.fill();
-  ctx.strokeStyle = plan.cor;
-  ctx.lineWidth = 2;
-  ctx.stroke();
-
   // Rótulos de tempo no eixo X
   ctx.fillStyle = '#6B7280';
   ctx.font = '9px JetBrains Mono';
@@ -345,4 +335,109 @@ function drawPlanHistoryChart(plan, tf) {
   for (let i = 0; i < series.length; i += step) {
     ctx.fillText(series[i].label, getX(i), h - 8);
   }
+
+  // Crosshair e Ponto de Inspeção em Hover
+  if (modalHoverIdx >= 0 && modalHoverIdx < series.length) {
+    const hX = getX(modalHoverIdx);
+    const hY = getY(series[modalHoverIdx].score);
+
+    // Linha vertical pontilhada
+    ctx.save();
+    ctx.setLineDash([3, 3]);
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.4)';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(hX, padTop);
+    ctx.lineTo(hX, h - padBottom);
+    ctx.stroke();
+    ctx.restore();
+
+    // Ponto destacado
+    ctx.beginPath();
+    ctx.arc(hX, hY, 5.5, 0, Math.PI * 2);
+    ctx.fillStyle = '#FFFFFF';
+    ctx.fill();
+    ctx.strokeStyle = plan.cor;
+    ctx.lineWidth = 2.5;
+    ctx.stroke();
+  } else {
+    // Ponto ao vivo no final por padrão
+    const lastX = getX(series.length - 1);
+    const lastY = getY(series[series.length - 1].score);
+    ctx.beginPath();
+    ctx.arc(lastX, lastY, 4.5, 0, Math.PI * 2);
+    ctx.fillStyle = '#FFFFFF';
+    ctx.fill();
+    ctx.strokeStyle = plan.cor;
+    ctx.lineWidth = 2;
+    ctx.stroke();
+  }
+}
+
+function initPlanCanvasInteractions(plan, tf) {
+  const canvas = document.getElementById('planHistoryCanvas');
+  const tooltip = document.getElementById('planCanvasTooltip');
+  if (!canvas || !tooltip) return;
+
+  const series = (plan.series_historica && plan.series_historica[tf]) || [];
+  if (series.length === 0) return;
+
+  const padLeft = 40;
+  const padRight = 20;
+
+  const handlePointer = (clientX, clientY) => {
+    const rect = canvas.getBoundingClientRect();
+    const x = clientX - rect.left;
+    const plotW = rect.width - padLeft - padRight;
+    const relX = x - padLeft;
+
+    if (relX < 0 || relX > plotW) {
+      modalHoverIdx = -1;
+      tooltip.style.display = 'none';
+      drawPlanHistoryChart(plan, tf);
+      return;
+    }
+
+    const pct = relX / plotW;
+    const idx = Math.min(series.length - 1, Math.max(0, Math.round(pct * (series.length - 1))));
+    modalHoverIdx = idx;
+
+    const pt = series[idx];
+    const isTrigger = pt.score >= 100;
+    const statusText = isTrigger ? '🔥 GATILHO ATINGIDO (DISPARO)' : (pt.score >= 75 ? '⚡ ZONA DE DISPARO IMINENTE' : '⏳ MONITORANDO RADAR');
+    const statusColor = isTrigger ? '#10B981' : (pt.score >= 75 ? '#F59E0B' : '#9CA3AF');
+
+    tooltip.style.display = 'block';
+    tooltip.innerHTML = `
+      <div style="color: #9CA3AF; font-size: 0.65rem; margin-bottom: 2px;">⏱️ ${pt.label}</div>
+      <div style="color: #FFFFFF; font-weight: 700; font-size: 0.8rem; margin-bottom: 2px;">PROXIMIDADE: <span style="color: ${plan.cor};">${pt.score}%</span></div>
+      ${pt.metric ? `<div style="color: #06B6D4; font-size: 0.68rem; margin-bottom: 2px;">📊 ${pt.metric}</div>` : ''}
+      <div style="color: ${statusColor}; font-size: 0.65rem; font-weight: 700;">${statusText}</div>
+    `;
+
+    const tipW = 200;
+    let tipLeft = x + 15;
+    if (tipLeft + tipW > rect.width) tipLeft = x - tipW - 15;
+    tooltip.style.left = `${Math.max(10, tipLeft)}px`;
+    tooltip.style.top = `25px`;
+
+    drawPlanHistoryChart(plan, tf);
+  };
+
+  canvas.addEventListener('mousemove', (e) => handlePointer(e.clientX, e.clientY));
+  canvas.addEventListener('mouseleave', () => {
+    modalHoverIdx = -1;
+    tooltip.style.display = 'none';
+    drawPlanHistoryChart(plan, tf);
+  });
+  canvas.addEventListener('touchmove', (e) => {
+    if (e.touches && e.touches[0]) {
+      handlePointer(e.touches[0].clientX, e.touches[0].clientY);
+    }
+  }, { passive: true });
+  canvas.addEventListener('touchend', () => {
+    modalHoverIdx = -1;
+    tooltip.style.display = 'none';
+    drawPlanHistoryChart(plan, tf);
+  });
 }
