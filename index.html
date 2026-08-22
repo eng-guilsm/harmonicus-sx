@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Harmonicus SX // Portfolio Tactical HUD & Spectral Synth</title>
+  <meta name="description" content="Terminal Quant & Sintetizador Espectral de Mercados Financeiros. Monitoramento Tático dos 8 Planos e Topologia Espectral Web Audio API.">
+  
+  <!-- Google Fonts & D3.js -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Orbitron:wght@500;700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css?v=20260822_sx1">
+</head>
+<body class="dark-synth">
+  <!-- Scanlines & Ambient Matrix Grid -->
+  <div class="hud-grid-overlay"></div>
+  <div class="hud-vignette"></div>
+
+  <div class="app-container">
+    <!-- TOP GLOBAL HEADER -->
+    <header class="hud-header">
+      <div class="brand-section">
+        <div class="pulse-indicator online"></div>
+        <div class="brand-titles">
+          <h1 class="hud-logo">HARMONICUS <span class="badge-tag">SX // QUANT HUD</span></h1>
+          <p class="hud-subtitle">Terminal Tático dos 8 Motores & Sintetizador Espectral (26 Sensores Globais)</p>
+        </div>
+      </div>
+
+      <!-- NAVIGATION TABS -->
+      <nav class="hud-nav-tabs">
+        <button id="tabBtnTactical" class="nav-tab active" data-page="pageTactical">
+          <span class="tab-icon">🎯</span>
+          <span class="tab-title">PÁGINA 1: RADAR TÁTICO DOS PLANOS</span>
+        </button>
+        <button id="tabBtnHarmonicus" class="nav-tab" data-page="pageHarmonicus">
+          <span class="tab-icon">📻</span>
+          <span class="tab-title">PÁGINA 2: SINTETIZADOR HARMONICUS SX</span>
+        </button>
+      </nav>
+
+      <!-- AUDIO & STATUS CONTROLS -->
+      <div class="header-controls">
+        <div class="audio-master-box">
+          <button id="audioToggleBtn" class="hud-btn hud-btn-synth" title="Ativar Motor de Síntese Espectral">
+            <span class="audio-icon" id="audioIcon">🔇</span>
+            <span class="btn-text" id="audioText">ÁUDIO MUTADO</span>
+          </button>
+          <div class="volume-slider-box">
+            <span class="vol-label">VOL</span>
+            <input type="range" id="masterVolume" min="0" max="1" step="0.01" value="0.5" title="Volume Geral">
+          </div>
+        </div>
+
+        <div class="system-status-chip">
+          <span class="chip-label">BASE:</span>
+          <span class="chip-val" id="dbStatusVal">1,4 ANOS (738k MINUTOS)</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ========================================================================= -->
+    <!-- PÁGINA 1: RADAR TÁTICO DA CARTEIRA (PROXIMIDADE DOS 8 PLANOS)             -->
+    <!-- ========================================================================= -->
+    <section id="pageTactical" class="hud-page active">
+      <!-- HERO PATRIMONIAL COCKPIT -->
+      <div class="cockpit-hero-grid">
+        <div class="hero-card patrimony-card">
+          <span class="card-eyebrow">PATRIMÔNIO EM CUSTÓDIA BINANCE</span>
+          <div class="hero-val-row">
+            <span class="hero-currency">R$</span>
+            <span class="hero-number" id="patrimonioTotal">1.709,72</span>
+            <span class="hero-tag positive">RECUPERAÇÃO 98,8%</span>
+          </div>
+          <div class="hero-subtext">Total Aportado: R$ 1.731,00 | Prejuízo residual reduzido para apenas <b>R$ 21,28</b>.</div>
+        </div>
+
+        <div class="hero-card cash-card">
+          <span class="card-eyebrow">CAIXA LÍQUIDO ESTRATÉGICO (BRL)</span>
+          <div class="hero-val-row">
+            <span class="hero-currency">R$</span>
+            <span class="hero-number" id="caixaLivre">1.150,00</span>
+            <span class="hero-tag neutral">67,3% DO CAPITAL</span>
+          </div>
+          <div class="hero-subtext">Munição líquida em conta Spot com latência zero para compras instantâneas.</div>
+        </div>
+
+        <div class="hero-card market-anchor-card">
+          <span class="card-eyebrow">ÂNCORAS DA REDE AO VIVO</span>
+          <div class="ticker-mini-grid">
+            <div class="ticker-item"><span class="t-sym">BTC:</span> <span class="t-val" id="tickBTC">R$ 398.820</span></div>
+            <div class="ticker-item"><span class="t-sym">PAXG:</span> <span class="t-val" id="tickPAXG">R$ 23.681</span></div>
+            <div class="ticker-item"><span class="t-sym">USDT:</span> <span class="t-val" id="tickUSDT">R$ 5,162</span></div>
+            <div class="ticker-item"><span class="t-sym">VIX:</span> <span class="t-val" id="tickVIX">16,09 pts</span></div>
+          </div>
+        </div>
+
+        <div class="hero-card gatekeeper-card">
+          <span class="card-eyebrow">ESTADO DO GATEKEEPER LABPOLICE</span>
+          <div class="gatekeeper-status-box">
+            <div class="status-badge-glow" id="gatekeeperBadge">🟢 VIGILÂNCIA ATIVA</div>
+            <span class="gate-detail" id="gatekeeperDetail">Fator de Lote: <b>100% (Integral)</b> | Sem tempestades</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- EXECUTION PROXIMITY THERMOMETER -->
+      <div class="section-divider">
+        <div class="divider-title">
+          <span class="d-icon">🔥</span>
+          <h2>TERMÔMETRO DE PROXIMIDADE DE DISPARO (RANKING AO VIVO)</h2>
+        </div>
+        <span class="divider-desc">Ordenado pela distância estatística de Z-Score e variação necessária para execução</span>
+      </div>
+
+      <div class="thermometer-container" id="thermometerList">
+        <!-- Injetado via tactical-hud.js -->
+      </div>
+
+      <!-- GRID DOS 8 PLANOS OFICIAIS -->
+      <div class="section-divider">
+        <div class="divider-title">
+          <span class="d-icon">🏛️</span>
+          <h2>A MATRIZ DOS 8 MOTORES QUÂNTICOS DO MONEYLAB</h2>
+        </div>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">TODOS (8)</button>
+          <button class="filter-btn" data-filter="baixo_risco">🛡️ BAIXO RISCO (5)</button>
+          <button class="filter-btn" data-filter="medio_risco">⚡ MÉDIO RISCO (3)</button>
+        </div>
+      </div>
+
+      <div class="plans-tactical-grid" id="plansGrid">
+        <!-- Injetado dinamicamente via tactical-hud.js -->
+      </div>
+
+      <!-- BOTTOM AUDIT & BALANCE SECTION -->
+      <div class="tactical-bottom-grid">
+        <!-- Asset Allocation Breakdown -->
+        <div class="hud-card asset-alloc-card">
+          <div class="card-header-clean">
+            <span class="ch-icon">📊</span>
+            <h3>ALOCAÇÃO DE CUSTÓDIA PATRIMONIAL</h3>
+          </div>
+          <div class="alloc-content">
+            <div class="alloc-bars">
+              <div class="alloc-bar-item">
+                <div class="abi-head"><span>🇧🇷 Caixa BRL (Líquido)</span> <span>67,3% (R$ 1.150,00)</span></div>
+                <div class="abi-track"><div class="abi-fill brl" style="width: 67.3%;"></div></div>
+              </div>
+              <div class="alloc-bar-item">
+                <div class="abi-head"><span>🪙 Bitcoin (0,001126 BTC)</span> <span>26,2% (R$ 448,19)</span></div>
+                <div class="abi-track"><div class="abi-fill btc" style="width: 26.2%;"></div></div>
+              </div>
+              <div class="alloc-bar-item">
+                <div class="abi-head"><span>🥇 PAX Gold (0,004563 PAXG)</span> <span>6,3% (R$ 108,04)</span></div>
+                <div class="abi-track"><div class="abi-fill paxg" style="width: 6.3%;"></div></div>
+              </div>
+              <div class="alloc-bar-item">
+                <div class="abi-head"><span>💵 Tether (0,676 USDT)</span> <span>0,2% (R$ 3,49)</span></div>
+                <div class="abi-track"><div class="abi-fill usdt" style="width: 0.2%;"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Circuit Breakers & Safety Safeguards -->
+        <div class="hud-card safeguards-card">
+          <div class="card-header-clean">
+            <span class="ch-icon">🛡️</span>
+            <h3>BLINDAGENS & TRAVAS DE RUPTURA ATIVAS</h3>
+          </div>
+          <div class="safeguards-list">
+            <div class="safe-item active">
+              <span class="safe-tag">RUPTURA 1</span>
+              <div class="safe-desc">
+                <b>Trava de Pânico Sistêmico (PC1 > 70%):</b>
+                <span>Bloqueia compras de Altcoins se a rede entrar em colapso; foca 100% em Ouro PAXG e Dólar.</span>
+              </div>
+            </div>
+            <div class="safe-item active">
+              <span class="safe-tag">RUPTURA 2</span>
+              <div class="safe-desc">
+                <b>Filtro Anti-Faca Caindo (Wavelet Ew < 50):</b>
+                <span>Proíbe comprar fundos antes da desaceleração da onda espectral e inflexão do fluxo STE.</span>
+              </div>
+            </div>
+            <div class="safe-item active">
+              <span class="safe-tag">RUPTURA 3</span>
+              <div class="safe-desc">
+                <b>Weekend Shield (Sáb/Dom):</b>
+                <span>Desativa perseguição de rompimentos para anular os 83% de falsos rompimentos (whipsaws).</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- PÁGINA 2: SINTETIZADOR HARMONICUS SX (TOPOLOGIA, SOM & ESPECTRO)          -->
+    <!-- ========================================================================= -->
+    <section id="pageHarmonicus" class="hud-page">
+      <div class="synth-workspace-layout">
+        
+        <!-- LEFT CONTROL DECK: RADIO TUNER & CHORDS -->
+        <aside class="hud-deck synth-control-deck">
+          <div class="deck-header">
+            <span class="deck-icon">📻</span>
+            <h2>SINTETIZADOR ANALÓGICO HARMONICUS SX</h2>
+          </div>
+
+          <!-- ANALOG RADIO TUNER KNOB -->
+          <div class="deck-group tuner-group">
+            <label class="group-label">SINTONIZADOR DE ONDAS ESPECTRAIS (RADIO TUNER)</label>
+            <div class="radio-tuner-widget">
+              <!-- Rotary Dial Knob -->
+              <div class="knob-container">
+                <div class="rotary-dial" id="tunerDial" title="Gire o Knob com o mouse ou scroll para sintonizar a frequência">
+                  <div class="dial-indicator"></div>
+                  <div class="dial-cap">
+                    <span class="dial-center-label">TUNER</span>
+                  </div>
+                </div>
+                <div class="dial-scale-markers">
+                  <span class="marker m-15m" data-band="ultra_high">15M</span>
+                  <span class="marker m-1h" data-band="ultra_high">1H</span>
+                  <span class="marker m-4h" data-band="intraday">4H</span>
+                  <span class="marker m-24h active" data-band="daily">24H</span>
+                  <span class="marker m-7d" data-band="macro">7D</span>
+                  <span class="marker m-45d" data-band="macro">45D</span>
+                </div>
+              </div>
+
+              <!-- Selected Band Readout -->
+              <div class="tuner-readout-card">
+                <div class="tro-band" id="tunerBandName">ONDAS CURTAS // DIÁRIO (24h)</div>
+                <div class="tro-freq" id="tunerBandFreq">Banda Fundamental: 24 Horas</div>
+                <p class="tro-desc" id="tunerBandDesc">Harmônico fundamental de rotação de mercado. Cointegração forte entre TradFi e Criptoativos.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- HARMONIC CHORD SELECTOR -->
+          <div class="deck-group chord-group">
+            <label class="group-label">SELETOR DE ACORDES & MODOS HARMÔNICOS</label>
+            <div class="chord-selector-grid">
+              <button class="chord-btn active" data-chord="unison">
+                <span class="chord-tag">MODO 1</span>
+                <span class="chord-name">Uníssono Sistêmico</span>
+                <span class="chord-sub">Ressonância Plena (PC1 > 60%)</span>
+              </button>
+              <button class="chord-btn" data-chord="tension">
+                <span class="chord-tag">MODO 2</span>
+                <span class="chord-name">Trítono de Tensão</span>
+                <span class="chord-sub">Choque e Pânico VIX (F#3-C3)</span>
+              </button>
+              <button class="chord-btn" data-chord="major">
+                <span class="chord-tag">MODO 3</span>
+                <span class="chord-name">Tríade Maior Expansão</span>
+                <span class="chord-sub">Fluxo Causal Positivo (STE > 0)</span>
+              </button>
+              <button class="chord-btn" data-chord="ether">
+                <span class="chord-tag">MODO 4</span>
+                <span class="chord-name">Arpeggio Etéreo</span>
+                <span class="chord-sub">Dispersão Calma e Renda Passiva</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- PHYSICAL MODELING KNOBS -->
+          <div class="deck-group knobs-row-group">
+            <label class="group-label">PARÂMETROS DE FÍSICA ESTATÍSTICA</label>
+            <div class="knobs-row">
+              <!-- Knob 1: Langevin Damping -->
+              <div class="mini-knob-box">
+                <div class="mini-dial" id="knobDamping" data-val="0.5" title="Atrito de Langevin (γ)">
+                  <div class="mini-indicator"></div>
+                </div>
+                <span class="mk-label">LANGEVIN (γ)</span>
+                <span class="mk-val" id="valDamping">0.50</span>
+              </div>
+
+              <!-- Knob 2: Fourier Tension -->
+              <div class="mini-knob-box">
+                <div class="mini-dial" id="knobFourier" data-val="0.75" title="Tensão de Fourier Tr(C²)">
+                  <div class="mini-indicator"></div>
+                </div>
+                <span class="mk-label">FOURIER (EF)</span>
+                <span class="mk-val" id="valFourier">20.98</span>
+              </div>
+
+              <!-- Knob 3: Wavelet Morlet -->
+              <div class="mini-knob-box">
+                <div class="mini-dial" id="knobMorlet" data-val="0.3" title="Energia de Choque Morlet (Ew)">
+                  <div class="mini-indicator"></div>
+                </div>
+                <span class="mk-label">MORLET (Ew)</span>
+                <span class="mk-val" id="valMorlet">-0.59</span>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <!-- CENTER & RIGHT AREA: NETWORK GRAPH & OSCILLOSCOPE -->
+        <div class="synth-main-stage">
+          <!-- TOP MONITOR: REAL-TIME CRT OSCILLOSCOPE -->
+          <div class="hud-card oscilloscope-card">
+            <div class="card-header-clean">
+              <div class="osc-title-box">
+                <span class="ch-icon">📈</span>
+                <h3>OSCILOSCÓPIO DE SINAL EM TEMPO REAL (60 FPS)</h3>
+              </div>
+              <div class="osc-metrics">
+                <span class="om-item">PC1: <b id="oscPC1">62.8%</b></span>
+                <span class="om-item">ENTROPIA S: <b id="oscS">1.2425</b></span>
+                <span class="om-item">STE FLOW: <b id="oscSTE">+0.0213</b></span>
+              </div>
+            </div>
+            <div class="osc-canvas-wrapper">
+              <canvas id="oscCanvas" width="900" height="180"></canvas>
+            </div>
+          </div>
+
+          <!-- TOPOLOGY NETWORK GRAPH (D3.JS) -->
+          <div class="hud-card network-graph-card">
+            <div class="card-header-clean">
+              <div class="graph-title-box">
+                <span class="ch-icon">🌐</span>
+                <h3>GRAFO TOPOLÓGICO DOS 26 ATIVOS (MST DE MANTEGNA & COERÊNCIA)</h3>
+              </div>
+              <div class="graph-legend">
+                <span class="leg-item"><i style="background: #F59E0B;"></i> Cripto (10)</span>
+                <span class="leg-item"><i style="background: #3B82F6;"></i> TradFi (9)</span>
+                <span class="leg-item"><i style="background: #10B981;"></i> Câmbio FX</span>
+                <span class="leg-item"><i style="background: #EF4444;"></i> Macro (7)</span>
+              </div>
+            </div>
+            <div class="network-stage-container" id="networkGraphStage">
+              <!-- SVG D3 Renderizado via harmonicus-sx.js -->
+              <div class="node-hover-tooltip" id="nodeTooltip"></div>
+            </div>
+          </div>
+
+          <!-- CWT MORLET & STE DYNAMICS DECK -->
+          <div class="synth-footer-grid">
+            <div class="hud-card cwt-card">
+              <div class="card-header-clean">
+                <span class="ch-icon">🌊</span>
+                <h3>DENSIDADE DE CHOQUE (CWT MORLET CONTÍNUA)</h3>
+              </div>
+              <div class="cwt-bars-visual" id="cwtBarsContainer">
+                <!-- Slices injetados via JS -->
+              </div>
+            </div>
+
+            <div class="hud-card ste-card">
+              <div class="card-header-clean">
+                <span class="ch-icon">⚡</span>
+                <h3>PROPAGAÇÃO CAUSAL DE INFORMAÇÃO (STE)</h3>
+              </div>
+              <div class="ste-visual-box">
+                <div class="ste-arrow-flow">
+                  <div class="ste-node btc">BTC (Líder)</div>
+                  <div class="ste-stream">
+                    <span class="stream-line"></span>
+                    <span class="stream-val">+0.0213 bit/tick</span>
+                  </div>
+                  <div class="ste-node alt">ALTCOINS (Seguidoras)</div>
+                </div>
+                <p class="ste-desc">O fluxo de informação causal está <b>positivo e alinhado</b>. As altcoins confirmam o sinal do Bitcoin sem divergências destrutivas.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="data/planos_data.js"></script>
+  <script src="data/harmonicus_sx_data.js"></script>
+  <script src="audio-engine.js"></script>
+  <script src="tactical-hud.js"></script>
+  <script src="harmonicus-sx.js"></script>
+</body>
+</html>
