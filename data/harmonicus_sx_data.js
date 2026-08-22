@@ -1,4 +1,4 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-22 18:37:04)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-22 18:48:13)
 window.HARMONICUS_SX_DATA = {
   nodes: [
   {
@@ -278,27 +278,6 @@ window.HARMONICUS_SX_DATA = {
     "tipo": "RESONANCIA_FORTE"
   },
   {
-    "source": "BTCBRL",
-    "target": "BNBBRL",
-    "coerencia": 0.698,
-    "peso": 3.5,
-    "tipo": "ACOPLAMENTO_DIRETO"
-  },
-  {
-    "source": "BTCBRL",
-    "target": "LINKBRL",
-    "coerencia": 0.598,
-    "peso": 3.0,
-    "tipo": "DEFASAGEM_FASE"
-  },
-  {
-    "source": "BTCBRL",
-    "target": "ADABRL",
-    "coerencia": 0.701,
-    "peso": 3.8,
-    "tipo": "REVERSAO_ELASTICA"
-  },
-  {
     "source": "ETHBRL",
     "target": "SOLBRL",
     "coerencia": 0.788,
@@ -307,10 +286,87 @@ window.HARMONICUS_SX_DATA = {
   },
   {
     "source": "BTCBRL",
-    "target": "PAXG_Ouro",
-    "coerencia": 0.35,
-    "peso": 2.0,
-    "tipo": "PAIRS_TRADING_GUIANA"
+    "target": "SP500_Pts",
+    "coerencia": 0.68,
+    "peso": 3.5,
+    "tipo": "RISCO_SISTEMICO_GLOBAL"
+  },
+  {
+    "source": "SP500_Pts",
+    "target": "IBOV_Pts",
+    "coerencia": 0.74,
+    "peso": 3.8,
+    "tipo": "COINTEGRACAO_EQUITY"
+  },
+  {
+    "source": "BTCBRL",
+    "target": "IBOV_Pts",
+    "coerencia": 0.61,
+    "peso": 3.0,
+    "tipo": "BETA_LOCAL"
+  },
+  {
+    "source": "VIX_Index",
+    "target": "BTCBRL",
+    "coerencia": 0.65,
+    "peso": 3.6,
+    "tipo": "LEAD_LAG_CHOQUE"
+  },
+  {
+    "source": "VIX_Index",
+    "target": "Treasury_10Y",
+    "coerencia": 0.82,
+    "peso": 4.4,
+    "tipo": "FLIGHT_TO_SAFETY"
+  },
+  {
+    "source": "VIX_Index",
+    "target": "DXY_Index",
+    "coerencia": 0.78,
+    "peso": 4.1,
+    "tipo": "DEMANDA_LIQUIDEZ_USD"
+  },
+  {
+    "source": "Treasury_10Y",
+    "target": "DXY_Index",
+    "coerencia": 0.71,
+    "peso": 3.7,
+    "tipo": "PARIDADE_JUROS_EUA"
+  },
+  {
+    "source": "BTCBRL",
+    "target": "LINKBRL",
+    "coerencia": 0.69,
+    "peso": 3.5,
+    "tipo": "DEFASAGEM_FASE"
+  },
+  {
+    "source": "BTCBRL",
+    "target": "BNBBRL",
+    "coerencia": 0.698,
+    "peso": 3.5,
+    "tipo": "ACOPLAMENTO_DIRETO"
+  },
+  {
+    "source": "ETHBRL",
+    "target": "LINKBRL",
+    "coerencia": 0.84,
+    "peso": 4.5,
+    "tipo": "ORACULOS_SMART_CONTRACTS"
+  },
+  {
+    "source": "BNBBRL",
+    "target": "SOLBRL",
+    "coerencia": 0.73,
+    "peso": 3.8,
+    "tipo": "ROTACAO_ALTS_HIGH_SPEED"
+  },
+  {
+    "source": "LINKBRL",
+    "target": "SOLBRL",
+    "coerencia": 0.7,
+    "peso": 3.6,
+    "tipo": "DATA_FEEDS_DEFI"
   },
   {
     "source": "USDTBRL",
@@ -320,11 +376,46 @@ window.HARMONICUS_SX_DATA = {
     "tipo": "DOLLAR_PEG_ARBITRAGEM"
   },
   {
-    "source": "VIX_Index",
-    "target": "BTCBRL",
-    "coerencia": 0.65,
-    "peso": 3.6,
-    "tipo": "LEAD_LAG_CHOQUE"
+    "source": "PAXG_Ouro",
+    "target": "Ouro_USD",
+    "coerencia": 0.992,
+    "peso": 5.0,
+    "tipo": "TOKENIZED_GOLD_PARITY"
+  },
+  {
+    "source": "USD_BRL",
+    "target": "DXY_Index",
+    "coerencia": 0.81,
+    "peso": 4.2,
+    "tipo": "FORCA_GLOBAL_DOLAR"
+  },
+  {
+    "source": "Ouro_USD",
+    "target": "DXY_Index",
+    "coerencia": 0.77,
+    "peso": 3.9,
+    "tipo": "RELACAO_INVERSA_OURO_USD"
+  },
+  {
+    "source": "USDTBRL",
+    "target": "PAXG_Ouro",
+    "coerencia": 0.62,
+    "peso": 3.2,
+    "tipo": "ROTACAO_RESERVA_CRIPTO"
+  },
+  {
+    "source": "BTCBRL",
+    "target": "PAXG_Ouro",
+    "coerencia": 0.35,
+    "peso": 2.0,
+    "tipo": "PAIRS_TRADING_GUIANA"
+  },
+  {
+    "source": "BTCBRL",
+    "target": "ADABRL",
+    "coerencia": 0.701,
+    "peso": 3.8,
+    "tipo": "REVERSAO_ELASTICA"
   },
   {
     "source": "Petroleo_Brent",
@@ -351,7 +442,7 @@ window.HARMONICUS_SX_DATA = {
   bands: [
   {
     "id": "ultra_high",
-    "nome": "Micro-Ondas (15m - 1h)",
+    "nome": "Micro-Ondas (15 MIN - 1H)",
     "freq_str": "15 min a 1 hora",
     "descricao": "Zona de ruído intradiário e alta entropia. Onde operam o Corisco da Solana e a Flecha de Sagarana.",
     "ganho_filtro": 1.2,
@@ -360,7 +451,7 @@ window.HARMONICUS_SX_DATA = {
   },
   {
     "id": "intraday",
-    "nome": "Ondas Médias / Sessão (4h - 8h)",
+    "nome": "Ondas Médias / Sessão (4H - 8H)",
     "freq_str": "4 a 8 horas",
     "descricao": "Zona de equilíbrio institucional da tarde de NY e PTAX. Janela de ressonância do Duelo de Titãs.",
     "ganho_filtro": 1.0,
@@ -369,7 +460,7 @@ window.HARMONICUS_SX_DATA = {
   },
   {
     "id": "daily",
-    "nome": "Ondas Curtas / Diário (24h)",
+    "nome": "Ondas Curtas / Diário (24H)",
     "freq_str": "24 horas",
     "descricao": "Harmônico fundamental de rotação da Terra. Cointegração forte entre TradFi e Cripto.",
     "ganho_filtro": 0.85,
@@ -378,7 +469,7 @@ window.HARMONICUS_SX_DATA = {
   },
   {
     "id": "macro",
-    "nome": "Ondas Longas / Secular (7d - 45d)",
+    "nome": "Ondas Longas / Secular (7D - 45D)",
     "freq_str": "7 a 45 dias",
     "descricao": "As placas tectônicas do macro. Onde reside o ciclo secular do Plano Guiana Brasileira.",
     "ganho_filtro": 0.7,
@@ -388,7 +479,7 @@ window.HARMONICUS_SX_DATA = {
 ],
   cwt_slices: [
   {
-    "timestamp": "2026-08-22 15:00",
+    "timestamp": "2026-08-22 18:30",
     "escala_15m": 2.4,
     "escala_1h": 1.8,
     "escala_4h": 0.9,
@@ -396,7 +487,7 @@ window.HARMONICUS_SX_DATA = {
     "status": "CALMARIA_ESPECTRAL"
   },
   {
-    "timestamp": "2026-08-22 12:00",
+    "timestamp": "2026-08-22 15:00",
     "escala_15m": 5.1,
     "escala_1h": 3.2,
     "escala_4h": 1.4,
@@ -404,7 +495,7 @@ window.HARMONICUS_SX_DATA = {
     "status": "ONDA_MODERADA"
   },
   {
-    "timestamp": "2026-08-22 06:00",
+    "timestamp": "2026-08-22 09:00",
     "escala_15m": 1.2,
     "escala_1h": 0.8,
     "escala_4h": 0.4,
@@ -412,7 +503,7 @@ window.HARMONICUS_SX_DATA = {
     "status": "ATERRAMENTO_CAIXA"
   },
   {
-    "timestamp": "2026-08-21 18:00",
+    "timestamp": "2026-08-21 21:00",
     "escala_15m": 8.6,
     "escala_1h": 6.4,
     "escala_4h": 4.1,

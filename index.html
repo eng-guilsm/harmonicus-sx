@@ -16,7 +16,7 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   
   <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20260822_sx2">
+  <link rel="stylesheet" href="style.css?v=20260822_sx4">
 </head>
 <body class="dark-synth">
   <!-- Scanlines & Ambient Matrix Grid -->
@@ -116,23 +116,10 @@
       </div>
 
       <!-- EXECUTION PROXIMITY THERMOMETER -->
-      <div class="section-divider">
+      <div class="section-divider thermo-section-header">
         <div class="divider-title">
           <span class="d-icon">🔥</span>
           <h2>TERMÔMETRO DE PROXIMIDADE DE DISPARO (100% AO VIVO)</h2>
-        </div>
-        <span class="divider-desc">Ordenado em tempo real pela distância estatística de Z-Score • Clique em qualquer plano para abrir análise executiva e histórico (1H a 30D)</span>
-      </div>
-
-      <div class="thermometer-container" id="thermometerList">
-        <!-- Injetado via tactical-hud.js -->
-      </div>
-
-      <!-- GRID DOS 8 PLANOS OFICIAIS -->
-      <div class="section-divider">
-        <div class="divider-title">
-          <span class="d-icon">🏛️</span>
-          <h2>A MATRIZ DOS 8 MOTORES QUÂNTICOS DO MONEYLAB</h2>
         </div>
         <div class="filter-buttons">
           <button class="filter-btn active" data-filter="all">TODOS (8)</button>
@@ -141,8 +128,8 @@
         </div>
       </div>
 
-      <div class="plans-tactical-grid" id="plansGrid">
-        <!-- Injetado dinamicamente via tactical-hud.js -->
+      <div class="thermometer-container" id="thermometerList">
+        <!-- Injetado via tactical-hud.js -->
       </div>
 
       <!-- PAINEL DE CUSTÓDIA & BLINDAGENS GLOBAIS -->
@@ -477,12 +464,12 @@
   </div>
 
   <!-- SCRIPTS -->
-  <script src="data/planos_data.js"></script>
-  <script src="data/harmonicus_sx_data.js"></script>
-  <script src="data/charts_data.js"></script>
-  <script src="audio-engine.js"></script>
-  <script src="tactical-hud.js"></script>
-  <script src="harmonicus-sx.js"></script>
-  <script src="charts-kinetics.js"></script>
+  <script src="data/planos_data.js?v=20260822_sx4"></script>
+  <script src="data/harmonicus_sx_data.js?v=20260822_sx4"></script>
+  <script src="data/charts_data.js?v=20260822_sx4"></script>
+  <script src="audio-engine.js?v=20260822_sx4"></script>
+  <script src="tactical-hud.js?v=20260822_sx4"></script>
+  <script src="harmonicus-sx.js?v=20260822_sx4"></script>
+  <script src="charts-kinetics.js?v=20260822_sx4"></script>
 </body>
 </html>

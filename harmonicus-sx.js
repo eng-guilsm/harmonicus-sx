@@ -188,21 +188,24 @@ function initRadioTuner(bands) {
     }
   };
 
-  // Cálculo angular do ponteiro relativo ao centro geométrico
-  const getPointerAngle = (clientX, clientY) => {
+  // Cálculo angular do ponteiro relativo ao centro geométrico (0° = 12h, positivo = horário)
+  const getClockAngle = (clientX, clientY) => {
     const rect = dial.getBoundingClientRect();
     const centerX = rect.left + rect.width / 2;
     const centerY = rect.top + rect.height / 2;
-    return Math.atan2(clientY - centerY, clientX - centerX) * (180 / Math.PI);
+    const dx = clientX - centerX;
+    const dy = clientY - centerY;
+    return Math.atan2(dx, -dy) * (180 / Math.PI);
   };
 
   const onStart = (e) => {
     isDragging = true;
     const clientX = e.touches ? e.touches[0].clientX : e.clientX;
     const clientY = e.touches ? e.touches[0].clientY : e.clientY;
-    startMouseAngle = getPointerAngle(clientX, clientY);
-    startDialAngle = currentAngle;
-    startY = clientY;
+    const clickDeg = getClockAngle(clientX, clientY);
+    if (clickDeg >= -145 && clickDeg <= 145) {
+      setDialRotation(clickDeg);
+    }
     e.preventDefault();
   };
 
@@ -211,16 +214,14 @@ function initRadioTuner(bands) {
     const clientX = e.touches ? e.touches[0].clientX : e.clientX;
     const clientY = e.touches ? e.touches[0].clientY : e.clientY;
     
-    const currentMouseAngle = getPointerAngle(clientX, clientY);
-    let deltaAngle = currentMouseAngle - startMouseAngle;
-    
-    if (deltaAngle > 180) deltaAngle -= 360;
-    if (deltaAngle < -180) deltaAngle += 360;
-
-    const verticalDelta = (startY - clientY) * 0.85;
-    const combinedTarget = startDialAngle + deltaAngle + (Math.abs(deltaAngle) < 6 ? verticalDelta : 0);
-
-    setDialRotation(combinedTarget);
+    const targetDeg = getClockAngle(clientX, clientY);
+    if (targetDeg > 135) {
+      if (targetDeg < 170) setDialRotation(135);
+    } else if (targetDeg < -135) {
+      if (targetDeg > -170) setDialRotation(-135);
+    } else {
+      setDialRotation(targetDeg);
+    }
   };
 
   const onEnd = () => { isDragging = false; };
