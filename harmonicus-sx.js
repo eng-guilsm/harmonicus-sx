@@ -1,7 +1,8 @@
 /**
  * ==============================================================================
- * HARMONICUS SX // PÁGINA 2: SYNTHESIZER & SPECTRAL TOPOLOGY CONTROLLER (v3.0)
- * Reatividade Total: Knob Fluido, Grafo D3 com Zoom/Pan/Drag e Osciloscópio CRT
+ * HARMONICUS SX // PÁGINA 2: SYNTHESIZER & SPECTRAL TOPOLOGY CONTROLLER (v3.5)
+ * Processamento Digital de Sinais (DSP) de John F. Ehlers & Análise Espectral
+ * Rastreamento Angular Circular 360º, Grafo Compacto & Foco de Tríades Opacas
  * ==============================================================================
  */
 
@@ -11,9 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 let activeTunerBand = 'daily';
 let activeHarmonicChord = 'unison';
-let activeDamping = 0.50;
-let activeFourier = 20.98;
-let activeMorlet = -0.59;
 
 let d3GraphSimulation = null;
 let d3SvgSelection = null;
@@ -29,7 +27,7 @@ function initHarmonicusSX() {
   initAudioControls();
   initRadioTuner(data.bands || []);
   initChordSelector();
-  initPhysicsMiniKnobs();
+  initSpectralTelemetry(data.sensores || {});
   initOscilloscope();
   initD3NetworkGraph(data.nodes || [], data.edges || []);
   renderCWTSlices(data.cwt_slices || []);
@@ -109,7 +107,7 @@ function initAudioControls() {
 }
 
 // ------------------------------------------------------------------------------
-// 3. SINTONIZADOR DE RÁDIO ANALÓGICO FLUIDO (ROTARY RADIO TUNER KNOB)
+// 3. SINTONIZADOR DE RÁDIO ANALÓGICO COM RASTREAMENTO ANGULAR CIRCULAR 360º REAL
 // ------------------------------------------------------------------------------
 function initRadioTuner(bands) {
   const dial = document.getElementById('tunerDial');
@@ -122,8 +120,9 @@ function initRadioTuner(bands) {
 
   let currentAngle = 35;
   let isDragging = false;
+  let startMouseAngle = 0;
+  let startDialAngle = 0;
   let startY = 0;
-  let startAngle = 0;
 
   const bandAngles = {
     'ultra_high': -75,
@@ -133,7 +132,8 @@ function initRadioTuner(bands) {
   };
 
   const setDialRotation = (deg) => {
-    currentAngle = Math.max(-105, Math.min(105, deg));
+    // Permite arco amplo de -140° a +140° (280° de excursão de rádio)
+    currentAngle = Math.max(-140, Math.min(140, deg));
     dial.style.transform = `rotate(${currentAngle}deg)`;
 
     let closestBand = 'daily';
@@ -159,20 +159,42 @@ function initRadioTuner(bands) {
     }
   };
 
-  // Suporte a arrasto vertical contínuo intuitivo
+  // Rastreamento Angular Circular com Math.atan2 (100% natural em 360°)
+  const getPointerAngle = (clientX, clientY) => {
+    const rect = dial.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+    return Math.atan2(clientY - centerY, clientX - centerX) * (180 / Math.PI);
+  };
+
   const onStart = (e) => {
     isDragging = true;
-    startY = e.touches ? e.touches[0].clientY : e.clientY;
-    startAngle = currentAngle;
+    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+    const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+    startMouseAngle = getPointerAngle(clientX, clientY);
+    startDialAngle = currentAngle;
+    startY = clientY;
     e.preventDefault();
   };
 
   const onMove = (e) => {
     if (!isDragging) return;
+    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
     const clientY = e.touches ? e.touches[0].clientY : e.clientY;
-    const deltaY = startY - clientY;
-    // Sensibilidade de rotação fluida
-    setDialRotation(startAngle + deltaY * 1.5);
+    
+    // Cálculo angular radial
+    const currentMouseAngle = getPointerAngle(clientX, clientY);
+    let deltaAngle = currentMouseAngle - startMouseAngle;
+    
+    // Tratamento de transição de quadrantes (-180° / +180°)
+    if (deltaAngle > 180) deltaAngle -= 360;
+    if (deltaAngle < -180) deltaAngle += 360;
+
+    // Também combina com arrasto vertical para máxima fluidez
+    const verticalDelta = (startY - clientY) * 0.8;
+    const combinedTarget = startDialAngle + deltaAngle + (Math.abs(deltaAngle) < 5 ? verticalDelta : 0);
+
+    setDialRotation(combinedTarget);
   };
 
   const onEnd = () => { isDragging = false; };
@@ -184,10 +206,10 @@ function initRadioTuner(bands) {
   window.addEventListener('touchmove', onMove, { passive: false });
   window.addEventListener('touchend', onEnd);
 
-  // Roda do mouse
+  // Roda do mouse suave
   dial.parentElement.addEventListener('wheel', (e) => {
     e.preventDefault();
-    const step = e.deltaY > 0 ? 15 : -15;
+    const step = e.deltaY > 0 ? 12 : -12;
     setDialRotation(currentAngle + step);
   }, { passive: false });
 
@@ -216,7 +238,7 @@ function initRadioTuner(bands) {
 }
 
 // ------------------------------------------------------------------------------
-// 4. SELETOR DE ACORDES HARMÔNICOS
+// 4. SELETOR DE ACORDES HARMÔNICOS & TRÍADES
 // ------------------------------------------------------------------------------
 function initChordSelector() {
   const chordBtns = document.querySelectorAll('.chord-btn');
@@ -232,81 +254,31 @@ function initChordSelector() {
 }
 
 // ------------------------------------------------------------------------------
-// 5. MINI KNOBS DE FÍSICA ESTATÍSTICA (LANGEVIN, FOURIER, MORLET)
+// 5. OBSERVÁVEIS ESPECTRAIS EM TEMPO REAL (TELEMETRIA DSP DE EHLERS & GRANGER)
 // ------------------------------------------------------------------------------
-function initPhysicsMiniKnobs() {
-  const setupMiniKnob = (id, valId, min, max, initialVal, isInteger, callback) => {
-    const dial = document.getElementById(id);
-    const valEl = document.getElementById(valId);
-    if (!dial) return;
+function initSpectralTelemetry(sensores) {
+  const telePC1 = document.getElementById('telePC1');
+  const teleT0 = document.getElementById('teleT0');
+  const teleSNR = document.getElementById('teleSNR');
+  const teleSTE = document.getElementById('teleSTE');
 
-    let curVal = initialVal;
-    let angle = ((curVal - min) / (max - min)) * 240 - 120;
-    dial.style.transform = `rotate(${angle}deg)`;
+  const pc1Val = sensores.pc1 !== undefined ? (sensores.pc1 * 100).toFixed(1) + '%' : '39.4%';
+  const t0Val = sensores.t0_ehlers !== undefined ? sensores.t0_ehlers.toFixed(1) + 'h' : '13.7h';
+  const snrVal = sensores.snr_ehlers !== undefined ? (sensores.snr_ehlers > 0 ? '+' : '') + sensores.snr_ehlers.toFixed(1) + ' dB' : '+12.8 dB';
+  const steVal = sensores.fluxo_ste !== undefined ? (sensores.fluxo_ste > 0 ? '+' : '') + sensores.fluxo_ste.toFixed(4) : '+0.1325';
 
-    let isDragging = false;
-    let startY = 0;
-    let startVal = curVal;
-
-    const onStart = (e) => {
-      isDragging = true;
-      startY = e.touches ? e.touches[0].clientY : e.clientY;
-      startVal = curVal;
-      e.preventDefault();
-    };
-
-    const onMove = (e) => {
-      if (!isDragging) return;
-      const clientY = e.touches ? e.touches[0].clientY : e.clientY;
-      const deltaY = startY - clientY;
-      const range = max - min;
-      curVal = Math.max(min, Math.min(max, startVal + (deltaY / 100) * range));
-      
-      angle = ((curVal - min) / (max - min)) * 240 - 120;
-      dial.style.transform = `rotate(${angle}deg)`;
-
-      if (valEl) {
-        valEl.textContent = isInteger ? curVal.toFixed(1) : curVal.toFixed(2);
-      }
-      callback(curVal);
-    };
-
-    const onEnd = () => { isDragging = false; };
-
-    dial.addEventListener('mousedown', onStart);
-    window.addEventListener('mousemove', onMove);
-    window.addEventListener('mouseup', onEnd);
-    dial.addEventListener('touchstart', onStart, { passive: false });
-    window.addEventListener('touchmove', onMove, { passive: false });
-    window.addEventListener('touchend', onEnd);
-  };
-
-  setupMiniKnob('knobDamping', 'valDamping', 0.1, 1.0, 0.50, false, (v) => {
-    activeDamping = v;
-    window.harmonicusAudio.updatePhysicsParams(activeDamping, activeFourier, activeMorlet);
-    modulateGraphPhysics();
-  });
-
-  setupMiniKnob('knobFourier', 'valFourier', 5.0, 45.0, 20.98, true, (v) => {
-    activeFourier = v;
-    window.harmonicusAudio.updatePhysicsParams(activeDamping, activeFourier, activeMorlet);
-    modulateGraphPhysics();
-  });
-
-  setupMiniKnob('knobMorlet', 'valMorlet', -5.0, 50.0, -0.59, false, (v) => {
-    activeMorlet = v;
-    window.harmonicusAudio.updatePhysicsParams(activeDamping, activeFourier, activeMorlet);
-    modulateGraphPhysics();
-  });
-}
-
-function modulateGraphPhysics() {
-  if (!d3GraphSimulation) return;
-  // Langevin gama controla repulsão e atrito
-  d3GraphSimulation.force('charge').strength(-150 - activeDamping * 180);
-  // Fourier EF controla a distância elástica das arestas
-  d3GraphSimulation.force('link').distance(d => Math.max(60, 160 - (activeFourier * 2.2) - (d.coerencia * 50)));
-  d3GraphSimulation.alpha(0.25).restart();
+  if (telePC1) telePC1.textContent = pc1Val;
+  if (teleT0) teleT0.textContent = t0Val;
+  if (teleSNR) {
+    teleSNR.textContent = snrVal;
+    const snrNum = parseFloat(sensores.snr_ehlers || 12.8);
+    teleSNR.style.color = snrNum >= 6.0 ? '#10B981' : (snrNum >= 0 ? '#F59E0B' : '#EF4444');
+  }
+  if (teleSTE) {
+    teleSTE.textContent = steVal;
+    const steNum = parseFloat(sensores.fluxo_ste || 0.13);
+    teleSTE.style.color = steNum >= 0 ? '#10B981' : '#EF4444';
+  }
 }
 
 // ------------------------------------------------------------------------------
@@ -418,7 +390,7 @@ function initOscilloscope() {
 }
 
 // ------------------------------------------------------------------------------
-// 7. GRAFO TOPOLÓGICO DOS 26 ATIVOS COM ZOOM, PAN E NÓS ARRASTÁVEIS (D3.JS)
+// 7. GRAFO TOPOLÓGICO COMPACTO COM CÍRCULOS AMPLIADOS & FOCO EM TRÍADES
 // ------------------------------------------------------------------------------
 function initD3NetworkGraph(nodes, edges) {
   const container = document.getElementById('networkGraphStage');
@@ -430,7 +402,7 @@ function initD3NetworkGraph(nodes, edges) {
   d3EdgesData = edges;
 
   const width = container.clientWidth || 900;
-  const height = container.clientHeight || 420;
+  const height = container.clientHeight || 450;
 
   container.querySelectorAll('svg').forEach(s => s.remove());
 
@@ -442,11 +414,11 @@ function initD3NetworkGraph(nodes, edges) {
 
   d3SvgSelection = svg;
 
-  // Zoom and Pan Container
+  // Container de Zoom e Pan
   d3ZoomRoot = svg.append('g').attr('class', 'zoom-root');
 
   d3ZoomBehavior = d3.zoom()
-    .scaleExtent([0.35, 3.5])
+    .scaleExtent([0.4, 3.0])
     .on('zoom', (event) => {
       d3ZoomRoot.attr('transform', event.transform);
     });
@@ -459,15 +431,18 @@ function initD3NetworkGraph(nodes, edges) {
         d3ZoomBehavior.transform,
         d3.zoomIdentity.translate(0, 0).scale(1)
       );
+      // Restaurar opacidade de todos os nós
+      updateD3GraphForChord('unison');
     });
   }
 
-  // Simulação física contida
+  // Simulação física compacta e agrupada
   d3GraphSimulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(edges).id(d => d.id).distance(d => 110 - (d.coerencia * 45)))
-    .force('charge', d3.forceManyBody().strength(-200))
+    .force('link', d3.forceLink(edges).id(d => d.id).distance(d => Math.max(38, 68 - (d.coerencia * 28))))
+    .force('charge', d3.forceManyBody().strength(-95))
     .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collision', d3.forceCollide().radius(26));
+    .force('radial', d3.forceRadial(Math.min(width, height) * 0.28, width / 2, height / 2).strength(0.18))
+    .force('collision', d3.forceCollide().radius(d => Math.max(24, 26 + d.autovetor_pc1 * 26) + 4));
 
   // Arestas
   const link = d3ZoomRoot.append('g')
@@ -476,7 +451,7 @@ function initD3NetworkGraph(nodes, edges) {
     .data(edges)
     .enter().append('line')
     .attr('stroke', d => d.coerencia >= 0.75 ? '#06B6D4' : '#4B5563')
-    .attr('stroke-width', d => Math.max(1.5, d.peso * 0.8))
+    .attr('stroke-width', d => Math.max(1.5, d.peso * 0.9))
     .attr('stroke-opacity', d => Math.max(0.25, d.coerencia));
 
   // Nós
@@ -492,32 +467,38 @@ function initD3NetworkGraph(nodes, edges) {
       .on('drag', dragged)
       .on('end', dragended));
 
+  // Círculos ampliados (raios de 22px a 34px) para conter confortavelmente o texto
   node.append('circle')
-    .attr('r', d => Math.max(12, 14 + d.autovetor_pc1 * 18))
+    .attr('r', d => Math.max(22, 24 + d.autovetor_pc1 * 24))
     .attr('fill', d => d.cor)
     .attr('stroke', '#FFFFFF')
-    .attr('stroke-width', 1.5)
-    .attr('stroke-opacity', 0.85)
+    .attr('stroke-width', 2.0)
+    .attr('stroke-opacity', 0.9)
     .style('cursor', 'grab')
-    .style('filter', d => `drop-shadow(0 0 8px ${d.cor})`);
+    .style('transition', 'all 0.3s ease')
+    .style('filter', d => `drop-shadow(0 0 10px ${d.cor})`);
 
+  // Texto perfeitamente dimensionado e centralizado dentro da bolha
   node.append('text')
-    .text(d => d.id.replace('BRL', '').replace('_Pts', '').replace('_TF', ''))
+    .text(d => {
+      const clean = d.id.replace('BRL', '').replace('_Pts', '').replace('_USD', '').replace('_Yield', '').replace('_Index', '');
+      return clean.length > 5 ? clean.substring(0, 5) : clean;
+    })
     .attr('x', 0)
     .attr('y', 4)
     .attr('text-anchor', 'middle')
     .attr('fill', '#030712')
-    .attr('font-size', '9px')
-    .attr('font-weight', '700')
-    .attr('font-family', 'JetBrains Mono')
+    .attr('font-size', '11px')
+    .attr('font-weight', '800')
+    .attr('font-family', 'JetBrains Mono, monospace')
     .style('pointer-events', 'none');
 
   node.on('mouseover', (event, d) => {
     if (!tooltip) return;
     tooltip.style.display = 'block';
     tooltip.innerHTML = `
-      <b>${d.nome} (${d.id})</b><br>
-      Classe: <span style="color: ${d.cor}">${d.classe}</span><br>
+      <b style="font-size: 13px; color:#FFFFFF;">${d.nome} (${d.id})</b><br>
+      Classe: <span style="color: ${d.cor}; font-weight:700;">${d.classe}</span><br>
       Volatilidade Anual: <b>${d.vol}%</b><br>
       Peso Autovetor PC1: <b>${d.autovetor_pc1.toFixed(3)}</b><br>
       Afinação Sonora: <b>${d.nota} (${d.fundamental_hz} Hz)</b><br>
@@ -536,22 +517,24 @@ function initD3NetworkGraph(nodes, edges) {
   .on('click', (event, d) => {
     window.harmonicusAudio.playNodeTone(d.fundamental_hz, d.nome);
     
-    // Efeito de pulso no nó clicado
-    d3.select(event.currentTarget).select('circle')
-      .transition().duration(120).attr('r', 24)
-      .transition().duration(250).attr('r', Math.max(12, 14 + d.autovetor_pc1 * 18));
+    // Pulso no nó clicado
+    const circle = d3.select(event.currentTarget).select('circle');
+    const origR = Math.max(22, 24 + d.autovetor_pc1 * 24);
+    circle
+      .transition().duration(120).attr('r', origR * 1.35)
+      .transition().duration(250).attr('r', origR);
 
     // Acender arestas conectadas
-    link.transition().duration(150)
-      .attr('stroke', l => (l.source.id === d.id || l.target.id === d.id) ? '#F59E0B' : '#4B5563')
-      .attr('stroke-width', l => (l.source.id === d.id || l.target.id === d.id) ? 3.5 : 1.5)
-      .attr('stroke-opacity', l => (l.source.id === d.id || l.target.id === d.id) ? 1.0 : 0.2);
+    link.transition().duration(180)
+      .attr('stroke', l => (l.source.id === d.id || l.target.id === d.id) ? '#F59E0B' : '#374151')
+      .attr('stroke-width', l => (l.source.id === d.id || l.target.id === d.id) ? 3.5 : 1.2)
+      .attr('stroke-opacity', l => (l.source.id === d.id || l.target.id === d.id) ? 1.0 : 0.15);
   });
 
-  // Tick com contenção suave na tela
+  // Tick com contenção suave
   d3GraphSimulation.on('tick', () => {
     nodes.forEach(d => {
-      const r = 24;
+      const r = 32;
       d.x = Math.max(r, Math.min(width - r, d.x));
       d.y = Math.max(r, Math.min(height - r, d.y));
     });
@@ -582,6 +565,11 @@ function initD3NetworkGraph(nodes, edges) {
     d.fx = null;
     d.fy = null;
   }
+
+  // Inicializar com foco do acorde padrão (Uníssono)
+  setTimeout(() => {
+    updateD3GraphForChord('unison');
+  }, 150);
 }
 
 function updateD3GraphForBand(bandId) {
@@ -612,9 +600,13 @@ function updateD3GraphForBand(bandId) {
   }
 }
 
+// ------------------------------------------------------------------------------
+// 8. FOCO DE TRÍADES / ACORDES: DESTAQUE VIBRANTE E OPACIDADE/ESMAECIMENTO GERAL
+// ------------------------------------------------------------------------------
 function updateD3GraphForChord(chordId) {
   if (!d3SvgSelection) return;
-  const nodes = d3SvgSelection.selectAll('.nodes .node-group');
+  const nodeGroups = d3SvgSelection.selectAll('.nodes .node-group');
+  const linkLines = d3SvgSelection.selectAll('.links line');
 
   const chordActiveNodes = {
     'unison': ['BTCBRL', 'ETHBRL', 'SOLBRL', 'SP500_Pts', 'IBOV_Pts'],
@@ -625,11 +617,31 @@ function updateD3GraphForChord(chordId) {
 
   const activeList = chordActiveNodes[chordId] || [];
 
-  nodes.select('circle')
-    .transition().duration(300)
-    .attr('stroke-width', d => activeList.includes(d.id) ? 3.5 : 1.5)
-    .attr('stroke', d => activeList.includes(d.id) ? '#FFFFFF' : 'rgba(255,255,255,0.4)')
-    .style('filter', d => activeList.includes(d.id) ? `drop-shadow(0 0 16px ${d.cor})` : `drop-shadow(0 0 4px ${d.cor})`);
+  // Transição de Nós: Ativos da Tríade = Vívidos e Iluminados | Outros Ativos = Opacos e Esmaecidos
+  nodeGroups.transition().duration(350)
+    .style('opacity', d => activeList.includes(d.id) ? 1.0 : 0.18)
+    .style('filter', d => activeList.includes(d.id) ? 'none' : 'grayscale(70%) brightness(0.6)');
+
+  nodeGroups.select('circle').transition().duration(350)
+    .attr('stroke-width', d => activeList.includes(d.id) ? 3.5 : 1.2)
+    .attr('stroke', d => activeList.includes(d.id) ? '#FFFFFF' : 'rgba(255,255,255,0.3)')
+    .style('filter', d => activeList.includes(d.id) ? `drop-shadow(0 0 18px ${d.cor})` : `drop-shadow(0 0 2px ${d.cor})`);
+
+  // Transição de Arestas: Arestas entre nós da tríade ganham destaque ouro neon
+  linkLines.transition().duration(350)
+    .attr('stroke', l => {
+      const isInternal = activeList.includes(l.source.id) && activeList.includes(l.target.id);
+      if (isInternal) return '#F59E0B';
+      return l.coerencia >= 0.70 ? '#06B6D4' : '#374151';
+    })
+    .attr('stroke-width', l => {
+      const isInternal = activeList.includes(l.source.id) && activeList.includes(l.target.id);
+      return isInternal ? 3.5 : 1.2;
+    })
+    .attr('stroke-opacity', l => {
+      const isInternal = activeList.includes(l.source.id) && activeList.includes(l.target.id);
+      return isInternal ? 1.0 : 0.06;
+    });
 }
 
 function renderCWTSlices(slices) {

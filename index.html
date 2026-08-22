@@ -275,32 +275,29 @@
             </div>
           </div>
 
-          <!-- PHYSICAL MODELING KNOBS -->
-          <div class="deck-group knobs-row-group">
-            <label class="group-label">PARÂMETROS DE FÍSICA ESTATÍSTICA</label>
-            <div class="knobs-row">
-              <div class="mini-knob-box">
-                <div class="mini-dial" id="knobDamping" data-val="0.5" title="Atrito de Langevin (γ)">
-                  <div class="mini-indicator"></div>
-                </div>
-                <span class="mk-label">LANGEVIN (γ)</span>
-                <span class="mk-val" id="valDamping">0.50</span>
+          <!-- REAL-TIME DSP SPECTRAL OBSERVABLES -->
+          <div class="deck-group telemetry-group">
+            <label class="group-label">OBSERVÁVEIS ESPECTRAIS EM TEMPO REAL (DSP)</label>
+            <div class="telemetry-card-grid">
+              <div class="tele-item">
+                <span class="tele-label">RESSONÂNCIA PC1</span>
+                <span class="tele-val highlight" id="telePC1">39.4%</span>
+                <span class="tele-sub">Absorção Sistêmica</span>
               </div>
-
-              <div class="mini-knob-box">
-                <div class="mini-dial" id="knobFourier" data-val="0.75" title="Tensão de Fourier Tr(C²)">
-                  <div class="mini-indicator"></div>
-                </div>
-                <span class="mk-label">FOURIER (EF)</span>
-                <span class="mk-val" id="valFourier">20.98</span>
+              <div class="tele-item">
+                <span class="tele-label">CICLO T0 (HOMÓDINO)</span>
+                <span class="tele-val" id="teleT0">13.7h</span>
+                <span class="tele-sub">Período Dominante</span>
               </div>
-
-              <div class="mini-knob-box">
-                <div class="mini-dial" id="knobMorlet" data-val="0.3" title="Energia de Choque Morlet (Ew)">
-                  <div class="mini-indicator"></div>
-                </div>
-                <span class="mk-label">MORLET (Ew)</span>
-                <span class="mk-val" id="valMorlet">-0.59</span>
+              <div class="tele-item">
+                <span class="tele-label">SNR (EHLERS)</span>
+                <span class="tele-val" id="teleSNR" style="color: #F59E0B;">-15.7 dB</span>
+                <span class="tele-sub">Sinal vs Ruído</span>
+              </div>
+              <div class="tele-item">
+                <span class="tele-label">FLUXO CAUSAL STE</span>
+                <span class="tele-val" id="teleSTE" style="color: #10B981;">+0.1325</span>
+                <span class="tele-sub">BTC ➔ Altcoins</span>
               </div>
             </div>
           </div>

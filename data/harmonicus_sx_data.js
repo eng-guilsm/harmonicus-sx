@@ -1,4 +1,4 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-22 15:47:50)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-22 18:00:28)
 window.HARMONICUS_SX_DATA = {
   nodes: [
   {
@@ -421,12 +421,14 @@ window.HARMONICUS_SX_DATA = {
   }
 ],
   sensores: {
-  "pc1": 0.6284,
-  "entropia": 1.2425,
-  "energia_fourier": 20.9885,
-  "energia_wavelet_morlet": -0.5913,
-  "fluxo_ste": 0.0,
-  "regime": "RESONANCIA_SISTEMICA",
+  "pc1": 0.3939,
+  "entropia": 1.7516,
+  "energia_fourier": 39.3157,
+  "energia_wavelet_morlet": -0.0282,
+  "t0_ehlers": 13.7,
+  "snr_ehlers": -15.71,
+  "fluxo_ste": 0.1325,
+  "regime": "TURBULENCIA_LOCAL",
   "fator_lote": 1.0
 }
 };
