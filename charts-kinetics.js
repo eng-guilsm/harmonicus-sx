@@ -1,7 +1,8 @@
 /**
  * ==============================================================================
  * HARMONICUS SX // PÁGINA 3: ASSET DYNAMICS & MULTI-TIMEFRAME KINETICS CONTROLLER
- * Suporte a 6 Janelas de Tempo (1h, 24h, 1sem, 1m, 1a, tudo), Crosshair & Zoom Retangular
+ * Suporte a 6 Janelas de Tempo (1h, 24h, 1sem, 1m, 1a, tudo), Bandas de Bollinger,
+ * Crosshair, Zoom Retangular Interativo & Duplo-Clique para Resetar
  * ==============================================================================
  */
 
@@ -182,7 +183,7 @@ function renderKineticsCockpit(symbol, tfKey, data) {
 }
 
 // ------------------------------------------------------------------------------
-// RENDERIZAÇÃO DO CANVAS PRINCIPAL COM SUPORTE A BOX ZOOM
+// RENDERIZAÇÃO DO CANVAS PRINCIPAL COM BANDAS DE BOLLINGER & BOX ZOOM
 // ------------------------------------------------------------------------------
 function renderKineticsChart(symbol, tfKey, data) {
   const canvas = document.getElementById('kineticsMainCanvas');
@@ -194,8 +195,8 @@ function renderKineticsChart(symbol, tfKey, data) {
   const series = tfData.series || {};
 
   const fullPrices = series.prices || [];
-  const fullUpper = series.bollinger_upper || [];
-  const fullLower = series.bollinger_lower || [];
+  const fullUpper = series.bollinger_upper || series.bb_upper || [];
+  const fullLower = series.bollinger_lower || series.bb_lower || [];
   const fullVelocities = series.velocities || [];
   const fullTimestamps = series.timestamps || [];
 
@@ -206,8 +207,8 @@ function renderKineticsChart(symbol, tfKey, data) {
   const endIndex = kineticsZoomRange ? kineticsZoomRange[1] : (fullPrices.length - 1);
 
   const prices = fullPrices.slice(startIndex, endIndex + 1);
-  const upper = fullUpper.slice(startIndex, endIndex + 1);
-  const lower = fullLower.slice(startIndex, endIndex + 1);
+  const upper = fullUpper.length > 0 ? fullUpper.slice(startIndex, endIndex + 1) : prices;
+  const lower = fullLower.length > 0 ? fullLower.slice(startIndex, endIndex + 1) : prices;
   const velocities = fullVelocities.slice(startIndex, endIndex + 1);
   const timestamps = fullTimestamps.slice(startIndex, endIndex + 1);
 
@@ -269,46 +270,48 @@ function renderKineticsChart(symbol, tfKey, data) {
     ctx.fillText(labelStr, padLeft - 8, yPos + 3);
   }
 
-  // 1. Faixa de Bollinger
-  ctx.beginPath();
-  for (let i = 0; i < upper.length; i++) {
-    const x = getX(i);
-    const y = getY(upper[i]);
-    if (i === 0) ctx.moveTo(x, y);
-    else ctx.lineTo(x, y);
-  }
-  for (let i = lower.length - 1; i >= 0; i--) {
-    const x = getX(i);
-    const y = getY(lower[i]);
-    ctx.lineTo(x, y);
-  }
-  ctx.closePath();
-  ctx.fillStyle = 'rgba(6, 182, 212, 0.07)';
-  ctx.fill();
+  // 1. Faixa de Bollinger (Sombra de Incerteza e Linhas Cyan)
+  if (upper.length === prices.length && lower.length === prices.length) {
+    ctx.beginPath();
+    for (let i = 0; i < upper.length; i++) {
+      const x = getX(i);
+      const y = getY(upper[i]);
+      if (i === 0) ctx.moveTo(x, y);
+      else ctx.lineTo(x, y);
+    }
+    for (let i = lower.length - 1; i >= 0; i--) {
+      const x = getX(i);
+      const y = getY(lower[i]);
+      ctx.lineTo(x, y);
+    }
+    ctx.closePath();
+    ctx.fillStyle = 'rgba(6, 182, 212, 0.08)';
+    ctx.fill();
 
-  // Linhas das Bandas Superior e Inferior
-  ctx.strokeStyle = 'rgba(6, 182, 212, 0.35)';
-  ctx.lineWidth = 1;
-  ctx.setLineDash([4, 4]);
+    // Linhas das Bandas Superior e Inferior
+    ctx.strokeStyle = 'rgba(6, 182, 212, 0.45)';
+    ctx.lineWidth = 1.2;
+    ctx.setLineDash([4, 4]);
 
-  ctx.beginPath();
-  for (let i = 0; i < upper.length; i++) {
-    const x = getX(i);
-    const y = getY(upper[i]);
-    if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    ctx.beginPath();
+    for (let i = 0; i < upper.length; i++) {
+      const x = getX(i);
+      const y = getY(upper[i]);
+      if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+
+    ctx.beginPath();
+    for (let i = 0; i < lower.length; i++) {
+      const x = getX(i);
+      const y = getY(lower[i]);
+      if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+    ctx.setLineDash([]);
   }
-  ctx.stroke();
 
-  ctx.beginPath();
-  for (let i = 0; i < lower.length; i++) {
-    const x = getX(i);
-    const y = getY(lower[i]);
-    if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
-  }
-  ctx.stroke();
-  ctx.setLineDash([]);
-
-  // 2. Linha Principal de Preço
+  // 2. Linha Principal de Preço (Gradiente Ouro Neon)
   ctx.beginPath();
   for (let i = 0; i < prices.length; i++) {
     const x = getX(i);
@@ -318,7 +321,7 @@ function renderKineticsChart(symbol, tfKey, data) {
   ctx.strokeStyle = '#F59E0B';
   ctx.lineWidth = 2.5;
   ctx.shadowColor = '#F59E0B';
-  ctx.shadowBlur = 10;
+  ctx.shadowBlur = 8;
   ctx.stroke();
   ctx.shadowBlur = 0;
 
@@ -519,6 +522,14 @@ function initCanvasInteractions() {
     hoveredDataIndex = -1;
     renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, window.ASSETS_KINETICS_DATA || {});
   };
+
+  // Duplo-clique para desfazer o zoom na Página 3
+  canvas.addEventListener('dblclick', () => {
+    kineticsZoomRange = null;
+    const resetBtn = document.getElementById('kineticsResetZoomBtn');
+    if (resetBtn) resetBtn.style.display = 'none';
+    renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, window.ASSETS_KINETICS_DATA || {});
+  });
 
   canvas.addEventListener('mousedown', (e) => handlePointerDown(e.clientX));
   window.addEventListener('mousemove', (e) => {

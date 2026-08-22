@@ -148,6 +148,11 @@ class HarmonicusAudioEngine {
     if (!this.isPlaying || !this.ctx) return;
     this.stopDrones();
 
+    if (chordType === 'none') {
+      // Rede Completa (Sem filtro): silêncio suave para evitar cacofonia/dissonância
+      return;
+    }
+
     let freqs = [];
     switch (chordType) {
       case 'unison':
@@ -167,7 +172,7 @@ class HarmonicusAudioEngine {
         freqs = [this.scale.A2, this.scale.C3, this.scale.E3, this.scale.A3];
         break;
       default:
-        freqs = [this.scale.C3, this.scale.G3];
+        return;
     }
 
     freqs.forEach((freq, idx) => {
