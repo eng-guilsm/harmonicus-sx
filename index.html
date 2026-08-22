@@ -232,19 +232,32 @@
             <label class="group-label">SINTONIZADOR DE ONDAS ESPECTRAIS (RADIO TUNER)</label>
             <div class="radio-tuner-widget">
               <div class="knob-container">
+                <svg class="dial-face-svg" viewBox="0 0 200 200">
+                  <!-- Arco Externo de Calibração -->
+                  <path d="M 42 158 A 82 82 0 1 1 158 158" fill="none" stroke="rgba(6, 182, 212, 0.25)" stroke-width="2" stroke-dasharray="4 3" />
+                  
+                  <!-- Ticks Principais -->
+                  <line x1="57.6" y1="142.4" x2="49.0" y2="151.0" stroke="#06B6D4" stroke-width="2" />
+                  <line x1="40.7" y1="90.6" x2="31.8" y2="89.2" stroke="#06B6D4" stroke-width="2" />
+                  <line x1="72.8" y1="46.5" x2="68.2" y2="37.5" stroke="#06B6D4" stroke-width="2" />
+                  <line x1="127.2" y1="46.5" x2="131.8" y2="37.5" stroke="#06B6D4" stroke-width="2" />
+                  <line x1="159.3" y1="90.6" x2="168.2" y2="89.2" stroke="#06B6D4" stroke-width="2" />
+                  <line x1="142.4" y1="142.4" x2="151.0" y2="151.0" stroke="#06B6D4" stroke-width="2" />
+
+                  <!-- Rótulos em Coordenadas Trigonométricas Rigorosas -->
+                  <text class="svg-marker m-15m" data-marker="15m" x="38" y="165" text-anchor="middle" dominant-baseline="central">15M</text>
+                  <text class="svg-marker m-1h" data-marker="1h" x="18" y="88" text-anchor="middle" dominant-baseline="central">1H</text>
+                  <text class="svg-marker m-4h" data-marker="4h" x="62" y="24" text-anchor="middle" dominant-baseline="central">4H</text>
+                  <text class="svg-marker m-24h active" data-marker="24h" x="138" y="24" text-anchor="middle" dominant-baseline="central">24H</text>
+                  <text class="svg-marker m-7d" data-marker="7d" x="182" y="88" text-anchor="middle" dominant-baseline="central">7D</text>
+                  <text class="svg-marker m-45d" data-marker="45d" x="162" y="165" text-anchor="middle" dominant-baseline="central">45D</text>
+                </svg>
+
                 <div class="rotary-dial" id="tunerDial" title="Gire o Knob com o mouse ou scroll para sintonizar a frequência">
                   <div class="dial-indicator"></div>
                   <div class="dial-cap">
                     <span class="dial-center-label">TUNER</span>
                   </div>
-                </div>
-                <div class="dial-scale-markers">
-                  <span class="marker m-15m" data-marker="15m" data-band="ultra_high">15M</span>
-                  <span class="marker m-1h" data-marker="1h" data-band="ultra_high">1H</span>
-                  <span class="marker m-4h" data-marker="4h" data-band="intraday">4H</span>
-                  <span class="marker m-24h active" data-marker="24h" data-band="daily">24H</span>
-                  <span class="marker m-7d" data-marker="7d" data-band="macro">7D</span>
-                  <span class="marker m-45d" data-marker="45d" data-band="macro">45D</span>
                 </div>
               </div>
 
@@ -465,6 +478,16 @@
       </div>
     </section>
 
+  </div>
+
+  <!-- MODAL DE CONTROLE EXECUTIVO & HISTÓRICO DO PLANO (PAGE 1) -->
+  <div class="hud-modal-overlay" id="planModalOverlay">
+    <div class="hud-modal-card" id="planModalCard">
+      <button class="modal-close-btn" id="modalCloseBtn" title="Fechar Modal">✕</button>
+      <div id="planModalContent">
+        <!-- Injetado dinamicamente via tactical-hud.js -->
+      </div>
+    </div>
   </div>
 
   <!-- SCRIPTS -->

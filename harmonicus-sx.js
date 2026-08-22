@@ -1,6 +1,6 @@
 /**
  * ==============================================================================
- * HARMONICUS SX // PÁGINA 2: SYNTHESIZER & SPECTRAL TOPOLOGY CONTROLLER (v3.6)
+ * HARMONICUS SX // PÁGINA 2: SYNTHESIZER & SPECTRAL TOPOLOGY CONTROLLER (v3.7)
  * Processamento Digital de Sinais (DSP) de John F. Ehlers & Análise Espectral
  * Rastreamento Angular Circular 360º, Grafo Compacto & Foco de Tríades Opacas
  * ==============================================================================
@@ -17,8 +17,6 @@ let d3GraphSimulation = null;
 let d3SvgSelection = null;
 let d3ZoomRoot = null;
 let d3ZoomBehavior = null;
-let d3NodesData = [];
-let d3EdgesData = [];
 
 function initHarmonicusSX() {
   const data = window.HARMONICUS_SX_DATA || {};
@@ -115,18 +113,18 @@ function initRadioTuner(bands) {
   const bandNameEl = document.getElementById('tunerBandName');
   const bandFreqEl = document.getElementById('tunerBandFreq');
   const bandDescEl = document.getElementById('tunerBandDesc');
-  const markers = document.querySelectorAll('.dial-scale-markers span');
+  const markers = document.querySelectorAll('.svg-marker');
 
   if (!dial) return;
 
   // Mapeamento trigonométrico exato dos ângulos de cada marcador (arco de -135° a +135°)
   const markerAngleMap = {
-    '15m': -125,
-    '1h': -75,
-    '4h': -25,
-    '24h': 25,
-    '7d': 75,
-    '45d': 125
+    '15m': -135,
+    '1h': -81,
+    '4h': -27,
+    '24h': 27,
+    '7d': 81,
+    '45d': 135
   };
 
   const markerToBand = {
@@ -147,14 +145,14 @@ function initRadioTuner(bands) {
     '45d': { nome: 'ONDAS LONGAS // SECULAR (45D)', freq: 'Banda: 45d | Macro Secular', desc: 'As placas tectônicas do macro. Onde reside o ciclo secular do Plano Guiana Brasileira.' }
   };
 
-  let currentAngle = 25; // Padrão: 24H
+  let currentAngle = 27; // Padrão: 24H
   let isDragging = false;
   let startMouseAngle = 0;
   let startDialAngle = 0;
   let startY = 0;
 
   const setDialRotation = (deg) => {
-    // Permite arco amplo de -140° a +140° (280° de excursão do potenciômetro)
+    // Permite arco de -140° a +140° (280° de excursão do potenciômetro)
     currentAngle = Math.max(-140, Math.min(140, deg));
     dial.style.transform = `rotate(${currentAngle}deg)`;
 
@@ -169,7 +167,7 @@ function initRadioTuner(bands) {
       }
     }
 
-    // Atualizar classe ativa nos marcadores visuais
+    // Atualizar classe ativa nos marcadores SVG
     markers.forEach(m => {
       const markerKey = m.getAttribute('data-marker') || m.textContent.trim().toLowerCase();
       if (markerKey === closestMarker) m.classList.add('active');
@@ -243,7 +241,7 @@ function initRadioTuner(bands) {
     setDialRotation(currentAngle + step);
   }, { passive: false });
 
-  // Clique direto em qualquer marcador textual
+  // Clique direto em qualquer marcador SVG
   markers.forEach(m => {
     m.addEventListener('click', () => {
       const markerKey = m.getAttribute('data-marker') || m.textContent.trim().toLowerCase();
@@ -252,7 +250,7 @@ function initRadioTuner(bands) {
     });
   });
 
-  setDialRotation(25);
+  setDialRotation(27);
 }
 
 // ------------------------------------------------------------------------------
@@ -411,19 +409,43 @@ function initOscilloscope() {
 // ------------------------------------------------------------------------------
 // 7. GRAFO TOPOLÓGICO COMPACTO COM CÍRCULOS AMPLIADOS & FOCO EM TRÍADES
 // ------------------------------------------------------------------------------
-function initD3NetworkGraph(nodes, edges) {
+function initD3NetworkGraph(rawNodes, rawEdges) {
   const container = document.getElementById('networkGraphStage');
   const tooltip = document.getElementById('nodeTooltip');
   const btnReset = document.getElementById('btnResetZoom');
-  if (!container || !window.d3 || !nodes || nodes.length === 0) return;
+  if (!container || !window.d3) return;
 
-  d3NodesData = nodes;
-  d3EdgesData = edges;
+  const dataNodes = (rawNodes && rawNodes.length > 0) ? rawNodes : (window.HARMONICUS_SX_DATA && window.HARMONICUS_SX_DATA.nodes) || [];
+  const dataEdges = (rawEdges && rawEdges.length > 0) ? rawEdges : (window.HARMONICUS_SX_DATA && window.HARMONICUS_SX_DATA.edges) || [];
 
-  const width = container.clientWidth > 100 ? container.clientWidth : 900;
-  const height = container.clientHeight > 100 ? container.clientHeight : 420;
+  if (dataNodes.length === 0) return;
 
-  container.querySelectorAll('svg').forEach(s => s.remove());
+  // CLONE profundo para evitar que a mutação de links do D3 quebre reinicializações
+  const nodes = dataNodes.map(d => ({
+    id: d.id,
+    nome: d.nome,
+    classe: d.classe,
+    fundamental_hz: d.fundamental_hz,
+    nota: d.nota,
+    cor: d.cor,
+    vol: d.vol,
+    autovetor_pc1: d.autovetor_pc1
+  }));
+
+  const edges = dataEdges.map(d => ({
+    source: typeof d.source === 'object' ? d.source.id : d.source,
+    target: typeof d.target === 'object' ? d.target.id : d.target,
+    coerencia: d.coerencia,
+    peso: d.peso,
+    tipo: d.tipo
+  }));
+
+  const rect = container.getBoundingClientRect();
+  const width = Math.max(rect.width || container.clientWidth || 900, 700);
+  const height = Math.max(rect.height || container.clientHeight || 420, 400);
+
+  // Limpar SVGs anteriores
+  d3.select(container).selectAll('svg').remove();
 
   const svg = d3.select(container)
     .append('svg')
@@ -445,13 +467,13 @@ function initD3NetworkGraph(nodes, edges) {
   svg.call(d3ZoomBehavior);
 
   if (btnReset) {
-    btnReset.addEventListener('click', () => {
+    btnReset.onclick = () => {
       svg.transition().duration(600).call(
         d3ZoomBehavior.transform,
         d3.zoomIdentity.translate(0, 0).scale(1)
       );
       updateD3GraphForChord('unison');
-    });
+    };
   }
 
   // Simulação física compacta e agrupada
@@ -525,9 +547,9 @@ function initD3NetworkGraph(nodes, edges) {
   })
   .on('mousemove', (event) => {
     if (!tooltip) return;
-    const rect = container.getBoundingClientRect();
-    tooltip.style.left = (event.clientX - rect.left + 15) + 'px';
-    tooltip.style.top = (event.clientY - rect.top - 20) + 'px';
+    const r = container.getBoundingClientRect();
+    tooltip.style.left = (event.clientX - r.left + 15) + 'px';
+    tooltip.style.top = (event.clientY - r.top - 20) + 'px';
   })
   .on('mouseout', () => {
     if (tooltip) tooltip.style.display = 'none';
