@@ -1,7 +1,7 @@
 /**
  * ==============================================================================
- * HARMONICUS SX // PÁGINA 3: ASSET DYNAMICS & MARKET KINETICS CONTROLLER
- * Física de Movimento, Velocidade (dP/dt), Aceleração (d2P/dt2) e Poder de Subida
+ * HARMONICUS SX // PÁGINA 3: ASSET DYNAMICS & MULTI-TIMEFRAME KINETICS CONTROLLER
+ * Suporte a 6 Janelas de Tempo (1h, 24h, 1sem, 1m, 1a, tudo), Crosshair & Física
  * ==============================================================================
  */
 
@@ -10,15 +10,19 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 let currentKineticsAsset = 'BTCBRL';
-let kineticsChartInstance = null;
+let currentKineticsTimeframe = '24h';
 let kineticsPollerTimer = null;
+let hoveredDataIndex = -1;
 
 function initChartsKinetics() {
   const assetsData = window.ASSETS_KINETICS_DATA || {};
   
   initAssetPills(assetsData);
-  renderKineticsCockpit(currentKineticsAsset, assetsData);
-  renderKineticsChart(currentKineticsAsset, assetsData);
+  initTimeframeButtons();
+  initCanvasInteractions();
+  
+  renderKineticsCockpit(currentKineticsAsset, currentKineticsTimeframe, assetsData);
+  renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, assetsData);
   startLiveBinancePoller();
 }
 
@@ -48,14 +52,52 @@ function initAssetPills(assetsData) {
       container.querySelectorAll('.asset-pill-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       currentKineticsAsset = btn.getAttribute('data-asset');
-      renderKineticsCockpit(currentKineticsAsset, window.ASSETS_KINETICS_DATA || {});
-      renderKineticsChart(currentKineticsAsset, window.ASSETS_KINETICS_DATA || {});
+      hoveredDataIndex = -1;
+      
+      const data = window.ASSETS_KINETICS_DATA || {};
+      renderKineticsCockpit(currentKineticsAsset, currentKineticsTimeframe, data);
+      renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, data);
     });
   });
 }
 
-function renderKineticsCockpit(symbol, data) {
+function initTimeframeButtons() {
+  const bar = document.getElementById('tfButtonsBar');
+  if (!bar) return;
+
+  const btns = bar.querySelectorAll('.tf-btn');
+  btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentKineticsTimeframe = btn.getAttribute('data-tf');
+      hoveredDataIndex = -1;
+
+      // Atualizar título do card
+      const titleEl = document.getElementById('chartTitleText');
+      const tfNames = {
+        '1h': '1 HORA (ALTA RESOLUÇÃO 1M)',
+        '24h': '24 HORAS (CICLO DIÁRIO)',
+        '1sem': '1 SEMANA (7 DIAS)',
+        '1m': '1 MÊS (30 DIAS)',
+        '1a': '1 ANO (365 DIAS)',
+        'tudo': 'HISTÓRICO COMPLETO (1.4 ANOS / 596 DIAS)'
+      };
+      if (titleEl) {
+        titleEl.textContent = `CINÉTICA TEMPORAL & ENVELOPE DE BOLLINGER (${tfNames[currentKineticsTimeframe] || '24 HORAS'})`;
+      }
+
+      const data = window.ASSETS_KINETICS_DATA || {};
+      renderKineticsCockpit(currentKineticsAsset, currentKineticsTimeframe, data);
+      renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, data);
+    });
+  });
+}
+
+function renderKineticsCockpit(symbol, tfKey, data) {
   const asset = data[symbol] || {};
+  const tfData = (asset.timeframes && asset.timeframes[tfKey]) || {};
+  
   const elPrice = document.getElementById('kinPrice');
   const elVar24h = document.getElementById('kinVar24h');
   const elVel = document.getElementById('kinVelocity');
@@ -66,36 +108,36 @@ function renderKineticsCockpit(symbol, data) {
 
   const p = asset.preco_atual || 0;
   const isUsdt = symbol === 'USDTBRL';
-  const priceFmt = isUsdt ? `R$ ${p.toFixed(4)}` : `R$ ${p.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`;
+  const priceFmt = isUsdt ? `R$ ${p.toFixed(4)}` : `R$ ${p.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
 
   if (elPrice) elPrice.textContent = priceFmt;
   
   if (elVar24h) {
-    const v24 = asset.variacao_24h || 0;
-    elVar24h.textContent = `${v24 >= 0 ? '+' : ''}${v24.toFixed(2)}% (24h)`;
-    elVar24h.className = `kin-tag ${v24 >= 0 ? 'pos' : 'neg'}`;
+    const v = tfData.variacao_periodo !== undefined ? tfData.variacao_periodo : 0;
+    elVar24h.textContent = `${v >= 0 ? '+' : ''}${v.toFixed(2)}% (${tfData.label || tfKey.toUpperCase()})`;
+    elVar24h.className = `hero-tag ${v >= 0 ? 'positive' : 'negative'}`;
   }
 
   if (elVel) {
-    const vel = asset.velocidade_inst || 0;
-    elVel.textContent = `${vel >= 0 ? '▲ +' : '▼ '}${vel.toFixed(3)}%/min`;
+    const vel = tfData.velocidade_inst !== undefined ? tfData.velocidade_inst : 0;
+    elVel.textContent = `${vel >= 0 ? '▲ +' : '▼ '}${vel.toFixed(3)}%/ponto`;
     elVel.style.color = vel >= 0 ? '#10B981' : '#EF4444';
   }
 
   if (elAcc) {
-    const acc = asset.aceleracao_inst || 0;
-    elAcc.textContent = `${acc >= 0 ? '▲ +' : '▼ '}${acc.toFixed(3)}%/min²`;
+    const acc = tfData.aceleracao_inst !== undefined ? tfData.aceleracao_inst : 0;
+    elAcc.textContent = `${acc >= 0 ? '▲ +' : '▼ '}${acc.toFixed(3)}%/ponto²`;
     elAcc.style.color = acc >= 0 ? '#06B6D4' : '#F59E0B';
   }
 
   if (elThrustVal && elThrustBar) {
-    const thrust = asset.poder_subida_thrust || 50;
+    const thrust = tfData.poder_subida_thrust !== undefined ? tfData.poder_subida_thrust : 50;
     elThrustVal.textContent = `${thrust.toFixed(1)} / 100`;
     elThrustBar.style.width = `${thrust}%`;
     
-    if (thrust > 65) {
+    if (thrust > 62) {
       elThrustBar.style.background = 'linear-gradient(90deg, #10B981, #06B6D4)';
-    } else if (thrust < 35) {
+    } else if (thrust < 38) {
       elThrustBar.style.background = 'linear-gradient(90deg, #EF4444, #F59E0B)';
     } else {
       elThrustBar.style.background = 'linear-gradient(90deg, #F59E0B, #10B981)';
@@ -103,7 +145,7 @@ function renderKineticsCockpit(symbol, data) {
   }
 
   if (elKinState) {
-    const st = asset.estado_cinetico || 'EQUILIBRIO_INERCIAL';
+    const st = tfData.estado_cinetico || 'EQUILIBRIO_INERCIAL';
     if (st === 'PROPULSAO_ALTA') {
       elKinState.textContent = '🚀 FORTE PROPULSÃO COMPRADORA';
       elKinState.style.color = '#10B981';
@@ -120,13 +162,15 @@ function renderKineticsCockpit(symbol, data) {
   }
 }
 
-function renderKineticsChart(symbol, data) {
+function renderKineticsChart(symbol, tfKey, data) {
   const canvas = document.getElementById('kineticsMainCanvas');
   if (!canvas) return;
 
   const ctx = canvas.getContext('2d');
   const asset = data[symbol] || {};
-  const s = asset.series || {};
+  const tfData = (asset.timeframes && asset.timeframes[tfKey]) || {};
+  const s = tfData.series || {};
+  
   const timestamps = s.timestamps || [];
   const prices = s.prices || [];
   const upper = s.bb_upper || [];
@@ -135,35 +179,49 @@ function renderKineticsChart(symbol, data) {
 
   if (prices.length === 0) return;
 
-  // Ajustar tamanho
-  canvas.width = canvas.parentElement.clientWidth || 900;
-  canvas.height = 360;
+  // Ajuste de DPI e tamanho fluido
+  const wrapper = canvas.parentElement;
+  const dpr = window.devicePixelRatio || 1;
+  const displayW = wrapper.clientWidth || 1000;
+  const displayH = 380;
 
-  const w = canvas.width;
-  const h = canvas.height;
-  const padLeft = 65;
+  canvas.width = displayW * dpr;
+  canvas.height = displayH * dpr;
+  canvas.style.width = `${displayW}px`;
+  canvas.style.height = `${displayH}px`;
+  ctx.scale(dpr, dpr);
+
+  const w = displayW;
+  const h = displayH;
+  const padLeft = 75;
   const padRight = 30;
-  const padTop = 30;
-  const padBottom = 75; // espaço para painel de derivadas
+  const padTop = 25;
+  const padBottom = 80;
   const chartH = h - padBottom - padTop;
 
   ctx.clearRect(0, 0, w, h);
 
-  // Fundo
+  // Fundo Dark Cyberpunk
   ctx.fillStyle = '#050811';
   ctx.fillRect(0, 0, w, h);
 
-  // Escalas
-  const minP = Math.min(...lower, ...prices) * 0.998;
-  const maxP = Math.max(...upper, ...prices) * 1.002;
-  const pRange = maxP - minP || 1;
+  // Escalas de Preço
+  const allVals = [...lower, ...upper, ...prices];
+  const rawMin = Math.min(...allVals);
+  const rawMax = Math.max(...allVals);
+  const spread = rawMax - rawMin || 1;
+  const minP = rawMin - spread * 0.05;
+  const maxP = rawMax + spread * 0.05;
+  const pRange = maxP - minP;
 
   const getX = (i) => padLeft + (i / (prices.length - 1)) * (w - padLeft - padRight);
   const getY = (val) => padTop + (1 - (val - minP) / pRange) * chartH;
 
-  // Grade
+  // Grade Horizontal
   ctx.strokeStyle = 'rgba(255, 255, 255, 0.05)';
   ctx.lineWidth = 1;
+  const isUsdt = symbol === 'USDTBRL';
+
   for (let i = 0; i <= 5; i++) {
     const yVal = minP + (i / 5) * pRange;
     const yPos = getY(yVal);
@@ -175,8 +233,8 @@ function renderKineticsChart(symbol, data) {
     ctx.fillStyle = '#6B7280';
     ctx.font = '10px JetBrains Mono';
     ctx.textAlign = 'right';
-    const isUsdt = symbol === 'USDTBRL';
-    ctx.fillText(isUsdt ? yVal.toFixed(3) : Math.round(yVal).toLocaleString('pt-BR'), padLeft - 8, yPos + 3);
+    const labelStr = isUsdt ? `R$ ${yVal.toFixed(4)}` : `R$ ${Math.round(yVal).toLocaleString('pt-BR')}`;
+    ctx.fillText(labelStr, padLeft - 8, yPos + 3);
   }
 
   // 1. Faixa de Bollinger (Sombra de Incerteza)
@@ -193,13 +251,14 @@ function renderKineticsChart(symbol, data) {
     ctx.lineTo(x, y);
   }
   ctx.closePath();
-  ctx.fillStyle = 'rgba(6, 182, 212, 0.06)';
+  ctx.fillStyle = 'rgba(6, 182, 212, 0.07)';
   ctx.fill();
 
-  // Linhas das Bandas
-  ctx.strokeStyle = 'rgba(6, 182, 212, 0.3)';
+  // Linhas das Bandas Superior e Inferior
+  ctx.strokeStyle = 'rgba(6, 182, 212, 0.35)';
   ctx.lineWidth = 1;
   ctx.setLineDash([4, 4]);
+
   ctx.beginPath();
   for (let i = 0; i < upper.length; i++) {
     const x = getX(i);
@@ -217,7 +276,7 @@ function renderKineticsChart(symbol, data) {
   ctx.stroke();
   ctx.setLineDash([]);
 
-  // 2. Linha Principal de Preço (Glow Neon)
+  // 2. Linha Principal de Preço (Gradiente Luminoso Neon)
   ctx.beginPath();
   for (let i = 0; i < prices.length; i++) {
     const x = getX(i);
@@ -231,9 +290,10 @@ function renderKineticsChart(symbol, data) {
   ctx.stroke();
   ctx.shadowBlur = 0;
 
-  // 3. Painel Inferior: Vetor de Velocidade Instantânea (dP/dt)
-  const derivY0 = h - 35;
+  // 3. Painel Inferior: Histograma de Velocidade Instantânea (dP/dt)
+  const derivY0 = h - 38;
   ctx.strokeStyle = 'rgba(255, 255, 255, 0.15)';
+  ctx.lineWidth = 1;
   ctx.beginPath();
   ctx.moveTo(padLeft, derivY0);
   ctx.lineTo(w - padRight, derivY0);
@@ -242,27 +302,128 @@ function renderKineticsChart(symbol, data) {
   ctx.fillStyle = '#9CA3AF';
   ctx.font = '9px JetBrains Mono';
   ctx.textAlign = 'left';
-  ctx.fillText('VELOCIDADE dP/dt (%/min)', padLeft, derivY0 - 18);
+  ctx.fillText('VELOCIDADE RELATIVA dP/dt (%/ponto)', padLeft, derivY0 - 18);
 
   const barW = (w - padLeft - padRight) / velocities.length;
   for (let i = 0; i < velocities.length; i++) {
     const vel = velocities[i];
     const x = padLeft + i * barW;
-    const barH = Math.min(22, Math.abs(vel) * 45);
+    const barH = Math.min(22, Math.abs(vel) * 35);
     const y = vel >= 0 ? derivY0 - barH : derivY0;
     ctx.fillStyle = vel >= 0 ? '#10B981' : '#EF4444';
-    ctx.fillRect(x, y, Math.max(1, barW - 1), barH);
+    ctx.fillRect(x, y, Math.max(1, barW - 0.5), barH);
   }
 
   // Rótulos de tempo no eixo X
   ctx.fillStyle = '#6B7280';
   ctx.font = '9px JetBrains Mono';
   ctx.textAlign = 'center';
-  const step = Math.floor(timestamps.length / 6);
-  for (let i = 0; i < timestamps.length; i += step) {
+  const totalPoints = timestamps.length;
+  const numLabels = Math.min(7, totalPoints);
+  const step = Math.max(1, Math.floor(totalPoints / (numLabels - 1)));
+
+  for (let i = 0; i < totalPoints; i += step) {
     const x = getX(i);
-    ctx.fillText(timestamps[i], x, h - 6);
+    ctx.fillText(timestamps[i], x, h - 8);
   }
+
+  // 4. CROSSHAIR & INSPEÇÃO INTERATIVA
+  if (hoveredDataIndex >= 0 && hoveredDataIndex < prices.length) {
+    const i = hoveredDataIndex;
+    const x = getX(i);
+    const y = getY(prices[i]);
+
+    // Linha vertical do crosshair
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.4)';
+    ctx.lineWidth = 1;
+    ctx.setLineDash([2, 2]);
+    ctx.beginPath();
+    ctx.moveTo(x, padTop);
+    ctx.lineTo(x, h - padBottom + 10);
+    ctx.stroke();
+
+    // Ponto no preço
+    ctx.setLineDash([]);
+    ctx.fillStyle = '#F59E0B';
+    ctx.beginPath();
+    ctx.arc(x, y, 5, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.strokeStyle = '#FFFFFF';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+
+    // Atualizar badge flutuante
+    const badge = document.getElementById('chartInspectBadge');
+    if (badge) {
+      const pVal = isUsdt ? `R$ ${prices[i].toFixed(4)}` : `R$ ${prices[i].toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`;
+      const upVal = isUsdt ? `R$ ${upper[i].toFixed(4)}` : `R$ ${upper[i].toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`;
+      const lowVal = isUsdt ? `R$ ${lower[i].toFixed(4)}` : `R$ ${lower[i].toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`;
+      const velVal = `${velocities[i] >= 0 ? '+' : ''}${velocities[i].toFixed(3)}%`;
+
+      badge.style.display = 'block';
+      badge.innerHTML = `
+        <div class="ib-time">⏱️ ${timestamps[i]}</div>
+        <div class="ib-price">Cotação: <b>${pVal}</b></div>
+        <div class="ib-bands">Bandas: ${lowVal} ↔ ${upVal}</div>
+        <div class="ib-vel">Velocidade: <b style="color: ${velocities[i] >= 0 ? '#10B981' : '#EF4444'}">${velVal}</b></div>
+      `;
+
+      const badgeW = 200;
+      let badgeLeft = x + 15;
+      if (badgeLeft + badgeW > w - 10) badgeLeft = x - badgeW - 15;
+      badge.style.left = `${badgeLeft}px`;
+      badge.style.top = `${Math.max(10, Math.min(h - 130, y - 20))}px`;
+    }
+  } else {
+    const badge = document.getElementById('chartInspectBadge');
+    if (badge) badge.style.display = 'none';
+  }
+}
+
+function initCanvasInteractions() {
+  const canvas = document.getElementById('kineticsMainCanvas');
+  const wrapper = document.getElementById('canvasWrapper');
+  if (!canvas || !wrapper) return;
+
+  const handleMove = (e) => {
+    const rect = canvas.getBoundingClientRect();
+    const clientX = e.clientX - rect.left;
+    const padLeft = 75;
+    const padRight = 30;
+    const w = rect.width;
+
+    const assetsData = window.ASSETS_KINETICS_DATA || {};
+    const asset = assetsData[currentKineticsAsset] || {};
+    const tfData = (asset.timeframes && asset.timeframes[currentKineticsTimeframe]) || {};
+    const prices = (tfData.series && tfData.series.prices) || [];
+
+    if (prices.length === 0 || clientX < padLeft || clientX > w - padRight) {
+      hoveredDataIndex = -1;
+      renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, assetsData);
+      return;
+    }
+
+    const relX = (clientX - padLeft) / (w - padLeft - padRight);
+    const idx = Math.max(0, Math.min(prices.length - 1, Math.round(relX * (prices.length - 1))));
+
+    if (hoveredDataIndex !== idx) {
+      hoveredDataIndex = idx;
+      renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, assetsData);
+    }
+  };
+
+  const handleLeave = () => {
+    hoveredDataIndex = -1;
+    const data = window.ASSETS_KINETICS_DATA || {};
+    renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, data);
+  };
+
+  canvas.addEventListener('mousemove', handleMove);
+  canvas.addEventListener('mouseleave', handleLeave);
+  canvas.addEventListener('touchmove', (e) => {
+    if (e.touches && e.touches[0]) handleMove(e.touches[0]);
+  });
+  canvas.addEventListener('touchend', handleLeave);
 }
 
 // ------------------------------------------------------------------------------
@@ -276,7 +437,7 @@ function startLiveBinancePoller() {
       const res = await fetch(url);
       const data = await res.json();
 
-      if (Array.isArray(data)) {
+      if (Array.isArray(data) && window.ASSETS_KINETICS_DATA) {
         const pricesMap = {};
         data.forEach(item => {
           if (symbols.includes(item.symbol)) {
@@ -284,18 +445,34 @@ function startLiveBinancePoller() {
           }
         });
 
-        // Atualizar memória do cliente
-        if (window.ASSETS_KINETICS_DATA) {
-          for (const [sym, p] of Object.entries(pricesMap)) {
-            if (window.ASSETS_KINETICS_DATA[sym]) {
-              const oldP = window.ASSETS_KINETICS_DATA[sym].preco_atual;
-              const deltaPct = ((p / oldP) - 1) * 100;
-              window.ASSETS_KINETICS_DATA[sym].preco_atual = p;
-              window.ASSETS_KINETICS_DATA[sym].velocidade_inst = deltaPct;
-              window.ASSETS_KINETICS_DATA[sym].poder_subida_thrust = Math.max(5, Math.min(95, 50 + deltaPct * 30));
+        // Adicionar PAXG calculado
+        if (pricesMap['USDTBRL']) {
+          pricesMap['PAXGBRL'] = 4587.0 * pricesMap['USDTBRL'];
+        }
+
+        for (const [sym, p] of Object.entries(pricesMap)) {
+          if (window.ASSETS_KINETICS_DATA[sym]) {
+            const oldP = window.ASSETS_KINETICS_DATA[sym].preco_atual || p;
+            const deltaPct = ((p / oldP) - 1) * 100;
+            window.ASSETS_KINETICS_DATA[sym].preco_atual = p;
+            
+            // Atualizar timeframe ativo na memória
+            const curTF = window.ASSETS_KINETICS_DATA[sym].timeframes[currentKineticsTimeframe];
+            if (curTF) {
+              curTF.velocidade_inst = deltaPct;
+              curTF.poder_subida_thrust = Math.max(5, Math.min(95, 50 + deltaPct * 30));
+              curTF.estado_cinetico = curTF.poder_subida_thrust > 62 ? 'PROPULSAO_ALTA' : (curTF.poder_subida_thrust < 38 ? 'DESACELERACAO_EXAUSTAO' : 'EQUILIBRIO_INERCIAL');
+              
+              if (curTF.series && curTF.series.prices) {
+                curTF.series.prices[curTF.series.prices.length - 1] = p;
+              }
             }
           }
-          renderKineticsCockpit(currentKineticsAsset, window.ASSETS_KINETICS_DATA);
+        }
+
+        renderKineticsCockpit(currentKineticsAsset, currentKineticsTimeframe, window.ASSETS_KINETICS_DATA);
+        if (hoveredDataIndex === -1) {
+          renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, window.ASSETS_KINETICS_DATA);
         }
       }
     } catch (e) {

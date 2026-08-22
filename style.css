@@ -1346,6 +1346,49 @@ input[type="range"]::-webkit-slider-thumb {
   gap: 14px;
   font-family: var(--font-mono);
   font-size: 0.72rem;
+  align-items: center;
+}
+
+.chart-card-header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.timeframe-buttons-bar {
+  display: flex;
+  gap: 6px;
+  background: rgba(3, 7, 18, 0.6);
+  padding: 3px;
+  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+}
+
+.tf-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tf-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+}
+
+.tf-btn.active {
+  background: var(--accent-cyan);
+  color: #030712;
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 10px rgba(6, 182, 212, 0.4);
 }
 
 .kinetics-canvas-box {
@@ -1354,12 +1397,71 @@ input[type="range"]::-webkit-slider-thumb {
   border-radius: 10px;
   overflow: hidden;
   margin-top: 10px;
+  position: relative;
 }
 
 #kineticsMainCanvas {
   display: block;
   width: 100%;
-  height: 360px;
+  height: 380px;
+  cursor: crosshair;
+}
+
+.chart-hover-inspect {
+  position: absolute;
+  display: none;
+  background: rgba(10, 16, 30, 0.94);
+  border: 1px solid var(--accent-cyan);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-primary);
+  pointer-events: none;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  z-index: 10;
+  backdrop-filter: blur(8px);
+}
+
+.ib-time { color: var(--accent-amber); font-weight: 700; margin-bottom: 3px; font-size: 0.75rem; }
+.ib-price { color: #FFFFFF; font-size: 0.85rem; margin-bottom: 2px; }
+.ib-bands { color: #9CA3AF; font-size: 0.68rem; margin-bottom: 2px; }
+.ib-vel { font-size: 0.72rem; }
+
+/* Graph Controls & Nav Hint */
+.graph-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.mini-hud-btn {
+  background: rgba(6, 182, 212, 0.12);
+  border: 1px solid var(--accent-cyan);
+  color: var(--accent-cyan);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mini-hud-btn:hover {
+  background: var(--accent-cyan);
+  color: #030712;
+  box-shadow: 0 0 10px rgba(6, 182, 212, 0.4);
+}
+
+.graph-nav-hint {
+  position: absolute;
+  bottom: 8px;
+  left: 12px;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: #6B7280;
+  pointer-events: none;
 }
 
 /* ==============================================================================

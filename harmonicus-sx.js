@@ -1,7 +1,7 @@
 /**
  * ==============================================================================
- * HARMONICUS SX // PÁGINA 2: SYNTHESIZER & SPECTRAL TOPOLOGY CONTROLLER (v2.0)
- * Reatividade Total: Osciloscópio Dinâmico, Grafo D3.js com Fótons e Radio Tuner
+ * HARMONICUS SX // PÁGINA 2: SYNTHESIZER & SPECTRAL TOPOLOGY CONTROLLER (v3.0)
+ * Reatividade Total: Knob Fluido, Grafo D3 com Zoom/Pan/Drag e Osciloscópio CRT
  * ==============================================================================
  */
 
@@ -17,6 +17,8 @@ let activeMorlet = -0.59;
 
 let d3GraphSimulation = null;
 let d3SvgSelection = null;
+let d3ZoomRoot = null;
+let d3ZoomBehavior = null;
 let d3NodesData = [];
 let d3EdgesData = [];
 
@@ -57,11 +59,18 @@ function initTabNavigation() {
         }
       });
 
-      // Se foi para a página de cinéticas, re-renderizar canvas para garantir tamanho correto
+      // Se navegou para o Sintetizador, reiniciar simulação do grafo para garantir centralização
+      if (targetPage === 'pageHarmonicus' && d3GraphSimulation) {
+        setTimeout(() => {
+          if (d3GraphSimulation) d3GraphSimulation.alpha(0.3).restart();
+        }, 100);
+      }
+
+      // Se foi para a página de cinéticas, re-renderizar canvas
       if (targetPage === 'pageKinetics' && typeof renderKineticsChart === 'function') {
         setTimeout(() => {
-          renderKineticsChart(window.currentKineticsAsset || 'BTCBRL', window.ASSETS_KINETICS_DATA || {});
-        }, 50);
+          renderKineticsChart(window.currentKineticsAsset || 'BTCBRL', window.currentKineticsTimeframe || '24h', window.ASSETS_KINETICS_DATA || {});
+        }, 80);
       }
     });
   });
@@ -100,7 +109,7 @@ function initAudioControls() {
 }
 
 // ------------------------------------------------------------------------------
-// 3. SINTONIZADOR DE RÁDIO ANALÓGICO (ROTARY RADIO TUNER KNOB)
+// 3. SINTONIZADOR DE RÁDIO ANALÓGICO FLUIDO (ROTARY RADIO TUNER KNOB)
 // ------------------------------------------------------------------------------
 function initRadioTuner(bands) {
   const dial = document.getElementById('tunerDial');
@@ -113,8 +122,8 @@ function initRadioTuner(bands) {
 
   let currentAngle = 35;
   let isDragging = false;
+  let startY = 0;
   let startAngle = 0;
-  let startMouseAngle = 0;
 
   const bandAngles = {
     'ultra_high': -75,
@@ -123,18 +132,8 @@ function initRadioTuner(bands) {
     'macro': 95
   };
 
-  const getAngleFromCenter = (e) => {
-    const rect = dial.getBoundingClientRect();
-    const centerX = rect.left + rect.width / 2;
-    const centerY = rect.top + rect.height / 2;
-    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
-    const clientY = e.touches ? e.touches[0].clientY : e.clientY;
-    const rad = Math.atan2(clientY - centerY, clientX - centerX);
-    return rad * (180 / Math.PI);
-  };
-
   const setDialRotation = (deg) => {
-    currentAngle = Math.max(-110, Math.min(110, deg));
+    currentAngle = Math.max(-105, Math.min(105, deg));
     dial.style.transform = `rotate(${currentAngle}deg)`;
 
     let closestBand = 'daily';
@@ -160,18 +159,20 @@ function initRadioTuner(bands) {
     }
   };
 
+  // Suporte a arrasto vertical contínuo intuitivo
   const onStart = (e) => {
     isDragging = true;
-    startMouseAngle = getAngleFromCenter(e);
+    startY = e.touches ? e.touches[0].clientY : e.clientY;
     startAngle = currentAngle;
     e.preventDefault();
   };
 
   const onMove = (e) => {
     if (!isDragging) return;
-    const mouseAngle = getAngleFromCenter(e);
-    const delta = mouseAngle - startMouseAngle;
-    setDialRotation(startAngle + delta);
+    const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+    const deltaY = startY - clientY;
+    // Sensibilidade de rotação fluida
+    setDialRotation(startAngle + deltaY * 1.5);
   };
 
   const onEnd = () => { isDragging = false; };
@@ -179,16 +180,18 @@ function initRadioTuner(bands) {
   dial.addEventListener('mousedown', onStart);
   window.addEventListener('mousemove', onMove);
   window.addEventListener('mouseup', onEnd);
-  dial.addEventListener('touchstart', onStart);
-  window.addEventListener('touchmove', onMove);
+  dial.addEventListener('touchstart', onStart, { passive: false });
+  window.addEventListener('touchmove', onMove, { passive: false });
   window.addEventListener('touchend', onEnd);
 
-  dial.addEventListener('wheel', (e) => {
+  // Roda do mouse
+  dial.parentElement.addEventListener('wheel', (e) => {
     e.preventDefault();
     const step = e.deltaY > 0 ? 15 : -15;
     setDialRotation(currentAngle + step);
-  });
+  }, { passive: false });
 
+  // Clique direto nos chips de banda
   markers.forEach(m => {
     m.addEventListener('click', () => {
       const bId = m.getAttribute('data-band');
@@ -198,12 +201,15 @@ function initRadioTuner(bands) {
   });
 
   function updateTunerReadout(bandId, bandsList) {
-    const bandObj = bandsList.find(b => b.id === bandId) || bandsList[2];
-    if (bandObj) {
-      if (bandNameEl) bandNameEl.textContent = `ONDAS: ${bandObj.nome.toUpperCase()}`;
-      if (bandFreqEl) bandFreqEl.textContent = `Banda: ${bandObj.freq_str} | ${bandObj.acorde_nome}`;
-      if (bandDescEl) bandDescEl.textContent = bandObj.descricao;
-    }
+    const bandObj = (bandsList && bandsList.find(b => b.id === bandId)) || {
+      nome: bandId.toUpperCase(),
+      freq_str: '24 HORAS',
+      acorde_nome: 'UNÍSSONO',
+      descricao: 'Harmônico diário dominante de mercado.'
+    };
+    if (bandNameEl) bandNameEl.textContent = `ONDAS: ${bandObj.nome.toUpperCase()}`;
+    if (bandFreqEl) bandFreqEl.textContent = `Banda: ${bandObj.freq_str} | ${bandObj.acorde_nome}`;
+    if (bandDescEl) bandDescEl.textContent = bandObj.descricao;
   }
 
   setDialRotation(35);
@@ -226,7 +232,7 @@ function initChordSelector() {
 }
 
 // ------------------------------------------------------------------------------
-// 5. MINI KNOBS DE FÍSICA
+// 5. MINI KNOBS DE FÍSICA ESTATÍSTICA (LANGEVIN, FOURIER, MORLET)
 // ------------------------------------------------------------------------------
 function initPhysicsMiniKnobs() {
   const setupMiniKnob = (id, valId, min, max, initialVal, isInteger, callback) => {
@@ -254,7 +260,7 @@ function initPhysicsMiniKnobs() {
       const clientY = e.touches ? e.touches[0].clientY : e.clientY;
       const deltaY = startY - clientY;
       const range = max - min;
-      curVal = Math.max(min, Math.min(max, startVal + (deltaY / 120) * range));
+      curVal = Math.max(min, Math.min(max, startVal + (deltaY / 100) * range));
       
       angle = ((curVal - min) / (max - min)) * 240 - 120;
       dial.style.transform = `rotate(${angle}deg)`;
@@ -270,29 +276,41 @@ function initPhysicsMiniKnobs() {
     dial.addEventListener('mousedown', onStart);
     window.addEventListener('mousemove', onMove);
     window.addEventListener('mouseup', onEnd);
-    dial.addEventListener('touchstart', onStart);
-    window.addEventListener('touchmove', onMove);
+    dial.addEventListener('touchstart', onStart, { passive: false });
+    window.addEventListener('touchmove', onMove, { passive: false });
     window.addEventListener('touchend', onEnd);
   };
 
   setupMiniKnob('knobDamping', 'valDamping', 0.1, 1.0, 0.50, false, (v) => {
     activeDamping = v;
     window.harmonicusAudio.updatePhysicsParams(activeDamping, activeFourier, activeMorlet);
+    modulateGraphPhysics();
   });
 
-  setupMiniKnob('knobFourier', 'valFourier', 5.0, 35.0, 20.98, true, (v) => {
+  setupMiniKnob('knobFourier', 'valFourier', 5.0, 45.0, 20.98, true, (v) => {
     activeFourier = v;
     window.harmonicusAudio.updatePhysicsParams(activeDamping, activeFourier, activeMorlet);
+    modulateGraphPhysics();
   });
 
   setupMiniKnob('knobMorlet', 'valMorlet', -5.0, 50.0, -0.59, false, (v) => {
     activeMorlet = v;
     window.harmonicusAudio.updatePhysicsParams(activeDamping, activeFourier, activeMorlet);
+    modulateGraphPhysics();
   });
 }
 
+function modulateGraphPhysics() {
+  if (!d3GraphSimulation) return;
+  // Langevin gama controla repulsão e atrito
+  d3GraphSimulation.force('charge').strength(-150 - activeDamping * 180);
+  // Fourier EF controla a distância elástica das arestas
+  d3GraphSimulation.force('link').distance(d => Math.max(60, 160 - (activeFourier * 2.2) - (d.coerencia * 50)));
+  d3GraphSimulation.alpha(0.25).restart();
+}
+
 // ------------------------------------------------------------------------------
-// 6. OSCILOSCÓPIO CRT DE 60 FPS COM RESPOSTA VISUAL TOTAL
+// 6. OSCILOSCÓPIO CRT DE 60 FPS REATIVO A TODOS OS BOTÕES
 // ------------------------------------------------------------------------------
 function initOscilloscope() {
   const canvas = document.getElementById('oscCanvas');
@@ -336,19 +354,18 @@ function initOscilloscope() {
     const isPlaying = window.harmonicusAudio && window.harmonicusAudio.isPlaying;
     const dataArray = isPlaying ? window.harmonicusAudio.getWaveformData() : null;
 
-    // Frequência base modulada pelo sintonizador de rádio
     let freqMult = 1.0;
     let speedMult = 1.0;
     switch (activeTunerBand) {
-      case 'ultra_high': freqMult = 3.5; speedMult = 2.4; break;
-      case 'intraday':   freqMult = 2.0; speedMult = 1.6; break;
+      case 'ultra_high': freqMult = 3.8; speedMult = 2.5; break;
+      case 'intraday':   freqMult = 2.2; speedMult = 1.6; break;
       case 'daily':      freqMult = 1.0; speedMult = 1.0; break;
-      case 'macro':      freqMult = 0.4; speedMult = 0.4; break;
+      case 'macro':      freqMult = 0.45; speedMult = 0.4; break;
     }
 
-    phase += 0.03 * speedMult;
+    phase += 0.035 * speedMult;
 
-    // Cor do raio CRT baseada no acorde
+    // Cor do feixe CRT
     let beamColor = '#06B6D4';
     if (activeHarmonicChord === 'tension') beamColor = '#EF4444';
     else if (activeHarmonicChord === 'major') beamColor = '#10B981';
@@ -371,22 +388,17 @@ function initOscilloscope() {
         const raw = dataArray[Math.floor((i / points) * dataArray.length)];
         v = raw / 128.0;
       } else {
-        // Simulação dinâmica e rica refletindo os controles exatos da interface
         const t = (i * 0.03 * freqMult) + phase;
-        const noise = (Math.random() - 0.5) * (activeDamping * 0.25);
+        const noise = (Math.random() - 0.5) * (activeDamping * 0.22);
         
         if (activeHarmonicChord === 'unison') {
-          // Harmônicos perfeitos (C3, G3, C4)
           v = 1.0 + 0.28 * Math.sin(t) + 0.14 * Math.sin(t * 1.5) + 0.07 * Math.sin(t * 2.0) + noise;
         } else if (activeHarmonicChord === 'tension') {
-          // Dissonância cortante de trítono (F#3 vs C3) com pulso de dente de serra
           const saw = (t % (Math.PI * 2)) / Math.PI - 1.0;
-          v = 1.0 + 0.32 * Math.sin(t) + 0.22 * Math.sin(t * 1.414) + 0.12 * saw + noise * 1.8;
+          v = 1.0 + 0.32 * Math.sin(t) + 0.22 * Math.sin(t * 1.414) + 0.12 * saw + noise * 1.6;
         } else if (activeHarmonicChord === 'major') {
-          // Tríade maior brilhante (C, E, G, B)
           v = 1.0 + 0.25 * Math.sin(t) + 0.18 * Math.sin(t * 1.25) + 0.12 * Math.sin(t * 1.5) + noise * 0.5;
         } else {
-          // Arpeggio etéreo suave
           v = 1.0 + 0.22 * Math.sin(t * 0.8) + 0.15 * Math.cos(t * 1.6 - phase * 0.5) + noise * 0.3;
         }
       }
@@ -406,37 +418,59 @@ function initOscilloscope() {
 }
 
 // ------------------------------------------------------------------------------
-// 7. GRAFO TOPOLÓGICO DOS 26 ATIVOS COM INTERAÇÃO DINÂMICA (D3.JS)
+// 7. GRAFO TOPOLÓGICO DOS 26 ATIVOS COM ZOOM, PAN E NÓS ARRASTÁVEIS (D3.JS)
 // ------------------------------------------------------------------------------
 function initD3NetworkGraph(nodes, edges) {
   const container = document.getElementById('networkGraphStage');
   const tooltip = document.getElementById('nodeTooltip');
+  const btnReset = document.getElementById('btnResetZoom');
   if (!container || !window.d3 || nodes.length === 0) return;
 
   d3NodesData = nodes;
   d3EdgesData = edges;
 
   const width = container.clientWidth || 900;
-  const height = container.clientHeight || 400;
+  const height = container.clientHeight || 420;
 
   container.querySelectorAll('svg').forEach(s => s.remove());
 
   const svg = d3.select(container)
     .append('svg')
-    .attr('width', width)
-    .attr('height', height)
+    .attr('width', '100%')
+    .attr('height', '100%')
     .attr('viewBox', [0, 0, width, height]);
 
   d3SvgSelection = svg;
 
+  // Zoom and Pan Container
+  d3ZoomRoot = svg.append('g').attr('class', 'zoom-root');
+
+  d3ZoomBehavior = d3.zoom()
+    .scaleExtent([0.35, 3.5])
+    .on('zoom', (event) => {
+      d3ZoomRoot.attr('transform', event.transform);
+    });
+
+  svg.call(d3ZoomBehavior);
+
+  if (btnReset) {
+    btnReset.addEventListener('click', () => {
+      svg.transition().duration(600).call(
+        d3ZoomBehavior.transform,
+        d3.zoomIdentity.translate(0, 0).scale(1)
+      );
+    });
+  }
+
+  // Simulação física contida
   d3GraphSimulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(edges).id(d => d.id).distance(d => 140 - (d.coerencia * 70)))
-    .force('charge', d3.forceManyBody().strength(-240))
+    .force('link', d3.forceLink(edges).id(d => d.id).distance(d => 110 - (d.coerencia * 45)))
+    .force('charge', d3.forceManyBody().strength(-200))
     .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collision', d3.forceCollide().radius(28));
+    .force('collision', d3.forceCollide().radius(26));
 
   // Arestas
-  const link = svg.append('g')
+  const link = d3ZoomRoot.append('g')
     .attr('class', 'links')
     .selectAll('line')
     .data(edges)
@@ -446,7 +480,7 @@ function initD3NetworkGraph(nodes, edges) {
     .attr('stroke-opacity', d => Math.max(0.25, d.coerencia));
 
   // Nós
-  const node = svg.append('g')
+  const node = d3ZoomRoot.append('g')
     .attr('class', 'nodes')
     .selectAll('g')
     .data(nodes)
@@ -459,12 +493,12 @@ function initD3NetworkGraph(nodes, edges) {
       .on('end', dragended));
 
   node.append('circle')
-    .attr('r', d => Math.max(12, 14 + d.autovetor_pc1 * 20))
+    .attr('r', d => Math.max(12, 14 + d.autovetor_pc1 * 18))
     .attr('fill', d => d.cor)
     .attr('stroke', '#FFFFFF')
     .attr('stroke-width', 1.5)
     .attr('stroke-opacity', 0.85)
-    .style('cursor', 'pointer')
+    .style('cursor', 'grab')
     .style('filter', d => `drop-shadow(0 0 8px ${d.cor})`);
 
   node.append('text')
@@ -487,7 +521,7 @@ function initD3NetworkGraph(nodes, edges) {
       Volatilidade Anual: <b>${d.vol}%</b><br>
       Peso Autovetor PC1: <b>${d.autovetor_pc1.toFixed(3)}</b><br>
       Afinação Sonora: <b>${d.nota} (${d.fundamental_hz} Hz)</b><br>
-      <i style="color:#06B6D4; font-size:10px;">Clique para tocar a nota fundamental</i>
+      <i style="color:#06B6D4; font-size:10px;">Clique para tocar a nota • Arraste para mover</i>
     `;
   })
   .on('mousemove', (event) => {
@@ -504,17 +538,24 @@ function initD3NetworkGraph(nodes, edges) {
     
     // Efeito de pulso no nó clicado
     d3.select(event.currentTarget).select('circle')
-      .transition().duration(120).attr('r', 26)
-      .transition().duration(250).attr('r', Math.max(12, 14 + d.autovetor_pc1 * 20));
+      .transition().duration(120).attr('r', 24)
+      .transition().duration(250).attr('r', Math.max(12, 14 + d.autovetor_pc1 * 18));
 
     // Acender arestas conectadas
     link.transition().duration(150)
       .attr('stroke', l => (l.source.id === d.id || l.target.id === d.id) ? '#F59E0B' : '#4B5563')
-      .attr('stroke-width', l => (l.source.id === d.id || l.target.id === d.id) ? 4 : 1.5)
+      .attr('stroke-width', l => (l.source.id === d.id || l.target.id === d.id) ? 3.5 : 1.5)
       .attr('stroke-opacity', l => (l.source.id === d.id || l.target.id === d.id) ? 1.0 : 0.2);
   });
 
+  // Tick com contenção suave na tela
   d3GraphSimulation.on('tick', () => {
+    nodes.forEach(d => {
+      const r = 24;
+      d.x = Math.max(r, Math.min(width - r, d.x));
+      d.y = Math.max(r, Math.min(height - r, d.y));
+    });
+
     link
       .attr('x1', d => d.source.x)
       .attr('y1', d => d.source.y)
@@ -548,66 +589,64 @@ function updateD3GraphForBand(bandId) {
   const links = d3SvgSelection.selectAll('.links line');
   
   if (bandId === 'ultra_high') {
-    // Foco em Criptos de alta velocidade
     links.transition().duration(300)
+      .attr('stroke', d => (d.source.classe === 'Cripto' && d.target.classe === 'Cripto') ? '#F59E0B' : '#374151')
       .attr('stroke-opacity', d => (d.source.classe === 'Cripto' && d.target.classe === 'Cripto') ? 0.9 : 0.15)
-      .attr('stroke', d => (d.source.classe === 'Cripto' && d.target.classe === 'Cripto') ? '#EC4899' : '#374151');
+      .attr('stroke-width', d => (d.source.classe === 'Cripto' && d.target.classe === 'Cripto') ? 3 : 1);
   } else if (bandId === 'intraday') {
-    // Foco em TradFi & Dólar
     links.transition().duration(300)
-      .attr('stroke-opacity', d => d.tipo.includes('DOLLAR') || d.tipo.includes('EQUITY') ? 0.95 : 0.2)
-      .attr('stroke', d => d.tipo.includes('DOLLAR') ? '#10B981' : '#06B6D4');
+      .attr('stroke', d => d.coerencia >= 0.70 ? '#06B6D4' : '#374151')
+      .attr('stroke-opacity', d => d.coerencia >= 0.70 ? 0.85 : 0.15)
+      .attr('stroke-width', d => d.coerencia >= 0.70 ? 2.5 : 1);
   } else if (bandId === 'daily') {
-    // Equilíbrio global
     links.transition().duration(300)
+      .attr('stroke', d => d.coerencia >= 0.50 ? '#10B981' : '#4B5563')
       .attr('stroke-opacity', d => Math.max(0.25, d.coerencia))
-      .attr('stroke', d => d.coerencia >= 0.75 ? '#06B6D4' : '#4B5563');
+      .attr('stroke-width', d => Math.max(1.5, d.peso * 0.8));
   } else {
-    // Macro secular (Ouro, VIX, Juros)
+    // Macro secular
     links.transition().duration(300)
-      .attr('stroke-opacity', d => (d.source.classe === 'Macro' || d.target.classe === 'Macro' || d.source.classe === 'Commodities') ? 0.95 : 0.15)
-      .attr('stroke', d => d.tipo.includes('GUIANA') ? '#F59E0B' : '#EF4444');
+      .attr('stroke', d => (d.source.classe === 'Macro' || d.target.classe === 'Macro') ? '#EF4444' : '#374151')
+      .attr('stroke-opacity', d => (d.source.classe === 'Macro' || d.target.classe === 'Macro') ? 0.9 : 0.15)
+      .attr('stroke-width', d => (d.source.classe === 'Macro' || d.target.classe === 'Macro') ? 3 : 1);
   }
 }
 
-function updateD3GraphForChord(chordType) {
+function updateD3GraphForChord(chordId) {
   if (!d3SvgSelection) return;
-  const nodes = d3SvgSelection.selectAll('.node-group');
+  const nodes = d3SvgSelection.selectAll('.nodes .node-group');
 
-  nodes.each(function(d) {
-    const el = d3.select(this).select('circle');
-    let shouldPulse = false;
+  const chordActiveNodes = {
+    'unison': ['BTCBRL', 'ETHBRL', 'SOLBRL', 'SP500_Pts', 'IBOV_Pts'],
+    'tension': ['VIX_Index', 'BTCBRL', 'US10Y_Yield', 'DXY_Index'],
+    'major': ['BTCBRL', 'ETHBRL', 'SOLBRL', 'LINKBRL', 'BNBBRL'],
+    'ether': ['USDTBRL', 'EUR_BRL', 'PAXGBRL', 'GOLD_USD']
+  };
 
-    if (chordType === 'unison' && ['BTCBRL', 'ETHBRL', 'SOLBRL'].includes(d.id)) shouldPulse = true;
-    if (chordType === 'tension' && ['VIX_Index', 'Treasury_10Y', 'BTCBRL'].includes(d.id)) shouldPulse = true;
-    if (chordType === 'major' && ['BTCBRL', 'PAXG_Ouro', 'ADABRL', 'ETHBRL'].includes(d.id)) shouldPulse = true;
-    if (chordType === 'ether' && ['USDTBRL', 'USD_BRL', 'LINKBRL', 'PAXG_Ouro'].includes(d.id)) shouldPulse = true;
+  const activeList = chordActiveNodes[chordId] || [];
 
-    if (shouldPulse) {
-      el.transition().duration(200).attr('r', 24).style('stroke', '#FFFFFF').style('stroke-width', 3)
-        .transition().duration(400).attr('r', Math.max(12, 14 + d.autovetor_pc1 * 20)).style('stroke-width', 1.5);
-    }
-  });
+  nodes.select('circle')
+    .transition().duration(300)
+    .attr('stroke-width', d => activeList.includes(d.id) ? 3.5 : 1.5)
+    .attr('stroke', d => activeList.includes(d.id) ? '#FFFFFF' : 'rgba(255,255,255,0.4)')
+    .style('filter', d => activeList.includes(d.id) ? `drop-shadow(0 0 16px ${d.cor})` : `drop-shadow(0 0 4px ${d.cor})`);
 }
 
-// ------------------------------------------------------------------------------
-// 8. FATIAS CWT MORLET
-// ------------------------------------------------------------------------------
 function renderCWTSlices(slices) {
   const container = document.getElementById('cwtBarsContainer');
-  if (!container || slices.length === 0) return;
+  if (!container || !slices || slices.length === 0) return;
 
   container.innerHTML = slices.map(s => {
-    const isCalm = s.status === 'CALMARIA_ESPECTRAL' || s.status === 'ATERRAMENTO_CAIXA';
-    const color = isCalm ? '#10B981' : '#F59E0B';
-
+    const isNeg = s.energy_db < 0;
+    const absVal = Math.min(100, Math.abs(s.energy_db) * 4);
+    const color = isNeg ? '#06B6D4' : '#EF4444';
     return `
-      <div class="cwt-row">
-        <span class="cwt-ts">${s.timestamp}</span>
-        <div class="cwt-track">
-          <div class="cwt-seg" style="width: ${Math.min(100, Math.max(15, s.escala_15m * 10))}%; background: ${color};"></div>
+      <div class="cwt-bar-row">
+        <div class="cwt-bar-label"><span>${s.scale}</span> <small>${s.freq}</small></div>
+        <div class="cwt-bar-track">
+          <div class="cwt-bar-fill" style="width: ${absVal}%; background: ${color};"></div>
         </div>
-        <span class="cwt-status" style="color: ${color};">${s.status}</span>
+        <div class="cwt-bar-val" style="color: ${color}">${s.energy_db > 0 ? '+' : ''}${s.energy_db} dB</div>
       </div>
     `;
   }).join('');
