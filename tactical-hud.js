@@ -1,7 +1,8 @@
 /**
  * ==============================================================================
- * HARMONICUS SX // PÁGINA 1: PORTFOLIO TACTICAL HUD CONTROLLER
- * Renderização dinâmica de proximidade dos 8 Planos, Custódia e Travas
+ * HARMONICUS SX // PÁGINA 1: PORTFOLIO TACTICAL HUD CONTROLLER (v3.6)
+ * Renderização dinâmica de proximidade dos 8 Planos com Controle de Histórico,
+ * Custódia ao Vivo, Descrições Executivas e Travas de Ruptura
  * ==============================================================================
  */
 
@@ -9,13 +10,17 @@ document.addEventListener('DOMContentLoaded', () => {
   initTacticalHUD();
 });
 
+let currentThermoTimeframe = '24h';
+let activePlanFilter = 'all';
+
 function initTacticalHUD() {
   const plans = window.PLANOS_TACTICAL_DATA || [];
   const portfolio = window.PORTFOLIO_STATE || {};
 
   renderHeroPatrimony(portfolio);
-  renderThermometer(plans);
-  renderPlansGrid(plans, 'all');
+  initThermoTimeframeControls(plans);
+  renderThermometer(plans, currentThermoTimeframe);
+  renderPlansGrid(plans, activePlanFilter);
   initFilterButtons(plans);
 }
 
@@ -57,28 +62,91 @@ function renderHeroPatrimony(p) {
   }
 }
 
-function renderThermometer(plans) {
-  const container = document.getElementById('thermometerList');
-  if (!container) return;
-
-  // Ordenar planos por maior proximidade (score decrescente)
-  const sorted = [...plans].sort((a, b) => b.proximidade_score - a.proximidade_score);
-
-  container.innerHTML = sorted.map((plan, idx) => `
-    <div class="thermo-card">
-      <div class="thermo-header">
-        <span class="thermo-rank">#${idx + 1} PROXIMIDADE</span>
-        <span class="thermo-score-pill">${plan.proximidade_score}% SCORE</span>
-      </div>
-      <div class="thermo-name">${plan.icone} ${plan.nome}</div>
-      <div class="thermo-dist">${plan.distancia_display}</div>
-      <div class="thermo-bar-track">
-        <div class="thermo-bar-fill" style="width: ${plan.proximidade_score}%;"></div>
-      </div>
-    </div>
-  `).join('');
+// ------------------------------------------------------------------------------
+// CONTROLE DE HISTÓRICO DO TERMÔMETRO (1h, 5h, 24h, 7d, 1m, tudo)
+// ------------------------------------------------------------------------------
+function initThermoTimeframeControls(plans) {
+  const tfBtns = document.querySelectorAll('.thermo-tf-btn');
+  tfBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      tfBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentThermoTimeframe = btn.getAttribute('data-tf') || '24h';
+      renderThermometer(plans, currentThermoTimeframe);
+    });
+  });
 }
 
+function renderThermometer(plans, timeframe) {
+  const container = document.getElementById('thermometerList');
+  if (!container || !plans || plans.length === 0) return;
+
+  // Extrair score correspondente ao timeframe
+  const plansWithScore = plans.map(p => {
+    let score = p.proximidade_score;
+    if (p.historico_scores && p.historico_scores[timeframe] !== undefined) {
+      score = p.historico_scores[timeframe];
+    }
+    const score24h = (p.historico_scores && p.historico_scores['24h']) || p.proximidade_score;
+    const delta = score - score24h;
+    return {
+      ...p,
+      display_score: score,
+      delta: delta
+    };
+  });
+
+  // Ordenar por score decrescente
+  plansWithScore.sort((a, b) => b.display_score - a.display_score);
+
+  container.innerHTML = plansWithScore.map((plan, idx) => {
+    let deltaHtml = '';
+    if (timeframe !== '24h' && plan.delta !== 0) {
+      const isPos = plan.delta > 0;
+      deltaHtml = `<span class="thermo-delta-badge ${isPos ? 'pos' : 'neg'}">${isPos ? '▲ +' : '▼ '}${plan.delta}%</span>`;
+    }
+
+    return `
+      <div class="thermo-card" data-plan-id="${plan.id}" title="Clique para focar no ${plan.nome}">
+        <div class="thermo-header">
+          <span class="thermo-rank">#${idx + 1} PROXIMIDADE</span>
+          ${deltaHtml}
+          <span class="thermo-score-pill">${plan.display_score}% SCORE</span>
+        </div>
+        <div class="thermo-name">${plan.icone} ${plan.nome}</div>
+        <div class="thermo-dist">${plan.distancia_display}</div>
+        <div class="thermo-bar-track">
+          <div class="thermo-bar-fill" style="width: ${plan.display_score}%; background: ${plan.cor};"></div>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  // Ao clicar em qualquer termômetro, rolar suavemente e expandir o card do plano correspondente
+  container.querySelectorAll('.thermo-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const pId = card.getAttribute('data-plan-id');
+      const targetCard = document.getElementById(`planCard_${pId}`);
+      if (targetCard) {
+        targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        targetCard.style.boxShadow = '0 0 25px rgba(245, 158, 11, 0.6)';
+        const details = targetCard.querySelector('.plan-exec-details');
+        const btn = targetCard.querySelector('.plan-exec-toggle-btn');
+        if (details && !details.classList.contains('active')) {
+          details.classList.add('active');
+          if (btn) btn.textContent = '▲ RECOLHER DETALHES';
+        }
+        setTimeout(() => {
+          targetCard.style.boxShadow = '';
+        }, 2000);
+      }
+    });
+  });
+}
+
+// ------------------------------------------------------------------------------
+// GRID DOS 8 PLANOS COM DETALHES EXECUTIVOS EXPANSÍVEIS
+// ------------------------------------------------------------------------------
 function renderPlansGrid(plans, filter) {
   const container = document.getElementById('plansGrid');
   if (!container) return;
@@ -90,8 +158,12 @@ function renderPlansGrid(plans, filter) {
     const badgeClass = isLow ? 'badge-low' : 'badge-mid';
     const badgeText = isLow ? '🛡️ BAIXO RISCO' : '⚡ MÉDIO RISCO';
 
+    const execDesc = plan.descricao_executiva || 'Estratégia quantitativa calibrada para geração de alfa em regimes específicos de mercado.';
+    const condAtiv = plan.condicoes_ativacao || `• Gatilho: ${plan.alvo_str}<br>• Métrica base: ${plan.gatilho_desc}`;
+    const limTrav = plan.limitacoes_trava || `• ${plan.trava_ruptura}<br>• Cooldown mandatório de ${plan.cooldown_horas} horas.`;
+
     return `
-      <div class="plan-card" style="border-top: 3px solid ${plan.cor};">
+      <div class="plan-card" id="planCard_${plan.id}" style="border-top: 3px solid ${plan.cor};">
         <div>
           <div class="plan-card-header">
             <div class="plan-title-block">
@@ -124,6 +196,26 @@ function renderPlansGrid(plans, filter) {
             <div class="pr-item"><b>Trava de Ruptura:</b> ${plan.trava_ruptura}</div>
             <div class="pr-item"><b>Cooldown:</b> ${plan.cooldown_horas} horas</div>
           </div>
+
+          <!-- BOTÃO EXPANDIR DETALHES EXECUTIVOS -->
+          <button class="plan-exec-toggle-btn" data-target="details_${plan.id}">
+            ▼ DETALHES EXECUTIVOS & TRAVAS
+          </button>
+
+          <div class="plan-exec-details" id="details_${plan.id}">
+            <div class="pes-block">
+              <span class="pes-title">📋 DESCRIÇÃO EXECUTIVA</span>
+              <div class="pes-desc">${execDesc}</div>
+            </div>
+            <div class="pes-block">
+              <span class="pes-title">🎯 CONDIÇÕES DE ATIVAÇÃO</span>
+              <div class="pes-desc">${condAtiv}</div>
+            </div>
+            <div class="pes-block">
+              <span class="pes-title">🛡️ LIMITAÇÕES & TRAVAS DE SEGURANÇA</span>
+              <div class="pes-desc">${limTrav}</div>
+            </div>
+          </div>
         </div>
 
         <div class="plan-gauge-section">
@@ -138,6 +230,24 @@ function renderPlansGrid(plans, filter) {
       </div>
     `;
   }).join('');
+
+  // Event Listeners nos botões de toggle
+  container.querySelectorAll('.plan-exec-toggle-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const targetId = btn.getAttribute('data-target');
+      const detailsEl = document.getElementById(targetId);
+      if (detailsEl) {
+        const isCurrentlyActive = detailsEl.classList.contains('active');
+        if (isCurrentlyActive) {
+          detailsEl.classList.remove('active');
+          btn.textContent = '▼ DETALHES EXECUTIVOS & TRAVAS';
+        } else {
+          detailsEl.classList.add('active');
+          btn.textContent = '▲ RECOLHER DETALHES';
+        }
+      }
+    });
+  });
 }
 
 function initFilterButtons(plans) {
@@ -146,8 +256,8 @@ function initFilterButtons(plans) {
     btn.addEventListener('click', (e) => {
       buttons.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      const filter = btn.getAttribute('data-filter');
-      renderPlansGrid(plans, filter);
+      activePlanFilter = btn.getAttribute('data-filter');
+      renderPlansGrid(plans, activePlanFilter);
     });
   });
 }

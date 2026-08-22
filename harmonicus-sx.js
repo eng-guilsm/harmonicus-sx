@@ -1,6 +1,6 @@
 /**
  * ==============================================================================
- * HARMONICUS SX // PÁGINA 2: SYNTHESIZER & SPECTRAL TOPOLOGY CONTROLLER (v3.5)
+ * HARMONICUS SX // PÁGINA 2: SYNTHESIZER & SPECTRAL TOPOLOGY CONTROLLER (v3.6)
  * Processamento Digital de Sinais (DSP) de John F. Ehlers & Análise Espectral
  * Rastreamento Angular Circular 360º, Grafo Compacto & Foco de Tríades Opacas
  * ==============================================================================
@@ -34,7 +34,7 @@ function initHarmonicusSX() {
 }
 
 // ------------------------------------------------------------------------------
-// 1. NAVEGAÇÃO DE 3 ABAS
+// 1. NAVEGAÇÃO DE 3 ABAS COM RE-RENDERIZAÇÃO AUTOMÁTICA
 // ------------------------------------------------------------------------------
 function initTabNavigation() {
   const tabBtns = document.querySelectorAll('.nav-tab');
@@ -57,18 +57,19 @@ function initTabNavigation() {
         }
       });
 
-      // Se navegou para o Sintetizador, reiniciar simulação do grafo para garantir centralização
-      if (targetPage === 'pageHarmonicus' && d3GraphSimulation) {
+      // Se navegou para o Sintetizador, garantir renderização do Grafo D3
+      if (targetPage === 'pageHarmonicus') {
         setTimeout(() => {
-          if (d3GraphSimulation) d3GraphSimulation.alpha(0.3).restart();
-        }, 100);
+          const data = window.HARMONICUS_SX_DATA || {};
+          initD3NetworkGraph(data.nodes || [], data.edges || []);
+        }, 60);
       }
 
       // Se foi para a página de cinéticas, re-renderizar canvas
       if (targetPage === 'pageKinetics' && typeof renderKineticsChart === 'function') {
         setTimeout(() => {
           renderKineticsChart(window.currentKineticsAsset || 'BTCBRL', window.currentKineticsTimeframe || '24h', window.ASSETS_KINETICS_DATA || {});
-        }, 80);
+        }, 60);
       }
     });
   });
@@ -107,7 +108,7 @@ function initAudioControls() {
 }
 
 // ------------------------------------------------------------------------------
-// 3. SINTONIZADOR DE RÁDIO ANALÓGICO COM RASTREAMENTO ANGULAR CIRCULAR 360º REAL
+// 3. SINTONIZADOR DE RÁDIO ANALÓGICO COM GEOMETRIA ANGULAR CIRCULAR 360º REAL
 // ------------------------------------------------------------------------------
 function initRadioTuner(bands) {
   const dial = document.getElementById('tunerDial');
@@ -118,48 +119,78 @@ function initRadioTuner(bands) {
 
   if (!dial) return;
 
-  let currentAngle = 35;
+  // Mapeamento trigonométrico exato dos ângulos de cada marcador (arco de -135° a +135°)
+  const markerAngleMap = {
+    '15m': -125,
+    '1h': -75,
+    '4h': -25,
+    '24h': 25,
+    '7d': 75,
+    '45d': 125
+  };
+
+  const markerToBand = {
+    '15m': 'ultra_high',
+    '1h': 'ultra_high',
+    '4h': 'intraday',
+    '24h': 'daily',
+    '7d': 'macro',
+    '45d': 'macro'
+  };
+
+  const markerReadouts = {
+    '15m': { nome: 'ONDAS ULTRACURTAS // 15 MINUTOS', freq: 'Banda: 15m | High Frequency (HF)', desc: 'Micro-oscilações rápidas de livro de ofertas e captura de micro-dips intradiários.' },
+    '1h':  { nome: 'ONDAS HORÁRIAS // 1 HORA', freq: 'Banda: 1h | Curto Prazo', desc: 'Oscilações horárias de fluxo de liquidez institucional e repique de médias móveis.' },
+    '4h':  { nome: 'ONDAS MÉDIAS // 4 HORAS', freq: 'Banda: 4h | Intraday Swing', desc: 'Ciclos intradiários de volume e rotação de correlação entre Bitcoin e Ethereum.' },
+    '24h': { nome: 'ONDAS CURTAS // DIÁRIO (24H)', freq: 'Banda: 24h | Diário Dominante', desc: 'Harmônico fundamental de rotação de mercado. Cointegração forte entre TradFi e Cripto.' },
+    '7d':  { nome: 'ONDAS SEMANAIS // 7 DIAS', freq: 'Banda: 7d | Swing Semanal', desc: 'Tendência semanal de fluxo de capital e ajuste de posições institucionais.' },
+    '45d': { nome: 'ONDAS LONGAS // SECULAR (45D)', freq: 'Banda: 45d | Macro Secular', desc: 'As placas tectônicas do macro. Onde reside o ciclo secular do Plano Guiana Brasileira.' }
+  };
+
+  let currentAngle = 25; // Padrão: 24H
   let isDragging = false;
   let startMouseAngle = 0;
   let startDialAngle = 0;
   let startY = 0;
 
-  const bandAngles = {
-    'ultra_high': -75,
-    'intraday': -25,
-    'daily': 35,
-    'macro': 95
-  };
-
   const setDialRotation = (deg) => {
-    // Permite arco amplo de -140° a +140° (280° de excursão de rádio)
+    // Permite arco amplo de -140° a +140° (280° de excursão do potenciômetro)
     currentAngle = Math.max(-140, Math.min(140, deg));
     dial.style.transform = `rotate(${currentAngle}deg)`;
 
-    let closestBand = 'daily';
+    // Encontrar o marcador mais próximo do ângulo atual
+    let closestMarker = '24h';
     let minDiff = 999;
-    for (const [bId, bDeg] of Object.entries(bandAngles)) {
-      const diff = Math.abs(currentAngle - bDeg);
+    for (const [mId, mDeg] of Object.entries(markerAngleMap)) {
+      const diff = Math.abs(currentAngle - mDeg);
       if (diff < minDiff) {
         minDiff = diff;
-        closestBand = bId;
+        closestMarker = mId;
       }
     }
 
-    if (activeTunerBand !== closestBand) {
-      activeTunerBand = closestBand;
-      updateTunerReadout(activeTunerBand, bands);
-      markers.forEach(m => {
-        if (m.getAttribute('data-band') === activeTunerBand) m.classList.add('active');
-        else m.classList.remove('active');
-      });
+    // Atualizar classe ativa nos marcadores visuais
+    markers.forEach(m => {
+      const markerKey = m.getAttribute('data-marker') || m.textContent.trim().toLowerCase();
+      if (markerKey === closestMarker) m.classList.add('active');
+      else m.classList.remove('active');
+    });
 
+    const targetBand = markerToBand[closestMarker] || 'daily';
+    const readout = markerReadouts[closestMarker];
+
+    if (bandNameEl && readout) bandNameEl.textContent = readout.nome;
+    if (bandFreqEl && readout) bandFreqEl.textContent = readout.freq;
+    if (bandDescEl && readout) bandDescEl.textContent = readout.desc;
+
+    if (activeTunerBand !== targetBand) {
+      activeTunerBand = targetBand;
       window.harmonicusAudio.setBand(activeTunerBand);
       updateD3GraphForBand(activeTunerBand);
     }
   };
 
-  // Rastreamento Angular Circular com Math.atan2 (100% natural em 360°)
+  // Cálculo angular do ponteiro relativo ao centro geométrico
   const getPointerAngle = (clientX, clientY) => {
     const rect = dial.getBoundingClientRect();
     const centerX = rect.left + rect.width / 2;
@@ -186,13 +217,12 @@ function initRadioTuner(bands) {
     const currentMouseAngle = getPointerAngle(clientX, clientY);
     let deltaAngle = currentMouseAngle - startMouseAngle;
     
-    // Tratamento de transição de quadrantes (-180° / +180°)
     if (deltaAngle > 180) deltaAngle -= 360;
     if (deltaAngle < -180) deltaAngle += 360;
 
-    // Também combina com arrasto vertical para máxima fluidez
-    const verticalDelta = (startY - clientY) * 0.8;
-    const combinedTarget = startDialAngle + deltaAngle + (Math.abs(deltaAngle) < 5 ? verticalDelta : 0);
+    // Também combina com arraste vertical para fluidez de uso
+    const verticalDelta = (startY - clientY) * 0.85;
+    const combinedTarget = startDialAngle + deltaAngle + (Math.abs(deltaAngle) < 6 ? verticalDelta : 0);
 
     setDialRotation(combinedTarget);
   };
@@ -206,35 +236,23 @@ function initRadioTuner(bands) {
   window.addEventListener('touchmove', onMove, { passive: false });
   window.addEventListener('touchend', onEnd);
 
-  // Roda do mouse suave
+  // Scroll wheel suave
   dial.parentElement.addEventListener('wheel', (e) => {
     e.preventDefault();
-    const step = e.deltaY > 0 ? 12 : -12;
+    const step = e.deltaY > 0 ? 15 : -15;
     setDialRotation(currentAngle + step);
   }, { passive: false });
 
-  // Clique direto nos chips de banda
+  // Clique direto em qualquer marcador textual
   markers.forEach(m => {
     m.addEventListener('click', () => {
-      const bId = m.getAttribute('data-band');
-      const targetDeg = bandAngles[bId] || 0;
+      const markerKey = m.getAttribute('data-marker') || m.textContent.trim().toLowerCase();
+      const targetDeg = markerAngleMap[markerKey] || 0;
       setDialRotation(targetDeg);
     });
   });
 
-  function updateTunerReadout(bandId, bandsList) {
-    const bandObj = (bandsList && bandsList.find(b => b.id === bandId)) || {
-      nome: bandId.toUpperCase(),
-      freq_str: '24 HORAS',
-      acorde_nome: 'UNÍSSONO',
-      descricao: 'Harmônico diário dominante de mercado.'
-    };
-    if (bandNameEl) bandNameEl.textContent = `ONDAS: ${bandObj.nome.toUpperCase()}`;
-    if (bandFreqEl) bandFreqEl.textContent = `Banda: ${bandObj.freq_str} | ${bandObj.acorde_nome}`;
-    if (bandDescEl) bandDescEl.textContent = bandObj.descricao;
-  }
-
-  setDialRotation(35);
+  setDialRotation(25);
 }
 
 // ------------------------------------------------------------------------------
@@ -282,7 +300,7 @@ function initSpectralTelemetry(sensores) {
 }
 
 // ------------------------------------------------------------------------------
-// 6. OSCILOSCÓPIO CRT DE 60 FPS REATIVO A TODOS OS BOTÕES
+// 6. OSCILOSCÓPIO CRT DE 60 FPS REATIVO
 // ------------------------------------------------------------------------------
 function initOscilloscope() {
   const canvas = document.getElementById('oscCanvas');
@@ -352,6 +370,7 @@ function initOscilloscope() {
 
     const points = 256;
     const sliceWidth = w / points;
+    const defaultDamping = 0.50;
 
     for (let i = 0; i < points; i++) {
       let v = 1.0;
@@ -361,7 +380,7 @@ function initOscilloscope() {
         v = raw / 128.0;
       } else {
         const t = (i * 0.03 * freqMult) + phase;
-        const noise = (Math.random() - 0.5) * (activeDamping * 0.22);
+        const noise = (Math.random() - 0.5) * (defaultDamping * 0.22);
         
         if (activeHarmonicChord === 'unison') {
           v = 1.0 + 0.28 * Math.sin(t) + 0.14 * Math.sin(t * 1.5) + 0.07 * Math.sin(t * 2.0) + noise;
@@ -396,13 +415,13 @@ function initD3NetworkGraph(nodes, edges) {
   const container = document.getElementById('networkGraphStage');
   const tooltip = document.getElementById('nodeTooltip');
   const btnReset = document.getElementById('btnResetZoom');
-  if (!container || !window.d3 || nodes.length === 0) return;
+  if (!container || !window.d3 || !nodes || nodes.length === 0) return;
 
   d3NodesData = nodes;
   d3EdgesData = edges;
 
-  const width = container.clientWidth || 900;
-  const height = container.clientHeight || 450;
+  const width = container.clientWidth > 100 ? container.clientWidth : 900;
+  const height = container.clientHeight > 100 ? container.clientHeight : 420;
 
   container.querySelectorAll('svg').forEach(s => s.remove());
 
@@ -431,7 +450,6 @@ function initD3NetworkGraph(nodes, edges) {
         d3ZoomBehavior.transform,
         d3.zoomIdentity.translate(0, 0).scale(1)
       );
-      // Restaurar opacidade de todos os nós
       updateD3GraphForChord('unison');
     });
   }
@@ -467,7 +485,7 @@ function initD3NetworkGraph(nodes, edges) {
       .on('drag', dragged)
       .on('end', dragended));
 
-  // Círculos ampliados (raios de 22px a 34px) para conter confortavelmente o texto
+  // Círculos ampliados (raios de 22px a 34px) para conter o texto
   node.append('circle')
     .attr('r', d => Math.max(22, 24 + d.autovetor_pc1 * 24))
     .attr('fill', d => d.cor)
@@ -566,10 +584,10 @@ function initD3NetworkGraph(nodes, edges) {
     d.fy = null;
   }
 
-  // Inicializar com foco do acorde padrão (Uníssono)
+  // Foco padrão da tríade uníssono
   setTimeout(() => {
     updateD3GraphForChord('unison');
-  }, 150);
+  }, 120);
 }
 
 function updateD3GraphForBand(bandId) {

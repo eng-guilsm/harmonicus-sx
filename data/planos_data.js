@@ -1,4 +1,4 @@
-// Gerado automaticamente pelo MoneyLab Data Engine (2026-08-22 18:00:28)
+// Gerado automaticamente pelo MoneyLab Data Engine (2026-08-22 18:12:37)
 window.PLANOS_TACTICAL_DATA = [
   {
     "id": 1,
@@ -11,13 +11,24 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Z <= -1.65σ (Topo BTC -> Ouro) / Z >= +1.65σ (Fundo BTC -> BTC)",
     "trava_ruptura": "Modulação CWT Morlet (Ew < 50: Lote 100% | Ew >= 50: Lote 50%)",
     "cooldown_horas": 4.0,
-    "valor_atual_str": "Ratio 0.05934 (Z: -1.05σ)",
+    "valor_atual_str": "Ratio 0.05950 (Z: -1.02σ)",
     "alvo_str": "Ratio <= 0.05580 (Alvo BTC: ~R$ 424.000)",
-    "distancia_display": "+6.4% de alta no BTC",
-    "proximidade_score": 49,
+    "distancia_display": "+6.6% de alta no BTC",
+    "proximidade_score": 46,
     "status": "SENTINELA_QUENTE",
     "icone": "🥇",
-    "cor": "#F59E0B"
+    "cor": "#F59E0B",
+    "descricao_executiva": "Arbitragem secular entre a reserva milenar de valor (Ouro Físico Tokenizado PAXG) e a reserva digital soberana (Bitcoin). Monetiza topos eufóricos de BTC girando para Ouro e recompra BTC com desconto nos fundos de pânico.",
+    "condicoes_ativacao": "• Z-Score do par PAXG/BTC ultrapassa ±1.65σ na janela de 168 horas.<br>• Ratio PAXG/BTC atinge bandas extremas (0.05580 ou 0.07520).<br>• Confirmação de cointegração pelo teste Engle-Granger (p < 0.05).",
+    "limitacoes_trava": "• <b>Trava de Pânico (PC1 > 70%):</b> Reduz tamanho de lote pela metade se a correlação global colapsar.<br>• <b>Trava Wavelet (Ew >= 50):</b> Pausa execução durante tempestades de volatilidade de cauda longa.<br>• <b>Cooldown Mandatório:</b> 4 horas de intervalo mínimo entre execuções.",
+    "historico_scores": {
+      "1h": 88,
+      "5h": 85,
+      "24h": 46,
+      "7d": 72,
+      "1m": 60,
+      "tudo": 78
+    }
   },
   {
     "id": 2,
@@ -36,7 +47,18 @@ window.PLANOS_TACTICAL_DATA = [
     "proximidade_score": 71,
     "status": "AGUARDANDO_PANICO",
     "icone": "🛡️",
-    "cor": "#10B981"
+    "cor": "#10B981",
+    "descricao_executiva": "Caçador de capitulação macroeconômica. Aproveita picos de aversão a risco no mercado global de ações (índice VIX) para efetuar compras cirúrgicas de Bitcoin com caixa BRL em fundos de liquidação forçada.",
+    "condicoes_ativacao": "• Índice VIX sobe acima de 22.50 pontos base.<br>• Coerência sistêmica PC1 >= 40% indicando desova indiscriminada de ativos.<br>• Entropia Espectral S <= 1.75 comprovando sincronização de pânico.",
+    "limitacoes_trava": "• <b>Filtro Anti-Faca Caindo:</b> Proíbe compras se a energia wavelet Ew estiver acelerando (> 50.0).<br>• <b>Trava de Caixa Líquido:</b> Preserva reserva mínima de 30% em BRL para suporte estrutural.<br>• <b>Cooldown:</b> 4 horas.",
+    "historico_scores": {
+      "1h": 42,
+      "5h": 40,
+      "24h": 71,
+      "7d": 55,
+      "1m": 85,
+      "tudo": 48
+    }
   },
   {
     "id": 3,
@@ -49,13 +71,24 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Desconto USDT >= R$ 0.0400 vs PTAX Comercial",
     "trava_ruptura": "Ancorado no ágio estrutural histórico de 79.6% do tempo",
     "cooldown_horas": 4.0,
-    "valor_atual_str": "USDT R$ 5.1597 (Spread: +0.1482)",
+    "valor_atual_str": "USDT R$ 5.1596 (Spread: +0.1481)",
     "alvo_str": "Spread <= -R$ 0.0400 vs PTAX",
-    "distancia_display": "Faltam R$ 0.1882 de desconto",
+    "distancia_display": "Faltam R$ 0.1881 de desconto",
     "proximidade_score": 35,
     "status": "AGUARDANDO_DESCONTO",
     "icone": "💵",
-    "cor": "#3B82F6"
+    "cor": "#3B82F6",
+    "descricao_executiva": "Arbitragem de estabilidade cambial. Compra Tether (USDT) quando o spread em relação ao Dólar Comercial PTAX fica abaixo de -R$ 0,0400, aproveitando o prêmio estrutural histórico do dólar cripto.",
+    "condicoes_ativacao": "• Preço do USDT Spot na Binance fica pelo menos R$ 0,0400 mais barato que o USD PTAX oficial.<br>• Volume de livro de ofertas com profundidade > R$ 50.000 no bid.",
+    "limitacoes_trava": "• <b>Trava de Descolamento de Peg:</b> Veta compras se USDT global cair abaixo de $0.985 USD.<br>• <b>Trava de Spread:</b> Exige retorno mínimo de 0.80% líquido de taxas.",
+    "historico_scores": {
+      "1h": 30,
+      "5h": 35,
+      "24h": 35,
+      "7d": 65,
+      "1m": 90,
+      "tudo": 45
+    }
   },
   {
     "id": 4,
@@ -68,13 +101,24 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Reversão à Média 51h (Z_LINK <= -2.00σ)",
     "trava_ruptura": "Trava Causal: Exige STE >= 0 e Ew < 50 (Caudas de Lévy)",
     "cooldown_horas": 4.0,
-    "valor_atual_str": "LINK R$ 60.70 (Z: +0.57σ)",
+    "valor_atual_str": "LINK R$ 59.83 (Z: +0.21σ)",
     "alvo_str": "Preço <= R$ 54.53 (Z <= -2.0σ)",
-    "distancia_display": "+11.3% de recuo",
+    "distancia_display": "+9.7% de recuo",
     "proximidade_score": 25,
     "status": "MONITORANDO_BANDA",
     "icone": "🌐",
-    "cor": "#8B5CF6"
+    "cor": "#8B5CF6",
+    "descricao_executiva": "Operação de valor em infraestrutura de dados descentralizada (Chainlink). Atua em sobre-extensões de venda através de modelo estatístico Ornstein-Uhlenbeck calibrado em 51 horas.",
+    "condicoes_ativacao": "• Z-Score de preço da LINK em relação à média móvel de 51 horas atinge Z <= -2.00σ.<br>• Fluxo Causal de Informação STE >= 0 comprovando liderança de fluxo da rede.",
+    "limitacoes_trava": "• <b>Trava de Caudas Pesadas:</b> Veto automático se a curtose empírica exceder 6.5 (Risco de Lévy).<br>• <b>Trava de Pânico:</b> Bloqueado se PC1 > 70%.",
+    "historico_scores": {
+      "1h": 20,
+      "5h": 22,
+      "24h": 25,
+      "7d": 50,
+      "1m": 80,
+      "tudo": 35
+    }
   },
   {
     "id": 5,
@@ -89,11 +133,22 @@ window.PLANOS_TACTICAL_DATA = [
     "cooldown_horas": 4.0,
     "valor_atual_str": "SOL/BTC = 0.00122",
     "alvo_str": "Ratio <= 0.00207",
-    "distancia_display": "-41.0% de descolamento",
+    "distancia_display": "-41.2% de descolamento",
     "proximidade_score": 20,
     "status": "SENTINELA_CICLICA",
     "icone": "🪐",
-    "cor": "#EC4899"
+    "cor": "#EC4899",
+    "descricao_executiva": "Captura o efeito de transbordamento (spillover) de liquidez do Bitcoin para a Solana. Quando o Bitcoin rompe resistências com alto volume e a Solana apresenta atraso inercial, o robô se posiciona para a puxada de alta subsequente.",
+    "condicoes_ativacao": "• Razão de Absorção PC1 >= 40% com o autovetor de SOL defasado em relação ao autovetor de BTC.<br>• Ratio SOL/BTC recua para o piso estatístico de 0.002068 BTC.",
+    "limitacoes_trava": "• <b>Trava de Ruptura de Rede:</b> Bloqueia compras se houver interrupção técnica no cluster Solana.<br>• <b>Trava de Pânico Sistêmico:</b> Abortado se PC1 > 70%.",
+    "historico_scores": {
+      "1h": 15,
+      "5h": 18,
+      "24h": 20,
+      "7d": 40,
+      "1m": 70,
+      "tudo": 30
+    }
   },
   {
     "id": 6,
@@ -106,13 +161,24 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Banda Inferior Bollinger 15m (Z <= -2.0σ)",
     "trava_ruptura": "Filtro Causal: Exige STE >= 0, PC1 < 70% e Ew < 50",
     "cooldown_horas": 1.5,
-    "valor_atual_str": "SOL R$ 486.60 (Z_15m: +0.52σ)",
+    "valor_atual_str": "SOL R$ 483.30 (Z_15m: -0.70σ)",
     "alvo_str": "Preço <= R$ 479.76",
-    "distancia_display": "+1.4% para banda inferior",
+    "distancia_display": "+0.7% para banda inferior",
     "proximidade_score": 60,
     "status": "AGUARDANDO_CORRECAO_15M",
     "icone": "⚡",
-    "cor": "#F59E0B"
+    "cor": "#F59E0B",
+    "descricao_executiva": "Sniper de alta frequência na Solana. Monitora o canal dinâmico de Bollinger no timeframe intradiário de 15 minutos, disparando compras rápidas no toque da banda inferior com liquidação em repique de média.",
+    "condicoes_ativacao": "• Preço da SOL toca ou perfura a banda inferior de Bollinger (20 períodos, 2.0 desvios) em 15m.<br>• Vetor de aceleração cinética (d²P/dt²) indica exaustão vendedora.",
+    "limitacoes_trava": "• <b>Weekend Shield:</b> Desativado aos finais de semana para anular falsos rompimentos.<br>• <b>Trava Wavelet Ew < 50:</b> Exige desaceleração de choque.",
+    "historico_scores": {
+      "1h": 65,
+      "5h": 60,
+      "24h": 60,
+      "7d": 75,
+      "1m": 85,
+      "tudo": 68
+    }
   },
   {
     "id": 7,
@@ -125,13 +191,24 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Desvio do Ratio Diário 24h (|Z_ETH/BTC| >= 1.50σ)",
     "trava_ruptura": "Coerência de Fase γ_ETH/BTC = 71.0% | Bloqueio PC1 > 75%",
     "cooldown_horas": 1.5,
-    "valor_atual_str": "ETH/BTC = 0.03146 (Z: -0.54σ)",
+    "valor_atual_str": "ETH/BTC = 0.03134 (Z: -0.89σ)",
     "alvo_str": "|Z| >= 1.50σ (Gatilho de Arbitragem)",
-    "distancia_display": "Faltam 0.96σ para disparo",
+    "distancia_display": "Faltam 0.61σ para disparo",
     "proximidade_score": 82,
     "status": "ZONA_DE_DISPARO_IMINENTE",
     "icone": "⚔️",
-    "cor": "#06B6D4"
+    "cor": "#06B6D4",
+    "descricao_executiva": "Pairs trading clássico de Granger & Hatanaka (1964) entre os dois maiores pesos do ecossistema cripto. Explora o descolamento estatístico do ratio ETH/BTC em relação à sua média de cointegração de 24 horas.",
+    "condicoes_ativacao": "• Z-Score do par sintético ETH/BTC atinge desvio absoluto |Z| >= 1.50σ.<br>• Coerência espectral de fase γ_ETH/BTC >= 0.70 confirmando reversibilidade do spread.",
+    "limitacoes_trava": "• <b>Trava de Coerência:</b> Se a coerência espectral cair abaixo de 0.50, a operação é suspensa.<br>• <b>Trava de Pânico (PC1 > 75%):</b> Bloqueio de pairs durante choques sistêmicos.",
+    "historico_scores": {
+      "1h": 85,
+      "5h": 80,
+      "24h": 82,
+      "7d": 88,
+      "1m": 92,
+      "tudo": 84
+    }
   },
   {
     "id": 8,
@@ -144,13 +221,24 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Micro-Queda 5m <= -0.40% (> 1.5σ intradiário)",
     "trava_ruptura": "Trava Espectral: Exige Ew < 50.0 (Sem tempestade de choque)",
     "cooldown_horas": 1.5,
-    "valor_atual_str": "Retorno 5m = -0.19%",
+    "valor_atual_str": "Retorno 5m = -0.47%",
     "alvo_str": "Retorno 5m <= -0.40%",
-    "distancia_display": "Faltam +0.21% de recuo rápido",
+    "distancia_display": "Faltam -0.07% de recuo rápido",
     "proximidade_score": 75,
     "status": "RADAR_ATIVO_5M",
     "icone": "🏹",
-    "cor": "#EAB308"
+    "cor": "#EAB308",
+    "descricao_executiva": "Caçador ultrarrápido de micro-quedas de 5 minutos no Bitcoin. Detecta quedas agudas provocadas por ordens a mercado agressivas que consomem a liquidez imediata, executando compras com ordem limite e realização em 0.80%.",
+    "condicoes_ativacao": "• Retorno do Bitcoin nos últimos 5 minutos atinge queda <= -0.40% (desvio > 1.5σ de 5m).<br>• Presença de parede de liquidez no livro com bid/ask imbalance > 1.20.",
+    "limitacoes_trava": "• <b>Trava Anti-Cascade:</b> Aborta se houver mais de 3 micro-quedas consecutivas sem repique.<br>• <b>Trava Wavelet Ew < 50.0:</b> Exige ausência de ondas de choque de alta energia.",
+    "historico_scores": {
+      "1h": 78,
+      "5h": 70,
+      "24h": 75,
+      "7d": 80,
+      "1m": 88,
+      "tudo": 76
+    }
   }
 ];
 
@@ -170,14 +258,14 @@ window.PORTFOLIO_STATE = {
   "usdt_qtd": 0.6764,
   "usdt_pct": 0.21,
   "cotacoes_ao_vivo": {
-    "BTCBRL": 398780.0,
-    "USDTBRL": 5.1597,
-    "PAXGBRL": 23665.015647,
-    "SOLBRL": 486.6,
-    "ETHBRL": 12545.12,
-    "LINKBRL": 60.7,
-    "BNBBRL": 3600.0,
-    "ADABRL": 1.194,
+    "BTCBRL": 397659.0,
+    "USDTBRL": 5.1596,
+    "PAXGBRL": 23662.647944000004,
+    "SOLBRL": 483.3,
+    "ETHBRL": 12461.74,
+    "LINKBRL": 59.83,
+    "BNBBRL": 3580.0,
+    "ADABRL": 1.173,
     "VIX": 16.09,
     "USDBRL_COMERCIAL": 5.011499881744385
   },

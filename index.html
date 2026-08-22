@@ -116,12 +116,20 @@
       </div>
 
       <!-- EXECUTION PROXIMITY THERMOMETER -->
-      <div class="section-divider">
+      <div class="section-divider thermo-section-header">
         <div class="divider-title">
           <span class="d-icon">🔥</span>
           <h2>TERMÔMETRO DE PROXIMIDADE DE DISPARO (RANKING AO VIVO)</h2>
         </div>
-        <span class="divider-desc">Ordenado pela distância estatística de Z-Score e variação necessária para execução</span>
+        <div class="thermo-tf-bar" id="thermoTfBar">
+          <span class="tf-label">HISTÓRICO:</span>
+          <button class="thermo-tf-btn" data-tf="1h">1H</button>
+          <button class="thermo-tf-btn" data-tf="5h">5H</button>
+          <button class="thermo-tf-btn active" data-tf="24h">24H</button>
+          <button class="thermo-tf-btn" data-tf="7d">7D</button>
+          <button class="thermo-tf-btn" data-tf="1m">1M</button>
+          <button class="thermo-tf-btn" data-tf="tudo">TUDO</button>
+        </div>
       </div>
 
       <div class="thermometer-container" id="thermometerList">
@@ -231,12 +239,12 @@
                   </div>
                 </div>
                 <div class="dial-scale-markers">
-                  <span class="marker m-15m" data-band="ultra_high">15M</span>
-                  <span class="marker m-1h" data-band="ultra_high">1H</span>
-                  <span class="marker m-4h" data-band="intraday">4H</span>
-                  <span class="marker m-24h active" data-band="daily">24H</span>
-                  <span class="marker m-7d" data-band="macro">7D</span>
-                  <span class="marker m-45d" data-band="macro">45D</span>
+                  <span class="marker m-15m" data-marker="15m" data-band="ultra_high">15M</span>
+                  <span class="marker m-1h" data-marker="1h" data-band="ultra_high">1H</span>
+                  <span class="marker m-4h" data-marker="4h" data-band="intraday">4H</span>
+                  <span class="marker m-24h active" data-marker="24h" data-band="daily">24H</span>
+                  <span class="marker m-7d" data-marker="7d" data-band="macro">7D</span>
+                  <span class="marker m-45d" data-marker="45d" data-band="macro">45D</span>
                 </div>
               </div>
 

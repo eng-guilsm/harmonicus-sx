@@ -290,8 +290,8 @@ function renderKineticsChart(symbol, tfKey, data) {
   ctx.stroke();
   ctx.shadowBlur = 0;
 
-  // 3. Painel Inferior: Histograma de Velocidade Instantânea (dP/dt)
-  const derivY0 = h - 38;
+  // 3. Painel Inferior: Histograma de Velocidade Instantânea (dP/dt) Normalizado
+  const derivY0 = h - 35;
   ctx.strokeStyle = 'rgba(255, 255, 255, 0.15)';
   ctx.lineWidth = 1;
   ctx.beginPath();
@@ -302,16 +302,21 @@ function renderKineticsChart(symbol, tfKey, data) {
   ctx.fillStyle = '#9CA3AF';
   ctx.font = '9px JetBrains Mono';
   ctx.textAlign = 'left';
-  ctx.fillText('VELOCIDADE RELATIVA dP/dt (%/ponto)', padLeft, derivY0 - 18);
+  ctx.fillText('VELOCIDADE RELATIVA dP/dt (NORMALIZADA POR JANELA)', padLeft, derivY0 - 24);
 
+  // Normalização adaptativa pela velocidade máxima da região analisada
+  const maxAbsVel = Math.max(...velocities.map(v => Math.abs(v)), 0.0001);
+  const maxBarH = 22; // Altura máxima da barra em pixels
   const barW = (w - padLeft - padRight) / velocities.length;
+
   for (let i = 0; i < velocities.length; i++) {
     const vel = velocities[i];
+    const normRatio = Math.abs(vel) / maxAbsVel;
+    const barH = Math.max(3, normRatio * maxBarH);
     const x = padLeft + i * barW;
-    const barH = Math.min(22, Math.abs(vel) * 35);
     const y = vel >= 0 ? derivY0 - barH : derivY0;
     ctx.fillStyle = vel >= 0 ? '#10B981' : '#EF4444';
-    ctx.fillRect(x, y, Math.max(1, barW - 0.5), barH);
+    ctx.fillRect(x, y, Math.max(1.5, barW - 1), barH);
   }
 
   // Rótulos de tempo no eixo X
