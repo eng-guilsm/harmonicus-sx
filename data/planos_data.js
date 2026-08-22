@@ -1,4 +1,4 @@
-// Gerado automaticamente pelo MoneyLab Data Engine (2026-08-22 18:48:13)
+// Gerado automaticamente pelo MoneyLab Data Engine (2026-08-22 19:04:01)
 window.PLANOS_TACTICAL_DATA = [
   {
     "id": 1,
@@ -11,10 +11,10 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Z <= -1.65σ (Topo BTC -> Ouro) / Z >= +1.65σ (Fundo BTC -> BTC)",
     "trava_ruptura": "Modulação CWT Morlet (Ew < 50: Lote 100% | Ew >= 50: Lote 50%)",
     "cooldown_horas": 4.0,
-    "valor_atual_str": "Ratio 0.05962 (Z: -1.00σ)",
+    "valor_atual_str": "Ratio 0.05959 (Z: -1.46σ)",
     "alvo_str": "Ratio <= 0.05580 (Alvo BTC: ~R$ 424.000)",
-    "distancia_display": "+6.9% de alta no BTC",
-    "proximidade_score": 45,
+    "distancia_display": "+6.8% de distância do alvo",
+    "proximidade_score": 88,
     "status": "SENTINELA_QUENTE",
     "icone": "🥇",
     "cor": "#F59E0B",
@@ -24,1250 +24,1548 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "score": 62,
-          "label": "17:36"
+          "label": "17:36",
+          "score": 92
         },
         {
-          "score": 62,
-          "label": "17:37"
+          "label": "17:37",
+          "score": 92
         },
         {
-          "score": 62,
-          "label": "17:38"
+          "label": "17:38",
+          "score": 92
         },
         {
-          "score": 62,
-          "label": "17:39"
+          "label": "17:39",
+          "score": 91
         },
         {
-          "score": 62,
-          "label": "17:40"
+          "label": "17:40",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "17:41"
+          "label": "17:41",
+          "score": 92
         },
         {
-          "score": 62,
-          "label": "17:42"
+          "label": "17:42",
+          "score": 92
         },
         {
-          "score": 62,
-          "label": "17:43"
+          "label": "17:43",
+          "score": 92
         },
         {
-          "score": 62,
-          "label": "17:44"
+          "label": "17:44",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "17:45"
+          "label": "17:45",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "17:46"
+          "label": "17:46",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "17:47"
+          "label": "17:47",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "17:48"
+          "label": "17:48",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "17:49"
+          "label": "17:49",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "17:50"
+          "label": "17:50",
+          "score": 93
         },
         {
-          "score": 63,
-          "label": "17:51"
+          "label": "17:51",
+          "score": 93
         },
         {
-          "score": 63,
-          "label": "17:52"
+          "label": "17:52",
+          "score": 93
         },
         {
-          "score": 63,
-          "label": "17:53"
+          "label": "17:53",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "17:54"
+          "label": "17:54",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "17:55"
+          "label": "17:55",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "17:56"
+          "label": "17:56",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "17:57"
+          "label": "17:57",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "17:58"
+          "label": "17:58",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "17:59"
+          "label": "17:59",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:00"
+          "label": "18:00",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:01"
+          "label": "18:01",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:02"
+          "label": "18:02",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:03"
+          "label": "18:03",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:04"
+          "label": "18:04",
+          "score": 93
         },
         {
-          "score": 63,
-          "label": "18:05"
+          "label": "18:05",
+          "score": 93
         },
         {
-          "score": 63,
-          "label": "18:06"
+          "label": "18:06",
+          "score": 93
         },
         {
-          "score": 63,
-          "label": "18:07"
+          "label": "18:07",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:08"
+          "label": "18:08",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:09"
+          "label": "18:09",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:10"
+          "label": "18:10",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:11"
+          "label": "18:11",
+          "score": 91
         },
         {
-          "score": 63,
-          "label": "18:12"
+          "label": "18:12",
+          "score": 91
         },
         {
-          "score": 63,
-          "label": "18:13"
+          "label": "18:13",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:14"
+          "label": "18:14",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:15"
+          "label": "18:15",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:16"
+          "label": "18:16",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:17"
+          "label": "18:17",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:18"
+          "label": "18:18",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:19"
+          "label": "18:19",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:20"
+          "label": "18:20",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:21"
+          "label": "18:21",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:22"
+          "label": "18:22",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:23"
+          "label": "18:23",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:24"
+          "label": "18:24",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:25"
+          "label": "18:25",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:26"
+          "label": "18:26",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:27"
+          "label": "18:27",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:28"
+          "label": "18:28",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:29"
+          "label": "18:29",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:30"
+          "label": "18:30",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:31"
+          "label": "18:31",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:32"
+          "label": "18:32",
+          "score": 91
         },
         {
-          "score": 63,
-          "label": "18:33"
+          "label": "18:33",
+          "score": 91
         },
         {
-          "score": 63,
-          "label": "18:34"
+          "label": "18:34",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:35"
+          "label": "18:35",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 88
         }
       ],
       "24h": [
         {
-          "score": 62,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 98
         },
         {
-          "score": 61,
-          "label": "18:56"
+          "label": "18:56",
+          "score": 98
         },
         {
-          "score": 62,
-          "label": "19:16"
+          "label": "19:16",
+          "score": 98
         },
         {
-          "score": 62,
-          "label": "19:36"
+          "label": "19:36",
+          "score": 98
         },
         {
-          "score": 62,
-          "label": "19:56"
+          "label": "19:56",
+          "score": 98
         },
         {
-          "score": 64,
-          "label": "20:16"
+          "label": "20:16",
+          "score": 98
         },
         {
-          "score": 65,
-          "label": "20:36"
+          "label": "20:36",
+          "score": 98
         },
         {
-          "score": 64,
-          "label": "20:56"
+          "label": "20:56",
+          "score": 98
         },
         {
-          "score": 66,
-          "label": "21:16"
+          "label": "21:16",
+          "score": 98
         },
         {
-          "score": 69,
-          "label": "21:36"
+          "label": "21:36",
+          "score": 98
         },
         {
-          "score": 71,
-          "label": "21:56"
+          "label": "21:56",
+          "score": 98
         },
         {
-          "score": 72,
-          "label": "22:16"
+          "label": "22:16",
+          "score": 98
         },
         {
-          "score": 70,
-          "label": "22:36"
+          "label": "22:36",
+          "score": 98
         },
         {
-          "score": 71,
-          "label": "22:56"
+          "label": "22:56",
+          "score": 98
         },
         {
-          "score": 72,
-          "label": "23:16"
+          "label": "23:16",
+          "score": 98
         },
         {
-          "score": 70,
-          "label": "23:36"
+          "label": "23:36",
+          "score": 98
         },
         {
-          "score": 70,
-          "label": "23:56"
+          "label": "23:56",
+          "score": 98
         },
         {
-          "score": 68,
-          "label": "00:16"
+          "label": "00:16",
+          "score": 98
         },
         {
-          "score": 68,
-          "label": "00:36"
+          "label": "00:36",
+          "score": 98
         },
         {
-          "score": 67,
-          "label": "00:56"
+          "label": "00:56",
+          "score": 98
         },
         {
-          "score": 69,
-          "label": "01:16"
+          "label": "01:16",
+          "score": 98
         },
         {
-          "score": 69,
-          "label": "01:36"
+          "label": "01:36",
+          "score": 98
         },
         {
-          "score": 67,
-          "label": "01:56"
+          "label": "01:56",
+          "score": 98
         },
         {
-          "score": 69,
-          "label": "02:16"
+          "label": "02:16",
+          "score": 98
         },
         {
-          "score": 70,
-          "label": "02:36"
+          "label": "02:36",
+          "score": 98
         },
         {
-          "score": 71,
-          "label": "02:56"
+          "label": "02:56",
+          "score": 98
         },
         {
-          "score": 71,
-          "label": "03:16"
+          "label": "03:16",
+          "score": 98
         },
         {
-          "score": 72,
-          "label": "03:36"
+          "label": "03:36",
+          "score": 98
         },
         {
-          "score": 71,
-          "label": "03:56"
+          "label": "03:56",
+          "score": 98
         },
         {
-          "score": 70,
-          "label": "04:16"
+          "label": "04:16",
+          "score": 98
         },
         {
-          "score": 72,
-          "label": "04:36"
+          "label": "04:36",
+          "score": 98
         },
         {
-          "score": 71,
-          "label": "04:56"
+          "label": "04:56",
+          "score": 98
         },
         {
-          "score": 61,
-          "label": "05:16"
+          "label": "05:16",
+          "score": 98
         },
         {
-          "score": 64,
-          "label": "05:36"
+          "label": "05:36",
+          "score": 98
         },
         {
-          "score": 64,
-          "label": "05:56"
+          "label": "05:56",
+          "score": 98
         },
         {
-          "score": 63,
-          "label": "06:16"
+          "label": "06:16",
+          "score": 98
         },
         {
-          "score": 63,
-          "label": "06:36"
+          "label": "06:36",
+          "score": 98
         },
         {
-          "score": 64,
-          "label": "06:56"
+          "label": "06:56",
+          "score": 98
         },
         {
-          "score": 63,
-          "label": "07:16"
+          "label": "07:16",
+          "score": 98
         },
         {
-          "score": 64,
-          "label": "07:36"
+          "label": "07:36",
+          "score": 98
         },
         {
-          "score": 63,
-          "label": "07:56"
+          "label": "07:56",
+          "score": 98
         },
         {
-          "score": 64,
-          "label": "08:16"
+          "label": "08:16",
+          "score": 98
         },
         {
-          "score": 62,
-          "label": "08:36"
+          "label": "08:36",
+          "score": 98
         },
         {
-          "score": 62,
-          "label": "08:56"
+          "label": "08:56",
+          "score": 98
         },
         {
-          "score": 63,
-          "label": "09:16"
+          "label": "09:16",
+          "score": 98
         },
         {
-          "score": 63,
-          "label": "09:36"
+          "label": "09:36",
+          "score": 98
         },
         {
-          "score": 61,
-          "label": "09:56"
+          "label": "09:56",
+          "score": 98
         },
         {
-          "score": 60,
-          "label": "10:16"
+          "label": "10:16",
+          "score": 98
         },
         {
-          "score": 61,
-          "label": "10:36"
+          "label": "10:36",
+          "score": 98
         },
         {
-          "score": 60,
-          "label": "10:56"
+          "label": "10:56",
+          "score": 98
         },
         {
-          "score": 60,
-          "label": "11:16"
+          "label": "11:16",
+          "score": 97
         },
         {
-          "score": 62,
-          "label": "11:36"
+          "label": "11:36",
+          "score": 98
         },
         {
-          "score": 62,
-          "label": "11:56"
+          "label": "11:56",
+          "score": 98
         },
         {
-          "score": 63,
-          "label": "12:16"
+          "label": "12:16",
+          "score": 98
         },
         {
-          "score": 63,
-          "label": "12:36"
+          "label": "12:36",
+          "score": 98
         },
         {
-          "score": 63,
-          "label": "12:56"
+          "label": "12:56",
+          "score": 98
         },
         {
-          "score": 63,
-          "label": "13:16"
+          "label": "13:16",
+          "score": 98
         },
         {
-          "score": 62,
-          "label": "13:36"
+          "label": "13:36",
+          "score": 96
         },
         {
-          "score": 63,
-          "label": "13:56"
+          "label": "13:56",
+          "score": 97
         },
         {
-          "score": 61,
-          "label": "14:16"
+          "label": "14:16",
+          "score": 95
         },
         {
-          "score": 62,
-          "label": "14:36"
+          "label": "14:36",
+          "score": 95
         },
         {
-          "score": 61,
-          "label": "14:56"
+          "label": "14:56",
+          "score": 94
         },
         {
-          "score": 61,
-          "label": "15:16"
+          "label": "15:16",
+          "score": 93
         },
         {
-          "score": 61,
-          "label": "15:36"
+          "label": "15:36",
+          "score": 93
         },
         {
-          "score": 61,
-          "label": "15:56"
+          "label": "15:56",
+          "score": 92
         },
         {
-          "score": 62,
-          "label": "16:16"
+          "label": "16:16",
+          "score": 93
         },
         {
-          "score": 63,
-          "label": "16:36"
+          "label": "16:36",
+          "score": 94
         },
         {
-          "score": 63,
-          "label": "16:56"
+          "label": "16:56",
+          "score": 94
         },
         {
-          "score": 63,
-          "label": "17:16"
+          "label": "17:16",
+          "score": 93
         },
         {
-          "score": 62,
-          "label": "17:36"
+          "label": "17:36",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "17:56"
+          "label": "17:56",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:16"
+          "label": "18:16",
+          "score": 92
         },
         {
-          "score": 63,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 88
         }
       ],
       "7d": [
         {
-          "score": 53,
-          "label": "15/08 18h"
+          "label": "15/08 18h",
+          "score": 73
         },
         {
-          "score": 53,
-          "label": "15/08 20h"
+          "label": "15/08 20h",
+          "score": 70
         },
         {
-          "score": 52,
-          "label": "15/08 22h"
+          "label": "15/08 22h",
+          "score": 63
         },
         {
-          "score": 53,
-          "label": "16/08 00h"
+          "label": "16/08 00h",
+          "score": 68
         },
         {
-          "score": 52,
-          "label": "16/08 02h"
+          "label": "16/08 02h",
+          "score": 64
         },
         {
-          "score": 52,
-          "label": "16/08 04h"
+          "label": "16/08 04h",
+          "score": 63
         },
         {
-          "score": 53,
-          "label": "16/08 06h"
+          "label": "16/08 06h",
+          "score": 65
         },
         {
-          "score": 53,
-          "label": "16/08 08h"
+          "label": "16/08 08h",
+          "score": 62
         },
         {
-          "score": 53,
-          "label": "16/08 10h"
+          "label": "16/08 10h",
+          "score": 66
         },
         {
-          "score": 53,
-          "label": "16/08 12h"
+          "label": "16/08 12h",
+          "score": 65
         },
         {
-          "score": 52,
-          "label": "16/08 14h"
+          "label": "16/08 14h",
+          "score": 56
         },
         {
-          "score": 50,
-          "label": "16/08 16h"
+          "label": "16/08 16h",
+          "score": 37
         },
         {
-          "score": 52,
-          "label": "16/08 18h"
+          "label": "16/08 18h",
+          "score": 51
         },
         {
-          "score": 52,
-          "label": "16/08 20h"
+          "label": "16/08 20h",
+          "score": 52
         },
         {
-          "score": 56,
-          "label": "16/08 22h"
+          "label": "16/08 22h",
+          "score": 81
         },
         {
-          "score": 55,
-          "label": "17/08 00h"
+          "label": "17/08 00h",
+          "score": 76
         },
         {
-          "score": 51,
-          "label": "17/08 02h"
+          "label": "17/08 02h",
+          "score": 37
         },
         {
-          "score": 49,
-          "label": "17/08 04h"
+          "label": "17/08 04h",
+          "score": 14
         },
         {
-          "score": 48,
-          "label": "17/08 06h"
+          "label": "17/08 06h",
+          "score": 5
         },
         {
-          "score": 49,
-          "label": "17/08 08h"
+          "label": "17/08 08h",
+          "score": 19
         },
         {
-          "score": 48,
-          "label": "17/08 10h"
+          "label": "17/08 10h",
+          "score": 5
         },
         {
-          "score": 48,
-          "label": "17/08 12h"
+          "label": "17/08 12h",
+          "score": 5
         },
         {
-          "score": 47,
-          "label": "17/08 14h"
+          "label": "17/08 14h",
+          "score": 20
         },
         {
-          "score": 41,
-          "label": "17/08 16h"
+          "label": "17/08 16h",
+          "score": 90
         },
         {
-          "score": 39,
-          "label": "17/08 18h"
+          "label": "17/08 18h",
+          "score": 98
         },
         {
-          "score": 40,
-          "label": "17/08 20h"
+          "label": "17/08 20h",
+          "score": 98
         },
         {
-          "score": 40,
-          "label": "17/08 22h"
+          "label": "17/08 22h",
+          "score": 98
         },
         {
-          "score": 39,
-          "label": "18/08 00h"
+          "label": "18/08 00h",
+          "score": 98
         },
         {
-          "score": 41,
-          "label": "18/08 02h"
+          "label": "18/08 02h",
+          "score": 90
         },
         {
-          "score": 41,
-          "label": "18/08 04h"
+          "label": "18/08 04h",
+          "score": 90
         },
         {
-          "score": 39,
-          "label": "18/08 06h"
+          "label": "18/08 06h",
+          "score": 98
         },
         {
-          "score": 40,
-          "label": "18/08 08h"
+          "label": "18/08 08h",
+          "score": 98
         },
         {
-          "score": 41,
-          "label": "18/08 10h"
+          "label": "18/08 10h",
+          "score": 88
         },
         {
-          "score": 41,
-          "label": "18/08 12h"
+          "label": "18/08 12h",
+          "score": 97
         },
         {
-          "score": 36,
-          "label": "18/08 14h"
+          "label": "18/08 14h",
+          "score": 98
         },
         {
-          "score": 36,
-          "label": "18/08 16h"
+          "label": "18/08 16h",
+          "score": 98
         },
         {
-          "score": 36,
-          "label": "18/08 18h"
+          "label": "18/08 18h",
+          "score": 98
         },
         {
-          "score": 38,
-          "label": "18/08 20h"
+          "label": "18/08 20h",
+          "score": 98
         },
         {
-          "score": 38,
-          "label": "18/08 22h"
+          "label": "18/08 22h",
+          "score": 98
         },
         {
-          "score": 38,
-          "label": "19/08 00h"
+          "label": "19/08 00h",
+          "score": 98
         },
         {
-          "score": 40,
-          "label": "19/08 02h"
+          "label": "19/08 02h",
+          "score": 88
         },
         {
-          "score": 40,
-          "label": "19/08 04h"
+          "label": "19/08 04h",
+          "score": 81
         },
         {
-          "score": 41,
-          "label": "19/08 06h"
+          "label": "19/08 06h",
+          "score": 76
         },
         {
-          "score": 39,
-          "label": "19/08 08h"
+          "label": "19/08 08h",
+          "score": 89
         },
         {
-          "score": 40,
-          "label": "19/08 10h"
+          "label": "19/08 10h",
+          "score": 85
         },
         {
-          "score": 35,
-          "label": "19/08 12h"
+          "label": "19/08 12h",
+          "score": 98
         },
         {
-          "score": 29,
-          "label": "19/08 14h"
+          "label": "19/08 14h",
+          "score": 98
         },
         {
-          "score": 5,
-          "label": "19/08 16h"
+          "label": "19/08 16h",
+          "score": 98
         },
         {
-          "score": 5,
-          "label": "19/08 18h"
+          "label": "19/08 18h",
+          "score": 98
         },
         {
-          "score": 5,
-          "label": "19/08 20h"
+          "label": "19/08 20h",
+          "score": 98
         },
         {
-          "score": 5,
-          "label": "19/08 22h"
+          "label": "19/08 22h",
+          "score": 98
         },
         {
-          "score": 5,
-          "label": "20/08 00h"
+          "label": "20/08 00h",
+          "score": 98
         },
         {
-          "score": 5,
-          "label": "20/08 02h"
+          "label": "20/08 02h",
+          "score": 98
         },
         {
-          "score": 5,
-          "label": "20/08 04h"
+          "label": "20/08 04h",
+          "score": 98
         },
         {
-          "score": 7,
-          "label": "20/08 06h"
+          "label": "20/08 06h",
+          "score": 98
         },
         {
-          "score": 21,
-          "label": "20/08 08h"
+          "label": "20/08 08h",
+          "score": 98
         },
         {
-          "score": 24,
-          "label": "20/08 10h"
+          "label": "20/08 10h",
+          "score": 98
         },
         {
-          "score": 23,
-          "label": "20/08 12h"
+          "label": "20/08 12h",
+          "score": 98
         },
         {
-          "score": 21,
-          "label": "20/08 14h"
+          "label": "20/08 14h",
+          "score": 98
         },
         {
-          "score": 29,
-          "label": "20/08 16h"
+          "label": "20/08 16h",
+          "score": 98
         },
         {
-          "score": 28,
-          "label": "20/08 18h"
+          "label": "20/08 18h",
+          "score": 98
         },
         {
-          "score": 30,
-          "label": "20/08 20h"
+          "label": "20/08 20h",
+          "score": 98
         },
         {
-          "score": 30,
-          "label": "20/08 22h"
+          "label": "20/08 22h",
+          "score": 98
         },
         {
-          "score": 36,
-          "label": "21/08 00h"
+          "label": "21/08 00h",
+          "score": 98
         },
         {
-          "score": 45,
-          "label": "21/08 02h"
+          "label": "21/08 02h",
+          "score": 98
         },
         {
-          "score": 46,
-          "label": "21/08 04h"
+          "label": "21/08 04h",
+          "score": 98
         },
         {
-          "score": 51,
-          "label": "21/08 06h"
+          "label": "21/08 06h",
+          "score": 98
         },
         {
-          "score": 64,
-          "label": "21/08 08h"
+          "label": "21/08 08h",
+          "score": 98
         },
         {
-          "score": 66,
-          "label": "21/08 10h"
+          "label": "21/08 10h",
+          "score": 98
         },
         {
-          "score": 62,
-          "label": "21/08 12h"
+          "label": "21/08 12h",
+          "score": 98
         },
         {
-          "score": 60,
-          "label": "21/08 14h"
+          "label": "21/08 14h",
+          "score": 98
         },
         {
-          "score": 63,
-          "label": "21/08 16h"
+          "label": "21/08 16h",
+          "score": 98
         },
         {
-          "score": 63,
-          "label": "21/08 18h"
+          "label": "21/08 18h",
+          "score": 98
         },
         {
-          "score": 64,
-          "label": "21/08 20h"
+          "label": "21/08 20h",
+          "score": 98
         },
         {
-          "score": 71,
-          "label": "21/08 22h"
+          "label": "21/08 22h",
+          "score": 98
         },
         {
-          "score": 67,
-          "label": "22/08 00h"
+          "label": "22/08 00h",
+          "score": 98
         },
         {
-          "score": 70,
-          "label": "22/08 02h"
+          "label": "22/08 02h",
+          "score": 98
         },
         {
-          "score": 72,
-          "label": "22/08 04h"
+          "label": "22/08 04h",
+          "score": 98
         },
         {
-          "score": 65,
-          "label": "22/08 06h"
+          "label": "22/08 06h",
+          "score": 98
         },
         {
-          "score": 62,
-          "label": "22/08 08h"
+          "label": "22/08 08h",
+          "score": 98
         },
         {
-          "score": 62,
-          "label": "22/08 10h"
+          "label": "22/08 10h",
+          "score": 98
         },
         {
-          "score": 63,
-          "label": "22/08 12h"
+          "label": "22/08 12h",
+          "score": 98
         },
         {
-          "score": 61,
-          "label": "22/08 14h"
+          "label": "22/08 14h",
+          "score": 94
         },
         {
-          "score": 64,
-          "label": "22/08 16h"
+          "label": "22/08 16h",
+          "score": 95
         },
         {
-          "score": 63,
-          "label": "22/08 18h"
+          "label": "22/08 18h",
+          "score": 88
         }
       ],
       "30d": [
         {
-          "score": 33,
-          "label": "23/07"
+          "label": "23/07",
+          "score": 5
         },
         {
-          "score": 32,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 5
         },
         {
-          "score": 31,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 5
         },
         {
-          "score": 39,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 67
         },
         {
-          "score": 41,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 80
         },
         {
-          "score": 41,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 82
         },
         {
-          "score": 37,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 54
         },
         {
-          "score": 37,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 48
         },
         {
-          "score": 36,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 40
         },
         {
-          "score": 34,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 28
         },
         {
-          "score": 29,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 11
         },
         {
-          "score": 27,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 20
         },
         {
-          "score": 33,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 29
         },
         {
-          "score": 49,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 98
         },
         {
-          "score": 46,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 98
         },
         {
-          "score": 44,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 82
         },
         {
-          "score": 41,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 59
         },
         {
-          "score": 35,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 6
         },
         {
-          "score": 38,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 21
         },
         {
-          "score": 38,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 18
         },
         {
-          "score": 36,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 17
         },
         {
-          "score": 33,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 42
         },
         {
-          "score": 37,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 5
         },
         {
-          "score": 41,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 42
         },
         {
-          "score": 49,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 98
         },
         {
-          "score": 49,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 98
         },
         {
-          "score": 50,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 98
         },
         {
-          "score": 57,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 98
         },
         {
-          "score": 46,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 46
         },
         {
-          "score": 49,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 60
         },
         {
-          "score": 47,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 40
         },
         {
-          "score": 49,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 52
         },
         {
-          "score": 53,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 87
         },
         {
-          "score": 42,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 21
         },
         {
-          "score": 42,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 23
         },
         {
-          "score": 43,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 17
         },
         {
-          "score": 39,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 54
         },
         {
-          "score": 38,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 63
         },
         {
-          "score": 41,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 29
         },
         {
-          "score": 34,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 96
         },
         {
-          "score": 36,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 68
         },
         {
-          "score": 36,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 70
         },
         {
-          "score": 37,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 60
         },
         {
-          "score": 37,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 63
         },
         {
-          "score": 33,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 98
         },
         {
-          "score": 34,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 81
         },
         {
-          "score": 32,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 86
         },
         {
-          "score": 31,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 86
         },
         {
-          "score": 31,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 81
         },
         {
-          "score": 33,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 56
         },
         {
-          "score": 32,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 63
         },
         {
-          "score": 30,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 76
         },
         {
-          "score": 31,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 62
         },
         {
-          "score": 31,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 54
         },
         {
-          "score": 42,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 94
         },
         {
-          "score": 41,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 78
         },
         {
-          "score": 37,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 36
         },
         {
-          "score": 48,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 98
         },
         {
-          "score": 44,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 98
         },
         {
-          "score": 41,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 67
         },
         {
-          "score": 48,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 98
         },
         {
-          "score": 47,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 98
         },
         {
-          "score": 46,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 91
         },
         {
-          "score": 49,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 98
         },
         {
-          "score": 48,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 87
         },
         {
-          "score": 54,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 98
         },
         {
-          "score": 54,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 98
         },
         {
-          "score": 52,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 81
         },
         {
-          "score": 53,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 81
         },
         {
-          "score": 53,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 71
         },
         {
-          "score": 52,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 63
         },
         {
-          "score": 53,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 66
         },
         {
-          "score": 52,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 47
         },
         {
-          "score": 50,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 26
         },
         {
-          "score": 47,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 12
         },
         {
-          "score": 40,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 98
         },
         {
-          "score": 42,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 74
         },
         {
-          "score": 40,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 98
         },
         {
-          "score": 37,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 98
         },
         {
-          "score": 40,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 83
         },
         {
-          "score": 38,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 98
         },
         {
-          "score": 5,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 98
         },
         {
-          "score": 5,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 98
         },
         {
-          "score": 25,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 98
         },
         {
-          "score": 28,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 98
         },
         {
-          "score": 43,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 98
         },
         {
-          "score": 63,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 98
         },
         {
-          "score": 62,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 98
         },
         {
-          "score": 71,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 98
         },
         {
-          "score": 60,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 98
         },
         {
-          "score": 63,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 88
+        }
+      ],
+      "365d": [
+        {
+          "label": "22/08/25",
+          "score": 53
+        },
+        {
+          "label": "26/08/25",
+          "score": 81
+        },
+        {
+          "label": "30/08/25",
+          "score": 84
+        },
+        {
+          "label": "03/09/25",
+          "score": 68
+        },
+        {
+          "label": "07/09/25",
+          "score": 29
+        },
+        {
+          "label": "11/09/25",
+          "score": 98
+        },
+        {
+          "label": "15/09/25",
+          "score": 46
+        },
+        {
+          "label": "19/09/25",
+          "score": 52
+        },
+        {
+          "label": "23/09/25",
+          "score": 98
+        },
+        {
+          "label": "27/09/25",
+          "score": 80
+        },
+        {
+          "label": "01/10/25",
+          "score": 98
+        },
+        {
+          "label": "05/10/25",
+          "score": 69
+        },
+        {
+          "label": "09/10/25",
+          "score": 78
+        },
+        {
+          "label": "13/10/25",
+          "score": 27
+        },
+        {
+          "label": "17/10/25",
+          "score": 98
+        },
+        {
+          "label": "21/10/25",
+          "score": 73
+        },
+        {
+          "label": "25/10/25",
+          "score": 79
+        },
+        {
+          "label": "29/10/25",
+          "score": 43
+        },
+        {
+          "label": "02/11/25",
+          "score": 41
+        },
+        {
+          "label": "06/11/25",
+          "score": 96
+        },
+        {
+          "label": "10/11/25",
+          "score": 98
+        },
+        {
+          "label": "03/12/25",
+          "score": 32
+        },
+        {
+          "label": "07/12/25",
+          "score": 38
+        },
+        {
+          "label": "18/01/26",
+          "score": 80
+        },
+        {
+          "label": "22/01/26",
+          "score": 62
+        },
+        {
+          "label": "28/01/26",
+          "score": 5
+        },
+        {
+          "label": "01/02/26",
+          "score": 98
+        },
+        {
+          "label": "06/02/26",
+          "score": 98
+        },
+        {
+          "label": "10/02/26",
+          "score": 32
+        },
+        {
+          "label": "16/02/26",
+          "score": 30
+        },
+        {
+          "label": "21/02/26",
+          "score": 20
+        },
+        {
+          "label": "25/02/26",
+          "score": 41
+        },
+        {
+          "label": "02/03/26",
+          "score": 7
+        },
+        {
+          "label": "07/03/26",
+          "score": 8
+        },
+        {
+          "label": "11/03/26",
+          "score": 43
+        },
+        {
+          "label": "16/03/26",
+          "score": 98
+        },
+        {
+          "label": "20/03/26",
+          "score": 88
+        },
+        {
+          "label": "25/03/26",
+          "score": 24
+        },
+        {
+          "label": "30/03/26",
+          "score": 37
+        },
+        {
+          "label": "03/04/26",
+          "score": 10
+        },
+        {
+          "label": "08/04/26",
+          "score": 98
+        },
+        {
+          "label": "12/04/26",
+          "score": 36
+        },
+        {
+          "label": "16/04/26",
+          "score": 75
+        },
+        {
+          "label": "20/04/26",
+          "score": 59
+        },
+        {
+          "label": "24/04/26",
+          "score": 33
+        },
+        {
+          "label": "29/04/26",
+          "score": 49
+        },
+        {
+          "label": "03/05/26",
+          "score": 83
+        },
+        {
+          "label": "07/05/26",
+          "score": 17
+        },
+        {
+          "label": "13/05/26",
+          "score": 98
+        },
+        {
+          "label": "17/05/26",
+          "score": 98
+        },
+        {
+          "label": "22/05/26",
+          "score": 7
+        },
+        {
+          "label": "26/05/26",
+          "score": 11
+        },
+        {
+          "label": "30/05/26",
+          "score": 67
+        },
+        {
+          "label": "04/06/26",
+          "score": 98
+        },
+        {
+          "label": "08/06/26",
+          "score": 23
+        },
+        {
+          "label": "12/06/26",
+          "score": 98
+        },
+        {
+          "label": "16/06/26",
+          "score": 98
+        },
+        {
+          "label": "20/06/26",
+          "score": 58
+        },
+        {
+          "label": "24/06/26",
+          "score": 61
+        },
+        {
+          "label": "28/06/26",
+          "score": 63
+        },
+        {
+          "label": "02/07/26",
+          "score": 7
+        },
+        {
+          "label": "06/07/26",
+          "score": 98
+        },
+        {
+          "label": "10/07/26",
+          "score": 58
+        },
+        {
+          "label": "14/07/26",
+          "score": 59
+        },
+        {
+          "label": "18/07/26",
+          "score": 5
+        },
+        {
+          "label": "22/07/26",
+          "score": 98
+        },
+        {
+          "label": "26/07/26",
+          "score": 45
+        },
+        {
+          "label": "30/07/26",
+          "score": 29
+        },
+        {
+          "label": "03/08/26",
+          "score": 51
+        },
+        {
+          "label": "07/08/26",
+          "score": 61
+        },
+        {
+          "label": "11/08/26",
+          "score": 77
+        },
+        {
+          "label": "15/08/26",
+          "score": 88
+        },
+        {
+          "label": "19/08/26",
+          "score": 85
+        },
+        {
+          "label": "22/08/26",
+          "score": 88
         }
       ]
     }
@@ -1286,7 +1584,7 @@ window.PLANOS_TACTICAL_DATA = [
     "valor_atual_str": "VIX = 16.09 pts",
     "alvo_str": "VIX >= 22.50 pts (Pânico Global)",
     "distancia_display": "+6.41 pts de estresse no VIX",
-    "proximidade_score": 71,
+    "proximidade_score": 72,
     "status": "AGUARDANDO_PANICO",
     "icone": "🛡️",
     "cor": "#10B981",
@@ -1296,1250 +1594,1548 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "score": 71,
-          "label": "17:36"
+          "label": "17:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:37"
+          "label": "17:37",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:38"
+          "label": "17:38",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:39"
+          "label": "17:39",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:40"
+          "label": "17:40",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:41"
+          "label": "17:41",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:42"
+          "label": "17:42",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:43"
+          "label": "17:43",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:44"
+          "label": "17:44",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:45"
+          "label": "17:45",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:46"
+          "label": "17:46",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:47"
+          "label": "17:47",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:48"
+          "label": "17:48",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:49"
+          "label": "17:49",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:50"
+          "label": "17:50",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:51"
+          "label": "17:51",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:52"
+          "label": "17:52",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:53"
+          "label": "17:53",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:54"
+          "label": "17:54",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:55"
+          "label": "17:55",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:56"
+          "label": "17:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:57"
+          "label": "17:57",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:58"
+          "label": "17:58",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:59"
+          "label": "17:59",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:00"
+          "label": "18:00",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:01"
+          "label": "18:01",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:02"
+          "label": "18:02",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:03"
+          "label": "18:03",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:04"
+          "label": "18:04",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:05"
+          "label": "18:05",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:06"
+          "label": "18:06",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:07"
+          "label": "18:07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:08"
+          "label": "18:08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:09"
+          "label": "18:09",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:10"
+          "label": "18:10",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:11"
+          "label": "18:11",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:12"
+          "label": "18:12",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:13"
+          "label": "18:13",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:14"
+          "label": "18:14",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:15"
+          "label": "18:15",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:16"
+          "label": "18:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:17"
+          "label": "18:17",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:18"
+          "label": "18:18",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:19"
+          "label": "18:19",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:20"
+          "label": "18:20",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:21"
+          "label": "18:21",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:22"
+          "label": "18:22",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:23"
+          "label": "18:23",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:24"
+          "label": "18:24",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:25"
+          "label": "18:25",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:26"
+          "label": "18:26",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:27"
+          "label": "18:27",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:28"
+          "label": "18:28",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:29"
+          "label": "18:29",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:30"
+          "label": "18:30",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:31"
+          "label": "18:31",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:32"
+          "label": "18:32",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:33"
+          "label": "18:33",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:34"
+          "label": "18:34",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:35"
+          "label": "18:35",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 72
         }
       ],
       "24h": [
         {
-          "score": 71,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:56"
+          "label": "18:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19:16"
+          "label": "19:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19:36"
+          "label": "19:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19:56"
+          "label": "19:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20:16"
+          "label": "20:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20:36"
+          "label": "20:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20:56"
+          "label": "20:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21:16"
+          "label": "21:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21:36"
+          "label": "21:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21:56"
+          "label": "21:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "22:16"
+          "label": "22:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "22:36"
+          "label": "22:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "22:56"
+          "label": "22:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "23:16"
+          "label": "23:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "23:36"
+          "label": "23:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "23:56"
+          "label": "23:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "00:16"
+          "label": "00:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "00:36"
+          "label": "00:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "00:56"
+          "label": "00:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "01:16"
+          "label": "01:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "01:36"
+          "label": "01:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "01:56"
+          "label": "01:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "02:16"
+          "label": "02:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "02:36"
+          "label": "02:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "02:56"
+          "label": "02:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "03:16"
+          "label": "03:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "03:36"
+          "label": "03:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "03:56"
+          "label": "03:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "04:16"
+          "label": "04:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "04:36"
+          "label": "04:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "04:56"
+          "label": "04:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "05:16"
+          "label": "05:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "05:36"
+          "label": "05:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "05:56"
+          "label": "05:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "06:16"
+          "label": "06:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "06:36"
+          "label": "06:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "06:56"
+          "label": "06:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "07:16"
+          "label": "07:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "07:36"
+          "label": "07:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "07:56"
+          "label": "07:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "08:16"
+          "label": "08:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "08:36"
+          "label": "08:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "08:56"
+          "label": "08:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "09:16"
+          "label": "09:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "09:36"
+          "label": "09:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "09:56"
+          "label": "09:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "10:16"
+          "label": "10:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "10:36"
+          "label": "10:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "10:56"
+          "label": "10:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "11:16"
+          "label": "11:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "11:36"
+          "label": "11:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "11:56"
+          "label": "11:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "12:16"
+          "label": "12:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "12:36"
+          "label": "12:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "12:56"
+          "label": "12:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "13:16"
+          "label": "13:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "13:36"
+          "label": "13:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "13:56"
+          "label": "13:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "14:16"
+          "label": "14:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "14:36"
+          "label": "14:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "14:56"
+          "label": "14:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "15:16"
+          "label": "15:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "15:36"
+          "label": "15:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "15:56"
+          "label": "15:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16:16"
+          "label": "16:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16:36"
+          "label": "16:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16:56"
+          "label": "16:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:16"
+          "label": "17:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:36"
+          "label": "17:36",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17:56"
+          "label": "17:56",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:16"
+          "label": "18:16",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 72
         }
       ],
       "7d": [
         {
-          "score": 71,
-          "label": "15/08 18h"
+          "label": "15/08 18h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "15/08 20h"
+          "label": "15/08 20h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "15/08 22h"
+          "label": "15/08 22h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16/08 00h"
+          "label": "16/08 00h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16/08 02h"
+          "label": "16/08 02h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16/08 04h"
+          "label": "16/08 04h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16/08 06h"
+          "label": "16/08 06h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16/08 08h"
+          "label": "16/08 08h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16/08 10h"
+          "label": "16/08 10h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16/08 12h"
+          "label": "16/08 12h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16/08 14h"
+          "label": "16/08 14h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16/08 16h"
+          "label": "16/08 16h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16/08 18h"
+          "label": "16/08 18h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16/08 20h"
+          "label": "16/08 20h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16/08 22h"
+          "label": "16/08 22h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17/08 00h"
+          "label": "17/08 00h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17/08 02h"
+          "label": "17/08 02h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17/08 04h"
+          "label": "17/08 04h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17/08 06h"
+          "label": "17/08 06h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17/08 08h"
+          "label": "17/08 08h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17/08 10h"
+          "label": "17/08 10h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17/08 12h"
+          "label": "17/08 12h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17/08 14h"
+          "label": "17/08 14h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17/08 16h"
+          "label": "17/08 16h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17/08 18h"
+          "label": "17/08 18h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17/08 20h"
+          "label": "17/08 20h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17/08 22h"
+          "label": "17/08 22h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18/08 00h"
+          "label": "18/08 00h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18/08 02h"
+          "label": "18/08 02h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18/08 04h"
+          "label": "18/08 04h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18/08 06h"
+          "label": "18/08 06h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18/08 08h"
+          "label": "18/08 08h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18/08 10h"
+          "label": "18/08 10h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18/08 12h"
+          "label": "18/08 12h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18/08 14h"
+          "label": "18/08 14h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18/08 16h"
+          "label": "18/08 16h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18/08 18h"
+          "label": "18/08 18h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18/08 20h"
+          "label": "18/08 20h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18/08 22h"
+          "label": "18/08 22h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19/08 00h"
+          "label": "19/08 00h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19/08 02h"
+          "label": "19/08 02h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19/08 04h"
+          "label": "19/08 04h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19/08 06h"
+          "label": "19/08 06h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19/08 08h"
+          "label": "19/08 08h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19/08 10h"
+          "label": "19/08 10h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19/08 12h"
+          "label": "19/08 12h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19/08 14h"
+          "label": "19/08 14h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19/08 16h"
+          "label": "19/08 16h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19/08 18h"
+          "label": "19/08 18h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19/08 20h"
+          "label": "19/08 20h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19/08 22h"
+          "label": "19/08 22h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20/08 00h"
+          "label": "20/08 00h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20/08 02h"
+          "label": "20/08 02h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20/08 04h"
+          "label": "20/08 04h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20/08 06h"
+          "label": "20/08 06h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20/08 08h"
+          "label": "20/08 08h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20/08 10h"
+          "label": "20/08 10h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20/08 12h"
+          "label": "20/08 12h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20/08 14h"
+          "label": "20/08 14h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20/08 16h"
+          "label": "20/08 16h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20/08 18h"
+          "label": "20/08 18h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20/08 20h"
+          "label": "20/08 20h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20/08 22h"
+          "label": "20/08 22h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21/08 00h"
+          "label": "21/08 00h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21/08 02h"
+          "label": "21/08 02h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21/08 04h"
+          "label": "21/08 04h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21/08 06h"
+          "label": "21/08 06h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21/08 08h"
+          "label": "21/08 08h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21/08 10h"
+          "label": "21/08 10h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21/08 12h"
+          "label": "21/08 12h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21/08 14h"
+          "label": "21/08 14h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21/08 16h"
+          "label": "21/08 16h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21/08 18h"
+          "label": "21/08 18h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21/08 20h"
+          "label": "21/08 20h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21/08 22h"
+          "label": "21/08 22h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "22/08 00h"
+          "label": "22/08 00h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "22/08 02h"
+          "label": "22/08 02h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "22/08 04h"
+          "label": "22/08 04h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "22/08 06h"
+          "label": "22/08 06h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "22/08 08h"
+          "label": "22/08 08h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "22/08 10h"
+          "label": "22/08 10h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "22/08 12h"
+          "label": "22/08 12h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "22/08 14h"
+          "label": "22/08 14h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "22/08 16h"
+          "label": "22/08 16h",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "22/08 18h"
+          "label": "22/08 18h",
+          "score": 72
         }
       ],
       "30d": [
         {
-          "score": 71,
-          "label": "23/07"
+          "label": "23/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 72
         },
         {
-          "score": 71,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 72
+        }
+      ],
+      "365d": [
+        {
+          "label": "22/08/25",
+          "score": 72
+        },
+        {
+          "label": "26/08/25",
+          "score": 72
+        },
+        {
+          "label": "30/08/25",
+          "score": 72
+        },
+        {
+          "label": "03/09/25",
+          "score": 72
+        },
+        {
+          "label": "07/09/25",
+          "score": 72
+        },
+        {
+          "label": "11/09/25",
+          "score": 72
+        },
+        {
+          "label": "15/09/25",
+          "score": 72
+        },
+        {
+          "label": "19/09/25",
+          "score": 72
+        },
+        {
+          "label": "23/09/25",
+          "score": 72
+        },
+        {
+          "label": "27/09/25",
+          "score": 72
+        },
+        {
+          "label": "01/10/25",
+          "score": 72
+        },
+        {
+          "label": "05/10/25",
+          "score": 72
+        },
+        {
+          "label": "09/10/25",
+          "score": 72
+        },
+        {
+          "label": "13/10/25",
+          "score": 72
+        },
+        {
+          "label": "17/10/25",
+          "score": 72
+        },
+        {
+          "label": "21/10/25",
+          "score": 72
+        },
+        {
+          "label": "25/10/25",
+          "score": 72
+        },
+        {
+          "label": "29/10/25",
+          "score": 72
+        },
+        {
+          "label": "02/11/25",
+          "score": 72
+        },
+        {
+          "label": "06/11/25",
+          "score": 72
+        },
+        {
+          "label": "10/11/25",
+          "score": 72
+        },
+        {
+          "label": "03/12/25",
+          "score": 72
+        },
+        {
+          "label": "07/12/25",
+          "score": 72
+        },
+        {
+          "label": "18/01/26",
+          "score": 72
+        },
+        {
+          "label": "22/01/26",
+          "score": 72
+        },
+        {
+          "label": "28/01/26",
+          "score": 72
+        },
+        {
+          "label": "01/02/26",
+          "score": 72
+        },
+        {
+          "label": "06/02/26",
+          "score": 72
+        },
+        {
+          "label": "10/02/26",
+          "score": 72
+        },
+        {
+          "label": "16/02/26",
+          "score": 72
+        },
+        {
+          "label": "21/02/26",
+          "score": 72
+        },
+        {
+          "label": "25/02/26",
+          "score": 72
+        },
+        {
+          "label": "02/03/26",
+          "score": 72
+        },
+        {
+          "label": "07/03/26",
+          "score": 72
+        },
+        {
+          "label": "11/03/26",
+          "score": 72
+        },
+        {
+          "label": "16/03/26",
+          "score": 72
+        },
+        {
+          "label": "20/03/26",
+          "score": 72
+        },
+        {
+          "label": "25/03/26",
+          "score": 72
+        },
+        {
+          "label": "30/03/26",
+          "score": 72
+        },
+        {
+          "label": "03/04/26",
+          "score": 72
+        },
+        {
+          "label": "08/04/26",
+          "score": 72
+        },
+        {
+          "label": "12/04/26",
+          "score": 72
+        },
+        {
+          "label": "16/04/26",
+          "score": 72
+        },
+        {
+          "label": "20/04/26",
+          "score": 72
+        },
+        {
+          "label": "24/04/26",
+          "score": 72
+        },
+        {
+          "label": "29/04/26",
+          "score": 72
+        },
+        {
+          "label": "03/05/26",
+          "score": 72
+        },
+        {
+          "label": "07/05/26",
+          "score": 72
+        },
+        {
+          "label": "13/05/26",
+          "score": 72
+        },
+        {
+          "label": "17/05/26",
+          "score": 72
+        },
+        {
+          "label": "22/05/26",
+          "score": 72
+        },
+        {
+          "label": "26/05/26",
+          "score": 72
+        },
+        {
+          "label": "30/05/26",
+          "score": 72
+        },
+        {
+          "label": "04/06/26",
+          "score": 72
+        },
+        {
+          "label": "08/06/26",
+          "score": 72
+        },
+        {
+          "label": "12/06/26",
+          "score": 72
+        },
+        {
+          "label": "16/06/26",
+          "score": 72
+        },
+        {
+          "label": "20/06/26",
+          "score": 72
+        },
+        {
+          "label": "24/06/26",
+          "score": 72
+        },
+        {
+          "label": "28/06/26",
+          "score": 72
+        },
+        {
+          "label": "02/07/26",
+          "score": 72
+        },
+        {
+          "label": "06/07/26",
+          "score": 72
+        },
+        {
+          "label": "10/07/26",
+          "score": 72
+        },
+        {
+          "label": "14/07/26",
+          "score": 72
+        },
+        {
+          "label": "18/07/26",
+          "score": 72
+        },
+        {
+          "label": "22/07/26",
+          "score": 72
+        },
+        {
+          "label": "26/07/26",
+          "score": 72
+        },
+        {
+          "label": "30/07/26",
+          "score": 72
+        },
+        {
+          "label": "03/08/26",
+          "score": 72
+        },
+        {
+          "label": "07/08/26",
+          "score": 72
+        },
+        {
+          "label": "11/08/26",
+          "score": 72
+        },
+        {
+          "label": "15/08/26",
+          "score": 72
+        },
+        {
+          "label": "19/08/26",
+          "score": 72
+        },
+        {
+          "label": "22/08/26",
+          "score": 72
         }
       ]
     }
@@ -2555,10 +3151,10 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Desconto USDT >= R$ 0.0400 vs PTAX Comercial",
     "trava_ruptura": "Ancorado no ágio estrutural histórico de 79.6% do tempo",
     "cooldown_horas": 4.0,
-    "valor_atual_str": "USDT R$ 5.1607 (Spread: +0.1492)",
+    "valor_atual_str": "USDT R$ 5.1604 (Spread: +0.1489)",
     "alvo_str": "Spread <= -R$ 0.0400 vs PTAX",
-    "distancia_display": "Faltam R$ 0.1892 de desconto",
-    "proximidade_score": 35,
+    "distancia_display": "Faltam R$ 0.1889 de desconto",
+    "proximidade_score": 5,
     "status": "AGUARDANDO_DESCONTO",
     "icone": "💵",
     "cor": "#3B82F6",
@@ -2568,1250 +3164,1548 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "score": 10,
-          "label": "17:36"
+          "label": "17:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:37"
+          "label": "17:37",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:38"
+          "label": "17:38",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:39"
+          "label": "17:39",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:40"
+          "label": "17:40",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:41"
+          "label": "17:41",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:42"
+          "label": "17:42",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:43"
+          "label": "17:43",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:44"
+          "label": "17:44",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:45"
+          "label": "17:45",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:46"
+          "label": "17:46",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:47"
+          "label": "17:47",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:48"
+          "label": "17:48",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:49"
+          "label": "17:49",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:50"
+          "label": "17:50",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:51"
+          "label": "17:51",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:52"
+          "label": "17:52",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:53"
+          "label": "17:53",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:54"
+          "label": "17:54",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:55"
+          "label": "17:55",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:56"
+          "label": "17:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:57"
+          "label": "17:57",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:58"
+          "label": "17:58",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:59"
+          "label": "17:59",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:00"
+          "label": "18:00",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:01"
+          "label": "18:01",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:02"
+          "label": "18:02",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:03"
+          "label": "18:03",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:04"
+          "label": "18:04",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:05"
+          "label": "18:05",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:06"
+          "label": "18:06",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:07"
+          "label": "18:07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:08"
+          "label": "18:08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:09"
+          "label": "18:09",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:10"
+          "label": "18:10",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:11"
+          "label": "18:11",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:12"
+          "label": "18:12",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:13"
+          "label": "18:13",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:14"
+          "label": "18:14",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:15"
+          "label": "18:15",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:16"
+          "label": "18:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:17"
+          "label": "18:17",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:18"
+          "label": "18:18",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:19"
+          "label": "18:19",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:20"
+          "label": "18:20",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:21"
+          "label": "18:21",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:22"
+          "label": "18:22",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:23"
+          "label": "18:23",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:24"
+          "label": "18:24",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:25"
+          "label": "18:25",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:26"
+          "label": "18:26",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:27"
+          "label": "18:27",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:28"
+          "label": "18:28",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:29"
+          "label": "18:29",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:30"
+          "label": "18:30",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:31"
+          "label": "18:31",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:32"
+          "label": "18:32",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:33"
+          "label": "18:33",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:34"
+          "label": "18:34",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:35"
+          "label": "18:35",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 5
         }
       ],
       "24h": [
         {
-          "score": 10,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:56"
+          "label": "18:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19:16"
+          "label": "19:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19:36"
+          "label": "19:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19:56"
+          "label": "19:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20:16"
+          "label": "20:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20:36"
+          "label": "20:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20:56"
+          "label": "20:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21:16"
+          "label": "21:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21:36"
+          "label": "21:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21:56"
+          "label": "21:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22:16"
+          "label": "22:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22:36"
+          "label": "22:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22:56"
+          "label": "22:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "23:16"
+          "label": "23:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "23:36"
+          "label": "23:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "23:56"
+          "label": "23:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "00:16"
+          "label": "00:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "00:36"
+          "label": "00:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "00:56"
+          "label": "00:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "01:16"
+          "label": "01:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "01:36"
+          "label": "01:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "01:56"
+          "label": "01:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "02:16"
+          "label": "02:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "02:36"
+          "label": "02:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "02:56"
+          "label": "02:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "03:16"
+          "label": "03:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "03:36"
+          "label": "03:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "03:56"
+          "label": "03:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "04:16"
+          "label": "04:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "04:36"
+          "label": "04:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "04:56"
+          "label": "04:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "05:16"
+          "label": "05:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "05:36"
+          "label": "05:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "05:56"
+          "label": "05:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "06:16"
+          "label": "06:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "06:36"
+          "label": "06:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "06:56"
+          "label": "06:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "07:16"
+          "label": "07:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "07:36"
+          "label": "07:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "07:56"
+          "label": "07:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "08:16"
+          "label": "08:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "08:36"
+          "label": "08:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "08:56"
+          "label": "08:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "09:16"
+          "label": "09:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "09:36"
+          "label": "09:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "09:56"
+          "label": "09:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "10:16"
+          "label": "10:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "10:36"
+          "label": "10:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "10:56"
+          "label": "10:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "11:16"
+          "label": "11:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "11:36"
+          "label": "11:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "11:56"
+          "label": "11:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "12:16"
+          "label": "12:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "12:36"
+          "label": "12:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "12:56"
+          "label": "12:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "13:16"
+          "label": "13:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "13:36"
+          "label": "13:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "13:56"
+          "label": "13:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "14:16"
+          "label": "14:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "14:36"
+          "label": "14:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "14:56"
+          "label": "14:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "15:16"
+          "label": "15:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "15:36"
+          "label": "15:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "15:56"
+          "label": "15:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16:16"
+          "label": "16:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16:36"
+          "label": "16:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16:56"
+          "label": "16:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:16"
+          "label": "17:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:36"
+          "label": "17:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:56"
+          "label": "17:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:16"
+          "label": "18:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 5
         }
       ],
       "7d": [
         {
-          "score": 10,
-          "label": "15/08 18h"
+          "label": "15/08 18h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "15/08 20h"
+          "label": "15/08 20h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "15/08 22h"
+          "label": "15/08 22h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 00h"
+          "label": "16/08 00h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 02h"
+          "label": "16/08 02h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 04h"
+          "label": "16/08 04h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 06h"
+          "label": "16/08 06h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 08h"
+          "label": "16/08 08h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 10h"
+          "label": "16/08 10h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 12h"
+          "label": "16/08 12h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 14h"
+          "label": "16/08 14h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 16h"
+          "label": "16/08 16h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 18h"
+          "label": "16/08 18h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 20h"
+          "label": "16/08 20h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 22h"
+          "label": "16/08 22h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 00h"
+          "label": "17/08 00h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 02h"
+          "label": "17/08 02h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 04h"
+          "label": "17/08 04h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 06h"
+          "label": "17/08 06h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 08h"
+          "label": "17/08 08h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 10h"
+          "label": "17/08 10h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 12h"
+          "label": "17/08 12h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 14h"
+          "label": "17/08 14h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 16h"
+          "label": "17/08 16h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 18h"
+          "label": "17/08 18h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 20h"
+          "label": "17/08 20h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 22h"
+          "label": "17/08 22h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 00h"
+          "label": "18/08 00h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 02h"
+          "label": "18/08 02h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 04h"
+          "label": "18/08 04h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 06h"
+          "label": "18/08 06h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 08h"
+          "label": "18/08 08h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 10h"
+          "label": "18/08 10h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 12h"
+          "label": "18/08 12h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 14h"
+          "label": "18/08 14h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 16h"
+          "label": "18/08 16h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 18h"
+          "label": "18/08 18h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 20h"
+          "label": "18/08 20h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 22h"
+          "label": "18/08 22h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08 00h"
+          "label": "19/08 00h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08 02h"
+          "label": "19/08 02h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08 04h"
+          "label": "19/08 04h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08 06h"
+          "label": "19/08 06h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08 08h"
+          "label": "19/08 08h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08 10h"
+          "label": "19/08 10h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08 12h"
+          "label": "19/08 12h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08 14h"
+          "label": "19/08 14h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08 16h"
+          "label": "19/08 16h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08 18h"
+          "label": "19/08 18h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08 20h"
+          "label": "19/08 20h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08 22h"
+          "label": "19/08 22h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 00h"
+          "label": "20/08 00h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 02h"
+          "label": "20/08 02h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 04h"
+          "label": "20/08 04h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 06h"
+          "label": "20/08 06h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 08h"
+          "label": "20/08 08h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 10h"
+          "label": "20/08 10h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 12h"
+          "label": "20/08 12h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 14h"
+          "label": "20/08 14h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 16h"
+          "label": "20/08 16h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 18h"
+          "label": "20/08 18h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 20h"
+          "label": "20/08 20h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 22h"
+          "label": "20/08 22h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08 00h"
+          "label": "21/08 00h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08 02h"
+          "label": "21/08 02h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08 04h"
+          "label": "21/08 04h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08 06h"
+          "label": "21/08 06h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08 08h"
+          "label": "21/08 08h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08 10h"
+          "label": "21/08 10h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08 12h"
+          "label": "21/08 12h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08 14h"
+          "label": "21/08 14h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08 16h"
+          "label": "21/08 16h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08 18h"
+          "label": "21/08 18h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08 20h"
+          "label": "21/08 20h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08 22h"
+          "label": "21/08 22h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08 00h"
+          "label": "22/08 00h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08 02h"
+          "label": "22/08 02h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08 04h"
+          "label": "22/08 04h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08 06h"
+          "label": "22/08 06h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08 08h"
+          "label": "22/08 08h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08 10h"
+          "label": "22/08 10h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08 12h"
+          "label": "22/08 12h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08 14h"
+          "label": "22/08 14h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08 16h"
+          "label": "22/08 16h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08 18h"
+          "label": "22/08 18h",
+          "score": 5
         }
       ],
       "30d": [
         {
-          "score": 10,
-          "label": "23/07"
+          "label": "23/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 5
+        }
+      ],
+      "365d": [
+        {
+          "label": "22/08/25",
+          "score": 5
+        },
+        {
+          "label": "26/08/25",
+          "score": 5
+        },
+        {
+          "label": "30/08/25",
+          "score": 5
+        },
+        {
+          "label": "03/09/25",
+          "score": 5
+        },
+        {
+          "label": "07/09/25",
+          "score": 5
+        },
+        {
+          "label": "11/09/25",
+          "score": 5
+        },
+        {
+          "label": "15/09/25",
+          "score": 5
+        },
+        {
+          "label": "19/09/25",
+          "score": 5
+        },
+        {
+          "label": "23/09/25",
+          "score": 5
+        },
+        {
+          "label": "27/09/25",
+          "score": 5
+        },
+        {
+          "label": "01/10/25",
+          "score": 5
+        },
+        {
+          "label": "05/10/25",
+          "score": 5
+        },
+        {
+          "label": "09/10/25",
+          "score": 5
+        },
+        {
+          "label": "13/10/25",
+          "score": 5
+        },
+        {
+          "label": "17/10/25",
+          "score": 5
+        },
+        {
+          "label": "21/10/25",
+          "score": 5
+        },
+        {
+          "label": "25/10/25",
+          "score": 5
+        },
+        {
+          "label": "29/10/25",
+          "score": 5
+        },
+        {
+          "label": "02/11/25",
+          "score": 5
+        },
+        {
+          "label": "06/11/25",
+          "score": 5
+        },
+        {
+          "label": "10/11/25",
+          "score": 5
+        },
+        {
+          "label": "03/12/25",
+          "score": 5
+        },
+        {
+          "label": "07/12/25",
+          "score": 5
+        },
+        {
+          "label": "18/01/26",
+          "score": 5
+        },
+        {
+          "label": "22/01/26",
+          "score": 5
+        },
+        {
+          "label": "28/01/26",
+          "score": 5
+        },
+        {
+          "label": "01/02/26",
+          "score": 5
+        },
+        {
+          "label": "06/02/26",
+          "score": 5
+        },
+        {
+          "label": "10/02/26",
+          "score": 5
+        },
+        {
+          "label": "16/02/26",
+          "score": 5
+        },
+        {
+          "label": "21/02/26",
+          "score": 5
+        },
+        {
+          "label": "25/02/26",
+          "score": 5
+        },
+        {
+          "label": "02/03/26",
+          "score": 5
+        },
+        {
+          "label": "07/03/26",
+          "score": 5
+        },
+        {
+          "label": "11/03/26",
+          "score": 5
+        },
+        {
+          "label": "16/03/26",
+          "score": 5
+        },
+        {
+          "label": "20/03/26",
+          "score": 5
+        },
+        {
+          "label": "25/03/26",
+          "score": 5
+        },
+        {
+          "label": "30/03/26",
+          "score": 5
+        },
+        {
+          "label": "03/04/26",
+          "score": 5
+        },
+        {
+          "label": "08/04/26",
+          "score": 5
+        },
+        {
+          "label": "12/04/26",
+          "score": 5
+        },
+        {
+          "label": "16/04/26",
+          "score": 35
+        },
+        {
+          "label": "20/04/26",
+          "score": 81
+        },
+        {
+          "label": "24/04/26",
+          "score": 38
+        },
+        {
+          "label": "29/04/26",
+          "score": 75
+        },
+        {
+          "label": "03/05/26",
+          "score": 98
+        },
+        {
+          "label": "07/05/26",
+          "score": 98
+        },
+        {
+          "label": "13/05/26",
+          "score": 98
+        },
+        {
+          "label": "17/05/26",
+          "score": 5
+        },
+        {
+          "label": "22/05/26",
+          "score": 28
+        },
+        {
+          "label": "26/05/26",
+          "score": 5
+        },
+        {
+          "label": "30/05/26",
+          "score": 5
+        },
+        {
+          "label": "04/06/26",
+          "score": 5
+        },
+        {
+          "label": "08/06/26",
+          "score": 5
+        },
+        {
+          "label": "12/06/26",
+          "score": 5
+        },
+        {
+          "label": "16/06/26",
+          "score": 5
+        },
+        {
+          "label": "20/06/26",
+          "score": 5
+        },
+        {
+          "label": "24/06/26",
+          "score": 5
+        },
+        {
+          "label": "28/06/26",
+          "score": 5
+        },
+        {
+          "label": "02/07/26",
+          "score": 5
+        },
+        {
+          "label": "06/07/26",
+          "score": 5
+        },
+        {
+          "label": "10/07/26",
+          "score": 5
+        },
+        {
+          "label": "14/07/26",
+          "score": 5
+        },
+        {
+          "label": "18/07/26",
+          "score": 5
+        },
+        {
+          "label": "22/07/26",
+          "score": 5
+        },
+        {
+          "label": "26/07/26",
+          "score": 5
+        },
+        {
+          "label": "30/07/26",
+          "score": 5
+        },
+        {
+          "label": "03/08/26",
+          "score": 5
+        },
+        {
+          "label": "07/08/26",
+          "score": 5
+        },
+        {
+          "label": "11/08/26",
+          "score": 5
+        },
+        {
+          "label": "15/08/26",
+          "score": 5
+        },
+        {
+          "label": "19/08/26",
+          "score": 5
+        },
+        {
+          "label": "22/08/26",
+          "score": 5
         }
       ]
     }
@@ -3827,10 +4721,10 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Reversão à Média 51h (Z_LINK <= -2.00σ)",
     "trava_ruptura": "Trava Causal: Exige STE >= 0 e Ew < 50 (Caudas de Lévy)",
     "cooldown_horas": 4.0,
-    "valor_atual_str": "LINK R$ 59.62 (Z: +0.16σ)",
+    "valor_atual_str": "LINK R$ 59.53 (Z: +0.13σ)",
     "alvo_str": "Preço <= R$ 54.31 (Z <= -2.0σ)",
-    "distancia_display": "+9.8% de recuo",
-    "proximidade_score": 25,
+    "distancia_display": "+9.6% de distância",
+    "proximidade_score": 5,
     "status": "MONITORANDO_BANDA",
     "icone": "🌐",
     "cor": "#8B5CF6",
@@ -3840,1250 +4734,1548 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "score": 5,
-          "label": "17:36"
+          "label": "17:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:37"
+          "label": "17:37",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:38"
+          "label": "17:38",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:39"
+          "label": "17:39",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:40"
+          "label": "17:40",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:41"
+          "label": "17:41",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:42"
+          "label": "17:42",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:43"
+          "label": "17:43",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:44"
+          "label": "17:44",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:45"
+          "label": "17:45",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:46"
+          "label": "17:46",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:47"
+          "label": "17:47",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:48"
+          "label": "17:48",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:49"
+          "label": "17:49",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:50"
+          "label": "17:50",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:51"
+          "label": "17:51",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:52"
+          "label": "17:52",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:53"
+          "label": "17:53",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:54"
+          "label": "17:54",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:55"
+          "label": "17:55",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:56"
+          "label": "17:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:57"
+          "label": "17:57",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:58"
+          "label": "17:58",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:59"
+          "label": "17:59",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:00"
+          "label": "18:00",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:01"
+          "label": "18:01",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:02"
+          "label": "18:02",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:03"
+          "label": "18:03",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:04"
+          "label": "18:04",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:05"
+          "label": "18:05",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:06"
+          "label": "18:06",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:07"
+          "label": "18:07",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:08"
+          "label": "18:08",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:09"
+          "label": "18:09",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:10"
+          "label": "18:10",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:11"
+          "label": "18:11",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:12"
+          "label": "18:12",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:13"
+          "label": "18:13",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:14"
+          "label": "18:14",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:15"
+          "label": "18:15",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:16"
+          "label": "18:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:17"
+          "label": "18:17",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:18"
+          "label": "18:18",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:19"
+          "label": "18:19",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:20"
+          "label": "18:20",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:21"
+          "label": "18:21",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:22"
+          "label": "18:22",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:23"
+          "label": "18:23",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:24"
+          "label": "18:24",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:25"
+          "label": "18:25",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:26"
+          "label": "18:26",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:27"
+          "label": "18:27",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:28"
+          "label": "18:28",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:29"
+          "label": "18:29",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:30"
+          "label": "18:30",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:31"
+          "label": "18:31",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:32"
+          "label": "18:32",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:33"
+          "label": "18:33",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:34"
+          "label": "18:34",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:35"
+          "label": "18:35",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 5
         }
       ],
       "24h": [
         {
-          "score": 5,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:56"
+          "label": "18:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "19:16"
+          "label": "19:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "19:36"
+          "label": "19:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "19:56"
+          "label": "19:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "20:16"
+          "label": "20:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "20:36"
+          "label": "20:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "20:56"
+          "label": "20:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "21:16"
+          "label": "21:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "21:36"
+          "label": "21:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "21:56"
+          "label": "21:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "22:16"
+          "label": "22:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "22:36"
+          "label": "22:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "22:56"
+          "label": "22:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "23:16"
+          "label": "23:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "23:36"
+          "label": "23:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "23:56"
+          "label": "23:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "00:16"
+          "label": "00:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "00:36"
+          "label": "00:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "00:56"
+          "label": "00:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "01:16"
+          "label": "01:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "01:36"
+          "label": "01:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "01:56"
+          "label": "01:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "02:16"
+          "label": "02:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "02:36"
+          "label": "02:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "02:56"
+          "label": "02:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "03:16"
+          "label": "03:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "03:36"
+          "label": "03:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "03:56"
+          "label": "03:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "04:16"
+          "label": "04:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "04:36"
+          "label": "04:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "04:56"
+          "label": "04:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "05:16"
+          "label": "05:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "05:36"
+          "label": "05:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "05:56"
+          "label": "05:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "06:16"
+          "label": "06:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "06:36"
+          "label": "06:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "06:56"
+          "label": "06:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "07:16"
+          "label": "07:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "07:36"
+          "label": "07:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "07:56"
+          "label": "07:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "08:16"
+          "label": "08:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "08:36"
+          "label": "08:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "08:56"
+          "label": "08:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "09:16"
+          "label": "09:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "09:36"
+          "label": "09:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "09:56"
+          "label": "09:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "10:16"
+          "label": "10:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "10:36"
+          "label": "10:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "10:56"
+          "label": "10:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "11:16"
+          "label": "11:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "11:36"
+          "label": "11:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "11:56"
+          "label": "11:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "12:16"
+          "label": "12:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "12:36"
+          "label": "12:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "12:56"
+          "label": "12:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "13:16"
+          "label": "13:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "13:36"
+          "label": "13:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "13:56"
+          "label": "13:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "14:16"
+          "label": "14:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "14:36"
+          "label": "14:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "14:56"
+          "label": "14:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "15:16"
+          "label": "15:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "15:36"
+          "label": "15:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "15:56"
+          "label": "15:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "16:16"
+          "label": "16:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "16:36"
+          "label": "16:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "16:56"
+          "label": "16:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:16"
+          "label": "17:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:36"
+          "label": "17:36",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "17:56"
+          "label": "17:56",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:16"
+          "label": "18:16",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 5
         }
       ],
       "7d": [
         {
-          "score": 96,
-          "label": "15/08 18h"
+          "label": "15/08 18h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "15/08 20h"
+          "label": "15/08 20h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "15/08 22h"
+          "label": "15/08 22h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "16/08 00h"
+          "label": "16/08 00h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "16/08 02h"
+          "label": "16/08 02h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "16/08 04h"
+          "label": "16/08 04h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "16/08 06h"
+          "label": "16/08 06h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "16/08 08h"
+          "label": "16/08 08h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "16/08 10h"
+          "label": "16/08 10h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "16/08 12h"
+          "label": "16/08 12h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "16/08 14h"
+          "label": "16/08 14h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "16/08 16h"
+          "label": "16/08 16h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "16/08 18h"
+          "label": "16/08 18h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "16/08 20h"
+          "label": "16/08 20h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "16/08 22h"
+          "label": "16/08 22h",
+          "score": 10
         },
         {
-          "score": 96,
-          "label": "17/08 00h"
+          "label": "17/08 00h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "17/08 02h"
+          "label": "17/08 02h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "17/08 04h"
+          "label": "17/08 04h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "17/08 06h"
+          "label": "17/08 06h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "17/08 08h"
+          "label": "17/08 08h",
+          "score": 31
         },
         {
-          "score": 96,
-          "label": "17/08 10h"
+          "label": "17/08 10h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "17/08 12h"
+          "label": "17/08 12h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "17/08 14h"
+          "label": "17/08 14h",
+          "score": 38
         },
         {
-          "score": 96,
-          "label": "17/08 16h"
+          "label": "17/08 16h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "17/08 18h"
+          "label": "17/08 18h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "17/08 20h"
+          "label": "17/08 20h",
+          "score": 15
         },
         {
-          "score": 96,
-          "label": "17/08 22h"
+          "label": "17/08 22h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "18/08 00h"
+          "label": "18/08 00h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "18/08 02h"
+          "label": "18/08 02h",
+          "score": 65
         },
         {
-          "score": 96,
-          "label": "18/08 04h"
+          "label": "18/08 04h",
+          "score": 20
         },
         {
-          "score": 96,
-          "label": "18/08 06h"
+          "label": "18/08 06h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "18/08 08h"
+          "label": "18/08 08h",
+          "score": 37
         },
         {
-          "score": 96,
-          "label": "18/08 10h"
+          "label": "18/08 10h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "18/08 12h"
+          "label": "18/08 12h",
+          "score": 37
         },
         {
-          "score": 96,
-          "label": "18/08 14h"
+          "label": "18/08 14h",
+          "score": 15
         },
         {
-          "score": 96,
-          "label": "18/08 16h"
+          "label": "18/08 16h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "18/08 18h"
+          "label": "18/08 18h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "18/08 20h"
+          "label": "18/08 20h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "18/08 22h"
+          "label": "18/08 22h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "19/08 00h"
+          "label": "19/08 00h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "19/08 02h"
+          "label": "19/08 02h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "19/08 04h"
+          "label": "19/08 04h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "19/08 06h"
+          "label": "19/08 06h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "19/08 08h"
+          "label": "19/08 08h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "19/08 10h"
+          "label": "19/08 10h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "19/08 12h"
+          "label": "19/08 12h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "19/08 14h"
+          "label": "19/08 14h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "19/08 16h"
+          "label": "19/08 16h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "19/08 18h"
+          "label": "19/08 18h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "19/08 20h"
+          "label": "19/08 20h",
+          "score": 5
         },
         {
-          "score": 80,
-          "label": "19/08 22h"
+          "label": "19/08 22h",
+          "score": 5
         },
         {
-          "score": 86,
-          "label": "20/08 00h"
+          "label": "20/08 00h",
+          "score": 5
         },
         {
-          "score": 91,
-          "label": "20/08 02h"
+          "label": "20/08 02h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "20/08 04h"
+          "label": "20/08 04h",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "20/08 06h"
+          "label": "20/08 06h",
+          "score": 5
         },
         {
-          "score": 84,
-          "label": "20/08 08h"
+          "label": "20/08 08h",
+          "score": 5
         },
         {
-          "score": 78,
-          "label": "20/08 10h"
+          "label": "20/08 10h",
+          "score": 5
         },
         {
-          "score": 79,
-          "label": "20/08 12h"
+          "label": "20/08 12h",
+          "score": 5
         },
         {
-          "score": 79,
-          "label": "20/08 14h"
+          "label": "20/08 14h",
+          "score": 5
         },
         {
-          "score": 68,
-          "label": "20/08 16h"
+          "label": "20/08 16h",
+          "score": 5
         },
         {
-          "score": 70,
-          "label": "20/08 18h"
+          "label": "20/08 18h",
+          "score": 5
         },
         {
-          "score": 79,
-          "label": "20/08 20h"
+          "label": "20/08 20h",
+          "score": 5
         },
         {
-          "score": 79,
-          "label": "20/08 22h"
+          "label": "20/08 22h",
+          "score": 5
         },
         {
-          "score": 63,
-          "label": "21/08 00h"
+          "label": "21/08 00h",
+          "score": 5
         },
         {
-          "score": 46,
-          "label": "21/08 02h"
+          "label": "21/08 02h",
+          "score": 5
         },
         {
-          "score": 47,
-          "label": "21/08 04h"
+          "label": "21/08 04h",
+          "score": 5
         },
         {
-          "score": 48,
-          "label": "21/08 06h"
+          "label": "21/08 06h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "21/08 08h"
+          "label": "21/08 08h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "21/08 10h"
+          "label": "21/08 10h",
+          "score": 5
         },
         {
-          "score": 9,
-          "label": "21/08 12h"
+          "label": "21/08 12h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "21/08 14h"
+          "label": "21/08 14h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "21/08 16h"
+          "label": "21/08 16h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "21/08 18h"
+          "label": "21/08 18h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "21/08 20h"
+          "label": "21/08 20h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "21/08 22h"
+          "label": "21/08 22h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "22/08 00h"
+          "label": "22/08 00h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "22/08 02h"
+          "label": "22/08 02h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "22/08 04h"
+          "label": "22/08 04h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "22/08 06h"
+          "label": "22/08 06h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "22/08 08h"
+          "label": "22/08 08h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "22/08 10h"
+          "label": "22/08 10h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "22/08 12h"
+          "label": "22/08 12h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "22/08 14h"
+          "label": "22/08 14h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "22/08 16h"
+          "label": "22/08 16h",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "22/08 18h"
+          "label": "22/08 18h",
+          "score": 5
         }
       ],
       "30d": [
         {
-          "score": 96,
-          "label": "23/07"
+          "label": "23/07",
+          "score": 98
         },
         {
-          "score": 96,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 82
         },
         {
-          "score": 96,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 46
         },
         {
-          "score": 96,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 97
         },
         {
-          "score": 96,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 66
         },
         {
-          "score": 96,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 81
         },
         {
-          "score": 96,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 78
         },
         {
-          "score": 96,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 74
         },
         {
-          "score": 96,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 55
         },
         {
-          "score": 96,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 14
         },
         {
-          "score": 96,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 7
         },
         {
-          "score": 96,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 40
         },
         {
-          "score": 96,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 90
         },
         {
-          "score": 96,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 89
         },
         {
-          "score": 96,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 42
         },
         {
-          "score": 96,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 72
         },
         {
-          "score": 96,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 98
         },
         {
-          "score": 96,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 9
         },
         {
-          "score": 96,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 42
         },
         {
-          "score": 96,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 63
         },
         {
-          "score": 96,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 56
         },
         {
-          "score": 96,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 76
         },
         {
-          "score": 96,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 80
         },
         {
-          "score": 96,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 44
         },
         {
-          "score": 96,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 83
         },
         {
-          "score": 96,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 38
         },
         {
-          "score": 96,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 19
         },
         {
-          "score": 96,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 6
         },
         {
-          "score": 96,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 83
         },
         {
-          "score": 96,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 5
         },
         {
-          "score": 75,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 5
         },
         {
-          "score": 79,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 5
         },
         {
-          "score": 42,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 5
         },
         {
-          "score": 5,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 5
+        }
+      ],
+      "365d": [
+        {
+          "label": "22/08/25",
+          "score": 5
+        },
+        {
+          "label": "26/08/25",
+          "score": 15
+        },
+        {
+          "label": "30/08/25",
+          "score": 20
+        },
+        {
+          "label": "03/09/25",
+          "score": 5
+        },
+        {
+          "label": "07/09/25",
+          "score": 28
+        },
+        {
+          "label": "11/09/25",
+          "score": 5
+        },
+        {
+          "label": "15/09/25",
+          "score": 82
+        },
+        {
+          "label": "19/09/25",
+          "score": 64
+        },
+        {
+          "label": "23/09/25",
+          "score": 18
+        },
+        {
+          "label": "27/09/25",
+          "score": 5
+        },
+        {
+          "label": "01/10/25",
+          "score": 5
+        },
+        {
+          "label": "05/10/25",
+          "score": 29
+        },
+        {
+          "label": "09/10/25",
+          "score": 42
+        },
+        {
+          "label": "13/10/25",
+          "score": 5
+        },
+        {
+          "label": "17/10/25",
+          "score": 85
+        },
+        {
+          "label": "21/10/25",
+          "score": 5
+        },
+        {
+          "label": "25/10/25",
+          "score": 5
+        },
+        {
+          "label": "29/10/25",
+          "score": 5
+        },
+        {
+          "label": "02/11/25",
+          "score": 79
+        },
+        {
+          "label": "06/11/25",
+          "score": 34
+        },
+        {
+          "label": "10/11/25",
+          "score": 5
+        },
+        {
+          "label": "03/12/25",
+          "score": 5
+        },
+        {
+          "label": "07/12/25",
+          "score": 98
+        },
+        {
+          "label": "18/01/26",
+          "score": 57
+        },
+        {
+          "label": "22/01/26",
+          "score": 57
+        },
+        {
+          "label": "28/01/26",
+          "score": 57
+        },
+        {
+          "label": "01/02/26",
+          "score": 57
+        },
+        {
+          "label": "06/02/26",
+          "score": 57
+        },
+        {
+          "label": "10/02/26",
+          "score": 57
+        },
+        {
+          "label": "16/02/26",
+          "score": 57
+        },
+        {
+          "label": "21/02/26",
+          "score": 5
+        },
+        {
+          "label": "25/02/26",
+          "score": 5
+        },
+        {
+          "label": "02/03/26",
+          "score": 5
+        },
+        {
+          "label": "07/03/26",
+          "score": 72
+        },
+        {
+          "label": "11/03/26",
+          "score": 5
+        },
+        {
+          "label": "16/03/26",
+          "score": 5
+        },
+        {
+          "label": "20/03/26",
+          "score": 12
+        },
+        {
+          "label": "25/03/26",
+          "score": 5
+        },
+        {
+          "label": "30/03/26",
+          "score": 5
+        },
+        {
+          "label": "03/04/26",
+          "score": 5
+        },
+        {
+          "label": "08/04/26",
+          "score": 5
+        },
+        {
+          "label": "12/04/26",
+          "score": 98
+        },
+        {
+          "label": "16/04/26",
+          "score": 5
+        },
+        {
+          "label": "20/04/26",
+          "score": 5
+        },
+        {
+          "label": "24/04/26",
+          "score": 5
+        },
+        {
+          "label": "29/04/26",
+          "score": 5
+        },
+        {
+          "label": "03/05/26",
+          "score": 5
+        },
+        {
+          "label": "07/05/26",
+          "score": 12
+        },
+        {
+          "label": "13/05/26",
+          "score": 71
+        },
+        {
+          "label": "17/05/26",
+          "score": 65
+        },
+        {
+          "label": "22/05/26",
+          "score": 5
+        },
+        {
+          "label": "26/05/26",
+          "score": 5
+        },
+        {
+          "label": "30/05/26",
+          "score": 5
+        },
+        {
+          "label": "04/06/26",
+          "score": 44
+        },
+        {
+          "label": "08/06/26",
+          "score": 5
+        },
+        {
+          "label": "12/06/26",
+          "score": 5
+        },
+        {
+          "label": "16/06/26",
+          "score": 5
+        },
+        {
+          "label": "20/06/26",
+          "score": 26
+        },
+        {
+          "label": "24/06/26",
+          "score": 47
+        },
+        {
+          "label": "28/06/26",
+          "score": 5
+        },
+        {
+          "label": "02/07/26",
+          "score": 5
+        },
+        {
+          "label": "06/07/26",
+          "score": 5
+        },
+        {
+          "label": "10/07/26",
+          "score": 25
+        },
+        {
+          "label": "14/07/26",
+          "score": 5
+        },
+        {
+          "label": "18/07/26",
+          "score": 23
+        },
+        {
+          "label": "22/07/26",
+          "score": 5
+        },
+        {
+          "label": "26/07/26",
+          "score": 5
+        },
+        {
+          "label": "30/07/26",
+          "score": 5
+        },
+        {
+          "label": "03/08/26",
+          "score": 5
+        },
+        {
+          "label": "07/08/26",
+          "score": 5
+        },
+        {
+          "label": "11/08/26",
+          "score": 5
+        },
+        {
+          "label": "15/08/26",
+          "score": 5
+        },
+        {
+          "label": "19/08/26",
+          "score": 5
+        },
+        {
+          "label": "22/08/26",
+          "score": 5
         }
       ]
     }
@@ -5102,7 +6294,7 @@ window.PLANOS_TACTICAL_DATA = [
     "valor_atual_str": "SOL/BTC = 0.00121",
     "alvo_str": "Ratio <= 0.00207",
     "distancia_display": "-41.6% de descolamento",
-    "proximidade_score": 20,
+    "proximidade_score": 98,
     "status": "SENTINELA_CICLICA",
     "icone": "🪐",
     "cor": "#EC4899",
@@ -5112,1250 +6304,1548 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "score": 95,
-          "label": "17:36"
+          "label": "17:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:37"
+          "label": "17:37",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:38"
+          "label": "17:38",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:39"
+          "label": "17:39",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:40"
+          "label": "17:40",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:41"
+          "label": "17:41",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:42"
+          "label": "17:42",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:43"
+          "label": "17:43",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:44"
+          "label": "17:44",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:45"
+          "label": "17:45",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:46"
+          "label": "17:46",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:47"
+          "label": "17:47",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:48"
+          "label": "17:48",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:49"
+          "label": "17:49",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:50"
+          "label": "17:50",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:51"
+          "label": "17:51",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:52"
+          "label": "17:52",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:53"
+          "label": "17:53",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:54"
+          "label": "17:54",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:55"
+          "label": "17:55",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:56"
+          "label": "17:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:57"
+          "label": "17:57",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:58"
+          "label": "17:58",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:59"
+          "label": "17:59",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:00"
+          "label": "18:00",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:01"
+          "label": "18:01",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:02"
+          "label": "18:02",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:03"
+          "label": "18:03",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:04"
+          "label": "18:04",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:05"
+          "label": "18:05",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:06"
+          "label": "18:06",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:07"
+          "label": "18:07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:08"
+          "label": "18:08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:09"
+          "label": "18:09",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:10"
+          "label": "18:10",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:11"
+          "label": "18:11",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:12"
+          "label": "18:12",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:13"
+          "label": "18:13",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:14"
+          "label": "18:14",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:15"
+          "label": "18:15",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:16"
+          "label": "18:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:17"
+          "label": "18:17",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:18"
+          "label": "18:18",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:19"
+          "label": "18:19",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:20"
+          "label": "18:20",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:21"
+          "label": "18:21",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:22"
+          "label": "18:22",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:23"
+          "label": "18:23",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:24"
+          "label": "18:24",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:25"
+          "label": "18:25",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:26"
+          "label": "18:26",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:27"
+          "label": "18:27",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:28"
+          "label": "18:28",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:29"
+          "label": "18:29",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:30"
+          "label": "18:30",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:31"
+          "label": "18:31",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:32"
+          "label": "18:32",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:33"
+          "label": "18:33",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:34"
+          "label": "18:34",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:35"
+          "label": "18:35",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 98
         }
       ],
       "24h": [
         {
-          "score": 95,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:56"
+          "label": "18:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19:16"
+          "label": "19:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19:36"
+          "label": "19:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19:56"
+          "label": "19:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20:16"
+          "label": "20:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20:36"
+          "label": "20:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20:56"
+          "label": "20:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21:16"
+          "label": "21:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21:36"
+          "label": "21:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21:56"
+          "label": "21:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "22:16"
+          "label": "22:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "22:36"
+          "label": "22:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "22:56"
+          "label": "22:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "23:16"
+          "label": "23:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "23:36"
+          "label": "23:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "23:56"
+          "label": "23:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "00:16"
+          "label": "00:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "00:36"
+          "label": "00:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "00:56"
+          "label": "00:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "01:16"
+          "label": "01:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "01:36"
+          "label": "01:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "01:56"
+          "label": "01:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "02:16"
+          "label": "02:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "02:36"
+          "label": "02:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "02:56"
+          "label": "02:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "03:16"
+          "label": "03:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "03:36"
+          "label": "03:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "03:56"
+          "label": "03:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "04:16"
+          "label": "04:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "04:36"
+          "label": "04:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "04:56"
+          "label": "04:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "05:16"
+          "label": "05:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "05:36"
+          "label": "05:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "05:56"
+          "label": "05:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "06:16"
+          "label": "06:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "06:36"
+          "label": "06:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "06:56"
+          "label": "06:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "07:16"
+          "label": "07:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "07:36"
+          "label": "07:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "07:56"
+          "label": "07:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "08:16"
+          "label": "08:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "08:36"
+          "label": "08:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "08:56"
+          "label": "08:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "09:16"
+          "label": "09:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "09:36"
+          "label": "09:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "09:56"
+          "label": "09:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "10:16"
+          "label": "10:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "10:36"
+          "label": "10:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "10:56"
+          "label": "10:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "11:16"
+          "label": "11:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "11:36"
+          "label": "11:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "11:56"
+          "label": "11:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "12:16"
+          "label": "12:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "12:36"
+          "label": "12:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "12:56"
+          "label": "12:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "13:16"
+          "label": "13:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "13:36"
+          "label": "13:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "13:56"
+          "label": "13:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "14:16"
+          "label": "14:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "14:36"
+          "label": "14:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "14:56"
+          "label": "14:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "15:16"
+          "label": "15:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "15:36"
+          "label": "15:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "15:56"
+          "label": "15:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16:16"
+          "label": "16:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16:36"
+          "label": "16:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16:56"
+          "label": "16:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:16"
+          "label": "17:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:36"
+          "label": "17:36",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17:56"
+          "label": "17:56",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:16"
+          "label": "18:16",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 98
         }
       ],
       "7d": [
         {
-          "score": 95,
-          "label": "15/08 18h"
+          "label": "15/08 18h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "15/08 20h"
+          "label": "15/08 20h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "15/08 22h"
+          "label": "15/08 22h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16/08 00h"
+          "label": "16/08 00h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16/08 02h"
+          "label": "16/08 02h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16/08 04h"
+          "label": "16/08 04h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16/08 06h"
+          "label": "16/08 06h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16/08 08h"
+          "label": "16/08 08h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16/08 10h"
+          "label": "16/08 10h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16/08 12h"
+          "label": "16/08 12h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16/08 14h"
+          "label": "16/08 14h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16/08 16h"
+          "label": "16/08 16h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16/08 18h"
+          "label": "16/08 18h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16/08 20h"
+          "label": "16/08 20h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16/08 22h"
+          "label": "16/08 22h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17/08 00h"
+          "label": "17/08 00h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17/08 02h"
+          "label": "17/08 02h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17/08 04h"
+          "label": "17/08 04h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17/08 06h"
+          "label": "17/08 06h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17/08 08h"
+          "label": "17/08 08h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17/08 10h"
+          "label": "17/08 10h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17/08 12h"
+          "label": "17/08 12h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17/08 14h"
+          "label": "17/08 14h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17/08 16h"
+          "label": "17/08 16h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17/08 18h"
+          "label": "17/08 18h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17/08 20h"
+          "label": "17/08 20h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17/08 22h"
+          "label": "17/08 22h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18/08 00h"
+          "label": "18/08 00h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18/08 02h"
+          "label": "18/08 02h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18/08 04h"
+          "label": "18/08 04h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18/08 06h"
+          "label": "18/08 06h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18/08 08h"
+          "label": "18/08 08h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18/08 10h"
+          "label": "18/08 10h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18/08 12h"
+          "label": "18/08 12h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18/08 14h"
+          "label": "18/08 14h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18/08 16h"
+          "label": "18/08 16h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18/08 18h"
+          "label": "18/08 18h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18/08 20h"
+          "label": "18/08 20h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18/08 22h"
+          "label": "18/08 22h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19/08 00h"
+          "label": "19/08 00h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19/08 02h"
+          "label": "19/08 02h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19/08 04h"
+          "label": "19/08 04h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19/08 06h"
+          "label": "19/08 06h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19/08 08h"
+          "label": "19/08 08h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19/08 10h"
+          "label": "19/08 10h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19/08 12h"
+          "label": "19/08 12h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19/08 14h"
+          "label": "19/08 14h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19/08 16h"
+          "label": "19/08 16h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19/08 18h"
+          "label": "19/08 18h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19/08 20h"
+          "label": "19/08 20h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19/08 22h"
+          "label": "19/08 22h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20/08 00h"
+          "label": "20/08 00h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20/08 02h"
+          "label": "20/08 02h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20/08 04h"
+          "label": "20/08 04h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20/08 06h"
+          "label": "20/08 06h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20/08 08h"
+          "label": "20/08 08h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20/08 10h"
+          "label": "20/08 10h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20/08 12h"
+          "label": "20/08 12h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20/08 14h"
+          "label": "20/08 14h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20/08 16h"
+          "label": "20/08 16h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20/08 18h"
+          "label": "20/08 18h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20/08 20h"
+          "label": "20/08 20h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20/08 22h"
+          "label": "20/08 22h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21/08 00h"
+          "label": "21/08 00h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21/08 02h"
+          "label": "21/08 02h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21/08 04h"
+          "label": "21/08 04h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21/08 06h"
+          "label": "21/08 06h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21/08 08h"
+          "label": "21/08 08h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21/08 10h"
+          "label": "21/08 10h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21/08 12h"
+          "label": "21/08 12h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21/08 14h"
+          "label": "21/08 14h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21/08 16h"
+          "label": "21/08 16h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21/08 18h"
+          "label": "21/08 18h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21/08 20h"
+          "label": "21/08 20h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21/08 22h"
+          "label": "21/08 22h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "22/08 00h"
+          "label": "22/08 00h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "22/08 02h"
+          "label": "22/08 02h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "22/08 04h"
+          "label": "22/08 04h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "22/08 06h"
+          "label": "22/08 06h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "22/08 08h"
+          "label": "22/08 08h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "22/08 10h"
+          "label": "22/08 10h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "22/08 12h"
+          "label": "22/08 12h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "22/08 14h"
+          "label": "22/08 14h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "22/08 16h"
+          "label": "22/08 16h",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "22/08 18h"
+          "label": "22/08 18h",
+          "score": 98
         }
       ],
       "30d": [
         {
-          "score": 95,
-          "label": "23/07"
+          "label": "23/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 98
         },
         {
-          "score": 95,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 98
+        }
+      ],
+      "365d": [
+        {
+          "label": "22/08/25",
+          "score": 92
+        },
+        {
+          "label": "26/08/25",
+          "score": 88
+        },
+        {
+          "label": "30/08/25",
+          "score": 84
+        },
+        {
+          "label": "03/09/25",
+          "score": 83
+        },
+        {
+          "label": "07/09/25",
+          "score": 85
+        },
+        {
+          "label": "11/09/25",
+          "score": 78
+        },
+        {
+          "label": "15/09/25",
+          "score": 76
+        },
+        {
+          "label": "19/09/25",
+          "score": 75
+        },
+        {
+          "label": "23/09/25",
+          "score": 80
+        },
+        {
+          "label": "27/09/25",
+          "score": 84
+        },
+        {
+          "label": "01/10/25",
+          "score": 83
+        },
+        {
+          "label": "05/10/25",
+          "score": 84
+        },
+        {
+          "label": "09/10/25",
+          "score": 86
+        },
+        {
+          "label": "13/10/25",
+          "score": 86
+        },
+        {
+          "label": "17/10/25",
+          "score": 91
+        },
+        {
+          "label": "21/10/25",
+          "score": 89
+        },
+        {
+          "label": "25/10/25",
+          "score": 89
+        },
+        {
+          "label": "29/10/25",
+          "score": 89
+        },
+        {
+          "label": "02/11/25",
+          "score": 93
+        },
+        {
+          "label": "06/11/25",
+          "score": 98
+        },
+        {
+          "label": "10/11/25",
+          "score": 98
+        },
+        {
+          "label": "03/12/25",
+          "score": 98
+        },
+        {
+          "label": "07/12/25",
+          "score": 98
+        },
+        {
+          "label": "18/01/26",
+          "score": 98
+        },
+        {
+          "label": "22/01/26",
+          "score": 98
+        },
+        {
+          "label": "28/01/26",
+          "score": 98
+        },
+        {
+          "label": "01/02/26",
+          "score": 98
+        },
+        {
+          "label": "06/02/26",
+          "score": 98
+        },
+        {
+          "label": "10/02/26",
+          "score": 98
+        },
+        {
+          "label": "16/02/26",
+          "score": 98
+        },
+        {
+          "label": "21/02/26",
+          "score": 98
+        },
+        {
+          "label": "25/02/26",
+          "score": 98
+        },
+        {
+          "label": "02/03/26",
+          "score": 98
+        },
+        {
+          "label": "07/03/26",
+          "score": 98
+        },
+        {
+          "label": "11/03/26",
+          "score": 98
+        },
+        {
+          "label": "16/03/26",
+          "score": 98
+        },
+        {
+          "label": "20/03/26",
+          "score": 98
+        },
+        {
+          "label": "25/03/26",
+          "score": 98
+        },
+        {
+          "label": "30/03/26",
+          "score": 98
+        },
+        {
+          "label": "03/04/26",
+          "score": 98
+        },
+        {
+          "label": "08/04/26",
+          "score": 98
+        },
+        {
+          "label": "12/04/26",
+          "score": 98
+        },
+        {
+          "label": "16/04/26",
+          "score": 98
+        },
+        {
+          "label": "20/04/26",
+          "score": 98
+        },
+        {
+          "label": "24/04/26",
+          "score": 98
+        },
+        {
+          "label": "29/04/26",
+          "score": 98
+        },
+        {
+          "label": "03/05/26",
+          "score": 98
+        },
+        {
+          "label": "07/05/26",
+          "score": 98
+        },
+        {
+          "label": "13/05/26",
+          "score": 98
+        },
+        {
+          "label": "17/05/26",
+          "score": 98
+        },
+        {
+          "label": "22/05/26",
+          "score": 98
+        },
+        {
+          "label": "26/05/26",
+          "score": 98
+        },
+        {
+          "label": "30/05/26",
+          "score": 98
+        },
+        {
+          "label": "04/06/26",
+          "score": 98
+        },
+        {
+          "label": "08/06/26",
+          "score": 98
+        },
+        {
+          "label": "12/06/26",
+          "score": 98
+        },
+        {
+          "label": "16/06/26",
+          "score": 98
+        },
+        {
+          "label": "20/06/26",
+          "score": 98
+        },
+        {
+          "label": "24/06/26",
+          "score": 98
+        },
+        {
+          "label": "28/06/26",
+          "score": 98
+        },
+        {
+          "label": "02/07/26",
+          "score": 98
+        },
+        {
+          "label": "06/07/26",
+          "score": 98
+        },
+        {
+          "label": "10/07/26",
+          "score": 98
+        },
+        {
+          "label": "14/07/26",
+          "score": 98
+        },
+        {
+          "label": "18/07/26",
+          "score": 98
+        },
+        {
+          "label": "22/07/26",
+          "score": 98
+        },
+        {
+          "label": "26/07/26",
+          "score": 98
+        },
+        {
+          "label": "30/07/26",
+          "score": 98
+        },
+        {
+          "label": "03/08/26",
+          "score": 98
+        },
+        {
+          "label": "07/08/26",
+          "score": 98
+        },
+        {
+          "label": "11/08/26",
+          "score": 98
+        },
+        {
+          "label": "15/08/26",
+          "score": 98
+        },
+        {
+          "label": "19/08/26",
+          "score": 98
+        },
+        {
+          "label": "22/08/26",
+          "score": 98
         }
       ]
     }
@@ -6371,10 +7861,10 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Banda Inferior Bollinger 15m (Z <= -2.0σ)",
     "trava_ruptura": "Filtro Causal: Exige STE >= 0, PC1 < 70% e Ew < 50",
     "cooldown_horas": 1.5,
-    "valor_atual_str": "SOL R$ 479.90 (Z_15m: -24.60σ)",
-    "alvo_str": "Preço <= R$ 486.83",
-    "distancia_display": "+-1.4% para banda inferior",
-    "proximidade_score": 60,
+    "valor_atual_str": "SOL R$ 479.60 (Z_15m: -3.58σ)",
+    "alvo_str": "Preço <= R$ 482.84",
+    "distancia_display": "-0.7% para banda inferior",
+    "proximidade_score": 98,
     "status": "AGUARDANDO_CORRECAO_15M",
     "icone": "⚡",
     "cor": "#F59E0B",
@@ -6384,1250 +7874,1548 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "score": 98,
-          "label": "17:36"
+          "label": "17:36",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17:37"
+          "label": "17:37",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17:38"
+          "label": "17:38",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17:39"
+          "label": "17:39",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17:40"
+          "label": "17:40",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17:41"
+          "label": "17:41",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17:42"
+          "label": "17:42",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17:43"
+          "label": "17:43",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17:44"
+          "label": "17:44",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17:45"
+          "label": "17:45",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17:46"
+          "label": "17:46",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17:47"
+          "label": "17:47",
+          "score": 5
         },
         {
-          "score": 89,
-          "label": "17:48"
+          "label": "17:48",
+          "score": 5
         },
         {
-          "score": 23,
-          "label": "17:49"
+          "label": "17:49",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "17:50"
+          "label": "17:50",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "17:51"
+          "label": "17:51",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "17:52"
+          "label": "17:52",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "17:53"
+          "label": "17:53",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17:54"
+          "label": "17:54",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17:55"
+          "label": "17:55",
+          "score": 7
         },
         {
-          "score": 98,
-          "label": "17:56"
+          "label": "17:56",
+          "score": 31
         },
         {
-          "score": 98,
-          "label": "17:57"
+          "label": "17:57",
+          "score": 33
         },
         {
-          "score": 98,
-          "label": "17:58"
+          "label": "17:58",
+          "score": 36
         },
         {
-          "score": 98,
-          "label": "17:59"
+          "label": "17:59",
+          "score": 38
         },
         {
-          "score": 98,
-          "label": "18:00"
+          "label": "18:00",
+          "score": 39
         },
         {
-          "score": 98,
-          "label": "18:01"
+          "label": "18:01",
+          "score": 41
         },
         {
-          "score": 72,
-          "label": "18:02"
+          "label": "18:02",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "18:03"
+          "label": "18:03",
+          "score": 40
         },
         {
-          "score": 98,
-          "label": "18:04"
+          "label": "18:04",
+          "score": 26
         },
         {
-          "score": 98,
-          "label": "18:05"
+          "label": "18:05",
+          "score": 22
         },
         {
-          "score": 56,
-          "label": "18:06"
+          "label": "18:06",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "18:07"
+          "label": "18:07",
+          "score": 13
         },
         {
-          "score": 98,
-          "label": "18:08"
+          "label": "18:08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "18:09"
+          "label": "18:09",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "18:10"
+          "label": "18:10",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "18:11"
+          "label": "18:11",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "18:12"
+          "label": "18:12",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "18:13"
+          "label": "18:13",
+          "score": 88
         },
         {
-          "score": 98,
-          "label": "18:14"
+          "label": "18:14",
+          "score": 75
         },
         {
-          "score": 98,
-          "label": "18:15"
+          "label": "18:15",
+          "score": 64
         },
         {
-          "score": 98,
-          "label": "18:16"
+          "label": "18:16",
+          "score": 56
         },
         {
-          "score": 98,
-          "label": "18:17"
+          "label": "18:17",
+          "score": 5
         },
         {
-          "score": 56,
-          "label": "18:18"
+          "label": "18:18",
+          "score": 5
         },
         {
-          "score": 56,
-          "label": "18:19"
+          "label": "18:19",
+          "score": 5
         },
         {
-          "score": 56,
-          "label": "18:20"
+          "label": "18:20",
+          "score": 5
         },
         {
-          "score": 72,
-          "label": "18:21"
+          "label": "18:21",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "18:22"
+          "label": "18:22",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "18:23"
+          "label": "18:23",
+          "score": 5
         },
         {
-          "score": 56,
-          "label": "18:24"
+          "label": "18:24",
+          "score": 5
         },
         {
-          "score": 56,
-          "label": "18:25"
+          "label": "18:25",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "18:26"
+          "label": "18:26",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "18:27"
+          "label": "18:27",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "18:28"
+          "label": "18:28",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "18:29"
+          "label": "18:29",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "18:30"
+          "label": "18:30",
+          "score": 5
         },
         {
-          "score": 72,
-          "label": "18:31"
+          "label": "18:31",
+          "score": 44
         },
         {
-          "score": 72,
-          "label": "18:32"
+          "label": "18:32",
+          "score": 51
         },
         {
-          "score": 8,
-          "label": "18:33"
+          "label": "18:33",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "18:34"
+          "label": "18:34",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "18:35"
+          "label": "18:35",
+          "score": 5
         },
         {
-          "score": 40,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 98
         }
       ],
       "24h": [
         {
-          "score": 98,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "18:56"
+          "label": "18:56",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "19:16"
+          "label": "19:16",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "19:36"
+          "label": "19:36",
+          "score": 81
         },
         {
-          "score": 98,
-          "label": "19:56"
+          "label": "19:56",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "20:16"
+          "label": "20:16",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "20:36"
+          "label": "20:36",
+          "score": 15
         },
         {
-          "score": 98,
-          "label": "20:56"
+          "label": "20:56",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "21:16"
+          "label": "21:16",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "21:36"
+          "label": "21:36",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "21:56"
+          "label": "21:56",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "22:16"
+          "label": "22:16",
+          "score": 49
         },
         {
-          "score": 98,
-          "label": "22:36"
+          "label": "22:36",
+          "score": 8
         },
         {
-          "score": 8,
-          "label": "22:56"
+          "label": "22:56",
+          "score": 5
         },
         {
-          "score": 56,
-          "label": "23:16"
+          "label": "23:16",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "23:36"
+          "label": "23:36",
+          "score": 50
         },
         {
-          "score": 98,
-          "label": "23:56"
+          "label": "23:56",
+          "score": 44
         },
         {
-          "score": 98,
-          "label": "00:16"
+          "label": "00:16",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "00:36"
+          "label": "00:36",
+          "score": 12
         },
         {
-          "score": 98,
-          "label": "00:56"
+          "label": "00:56",
+          "score": 5
         },
         {
-          "score": 56,
-          "label": "01:16"
+          "label": "01:16",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "01:36"
+          "label": "01:36",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "01:56"
+          "label": "01:56",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "02:16"
+          "label": "02:16",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "02:36"
+          "label": "02:36",
+          "score": 69
         },
         {
-          "score": 8,
-          "label": "02:56"
+          "label": "02:56",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "03:16"
+          "label": "03:16",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "03:36"
+          "label": "03:36",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "03:56"
+          "label": "03:56",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "04:16"
+          "label": "04:16",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "04:36"
+          "label": "04:36",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "04:56"
+          "label": "04:56",
+          "score": 35
         },
         {
-          "score": 98,
-          "label": "05:16"
+          "label": "05:16",
+          "score": 63
         },
         {
-          "score": 8,
-          "label": "05:36"
+          "label": "05:36",
+          "score": 5
         },
         {
-          "score": 40,
-          "label": "05:56"
+          "label": "05:56",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "06:16"
+          "label": "06:16",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "06:36"
+          "label": "06:36",
+          "score": 35
         },
         {
-          "score": 40,
-          "label": "06:56"
+          "label": "06:56",
+          "score": 47
         },
         {
-          "score": 8,
-          "label": "07:16"
+          "label": "07:16",
+          "score": 46
         },
         {
-          "score": 8,
-          "label": "07:36"
+          "label": "07:36",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "07:56"
+          "label": "07:56",
+          "score": 44
         },
         {
-          "score": 8,
-          "label": "08:16"
+          "label": "08:16",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "08:36"
+          "label": "08:36",
+          "score": 39
         },
         {
-          "score": 98,
-          "label": "08:56"
+          "label": "08:56",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "09:16"
+          "label": "09:16",
+          "score": 5
         },
         {
-          "score": 89,
-          "label": "09:36"
+          "label": "09:36",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "09:56"
+          "label": "09:56",
+          "score": 16
         },
         {
-          "score": 98,
-          "label": "10:16"
+          "label": "10:16",
+          "score": 50
         },
         {
-          "score": 98,
-          "label": "10:36"
+          "label": "10:36",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "10:56"
+          "label": "10:56",
+          "score": 94
         },
         {
-          "score": 98,
-          "label": "11:16"
+          "label": "11:16",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "11:36"
+          "label": "11:36",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "11:56"
+          "label": "11:56",
+          "score": 67
         },
         {
-          "score": 98,
-          "label": "12:16"
+          "label": "12:16",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "12:36"
+          "label": "12:36",
+          "score": 77
         },
         {
-          "score": 98,
-          "label": "12:56"
+          "label": "12:56",
+          "score": 61
         },
         {
-          "score": 98,
-          "label": "13:16"
+          "label": "13:16",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "13:36"
+          "label": "13:36",
+          "score": 70
         },
         {
-          "score": 98,
-          "label": "13:56"
+          "label": "13:56",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "14:16"
+          "label": "14:16",
+          "score": 64
         },
         {
-          "score": 98,
-          "label": "14:36"
+          "label": "14:36",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "14:56"
+          "label": "14:56",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "15:16"
+          "label": "15:16",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "15:36"
+          "label": "15:36",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "15:56"
+          "label": "15:56",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16:16"
+          "label": "16:16",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16:36"
+          "label": "16:36",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "16:56"
+          "label": "16:56",
+          "score": 5
         },
         {
-          "score": 89,
-          "label": "17:16"
+          "label": "17:16",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17:36"
+          "label": "17:36",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17:56"
+          "label": "17:56",
+          "score": 31
         },
         {
-          "score": 98,
-          "label": "18:16"
+          "label": "18:16",
+          "score": 56
         },
         {
-          "score": 40,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 98
         }
       ],
       "7d": [
         {
-          "score": 98,
-          "label": "15/08 18h"
+          "label": "15/08 18h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "15/08 20h"
+          "label": "15/08 20h",
+          "score": 10
         },
         {
-          "score": 98,
-          "label": "15/08 22h"
+          "label": "15/08 22h",
+          "score": 80
         },
         {
-          "score": 98,
-          "label": "16/08 00h"
+          "label": "16/08 00h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16/08 02h"
+          "label": "16/08 02h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16/08 04h"
+          "label": "16/08 04h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16/08 06h"
+          "label": "16/08 06h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16/08 08h"
+          "label": "16/08 08h",
+          "score": 29
         },
         {
-          "score": 98,
-          "label": "16/08 10h"
+          "label": "16/08 10h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16/08 12h"
+          "label": "16/08 12h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16/08 14h"
+          "label": "16/08 14h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16/08 16h"
+          "label": "16/08 16h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16/08 18h"
+          "label": "16/08 18h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16/08 20h"
+          "label": "16/08 20h",
+          "score": 52
         },
         {
-          "score": 98,
-          "label": "16/08 22h"
+          "label": "16/08 22h",
+          "score": 56
         },
         {
-          "score": 98,
-          "label": "17/08 00h"
+          "label": "17/08 00h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17/08 02h"
+          "label": "17/08 02h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17/08 04h"
+          "label": "17/08 04h",
+          "score": 65
         },
         {
-          "score": 98,
-          "label": "17/08 06h"
+          "label": "17/08 06h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "17/08 08h"
+          "label": "17/08 08h",
+          "score": 78
         },
         {
-          "score": 98,
-          "label": "17/08 10h"
+          "label": "17/08 10h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17/08 12h"
+          "label": "17/08 12h",
+          "score": 23
         },
         {
-          "score": 98,
-          "label": "17/08 14h"
+          "label": "17/08 14h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17/08 16h"
+          "label": "17/08 16h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17/08 18h"
+          "label": "17/08 18h",
+          "score": 59
         },
         {
-          "score": 98,
-          "label": "17/08 20h"
+          "label": "17/08 20h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17/08 22h"
+          "label": "17/08 22h",
+          "score": 35
         },
         {
-          "score": 98,
-          "label": "18/08 00h"
+          "label": "18/08 00h",
+          "score": 90
         },
         {
-          "score": 98,
-          "label": "18/08 02h"
+          "label": "18/08 02h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "18/08 04h"
+          "label": "18/08 04h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "18/08 06h"
+          "label": "18/08 06h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "18/08 08h"
+          "label": "18/08 08h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "18/08 10h"
+          "label": "18/08 10h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "18/08 12h"
+          "label": "18/08 12h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "18/08 14h"
+          "label": "18/08 14h",
+          "score": 87
         },
         {
-          "score": 98,
-          "label": "18/08 16h"
+          "label": "18/08 16h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "18/08 18h"
+          "label": "18/08 18h",
+          "score": 32
         },
         {
-          "score": 98,
-          "label": "18/08 20h"
+          "label": "18/08 20h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "18/08 22h"
+          "label": "18/08 22h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "19/08 00h"
+          "label": "19/08 00h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "19/08 02h"
+          "label": "19/08 02h",
+          "score": 29
         },
         {
-          "score": 98,
-          "label": "19/08 04h"
+          "label": "19/08 04h",
+          "score": 33
         },
         {
-          "score": 98,
-          "label": "19/08 06h"
+          "label": "19/08 06h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "19/08 08h"
+          "label": "19/08 08h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "19/08 10h"
+          "label": "19/08 10h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "19/08 12h"
+          "label": "19/08 12h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "19/08 14h"
+          "label": "19/08 14h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "19/08 16h"
+          "label": "19/08 16h",
+          "score": 76
         },
         {
-          "score": 98,
-          "label": "19/08 18h"
+          "label": "19/08 18h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "19/08 20h"
+          "label": "19/08 20h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "19/08 22h"
+          "label": "19/08 22h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "20/08 00h"
+          "label": "20/08 00h",
+          "score": 93
         },
         {
-          "score": 98,
-          "label": "20/08 02h"
+          "label": "20/08 02h",
+          "score": 58
         },
         {
-          "score": 98,
-          "label": "20/08 04h"
+          "label": "20/08 04h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "20/08 06h"
+          "label": "20/08 06h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "20/08 08h"
+          "label": "20/08 08h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "20/08 10h"
+          "label": "20/08 10h",
+          "score": 60
         },
         {
-          "score": 98,
-          "label": "20/08 12h"
+          "label": "20/08 12h",
+          "score": 18
         },
         {
-          "score": 98,
-          "label": "20/08 14h"
+          "label": "20/08 14h",
+          "score": 53
         },
         {
-          "score": 98,
-          "label": "20/08 16h"
+          "label": "20/08 16h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "20/08 18h"
+          "label": "20/08 18h",
+          "score": 75
         },
         {
-          "score": 98,
-          "label": "20/08 20h"
+          "label": "20/08 20h",
+          "score": 11
         },
         {
-          "score": 98,
-          "label": "20/08 22h"
+          "label": "20/08 22h",
+          "score": 95
         },
         {
-          "score": 98,
-          "label": "21/08 00h"
+          "label": "21/08 00h",
+          "score": 77
         },
         {
-          "score": 98,
-          "label": "21/08 02h"
+          "label": "21/08 02h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "21/08 04h"
+          "label": "21/08 04h",
+          "score": 9
         },
         {
-          "score": 98,
-          "label": "21/08 06h"
+          "label": "21/08 06h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "21/08 08h"
+          "label": "21/08 08h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "21/08 10h"
+          "label": "21/08 10h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "21/08 12h"
+          "label": "21/08 12h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "21/08 14h"
+          "label": "21/08 14h",
+          "score": 44
         },
         {
-          "score": 98,
-          "label": "21/08 16h"
+          "label": "21/08 16h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "21/08 18h"
+          "label": "21/08 18h",
+          "score": 32
         },
         {
-          "score": 98,
-          "label": "21/08 20h"
+          "label": "21/08 20h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "21/08 22h"
+          "label": "21/08 22h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "22/08 00h"
+          "label": "22/08 00h",
+          "score": 21
         },
         {
-          "score": 8,
-          "label": "22/08 02h"
+          "label": "22/08 02h",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "22/08 04h"
+          "label": "22/08 04h",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "22/08 06h"
+          "label": "22/08 06h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "22/08 08h"
+          "label": "22/08 08h",
+          "score": 12
         },
         {
-          "score": 98,
-          "label": "22/08 10h"
+          "label": "22/08 10h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "22/08 12h"
+          "label": "22/08 12h",
+          "score": 6
         },
         {
-          "score": 98,
-          "label": "22/08 14h"
+          "label": "22/08 14h",
+          "score": 36
         },
         {
-          "score": 98,
-          "label": "22/08 16h"
+          "label": "22/08 16h",
+          "score": 5
         },
         {
-          "score": 40,
-          "label": "22/08 18h"
+          "label": "22/08 18h",
+          "score": 98
         }
       ],
       "30d": [
         {
-          "score": 98,
-          "label": "23/07"
+          "label": "23/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 69
         },
         {
-          "score": 98,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 76
         },
         {
-          "score": 98,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 13
         },
         {
-          "score": 98,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 18
         },
         {
-          "score": 98,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 68
         },
         {
-          "score": 98,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 79
         },
         {
-          "score": 98,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 27
         },
         {
-          "score": 98,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 19
         },
         {
-          "score": 98,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 50
         },
         {
-          "score": 98,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 25
         },
         {
-          "score": 98,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 14
         },
         {
-          "score": 98,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 12
         },
         {
-          "score": 98,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 38
         },
         {
-          "score": 98,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 76
         },
         {
-          "score": 98,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 47
         },
         {
-          "score": 98,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 64
         },
         {
-          "score": 98,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 34
         },
         {
-          "score": 98,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 53
         },
         {
-          "score": 98,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 59
         },
         {
-          "score": 98,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 40
         },
         {
-          "score": 98,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 79
         },
         {
-          "score": 98,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 96
         },
         {
-          "score": 98,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 48
         },
         {
-          "score": 98,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 60
         },
         {
-          "score": 98,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 24
         },
         {
-          "score": 98,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 79
         },
         {
-          "score": 98,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 32
         },
         {
-          "score": 98,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 40
         },
         {
-          "score": 98,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 14
         },
         {
-          "score": 98,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 36
         },
         {
-          "score": 98,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 45
         },
         {
-          "score": 98,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 49
         },
         {
-          "score": 98,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 47
         },
         {
-          "score": 98,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 93
         },
         {
-          "score": 98,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 70
         },
         {
-          "score": 98,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 5
         },
         {
-          "score": 8,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 5
         },
         {
-          "score": 40,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 98
+        }
+      ],
+      "365d": [
+        {
+          "label": "22/08/25",
+          "score": 5
+        },
+        {
+          "label": "26/08/25",
+          "score": 5
+        },
+        {
+          "label": "30/08/25",
+          "score": 5
+        },
+        {
+          "label": "03/09/25",
+          "score": 5
+        },
+        {
+          "label": "07/09/25",
+          "score": 5
+        },
+        {
+          "label": "11/09/25",
+          "score": 5
+        },
+        {
+          "label": "15/09/25",
+          "score": 5
+        },
+        {
+          "label": "19/09/25",
+          "score": 5
+        },
+        {
+          "label": "23/09/25",
+          "score": 5
+        },
+        {
+          "label": "27/09/25",
+          "score": 5
+        },
+        {
+          "label": "01/10/25",
+          "score": 14
+        },
+        {
+          "label": "05/10/25",
+          "score": 33
+        },
+        {
+          "label": "09/10/25",
+          "score": 26
+        },
+        {
+          "label": "13/10/25",
+          "score": 5
+        },
+        {
+          "label": "17/10/25",
+          "score": 21
+        },
+        {
+          "label": "21/10/25",
+          "score": 16
+        },
+        {
+          "label": "25/10/25",
+          "score": 5
+        },
+        {
+          "label": "29/10/25",
+          "score": 5
+        },
+        {
+          "label": "02/11/25",
+          "score": 27
+        },
+        {
+          "label": "06/11/25",
+          "score": 5
+        },
+        {
+          "label": "10/11/25",
+          "score": 70
+        },
+        {
+          "label": "03/12/25",
+          "score": 5
+        },
+        {
+          "label": "07/12/25",
+          "score": 5
+        },
+        {
+          "label": "18/01/26",
+          "score": 23
+        },
+        {
+          "label": "22/01/26",
+          "score": 45
+        },
+        {
+          "label": "28/01/26",
+          "score": 36
+        },
+        {
+          "label": "01/02/26",
+          "score": 98
+        },
+        {
+          "label": "06/02/26",
+          "score": 46
+        },
+        {
+          "label": "10/02/26",
+          "score": 56
+        },
+        {
+          "label": "16/02/26",
+          "score": 5
+        },
+        {
+          "label": "21/02/26",
+          "score": 5
+        },
+        {
+          "label": "25/02/26",
+          "score": 98
+        },
+        {
+          "label": "02/03/26",
+          "score": 85
+        },
+        {
+          "label": "07/03/26",
+          "score": 25
+        },
+        {
+          "label": "11/03/26",
+          "score": 5
+        },
+        {
+          "label": "16/03/26",
+          "score": 16
+        },
+        {
+          "label": "20/03/26",
+          "score": 98
+        },
+        {
+          "label": "25/03/26",
+          "score": 40
+        },
+        {
+          "label": "30/03/26",
+          "score": 26
+        },
+        {
+          "label": "03/04/26",
+          "score": 36
+        },
+        {
+          "label": "08/04/26",
+          "score": 5
+        },
+        {
+          "label": "12/04/26",
+          "score": 5
+        },
+        {
+          "label": "16/04/26",
+          "score": 81
+        },
+        {
+          "label": "20/04/26",
+          "score": 10
+        },
+        {
+          "label": "24/04/26",
+          "score": 5
+        },
+        {
+          "label": "29/04/26",
+          "score": 5
+        },
+        {
+          "label": "03/05/26",
+          "score": 5
+        },
+        {
+          "label": "07/05/26",
+          "score": 55
+        },
+        {
+          "label": "13/05/26",
+          "score": 5
+        },
+        {
+          "label": "17/05/26",
+          "score": 59
+        },
+        {
+          "label": "22/05/26",
+          "score": 5
+        },
+        {
+          "label": "26/05/26",
+          "score": 5
+        },
+        {
+          "label": "30/05/26",
+          "score": 69
+        },
+        {
+          "label": "04/06/26",
+          "score": 85
+        },
+        {
+          "label": "08/06/26",
+          "score": 5
+        },
+        {
+          "label": "12/06/26",
+          "score": 5
+        },
+        {
+          "label": "16/06/26",
+          "score": 5
+        },
+        {
+          "label": "20/06/26",
+          "score": 93
+        },
+        {
+          "label": "24/06/26",
+          "score": 40
+        },
+        {
+          "label": "28/06/26",
+          "score": 98
+        },
+        {
+          "label": "02/07/26",
+          "score": 5
+        },
+        {
+          "label": "06/07/26",
+          "score": 44
+        },
+        {
+          "label": "10/07/26",
+          "score": 5
+        },
+        {
+          "label": "14/07/26",
+          "score": 5
+        },
+        {
+          "label": "18/07/26",
+          "score": 22
+        },
+        {
+          "label": "22/07/26",
+          "score": 5
+        },
+        {
+          "label": "26/07/26",
+          "score": 5
+        },
+        {
+          "label": "30/07/26",
+          "score": 5
+        },
+        {
+          "label": "03/08/26",
+          "score": 58
+        },
+        {
+          "label": "07/08/26",
+          "score": 5
+        },
+        {
+          "label": "11/08/26",
+          "score": 5
+        },
+        {
+          "label": "15/08/26",
+          "score": 5
+        },
+        {
+          "label": "19/08/26",
+          "score": 58
+        },
+        {
+          "label": "22/08/26",
+          "score": 98
         }
       ]
     }
@@ -7643,11 +9431,11 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Desvio do Ratio Diário 24h (|Z_ETH/BTC| >= 1.50σ)",
     "trava_ruptura": "Coerência de Fase γ_ETH/BTC = 71.0% | Bloqueio PC1 > 75%",
     "cooldown_horas": 1.5,
-    "valor_atual_str": "ETH/BTC = 0.03134 (Z: -0.86σ)",
+    "valor_atual_str": "ETH/BTC = 0.03131 (Z: -0.92σ)",
     "alvo_str": "|Z| >= 1.50σ (Gatilho de Arbitragem)",
-    "distancia_display": "Faltam 0.64σ para disparo",
-    "proximidade_score": 82,
-    "status": "ZONA_DE_DISPARO_IMINENTE",
+    "distancia_display": "Faltam 0.58σ para disparo",
+    "proximidade_score": 62,
+    "status": "MONITORANDO_SPREAD",
     "icone": "⚔️",
     "cor": "#06B6D4",
     "descricao_executiva": "Pairs trading clássico de Granger & Hatanaka (1964) entre os dois maiores pesos do ecossistema cripto. Explora o descolamento estatístico do ratio ETH/BTC em relação à sua média de cointegração de 24 horas.",
@@ -7656,1250 +9444,1548 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "score": 41,
-          "label": "17:36"
+          "label": "17:36",
+          "score": 40
         },
         {
-          "score": 44,
-          "label": "17:37"
+          "label": "17:37",
+          "score": 44
         },
         {
-          "score": 42,
-          "label": "17:38"
+          "label": "17:38",
+          "score": 42
         },
         {
-          "score": 44,
-          "label": "17:39"
+          "label": "17:39",
+          "score": 44
         },
         {
-          "score": 42,
-          "label": "17:40"
+          "label": "17:40",
+          "score": 41
         },
         {
-          "score": 45,
-          "label": "17:41"
+          "label": "17:41",
+          "score": 45
         },
         {
-          "score": 45,
-          "label": "17:42"
+          "label": "17:42",
+          "score": 44
         },
         {
-          "score": 43,
-          "label": "17:43"
+          "label": "17:43",
+          "score": 42
         },
         {
-          "score": 44,
-          "label": "17:44"
+          "label": "17:44",
+          "score": 43
         },
         {
-          "score": 47,
-          "label": "17:45"
+          "label": "17:45",
+          "score": 46
         },
         {
-          "score": 47,
-          "label": "17:46"
+          "label": "17:46",
+          "score": 47
         },
         {
-          "score": 47,
-          "label": "17:47"
+          "label": "17:47",
+          "score": 47
         },
         {
-          "score": 49,
-          "label": "17:48"
+          "label": "17:48",
+          "score": 48
         },
         {
-          "score": 47,
-          "label": "17:49"
+          "label": "17:49",
+          "score": 46
         },
         {
-          "score": 45,
-          "label": "17:50"
+          "label": "17:50",
+          "score": 44
         },
         {
-          "score": 41,
-          "label": "17:51"
+          "label": "17:51",
+          "score": 40
         },
         {
-          "score": 40,
-          "label": "17:52"
+          "label": "17:52",
+          "score": 40
         },
         {
-          "score": 43,
-          "label": "17:53"
+          "label": "17:53",
+          "score": 43
         },
         {
-          "score": 43,
-          "label": "17:54"
+          "label": "17:54",
+          "score": 42
         },
         {
-          "score": 42,
-          "label": "17:55"
+          "label": "17:55",
+          "score": 42
         },
         {
-          "score": 45,
-          "label": "17:56"
+          "label": "17:56",
+          "score": 45
         },
         {
-          "score": 45,
-          "label": "17:57"
+          "label": "17:57",
+          "score": 45
         },
         {
-          "score": 46,
-          "label": "17:58"
+          "label": "17:58",
+          "score": 46
         },
         {
-          "score": 46,
-          "label": "17:59"
+          "label": "17:59",
+          "score": 46
         },
         {
-          "score": 45,
-          "label": "18:00"
+          "label": "18:00",
+          "score": 45
         },
         {
-          "score": 42,
-          "label": "18:01"
+          "label": "18:01",
+          "score": 42
         },
         {
-          "score": 43,
-          "label": "18:02"
+          "label": "18:02",
+          "score": 42
         },
         {
-          "score": 43,
-          "label": "18:03"
+          "label": "18:03",
+          "score": 43
         },
         {
-          "score": 43,
-          "label": "18:04"
+          "label": "18:04",
+          "score": 43
         },
         {
-          "score": 41,
-          "label": "18:05"
+          "label": "18:05",
+          "score": 41
         },
         {
-          "score": 41,
-          "label": "18:06"
+          "label": "18:06",
+          "score": 41
         },
         {
-          "score": 41,
-          "label": "18:07"
+          "label": "18:07",
+          "score": 41
         },
         {
-          "score": 42,
-          "label": "18:08"
+          "label": "18:08",
+          "score": 42
         },
         {
-          "score": 42,
-          "label": "18:09"
+          "label": "18:09",
+          "score": 42
         },
         {
-          "score": 40,
-          "label": "18:10"
+          "label": "18:10",
+          "score": 40
         },
         {
-          "score": 42,
-          "label": "18:11"
+          "label": "18:11",
+          "score": 42
         },
         {
-          "score": 40,
-          "label": "18:12"
+          "label": "18:12",
+          "score": 40
         },
         {
-          "score": 42,
-          "label": "18:13"
+          "label": "18:13",
+          "score": 42
         },
         {
-          "score": 40,
-          "label": "18:14"
+          "label": "18:14",
+          "score": 40
         },
         {
-          "score": 39,
-          "label": "18:15"
+          "label": "18:15",
+          "score": 39
         },
         {
-          "score": 43,
-          "label": "18:16"
+          "label": "18:16",
+          "score": 43
         },
         {
-          "score": 42,
-          "label": "18:17"
+          "label": "18:17",
+          "score": 42
         },
         {
-          "score": 39,
-          "label": "18:18"
+          "label": "18:18",
+          "score": 39
         },
         {
-          "score": 39,
-          "label": "18:19"
+          "label": "18:19",
+          "score": 39
         },
         {
-          "score": 38,
-          "label": "18:20"
+          "label": "18:20",
+          "score": 38
         },
         {
-          "score": 38,
-          "label": "18:21"
+          "label": "18:21",
+          "score": 38
         },
         {
-          "score": 32,
-          "label": "18:22"
+          "label": "18:22",
+          "score": 32
         },
         {
-          "score": 34,
-          "label": "18:23"
+          "label": "18:23",
+          "score": 34
         },
         {
-          "score": 33,
-          "label": "18:24"
+          "label": "18:24",
+          "score": 34
         },
         {
-          "score": 33,
-          "label": "18:25"
+          "label": "18:25",
+          "score": 33
         },
         {
-          "score": 33,
-          "label": "18:26"
+          "label": "18:26",
+          "score": 33
         },
         {
-          "score": 32,
-          "label": "18:27"
+          "label": "18:27",
+          "score": 32
         },
         {
-          "score": 32,
-          "label": "18:28"
+          "label": "18:28",
+          "score": 32
         },
         {
-          "score": 34,
-          "label": "18:29"
+          "label": "18:29",
+          "score": 34
         },
         {
-          "score": 34,
-          "label": "18:30"
+          "label": "18:30",
+          "score": 34
         },
         {
-          "score": 35,
-          "label": "18:31"
+          "label": "18:31",
+          "score": 35
         },
         {
-          "score": 32,
-          "label": "18:32"
+          "label": "18:32",
+          "score": 33
         },
         {
-          "score": 34,
-          "label": "18:33"
+          "label": "18:33",
+          "score": 34
         },
         {
-          "score": 30,
-          "label": "18:34"
+          "label": "18:34",
+          "score": 31
         },
         {
-          "score": 34,
-          "label": "18:35"
+          "label": "18:35",
+          "score": 35
         },
         {
-          "score": 36,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 62
         }
       ],
       "24h": [
         {
-          "score": 49,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 6
         },
         {
-          "score": 53,
-          "label": "18:56"
+          "label": "18:56",
+          "score": 5
         },
         {
-          "score": 67,
-          "label": "19:16"
+          "label": "19:16",
+          "score": 7
         },
         {
-          "score": 64,
-          "label": "19:36"
+          "label": "19:36",
+          "score": 5
         },
         {
-          "score": 60,
-          "label": "19:56"
+          "label": "19:56",
+          "score": 5
         },
         {
-          "score": 49,
-          "label": "20:16"
+          "label": "20:16",
+          "score": 16
         },
         {
-          "score": 28,
-          "label": "20:36"
+          "label": "20:36",
+          "score": 39
         },
         {
-          "score": 31,
-          "label": "20:56"
+          "label": "20:56",
+          "score": 38
         },
         {
-          "score": 15,
-          "label": "21:16"
+          "label": "21:16",
+          "score": 57
         },
         {
-          "score": 18,
-          "label": "21:36"
+          "label": "21:36",
+          "score": 94
         },
         {
-          "score": 64,
-          "label": "21:56"
+          "label": "21:56",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "22:16"
+          "label": "22:16",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "22:36"
+          "label": "22:36",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "22:56"
+          "label": "22:56",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "23:16"
+          "label": "23:16",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "23:36"
+          "label": "23:36",
+          "score": 98
         },
         {
-          "score": 88,
-          "label": "23:56"
+          "label": "23:56",
+          "score": 98
         },
         {
-          "score": 90,
-          "label": "00:16"
+          "label": "00:16",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "00:36"
+          "label": "00:36",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "00:56"
+          "label": "00:56",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "01:16"
+          "label": "01:16",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "01:36"
+          "label": "01:36",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "01:56"
+          "label": "01:56",
+          "score": 98
         },
         {
-          "score": 94,
-          "label": "02:16"
+          "label": "02:16",
+          "score": 98
         },
         {
-          "score": 66,
-          "label": "02:36"
+          "label": "02:36",
+          "score": 87
         },
         {
-          "score": 72,
-          "label": "02:56"
+          "label": "02:56",
+          "score": 90
         },
         {
-          "score": 83,
-          "label": "03:16"
+          "label": "03:16",
+          "score": 95
         },
         {
-          "score": 69,
-          "label": "03:36"
+          "label": "03:36",
+          "score": 83
         },
         {
-          "score": 89,
-          "label": "03:56"
+          "label": "03:56",
+          "score": 95
         },
         {
-          "score": 82,
-          "label": "04:16"
+          "label": "04:16",
+          "score": 87
         },
         {
-          "score": 77,
-          "label": "04:36"
+          "label": "04:36",
+          "score": 82
         },
         {
-          "score": 81,
-          "label": "04:56"
+          "label": "04:56",
+          "score": 83
         },
         {
-          "score": 38,
-          "label": "05:16"
+          "label": "05:16",
+          "score": 5
         },
         {
-          "score": 12,
-          "label": "05:36"
+          "label": "05:36",
+          "score": 18
         },
         {
-          "score": 30,
-          "label": "05:56"
+          "label": "05:56",
+          "score": 5
         },
         {
-          "score": 30,
-          "label": "06:16"
+          "label": "06:16",
+          "score": 5
         },
         {
-          "score": 50,
-          "label": "06:36"
+          "label": "06:36",
+          "score": 9
         },
         {
-          "score": 32,
-          "label": "06:56"
+          "label": "06:56",
+          "score": 5
         },
         {
-          "score": 42,
-          "label": "07:16"
+          "label": "07:16",
+          "score": 5
         },
         {
-          "score": 26,
-          "label": "07:36"
+          "label": "07:36",
+          "score": 6
         },
         {
-          "score": 22,
-          "label": "07:56"
+          "label": "07:56",
+          "score": 8
         },
         {
-          "score": 23,
-          "label": "08:16"
+          "label": "08:16",
+          "score": 7
         },
         {
-          "score": 56,
-          "label": "08:36"
+          "label": "08:36",
+          "score": 16
         },
         {
-          "score": 42,
-          "label": "08:56"
+          "label": "08:56",
+          "score": 7
         },
         {
-          "score": 48,
-          "label": "09:16"
+          "label": "09:16",
+          "score": 13
         },
         {
-          "score": 45,
-          "label": "09:36"
+          "label": "09:36",
+          "score": 12
         },
         {
-          "score": 36,
-          "label": "09:56"
+          "label": "09:56",
+          "score": 7
         },
         {
-          "score": 61,
-          "label": "10:16"
+          "label": "10:16",
+          "score": 26
         },
         {
-          "score": 64,
-          "label": "10:36"
+          "label": "10:36",
+          "score": 30
         },
         {
-          "score": 60,
-          "label": "10:56"
+          "label": "10:56",
+          "score": 28
         },
         {
-          "score": 53,
-          "label": "11:16"
+          "label": "11:16",
+          "score": 24
         },
         {
-          "score": 47,
-          "label": "11:36"
+          "label": "11:36",
+          "score": 21
         },
         {
-          "score": 42,
-          "label": "11:56"
+          "label": "11:56",
+          "score": 19
         },
         {
-          "score": 27,
-          "label": "12:16"
+          "label": "12:16",
+          "score": 8
         },
         {
-          "score": 31,
-          "label": "12:36"
+          "label": "12:36",
+          "score": 12
         },
         {
-          "score": 45,
-          "label": "12:56"
+          "label": "12:56",
+          "score": 26
         },
         {
-          "score": 35,
-          "label": "13:16"
+          "label": "13:16",
+          "score": 18
         },
         {
-          "score": 34,
-          "label": "13:36"
+          "label": "13:36",
+          "score": 19
         },
         {
-          "score": 37,
-          "label": "13:56"
+          "label": "13:56",
+          "score": 23
         },
         {
-          "score": 44,
-          "label": "14:16"
+          "label": "14:16",
+          "score": 30
         },
         {
-          "score": 40,
-          "label": "14:36"
+          "label": "14:36",
+          "score": 28
         },
         {
-          "score": 57,
-          "label": "14:56"
+          "label": "14:56",
+          "score": 45
         },
         {
-          "score": 61,
-          "label": "15:16"
+          "label": "15:16",
+          "score": 50
         },
         {
-          "score": 64,
-          "label": "15:36"
+          "label": "15:36",
+          "score": 54
         },
         {
-          "score": 62,
-          "label": "15:56"
+          "label": "15:56",
+          "score": 55
         },
         {
-          "score": 53,
-          "label": "16:16"
+          "label": "16:16",
+          "score": 48
         },
         {
-          "score": 52,
-          "label": "16:36"
+          "label": "16:36",
+          "score": 48
         },
         {
-          "score": 57,
-          "label": "16:56"
+          "label": "16:56",
+          "score": 54
         },
         {
-          "score": 50,
-          "label": "17:16"
+          "label": "17:16",
+          "score": 48
         },
         {
-          "score": 41,
-          "label": "17:36"
+          "label": "17:36",
+          "score": 40
         },
         {
-          "score": 45,
-          "label": "17:56"
+          "label": "17:56",
+          "score": 45
         },
         {
-          "score": 43,
-          "label": "18:16"
+          "label": "18:16",
+          "score": 43
         },
         {
-          "score": 36,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 62
         }
       ],
       "7d": [
         {
-          "score": 98,
-          "label": "15/08 18h"
+          "label": "15/08 18h",
+          "score": 21
         },
         {
-          "score": 98,
-          "label": "15/08 20h"
+          "label": "15/08 20h",
+          "score": 28
         },
         {
-          "score": 98,
-          "label": "15/08 22h"
+          "label": "15/08 22h",
+          "score": 11
         },
         {
-          "score": 98,
-          "label": "16/08 00h"
+          "label": "16/08 00h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16/08 02h"
+          "label": "16/08 02h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16/08 04h"
+          "label": "16/08 04h",
+          "score": 16
         },
         {
-          "score": 98,
-          "label": "16/08 06h"
+          "label": "16/08 06h",
+          "score": 96
         },
         {
-          "score": 98,
-          "label": "16/08 08h"
+          "label": "16/08 08h",
+          "score": 61
         },
         {
-          "score": 98,
-          "label": "16/08 10h"
+          "label": "16/08 10h",
+          "score": 13
         },
         {
-          "score": 98,
-          "label": "16/08 12h"
+          "label": "16/08 12h",
+          "score": 36
         },
         {
-          "score": 98,
-          "label": "16/08 14h"
+          "label": "16/08 14h",
+          "score": 11
         },
         {
-          "score": 98,
-          "label": "16/08 16h"
+          "label": "16/08 16h",
+          "score": 89
         },
         {
-          "score": 98,
-          "label": "16/08 18h"
+          "label": "16/08 18h",
+          "score": 79
         },
         {
-          "score": 98,
-          "label": "16/08 20h"
+          "label": "16/08 20h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "16/08 22h"
+          "label": "16/08 22h",
+          "score": 92
         },
         {
-          "score": 98,
-          "label": "17/08 00h"
+          "label": "17/08 00h",
+          "score": 34
         },
         {
-          "score": 98,
-          "label": "17/08 02h"
+          "label": "17/08 02h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "17/08 04h"
+          "label": "17/08 04h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "17/08 06h"
+          "label": "17/08 06h",
+          "score": 59
         },
         {
-          "score": 98,
-          "label": "17/08 08h"
+          "label": "17/08 08h",
+          "score": 7
         },
         {
-          "score": 98,
-          "label": "17/08 10h"
+          "label": "17/08 10h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "17/08 12h"
+          "label": "17/08 12h",
+          "score": 18
         },
         {
-          "score": 98,
-          "label": "17/08 14h"
+          "label": "17/08 14h",
+          "score": 18
         },
         {
-          "score": 98,
-          "label": "17/08 16h"
+          "label": "17/08 16h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "17/08 18h"
+          "label": "17/08 18h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "17/08 20h"
+          "label": "17/08 20h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "17/08 22h"
+          "label": "17/08 22h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "18/08 00h"
+          "label": "18/08 00h",
+          "score": 93
         },
         {
-          "score": 98,
-          "label": "18/08 02h"
+          "label": "18/08 02h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "18/08 04h"
+          "label": "18/08 04h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "18/08 06h"
+          "label": "18/08 06h",
+          "score": 80
         },
         {
-          "score": 98,
-          "label": "18/08 08h"
+          "label": "18/08 08h",
+          "score": 65
         },
         {
-          "score": 98,
-          "label": "18/08 10h"
+          "label": "18/08 10h",
+          "score": 53
         },
         {
-          "score": 98,
-          "label": "18/08 12h"
+          "label": "18/08 12h",
+          "score": 38
         },
         {
-          "score": 98,
-          "label": "18/08 14h"
+          "label": "18/08 14h",
+          "score": 49
         },
         {
-          "score": 98,
-          "label": "18/08 16h"
+          "label": "18/08 16h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "18/08 18h"
+          "label": "18/08 18h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "18/08 20h"
+          "label": "18/08 20h",
+          "score": 66
         },
         {
-          "score": 98,
-          "label": "18/08 22h"
+          "label": "18/08 22h",
+          "score": 68
         },
         {
-          "score": 98,
-          "label": "19/08 00h"
+          "label": "19/08 00h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "19/08 02h"
+          "label": "19/08 02h",
+          "score": 88
         },
         {
-          "score": 98,
-          "label": "19/08 04h"
+          "label": "19/08 04h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "19/08 06h"
+          "label": "19/08 06h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "19/08 08h"
+          "label": "19/08 08h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "19/08 10h"
+          "label": "19/08 10h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "19/08 12h"
+          "label": "19/08 12h",
+          "score": 60
         },
         {
-          "score": 98,
-          "label": "19/08 14h"
+          "label": "19/08 14h",
+          "score": 42
         },
         {
-          "score": 98,
-          "label": "19/08 16h"
+          "label": "19/08 16h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "19/08 18h"
+          "label": "19/08 18h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "19/08 20h"
+          "label": "19/08 20h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "19/08 22h"
+          "label": "19/08 22h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "20/08 00h"
+          "label": "20/08 00h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "20/08 02h"
+          "label": "20/08 02h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "20/08 04h"
+          "label": "20/08 04h",
+          "score": 85
         },
         {
-          "score": 98,
-          "label": "20/08 06h"
+          "label": "20/08 06h",
+          "score": 73
         },
         {
-          "score": 27,
-          "label": "20/08 08h"
+          "label": "20/08 08h",
+          "score": 27
         },
         {
-          "score": 26,
-          "label": "20/08 10h"
+          "label": "20/08 10h",
+          "score": 19
         },
         {
-          "score": 24,
-          "label": "20/08 12h"
+          "label": "20/08 12h",
+          "score": 9
         },
         {
-          "score": 43,
-          "label": "20/08 14h"
+          "label": "20/08 14h",
+          "score": 6
         },
         {
-          "score": 98,
-          "label": "20/08 16h"
+          "label": "20/08 16h",
+          "score": 22
         },
         {
-          "score": 52,
-          "label": "20/08 18h"
+          "label": "20/08 18h",
+          "score": 20
         },
         {
-          "score": 48,
-          "label": "20/08 20h"
+          "label": "20/08 20h",
+          "score": 58
         },
         {
-          "score": 30,
-          "label": "20/08 22h"
+          "label": "20/08 22h",
+          "score": 74
         },
         {
-          "score": 16,
-          "label": "21/08 00h"
+          "label": "21/08 00h",
+          "score": 82
         },
         {
-          "score": 19,
-          "label": "21/08 02h"
+          "label": "21/08 02h",
+          "score": 98
         },
         {
-          "score": 58,
-          "label": "21/08 04h"
+          "label": "21/08 04h",
+          "score": 98
         },
         {
-          "score": 53,
-          "label": "21/08 06h"
+          "label": "21/08 06h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "21/08 08h"
+          "label": "21/08 08h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "21/08 10h"
+          "label": "21/08 10h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "21/08 12h"
+          "label": "21/08 12h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "21/08 14h"
+          "label": "21/08 14h",
+          "score": 81
         },
         {
-          "score": 98,
-          "label": "21/08 16h"
+          "label": "21/08 16h",
+          "score": 52
         },
         {
-          "score": 53,
-          "label": "21/08 18h"
+          "label": "21/08 18h",
+          "score": 5
         },
         {
-          "score": 29,
-          "label": "21/08 20h"
+          "label": "21/08 20h",
+          "score": 38
         },
         {
-          "score": 98,
-          "label": "21/08 22h"
+          "label": "21/08 22h",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "22/08 00h"
+          "label": "22/08 00h",
+          "score": 98
         },
         {
-          "score": 69,
-          "label": "22/08 02h"
+          "label": "22/08 02h",
+          "score": 89
         },
         {
-          "score": 86,
-          "label": "22/08 04h"
+          "label": "22/08 04h",
+          "score": 88
         },
         {
-          "score": 32,
-          "label": "22/08 06h"
+          "label": "22/08 06h",
+          "score": 5
         },
         {
-          "score": 49,
-          "label": "22/08 08h"
+          "label": "22/08 08h",
+          "score": 12
         },
         {
-          "score": 69,
-          "label": "22/08 10h"
+          "label": "22/08 10h",
+          "score": 34
         },
         {
-          "score": 37,
-          "label": "22/08 12h"
+          "label": "22/08 12h",
+          "score": 17
         },
         {
-          "score": 45,
-          "label": "22/08 14h"
+          "label": "22/08 14h",
+          "score": 32
         },
         {
-          "score": 55,
-          "label": "22/08 16h"
+          "label": "22/08 16h",
+          "score": 51
         },
         {
-          "score": 36,
-          "label": "22/08 18h"
+          "label": "22/08 18h",
+          "score": 62
         }
       ],
       "30d": [
         {
-          "score": 98,
-          "label": "23/07"
+          "label": "23/07",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 65
         },
         {
-          "score": 98,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 66
         },
         {
-          "score": 98,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 42
         },
         {
-          "score": 98,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 97
         },
         {
-          "score": 98,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 85
         },
         {
-          "score": 98,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 93
         },
         {
-          "score": 98,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 19
         },
         {
-          "score": 98,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 94
         },
         {
-          "score": 98,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 92
         },
         {
-          "score": 98,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 26
         },
         {
-          "score": 98,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 73
         },
         {
-          "score": 98,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 23
         },
         {
-          "score": 98,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 8
         },
         {
-          "score": 98,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 70
         },
         {
-          "score": 98,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 89
         },
         {
-          "score": 98,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 34
         },
         {
-          "score": 98,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 14
         },
         {
-          "score": 98,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 14
         },
         {
-          "score": 98,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 21
         },
         {
-          "score": 98,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 85
         },
         {
-          "score": 98,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 85
         },
         {
-          "score": 98,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 96
         },
         {
-          "score": 98,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 66
         },
         {
-          "score": 98,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 26
         },
         {
-          "score": 98,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 26
         },
         {
-          "score": 98,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 35
         },
         {
-          "score": 98,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 9
         },
         {
-          "score": 98,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 73
         },
         {
-          "score": 98,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 35
         },
         {
-          "score": 98,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 64
         },
         {
-          "score": 98,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 86
         },
         {
-          "score": 98,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 77
         },
         {
-          "score": 98,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 64
         },
         {
-          "score": 98,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 54
         },
         {
-          "score": 98,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 72
         },
         {
-          "score": 98,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 62
         },
         {
-          "score": 98,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 29
         },
         {
-          "score": 98,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 78
         },
         {
-          "score": 98,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 29
         },
         {
-          "score": 98,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 84
         },
         {
-          "score": 98,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 89
         },
         {
-          "score": 98,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 50
         },
         {
-          "score": 98,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 38
         },
         {
-          "score": 98,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 87
         },
         {
-          "score": 98,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 12
         },
         {
-          "score": 98,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 34
         },
         {
-          "score": 98,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 58
         },
         {
-          "score": 98,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 11
         },
         {
-          "score": 98,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 37
         },
         {
-          "score": 98,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 86
         },
         {
-          "score": 98,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 56
         },
         {
-          "score": 98,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 9
         },
         {
-          "score": 98,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 92
         },
         {
-          "score": 25,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 17
         },
         {
-          "score": 68,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 15
         },
         {
-          "score": 23,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 98
         },
         {
-          "score": 98,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 98
         },
         {
-          "score": 64,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 5
         },
         {
-          "score": 76,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 91
         },
         {
-          "score": 61,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 30
         },
         {
-          "score": 36,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 62
+        }
+      ],
+      "365d": [
+        {
+          "label": "22/08/25",
+          "score": 98
+        },
+        {
+          "label": "26/08/25",
+          "score": 98
+        },
+        {
+          "label": "30/08/25",
+          "score": 71
+        },
+        {
+          "label": "03/09/25",
+          "score": 98
+        },
+        {
+          "label": "07/09/25",
+          "score": 98
+        },
+        {
+          "label": "11/09/25",
+          "score": 26
+        },
+        {
+          "label": "15/09/25",
+          "score": 98
+        },
+        {
+          "label": "19/09/25",
+          "score": 77
+        },
+        {
+          "label": "23/09/25",
+          "score": 98
+        },
+        {
+          "label": "27/09/25",
+          "score": 86
+        },
+        {
+          "label": "01/10/25",
+          "score": 68
+        },
+        {
+          "label": "05/10/25",
+          "score": 39
+        },
+        {
+          "label": "09/10/25",
+          "score": 48
+        },
+        {
+          "label": "13/10/25",
+          "score": 98
+        },
+        {
+          "label": "17/10/25",
+          "score": 48
+        },
+        {
+          "label": "21/10/25",
+          "score": 68
+        },
+        {
+          "label": "25/10/25",
+          "score": 83
+        },
+        {
+          "label": "29/10/25",
+          "score": 72
+        },
+        {
+          "label": "02/11/25",
+          "score": 59
+        },
+        {
+          "label": "06/11/25",
+          "score": 29
+        },
+        {
+          "label": "10/11/25",
+          "score": 89
+        },
+        {
+          "label": "03/12/25",
+          "score": 98
+        },
+        {
+          "label": "07/12/25",
+          "score": 98
+        },
+        {
+          "label": "18/01/26",
+          "score": 98
+        },
+        {
+          "label": "22/01/26",
+          "score": 94
+        },
+        {
+          "label": "28/01/26",
+          "score": 71
+        },
+        {
+          "label": "01/02/26",
+          "score": 98
+        },
+        {
+          "label": "06/02/26",
+          "score": 26
+        },
+        {
+          "label": "10/02/26",
+          "score": 47
+        },
+        {
+          "label": "16/02/26",
+          "score": 98
+        },
+        {
+          "label": "21/02/26",
+          "score": 23
+        },
+        {
+          "label": "25/02/26",
+          "score": 98
+        },
+        {
+          "label": "02/03/26",
+          "score": 98
+        },
+        {
+          "label": "07/03/26",
+          "score": 30
+        },
+        {
+          "label": "11/03/26",
+          "score": 98
+        },
+        {
+          "label": "16/03/26",
+          "score": 98
+        },
+        {
+          "label": "20/03/26",
+          "score": 16
+        },
+        {
+          "label": "25/03/26",
+          "score": 20
+        },
+        {
+          "label": "30/03/26",
+          "score": 98
+        },
+        {
+          "label": "03/04/26",
+          "score": 98
+        },
+        {
+          "label": "08/04/26",
+          "score": 98
+        },
+        {
+          "label": "12/04/26",
+          "score": 21
+        },
+        {
+          "label": "16/04/26",
+          "score": 78
+        },
+        {
+          "label": "20/04/26",
+          "score": 61
+        },
+        {
+          "label": "24/04/26",
+          "score": 98
+        },
+        {
+          "label": "29/04/26",
+          "score": 35
+        },
+        {
+          "label": "03/05/26",
+          "score": 98
+        },
+        {
+          "label": "07/05/26",
+          "score": 36
+        },
+        {
+          "label": "13/05/26",
+          "score": 98
+        },
+        {
+          "label": "17/05/26",
+          "score": 98
+        },
+        {
+          "label": "22/05/26",
+          "score": 9
+        },
+        {
+          "label": "26/05/26",
+          "score": 9
+        },
+        {
+          "label": "30/05/26",
+          "score": 35
+        },
+        {
+          "label": "04/06/26",
+          "score": 98
+        },
+        {
+          "label": "08/06/26",
+          "score": 98
+        },
+        {
+          "label": "12/06/26",
+          "score": 44
+        },
+        {
+          "label": "16/06/26",
+          "score": 39
+        },
+        {
+          "label": "20/06/26",
+          "score": 98
+        },
+        {
+          "label": "24/06/26",
+          "score": 61
+        },
+        {
+          "label": "28/06/26",
+          "score": 83
+        },
+        {
+          "label": "02/07/26",
+          "score": 20
+        },
+        {
+          "label": "06/07/26",
+          "score": 60
+        },
+        {
+          "label": "10/07/26",
+          "score": 69
+        },
+        {
+          "label": "14/07/26",
+          "score": 98
+        },
+        {
+          "label": "18/07/26",
+          "score": 63
+        },
+        {
+          "label": "22/07/26",
+          "score": 5
+        },
+        {
+          "label": "26/07/26",
+          "score": 98
+        },
+        {
+          "label": "30/07/26",
+          "score": 88
+        },
+        {
+          "label": "03/08/26",
+          "score": 12
+        },
+        {
+          "label": "07/08/26",
+          "score": 16
+        },
+        {
+          "label": "11/08/26",
+          "score": 48
+        },
+        {
+          "label": "15/08/26",
+          "score": 83
+        },
+        {
+          "label": "19/08/26",
+          "score": 98
+        },
+        {
+          "label": "22/08/26",
+          "score": 62
         }
       ]
     }
@@ -8915,10 +11001,10 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Micro-Queda 5m <= -0.40% (> 1.5σ intradiário)",
     "trava_ruptura": "Trava Espectral: Exige Ew < 50.0 (Sem tempestade de choque)",
     "cooldown_horas": 1.5,
-    "valor_atual_str": "Retorno 5m = -0.46%",
+    "valor_atual_str": "Retorno 5m = -0.45%",
     "alvo_str": "Retorno 5m <= -0.40%",
-    "distancia_display": "Faltam -0.06% de recuo rápido",
-    "proximidade_score": 75,
+    "distancia_display": "Faltam -0.05% de recuo rápido",
+    "proximidade_score": 98,
     "status": "RADAR_ATIVO_5M",
     "icone": "🏹",
     "cor": "#EAB308",
@@ -8928,1250 +11014,1548 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "score": 10,
-          "label": "17:36"
+          "label": "17:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:37"
+          "label": "17:37",
+          "score": 13
         },
         {
-          "score": 10,
-          "label": "17:38"
+          "label": "17:38",
+          "score": 15
         },
         {
-          "score": 10,
-          "label": "17:39"
+          "label": "17:39",
+          "score": 23
         },
         {
-          "score": 10,
-          "label": "17:40"
+          "label": "17:40",
+          "score": 23
         },
         {
-          "score": 10,
-          "label": "17:41"
+          "label": "17:41",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:42"
+          "label": "17:42",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:43"
+          "label": "17:43",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:44"
+          "label": "17:44",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:45"
+          "label": "17:45",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:46"
+          "label": "17:46",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:47"
+          "label": "17:47",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:48"
+          "label": "17:48",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:49"
+          "label": "17:49",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:50"
+          "label": "17:50",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:51"
+          "label": "17:51",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:52"
+          "label": "17:52",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:53"
+          "label": "17:53",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:54"
+          "label": "17:54",
+          "score": 5
         },
         {
-          "score": 18,
-          "label": "17:55"
+          "label": "17:55",
+          "score": 19
         },
         {
-          "score": 19,
-          "label": "17:56"
+          "label": "17:56",
+          "score": 20
         },
         {
-          "score": 10,
-          "label": "17:57"
+          "label": "17:57",
+          "score": 7
         },
         {
-          "score": 10,
-          "label": "17:58"
+          "label": "17:58",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:59"
+          "label": "17:59",
+          "score": 6
         },
         {
-          "score": 10,
-          "label": "18:00"
+          "label": "18:00",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:01"
+          "label": "18:01",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:02"
+          "label": "18:02",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:03"
+          "label": "18:03",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:04"
+          "label": "18:04",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:05"
+          "label": "18:05",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:06"
+          "label": "18:06",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:07"
+          "label": "18:07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:08"
+          "label": "18:08",
+          "score": 9
         },
         {
-          "score": 33,
-          "label": "18:09"
+          "label": "18:09",
+          "score": 33
         },
         {
-          "score": 36,
-          "label": "18:10"
+          "label": "18:10",
+          "score": 36
         },
         {
-          "score": 39,
-          "label": "18:11"
+          "label": "18:11",
+          "score": 40
         },
         {
-          "score": 28,
-          "label": "18:12"
+          "label": "18:12",
+          "score": 29
         },
         {
-          "score": 10,
-          "label": "18:13"
+          "label": "18:13",
+          "score": 11
         },
         {
-          "score": 10,
-          "label": "18:14"
+          "label": "18:14",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:15"
+          "label": "18:15",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:16"
+          "label": "18:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:17"
+          "label": "18:17",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:18"
+          "label": "18:18",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:19"
+          "label": "18:19",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:20"
+          "label": "18:20",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:21"
+          "label": "18:21",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:22"
+          "label": "18:22",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:23"
+          "label": "18:23",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:24"
+          "label": "18:24",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:25"
+          "label": "18:25",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:26"
+          "label": "18:26",
+          "score": 5
         },
         {
-          "score": 12,
-          "label": "18:27"
+          "label": "18:27",
+          "score": 13
         },
         {
-          "score": 10,
-          "label": "18:28"
+          "label": "18:28",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:29"
+          "label": "18:29",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:30"
+          "label": "18:30",
+          "score": 6
         },
         {
-          "score": 10,
-          "label": "18:31"
+          "label": "18:31",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:32"
+          "label": "18:32",
+          "score": 9
         },
         {
-          "score": 10,
-          "label": "18:33"
+          "label": "18:33",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:34"
+          "label": "18:34",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:35"
+          "label": "18:35",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 98
         }
       ],
       "24h": [
         {
-          "score": 10,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 98
         },
         {
-          "score": 10,
-          "label": "18:56"
+          "label": "18:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19:16"
+          "label": "19:16",
+          "score": 22
         },
         {
-          "score": 10,
-          "label": "19:36"
+          "label": "19:36",
+          "score": 55
         },
         {
-          "score": 10,
-          "label": "19:56"
+          "label": "19:56",
+          "score": 34
         },
         {
-          "score": 10,
-          "label": "20:16"
+          "label": "20:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20:36"
+          "label": "20:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20:56"
+          "label": "20:56",
+          "score": 11
         },
         {
-          "score": 10,
-          "label": "21:16"
+          "label": "21:16",
+          "score": 12
         },
         {
-          "score": 10,
-          "label": "21:36"
+          "label": "21:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21:56"
+          "label": "21:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22:16"
+          "label": "22:16",
+          "score": 11
         },
         {
-          "score": 10,
-          "label": "22:36"
+          "label": "22:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22:56"
+          "label": "22:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "23:16"
+          "label": "23:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "23:36"
+          "label": "23:36",
+          "score": 44
         },
         {
-          "score": 98,
-          "label": "23:56"
+          "label": "23:56",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "00:16"
+          "label": "00:16",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "00:36"
+          "label": "00:36",
+          "score": 10
         },
         {
-          "score": 98,
-          "label": "00:56"
+          "label": "00:56",
+          "score": 5
         },
         {
-          "score": 76,
-          "label": "01:16"
+          "label": "01:16",
+          "score": 5
         },
         {
-          "score": 37,
-          "label": "01:36"
+          "label": "01:36",
+          "score": 5
         },
         {
-          "score": 19,
-          "label": "01:56"
+          "label": "01:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "02:16"
+          "label": "02:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "02:36"
+          "label": "02:36",
+          "score": 57
         },
         {
-          "score": 10,
-          "label": "02:56"
+          "label": "02:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "03:16"
+          "label": "03:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "03:36"
+          "label": "03:36",
+          "score": 14
         },
         {
-          "score": 10,
-          "label": "03:56"
+          "label": "03:56",
+          "score": 76
         },
         {
-          "score": 10,
-          "label": "04:16"
+          "label": "04:16",
+          "score": 24
         },
         {
-          "score": 10,
-          "label": "04:36"
+          "label": "04:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "04:56"
+          "label": "04:56",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "05:16"
+          "label": "05:16",
+          "score": 13
         },
         {
-          "score": 98,
-          "label": "05:36"
+          "label": "05:36",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "05:56"
+          "label": "05:56",
+          "score": 20
         },
         {
-          "score": 98,
-          "label": "06:16"
+          "label": "06:16",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "06:36"
+          "label": "06:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "06:56"
+          "label": "06:56",
+          "score": 27
         },
         {
-          "score": 26,
-          "label": "07:16"
+          "label": "07:16",
+          "score": 6
         },
         {
-          "score": 10,
-          "label": "07:36"
+          "label": "07:36",
+          "score": 12
         },
         {
-          "score": 10,
-          "label": "07:56"
+          "label": "07:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "08:16"
+          "label": "08:16",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "08:36"
+          "label": "08:36",
+          "score": 17
         },
         {
-          "score": 62,
-          "label": "08:56"
+          "label": "08:56",
+          "score": 17
         },
         {
-          "score": 48,
-          "label": "09:16"
+          "label": "09:16",
+          "score": 5
         },
         {
-          "score": 40,
-          "label": "09:36"
+          "label": "09:36",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "09:56"
+          "label": "09:56",
+          "score": 5
         },
         {
-          "score": 96,
-          "label": "10:16"
+          "label": "10:16",
+          "score": 5
         },
         {
-          "score": 48,
-          "label": "10:36"
+          "label": "10:36",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "10:56"
+          "label": "10:56",
+          "score": 42
         },
         {
-          "score": 98,
-          "label": "11:16"
+          "label": "11:16",
+          "score": 22
         },
         {
-          "score": 10,
-          "label": "11:36"
+          "label": "11:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "11:56"
+          "label": "11:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "12:16"
+          "label": "12:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "12:36"
+          "label": "12:36",
+          "score": 8
         },
         {
-          "score": 10,
-          "label": "12:56"
+          "label": "12:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "13:16"
+          "label": "13:16",
+          "score": 5
         },
         {
-          "score": 38,
-          "label": "13:36"
+          "label": "13:36",
+          "score": 34
         },
         {
-          "score": 17,
-          "label": "13:56"
+          "label": "13:56",
+          "score": 21
         },
         {
-          "score": 77,
-          "label": "14:16"
+          "label": "14:16",
+          "score": 12
         },
         {
-          "score": 90,
-          "label": "14:36"
+          "label": "14:36",
+          "score": 5
         },
         {
-          "score": 89,
-          "label": "14:56"
+          "label": "14:56",
+          "score": 5
         },
         {
-          "score": 48,
-          "label": "15:16"
+          "label": "15:16",
+          "score": 5
         },
         {
-          "score": 74,
-          "label": "15:36"
+          "label": "15:36",
+          "score": 5
         },
         {
-          "score": 25,
-          "label": "15:56"
+          "label": "15:56",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16:16"
+          "label": "16:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16:36"
+          "label": "16:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16:56"
+          "label": "16:56",
+          "score": 20
         },
         {
-          "score": 10,
-          "label": "17:16"
+          "label": "17:16",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:36"
+          "label": "17:36",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17:56"
+          "label": "17:56",
+          "score": 20
         },
         {
-          "score": 10,
-          "label": "18:16"
+          "label": "18:16",
+          "score": 5
         },
         {
-          "score": 15,
-          "label": "18:36"
+          "label": "18:36",
+          "score": 98
         }
       ],
       "7d": [
         {
-          "score": 10,
-          "label": "15/08 18h"
+          "label": "15/08 18h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "15/08 20h"
+          "label": "15/08 20h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "15/08 22h"
+          "label": "15/08 22h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 00h"
+          "label": "16/08 00h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 02h"
+          "label": "16/08 02h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 04h"
+          "label": "16/08 04h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 06h"
+          "label": "16/08 06h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 08h"
+          "label": "16/08 08h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 10h"
+          "label": "16/08 10h",
+          "score": 5
         },
         {
-          "score": 36,
-          "label": "16/08 12h"
+          "label": "16/08 12h",
+          "score": 5
         },
         {
-          "score": 25,
-          "label": "16/08 14h"
+          "label": "16/08 14h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 16h"
+          "label": "16/08 16h",
+          "score": 6
         },
         {
-          "score": 10,
-          "label": "16/08 18h"
+          "label": "16/08 18h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08 20h"
+          "label": "16/08 20h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "16/08 22h"
+          "label": "16/08 22h",
+          "score": 13
         },
         {
-          "score": 95,
-          "label": "17/08 00h"
+          "label": "17/08 00h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 02h"
+          "label": "17/08 02h",
+          "score": 32
         },
         {
-          "score": 10,
-          "label": "17/08 04h"
+          "label": "17/08 04h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 06h"
+          "label": "17/08 06h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 08h"
+          "label": "17/08 08h",
+          "score": 11
         },
         {
-          "score": 10,
-          "label": "17/08 10h"
+          "label": "17/08 10h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 12h"
+          "label": "17/08 12h",
+          "score": 10
         },
         {
-          "score": 98,
-          "label": "17/08 14h"
+          "label": "17/08 14h",
+          "score": 9
         },
         {
-          "score": 10,
-          "label": "17/08 16h"
+          "label": "17/08 16h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 18h"
+          "label": "17/08 18h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 20h"
+          "label": "17/08 20h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08 22h"
+          "label": "17/08 22h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 00h"
+          "label": "18/08 00h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 02h"
+          "label": "18/08 02h",
+          "score": 5
         },
         {
-          "score": 81,
-          "label": "18/08 04h"
+          "label": "18/08 04h",
+          "score": 11
         },
         {
-          "score": 10,
-          "label": "18/08 06h"
+          "label": "18/08 06h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 08h"
+          "label": "18/08 08h",
+          "score": 5
         },
         {
-          "score": 87,
-          "label": "18/08 10h"
+          "label": "18/08 10h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 12h"
+          "label": "18/08 12h",
+          "score": 21
         },
         {
-          "score": 10,
-          "label": "18/08 14h"
+          "label": "18/08 14h",
+          "score": 16
         },
         {
-          "score": 10,
-          "label": "18/08 16h"
+          "label": "18/08 16h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 18h"
+          "label": "18/08 18h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 20h"
+          "label": "18/08 20h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08 22h"
+          "label": "18/08 22h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08 00h"
+          "label": "19/08 00h",
+          "score": 30
         },
         {
-          "score": 71,
-          "label": "19/08 02h"
+          "label": "19/08 02h",
+          "score": 9
         },
         {
-          "score": 96,
-          "label": "19/08 04h"
+          "label": "19/08 04h",
+          "score": 8
         },
         {
-          "score": 91,
-          "label": "19/08 06h"
+          "label": "19/08 06h",
+          "score": 5
         },
         {
-          "score": 97,
-          "label": "19/08 08h"
+          "label": "19/08 08h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "19/08 10h"
+          "label": "19/08 10h",
+          "score": 8
         },
         {
-          "score": 50,
-          "label": "19/08 12h"
+          "label": "19/08 12h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08 14h"
+          "label": "19/08 14h",
+          "score": 12
         },
         {
-          "score": 10,
-          "label": "19/08 16h"
+          "label": "19/08 16h",
+          "score": 46
         },
         {
-          "score": 10,
-          "label": "19/08 18h"
+          "label": "19/08 18h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08 20h"
+          "label": "19/08 20h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08 22h"
+          "label": "19/08 22h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 00h"
+          "label": "20/08 00h",
+          "score": 10
         },
         {
-          "score": 10,
-          "label": "20/08 02h"
+          "label": "20/08 02h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 04h"
+          "label": "20/08 04h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 06h"
+          "label": "20/08 06h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 08h"
+          "label": "20/08 08h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 10h"
+          "label": "20/08 10h",
+          "score": 23
         },
         {
-          "score": 10,
-          "label": "20/08 12h"
+          "label": "20/08 12h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 14h"
+          "label": "20/08 14h",
+          "score": 44
         },
         {
-          "score": 10,
-          "label": "20/08 16h"
+          "label": "20/08 16h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08 18h"
+          "label": "20/08 18h",
+          "score": 16
         },
         {
-          "score": 10,
-          "label": "20/08 20h"
+          "label": "20/08 20h",
+          "score": 49
         },
         {
-          "score": 10,
-          "label": "20/08 22h"
+          "label": "20/08 22h",
+          "score": 20
         },
         {
-          "score": 10,
-          "label": "21/08 00h"
+          "label": "21/08 00h",
+          "score": 48
         },
         {
-          "score": 10,
-          "label": "21/08 02h"
+          "label": "21/08 02h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08 04h"
+          "label": "21/08 04h",
+          "score": 20
         },
         {
-          "score": 10,
-          "label": "21/08 06h"
+          "label": "21/08 06h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08 08h"
+          "label": "21/08 08h",
+          "score": 49
         },
         {
-          "score": 10,
-          "label": "21/08 10h"
+          "label": "21/08 10h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08 12h"
+          "label": "21/08 12h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08 14h"
+          "label": "21/08 14h",
+          "score": 29
         },
         {
-          "score": 10,
-          "label": "21/08 16h"
+          "label": "21/08 16h",
+          "score": 21
         },
         {
-          "score": 98,
-          "label": "21/08 18h"
+          "label": "21/08 18h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "21/08 20h"
+          "label": "21/08 20h",
+          "score": 20
         },
         {
-          "score": 10,
-          "label": "21/08 22h"
+          "label": "21/08 22h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08 00h"
+          "label": "22/08 00h",
+          "score": 11
         },
         {
-          "score": 10,
-          "label": "22/08 02h"
+          "label": "22/08 02h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08 04h"
+          "label": "22/08 04h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08 06h"
+          "label": "22/08 06h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "22/08 08h"
+          "label": "22/08 08h",
+          "score": 9
         },
         {
-          "score": 98,
-          "label": "22/08 10h"
+          "label": "22/08 10h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "22/08 12h"
+          "label": "22/08 12h",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "22/08 14h"
+          "label": "22/08 14h",
+          "score": 21
         },
         {
-          "score": 98,
-          "label": "22/08 16h"
+          "label": "22/08 16h",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08 18h"
+          "label": "22/08 18h",
+          "score": 98
         }
       ],
       "30d": [
         {
-          "score": 10,
-          "label": "23/07"
+          "label": "23/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 40
         },
         {
-          "score": 10,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "24/07"
+          "label": "24/07",
+          "score": 16
         },
         {
-          "score": 10,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "25/07"
+          "label": "25/07",
+          "score": 20
         },
         {
-          "score": 98,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "26/07"
+          "label": "26/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "27/07"
+          "label": "27/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 24
         },
         {
-          "score": 98,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "28/07"
+          "label": "28/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 24
         },
         {
-          "score": 10,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "29/07"
+          "label": "29/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 5
         },
         {
-          "score": 13,
-          "label": "30/07"
+          "label": "30/07",
+          "score": 6
         },
         {
-          "score": 98,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 7
         },
         {
-          "score": 98,
-          "label": "31/07"
+          "label": "31/07",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "01/08"
+          "label": "01/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "02/08"
+          "label": "02/08",
+          "score": 26
         },
         {
-          "score": 10,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 7
         },
         {
-          "score": 10,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "03/08"
+          "label": "03/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 13
         },
         {
-          "score": 10,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "04/08"
+          "label": "04/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "05/08"
+          "label": "05/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 6
         },
         {
-          "score": 98,
-          "label": "06/08"
+          "label": "06/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 9
         },
         {
-          "score": 10,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "07/08"
+          "label": "07/08",
+          "score": 5
         },
         {
-          "score": 41,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "08/08"
+          "label": "08/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "09/08"
+          "label": "09/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 5
         },
         {
-          "score": 37,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 13
         },
         {
-          "score": 98,
-          "label": "10/08"
+          "label": "10/08",
+          "score": 13
         },
         {
-          "score": 98,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "11/08"
+          "label": "11/08",
+          "score": 25
         },
         {
-          "score": 92,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 6
         },
         {
-          "score": 25,
-          "label": "12/08"
+          "label": "12/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 10
         },
         {
-          "score": 10,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 8
         },
         {
-          "score": 24,
-          "label": "13/08"
+          "label": "13/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 5
         },
         {
-          "score": 98,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 14
         },
         {
-          "score": 73,
-          "label": "14/08"
+          "label": "14/08",
+          "score": 11
         },
         {
-          "score": 31,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "15/08"
+          "label": "15/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "16/08"
+          "label": "16/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "17/08"
+          "label": "17/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 13
         },
         {
-          "score": 10,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "18/08"
+          "label": "18/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 8
         },
         {
-          "score": 10,
-          "label": "19/08"
+          "label": "19/08",
+          "score": 83
         },
         {
-          "score": 10,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 28
         },
         {
-          "score": 10,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "20/08"
+          "label": "20/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 98
         },
         {
-          "score": 10,
-          "label": "21/08"
+          "label": "21/08",
+          "score": 5
         },
         {
-          "score": 10,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 47
         },
         {
-          "score": 10,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 8
         },
         {
-          "score": 10,
-          "label": "22/08"
+          "label": "22/08",
+          "score": 98
+        }
+      ],
+      "365d": [
+        {
+          "label": "22/08/25",
+          "score": 5
+        },
+        {
+          "label": "26/08/25",
+          "score": 5
+        },
+        {
+          "label": "30/08/25",
+          "score": 5
+        },
+        {
+          "label": "03/09/25",
+          "score": 5
+        },
+        {
+          "label": "07/09/25",
+          "score": 5
+        },
+        {
+          "label": "11/09/25",
+          "score": 5
+        },
+        {
+          "label": "15/09/25",
+          "score": 29
+        },
+        {
+          "label": "19/09/25",
+          "score": 5
+        },
+        {
+          "label": "23/09/25",
+          "score": 5
+        },
+        {
+          "label": "27/09/25",
+          "score": 6
+        },
+        {
+          "label": "01/10/25",
+          "score": 5
+        },
+        {
+          "label": "05/10/25",
+          "score": 19
+        },
+        {
+          "label": "09/10/25",
+          "score": 5
+        },
+        {
+          "label": "13/10/25",
+          "score": 5
+        },
+        {
+          "label": "17/10/25",
+          "score": 7
+        },
+        {
+          "label": "21/10/25",
+          "score": 37
+        },
+        {
+          "label": "25/10/25",
+          "score": 5
+        },
+        {
+          "label": "29/10/25",
+          "score": 9
+        },
+        {
+          "label": "02/11/25",
+          "score": 5
+        },
+        {
+          "label": "06/11/25",
+          "score": 5
+        },
+        {
+          "label": "10/11/25",
+          "score": 32
+        },
+        {
+          "label": "03/12/25",
+          "score": 5
+        },
+        {
+          "label": "07/12/25",
+          "score": 5
+        },
+        {
+          "label": "18/01/26",
+          "score": 5
+        },
+        {
+          "label": "22/01/26",
+          "score": 5
+        },
+        {
+          "label": "28/01/26",
+          "score": 5
+        },
+        {
+          "label": "01/02/26",
+          "score": 66
+        },
+        {
+          "label": "06/02/26",
+          "score": 5
+        },
+        {
+          "label": "10/02/26",
+          "score": 17
+        },
+        {
+          "label": "16/02/26",
+          "score": 5
+        },
+        {
+          "label": "21/02/26",
+          "score": 5
+        },
+        {
+          "label": "25/02/26",
+          "score": 52
+        },
+        {
+          "label": "02/03/26",
+          "score": 5
+        },
+        {
+          "label": "07/03/26",
+          "score": 7
+        },
+        {
+          "label": "11/03/26",
+          "score": 5
+        },
+        {
+          "label": "16/03/26",
+          "score": 82
+        },
+        {
+          "label": "20/03/26",
+          "score": 7
+        },
+        {
+          "label": "25/03/26",
+          "score": 5
+        },
+        {
+          "label": "30/03/26",
+          "score": 5
+        },
+        {
+          "label": "03/04/26",
+          "score": 5
+        },
+        {
+          "label": "08/04/26",
+          "score": 28
+        },
+        {
+          "label": "12/04/26",
+          "score": 14
+        },
+        {
+          "label": "16/04/26",
+          "score": 5
+        },
+        {
+          "label": "20/04/26",
+          "score": 5
+        },
+        {
+          "label": "24/04/26",
+          "score": 5
+        },
+        {
+          "label": "29/04/26",
+          "score": 5
+        },
+        {
+          "label": "03/05/26",
+          "score": 5
+        },
+        {
+          "label": "07/05/26",
+          "score": 18
+        },
+        {
+          "label": "13/05/26",
+          "score": 5
+        },
+        {
+          "label": "17/05/26",
+          "score": 51
+        },
+        {
+          "label": "22/05/26",
+          "score": 8
+        },
+        {
+          "label": "26/05/26",
+          "score": 5
+        },
+        {
+          "label": "30/05/26",
+          "score": 5
+        },
+        {
+          "label": "04/06/26",
+          "score": 98
+        },
+        {
+          "label": "08/06/26",
+          "score": 5
+        },
+        {
+          "label": "12/06/26",
+          "score": 5
+        },
+        {
+          "label": "16/06/26",
+          "score": 9
+        },
+        {
+          "label": "20/06/26",
+          "score": 5
+        },
+        {
+          "label": "24/06/26",
+          "score": 5
+        },
+        {
+          "label": "28/06/26",
+          "score": 42
+        },
+        {
+          "label": "02/07/26",
+          "score": 5
+        },
+        {
+          "label": "06/07/26",
+          "score": 5
+        },
+        {
+          "label": "10/07/26",
+          "score": 5
+        },
+        {
+          "label": "14/07/26",
+          "score": 13
+        },
+        {
+          "label": "18/07/26",
+          "score": 25
+        },
+        {
+          "label": "22/07/26",
+          "score": 5
+        },
+        {
+          "label": "26/07/26",
+          "score": 5
+        },
+        {
+          "label": "30/07/26",
+          "score": 5
+        },
+        {
+          "label": "03/08/26",
+          "score": 5
+        },
+        {
+          "label": "07/08/26",
+          "score": 5
+        },
+        {
+          "label": "11/08/26",
+          "score": 5
+        },
+        {
+          "label": "15/08/26",
+          "score": 5
+        },
+        {
+          "label": "19/08/26",
+          "score": 15
+        },
+        {
+          "label": "22/08/26",
+          "score": 98
         }
       ]
     }
@@ -10194,14 +12578,14 @@ window.PORTFOLIO_STATE = {
   "usdt_qtd": 5.8206,
   "usdt_pct": 1.76,
   "cotacoes_ao_vivo": {
-    "BTCBRL": 397142.0,
-    "USDTBRL": 5.1607,
-    "PAXGBRL": 23679.304273,
-    "SOLBRL": 479.9,
-    "ETHBRL": 12445.34,
-    "LINKBRL": 59.62,
-    "BNBBRL": 3580.0,
-    "ADABRL": 1.158,
+    "BTCBRL": 397181.0,
+    "USDTBRL": 5.1604,
+    "PAXGBRL": 23667.400540000002,
+    "SOLBRL": 479.6,
+    "ETHBRL": 12437.23,
+    "LINKBRL": 59.53,
+    "BNBBRL": 3578.0,
+    "ADABRL": 1.15,
     "VIX": 16.09,
     "USDBRL_COMERCIAL": 5.011499881744385
   },

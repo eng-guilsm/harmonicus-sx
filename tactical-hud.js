@@ -181,13 +181,14 @@ function renderModalLayout(plan, tf) {
       </div>
     </div>
 
-    <!-- SELETOR DE ESCALA HISTÓRICA DO GRÁFICO (1H A 30D) -->
+    <!-- SELETOR DE ESCALA HISTÓRICA DO GRÁFICO (1H A 365D) -->
     <div class="modal-tf-selector">
       <span class="tf-label">HISTÓRICO REAL:</span>
       <button class="modal-tf-btn ${tf === '1h' ? 'active' : ''}" data-tf="1h">1H (60 MIN)</button>
       <button class="modal-tf-btn ${tf === '24h' ? 'active' : ''}" data-tf="24h">24H (DIÁRIO)</button>
       <button class="modal-tf-btn ${tf === '7d' ? 'active' : ''}" data-tf="7d">7D (SEMANAL)</button>
       <button class="modal-tf-btn ${tf === '30d' ? 'active' : ''}" data-tf="30d">30D (MENSAL)</button>
+      <button class="modal-tf-btn ${tf === '365d' ? 'active' : ''}" data-tf="365d">365D (1 ANO)</button>
     </div>
 
     <!-- GRÁFICO HISTÓRICO REAL DE PROXIMIDADE À META -->

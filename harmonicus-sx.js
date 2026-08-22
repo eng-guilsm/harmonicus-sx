@@ -617,31 +617,50 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
 }
 
 function updateD3GraphForBand(bandId) {
-  if (!d3SvgSelection || activeHarmonicChord !== 'none') return;
+  if (!d3SvgSelection) return;
   const links = d3SvgSelection.selectAll('.links line');
   
-  if (bandId === 'ultra_high') {
-    links.transition().duration(300)
-      .attr('stroke', d => (d.source.classe === 'Cripto' && d.target.classe === 'Cripto') ? '#F59E0B' : '#374151')
-      .attr('stroke-opacity', d => (d.source.classe === 'Cripto' && d.target.classe === 'Cripto') ? 0.9 : 0.15)
-      .attr('stroke-width', d => (d.source.classe === 'Cripto' && d.target.classe === 'Cripto') ? 3 : 1);
-  } else if (bandId === 'intraday') {
-    links.transition().duration(300)
-      .attr('stroke', d => d.coerencia >= 0.70 ? '#06B6D4' : '#374151')
-      .attr('stroke-opacity', d => d.coerencia >= 0.70 ? 0.85 : 0.15)
-      .attr('stroke-width', d => d.coerencia >= 0.70 ? 2.5 : 1);
-  } else if (bandId === 'daily') {
-    links.transition().duration(300)
-      .attr('stroke', d => d.coerencia >= 0.50 ? '#10B981' : '#4B5563')
-      .attr('stroke-opacity', d => Math.max(0.25, d.coerencia))
-      .attr('stroke-width', d => Math.max(1.5, d.peso * 0.8));
-  } else {
-    // Macro secular
-    links.transition().duration(300)
-      .attr('stroke', d => (d.source.classe === 'Macro' || d.target.classe === 'Macro') ? '#EF4444' : '#374151')
-      .attr('stroke-opacity', d => (d.source.classe === 'Macro' || d.target.classe === 'Macro') ? 0.9 : 0.15)
-      .attr('stroke-width', d => (d.source.classe === 'Macro' || d.target.classe === 'Macro') ? 3 : 1);
-  }
+  const chordActiveNodes = {
+    'unison': ['BTCBRL', 'ETHBRL', 'SOLBRL', 'SP500_Pts', 'IBOV_Pts'],
+    'tension': ['VIX_Index', 'BTCBRL', 'Treasury_10Y', 'DXY_Index'],
+    'major': ['BTCBRL', 'ETHBRL', 'SOLBRL', 'LINKBRL', 'BNBBRL'],
+    'ether': ['USDTBRL', 'USD_BRL', 'PAXG_Ouro', 'Ouro_USD', 'DXY_Index']
+  };
+
+  const isFiltered = activeHarmonicChord !== 'none';
+  const activeList = isFiltered ? (chordActiveNodes[activeHarmonicChord] || []) : [];
+
+  let bandColor = '#06B6D4';
+  if (bandId === 'ultra_high') bandColor = '#F59E0B';
+  else if (bandId === 'intraday') bandColor = '#06B6D4';
+  else if (bandId === 'daily') bandColor = '#10B981';
+  else if (bandId === 'macro') bandColor = '#EF4444';
+
+  links.transition().duration(300)
+    .attr('stroke', d => {
+      if (isFiltered) {
+        const isInternal = activeList.includes(d.source.id) && activeList.includes(d.target.id);
+        return isInternal ? bandColor : '#374151';
+      }
+      if (bandId === 'ultra_high') return (d.source.classe === 'Cripto' && d.target.classe === 'Cripto') ? '#F59E0B' : '#374151';
+      if (bandId === 'intraday') return d.coerencia >= 0.70 ? '#06B6D4' : '#374151';
+      if (bandId === 'daily') return d.coerencia >= 0.50 ? '#10B981' : '#4B5563';
+      return (d.source.classe === 'Macro' || d.target.classe === 'Macro') ? '#EF4444' : '#374151';
+    })
+    .attr('stroke-opacity', d => {
+      if (isFiltered) {
+        const isInternal = activeList.includes(d.source.id) && activeList.includes(d.target.id);
+        return isInternal ? 1.0 : 0.0;
+      }
+      return Math.max(0.25, d.coerencia);
+    })
+    .attr('stroke-width', d => {
+      if (isFiltered) {
+        const isInternal = activeList.includes(d.source.id) && activeList.includes(d.target.id);
+        return isInternal ? 4.0 : 0.0;
+      }
+      return Math.max(1.5, d.peso * 0.9);
+    });
 }
 
 // ------------------------------------------------------------------------------
@@ -672,9 +691,9 @@ function updateD3GraphForChord(chordId) {
 
   const chordActiveNodes = {
     'unison': ['BTCBRL', 'ETHBRL', 'SOLBRL', 'SP500_Pts', 'IBOV_Pts'],
-    'tension': ['VIX_Index', 'BTCBRL', 'US10Y_Yield', 'DXY_Index'],
+    'tension': ['VIX_Index', 'BTCBRL', 'Treasury_10Y', 'DXY_Index'],
     'major': ['BTCBRL', 'ETHBRL', 'SOLBRL', 'LINKBRL', 'BNBBRL'],
-    'ether': ['USDTBRL', 'EUR_BRL', 'PAXGBRL', 'GOLD_USD']
+    'ether': ['USDTBRL', 'USD_BRL', 'PAXG_Ouro', 'Ouro_USD', 'DXY_Index']
   };
 
   const activeList = chordActiveNodes[chordId] || [];
@@ -689,8 +708,7 @@ function updateD3GraphForChord(chordId) {
     .attr('stroke', d => activeList.includes(d.id) ? '#FFFFFF' : 'rgba(255,255,255,0.2)')
     .style('filter', d => activeList.includes(d.id) ? `drop-shadow(0 0 18px ${d.cor})` : 'none');
 
-  // Transição de Arestas: SOMENTE as conexões internas do acorde são mostradas.
-  // Conexões a nós externos são COMPLETAMENTE ocultadas (opacity: 0)
+  // Transição de Arestas: SOMENTE as conexões internas do acorde são mostradas
   linkLines.transition().duration(350)
     .attr('stroke', l => {
       const isInternal = activeList.includes(l.source.id) && activeList.includes(l.target.id);
