@@ -7,7 +7,7 @@
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
   <title>Harmonicus SX // Portfolio Tactical HUD & Spectral Synth</title>
-  <meta name="description" content="Terminal Quant & Sintetizador Espectral de Mercados Financeiros. Monitoramento Tático dos 8 Planos e Topologia Espectral Web Audio API.">
+  <meta name="description" content="Terminal Quant & Sintetizador Espectral de Mercados Financeiros. Monitoramento Tático dos 8 Planos, Topologia Espectral e Cinética de Ativos.">
   
   <!-- Google Fonts & D3.js -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,7 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   
   <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20260822_sx1">
+  <link rel="stylesheet" href="style.css?v=20260822_sx2">
 </head>
 <body class="dark-synth">
   <!-- Scanlines & Ambient Matrix Grid -->
@@ -30,19 +30,23 @@
         <div class="pulse-indicator online"></div>
         <div class="brand-titles">
           <h1 class="hud-logo">HARMONICUS <span class="badge-tag">SX // QUANT HUD</span></h1>
-          <p class="hud-subtitle">Terminal Tático dos 8 Motores & Sintetizador Espectral (26 Sensores Globais)</p>
+          <p class="hud-subtitle">Terminal Tático dos 8 Motores, Sintetizador Espectral & Cinética de Mercado</p>
         </div>
       </div>
 
-      <!-- NAVIGATION TABS -->
+      <!-- 3-TAB NAVIGATION -->
       <nav class="hud-nav-tabs">
         <button id="tabBtnTactical" class="nav-tab active" data-page="pageTactical">
           <span class="tab-icon">🎯</span>
-          <span class="tab-title">PÁGINA 1: RADAR TÁTICO DOS PLANOS</span>
+          <span class="tab-title">PÁGINA 1: RADAR TÁTICO</span>
         </button>
         <button id="tabBtnHarmonicus" class="nav-tab" data-page="pageHarmonicus">
           <span class="tab-icon">📻</span>
-          <span class="tab-title">PÁGINA 2: SINTETIZADOR HARMONICUS SX</span>
+          <span class="tab-title">PÁGINA 2: SINTETIZADOR SX</span>
+        </button>
+        <button id="tabBtnKinetics" class="nav-tab" data-page="pageKinetics">
+          <span class="tab-icon">📈</span>
+          <span class="tab-title">PÁGINA 3: CINÉTICA & ATIVOS</span>
         </button>
       </nav>
 
@@ -60,8 +64,8 @@
         </div>
 
         <div class="system-status-chip">
-          <span class="chip-label">BASE:</span>
-          <span class="chip-val" id="dbStatusVal">1,4 ANOS (738k MINUTOS)</span>
+          <span class="chip-label">AUTORUN:</span>
+          <span class="chip-val" id="dbStatusVal">1 MINUTO (LIVE)</span>
         </div>
       </div>
     </header>
@@ -143,7 +147,6 @@
 
       <!-- BOTTOM AUDIT & BALANCE SECTION -->
       <div class="tactical-bottom-grid">
-        <!-- Asset Allocation Breakdown -->
         <div class="hud-card asset-alloc-card">
           <div class="card-header-clean">
             <span class="ch-icon">📊</span>
@@ -171,7 +174,6 @@
           </div>
         </div>
 
-        <!-- Circuit Breakers & Safety Safeguards -->
         <div class="hud-card safeguards-card">
           <div class="card-header-clean">
             <span class="ch-icon">🛡️</span>
@@ -221,7 +223,6 @@
           <div class="deck-group tuner-group">
             <label class="group-label">SINTONIZADOR DE ONDAS ESPECTRAIS (RADIO TUNER)</label>
             <div class="radio-tuner-widget">
-              <!-- Rotary Dial Knob -->
               <div class="knob-container">
                 <div class="rotary-dial" id="tunerDial" title="Gire o Knob com o mouse ou scroll para sintonizar a frequência">
                   <div class="dial-indicator"></div>
@@ -239,7 +240,6 @@
                 </div>
               </div>
 
-              <!-- Selected Band Readout -->
               <div class="tuner-readout-card">
                 <div class="tro-band" id="tunerBandName">ONDAS CURTAS // DIÁRIO (24h)</div>
                 <div class="tro-freq" id="tunerBandFreq">Banda Fundamental: 24 Horas</div>
@@ -279,7 +279,6 @@
           <div class="deck-group knobs-row-group">
             <label class="group-label">PARÂMETROS DE FÍSICA ESTATÍSTICA</label>
             <div class="knobs-row">
-              <!-- Knob 1: Langevin Damping -->
               <div class="mini-knob-box">
                 <div class="mini-dial" id="knobDamping" data-val="0.5" title="Atrito de Langevin (γ)">
                   <div class="mini-indicator"></div>
@@ -288,7 +287,6 @@
                 <span class="mk-val" id="valDamping">0.50</span>
               </div>
 
-              <!-- Knob 2: Fourier Tension -->
               <div class="mini-knob-box">
                 <div class="mini-dial" id="knobFourier" data-val="0.75" title="Tensão de Fourier Tr(C²)">
                   <div class="mini-indicator"></div>
@@ -297,7 +295,6 @@
                 <span class="mk-val" id="valFourier">20.98</span>
               </div>
 
-              <!-- Knob 3: Wavelet Morlet -->
               <div class="mini-knob-box">
                 <div class="mini-dial" id="knobMorlet" data-val="0.3" title="Energia de Choque Morlet (Ew)">
                   <div class="mini-indicator"></div>
@@ -311,7 +308,6 @@
 
         <!-- CENTER & RIGHT AREA: NETWORK GRAPH & OSCILLOSCOPE -->
         <div class="synth-main-stage">
-          <!-- TOP MONITOR: REAL-TIME CRT OSCILLOSCOPE -->
           <div class="hud-card oscilloscope-card">
             <div class="card-header-clean">
               <div class="osc-title-box">
@@ -325,11 +321,10 @@
               </div>
             </div>
             <div class="osc-canvas-wrapper">
-              <canvas id="oscCanvas" width="900" height="180"></canvas>
+              <canvas id="oscCanvas" width="900" height="140"></canvas>
             </div>
           </div>
 
-          <!-- TOPOLOGY NETWORK GRAPH (D3.JS) -->
           <div class="hud-card network-graph-card">
             <div class="card-header-clean">
               <div class="graph-title-box">
@@ -344,21 +339,17 @@
               </div>
             </div>
             <div class="network-stage-container" id="networkGraphStage">
-              <!-- SVG D3 Renderizado via harmonicus-sx.js -->
               <div class="node-hover-tooltip" id="nodeTooltip"></div>
             </div>
           </div>
 
-          <!-- CWT MORLET & STE DYNAMICS DECK -->
           <div class="synth-footer-grid">
             <div class="hud-card cwt-card">
               <div class="card-header-clean">
                 <span class="ch-icon">🌊</span>
                 <h3>DENSIDADE DE CHOQUE (CWT MORLET CONTÍNUA)</h3>
               </div>
-              <div class="cwt-bars-visual" id="cwtBarsContainer">
-                <!-- Slices injetados via JS -->
-              </div>
+              <div class="cwt-bars-visual" id="cwtBarsContainer"></div>
             </div>
 
             <div class="hud-card ste-card">
@@ -385,13 +376,84 @@
       </div>
     </section>
 
+    <!-- ========================================================================= -->
+    <!-- PÁGINA 3: CINÉTICA & DINÂMICA DE ATIVOS (GRÁFICOS & DERIVADAS)             -->
+    <!-- ========================================================================= -->
+    <section id="pageKinetics" class="hud-page">
+      <div class="kinetics-layout">
+        <!-- Asset Selector Pills -->
+        <div class="asset-pills-bar" id="assetPillsContainer">
+          <!-- Injetado dinamicamente via charts-kinetics.js -->
+        </div>
+
+        <!-- Real-Time Kinetic Gauges & Physical Cockpit -->
+        <div class="kinetics-hero-grid">
+          <div class="hero-card kin-price-card">
+            <span class="card-eyebrow">COTAÇÃO AO VIVO (SPOT)</span>
+            <div class="hero-val-row">
+              <span class="hero-number" id="kinPrice">R$ 398.820,00</span>
+              <span class="hero-tag positive" id="kinVar24h">+2.45% (24h)</span>
+            </div>
+            <div class="hero-subtext" id="kinStateTag">🚀 FORTE PROPULSÃO COMPRADORA</div>
+          </div>
+
+          <div class="hero-card kin-vel-card">
+            <span class="card-eyebrow">VELOCIDADE INSTANTÂNEA (dP/dt)</span>
+            <div class="hero-val-row">
+              <span class="hero-number" id="kinVelocity" style="color: #10B981;">▲ +0.085%/min</span>
+            </div>
+            <div class="hero-subtext">Derivada primeira de subida/descida suavizada no tempo.</div>
+          </div>
+
+          <div class="hero-card kin-acc-card">
+            <span class="card-eyebrow">ACELERAÇÃO / IMPULSO (d²P/dt²)</span>
+            <div class="hero-val-row">
+              <span class="hero-number" id="kinAcc" style="color: #06B6D4;">▲ +0.012%/min²</span>
+            </div>
+            <div class="hero-subtext">Força propulsora e detecção de exaustão de compradores.</div>
+          </div>
+
+          <div class="hero-card kin-thrust-card">
+            <span class="card-eyebrow">PODER DE SUBIDA (THRUST GAUGE)</span>
+            <div class="thrust-meter-box">
+              <div class="thrust-val-text" id="kinThrustVal">78.5 / 100</div>
+              <div class="thrust-bar-track">
+                <div class="thrust-bar-fill" id="kinThrustBar" style="width: 78.5%;"></div>
+              </div>
+            </div>
+            <div class="hero-subtext">Energia cinética líquida calibrada para compras.</div>
+          </div>
+        </div>
+
+        <!-- High-Resolution Kinetics & Bollinger Wave Chart -->
+        <div class="hud-card kinetics-chart-card">
+          <div class="card-header-clean">
+            <div class="chart-header-left">
+              <span class="ch-icon">📊</span>
+              <h3>CINÉTICA TEMPORAL & ENVELOPE DINÂMICO DE BOLLINGER (4 HORAS)</h3>
+            </div>
+            <div class="chart-legend-row">
+              <span class="leg-item"><i style="background: #F59E0B;"></i> Preço Instantâneo</span>
+              <span class="leg-item"><i style="background: #06B6D4;"></i> Bandas Bollinger (±2σ)</span>
+              <span class="leg-item"><i style="background: #10B981;"></i> Vetor Velocidade (dP/dt)</span>
+            </div>
+          </div>
+          <div class="kinetics-canvas-box">
+            <canvas id="kineticsMainCanvas" width="1200" height="360"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
 
   <!-- SCRIPTS -->
   <script src="data/planos_data.js"></script>
   <script src="data/harmonicus_sx_data.js"></script>
+  <script src="data/charts_data.js"></script>
   <script src="audio-engine.js"></script>
   <script src="tactical-hud.js"></script>
   <script src="harmonicus-sx.js"></script>
+  <script src="charts-kinetics.js"></script>
 </body>
 </html>

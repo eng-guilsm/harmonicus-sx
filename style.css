@@ -1,6 +1,6 @@
 /* ==============================================================================
-   HARMONICUS SX // TACTICAL HUD & SYNTH STYLE SHEET
-   Aesthetic: OLED Deep Dark, Cyberpunk Quant HUD & Analogue Synth Deck
+   HARMONICUS SX // TACTICAL HUD & SYNTH STYLE SHEET (v2.0)
+   Aesthetic: OLED Deep Dark, Cyberpunk Quant HUD, Synth Deck & Kinetics
    ============================================================================== */
 
 :root {
@@ -112,7 +112,7 @@ body.dark-synth {
 
 .hud-logo {
   font-family: var(--font-display);
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   letter-spacing: 1.5px;
   color: var(--text-primary);
 }
@@ -129,7 +129,7 @@ body.dark-synth {
 }
 
 .hud-subtitle {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: var(--text-secondary);
   font-family: var(--font-mono);
 }
@@ -152,7 +152,7 @@ body.dark-synth {
   border: none;
   color: var(--text-secondary);
   font-family: var(--font-mono);
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   font-weight: 600;
   padding: 8px 16px;
   border-radius: 8px;
@@ -258,14 +258,8 @@ input[type="range"]::-webkit-slider-thumb {
   font-size: 0.72rem;
 }
 
-.chip-label {
-  color: var(--text-muted);
-}
-
-.chip-val {
-  color: var(--accent-cyan);
-  font-weight: 600;
-}
+.chip-label { color: var(--text-muted); }
+.chip-val { color: var(--accent-emerald); font-weight: 700; }
 
 /* Page Visibility */
 .hud-page {
@@ -339,7 +333,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 .hero-number {
   font-family: var(--font-display);
-  font-size: 1.85rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: var(--text-primary);
   letter-spacing: 0.5px;
@@ -392,10 +386,6 @@ input[type="range"]::-webkit-slider-thumb {
 
 .t-sym { color: var(--text-muted); }
 .t-val { color: var(--accent-cyan); font-weight: 600; }
-
-.gatekeeper-status-box {
-  margin-top: 4px;
-}
 
 .status-badge-glow {
   display: inline-block;
@@ -1243,10 +1233,141 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 /* ==============================================================================
+   PÁGINA 3: ASSET DYNAMICS & KINETICS STYLING
+   ============================================================================== */
+
+.kinetics-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.asset-pills-bar {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+}
+
+.asset-pill-btn {
+  background: rgba(14, 21, 38, 0.85);
+  border: 1px solid var(--border-subtle);
+  border-radius: 20px;
+  padding: 8px 18px;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.asset-pill-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+}
+
+.asset-pill-btn.active {
+  background: var(--accent-amber);
+  color: #030712;
+  border-color: var(--accent-amber);
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.4);
+}
+
+.kinetics-hero-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1.1fr 1.1fr 1.4fr;
+  gap: 16px;
+}
+
+.kin-price-card::before { background: var(--accent-amber); }
+.kin-vel-card::before { background: var(--accent-emerald); }
+.kin-acc-card::before { background: var(--accent-cyan); }
+.kin-thrust-card::before { background: var(--accent-rose); }
+
+.kin-tag {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.kin-tag.pos { background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald); border: 1px solid var(--accent-emerald); }
+.kin-tag.neg { background: rgba(239, 68, 68, 0.15); color: var(--accent-crimson); border: 1px solid var(--accent-crimson); }
+
+.thrust-meter-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.thrust-val-text {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent-gold);
+}
+
+.thrust-bar-track {
+  height: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.thrust-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-emerald), var(--accent-cyan));
+  border-radius: 5px;
+  transition: width 0.4s ease;
+}
+
+.kinetics-chart-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 14px;
+  padding: 18px 20px;
+  backdrop-filter: blur(12px);
+}
+
+.chart-header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chart-legend-row {
+  display: flex;
+  gap: 14px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+}
+
+.kinetics-canvas-box {
+  background: #030611;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+#kineticsMainCanvas {
+  display: block;
+  width: 100%;
+  height: 360px;
+}
+
+/* ==============================================================================
    RESPONSIVE DESIGN
    ============================================================================== */
 @media (max-width: 1280px) {
   .cockpit-hero-grid { grid-template-columns: 1fr 1fr; }
+  .kinetics-hero-grid { grid-template-columns: 1fr 1fr; }
   .thermometer-container { grid-template-columns: 1fr 1fr; }
   .plans-tactical-grid { grid-template-columns: 1fr 1fr; }
   .synth-workspace-layout { grid-template-columns: 1fr; }
@@ -1255,6 +1376,7 @@ input[type="range"]::-webkit-slider-thumb {
 @media (max-width: 768px) {
   .hud-header { flex-direction: column; align-items: stretch; }
   .cockpit-hero-grid { grid-template-columns: 1fr; }
+  .kinetics-hero-grid { grid-template-columns: 1fr; }
   .thermometer-container { grid-template-columns: 1fr; }
   .plans-tactical-grid { grid-template-columns: 1fr; }
   .tactical-bottom-grid { grid-template-columns: 1fr; }
