@@ -1,4 +1,4 @@
-// Gerado automaticamente pelo MoneyLab Data Engine (2026-08-22 19:04:01)
+// Gerado automaticamente pelo MoneyLab Data Engine (2026-08-22 19:08:09)
 window.PLANOS_TACTICAL_DATA = [
   {
     "id": 1,
@@ -11,10 +11,10 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Z <= -1.65σ (Topo BTC -> Ouro) / Z >= +1.65σ (Fundo BTC -> BTC)",
     "trava_ruptura": "Modulação CWT Morlet (Ew < 50: Lote 100% | Ew >= 50: Lote 50%)",
     "cooldown_horas": 4.0,
-    "valor_atual_str": "Ratio 0.05959 (Z: -1.46σ)",
+    "valor_atual_str": "Ratio 0.05951 (Z: -1.47σ)",
     "alvo_str": "Ratio <= 0.05580 (Alvo BTC: ~R$ 424.000)",
-    "distancia_display": "+6.8% de distância do alvo",
-    "proximidade_score": 88,
+    "distancia_display": "+6.6% de distância do alvo",
+    "proximidade_score": 89,
     "status": "SENTINELA_QUENTE",
     "icone": "🥇",
     "cor": "#F59E0B",
@@ -23,130 +23,6 @@ window.PLANOS_TACTICAL_DATA = [
     "limitacoes_trava": "• <b>Trava de Pânico (PC1 > 70%):</b> Reduz tamanho de lote pela metade se a correlação global colapsar.<br>• <b>Trava Wavelet (Ew >= 50):</b> Pausa execução durante tempestades de volatilidade de cauda longa.<br>• <b>Cooldown Mandatório:</b> 4 horas de intervalo mínimo entre execuções.",
     "series_historica": {
       "1h": [
-        {
-          "label": "17:36",
-          "score": 92
-        },
-        {
-          "label": "17:37",
-          "score": 92
-        },
-        {
-          "label": "17:38",
-          "score": 92
-        },
-        {
-          "label": "17:39",
-          "score": 91
-        },
-        {
-          "label": "17:40",
-          "score": 92
-        },
-        {
-          "label": "17:41",
-          "score": 92
-        },
-        {
-          "label": "17:42",
-          "score": 92
-        },
-        {
-          "label": "17:43",
-          "score": 92
-        },
-        {
-          "label": "17:44",
-          "score": 92
-        },
-        {
-          "label": "17:45",
-          "score": 92
-        },
-        {
-          "label": "17:46",
-          "score": 92
-        },
-        {
-          "label": "17:47",
-          "score": 92
-        },
-        {
-          "label": "17:48",
-          "score": 92
-        },
-        {
-          "label": "17:49",
-          "score": 92
-        },
-        {
-          "label": "17:50",
-          "score": 93
-        },
-        {
-          "label": "17:51",
-          "score": 93
-        },
-        {
-          "label": "17:52",
-          "score": 93
-        },
-        {
-          "label": "17:53",
-          "score": 92
-        },
-        {
-          "label": "17:54",
-          "score": 92
-        },
-        {
-          "label": "17:55",
-          "score": 92
-        },
-        {
-          "label": "17:56",
-          "score": 92
-        },
-        {
-          "label": "17:57",
-          "score": 92
-        },
-        {
-          "label": "17:58",
-          "score": 92
-        },
-        {
-          "label": "17:59",
-          "score": 92
-        },
-        {
-          "label": "18:00",
-          "score": 92
-        },
-        {
-          "label": "18:01",
-          "score": 92
-        },
-        {
-          "label": "18:02",
-          "score": 92
-        },
-        {
-          "label": "18:03",
-          "score": 92
-        },
-        {
-          "label": "18:04",
-          "score": 93
-        },
-        {
-          "label": "18:05",
-          "score": 93
-        },
-        {
-          "label": "18:06",
-          "score": 93
-        },
         {
           "label": "18:07",
           "score": 92
@@ -265,643 +141,767 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "18:36",
+          "score": 91
+        },
+        {
+          "label": "18:37",
+          "score": 89
+        },
+        {
+          "label": "18:38",
+          "score": 89
+        },
+        {
+          "label": "18:39",
+          "score": 89
+        },
+        {
+          "label": "18:40",
+          "score": 89
+        },
+        {
+          "label": "18:41",
+          "score": 89
+        },
+        {
+          "label": "18:42",
           "score": 88
+        },
+        {
+          "label": "18:43",
+          "score": 88
+        },
+        {
+          "label": "18:44",
+          "score": 89
+        },
+        {
+          "label": "18:45",
+          "score": 89
+        },
+        {
+          "label": "18:46",
+          "score": 88
+        },
+        {
+          "label": "18:47",
+          "score": 88
+        },
+        {
+          "label": "18:48",
+          "score": 88
+        },
+        {
+          "label": "18:49",
+          "score": 88
+        },
+        {
+          "label": "18:50",
+          "score": 89
+        },
+        {
+          "label": "18:51",
+          "score": 88
+        },
+        {
+          "label": "18:52",
+          "score": 88
+        },
+        {
+          "label": "18:53",
+          "score": 88
+        },
+        {
+          "label": "18:54",
+          "score": 88
+        },
+        {
+          "label": "18:55",
+          "score": 88
+        },
+        {
+          "label": "18:56",
+          "score": 87
+        },
+        {
+          "label": "18:57",
+          "score": 88
+        },
+        {
+          "label": "18:58",
+          "score": 88
+        },
+        {
+          "label": "18:59",
+          "score": 87
+        },
+        {
+          "label": "19:00",
+          "score": 88
+        },
+        {
+          "label": "19:01",
+          "score": 87
+        },
+        {
+          "label": "19:02",
+          "score": 87
+        },
+        {
+          "label": "19:03",
+          "score": 88
+        },
+        {
+          "label": "19:04",
+          "score": 88
+        },
+        {
+          "label": "19:05",
+          "score": 89
+        },
+        {
+          "label": "19:06",
+          "score": 89
+        },
+        {
+          "label": "19:07",
+          "score": 89
         }
       ],
       "24h": [
         {
-          "label": "18:36",
+          "label": "19:07",
           "score": 98
         },
         {
-          "label": "18:56",
+          "label": "19:27",
           "score": 98
         },
         {
-          "label": "19:16",
+          "label": "19:47",
           "score": 98
         },
         {
-          "label": "19:36",
+          "label": "20:07",
           "score": 98
         },
         {
-          "label": "19:56",
+          "label": "20:27",
           "score": 98
         },
         {
-          "label": "20:16",
+          "label": "20:47",
           "score": 98
         },
         {
-          "label": "20:36",
+          "label": "21:07",
           "score": 98
         },
         {
-          "label": "20:56",
+          "label": "21:27",
           "score": 98
         },
         {
-          "label": "21:16",
+          "label": "21:47",
           "score": 98
         },
         {
-          "label": "21:36",
+          "label": "22:07",
           "score": 98
         },
         {
-          "label": "21:56",
+          "label": "22:27",
           "score": 98
         },
         {
-          "label": "22:16",
+          "label": "22:47",
           "score": 98
         },
         {
-          "label": "22:36",
+          "label": "23:07",
           "score": 98
         },
         {
-          "label": "22:56",
+          "label": "23:27",
           "score": 98
         },
         {
-          "label": "23:16",
+          "label": "23:47",
           "score": 98
         },
         {
-          "label": "23:36",
+          "label": "00:07",
           "score": 98
         },
         {
-          "label": "23:56",
+          "label": "00:27",
           "score": 98
         },
         {
-          "label": "00:16",
+          "label": "00:47",
           "score": 98
         },
         {
-          "label": "00:36",
+          "label": "01:07",
           "score": 98
         },
         {
-          "label": "00:56",
+          "label": "01:27",
           "score": 98
         },
         {
-          "label": "01:16",
+          "label": "01:47",
           "score": 98
         },
         {
-          "label": "01:36",
+          "label": "02:07",
           "score": 98
         },
         {
-          "label": "01:56",
+          "label": "02:27",
           "score": 98
         },
         {
-          "label": "02:16",
+          "label": "02:47",
           "score": 98
         },
         {
-          "label": "02:36",
+          "label": "03:07",
           "score": 98
         },
         {
-          "label": "02:56",
+          "label": "03:27",
           "score": 98
         },
         {
-          "label": "03:16",
+          "label": "03:47",
           "score": 98
         },
         {
-          "label": "03:36",
+          "label": "04:07",
           "score": 98
         },
         {
-          "label": "03:56",
+          "label": "04:27",
           "score": 98
         },
         {
-          "label": "04:16",
+          "label": "04:47",
           "score": 98
         },
         {
-          "label": "04:36",
+          "label": "05:07",
           "score": 98
         },
         {
-          "label": "04:56",
+          "label": "05:27",
           "score": 98
         },
         {
-          "label": "05:16",
+          "label": "05:47",
           "score": 98
         },
         {
-          "label": "05:36",
+          "label": "06:07",
           "score": 98
         },
         {
-          "label": "05:56",
+          "label": "06:27",
           "score": 98
         },
         {
-          "label": "06:16",
+          "label": "06:47",
           "score": 98
         },
         {
-          "label": "06:36",
+          "label": "07:07",
           "score": 98
         },
         {
-          "label": "06:56",
+          "label": "07:27",
           "score": 98
         },
         {
-          "label": "07:16",
+          "label": "07:47",
           "score": 98
         },
         {
-          "label": "07:36",
+          "label": "08:07",
           "score": 98
         },
         {
-          "label": "07:56",
+          "label": "08:27",
           "score": 98
         },
         {
-          "label": "08:16",
+          "label": "08:47",
           "score": 98
         },
         {
-          "label": "08:36",
+          "label": "09:07",
           "score": 98
         },
         {
-          "label": "08:56",
+          "label": "09:27",
           "score": 98
         },
         {
-          "label": "09:16",
+          "label": "09:47",
           "score": 98
         },
         {
-          "label": "09:36",
+          "label": "10:07",
           "score": 98
         },
         {
-          "label": "09:56",
+          "label": "10:27",
           "score": 98
         },
         {
-          "label": "10:16",
+          "label": "10:47",
           "score": 98
         },
         {
-          "label": "10:36",
+          "label": "11:07",
           "score": 98
         },
         {
-          "label": "10:56",
+          "label": "11:27",
           "score": 98
         },
         {
-          "label": "11:16",
+          "label": "11:47",
+          "score": 98
+        },
+        {
+          "label": "12:07",
+          "score": 98
+        },
+        {
+          "label": "12:27",
+          "score": 98
+        },
+        {
+          "label": "12:47",
+          "score": 98
+        },
+        {
+          "label": "13:07",
+          "score": 98
+        },
+        {
+          "label": "13:27",
           "score": 97
         },
         {
-          "label": "11:36",
-          "score": 98
-        },
-        {
-          "label": "11:56",
-          "score": 98
-        },
-        {
-          "label": "12:16",
-          "score": 98
-        },
-        {
-          "label": "12:36",
-          "score": 98
-        },
-        {
-          "label": "12:56",
-          "score": 98
-        },
-        {
-          "label": "13:16",
-          "score": 98
-        },
-        {
-          "label": "13:36",
-          "score": 96
-        },
-        {
-          "label": "13:56",
+          "label": "13:47",
           "score": 97
         },
         {
-          "label": "14:16",
+          "label": "14:07",
           "score": 95
         },
         {
-          "label": "14:36",
+          "label": "14:27",
           "score": 95
         },
         {
-          "label": "14:56",
+          "label": "14:47",
           "score": 94
         },
         {
-          "label": "15:16",
+          "label": "15:07",
           "score": 93
         },
         {
-          "label": "15:36",
+          "label": "15:27",
           "score": 93
         },
         {
-          "label": "15:56",
+          "label": "15:47",
+          "score": 93
+        },
+        {
+          "label": "16:07",
           "score": 92
         },
         {
-          "label": "16:16",
-          "score": 93
-        },
-        {
-          "label": "16:36",
+          "label": "16:27",
           "score": 94
         },
         {
-          "label": "16:56",
+          "label": "16:47",
+          "score": 95
+        },
+        {
+          "label": "17:07",
           "score": 94
         },
         {
-          "label": "17:16",
+          "label": "17:27",
           "score": 93
         },
         {
-          "label": "17:36",
+          "label": "17:47",
           "score": 92
         },
         {
-          "label": "17:56",
+          "label": "18:07",
           "score": 92
         },
         {
-          "label": "18:16",
+          "label": "18:27",
           "score": 92
         },
         {
-          "label": "18:36",
+          "label": "18:47",
           "score": 88
+        },
+        {
+          "label": "19:07",
+          "score": 89
         }
       ],
       "7d": [
         {
-          "label": "15/08 18h",
-          "score": 73
+          "label": "15/08 19h",
+          "score": 72
         },
         {
-          "label": "15/08 20h",
-          "score": 70
-        },
-        {
-          "label": "15/08 22h",
-          "score": 63
-        },
-        {
-          "label": "16/08 00h",
+          "label": "15/08 21h",
           "score": 68
         },
         {
-          "label": "16/08 02h",
+          "label": "15/08 23h",
           "score": 64
         },
         {
-          "label": "16/08 04h",
+          "label": "16/08 01h",
+          "score": 68
+        },
+        {
+          "label": "16/08 03h",
           "score": 63
         },
         {
-          "label": "16/08 06h",
-          "score": 65
+          "label": "16/08 05h",
+          "score": 64
         },
         {
-          "label": "16/08 08h",
-          "score": 62
-        },
-        {
-          "label": "16/08 10h",
+          "label": "16/08 07h",
           "score": 66
         },
         {
-          "label": "16/08 12h",
-          "score": 65
+          "label": "16/08 09h",
+          "score": 62
         },
         {
-          "label": "16/08 14h",
+          "label": "16/08 11h",
+          "score": 66
+        },
+        {
+          "label": "16/08 13h",
+          "score": 61
+        },
+        {
+          "label": "16/08 15h",
+          "score": 54
+        },
+        {
+          "label": "16/08 17h",
+          "score": 41
+        },
+        {
+          "label": "16/08 19h",
+          "score": 48
+        },
+        {
+          "label": "16/08 21h",
           "score": 56
         },
         {
-          "label": "16/08 16h",
-          "score": 37
+          "label": "16/08 23h",
+          "score": 65
         },
         {
-          "label": "16/08 18h",
+          "label": "17/08 01h",
           "score": 51
         },
         {
-          "label": "16/08 20h",
-          "score": 52
+          "label": "17/08 03h",
+          "score": 25
         },
         {
-          "label": "16/08 22h",
-          "score": 81
+          "label": "17/08 05h",
+          "score": 16
         },
         {
-          "label": "17/08 00h",
+          "label": "17/08 07h",
+          "score": 5
+        },
+        {
+          "label": "17/08 09h",
+          "score": 17
+        },
+        {
+          "label": "17/08 11h",
+          "score": 10
+        },
+        {
+          "label": "17/08 13h",
+          "score": 5
+        },
+        {
+          "label": "17/08 15h",
+          "score": 60
+        },
+        {
+          "label": "17/08 17h",
+          "score": 75
+        },
+        {
+          "label": "17/08 19h",
+          "score": 98
+        },
+        {
+          "label": "17/08 21h",
+          "score": 98
+        },
+        {
+          "label": "17/08 23h",
+          "score": 98
+        },
+        {
+          "label": "18/08 01h",
+          "score": 98
+        },
+        {
+          "label": "18/08 03h",
           "score": 76
         },
         {
-          "label": "17/08 02h",
-          "score": 37
-        },
-        {
-          "label": "17/08 04h",
-          "score": 14
-        },
-        {
-          "label": "17/08 06h",
-          "score": 5
-        },
-        {
-          "label": "17/08 08h",
-          "score": 19
-        },
-        {
-          "label": "17/08 10h",
-          "score": 5
-        },
-        {
-          "label": "17/08 12h",
-          "score": 5
-        },
-        {
-          "label": "17/08 14h",
-          "score": 20
-        },
-        {
-          "label": "17/08 16h",
-          "score": 90
-        },
-        {
-          "label": "17/08 18h",
-          "score": 98
-        },
-        {
-          "label": "17/08 20h",
-          "score": 98
-        },
-        {
-          "label": "17/08 22h",
-          "score": 98
-        },
-        {
-          "label": "18/08 00h",
-          "score": 98
-        },
-        {
-          "label": "18/08 02h",
-          "score": 90
-        },
-        {
-          "label": "18/08 04h",
-          "score": 90
-        },
-        {
-          "label": "18/08 06h",
-          "score": 98
-        },
-        {
-          "label": "18/08 08h",
-          "score": 98
-        },
-        {
-          "label": "18/08 10h",
-          "score": 88
-        },
-        {
-          "label": "18/08 12h",
-          "score": 97
-        },
-        {
-          "label": "18/08 14h",
-          "score": 98
-        },
-        {
-          "label": "18/08 16h",
-          "score": 98
-        },
-        {
-          "label": "18/08 18h",
-          "score": 98
-        },
-        {
-          "label": "18/08 20h",
-          "score": 98
-        },
-        {
-          "label": "18/08 22h",
-          "score": 98
-        },
-        {
-          "label": "19/08 00h",
-          "score": 98
-        },
-        {
-          "label": "19/08 02h",
-          "score": 88
-        },
-        {
-          "label": "19/08 04h",
-          "score": 81
-        },
-        {
-          "label": "19/08 06h",
-          "score": 76
-        },
-        {
-          "label": "19/08 08h",
-          "score": 89
-        },
-        {
-          "label": "19/08 10h",
-          "score": 85
-        },
-        {
-          "label": "19/08 12h",
-          "score": 98
-        },
-        {
-          "label": "19/08 14h",
-          "score": 98
-        },
-        {
-          "label": "19/08 16h",
-          "score": 98
-        },
-        {
-          "label": "19/08 18h",
-          "score": 98
-        },
-        {
-          "label": "19/08 20h",
-          "score": 98
-        },
-        {
-          "label": "19/08 22h",
-          "score": 98
-        },
-        {
-          "label": "20/08 00h",
-          "score": 98
-        },
-        {
-          "label": "20/08 02h",
-          "score": 98
-        },
-        {
-          "label": "20/08 04h",
-          "score": 98
-        },
-        {
-          "label": "20/08 06h",
-          "score": 98
-        },
-        {
-          "label": "20/08 08h",
-          "score": 98
-        },
-        {
-          "label": "20/08 10h",
-          "score": 98
-        },
-        {
-          "label": "20/08 12h",
-          "score": 98
-        },
-        {
-          "label": "20/08 14h",
-          "score": 98
-        },
-        {
-          "label": "20/08 16h",
-          "score": 98
-        },
-        {
-          "label": "20/08 18h",
-          "score": 98
-        },
-        {
-          "label": "20/08 20h",
-          "score": 98
-        },
-        {
-          "label": "20/08 22h",
-          "score": 98
-        },
-        {
-          "label": "21/08 00h",
-          "score": 98
-        },
-        {
-          "label": "21/08 02h",
-          "score": 98
-        },
-        {
-          "label": "21/08 04h",
-          "score": 98
-        },
-        {
-          "label": "21/08 06h",
-          "score": 98
-        },
-        {
-          "label": "21/08 08h",
-          "score": 98
-        },
-        {
-          "label": "21/08 10h",
-          "score": 98
-        },
-        {
-          "label": "21/08 12h",
-          "score": 98
-        },
-        {
-          "label": "21/08 14h",
-          "score": 98
-        },
-        {
-          "label": "21/08 16h",
-          "score": 98
-        },
-        {
-          "label": "21/08 18h",
-          "score": 98
-        },
-        {
-          "label": "21/08 20h",
-          "score": 98
-        },
-        {
-          "label": "21/08 22h",
-          "score": 98
-        },
-        {
-          "label": "22/08 00h",
-          "score": 98
-        },
-        {
-          "label": "22/08 02h",
-          "score": 98
-        },
-        {
-          "label": "22/08 04h",
-          "score": 98
-        },
-        {
-          "label": "22/08 06h",
-          "score": 98
-        },
-        {
-          "label": "22/08 08h",
-          "score": 98
-        },
-        {
-          "label": "22/08 10h",
-          "score": 98
-        },
-        {
-          "label": "22/08 12h",
-          "score": 98
-        },
-        {
-          "label": "22/08 14h",
-          "score": 94
-        },
-        {
-          "label": "22/08 16h",
+          "label": "18/08 05h",
           "score": 95
         },
         {
-          "label": "22/08 18h",
+          "label": "18/08 07h",
+          "score": 98
+        },
+        {
+          "label": "18/08 09h",
+          "score": 94
+        },
+        {
+          "label": "18/08 11h",
+          "score": 98
+        },
+        {
+          "label": "18/08 13h",
+          "score": 90
+        },
+        {
+          "label": "18/08 15h",
+          "score": 98
+        },
+        {
+          "label": "18/08 17h",
+          "score": 98
+        },
+        {
+          "label": "18/08 19h",
+          "score": 98
+        },
+        {
+          "label": "18/08 21h",
+          "score": 98
+        },
+        {
+          "label": "18/08 23h",
+          "score": 98
+        },
+        {
+          "label": "19/08 01h",
+          "score": 98
+        },
+        {
+          "label": "19/08 03h",
+          "score": 81
+        },
+        {
+          "label": "19/08 05h",
           "score": 88
+        },
+        {
+          "label": "19/08 07h",
+          "score": 83
+        },
+        {
+          "label": "19/08 09h",
+          "score": 89
+        },
+        {
+          "label": "19/08 11h",
+          "score": 95
+        },
+        {
+          "label": "19/08 13h",
+          "score": 98
+        },
+        {
+          "label": "19/08 15h",
+          "score": 98
+        },
+        {
+          "label": "19/08 17h",
+          "score": 98
+        },
+        {
+          "label": "19/08 19h",
+          "score": 98
+        },
+        {
+          "label": "19/08 21h",
+          "score": 98
+        },
+        {
+          "label": "19/08 23h",
+          "score": 98
+        },
+        {
+          "label": "20/08 01h",
+          "score": 98
+        },
+        {
+          "label": "20/08 03h",
+          "score": 98
+        },
+        {
+          "label": "20/08 05h",
+          "score": 98
+        },
+        {
+          "label": "20/08 07h",
+          "score": 98
+        },
+        {
+          "label": "20/08 09h",
+          "score": 98
+        },
+        {
+          "label": "20/08 11h",
+          "score": 98
+        },
+        {
+          "label": "20/08 13h",
+          "score": 98
+        },
+        {
+          "label": "20/08 15h",
+          "score": 98
+        },
+        {
+          "label": "20/08 17h",
+          "score": 98
+        },
+        {
+          "label": "20/08 19h",
+          "score": 98
+        },
+        {
+          "label": "20/08 21h",
+          "score": 98
+        },
+        {
+          "label": "20/08 23h",
+          "score": 98
+        },
+        {
+          "label": "21/08 01h",
+          "score": 98
+        },
+        {
+          "label": "21/08 03h",
+          "score": 98
+        },
+        {
+          "label": "21/08 05h",
+          "score": 98
+        },
+        {
+          "label": "21/08 07h",
+          "score": 98
+        },
+        {
+          "label": "21/08 09h",
+          "score": 98
+        },
+        {
+          "label": "21/08 11h",
+          "score": 98
+        },
+        {
+          "label": "21/08 13h",
+          "score": 98
+        },
+        {
+          "label": "21/08 15h",
+          "score": 98
+        },
+        {
+          "label": "21/08 17h",
+          "score": 98
+        },
+        {
+          "label": "21/08 19h",
+          "score": 98
+        },
+        {
+          "label": "21/08 21h",
+          "score": 98
+        },
+        {
+          "label": "21/08 23h",
+          "score": 98
+        },
+        {
+          "label": "22/08 01h",
+          "score": 98
+        },
+        {
+          "label": "22/08 03h",
+          "score": 98
+        },
+        {
+          "label": "22/08 05h",
+          "score": 98
+        },
+        {
+          "label": "22/08 07h",
+          "score": 98
+        },
+        {
+          "label": "22/08 09h",
+          "score": 98
+        },
+        {
+          "label": "22/08 11h",
+          "score": 98
+        },
+        {
+          "label": "22/08 13h",
+          "score": 98
+        },
+        {
+          "label": "22/08 15h",
+          "score": 93
+        },
+        {
+          "label": "22/08 17h",
+          "score": 93
+        },
+        {
+          "label": "22/08 19h",
+          "score": 89
         }
       ],
       "30d": [
@@ -911,159 +911,163 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "24/07",
-          "score": 5
-        },
-        {
-          "label": "24/07",
-          "score": 5
-        },
-        {
-          "label": "24/07",
-          "score": 67
-        },
-        {
-          "label": "25/07",
-          "score": 80
-        },
-        {
-          "label": "25/07",
-          "score": 82
-        },
-        {
-          "label": "25/07",
-          "score": 54
-        },
-        {
-          "label": "26/07",
-          "score": 48
-        },
-        {
-          "label": "26/07",
-          "score": 40
-        },
-        {
-          "label": "26/07",
-          "score": 28
-        },
-        {
-          "label": "27/07",
-          "score": 11
-        },
-        {
-          "label": "27/07",
-          "score": 20
-        },
-        {
-          "label": "27/07",
-          "score": 29
-        },
-        {
-          "label": "28/07",
-          "score": 98
-        },
-        {
-          "label": "28/07",
-          "score": 98
-        },
-        {
-          "label": "28/07",
-          "score": 82
-        },
-        {
-          "label": "29/07",
-          "score": 59
-        },
-        {
-          "label": "29/07",
-          "score": 6
-        },
-        {
-          "label": "29/07",
-          "score": 21
-        },
-        {
-          "label": "30/07",
-          "score": 18
-        },
-        {
-          "label": "30/07",
-          "score": 17
-        },
-        {
-          "label": "30/07",
-          "score": 42
-        },
-        {
-          "label": "31/07",
-          "score": 5
-        },
-        {
-          "label": "31/07",
-          "score": 42
-        },
-        {
-          "label": "31/07",
-          "score": 98
-        },
-        {
-          "label": "01/08",
-          "score": 98
-        },
-        {
-          "label": "01/08",
-          "score": 98
-        },
-        {
-          "label": "01/08",
-          "score": 98
-        },
-        {
-          "label": "02/08",
-          "score": 46
-        },
-        {
-          "label": "02/08",
-          "score": 60
-        },
-        {
-          "label": "02/08",
-          "score": 40
-        },
-        {
-          "label": "03/08",
-          "score": 52
-        },
-        {
-          "label": "03/08",
-          "score": 87
-        },
-        {
-          "label": "03/08",
-          "score": 21
-        },
-        {
-          "label": "04/08",
           "score": 23
         },
         {
-          "label": "04/08",
-          "score": 17
+          "label": "24/07",
+          "score": 5
         },
         {
-          "label": "04/08",
+          "label": "24/07",
+          "score": 66
+        },
+        {
+          "label": "25/07",
+          "score": 79
+        },
+        {
+          "label": "25/07",
+          "score": 77
+        },
+        {
+          "label": "25/07",
+          "score": 52
+        },
+        {
+          "label": "26/07",
+          "score": 44
+        },
+        {
+          "label": "26/07",
+          "score": 43
+        },
+        {
+          "label": "26/07",
+          "score": 30
+        },
+        {
+          "label": "27/07",
+          "score": 9
+        },
+        {
+          "label": "27/07",
+          "score": 10
+        },
+        {
+          "label": "27/07",
+          "score": 19
+        },
+        {
+          "label": "28/07",
+          "score": 98
+        },
+        {
+          "label": "28/07",
+          "score": 98
+        },
+        {
+          "label": "28/07",
+          "score": 81
+        },
+        {
+          "label": "29/07",
+          "score": 68
+        },
+        {
+          "label": "29/07",
+          "score": 14
+        },
+        {
+          "label": "29/07",
+          "score": 15
+        },
+        {
+          "label": "30/07",
+          "score": 27
+        },
+        {
+          "label": "30/07",
+          "score": 22
+        },
+        {
+          "label": "30/07",
           "score": 54
         },
         {
-          "label": "05/08",
-          "score": 63
+          "label": "31/07",
+          "score": 5
         },
         {
-          "label": "05/08",
-          "score": 29
+          "label": "31/07",
+          "score": 38
         },
         {
-          "label": "05/08",
+          "label": "31/07",
+          "score": 98
+        },
+        {
+          "label": "01/08",
+          "score": 98
+        },
+        {
+          "label": "01/08",
           "score": 96
+        },
+        {
+          "label": "01/08",
+          "score": 98
+        },
+        {
+          "label": "02/08",
+          "score": 39
+        },
+        {
+          "label": "02/08",
+          "score": 62
+        },
+        {
+          "label": "02/08",
+          "score": 42
+        },
+        {
+          "label": "03/08",
+          "score": 58
+        },
+        {
+          "label": "03/08",
+          "score": 78
+        },
+        {
+          "label": "03/08",
+          "score": 30
+        },
+        {
+          "label": "04/08",
+          "score": 10
+        },
+        {
+          "label": "04/08",
+          "score": 18
+        },
+        {
+          "label": "04/08",
+          "score": 51
+        },
+        {
+          "label": "05/08",
+          "score": 31
+        },
+        {
+          "label": "05/08",
+          "score": 34
+        },
+        {
+          "label": "05/08",
+          "score": 98
+        },
+        {
+          "label": "06/08",
+          "score": 66
         },
         {
           "label": "06/08",
@@ -1071,15 +1075,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "06/08",
-          "score": 70
-        },
-        {
-          "label": "06/08",
-          "score": 60
+          "score": 59
         },
         {
           "label": "07/08",
-          "score": 63
+          "score": 54
         },
         {
           "label": "07/08",
@@ -1087,27 +1087,27 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "07/08",
-          "score": 81
+          "score": 98
         },
         {
           "label": "08/08",
-          "score": 86
+          "score": 95
         },
         {
           "label": "08/08",
-          "score": 86
+          "score": 82
         },
         {
           "label": "08/08",
-          "score": 81
+          "score": 78
         },
         {
           "label": "09/08",
-          "score": 56
+          "score": 53
         },
         {
           "label": "09/08",
-          "score": 63
+          "score": 64
         },
         {
           "label": "09/08",
@@ -1115,57 +1115,57 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "10/08",
-          "score": 62
-        },
-        {
-          "label": "10/08",
           "score": 54
         },
         {
           "label": "10/08",
+          "score": 62
+        },
+        {
+          "label": "10/08",
+          "score": 70
+        },
+        {
+          "label": "11/08",
+          "score": 69
+        },
+        {
+          "label": "11/08",
+          "score": 45
+        },
+        {
+          "label": "11/08",
+          "score": 98
+        },
+        {
+          "label": "12/08",
+          "score": 98
+        },
+        {
+          "label": "12/08",
+          "score": 63
+        },
+        {
+          "label": "12/08",
+          "score": 98
+        },
+        {
+          "label": "13/08",
+          "score": 98
+        },
+        {
+          "label": "13/08",
+          "score": 98
+        },
+        {
+          "label": "13/08",
+          "score": 98
+        },
+        {
+          "label": "14/08",
           "score": 94
         },
         {
-          "label": "11/08",
-          "score": 78
-        },
-        {
-          "label": "11/08",
-          "score": 36
-        },
-        {
-          "label": "11/08",
-          "score": 98
-        },
-        {
-          "label": "12/08",
-          "score": 98
-        },
-        {
-          "label": "12/08",
-          "score": 67
-        },
-        {
-          "label": "12/08",
-          "score": 98
-        },
-        {
-          "label": "13/08",
-          "score": 98
-        },
-        {
-          "label": "13/08",
-          "score": 91
-        },
-        {
-          "label": "13/08",
-          "score": 98
-        },
-        {
-          "label": "14/08",
-          "score": 87
-        },
-        {
           "label": "14/08",
           "score": 98
         },
@@ -1175,15 +1175,15 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "15/08",
-          "score": 81
+          "score": 86
         },
         {
           "label": "15/08",
-          "score": 81
+          "score": 80
         },
         {
           "label": "15/08",
-          "score": 71
+          "score": 68
         },
         {
           "label": "16/08",
@@ -1191,19 +1191,19 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "16/08",
-          "score": 66
+          "score": 65
         },
         {
           "label": "16/08",
-          "score": 47
+          "score": 43
         },
         {
           "label": "17/08",
-          "score": 26
+          "score": 28
         },
         {
           "label": "17/08",
-          "score": 12
+          "score": 16
         },
         {
           "label": "17/08",
@@ -1211,7 +1211,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "18/08",
-          "score": 74
+          "score": 85
         },
         {
           "label": "18/08",
@@ -1223,11 +1223,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "19/08",
-          "score": 83
+          "score": 82
         },
         {
           "label": "19/08",
-          "score": 98
+          "score": 94
         },
         {
           "label": "19/08",
@@ -1267,29 +1267,29 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "22/08",
-          "score": 88
+          "score": 89
         }
       ],
       "365d": [
         {
           "label": "22/08/25",
-          "score": 53
+          "score": 46
         },
         {
           "label": "26/08/25",
-          "score": 81
+          "score": 89
         },
         {
           "label": "30/08/25",
-          "score": 84
+          "score": 85
         },
         {
           "label": "03/09/25",
-          "score": 68
+          "score": 70
         },
         {
           "label": "07/09/25",
-          "score": 29
+          "score": 33
         },
         {
           "label": "11/09/25",
@@ -1297,11 +1297,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "15/09/25",
-          "score": 46
+          "score": 52
         },
         {
           "label": "19/09/25",
-          "score": 52
+          "score": 61
         },
         {
           "label": "23/09/25",
@@ -1309,7 +1309,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "27/09/25",
-          "score": 80
+          "score": 79
         },
         {
           "label": "01/10/25",
@@ -1321,11 +1321,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "09/10/25",
-          "score": 78
+          "score": 80
         },
         {
           "label": "13/10/25",
-          "score": 27
+          "score": 30
         },
         {
           "label": "17/10/25",
@@ -1333,23 +1333,23 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "21/10/25",
-          "score": 73
+          "score": 50
         },
         {
           "label": "25/10/25",
-          "score": 79
+          "score": 69
         },
         {
           "label": "29/10/25",
-          "score": 43
+          "score": 25
         },
         {
           "label": "02/11/25",
-          "score": 41
+          "score": 39
         },
         {
           "label": "06/11/25",
-          "score": 96
+          "score": 98
         },
         {
           "label": "10/11/25",
@@ -1357,23 +1357,23 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "03/12/25",
-          "score": 32
+          "score": 34
         },
         {
           "label": "07/12/25",
-          "score": 38
+          "score": 35
         },
         {
           "label": "18/01/26",
-          "score": 80
+          "score": 81
         },
         {
           "label": "22/01/26",
-          "score": 62
+          "score": 64
         },
         {
           "label": "28/01/26",
-          "score": 5
+          "score": 6
         },
         {
           "label": "01/02/26",
@@ -1385,31 +1385,31 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "10/02/26",
-          "score": 32
+          "score": 35
         },
         {
           "label": "16/02/26",
-          "score": 30
+          "score": 34
         },
         {
           "label": "21/02/26",
-          "score": 20
+          "score": 25
         },
         {
           "label": "25/02/26",
-          "score": 41
+          "score": 43
         },
         {
           "label": "02/03/26",
-          "score": 7
+          "score": 6
         },
         {
           "label": "07/03/26",
-          "score": 8
+          "score": 9
         },
         {
           "label": "11/03/26",
-          "score": 43
+          "score": 45
         },
         {
           "label": "16/03/26",
@@ -1421,15 +1421,15 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "25/03/26",
-          "score": 24
+          "score": 20
         },
         {
           "label": "30/03/26",
-          "score": 37
+          "score": 43
         },
         {
           "label": "03/04/26",
-          "score": 10
+          "score": 17
         },
         {
           "label": "08/04/26",
@@ -1437,7 +1437,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "12/04/26",
-          "score": 36
+          "score": 37
         },
         {
           "label": "16/04/26",
@@ -1449,11 +1449,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "24/04/26",
-          "score": 33
+          "score": 29
         },
         {
           "label": "29/04/26",
-          "score": 49
+          "score": 54
         },
         {
           "label": "03/05/26",
@@ -1461,7 +1461,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "07/05/26",
-          "score": 17
+          "score": 14
         },
         {
           "label": "13/05/26",
@@ -1473,15 +1473,15 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "22/05/26",
-          "score": 7
+          "score": 5
         },
         {
           "label": "26/05/26",
-          "score": 11
+          "score": 13
         },
         {
           "label": "30/05/26",
-          "score": 67
+          "score": 56
         },
         {
           "label": "04/06/26",
@@ -1489,11 +1489,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "08/06/26",
-          "score": 23
+          "score": 28
         },
         {
           "label": "12/06/26",
-          "score": 98
+          "score": 90
         },
         {
           "label": "16/06/26",
@@ -1501,19 +1501,19 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "20/06/26",
-          "score": 58
+          "score": 62
         },
         {
           "label": "24/06/26",
-          "score": 61
+          "score": 67
         },
         {
           "label": "28/06/26",
-          "score": 63
+          "score": 56
         },
         {
           "label": "02/07/26",
-          "score": 7
+          "score": 27
         },
         {
           "label": "06/07/26",
@@ -1521,11 +1521,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "10/07/26",
-          "score": 58
+          "score": 98
         },
         {
           "label": "14/07/26",
-          "score": 59
+          "score": 60
         },
         {
           "label": "18/07/26",
@@ -1537,35 +1537,35 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "26/07/26",
-          "score": 45
+          "score": 47
         },
         {
           "label": "30/07/26",
-          "score": 29
+          "score": 13
         },
         {
           "label": "03/08/26",
-          "score": 51
+          "score": 55
         },
         {
           "label": "07/08/26",
-          "score": 61
+          "score": 54
         },
         {
           "label": "11/08/26",
-          "score": 77
+          "score": 83
         },
         {
           "label": "15/08/26",
-          "score": 88
+          "score": 82
         },
         {
           "label": "19/08/26",
-          "score": 85
+          "score": 87
         },
         {
           "label": "22/08/26",
-          "score": 88
+          "score": 89
         }
       ]
     }
@@ -1594,130 +1594,6 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "label": "17:36",
-          "score": 72
-        },
-        {
-          "label": "17:37",
-          "score": 72
-        },
-        {
-          "label": "17:38",
-          "score": 72
-        },
-        {
-          "label": "17:39",
-          "score": 72
-        },
-        {
-          "label": "17:40",
-          "score": 72
-        },
-        {
-          "label": "17:41",
-          "score": 72
-        },
-        {
-          "label": "17:42",
-          "score": 72
-        },
-        {
-          "label": "17:43",
-          "score": 72
-        },
-        {
-          "label": "17:44",
-          "score": 72
-        },
-        {
-          "label": "17:45",
-          "score": 72
-        },
-        {
-          "label": "17:46",
-          "score": 72
-        },
-        {
-          "label": "17:47",
-          "score": 72
-        },
-        {
-          "label": "17:48",
-          "score": 72
-        },
-        {
-          "label": "17:49",
-          "score": 72
-        },
-        {
-          "label": "17:50",
-          "score": 72
-        },
-        {
-          "label": "17:51",
-          "score": 72
-        },
-        {
-          "label": "17:52",
-          "score": 72
-        },
-        {
-          "label": "17:53",
-          "score": 72
-        },
-        {
-          "label": "17:54",
-          "score": 72
-        },
-        {
-          "label": "17:55",
-          "score": 72
-        },
-        {
-          "label": "17:56",
-          "score": 72
-        },
-        {
-          "label": "17:57",
-          "score": 72
-        },
-        {
-          "label": "17:58",
-          "score": 72
-        },
-        {
-          "label": "17:59",
-          "score": 72
-        },
-        {
-          "label": "18:00",
-          "score": 72
-        },
-        {
-          "label": "18:01",
-          "score": 72
-        },
-        {
-          "label": "18:02",
-          "score": 72
-        },
-        {
-          "label": "18:03",
-          "score": 72
-        },
-        {
-          "label": "18:04",
-          "score": 72
-        },
-        {
-          "label": "18:05",
-          "score": 72
-        },
-        {
-          "label": "18:06",
-          "score": 72
-        },
-        {
           "label": "18:07",
           "score": 72
         },
@@ -1836,11 +1712,81 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "18:36",
           "score": 72
-        }
-      ],
-      "24h": [
+        },
         {
-          "label": "18:36",
+          "label": "18:37",
+          "score": 72
+        },
+        {
+          "label": "18:38",
+          "score": 72
+        },
+        {
+          "label": "18:39",
+          "score": 72
+        },
+        {
+          "label": "18:40",
+          "score": 72
+        },
+        {
+          "label": "18:41",
+          "score": 72
+        },
+        {
+          "label": "18:42",
+          "score": 72
+        },
+        {
+          "label": "18:43",
+          "score": 72
+        },
+        {
+          "label": "18:44",
+          "score": 72
+        },
+        {
+          "label": "18:45",
+          "score": 72
+        },
+        {
+          "label": "18:46",
+          "score": 72
+        },
+        {
+          "label": "18:47",
+          "score": 72
+        },
+        {
+          "label": "18:48",
+          "score": 72
+        },
+        {
+          "label": "18:49",
+          "score": 72
+        },
+        {
+          "label": "18:50",
+          "score": 72
+        },
+        {
+          "label": "18:51",
+          "score": 72
+        },
+        {
+          "label": "18:52",
+          "score": 72
+        },
+        {
+          "label": "18:53",
+          "score": 72
+        },
+        {
+          "label": "18:54",
+          "score": 72
+        },
+        {
+          "label": "18:55",
           "score": 72
         },
         {
@@ -1848,629 +1794,683 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 72
         },
         {
-          "label": "19:16",
+          "label": "18:57",
           "score": 72
         },
         {
-          "label": "19:36",
+          "label": "18:58",
           "score": 72
         },
         {
-          "label": "19:56",
+          "label": "18:59",
           "score": 72
         },
         {
-          "label": "20:16",
+          "label": "19:00",
           "score": 72
         },
         {
-          "label": "20:36",
+          "label": "19:01",
           "score": 72
         },
         {
-          "label": "20:56",
+          "label": "19:02",
           "score": 72
         },
         {
-          "label": "21:16",
+          "label": "19:03",
           "score": 72
         },
         {
-          "label": "21:36",
+          "label": "19:04",
           "score": 72
         },
         {
-          "label": "21:56",
+          "label": "19:05",
           "score": 72
         },
         {
-          "label": "22:16",
+          "label": "19:06",
           "score": 72
         },
         {
-          "label": "22:36",
+          "label": "19:07",
           "score": 72
+        }
+      ],
+      "24h": [
+        {
+          "label": "19:07",
+          "score": 72
+        },
+        {
+          "label": "19:27",
+          "score": 72
+        },
+        {
+          "label": "19:47",
+          "score": 72
+        },
+        {
+          "label": "20:07",
+          "score": 72
+        },
+        {
+          "label": "20:27",
+          "score": 72
+        },
+        {
+          "label": "20:47",
+          "score": 72
+        },
+        {
+          "label": "21:07",
+          "score": 72
+        },
+        {
+          "label": "21:27",
+          "score": 72
+        },
+        {
+          "label": "21:47",
+          "score": 72
+        },
+        {
+          "label": "22:07",
+          "score": 72
+        },
+        {
+          "label": "22:27",
+          "score": 72
+        },
+        {
+          "label": "22:47",
+          "score": 72
+        },
+        {
+          "label": "23:07",
+          "score": 72
         },
         {
-          "label": "22:56",
+          "label": "23:27",
           "score": 72
         },
         {
-          "label": "23:16",
+          "label": "23:47",
           "score": 72
         },
         {
-          "label": "23:36",
+          "label": "00:07",
           "score": 72
         },
         {
-          "label": "23:56",
+          "label": "00:27",
           "score": 72
         },
         {
-          "label": "00:16",
+          "label": "00:47",
           "score": 72
         },
         {
-          "label": "00:36",
+          "label": "01:07",
           "score": 72
         },
         {
-          "label": "00:56",
+          "label": "01:27",
           "score": 72
         },
         {
-          "label": "01:16",
+          "label": "01:47",
           "score": 72
         },
         {
-          "label": "01:36",
+          "label": "02:07",
           "score": 72
         },
         {
-          "label": "01:56",
+          "label": "02:27",
           "score": 72
         },
         {
-          "label": "02:16",
+          "label": "02:47",
           "score": 72
         },
         {
-          "label": "02:36",
+          "label": "03:07",
           "score": 72
         },
         {
-          "label": "02:56",
+          "label": "03:27",
           "score": 72
         },
         {
-          "label": "03:16",
+          "label": "03:47",
           "score": 72
         },
         {
-          "label": "03:36",
+          "label": "04:07",
           "score": 72
         },
         {
-          "label": "03:56",
+          "label": "04:27",
           "score": 72
         },
         {
-          "label": "04:16",
+          "label": "04:47",
           "score": 72
         },
         {
-          "label": "04:36",
+          "label": "05:07",
           "score": 72
         },
         {
-          "label": "04:56",
+          "label": "05:27",
           "score": 72
         },
         {
-          "label": "05:16",
+          "label": "05:47",
           "score": 72
         },
         {
-          "label": "05:36",
+          "label": "06:07",
           "score": 72
         },
         {
-          "label": "05:56",
+          "label": "06:27",
           "score": 72
         },
         {
-          "label": "06:16",
+          "label": "06:47",
           "score": 72
         },
         {
-          "label": "06:36",
+          "label": "07:07",
           "score": 72
         },
         {
-          "label": "06:56",
+          "label": "07:27",
           "score": 72
         },
         {
-          "label": "07:16",
+          "label": "07:47",
           "score": 72
         },
         {
-          "label": "07:36",
+          "label": "08:07",
           "score": 72
         },
         {
-          "label": "07:56",
+          "label": "08:27",
           "score": 72
         },
         {
-          "label": "08:16",
+          "label": "08:47",
           "score": 72
         },
         {
-          "label": "08:36",
+          "label": "09:07",
           "score": 72
         },
         {
-          "label": "08:56",
+          "label": "09:27",
           "score": 72
         },
         {
-          "label": "09:16",
+          "label": "09:47",
           "score": 72
         },
         {
-          "label": "09:36",
+          "label": "10:07",
           "score": 72
         },
         {
-          "label": "09:56",
+          "label": "10:27",
           "score": 72
         },
         {
-          "label": "10:16",
+          "label": "10:47",
           "score": 72
         },
         {
-          "label": "10:36",
+          "label": "11:07",
           "score": 72
         },
         {
-          "label": "10:56",
+          "label": "11:27",
           "score": 72
         },
         {
-          "label": "11:16",
+          "label": "11:47",
           "score": 72
         },
         {
-          "label": "11:36",
+          "label": "12:07",
           "score": 72
         },
         {
-          "label": "11:56",
+          "label": "12:27",
           "score": 72
         },
         {
-          "label": "12:16",
+          "label": "12:47",
           "score": 72
         },
         {
-          "label": "12:36",
+          "label": "13:07",
           "score": 72
         },
         {
-          "label": "12:56",
+          "label": "13:27",
           "score": 72
         },
         {
-          "label": "13:16",
+          "label": "13:47",
           "score": 72
         },
         {
-          "label": "13:36",
+          "label": "14:07",
           "score": 72
         },
         {
-          "label": "13:56",
+          "label": "14:27",
           "score": 72
         },
         {
-          "label": "14:16",
+          "label": "14:47",
           "score": 72
         },
         {
-          "label": "14:36",
+          "label": "15:07",
           "score": 72
         },
         {
-          "label": "14:56",
+          "label": "15:27",
           "score": 72
         },
         {
-          "label": "15:16",
+          "label": "15:47",
           "score": 72
         },
         {
-          "label": "15:36",
+          "label": "16:07",
           "score": 72
         },
         {
-          "label": "15:56",
+          "label": "16:27",
           "score": 72
         },
         {
-          "label": "16:16",
+          "label": "16:47",
           "score": 72
         },
         {
-          "label": "16:36",
+          "label": "17:07",
           "score": 72
         },
         {
-          "label": "16:56",
+          "label": "17:27",
           "score": 72
         },
         {
-          "label": "17:16",
+          "label": "17:47",
           "score": 72
         },
         {
-          "label": "17:36",
+          "label": "18:07",
           "score": 72
         },
         {
-          "label": "17:56",
+          "label": "18:27",
           "score": 72
         },
         {
-          "label": "18:16",
+          "label": "18:47",
           "score": 72
         },
         {
-          "label": "18:36",
+          "label": "19:07",
           "score": 72
         }
       ],
       "7d": [
         {
-          "label": "15/08 18h",
+          "label": "15/08 19h",
           "score": 72
         },
         {
-          "label": "15/08 20h",
+          "label": "15/08 21h",
           "score": 72
         },
         {
-          "label": "15/08 22h",
+          "label": "15/08 23h",
           "score": 72
         },
         {
-          "label": "16/08 00h",
+          "label": "16/08 01h",
           "score": 72
         },
         {
-          "label": "16/08 02h",
+          "label": "16/08 03h",
           "score": 72
         },
         {
-          "label": "16/08 04h",
+          "label": "16/08 05h",
           "score": 72
         },
         {
-          "label": "16/08 06h",
+          "label": "16/08 07h",
           "score": 72
         },
         {
-          "label": "16/08 08h",
+          "label": "16/08 09h",
           "score": 72
         },
         {
-          "label": "16/08 10h",
+          "label": "16/08 11h",
           "score": 72
         },
         {
-          "label": "16/08 12h",
+          "label": "16/08 13h",
           "score": 72
         },
         {
-          "label": "16/08 14h",
+          "label": "16/08 15h",
           "score": 72
         },
         {
-          "label": "16/08 16h",
+          "label": "16/08 17h",
           "score": 72
         },
         {
-          "label": "16/08 18h",
+          "label": "16/08 19h",
           "score": 72
         },
         {
-          "label": "16/08 20h",
+          "label": "16/08 21h",
           "score": 72
         },
         {
-          "label": "16/08 22h",
+          "label": "16/08 23h",
           "score": 72
         },
         {
-          "label": "17/08 00h",
+          "label": "17/08 01h",
           "score": 72
         },
         {
-          "label": "17/08 02h",
+          "label": "17/08 03h",
           "score": 72
         },
         {
-          "label": "17/08 04h",
+          "label": "17/08 05h",
           "score": 72
         },
         {
-          "label": "17/08 06h",
+          "label": "17/08 07h",
           "score": 72
         },
         {
-          "label": "17/08 08h",
+          "label": "17/08 09h",
           "score": 72
         },
         {
-          "label": "17/08 10h",
+          "label": "17/08 11h",
           "score": 72
         },
         {
-          "label": "17/08 12h",
+          "label": "17/08 13h",
           "score": 72
         },
         {
-          "label": "17/08 14h",
+          "label": "17/08 15h",
           "score": 72
         },
         {
-          "label": "17/08 16h",
+          "label": "17/08 17h",
           "score": 72
         },
         {
-          "label": "17/08 18h",
+          "label": "17/08 19h",
           "score": 72
         },
         {
-          "label": "17/08 20h",
+          "label": "17/08 21h",
           "score": 72
         },
         {
-          "label": "17/08 22h",
+          "label": "17/08 23h",
           "score": 72
         },
         {
-          "label": "18/08 00h",
+          "label": "18/08 01h",
           "score": 72
         },
         {
-          "label": "18/08 02h",
+          "label": "18/08 03h",
           "score": 72
         },
         {
-          "label": "18/08 04h",
+          "label": "18/08 05h",
           "score": 72
         },
         {
-          "label": "18/08 06h",
+          "label": "18/08 07h",
           "score": 72
         },
         {
-          "label": "18/08 08h",
+          "label": "18/08 09h",
           "score": 72
         },
         {
-          "label": "18/08 10h",
+          "label": "18/08 11h",
           "score": 72
         },
         {
-          "label": "18/08 12h",
+          "label": "18/08 13h",
           "score": 72
         },
         {
-          "label": "18/08 14h",
+          "label": "18/08 15h",
           "score": 72
         },
         {
-          "label": "18/08 16h",
+          "label": "18/08 17h",
           "score": 72
         },
         {
-          "label": "18/08 18h",
+          "label": "18/08 19h",
           "score": 72
         },
         {
-          "label": "18/08 20h",
+          "label": "18/08 21h",
           "score": 72
         },
         {
-          "label": "18/08 22h",
+          "label": "18/08 23h",
           "score": 72
         },
         {
-          "label": "19/08 00h",
+          "label": "19/08 01h",
           "score": 72
         },
         {
-          "label": "19/08 02h",
+          "label": "19/08 03h",
           "score": 72
         },
         {
-          "label": "19/08 04h",
+          "label": "19/08 05h",
           "score": 72
         },
         {
-          "label": "19/08 06h",
+          "label": "19/08 07h",
           "score": 72
         },
         {
-          "label": "19/08 08h",
+          "label": "19/08 09h",
           "score": 72
         },
         {
-          "label": "19/08 10h",
+          "label": "19/08 11h",
           "score": 72
         },
         {
-          "label": "19/08 12h",
+          "label": "19/08 13h",
           "score": 72
         },
         {
-          "label": "19/08 14h",
+          "label": "19/08 15h",
           "score": 72
         },
         {
-          "label": "19/08 16h",
+          "label": "19/08 17h",
           "score": 72
         },
         {
-          "label": "19/08 18h",
+          "label": "19/08 19h",
           "score": 72
         },
         {
-          "label": "19/08 20h",
+          "label": "19/08 21h",
           "score": 72
         },
         {
-          "label": "19/08 22h",
+          "label": "19/08 23h",
           "score": 72
         },
         {
-          "label": "20/08 00h",
+          "label": "20/08 01h",
           "score": 72
         },
         {
-          "label": "20/08 02h",
+          "label": "20/08 03h",
           "score": 72
         },
         {
-          "label": "20/08 04h",
+          "label": "20/08 05h",
           "score": 72
         },
         {
-          "label": "20/08 06h",
+          "label": "20/08 07h",
           "score": 72
         },
         {
-          "label": "20/08 08h",
+          "label": "20/08 09h",
           "score": 72
         },
         {
-          "label": "20/08 10h",
+          "label": "20/08 11h",
           "score": 72
         },
         {
-          "label": "20/08 12h",
+          "label": "20/08 13h",
           "score": 72
         },
         {
-          "label": "20/08 14h",
+          "label": "20/08 15h",
           "score": 72
         },
         {
-          "label": "20/08 16h",
+          "label": "20/08 17h",
           "score": 72
         },
         {
-          "label": "20/08 18h",
+          "label": "20/08 19h",
           "score": 72
         },
         {
-          "label": "20/08 20h",
+          "label": "20/08 21h",
           "score": 72
         },
         {
-          "label": "20/08 22h",
+          "label": "20/08 23h",
           "score": 72
         },
         {
-          "label": "21/08 00h",
+          "label": "21/08 01h",
           "score": 72
         },
         {
-          "label": "21/08 02h",
+          "label": "21/08 03h",
           "score": 72
         },
         {
-          "label": "21/08 04h",
+          "label": "21/08 05h",
           "score": 72
         },
         {
-          "label": "21/08 06h",
+          "label": "21/08 07h",
           "score": 72
         },
         {
-          "label": "21/08 08h",
+          "label": "21/08 09h",
           "score": 72
         },
         {
-          "label": "21/08 10h",
+          "label": "21/08 11h",
           "score": 72
         },
         {
-          "label": "21/08 12h",
+          "label": "21/08 13h",
           "score": 72
         },
         {
-          "label": "21/08 14h",
+          "label": "21/08 15h",
           "score": 72
         },
         {
-          "label": "21/08 16h",
+          "label": "21/08 17h",
           "score": 72
         },
         {
-          "label": "21/08 18h",
+          "label": "21/08 19h",
           "score": 72
         },
         {
-          "label": "21/08 20h",
+          "label": "21/08 21h",
           "score": 72
         },
         {
-          "label": "21/08 22h",
+          "label": "21/08 23h",
           "score": 72
         },
         {
-          "label": "22/08 00h",
+          "label": "22/08 01h",
           "score": 72
         },
         {
-          "label": "22/08 02h",
+          "label": "22/08 03h",
           "score": 72
         },
         {
-          "label": "22/08 04h",
+          "label": "22/08 05h",
           "score": 72
         },
         {
-          "label": "22/08 06h",
+          "label": "22/08 07h",
           "score": 72
         },
         {
-          "label": "22/08 08h",
+          "label": "22/08 09h",
           "score": 72
         },
         {
-          "label": "22/08 10h",
+          "label": "22/08 11h",
           "score": 72
         },
         {
-          "label": "22/08 12h",
+          "label": "22/08 13h",
           "score": 72
         },
         {
-          "label": "22/08 14h",
+          "label": "22/08 15h",
           "score": 72
         },
         {
-          "label": "22/08 16h",
+          "label": "22/08 17h",
           "score": 72
         },
         {
-          "label": "22/08 18h",
+          "label": "22/08 19h",
           "score": 72
         }
       ],
@@ -3151,9 +3151,9 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Desconto USDT >= R$ 0.0400 vs PTAX Comercial",
     "trava_ruptura": "Ancorado no ágio estrutural histórico de 79.6% do tempo",
     "cooldown_horas": 4.0,
-    "valor_atual_str": "USDT R$ 5.1604 (Spread: +0.1489)",
+    "valor_atual_str": "USDT R$ 5.1603 (Spread: +0.1488)",
     "alvo_str": "Spread <= -R$ 0.0400 vs PTAX",
-    "distancia_display": "Faltam R$ 0.1889 de desconto",
+    "distancia_display": "Faltam R$ 0.1888 de desconto",
     "proximidade_score": 5,
     "status": "AGUARDANDO_DESCONTO",
     "icone": "💵",
@@ -3163,130 +3163,6 @@ window.PLANOS_TACTICAL_DATA = [
     "limitacoes_trava": "• <b>Trava de Descolamento de Peg:</b> Veta compras se USDT global cair abaixo de $0.985 USD.<br>• <b>Trava de Spread:</b> Exige retorno mínimo de 0.80% líquido de taxas.",
     "series_historica": {
       "1h": [
-        {
-          "label": "17:36",
-          "score": 5
-        },
-        {
-          "label": "17:37",
-          "score": 5
-        },
-        {
-          "label": "17:38",
-          "score": 5
-        },
-        {
-          "label": "17:39",
-          "score": 5
-        },
-        {
-          "label": "17:40",
-          "score": 5
-        },
-        {
-          "label": "17:41",
-          "score": 5
-        },
-        {
-          "label": "17:42",
-          "score": 5
-        },
-        {
-          "label": "17:43",
-          "score": 5
-        },
-        {
-          "label": "17:44",
-          "score": 5
-        },
-        {
-          "label": "17:45",
-          "score": 5
-        },
-        {
-          "label": "17:46",
-          "score": 5
-        },
-        {
-          "label": "17:47",
-          "score": 5
-        },
-        {
-          "label": "17:48",
-          "score": 5
-        },
-        {
-          "label": "17:49",
-          "score": 5
-        },
-        {
-          "label": "17:50",
-          "score": 5
-        },
-        {
-          "label": "17:51",
-          "score": 5
-        },
-        {
-          "label": "17:52",
-          "score": 5
-        },
-        {
-          "label": "17:53",
-          "score": 5
-        },
-        {
-          "label": "17:54",
-          "score": 5
-        },
-        {
-          "label": "17:55",
-          "score": 5
-        },
-        {
-          "label": "17:56",
-          "score": 5
-        },
-        {
-          "label": "17:57",
-          "score": 5
-        },
-        {
-          "label": "17:58",
-          "score": 5
-        },
-        {
-          "label": "17:59",
-          "score": 5
-        },
-        {
-          "label": "18:00",
-          "score": 5
-        },
-        {
-          "label": "18:01",
-          "score": 5
-        },
-        {
-          "label": "18:02",
-          "score": 5
-        },
-        {
-          "label": "18:03",
-          "score": 5
-        },
-        {
-          "label": "18:04",
-          "score": 5
-        },
-        {
-          "label": "18:05",
-          "score": 5
-        },
-        {
-          "label": "18:06",
-          "score": 5
-        },
         {
           "label": "18:07",
           "score": 5
@@ -3406,11 +3282,81 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "18:36",
           "score": 5
-        }
-      ],
-      "24h": [
+        },
         {
-          "label": "18:36",
+          "label": "18:37",
+          "score": 5
+        },
+        {
+          "label": "18:38",
+          "score": 5
+        },
+        {
+          "label": "18:39",
+          "score": 5
+        },
+        {
+          "label": "18:40",
+          "score": 5
+        },
+        {
+          "label": "18:41",
+          "score": 5
+        },
+        {
+          "label": "18:42",
+          "score": 5
+        },
+        {
+          "label": "18:43",
+          "score": 5
+        },
+        {
+          "label": "18:44",
+          "score": 5
+        },
+        {
+          "label": "18:45",
+          "score": 5
+        },
+        {
+          "label": "18:46",
+          "score": 5
+        },
+        {
+          "label": "18:47",
+          "score": 5
+        },
+        {
+          "label": "18:48",
+          "score": 5
+        },
+        {
+          "label": "18:49",
+          "score": 5
+        },
+        {
+          "label": "18:50",
+          "score": 5
+        },
+        {
+          "label": "18:51",
+          "score": 5
+        },
+        {
+          "label": "18:52",
+          "score": 5
+        },
+        {
+          "label": "18:53",
+          "score": 5
+        },
+        {
+          "label": "18:54",
+          "score": 5
+        },
+        {
+          "label": "18:55",
           "score": 5
         },
         {
@@ -3418,629 +3364,683 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 5
         },
         {
-          "label": "19:16",
+          "label": "18:57",
           "score": 5
         },
         {
-          "label": "19:36",
+          "label": "18:58",
           "score": 5
         },
         {
-          "label": "19:56",
+          "label": "18:59",
           "score": 5
         },
         {
-          "label": "20:16",
+          "label": "19:00",
           "score": 5
         },
         {
-          "label": "20:36",
+          "label": "19:01",
           "score": 5
         },
         {
-          "label": "20:56",
+          "label": "19:02",
           "score": 5
         },
         {
-          "label": "21:16",
+          "label": "19:03",
           "score": 5
         },
         {
-          "label": "21:36",
+          "label": "19:04",
           "score": 5
         },
         {
-          "label": "21:56",
+          "label": "19:05",
           "score": 5
         },
         {
-          "label": "22:16",
+          "label": "19:06",
           "score": 5
         },
         {
-          "label": "22:36",
+          "label": "19:07",
           "score": 5
+        }
+      ],
+      "24h": [
+        {
+          "label": "19:07",
+          "score": 5
+        },
+        {
+          "label": "19:27",
+          "score": 5
+        },
+        {
+          "label": "19:47",
+          "score": 5
+        },
+        {
+          "label": "20:07",
+          "score": 5
+        },
+        {
+          "label": "20:27",
+          "score": 5
+        },
+        {
+          "label": "20:47",
+          "score": 5
+        },
+        {
+          "label": "21:07",
+          "score": 5
+        },
+        {
+          "label": "21:27",
+          "score": 5
+        },
+        {
+          "label": "21:47",
+          "score": 5
+        },
+        {
+          "label": "22:07",
+          "score": 5
+        },
+        {
+          "label": "22:27",
+          "score": 5
+        },
+        {
+          "label": "22:47",
+          "score": 5
+        },
+        {
+          "label": "23:07",
+          "score": 5
         },
         {
-          "label": "22:56",
+          "label": "23:27",
           "score": 5
         },
         {
-          "label": "23:16",
+          "label": "23:47",
           "score": 5
         },
         {
-          "label": "23:36",
+          "label": "00:07",
           "score": 5
         },
         {
-          "label": "23:56",
+          "label": "00:27",
           "score": 5
         },
         {
-          "label": "00:16",
+          "label": "00:47",
           "score": 5
         },
         {
-          "label": "00:36",
+          "label": "01:07",
           "score": 5
         },
         {
-          "label": "00:56",
+          "label": "01:27",
           "score": 5
         },
         {
-          "label": "01:16",
+          "label": "01:47",
           "score": 5
         },
         {
-          "label": "01:36",
+          "label": "02:07",
           "score": 5
         },
         {
-          "label": "01:56",
+          "label": "02:27",
           "score": 5
         },
         {
-          "label": "02:16",
+          "label": "02:47",
           "score": 5
         },
         {
-          "label": "02:36",
+          "label": "03:07",
           "score": 5
         },
         {
-          "label": "02:56",
+          "label": "03:27",
           "score": 5
         },
         {
-          "label": "03:16",
+          "label": "03:47",
           "score": 5
         },
         {
-          "label": "03:36",
+          "label": "04:07",
           "score": 5
         },
         {
-          "label": "03:56",
+          "label": "04:27",
           "score": 5
         },
         {
-          "label": "04:16",
+          "label": "04:47",
           "score": 5
         },
         {
-          "label": "04:36",
+          "label": "05:07",
           "score": 5
         },
         {
-          "label": "04:56",
+          "label": "05:27",
           "score": 5
         },
         {
-          "label": "05:16",
+          "label": "05:47",
           "score": 5
         },
         {
-          "label": "05:36",
+          "label": "06:07",
           "score": 5
         },
         {
-          "label": "05:56",
+          "label": "06:27",
           "score": 5
         },
         {
-          "label": "06:16",
+          "label": "06:47",
           "score": 5
         },
         {
-          "label": "06:36",
+          "label": "07:07",
           "score": 5
         },
         {
-          "label": "06:56",
+          "label": "07:27",
           "score": 5
         },
         {
-          "label": "07:16",
+          "label": "07:47",
           "score": 5
         },
         {
-          "label": "07:36",
+          "label": "08:07",
           "score": 5
         },
         {
-          "label": "07:56",
+          "label": "08:27",
           "score": 5
         },
         {
-          "label": "08:16",
+          "label": "08:47",
           "score": 5
         },
         {
-          "label": "08:36",
+          "label": "09:07",
           "score": 5
         },
         {
-          "label": "08:56",
+          "label": "09:27",
           "score": 5
         },
         {
-          "label": "09:16",
+          "label": "09:47",
           "score": 5
         },
         {
-          "label": "09:36",
+          "label": "10:07",
           "score": 5
         },
         {
-          "label": "09:56",
+          "label": "10:27",
           "score": 5
         },
         {
-          "label": "10:16",
+          "label": "10:47",
           "score": 5
         },
         {
-          "label": "10:36",
+          "label": "11:07",
           "score": 5
         },
         {
-          "label": "10:56",
+          "label": "11:27",
           "score": 5
         },
         {
-          "label": "11:16",
+          "label": "11:47",
           "score": 5
         },
         {
-          "label": "11:36",
+          "label": "12:07",
           "score": 5
         },
         {
-          "label": "11:56",
+          "label": "12:27",
           "score": 5
         },
         {
-          "label": "12:16",
+          "label": "12:47",
           "score": 5
         },
         {
-          "label": "12:36",
+          "label": "13:07",
           "score": 5
         },
         {
-          "label": "12:56",
+          "label": "13:27",
           "score": 5
         },
         {
-          "label": "13:16",
+          "label": "13:47",
           "score": 5
         },
         {
-          "label": "13:36",
+          "label": "14:07",
           "score": 5
         },
         {
-          "label": "13:56",
+          "label": "14:27",
           "score": 5
         },
         {
-          "label": "14:16",
+          "label": "14:47",
           "score": 5
         },
         {
-          "label": "14:36",
+          "label": "15:07",
           "score": 5
         },
         {
-          "label": "14:56",
+          "label": "15:27",
           "score": 5
         },
         {
-          "label": "15:16",
+          "label": "15:47",
           "score": 5
         },
         {
-          "label": "15:36",
+          "label": "16:07",
           "score": 5
         },
         {
-          "label": "15:56",
+          "label": "16:27",
           "score": 5
         },
         {
-          "label": "16:16",
+          "label": "16:47",
           "score": 5
         },
         {
-          "label": "16:36",
+          "label": "17:07",
           "score": 5
         },
         {
-          "label": "16:56",
+          "label": "17:27",
           "score": 5
         },
         {
-          "label": "17:16",
+          "label": "17:47",
           "score": 5
         },
         {
-          "label": "17:36",
+          "label": "18:07",
           "score": 5
         },
         {
-          "label": "17:56",
+          "label": "18:27",
           "score": 5
         },
         {
-          "label": "18:16",
+          "label": "18:47",
           "score": 5
         },
         {
-          "label": "18:36",
+          "label": "19:07",
           "score": 5
         }
       ],
       "7d": [
         {
-          "label": "15/08 18h",
+          "label": "15/08 19h",
           "score": 5
         },
         {
-          "label": "15/08 20h",
+          "label": "15/08 21h",
           "score": 5
         },
         {
-          "label": "15/08 22h",
+          "label": "15/08 23h",
           "score": 5
         },
         {
-          "label": "16/08 00h",
+          "label": "16/08 01h",
           "score": 5
         },
         {
-          "label": "16/08 02h",
+          "label": "16/08 03h",
           "score": 5
         },
         {
-          "label": "16/08 04h",
+          "label": "16/08 05h",
           "score": 5
         },
         {
-          "label": "16/08 06h",
+          "label": "16/08 07h",
           "score": 5
         },
         {
-          "label": "16/08 08h",
+          "label": "16/08 09h",
           "score": 5
         },
         {
-          "label": "16/08 10h",
+          "label": "16/08 11h",
           "score": 5
         },
         {
-          "label": "16/08 12h",
+          "label": "16/08 13h",
           "score": 5
         },
         {
-          "label": "16/08 14h",
+          "label": "16/08 15h",
           "score": 5
         },
         {
-          "label": "16/08 16h",
+          "label": "16/08 17h",
           "score": 5
         },
         {
-          "label": "16/08 18h",
+          "label": "16/08 19h",
           "score": 5
         },
         {
-          "label": "16/08 20h",
+          "label": "16/08 21h",
           "score": 5
         },
         {
-          "label": "16/08 22h",
+          "label": "16/08 23h",
           "score": 5
         },
         {
-          "label": "17/08 00h",
+          "label": "17/08 01h",
           "score": 5
         },
         {
-          "label": "17/08 02h",
+          "label": "17/08 03h",
           "score": 5
         },
         {
-          "label": "17/08 04h",
+          "label": "17/08 05h",
           "score": 5
         },
         {
-          "label": "17/08 06h",
+          "label": "17/08 07h",
           "score": 5
         },
         {
-          "label": "17/08 08h",
+          "label": "17/08 09h",
           "score": 5
         },
         {
-          "label": "17/08 10h",
+          "label": "17/08 11h",
           "score": 5
         },
         {
-          "label": "17/08 12h",
+          "label": "17/08 13h",
           "score": 5
         },
         {
-          "label": "17/08 14h",
+          "label": "17/08 15h",
           "score": 5
         },
         {
-          "label": "17/08 16h",
+          "label": "17/08 17h",
           "score": 5
         },
         {
-          "label": "17/08 18h",
+          "label": "17/08 19h",
           "score": 5
         },
         {
-          "label": "17/08 20h",
+          "label": "17/08 21h",
           "score": 5
         },
         {
-          "label": "17/08 22h",
+          "label": "17/08 23h",
           "score": 5
         },
         {
-          "label": "18/08 00h",
+          "label": "18/08 01h",
           "score": 5
         },
         {
-          "label": "18/08 02h",
+          "label": "18/08 03h",
           "score": 5
         },
         {
-          "label": "18/08 04h",
+          "label": "18/08 05h",
           "score": 5
         },
         {
-          "label": "18/08 06h",
+          "label": "18/08 07h",
           "score": 5
         },
         {
-          "label": "18/08 08h",
+          "label": "18/08 09h",
           "score": 5
         },
         {
-          "label": "18/08 10h",
+          "label": "18/08 11h",
           "score": 5
         },
         {
-          "label": "18/08 12h",
+          "label": "18/08 13h",
           "score": 5
         },
         {
-          "label": "18/08 14h",
+          "label": "18/08 15h",
           "score": 5
         },
         {
-          "label": "18/08 16h",
+          "label": "18/08 17h",
           "score": 5
         },
         {
-          "label": "18/08 18h",
+          "label": "18/08 19h",
           "score": 5
         },
         {
-          "label": "18/08 20h",
+          "label": "18/08 21h",
           "score": 5
         },
         {
-          "label": "18/08 22h",
+          "label": "18/08 23h",
           "score": 5
         },
         {
-          "label": "19/08 00h",
+          "label": "19/08 01h",
           "score": 5
         },
         {
-          "label": "19/08 02h",
+          "label": "19/08 03h",
           "score": 5
         },
         {
-          "label": "19/08 04h",
+          "label": "19/08 05h",
           "score": 5
         },
         {
-          "label": "19/08 06h",
+          "label": "19/08 07h",
           "score": 5
         },
         {
-          "label": "19/08 08h",
+          "label": "19/08 09h",
           "score": 5
         },
         {
-          "label": "19/08 10h",
+          "label": "19/08 11h",
           "score": 5
         },
         {
-          "label": "19/08 12h",
+          "label": "19/08 13h",
           "score": 5
         },
         {
-          "label": "19/08 14h",
+          "label": "19/08 15h",
           "score": 5
         },
         {
-          "label": "19/08 16h",
+          "label": "19/08 17h",
           "score": 5
         },
         {
-          "label": "19/08 18h",
+          "label": "19/08 19h",
           "score": 5
         },
         {
-          "label": "19/08 20h",
+          "label": "19/08 21h",
           "score": 5
         },
         {
-          "label": "19/08 22h",
+          "label": "19/08 23h",
           "score": 5
         },
         {
-          "label": "20/08 00h",
+          "label": "20/08 01h",
           "score": 5
         },
         {
-          "label": "20/08 02h",
+          "label": "20/08 03h",
           "score": 5
         },
         {
-          "label": "20/08 04h",
+          "label": "20/08 05h",
           "score": 5
         },
         {
-          "label": "20/08 06h",
+          "label": "20/08 07h",
           "score": 5
         },
         {
-          "label": "20/08 08h",
+          "label": "20/08 09h",
           "score": 5
         },
         {
-          "label": "20/08 10h",
+          "label": "20/08 11h",
           "score": 5
         },
         {
-          "label": "20/08 12h",
+          "label": "20/08 13h",
           "score": 5
         },
         {
-          "label": "20/08 14h",
+          "label": "20/08 15h",
           "score": 5
         },
         {
-          "label": "20/08 16h",
+          "label": "20/08 17h",
           "score": 5
         },
         {
-          "label": "20/08 18h",
+          "label": "20/08 19h",
           "score": 5
         },
         {
-          "label": "20/08 20h",
+          "label": "20/08 21h",
           "score": 5
         },
         {
-          "label": "20/08 22h",
+          "label": "20/08 23h",
           "score": 5
         },
         {
-          "label": "21/08 00h",
+          "label": "21/08 01h",
           "score": 5
         },
         {
-          "label": "21/08 02h",
+          "label": "21/08 03h",
           "score": 5
         },
         {
-          "label": "21/08 04h",
+          "label": "21/08 05h",
           "score": 5
         },
         {
-          "label": "21/08 06h",
+          "label": "21/08 07h",
           "score": 5
         },
         {
-          "label": "21/08 08h",
+          "label": "21/08 09h",
           "score": 5
         },
         {
-          "label": "21/08 10h",
+          "label": "21/08 11h",
           "score": 5
         },
         {
-          "label": "21/08 12h",
+          "label": "21/08 13h",
           "score": 5
         },
         {
-          "label": "21/08 14h",
+          "label": "21/08 15h",
           "score": 5
         },
         {
-          "label": "21/08 16h",
+          "label": "21/08 17h",
           "score": 5
         },
         {
-          "label": "21/08 18h",
+          "label": "21/08 19h",
           "score": 5
         },
         {
-          "label": "21/08 20h",
+          "label": "21/08 21h",
           "score": 5
         },
         {
-          "label": "21/08 22h",
+          "label": "21/08 23h",
           "score": 5
         },
         {
-          "label": "22/08 00h",
+          "label": "22/08 01h",
           "score": 5
         },
         {
-          "label": "22/08 02h",
+          "label": "22/08 03h",
           "score": 5
         },
         {
-          "label": "22/08 04h",
+          "label": "22/08 05h",
           "score": 5
         },
         {
-          "label": "22/08 06h",
+          "label": "22/08 07h",
           "score": 5
         },
         {
-          "label": "22/08 08h",
+          "label": "22/08 09h",
           "score": 5
         },
         {
-          "label": "22/08 10h",
+          "label": "22/08 11h",
           "score": 5
         },
         {
-          "label": "22/08 12h",
+          "label": "22/08 13h",
           "score": 5
         },
         {
-          "label": "22/08 14h",
+          "label": "22/08 15h",
           "score": 5
         },
         {
-          "label": "22/08 16h",
+          "label": "22/08 17h",
           "score": 5
         },
         {
-          "label": "22/08 18h",
+          "label": "22/08 19h",
           "score": 5
         }
       ],
@@ -4581,19 +4581,19 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "16/04/26",
-          "score": 35
+          "score": 43
         },
         {
           "label": "20/04/26",
-          "score": 81
+          "score": 91
         },
         {
           "label": "24/04/26",
-          "score": 38
+          "score": 40
         },
         {
           "label": "29/04/26",
-          "score": 75
+          "score": 72
         },
         {
           "label": "03/05/26",
@@ -4721,9 +4721,9 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Reversão à Média 51h (Z_LINK <= -2.00σ)",
     "trava_ruptura": "Trava Causal: Exige STE >= 0 e Ew < 50 (Caudas de Lévy)",
     "cooldown_horas": 4.0,
-    "valor_atual_str": "LINK R$ 59.53 (Z: +0.13σ)",
-    "alvo_str": "Preço <= R$ 54.31 (Z <= -2.0σ)",
-    "distancia_display": "+9.6% de distância",
+    "valor_atual_str": "LINK R$ 59.53 (Z: +0.11σ)",
+    "alvo_str": "Preço <= R$ 54.40 (Z <= -2.0σ)",
+    "distancia_display": "+9.4% de distância",
     "proximidade_score": 5,
     "status": "MONITORANDO_BANDA",
     "icone": "🌐",
@@ -4733,130 +4733,6 @@ window.PLANOS_TACTICAL_DATA = [
     "limitacoes_trava": "• <b>Trava de Caudas Pesadas:</b> Veto automático se a curtose empírica exceder 6.5 (Risco de Lévy).<br>• <b>Trava de Pânico:</b> Bloqueado se PC1 > 70%.",
     "series_historica": {
       "1h": [
-        {
-          "label": "17:36",
-          "score": 5
-        },
-        {
-          "label": "17:37",
-          "score": 5
-        },
-        {
-          "label": "17:38",
-          "score": 5
-        },
-        {
-          "label": "17:39",
-          "score": 5
-        },
-        {
-          "label": "17:40",
-          "score": 5
-        },
-        {
-          "label": "17:41",
-          "score": 5
-        },
-        {
-          "label": "17:42",
-          "score": 5
-        },
-        {
-          "label": "17:43",
-          "score": 5
-        },
-        {
-          "label": "17:44",
-          "score": 5
-        },
-        {
-          "label": "17:45",
-          "score": 5
-        },
-        {
-          "label": "17:46",
-          "score": 5
-        },
-        {
-          "label": "17:47",
-          "score": 5
-        },
-        {
-          "label": "17:48",
-          "score": 5
-        },
-        {
-          "label": "17:49",
-          "score": 5
-        },
-        {
-          "label": "17:50",
-          "score": 5
-        },
-        {
-          "label": "17:51",
-          "score": 5
-        },
-        {
-          "label": "17:52",
-          "score": 5
-        },
-        {
-          "label": "17:53",
-          "score": 5
-        },
-        {
-          "label": "17:54",
-          "score": 5
-        },
-        {
-          "label": "17:55",
-          "score": 5
-        },
-        {
-          "label": "17:56",
-          "score": 5
-        },
-        {
-          "label": "17:57",
-          "score": 5
-        },
-        {
-          "label": "17:58",
-          "score": 5
-        },
-        {
-          "label": "17:59",
-          "score": 5
-        },
-        {
-          "label": "18:00",
-          "score": 5
-        },
-        {
-          "label": "18:01",
-          "score": 5
-        },
-        {
-          "label": "18:02",
-          "score": 5
-        },
-        {
-          "label": "18:03",
-          "score": 5
-        },
-        {
-          "label": "18:04",
-          "score": 5
-        },
-        {
-          "label": "18:05",
-          "score": 5
-        },
-        {
-          "label": "18:06",
-          "score": 5
-        },
         {
           "label": "18:07",
           "score": 5
@@ -4976,11 +4852,81 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "18:36",
           "score": 5
-        }
-      ],
-      "24h": [
+        },
         {
-          "label": "18:36",
+          "label": "18:37",
+          "score": 5
+        },
+        {
+          "label": "18:38",
+          "score": 5
+        },
+        {
+          "label": "18:39",
+          "score": 5
+        },
+        {
+          "label": "18:40",
+          "score": 5
+        },
+        {
+          "label": "18:41",
+          "score": 5
+        },
+        {
+          "label": "18:42",
+          "score": 5
+        },
+        {
+          "label": "18:43",
+          "score": 5
+        },
+        {
+          "label": "18:44",
+          "score": 5
+        },
+        {
+          "label": "18:45",
+          "score": 5
+        },
+        {
+          "label": "18:46",
+          "score": 5
+        },
+        {
+          "label": "18:47",
+          "score": 5
+        },
+        {
+          "label": "18:48",
+          "score": 5
+        },
+        {
+          "label": "18:49",
+          "score": 5
+        },
+        {
+          "label": "18:50",
+          "score": 5
+        },
+        {
+          "label": "18:51",
+          "score": 5
+        },
+        {
+          "label": "18:52",
+          "score": 5
+        },
+        {
+          "label": "18:53",
+          "score": 5
+        },
+        {
+          "label": "18:54",
+          "score": 5
+        },
+        {
+          "label": "18:55",
           "score": 5
         },
         {
@@ -4988,629 +4934,683 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 5
         },
         {
-          "label": "19:16",
+          "label": "18:57",
           "score": 5
         },
         {
-          "label": "19:36",
+          "label": "18:58",
           "score": 5
         },
         {
-          "label": "19:56",
+          "label": "18:59",
           "score": 5
         },
         {
-          "label": "20:16",
+          "label": "19:00",
           "score": 5
         },
         {
-          "label": "20:36",
+          "label": "19:01",
           "score": 5
         },
         {
-          "label": "20:56",
+          "label": "19:02",
           "score": 5
         },
         {
-          "label": "21:16",
+          "label": "19:03",
           "score": 5
         },
         {
-          "label": "21:36",
+          "label": "19:04",
           "score": 5
         },
         {
-          "label": "21:56",
+          "label": "19:05",
           "score": 5
         },
         {
-          "label": "22:16",
+          "label": "19:06",
           "score": 5
         },
         {
-          "label": "22:36",
+          "label": "19:07",
           "score": 5
+        }
+      ],
+      "24h": [
+        {
+          "label": "19:07",
+          "score": 5
+        },
+        {
+          "label": "19:27",
+          "score": 5
+        },
+        {
+          "label": "19:47",
+          "score": 5
+        },
+        {
+          "label": "20:07",
+          "score": 5
+        },
+        {
+          "label": "20:27",
+          "score": 5
+        },
+        {
+          "label": "20:47",
+          "score": 5
+        },
+        {
+          "label": "21:07",
+          "score": 5
+        },
+        {
+          "label": "21:27",
+          "score": 5
+        },
+        {
+          "label": "21:47",
+          "score": 5
+        },
+        {
+          "label": "22:07",
+          "score": 5
+        },
+        {
+          "label": "22:27",
+          "score": 5
+        },
+        {
+          "label": "22:47",
+          "score": 5
+        },
+        {
+          "label": "23:07",
+          "score": 5
         },
         {
-          "label": "22:56",
+          "label": "23:27",
           "score": 5
         },
         {
-          "label": "23:16",
+          "label": "23:47",
           "score": 5
         },
         {
-          "label": "23:36",
+          "label": "00:07",
           "score": 5
         },
         {
-          "label": "23:56",
+          "label": "00:27",
           "score": 5
         },
         {
-          "label": "00:16",
+          "label": "00:47",
           "score": 5
         },
         {
-          "label": "00:36",
+          "label": "01:07",
           "score": 5
         },
         {
-          "label": "00:56",
+          "label": "01:27",
           "score": 5
         },
         {
-          "label": "01:16",
+          "label": "01:47",
           "score": 5
         },
         {
-          "label": "01:36",
+          "label": "02:07",
           "score": 5
         },
         {
-          "label": "01:56",
+          "label": "02:27",
           "score": 5
         },
         {
-          "label": "02:16",
+          "label": "02:47",
           "score": 5
         },
         {
-          "label": "02:36",
+          "label": "03:07",
           "score": 5
         },
         {
-          "label": "02:56",
+          "label": "03:27",
           "score": 5
         },
         {
-          "label": "03:16",
+          "label": "03:47",
           "score": 5
         },
         {
-          "label": "03:36",
+          "label": "04:07",
           "score": 5
         },
         {
-          "label": "03:56",
+          "label": "04:27",
           "score": 5
         },
         {
-          "label": "04:16",
+          "label": "04:47",
           "score": 5
         },
         {
-          "label": "04:36",
+          "label": "05:07",
           "score": 5
         },
         {
-          "label": "04:56",
+          "label": "05:27",
           "score": 5
         },
         {
-          "label": "05:16",
+          "label": "05:47",
           "score": 5
         },
         {
-          "label": "05:36",
+          "label": "06:07",
           "score": 5
         },
         {
-          "label": "05:56",
+          "label": "06:27",
           "score": 5
         },
         {
-          "label": "06:16",
+          "label": "06:47",
           "score": 5
         },
         {
-          "label": "06:36",
+          "label": "07:07",
           "score": 5
         },
         {
-          "label": "06:56",
+          "label": "07:27",
           "score": 5
         },
         {
-          "label": "07:16",
+          "label": "07:47",
           "score": 5
         },
         {
-          "label": "07:36",
+          "label": "08:07",
           "score": 5
         },
         {
-          "label": "07:56",
+          "label": "08:27",
           "score": 5
         },
         {
-          "label": "08:16",
+          "label": "08:47",
           "score": 5
         },
         {
-          "label": "08:36",
+          "label": "09:07",
           "score": 5
         },
         {
-          "label": "08:56",
+          "label": "09:27",
           "score": 5
         },
         {
-          "label": "09:16",
+          "label": "09:47",
           "score": 5
         },
         {
-          "label": "09:36",
+          "label": "10:07",
           "score": 5
         },
         {
-          "label": "09:56",
+          "label": "10:27",
           "score": 5
         },
         {
-          "label": "10:16",
+          "label": "10:47",
           "score": 5
         },
         {
-          "label": "10:36",
+          "label": "11:07",
           "score": 5
         },
         {
-          "label": "10:56",
+          "label": "11:27",
           "score": 5
         },
         {
-          "label": "11:16",
+          "label": "11:47",
           "score": 5
         },
         {
-          "label": "11:36",
+          "label": "12:07",
           "score": 5
         },
         {
-          "label": "11:56",
+          "label": "12:27",
           "score": 5
         },
         {
-          "label": "12:16",
+          "label": "12:47",
           "score": 5
         },
         {
-          "label": "12:36",
+          "label": "13:07",
           "score": 5
         },
         {
-          "label": "12:56",
+          "label": "13:27",
           "score": 5
         },
         {
-          "label": "13:16",
+          "label": "13:47",
           "score": 5
         },
         {
-          "label": "13:36",
+          "label": "14:07",
           "score": 5
         },
         {
-          "label": "13:56",
+          "label": "14:27",
           "score": 5
         },
         {
-          "label": "14:16",
+          "label": "14:47",
           "score": 5
         },
         {
-          "label": "14:36",
+          "label": "15:07",
           "score": 5
         },
         {
-          "label": "14:56",
+          "label": "15:27",
           "score": 5
         },
         {
-          "label": "15:16",
+          "label": "15:47",
           "score": 5
         },
         {
-          "label": "15:36",
+          "label": "16:07",
           "score": 5
         },
         {
-          "label": "15:56",
+          "label": "16:27",
           "score": 5
         },
         {
-          "label": "16:16",
+          "label": "16:47",
           "score": 5
         },
         {
-          "label": "16:36",
+          "label": "17:07",
           "score": 5
         },
         {
-          "label": "16:56",
+          "label": "17:27",
           "score": 5
         },
         {
-          "label": "17:16",
+          "label": "17:47",
           "score": 5
         },
         {
-          "label": "17:36",
+          "label": "18:07",
           "score": 5
         },
         {
-          "label": "17:56",
+          "label": "18:27",
           "score": 5
         },
         {
-          "label": "18:16",
+          "label": "18:47",
           "score": 5
         },
         {
-          "label": "18:36",
+          "label": "19:07",
           "score": 5
         }
       ],
       "7d": [
         {
-          "label": "15/08 18h",
+          "label": "15/08 19h",
           "score": 5
         },
         {
-          "label": "15/08 20h",
+          "label": "15/08 21h",
           "score": 5
         },
         {
-          "label": "15/08 22h",
+          "label": "15/08 23h",
           "score": 5
         },
         {
-          "label": "16/08 00h",
+          "label": "16/08 01h",
           "score": 5
         },
         {
-          "label": "16/08 02h",
+          "label": "16/08 03h",
           "score": 5
         },
         {
-          "label": "16/08 04h",
+          "label": "16/08 05h",
           "score": 5
         },
         {
-          "label": "16/08 06h",
+          "label": "16/08 07h",
           "score": 5
         },
         {
-          "label": "16/08 08h",
+          "label": "16/08 09h",
           "score": 5
         },
         {
-          "label": "16/08 10h",
+          "label": "16/08 11h",
           "score": 5
         },
         {
-          "label": "16/08 12h",
+          "label": "16/08 13h",
           "score": 5
         },
         {
-          "label": "16/08 14h",
+          "label": "16/08 15h",
           "score": 5
         },
         {
-          "label": "16/08 16h",
+          "label": "16/08 17h",
           "score": 5
         },
         {
-          "label": "16/08 18h",
+          "label": "16/08 19h",
           "score": 5
         },
         {
-          "label": "16/08 20h",
+          "label": "16/08 21h",
           "score": 5
         },
         {
-          "label": "16/08 22h",
-          "score": 10
+          "label": "16/08 23h",
+          "score": 5
         },
         {
-          "label": "17/08 00h",
+          "label": "17/08 01h",
           "score": 5
         },
         {
-          "label": "17/08 02h",
+          "label": "17/08 03h",
           "score": 5
         },
         {
-          "label": "17/08 04h",
+          "label": "17/08 05h",
           "score": 5
         },
         {
-          "label": "17/08 06h",
+          "label": "17/08 07h",
           "score": 5
         },
         {
-          "label": "17/08 08h",
-          "score": 31
+          "label": "17/08 09h",
+          "score": 27
         },
         {
-          "label": "17/08 10h",
+          "label": "17/08 11h",
           "score": 5
         },
         {
-          "label": "17/08 12h",
+          "label": "17/08 13h",
           "score": 5
         },
         {
-          "label": "17/08 14h",
-          "score": 38
+          "label": "17/08 15h",
+          "score": 5
         },
         {
-          "label": "17/08 16h",
+          "label": "17/08 17h",
           "score": 5
         },
         {
-          "label": "17/08 18h",
-          "score": 5
+          "label": "17/08 19h",
+          "score": 6
         },
         {
-          "label": "17/08 20h",
-          "score": 15
+          "label": "17/08 21h",
+          "score": 14
         },
         {
-          "label": "17/08 22h",
+          "label": "17/08 23h",
           "score": 5
         },
         {
-          "label": "18/08 00h",
+          "label": "18/08 01h",
           "score": 5
         },
         {
-          "label": "18/08 02h",
-          "score": 65
+          "label": "18/08 03h",
+          "score": 83
         },
         {
-          "label": "18/08 04h",
-          "score": 20
+          "label": "18/08 05h",
+          "score": 19
         },
         {
-          "label": "18/08 06h",
-          "score": 5
+          "label": "18/08 07h",
+          "score": 14
         },
         {
-          "label": "18/08 08h",
-          "score": 37
+          "label": "18/08 09h",
+          "score": 12
         },
         {
-          "label": "18/08 10h",
+          "label": "18/08 11h",
           "score": 5
         },
         {
-          "label": "18/08 12h",
-          "score": 37
+          "label": "18/08 13h",
+          "score": 52
         },
         {
-          "label": "18/08 14h",
-          "score": 15
+          "label": "18/08 15h",
+          "score": 5
         },
         {
-          "label": "18/08 16h",
+          "label": "18/08 17h",
           "score": 5
         },
         {
-          "label": "18/08 18h",
+          "label": "18/08 19h",
           "score": 5
         },
         {
-          "label": "18/08 20h",
+          "label": "18/08 21h",
           "score": 5
         },
         {
-          "label": "18/08 22h",
+          "label": "18/08 23h",
           "score": 5
         },
         {
-          "label": "19/08 00h",
+          "label": "19/08 01h",
           "score": 5
         },
         {
-          "label": "19/08 02h",
+          "label": "19/08 03h",
           "score": 5
         },
         {
-          "label": "19/08 04h",
+          "label": "19/08 05h",
           "score": 5
         },
         {
-          "label": "19/08 06h",
+          "label": "19/08 07h",
           "score": 5
         },
         {
-          "label": "19/08 08h",
+          "label": "19/08 09h",
           "score": 5
         },
         {
-          "label": "19/08 10h",
+          "label": "19/08 11h",
           "score": 5
         },
         {
-          "label": "19/08 12h",
+          "label": "19/08 13h",
           "score": 5
         },
         {
-          "label": "19/08 14h",
+          "label": "19/08 15h",
           "score": 5
         },
         {
-          "label": "19/08 16h",
+          "label": "19/08 17h",
           "score": 5
         },
         {
-          "label": "19/08 18h",
+          "label": "19/08 19h",
           "score": 5
         },
         {
-          "label": "19/08 20h",
+          "label": "19/08 21h",
           "score": 5
         },
         {
-          "label": "19/08 22h",
+          "label": "19/08 23h",
           "score": 5
         },
         {
-          "label": "20/08 00h",
+          "label": "20/08 01h",
           "score": 5
         },
         {
-          "label": "20/08 02h",
+          "label": "20/08 03h",
           "score": 5
         },
         {
-          "label": "20/08 04h",
+          "label": "20/08 05h",
           "score": 5
         },
         {
-          "label": "20/08 06h",
+          "label": "20/08 07h",
           "score": 5
         },
         {
-          "label": "20/08 08h",
+          "label": "20/08 09h",
           "score": 5
         },
         {
-          "label": "20/08 10h",
+          "label": "20/08 11h",
           "score": 5
         },
         {
-          "label": "20/08 12h",
+          "label": "20/08 13h",
           "score": 5
         },
         {
-          "label": "20/08 14h",
+          "label": "20/08 15h",
           "score": 5
         },
         {
-          "label": "20/08 16h",
+          "label": "20/08 17h",
           "score": 5
         },
         {
-          "label": "20/08 18h",
+          "label": "20/08 19h",
           "score": 5
         },
         {
-          "label": "20/08 20h",
+          "label": "20/08 21h",
           "score": 5
         },
         {
-          "label": "20/08 22h",
+          "label": "20/08 23h",
           "score": 5
         },
         {
-          "label": "21/08 00h",
+          "label": "21/08 01h",
           "score": 5
         },
         {
-          "label": "21/08 02h",
+          "label": "21/08 03h",
           "score": 5
         },
         {
-          "label": "21/08 04h",
+          "label": "21/08 05h",
           "score": 5
         },
         {
-          "label": "21/08 06h",
+          "label": "21/08 07h",
           "score": 5
         },
         {
-          "label": "21/08 08h",
+          "label": "21/08 09h",
           "score": 5
         },
         {
-          "label": "21/08 10h",
+          "label": "21/08 11h",
           "score": 5
         },
         {
-          "label": "21/08 12h",
+          "label": "21/08 13h",
           "score": 5
         },
         {
-          "label": "21/08 14h",
+          "label": "21/08 15h",
           "score": 5
         },
         {
-          "label": "21/08 16h",
+          "label": "21/08 17h",
           "score": 5
         },
         {
-          "label": "21/08 18h",
+          "label": "21/08 19h",
           "score": 5
         },
         {
-          "label": "21/08 20h",
+          "label": "21/08 21h",
           "score": 5
         },
         {
-          "label": "21/08 22h",
+          "label": "21/08 23h",
           "score": 5
         },
         {
-          "label": "22/08 00h",
+          "label": "22/08 01h",
           "score": 5
         },
         {
-          "label": "22/08 02h",
+          "label": "22/08 03h",
           "score": 5
         },
         {
-          "label": "22/08 04h",
-          "score": 5
+          "label": "22/08 05h",
+          "score": 9
         },
         {
-          "label": "22/08 06h",
+          "label": "22/08 07h",
           "score": 5
         },
         {
-          "label": "22/08 08h",
+          "label": "22/08 09h",
           "score": 5
         },
         {
-          "label": "22/08 10h",
+          "label": "22/08 11h",
           "score": 5
         },
         {
-          "label": "22/08 12h",
+          "label": "22/08 13h",
           "score": 5
         },
         {
-          "label": "22/08 14h",
+          "label": "22/08 15h",
           "score": 5
         },
         {
-          "label": "22/08 16h",
+          "label": "22/08 17h",
           "score": 5
         },
         {
-          "label": "22/08 18h",
+          "label": "22/08 19h",
           "score": 5
         }
       ],
@@ -5621,23 +5621,23 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "24/07",
-          "score": 82
+          "score": 93
         },
         {
           "label": "24/07",
-          "score": 46
+          "score": 44
         },
         {
           "label": "24/07",
-          "score": 97
+          "score": 95
         },
         {
           "label": "25/07",
-          "score": 66
+          "score": 65
         },
         {
           "label": "25/07",
-          "score": 81
+          "score": 79
         },
         {
           "label": "25/07",
@@ -5669,19 +5669,19 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "28/07",
-          "score": 78
+          "score": 80
         },
         {
           "label": "28/07",
-          "score": 74
+          "score": 80
         },
         {
           "label": "28/07",
-          "score": 55
+          "score": 54
         },
         {
           "label": "29/07",
-          "score": 14
+          "score": 15
         },
         {
           "label": "29/07",
@@ -5689,7 +5689,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "29/07",
-          "score": 7
+          "score": 43
         },
         {
           "label": "30/07",
@@ -5705,27 +5705,27 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "31/07",
-          "score": 40
+          "score": 60
         },
         {
           "label": "31/07",
-          "score": 90
+          "score": 88
         },
         {
           "label": "31/07",
-          "score": 89
+          "score": 91
         },
         {
           "label": "01/08",
-          "score": 42
+          "score": 39
         },
         {
           "label": "01/08",
-          "score": 72
+          "score": 75
         },
         {
           "label": "01/08",
-          "score": 98
+          "score": 87
         },
         {
           "label": "02/08",
@@ -5753,11 +5753,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "04/08",
-          "score": 42
+          "score": 70
         },
         {
           "label": "04/08",
-          "score": 63
+          "score": 41
         },
         {
           "label": "04/08",
@@ -5765,77 +5765,77 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "05/08",
-          "score": 5
-        },
-        {
-          "label": "05/08",
-          "score": 5
-        },
-        {
-          "label": "05/08",
-          "score": 5
-        },
-        {
-          "label": "06/08",
-          "score": 56
-        },
-        {
-          "label": "06/08",
-          "score": 76
-        },
-        {
-          "label": "06/08",
-          "score": 5
-        },
-        {
-          "label": "07/08",
-          "score": 5
-        },
-        {
-          "label": "07/08",
-          "score": 5
-        },
-        {
-          "label": "07/08",
-          "score": 80
-        },
-        {
-          "label": "08/08",
-          "score": 44
-        },
-        {
-          "label": "08/08",
-          "score": 5
-        },
-        {
-          "label": "08/08",
-          "score": 5
-        },
-        {
-          "label": "09/08",
-          "score": 5
-        },
-        {
-          "label": "09/08",
-          "score": 5
-        },
-        {
-          "label": "09/08",
-          "score": 5
-        },
-        {
-          "label": "10/08",
-          "score": 83
-        },
-        {
-          "label": "10/08",
-          "score": 38
-        },
-        {
-          "label": "10/08",
           "score": 19
         },
         {
+          "label": "05/08",
+          "score": 5
+        },
+        {
+          "label": "05/08",
+          "score": 5
+        },
+        {
+          "label": "06/08",
+          "score": 51
+        },
+        {
+          "label": "06/08",
+          "score": 27
+        },
+        {
+          "label": "06/08",
+          "score": 5
+        },
+        {
+          "label": "07/08",
+          "score": 5
+        },
+        {
+          "label": "07/08",
+          "score": 5
+        },
+        {
+          "label": "07/08",
+          "score": 5
+        },
+        {
+          "label": "08/08",
+          "score": 5
+        },
+        {
+          "label": "08/08",
+          "score": 5
+        },
+        {
+          "label": "08/08",
+          "score": 5
+        },
+        {
+          "label": "09/08",
+          "score": 5
+        },
+        {
+          "label": "09/08",
+          "score": 5
+        },
+        {
+          "label": "09/08",
+          "score": 5
+        },
+        {
+          "label": "10/08",
+          "score": 98
+        },
+        {
+          "label": "10/08",
+          "score": 5
+        },
+        {
+          "label": "10/08",
+          "score": 5
+        },
+        {
           "label": "11/08",
           "score": 5
         },
@@ -5917,15 +5917,15 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "17/08",
-          "score": 6
+          "score": 14
         },
         {
           "label": "18/08",
-          "score": 83
+          "score": 74
         },
         {
           "label": "18/08",
-          "score": 5
+          "score": 16
         },
         {
           "label": "18/08",
@@ -5987,11 +5987,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "26/08/25",
-          "score": 15
+          "score": 22
         },
         {
           "label": "30/08/25",
-          "score": 20
+          "score": 22
         },
         {
           "label": "03/09/25",
@@ -5999,7 +5999,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "07/09/25",
-          "score": 28
+          "score": 33
         },
         {
           "label": "11/09/25",
@@ -6011,11 +6011,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "19/09/25",
-          "score": 64
+          "score": 67
         },
         {
           "label": "23/09/25",
-          "score": 18
+          "score": 43
         },
         {
           "label": "27/09/25",
@@ -6027,11 +6027,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "05/10/25",
-          "score": 29
+          "score": 58
         },
         {
           "label": "09/10/25",
-          "score": 42
+          "score": 38
         },
         {
           "label": "13/10/25",
@@ -6039,11 +6039,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "17/10/25",
-          "score": 85
+          "score": 74
         },
         {
           "label": "21/10/25",
-          "score": 5
+          "score": 26
         },
         {
           "label": "25/10/25",
@@ -6055,11 +6055,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "02/11/25",
-          "score": 79
+          "score": 44
         },
         {
           "label": "06/11/25",
-          "score": 34
+          "score": 61
         },
         {
           "label": "10/11/25",
@@ -6071,7 +6071,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "07/12/25",
-          "score": 98
+          "score": 75
         },
         {
           "label": "18/01/26",
@@ -6115,7 +6115,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "07/03/26",
-          "score": 72
+          "score": 77
         },
         {
           "label": "11/03/26",
@@ -6127,7 +6127,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "20/03/26",
-          "score": 12
+          "score": 5
         },
         {
           "label": "25/03/26",
@@ -6171,15 +6171,15 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "07/05/26",
-          "score": 12
+          "score": 18
         },
         {
           "label": "13/05/26",
-          "score": 71
+          "score": 69
         },
         {
           "label": "17/05/26",
-          "score": 65
+          "score": 98
         },
         {
           "label": "22/05/26",
@@ -6195,7 +6195,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "04/06/26",
-          "score": 44
+          "score": 58
         },
         {
           "label": "08/06/26",
@@ -6215,7 +6215,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "24/06/26",
-          "score": 47
+          "score": 48
         },
         {
           "label": "28/06/26",
@@ -6231,15 +6231,15 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "10/07/26",
-          "score": 25
-        },
-        {
-          "label": "14/07/26",
           "score": 5
         },
         {
+          "label": "14/07/26",
+          "score": 14
+        },
+        {
           "label": "18/07/26",
-          "score": 23
+          "score": 14
         },
         {
           "label": "22/07/26",
@@ -6293,7 +6293,7 @@ window.PLANOS_TACTICAL_DATA = [
     "cooldown_horas": 4.0,
     "valor_atual_str": "SOL/BTC = 0.00121",
     "alvo_str": "Ratio <= 0.00207",
-    "distancia_display": "-41.6% de descolamento",
+    "distancia_display": "-41.4% de descolamento",
     "proximidade_score": 98,
     "status": "SENTINELA_CICLICA",
     "icone": "🪐",
@@ -6303,130 +6303,6 @@ window.PLANOS_TACTICAL_DATA = [
     "limitacoes_trava": "• <b>Trava de Ruptura de Rede:</b> Bloqueia compras se houver interrupção técnica no cluster Solana.<br>• <b>Trava de Pânico Sistêmico:</b> Abortado se PC1 > 70%.",
     "series_historica": {
       "1h": [
-        {
-          "label": "17:36",
-          "score": 98
-        },
-        {
-          "label": "17:37",
-          "score": 98
-        },
-        {
-          "label": "17:38",
-          "score": 98
-        },
-        {
-          "label": "17:39",
-          "score": 98
-        },
-        {
-          "label": "17:40",
-          "score": 98
-        },
-        {
-          "label": "17:41",
-          "score": 98
-        },
-        {
-          "label": "17:42",
-          "score": 98
-        },
-        {
-          "label": "17:43",
-          "score": 98
-        },
-        {
-          "label": "17:44",
-          "score": 98
-        },
-        {
-          "label": "17:45",
-          "score": 98
-        },
-        {
-          "label": "17:46",
-          "score": 98
-        },
-        {
-          "label": "17:47",
-          "score": 98
-        },
-        {
-          "label": "17:48",
-          "score": 98
-        },
-        {
-          "label": "17:49",
-          "score": 98
-        },
-        {
-          "label": "17:50",
-          "score": 98
-        },
-        {
-          "label": "17:51",
-          "score": 98
-        },
-        {
-          "label": "17:52",
-          "score": 98
-        },
-        {
-          "label": "17:53",
-          "score": 98
-        },
-        {
-          "label": "17:54",
-          "score": 98
-        },
-        {
-          "label": "17:55",
-          "score": 98
-        },
-        {
-          "label": "17:56",
-          "score": 98
-        },
-        {
-          "label": "17:57",
-          "score": 98
-        },
-        {
-          "label": "17:58",
-          "score": 98
-        },
-        {
-          "label": "17:59",
-          "score": 98
-        },
-        {
-          "label": "18:00",
-          "score": 98
-        },
-        {
-          "label": "18:01",
-          "score": 98
-        },
-        {
-          "label": "18:02",
-          "score": 98
-        },
-        {
-          "label": "18:03",
-          "score": 98
-        },
-        {
-          "label": "18:04",
-          "score": 98
-        },
-        {
-          "label": "18:05",
-          "score": 98
-        },
-        {
-          "label": "18:06",
-          "score": 98
-        },
         {
           "label": "18:07",
           "score": 98
@@ -6546,11 +6422,81 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "18:36",
           "score": 98
-        }
-      ],
-      "24h": [
+        },
         {
-          "label": "18:36",
+          "label": "18:37",
+          "score": 98
+        },
+        {
+          "label": "18:38",
+          "score": 98
+        },
+        {
+          "label": "18:39",
+          "score": 98
+        },
+        {
+          "label": "18:40",
+          "score": 98
+        },
+        {
+          "label": "18:41",
+          "score": 98
+        },
+        {
+          "label": "18:42",
+          "score": 98
+        },
+        {
+          "label": "18:43",
+          "score": 98
+        },
+        {
+          "label": "18:44",
+          "score": 98
+        },
+        {
+          "label": "18:45",
+          "score": 98
+        },
+        {
+          "label": "18:46",
+          "score": 98
+        },
+        {
+          "label": "18:47",
+          "score": 98
+        },
+        {
+          "label": "18:48",
+          "score": 98
+        },
+        {
+          "label": "18:49",
+          "score": 98
+        },
+        {
+          "label": "18:50",
+          "score": 98
+        },
+        {
+          "label": "18:51",
+          "score": 98
+        },
+        {
+          "label": "18:52",
+          "score": 98
+        },
+        {
+          "label": "18:53",
+          "score": 98
+        },
+        {
+          "label": "18:54",
+          "score": 98
+        },
+        {
+          "label": "18:55",
           "score": 98
         },
         {
@@ -6558,629 +6504,683 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 98
         },
         {
-          "label": "19:16",
+          "label": "18:57",
           "score": 98
         },
         {
-          "label": "19:36",
+          "label": "18:58",
           "score": 98
         },
         {
-          "label": "19:56",
+          "label": "18:59",
           "score": 98
         },
         {
-          "label": "20:16",
+          "label": "19:00",
           "score": 98
         },
         {
-          "label": "20:36",
+          "label": "19:01",
           "score": 98
         },
         {
-          "label": "20:56",
+          "label": "19:02",
           "score": 98
         },
         {
-          "label": "21:16",
+          "label": "19:03",
           "score": 98
         },
         {
-          "label": "21:36",
+          "label": "19:04",
           "score": 98
         },
         {
-          "label": "21:56",
+          "label": "19:05",
           "score": 98
         },
         {
-          "label": "22:16",
+          "label": "19:06",
           "score": 98
         },
         {
-          "label": "22:36",
+          "label": "19:07",
           "score": 98
+        }
+      ],
+      "24h": [
+        {
+          "label": "19:07",
+          "score": 98
+        },
+        {
+          "label": "19:27",
+          "score": 98
+        },
+        {
+          "label": "19:47",
+          "score": 98
+        },
+        {
+          "label": "20:07",
+          "score": 98
+        },
+        {
+          "label": "20:27",
+          "score": 98
+        },
+        {
+          "label": "20:47",
+          "score": 98
+        },
+        {
+          "label": "21:07",
+          "score": 98
+        },
+        {
+          "label": "21:27",
+          "score": 98
+        },
+        {
+          "label": "21:47",
+          "score": 98
+        },
+        {
+          "label": "22:07",
+          "score": 98
+        },
+        {
+          "label": "22:27",
+          "score": 98
+        },
+        {
+          "label": "22:47",
+          "score": 98
+        },
+        {
+          "label": "23:07",
+          "score": 98
         },
         {
-          "label": "22:56",
+          "label": "23:27",
           "score": 98
         },
         {
-          "label": "23:16",
+          "label": "23:47",
           "score": 98
         },
         {
-          "label": "23:36",
+          "label": "00:07",
           "score": 98
         },
         {
-          "label": "23:56",
+          "label": "00:27",
           "score": 98
         },
         {
-          "label": "00:16",
+          "label": "00:47",
           "score": 98
         },
         {
-          "label": "00:36",
+          "label": "01:07",
           "score": 98
         },
         {
-          "label": "00:56",
+          "label": "01:27",
           "score": 98
         },
         {
-          "label": "01:16",
+          "label": "01:47",
           "score": 98
         },
         {
-          "label": "01:36",
+          "label": "02:07",
           "score": 98
         },
         {
-          "label": "01:56",
+          "label": "02:27",
           "score": 98
         },
         {
-          "label": "02:16",
+          "label": "02:47",
           "score": 98
         },
         {
-          "label": "02:36",
+          "label": "03:07",
           "score": 98
         },
         {
-          "label": "02:56",
+          "label": "03:27",
           "score": 98
         },
         {
-          "label": "03:16",
+          "label": "03:47",
           "score": 98
         },
         {
-          "label": "03:36",
+          "label": "04:07",
           "score": 98
         },
         {
-          "label": "03:56",
+          "label": "04:27",
           "score": 98
         },
         {
-          "label": "04:16",
+          "label": "04:47",
           "score": 98
         },
         {
-          "label": "04:36",
+          "label": "05:07",
           "score": 98
         },
         {
-          "label": "04:56",
+          "label": "05:27",
           "score": 98
         },
         {
-          "label": "05:16",
+          "label": "05:47",
           "score": 98
         },
         {
-          "label": "05:36",
+          "label": "06:07",
           "score": 98
         },
         {
-          "label": "05:56",
+          "label": "06:27",
           "score": 98
         },
         {
-          "label": "06:16",
+          "label": "06:47",
           "score": 98
         },
         {
-          "label": "06:36",
+          "label": "07:07",
           "score": 98
         },
         {
-          "label": "06:56",
+          "label": "07:27",
           "score": 98
         },
         {
-          "label": "07:16",
+          "label": "07:47",
           "score": 98
         },
         {
-          "label": "07:36",
+          "label": "08:07",
           "score": 98
         },
         {
-          "label": "07:56",
+          "label": "08:27",
           "score": 98
         },
         {
-          "label": "08:16",
+          "label": "08:47",
           "score": 98
         },
         {
-          "label": "08:36",
+          "label": "09:07",
           "score": 98
         },
         {
-          "label": "08:56",
+          "label": "09:27",
           "score": 98
         },
         {
-          "label": "09:16",
+          "label": "09:47",
           "score": 98
         },
         {
-          "label": "09:36",
+          "label": "10:07",
           "score": 98
         },
         {
-          "label": "09:56",
+          "label": "10:27",
           "score": 98
         },
         {
-          "label": "10:16",
+          "label": "10:47",
           "score": 98
         },
         {
-          "label": "10:36",
+          "label": "11:07",
           "score": 98
         },
         {
-          "label": "10:56",
+          "label": "11:27",
           "score": 98
         },
         {
-          "label": "11:16",
+          "label": "11:47",
           "score": 98
         },
         {
-          "label": "11:36",
+          "label": "12:07",
           "score": 98
         },
         {
-          "label": "11:56",
+          "label": "12:27",
           "score": 98
         },
         {
-          "label": "12:16",
+          "label": "12:47",
           "score": 98
         },
         {
-          "label": "12:36",
+          "label": "13:07",
           "score": 98
         },
         {
-          "label": "12:56",
+          "label": "13:27",
           "score": 98
         },
         {
-          "label": "13:16",
+          "label": "13:47",
           "score": 98
         },
         {
-          "label": "13:36",
+          "label": "14:07",
           "score": 98
         },
         {
-          "label": "13:56",
+          "label": "14:27",
           "score": 98
         },
         {
-          "label": "14:16",
+          "label": "14:47",
           "score": 98
         },
         {
-          "label": "14:36",
+          "label": "15:07",
           "score": 98
         },
         {
-          "label": "14:56",
+          "label": "15:27",
           "score": 98
         },
         {
-          "label": "15:16",
+          "label": "15:47",
           "score": 98
         },
         {
-          "label": "15:36",
+          "label": "16:07",
           "score": 98
         },
         {
-          "label": "15:56",
+          "label": "16:27",
           "score": 98
         },
         {
-          "label": "16:16",
+          "label": "16:47",
           "score": 98
         },
         {
-          "label": "16:36",
+          "label": "17:07",
           "score": 98
         },
         {
-          "label": "16:56",
+          "label": "17:27",
           "score": 98
         },
         {
-          "label": "17:16",
+          "label": "17:47",
           "score": 98
         },
         {
-          "label": "17:36",
+          "label": "18:07",
           "score": 98
         },
         {
-          "label": "17:56",
+          "label": "18:27",
           "score": 98
         },
         {
-          "label": "18:16",
+          "label": "18:47",
           "score": 98
         },
         {
-          "label": "18:36",
+          "label": "19:07",
           "score": 98
         }
       ],
       "7d": [
         {
-          "label": "15/08 18h",
+          "label": "15/08 19h",
           "score": 98
         },
         {
-          "label": "15/08 20h",
+          "label": "15/08 21h",
           "score": 98
         },
         {
-          "label": "15/08 22h",
+          "label": "15/08 23h",
           "score": 98
         },
         {
-          "label": "16/08 00h",
+          "label": "16/08 01h",
           "score": 98
         },
         {
-          "label": "16/08 02h",
+          "label": "16/08 03h",
           "score": 98
         },
         {
-          "label": "16/08 04h",
+          "label": "16/08 05h",
           "score": 98
         },
         {
-          "label": "16/08 06h",
+          "label": "16/08 07h",
           "score": 98
         },
         {
-          "label": "16/08 08h",
+          "label": "16/08 09h",
           "score": 98
         },
         {
-          "label": "16/08 10h",
+          "label": "16/08 11h",
           "score": 98
         },
         {
-          "label": "16/08 12h",
+          "label": "16/08 13h",
           "score": 98
         },
         {
-          "label": "16/08 14h",
+          "label": "16/08 15h",
           "score": 98
         },
         {
-          "label": "16/08 16h",
+          "label": "16/08 17h",
           "score": 98
         },
         {
-          "label": "16/08 18h",
+          "label": "16/08 19h",
           "score": 98
         },
         {
-          "label": "16/08 20h",
+          "label": "16/08 21h",
           "score": 98
         },
         {
-          "label": "16/08 22h",
+          "label": "16/08 23h",
           "score": 98
         },
         {
-          "label": "17/08 00h",
+          "label": "17/08 01h",
           "score": 98
         },
         {
-          "label": "17/08 02h",
+          "label": "17/08 03h",
           "score": 98
         },
         {
-          "label": "17/08 04h",
+          "label": "17/08 05h",
           "score": 98
         },
         {
-          "label": "17/08 06h",
+          "label": "17/08 07h",
           "score": 98
         },
         {
-          "label": "17/08 08h",
+          "label": "17/08 09h",
           "score": 98
         },
         {
-          "label": "17/08 10h",
+          "label": "17/08 11h",
           "score": 98
         },
         {
-          "label": "17/08 12h",
+          "label": "17/08 13h",
           "score": 98
         },
         {
-          "label": "17/08 14h",
+          "label": "17/08 15h",
           "score": 98
         },
         {
-          "label": "17/08 16h",
+          "label": "17/08 17h",
           "score": 98
         },
         {
-          "label": "17/08 18h",
+          "label": "17/08 19h",
           "score": 98
         },
         {
-          "label": "17/08 20h",
+          "label": "17/08 21h",
           "score": 98
         },
         {
-          "label": "17/08 22h",
+          "label": "17/08 23h",
           "score": 98
         },
         {
-          "label": "18/08 00h",
+          "label": "18/08 01h",
           "score": 98
         },
         {
-          "label": "18/08 02h",
+          "label": "18/08 03h",
           "score": 98
         },
         {
-          "label": "18/08 04h",
+          "label": "18/08 05h",
           "score": 98
         },
         {
-          "label": "18/08 06h",
+          "label": "18/08 07h",
           "score": 98
         },
         {
-          "label": "18/08 08h",
+          "label": "18/08 09h",
           "score": 98
         },
         {
-          "label": "18/08 10h",
+          "label": "18/08 11h",
           "score": 98
         },
         {
-          "label": "18/08 12h",
+          "label": "18/08 13h",
           "score": 98
         },
         {
-          "label": "18/08 14h",
+          "label": "18/08 15h",
           "score": 98
         },
         {
-          "label": "18/08 16h",
+          "label": "18/08 17h",
           "score": 98
         },
         {
-          "label": "18/08 18h",
+          "label": "18/08 19h",
           "score": 98
         },
         {
-          "label": "18/08 20h",
+          "label": "18/08 21h",
           "score": 98
         },
         {
-          "label": "18/08 22h",
+          "label": "18/08 23h",
           "score": 98
         },
         {
-          "label": "19/08 00h",
+          "label": "19/08 01h",
           "score": 98
         },
         {
-          "label": "19/08 02h",
+          "label": "19/08 03h",
           "score": 98
         },
         {
-          "label": "19/08 04h",
+          "label": "19/08 05h",
           "score": 98
         },
         {
-          "label": "19/08 06h",
+          "label": "19/08 07h",
           "score": 98
         },
         {
-          "label": "19/08 08h",
+          "label": "19/08 09h",
           "score": 98
         },
         {
-          "label": "19/08 10h",
+          "label": "19/08 11h",
           "score": 98
         },
         {
-          "label": "19/08 12h",
+          "label": "19/08 13h",
           "score": 98
         },
         {
-          "label": "19/08 14h",
+          "label": "19/08 15h",
           "score": 98
         },
         {
-          "label": "19/08 16h",
+          "label": "19/08 17h",
           "score": 98
         },
         {
-          "label": "19/08 18h",
+          "label": "19/08 19h",
           "score": 98
         },
         {
-          "label": "19/08 20h",
+          "label": "19/08 21h",
           "score": 98
         },
         {
-          "label": "19/08 22h",
+          "label": "19/08 23h",
           "score": 98
         },
         {
-          "label": "20/08 00h",
+          "label": "20/08 01h",
           "score": 98
         },
         {
-          "label": "20/08 02h",
+          "label": "20/08 03h",
           "score": 98
         },
         {
-          "label": "20/08 04h",
+          "label": "20/08 05h",
           "score": 98
         },
         {
-          "label": "20/08 06h",
+          "label": "20/08 07h",
           "score": 98
         },
         {
-          "label": "20/08 08h",
+          "label": "20/08 09h",
           "score": 98
         },
         {
-          "label": "20/08 10h",
+          "label": "20/08 11h",
           "score": 98
         },
         {
-          "label": "20/08 12h",
+          "label": "20/08 13h",
           "score": 98
         },
         {
-          "label": "20/08 14h",
+          "label": "20/08 15h",
           "score": 98
         },
         {
-          "label": "20/08 16h",
+          "label": "20/08 17h",
           "score": 98
         },
         {
-          "label": "20/08 18h",
+          "label": "20/08 19h",
           "score": 98
         },
         {
-          "label": "20/08 20h",
+          "label": "20/08 21h",
           "score": 98
         },
         {
-          "label": "20/08 22h",
+          "label": "20/08 23h",
           "score": 98
         },
         {
-          "label": "21/08 00h",
+          "label": "21/08 01h",
           "score": 98
         },
         {
-          "label": "21/08 02h",
+          "label": "21/08 03h",
           "score": 98
         },
         {
-          "label": "21/08 04h",
+          "label": "21/08 05h",
           "score": 98
         },
         {
-          "label": "21/08 06h",
+          "label": "21/08 07h",
           "score": 98
         },
         {
-          "label": "21/08 08h",
+          "label": "21/08 09h",
           "score": 98
         },
         {
-          "label": "21/08 10h",
+          "label": "21/08 11h",
           "score": 98
         },
         {
-          "label": "21/08 12h",
+          "label": "21/08 13h",
           "score": 98
         },
         {
-          "label": "21/08 14h",
+          "label": "21/08 15h",
           "score": 98
         },
         {
-          "label": "21/08 16h",
+          "label": "21/08 17h",
           "score": 98
         },
         {
-          "label": "21/08 18h",
+          "label": "21/08 19h",
           "score": 98
         },
         {
-          "label": "21/08 20h",
+          "label": "21/08 21h",
           "score": 98
         },
         {
-          "label": "21/08 22h",
+          "label": "21/08 23h",
           "score": 98
         },
         {
-          "label": "22/08 00h",
+          "label": "22/08 01h",
           "score": 98
         },
         {
-          "label": "22/08 02h",
+          "label": "22/08 03h",
           "score": 98
         },
         {
-          "label": "22/08 04h",
+          "label": "22/08 05h",
           "score": 98
         },
         {
-          "label": "22/08 06h",
+          "label": "22/08 07h",
           "score": 98
         },
         {
-          "label": "22/08 08h",
+          "label": "22/08 09h",
           "score": 98
         },
         {
-          "label": "22/08 10h",
+          "label": "22/08 11h",
           "score": 98
         },
         {
-          "label": "22/08 12h",
+          "label": "22/08 13h",
           "score": 98
         },
         {
-          "label": "22/08 14h",
+          "label": "22/08 15h",
           "score": 98
         },
         {
-          "label": "22/08 16h",
+          "label": "22/08 17h",
           "score": 98
         },
         {
-          "label": "22/08 18h",
+          "label": "22/08 19h",
           "score": 98
         }
       ],
@@ -7577,7 +7577,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "15/09/25",
-          "score": 76
+          "score": 77
         },
         {
           "label": "19/09/25",
@@ -7585,7 +7585,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "23/09/25",
-          "score": 80
+          "score": 81
         },
         {
           "label": "27/09/25",
@@ -7605,15 +7605,15 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "13/10/25",
-          "score": 86
+          "score": 87
         },
         {
           "label": "17/10/25",
-          "score": 91
+          "score": 90
         },
         {
           "label": "21/10/25",
-          "score": 89
+          "score": 90
         },
         {
           "label": "25/10/25",
@@ -7621,7 +7621,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "29/10/25",
-          "score": 89
+          "score": 88
         },
         {
           "label": "02/11/25",
@@ -7861,10 +7861,10 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Banda Inferior Bollinger 15m (Z <= -2.0σ)",
     "trava_ruptura": "Filtro Causal: Exige STE >= 0, PC1 < 70% e Ew < 50",
     "cooldown_horas": 1.5,
-    "valor_atual_str": "SOL R$ 479.60 (Z_15m: -3.58σ)",
-    "alvo_str": "Preço <= R$ 482.84",
-    "distancia_display": "-0.7% para banda inferior",
-    "proximidade_score": 98,
+    "valor_atual_str": "SOL R$ 482.00 (Z_15m: +2.27σ)",
+    "alvo_str": "Preço <= R$ 477.72",
+    "distancia_display": "+0.9% para banda inferior",
+    "proximidade_score": 5,
     "status": "AGUARDANDO_CORRECAO_15M",
     "icone": "⚡",
     "cor": "#F59E0B",
@@ -7873,130 +7873,6 @@ window.PLANOS_TACTICAL_DATA = [
     "limitacoes_trava": "• <b>Weekend Shield:</b> Desativado aos finais de semana para anular falsos rompimentos.<br>• <b>Trava Wavelet Ew < 50:</b> Exige desaceleração de choque.",
     "series_historica": {
       "1h": [
-        {
-          "label": "17:36",
-          "score": 5
-        },
-        {
-          "label": "17:37",
-          "score": 5
-        },
-        {
-          "label": "17:38",
-          "score": 5
-        },
-        {
-          "label": "17:39",
-          "score": 5
-        },
-        {
-          "label": "17:40",
-          "score": 5
-        },
-        {
-          "label": "17:41",
-          "score": 5
-        },
-        {
-          "label": "17:42",
-          "score": 5
-        },
-        {
-          "label": "17:43",
-          "score": 5
-        },
-        {
-          "label": "17:44",
-          "score": 5
-        },
-        {
-          "label": "17:45",
-          "score": 5
-        },
-        {
-          "label": "17:46",
-          "score": 5
-        },
-        {
-          "label": "17:47",
-          "score": 5
-        },
-        {
-          "label": "17:48",
-          "score": 5
-        },
-        {
-          "label": "17:49",
-          "score": 5
-        },
-        {
-          "label": "17:50",
-          "score": 5
-        },
-        {
-          "label": "17:51",
-          "score": 5
-        },
-        {
-          "label": "17:52",
-          "score": 5
-        },
-        {
-          "label": "17:53",
-          "score": 5
-        },
-        {
-          "label": "17:54",
-          "score": 5
-        },
-        {
-          "label": "17:55",
-          "score": 7
-        },
-        {
-          "label": "17:56",
-          "score": 31
-        },
-        {
-          "label": "17:57",
-          "score": 33
-        },
-        {
-          "label": "17:58",
-          "score": 36
-        },
-        {
-          "label": "17:59",
-          "score": 38
-        },
-        {
-          "label": "18:00",
-          "score": 39
-        },
-        {
-          "label": "18:01",
-          "score": 41
-        },
-        {
-          "label": "18:02",
-          "score": 5
-        },
-        {
-          "label": "18:03",
-          "score": 40
-        },
-        {
-          "label": "18:04",
-          "score": 26
-        },
-        {
-          "label": "18:05",
-          "score": 22
-        },
-        {
-          "label": "18:06",
-          "score": 5
-        },
         {
           "label": "18:07",
           "score": 13
@@ -8115,1009 +7991,1133 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "18:36",
+          "score": 40
+        },
+        {
+          "label": "18:37",
           "score": 98
+        },
+        {
+          "label": "18:38",
+          "score": 98
+        },
+        {
+          "label": "18:39",
+          "score": 97
+        },
+        {
+          "label": "18:40",
+          "score": 92
+        },
+        {
+          "label": "18:41",
+          "score": 73
+        },
+        {
+          "label": "18:42",
+          "score": 66
+        },
+        {
+          "label": "18:43",
+          "score": 56
+        },
+        {
+          "label": "18:44",
+          "score": 37
+        },
+        {
+          "label": "18:45",
+          "score": 33
+        },
+        {
+          "label": "18:46",
+          "score": 47
+        },
+        {
+          "label": "18:47",
+          "score": 46
+        },
+        {
+          "label": "18:48",
+          "score": 40
+        },
+        {
+          "label": "18:49",
+          "score": 21
+        },
+        {
+          "label": "18:50",
+          "score": 29
+        },
+        {
+          "label": "18:51",
+          "score": 98
+        },
+        {
+          "label": "18:52",
+          "score": 81
+        },
+        {
+          "label": "18:53",
+          "score": 70
+        },
+        {
+          "label": "18:54",
+          "score": 56
+        },
+        {
+          "label": "18:55",
+          "score": 49
+        },
+        {
+          "label": "18:56",
+          "score": 43
+        },
+        {
+          "label": "18:57",
+          "score": 38
+        },
+        {
+          "label": "18:58",
+          "score": 21
+        },
+        {
+          "label": "18:59",
+          "score": 16
+        },
+        {
+          "label": "19:00",
+          "score": 5
+        },
+        {
+          "label": "19:01",
+          "score": 5
+        },
+        {
+          "label": "19:02",
+          "score": 98
+        },
+        {
+          "label": "19:03",
+          "score": 5
+        },
+        {
+          "label": "19:04",
+          "score": 71
+        },
+        {
+          "label": "19:05",
+          "score": 5
+        },
+        {
+          "label": "19:06",
+          "score": 5
+        },
+        {
+          "label": "19:07",
+          "score": 5
         }
       ],
       "24h": [
         {
-          "label": "18:36",
+          "label": "19:07",
+          "score": 72
+        },
+        {
+          "label": "19:27",
+          "score": 5
+        },
+        {
+          "label": "19:47",
+          "score": 30
+        },
+        {
+          "label": "20:07",
+          "score": 5
+        },
+        {
+          "label": "20:27",
+          "score": 5
+        },
+        {
+          "label": "20:47",
+          "score": 83
+        },
+        {
+          "label": "21:07",
+          "score": 44
+        },
+        {
+          "label": "21:27",
+          "score": 5
+        },
+        {
+          "label": "21:47",
+          "score": 5
+        },
+        {
+          "label": "22:07",
+          "score": 5
+        },
+        {
+          "label": "22:27",
+          "score": 5
+        },
+        {
+          "label": "22:47",
+          "score": 7
+        },
+        {
+          "label": "23:07",
+          "score": 41
+        },
+        {
+          "label": "23:27",
+          "score": 5
+        },
+        {
+          "label": "23:47",
+          "score": 5
+        },
+        {
+          "label": "00:07",
           "score": 98
         },
         {
-          "label": "18:56",
+          "label": "00:27",
           "score": 5
         },
         {
-          "label": "19:16",
+          "label": "00:47",
           "score": 5
         },
         {
-          "label": "19:36",
-          "score": 81
-        },
-        {
-          "label": "19:56",
+          "label": "01:07",
           "score": 5
         },
         {
-          "label": "20:16",
+          "label": "01:27",
           "score": 5
         },
         {
-          "label": "20:36",
-          "score": 15
+          "label": "01:47",
+          "score": 40
         },
         {
-          "label": "20:56",
+          "label": "02:07",
           "score": 5
         },
         {
-          "label": "21:16",
+          "label": "02:27",
           "score": 5
         },
         {
-          "label": "21:36",
+          "label": "02:47",
           "score": 5
         },
         {
-          "label": "21:56",
+          "label": "03:07",
           "score": 5
         },
         {
-          "label": "22:16",
-          "score": 49
-        },
-        {
-          "label": "22:36",
-          "score": 8
-        },
-        {
-          "label": "22:56",
+          "label": "03:27",
           "score": 5
         },
         {
-          "label": "23:16",
+          "label": "03:47",
           "score": 5
         },
         {
-          "label": "23:36",
-          "score": 50
+          "label": "04:07",
+          "score": 27
         },
         {
-          "label": "23:56",
+          "label": "04:27",
+          "score": 5
+        },
+        {
+          "label": "04:47",
+          "score": 5
+        },
+        {
+          "label": "05:07",
+          "score": 98
+        },
+        {
+          "label": "05:27",
+          "score": 5
+        },
+        {
+          "label": "05:47",
+          "score": 5
+        },
+        {
+          "label": "06:07",
+          "score": 85
+        },
+        {
+          "label": "06:27",
+          "score": 5
+        },
+        {
+          "label": "06:47",
+          "score": 5
+        },
+        {
+          "label": "07:07",
+          "score": 5
+        },
+        {
+          "label": "07:27",
+          "score": 5
+        },
+        {
+          "label": "07:47",
           "score": 44
         },
         {
-          "label": "00:16",
+          "label": "08:07",
+          "score": 54
+        },
+        {
+          "label": "08:27",
+          "score": 98
+        },
+        {
+          "label": "08:47",
           "score": 5
         },
         {
-          "label": "00:36",
-          "score": 12
+          "label": "09:07",
+          "score": 34
         },
         {
-          "label": "00:56",
-          "score": 5
+          "label": "09:27",
+          "score": 38
         },
         {
-          "label": "01:16",
-          "score": 5
+          "label": "09:47",
+          "score": 98
         },
         {
-          "label": "01:36",
-          "score": 5
-        },
-        {
-          "label": "01:56",
-          "score": 5
-        },
-        {
-          "label": "02:16",
-          "score": 5
-        },
-        {
-          "label": "02:36",
-          "score": 69
-        },
-        {
-          "label": "02:56",
-          "score": 5
-        },
-        {
-          "label": "03:16",
-          "score": 5
-        },
-        {
-          "label": "03:36",
-          "score": 5
-        },
-        {
-          "label": "03:56",
-          "score": 5
-        },
-        {
-          "label": "04:16",
-          "score": 5
-        },
-        {
-          "label": "04:36",
-          "score": 5
-        },
-        {
-          "label": "04:56",
-          "score": 35
-        },
-        {
-          "label": "05:16",
-          "score": 63
-        },
-        {
-          "label": "05:36",
-          "score": 5
-        },
-        {
-          "label": "05:56",
-          "score": 5
-        },
-        {
-          "label": "06:16",
-          "score": 5
-        },
-        {
-          "label": "06:36",
-          "score": 35
-        },
-        {
-          "label": "06:56",
-          "score": 47
-        },
-        {
-          "label": "07:16",
-          "score": 46
-        },
-        {
-          "label": "07:36",
-          "score": 5
-        },
-        {
-          "label": "07:56",
-          "score": 44
-        },
-        {
-          "label": "08:16",
-          "score": 5
-        },
-        {
-          "label": "08:36",
-          "score": 39
-        },
-        {
-          "label": "08:56",
-          "score": 5
-        },
-        {
-          "label": "09:16",
-          "score": 5
-        },
-        {
-          "label": "09:36",
-          "score": 5
-        },
-        {
-          "label": "09:56",
-          "score": 16
-        },
-        {
-          "label": "10:16",
-          "score": 50
-        },
-        {
-          "label": "10:36",
-          "score": 5
-        },
-        {
-          "label": "10:56",
-          "score": 94
-        },
-        {
-          "label": "11:16",
-          "score": 5
-        },
-        {
-          "label": "11:36",
-          "score": 5
-        },
-        {
-          "label": "11:56",
-          "score": 67
-        },
-        {
-          "label": "12:16",
-          "score": 5
-        },
-        {
-          "label": "12:36",
-          "score": 77
-        },
-        {
-          "label": "12:56",
+          "label": "10:07",
           "score": 61
         },
         {
-          "label": "13:16",
+          "label": "10:27",
           "score": 5
         },
         {
-          "label": "13:36",
-          "score": 70
-        },
-        {
-          "label": "13:56",
+          "label": "10:47",
           "score": 5
         },
         {
-          "label": "14:16",
-          "score": 64
-        },
-        {
-          "label": "14:36",
+          "label": "11:07",
           "score": 5
         },
         {
-          "label": "14:56",
+          "label": "11:27",
           "score": 5
         },
         {
-          "label": "15:16",
+          "label": "11:47",
+          "score": 22
+        },
+        {
+          "label": "12:07",
           "score": 5
         },
         {
-          "label": "15:36",
+          "label": "12:27",
           "score": 5
         },
         {
-          "label": "15:56",
+          "label": "12:47",
           "score": 5
         },
         {
-          "label": "16:16",
+          "label": "13:07",
           "score": 5
         },
         {
-          "label": "16:36",
+          "label": "13:27",
           "score": 5
         },
         {
-          "label": "16:56",
+          "label": "13:47",
           "score": 5
         },
         {
-          "label": "17:16",
-          "score": 5
-        },
-        {
-          "label": "17:36",
-          "score": 5
-        },
-        {
-          "label": "17:56",
-          "score": 31
-        },
-        {
-          "label": "18:16",
-          "score": 56
-        },
-        {
-          "label": "18:36",
+          "label": "14:07",
           "score": 98
+        },
+        {
+          "label": "14:27",
+          "score": 54
+        },
+        {
+          "label": "14:47",
+          "score": 66
+        },
+        {
+          "label": "15:07",
+          "score": 5
+        },
+        {
+          "label": "15:27",
+          "score": 5
+        },
+        {
+          "label": "15:47",
+          "score": 51
+        },
+        {
+          "label": "16:07",
+          "score": 5
+        },
+        {
+          "label": "16:27",
+          "score": 5
+        },
+        {
+          "label": "16:47",
+          "score": 5
+        },
+        {
+          "label": "17:07",
+          "score": 49
+        },
+        {
+          "label": "17:27",
+          "score": 74
+        },
+        {
+          "label": "17:47",
+          "score": 5
+        },
+        {
+          "label": "18:07",
+          "score": 13
+        },
+        {
+          "label": "18:27",
+          "score": 5
+        },
+        {
+          "label": "18:47",
+          "score": 46
+        },
+        {
+          "label": "19:07",
+          "score": 5
         }
       ],
       "7d": [
         {
-          "label": "15/08 18h",
+          "label": "15/08 19h",
+          "score": 30
+        },
+        {
+          "label": "15/08 21h",
           "score": 5
         },
         {
-          "label": "15/08 20h",
-          "score": 10
-        },
-        {
-          "label": "15/08 22h",
+          "label": "15/08 23h",
           "score": 80
         },
         {
-          "label": "16/08 00h",
+          "label": "16/08 01h",
           "score": 5
         },
         {
-          "label": "16/08 02h",
+          "label": "16/08 03h",
           "score": 5
         },
         {
-          "label": "16/08 04h",
-          "score": 5
-        },
-        {
-          "label": "16/08 06h",
-          "score": 5
-        },
-        {
-          "label": "16/08 08h",
-          "score": 29
-        },
-        {
-          "label": "16/08 10h",
-          "score": 5
-        },
-        {
-          "label": "16/08 12h",
-          "score": 5
-        },
-        {
-          "label": "16/08 14h",
-          "score": 5
-        },
-        {
-          "label": "16/08 16h",
-          "score": 5
-        },
-        {
-          "label": "16/08 18h",
-          "score": 5
-        },
-        {
-          "label": "16/08 20h",
-          "score": 52
-        },
-        {
-          "label": "16/08 22h",
-          "score": 56
-        },
-        {
-          "label": "17/08 00h",
-          "score": 5
-        },
-        {
-          "label": "17/08 02h",
-          "score": 5
-        },
-        {
-          "label": "17/08 04h",
-          "score": 65
-        },
-        {
-          "label": "17/08 06h",
-          "score": 98
-        },
-        {
-          "label": "17/08 08h",
-          "score": 78
-        },
-        {
-          "label": "17/08 10h",
-          "score": 5
-        },
-        {
-          "label": "17/08 12h",
-          "score": 23
-        },
-        {
-          "label": "17/08 14h",
-          "score": 5
-        },
-        {
-          "label": "17/08 16h",
-          "score": 5
-        },
-        {
-          "label": "17/08 18h",
-          "score": 59
-        },
-        {
-          "label": "17/08 20h",
-          "score": 5
-        },
-        {
-          "label": "17/08 22h",
-          "score": 35
-        },
-        {
-          "label": "18/08 00h",
-          "score": 90
-        },
-        {
-          "label": "18/08 02h",
-          "score": 5
-        },
-        {
-          "label": "18/08 04h",
-          "score": 5
-        },
-        {
-          "label": "18/08 06h",
-          "score": 5
-        },
-        {
-          "label": "18/08 08h",
-          "score": 5
-        },
-        {
-          "label": "18/08 10h",
-          "score": 5
-        },
-        {
-          "label": "18/08 12h",
-          "score": 5
-        },
-        {
-          "label": "18/08 14h",
-          "score": 87
-        },
-        {
-          "label": "18/08 16h",
-          "score": 5
-        },
-        {
-          "label": "18/08 18h",
-          "score": 32
-        },
-        {
-          "label": "18/08 20h",
-          "score": 98
-        },
-        {
-          "label": "18/08 22h",
-          "score": 5
-        },
-        {
-          "label": "19/08 00h",
-          "score": 5
-        },
-        {
-          "label": "19/08 02h",
-          "score": 29
-        },
-        {
-          "label": "19/08 04h",
+          "label": "16/08 05h",
           "score": 33
         },
         {
-          "label": "19/08 06h",
+          "label": "16/08 07h",
+          "score": 55
+        },
+        {
+          "label": "16/08 09h",
           "score": 5
         },
         {
-          "label": "19/08 08h",
+          "label": "16/08 11h",
           "score": 5
         },
         {
-          "label": "19/08 10h",
+          "label": "16/08 13h",
           "score": 5
         },
         {
-          "label": "19/08 12h",
+          "label": "16/08 15h",
           "score": 5
         },
         {
-          "label": "19/08 14h",
+          "label": "16/08 17h",
           "score": 5
         },
         {
-          "label": "19/08 16h",
-          "score": 76
-        },
-        {
-          "label": "19/08 18h",
+          "label": "16/08 19h",
           "score": 5
         },
         {
-          "label": "19/08 20h",
+          "label": "16/08 21h",
           "score": 5
         },
         {
-          "label": "19/08 22h",
+          "label": "16/08 23h",
           "score": 5
         },
         {
-          "label": "20/08 00h",
-          "score": 93
-        },
-        {
-          "label": "20/08 02h",
-          "score": 58
-        },
-        {
-          "label": "20/08 04h",
+          "label": "17/08 01h",
           "score": 5
         },
         {
-          "label": "20/08 06h",
+          "label": "17/08 03h",
           "score": 5
         },
         {
-          "label": "20/08 08h",
+          "label": "17/08 05h",
+          "score": 88
+        },
+        {
+          "label": "17/08 07h",
+          "score": 16
+        },
+        {
+          "label": "17/08 09h",
+          "score": 29
+        },
+        {
+          "label": "17/08 11h",
           "score": 5
         },
         {
-          "label": "20/08 10h",
-          "score": 60
+          "label": "17/08 13h",
+          "score": 50
         },
         {
-          "label": "20/08 12h",
-          "score": 18
-        },
-        {
-          "label": "20/08 14h",
-          "score": 53
-        },
-        {
-          "label": "20/08 16h",
+          "label": "17/08 15h",
           "score": 5
         },
         {
-          "label": "20/08 18h",
-          "score": 75
-        },
-        {
-          "label": "20/08 20h",
-          "score": 11
-        },
-        {
-          "label": "20/08 22h",
-          "score": 95
-        },
-        {
-          "label": "21/08 00h",
-          "score": 77
-        },
-        {
-          "label": "21/08 02h",
-          "score": 5
-        },
-        {
-          "label": "21/08 04h",
-          "score": 9
-        },
-        {
-          "label": "21/08 06h",
-          "score": 5
-        },
-        {
-          "label": "21/08 08h",
-          "score": 5
-        },
-        {
-          "label": "21/08 10h",
-          "score": 5
-        },
-        {
-          "label": "21/08 12h",
-          "score": 5
-        },
-        {
-          "label": "21/08 14h",
-          "score": 44
-        },
-        {
-          "label": "21/08 16h",
-          "score": 5
-        },
-        {
-          "label": "21/08 18h",
-          "score": 32
-        },
-        {
-          "label": "21/08 20h",
-          "score": 5
-        },
-        {
-          "label": "21/08 22h",
-          "score": 5
-        },
-        {
-          "label": "22/08 00h",
-          "score": 21
-        },
-        {
-          "label": "22/08 02h",
-          "score": 5
-        },
-        {
-          "label": "22/08 04h",
-          "score": 5
-        },
-        {
-          "label": "22/08 06h",
-          "score": 5
-        },
-        {
-          "label": "22/08 08h",
-          "score": 12
-        },
-        {
-          "label": "22/08 10h",
-          "score": 5
-        },
-        {
-          "label": "22/08 12h",
+          "label": "17/08 17h",
           "score": 6
         },
         {
-          "label": "22/08 14h",
-          "score": 36
-        },
-        {
-          "label": "22/08 16h",
+          "label": "17/08 19h",
           "score": 5
         },
         {
-          "label": "22/08 18h",
+          "label": "17/08 21h",
+          "score": 5
+        },
+        {
+          "label": "17/08 23h",
+          "score": 5
+        },
+        {
+          "label": "18/08 01h",
+          "score": 53
+        },
+        {
+          "label": "18/08 03h",
+          "score": 5
+        },
+        {
+          "label": "18/08 05h",
+          "score": 5
+        },
+        {
+          "label": "18/08 07h",
+          "score": 5
+        },
+        {
+          "label": "18/08 09h",
+          "score": 10
+        },
+        {
+          "label": "18/08 11h",
+          "score": 5
+        },
+        {
+          "label": "18/08 13h",
+          "score": 5
+        },
+        {
+          "label": "18/08 15h",
+          "score": 5
+        },
+        {
+          "label": "18/08 17h",
           "score": 98
+        },
+        {
+          "label": "18/08 19h",
+          "score": 40
+        },
+        {
+          "label": "18/08 21h",
+          "score": 5
+        },
+        {
+          "label": "18/08 23h",
+          "score": 5
+        },
+        {
+          "label": "19/08 01h",
+          "score": 5
+        },
+        {
+          "label": "19/08 03h",
+          "score": 57
+        },
+        {
+          "label": "19/08 05h",
+          "score": 5
+        },
+        {
+          "label": "19/08 07h",
+          "score": 45
+        },
+        {
+          "label": "19/08 09h",
+          "score": 40
+        },
+        {
+          "label": "19/08 11h",
+          "score": 5
+        },
+        {
+          "label": "19/08 13h",
+          "score": 5
+        },
+        {
+          "label": "19/08 15h",
+          "score": 5
+        },
+        {
+          "label": "19/08 17h",
+          "score": 74
+        },
+        {
+          "label": "19/08 19h",
+          "score": 5
+        },
+        {
+          "label": "19/08 21h",
+          "score": 5
+        },
+        {
+          "label": "19/08 23h",
+          "score": 5
+        },
+        {
+          "label": "20/08 01h",
+          "score": 59
+        },
+        {
+          "label": "20/08 03h",
+          "score": 50
+        },
+        {
+          "label": "20/08 05h",
+          "score": 5
+        },
+        {
+          "label": "20/08 07h",
+          "score": 5
+        },
+        {
+          "label": "20/08 09h",
+          "score": 61
+        },
+        {
+          "label": "20/08 11h",
+          "score": 51
+        },
+        {
+          "label": "20/08 13h",
+          "score": 5
+        },
+        {
+          "label": "20/08 15h",
+          "score": 5
+        },
+        {
+          "label": "20/08 17h",
+          "score": 94
+        },
+        {
+          "label": "20/08 19h",
+          "score": 5
+        },
+        {
+          "label": "20/08 21h",
+          "score": 5
+        },
+        {
+          "label": "20/08 23h",
+          "score": 5
+        },
+        {
+          "label": "21/08 01h",
+          "score": 5
+        },
+        {
+          "label": "21/08 03h",
+          "score": 5
+        },
+        {
+          "label": "21/08 05h",
+          "score": 5
+        },
+        {
+          "label": "21/08 07h",
+          "score": 5
+        },
+        {
+          "label": "21/08 09h",
+          "score": 5
+        },
+        {
+          "label": "21/08 11h",
+          "score": 18
+        },
+        {
+          "label": "21/08 13h",
+          "score": 5
+        },
+        {
+          "label": "21/08 15h",
+          "score": 5
+        },
+        {
+          "label": "21/08 17h",
+          "score": 5
+        },
+        {
+          "label": "21/08 19h",
+          "score": 14
+        },
+        {
+          "label": "21/08 21h",
+          "score": 5
+        },
+        {
+          "label": "21/08 23h",
+          "score": 5
+        },
+        {
+          "label": "22/08 01h",
+          "score": 5
+        },
+        {
+          "label": "22/08 03h",
+          "score": 5
+        },
+        {
+          "label": "22/08 05h",
+          "score": 98
+        },
+        {
+          "label": "22/08 07h",
+          "score": 63
+        },
+        {
+          "label": "22/08 09h",
+          "score": 5
+        },
+        {
+          "label": "22/08 11h",
+          "score": 5
+        },
+        {
+          "label": "22/08 13h",
+          "score": 5
+        },
+        {
+          "label": "22/08 15h",
+          "score": 26
+        },
+        {
+          "label": "22/08 17h",
+          "score": 30
+        },
+        {
+          "label": "22/08 19h",
+          "score": 5
         }
       ],
       "30d": [
         {
           "label": "23/07",
-          "score": 5
-        },
-        {
-          "label": "24/07",
-          "score": 69
-        },
-        {
-          "label": "24/07",
-          "score": 76
+          "score": 95
         },
         {
           "label": "24/07",
           "score": 5
         },
         {
-          "label": "25/07",
-          "score": 5
-        },
-        {
-          "label": "25/07",
-          "score": 5
-        },
-        {
-          "label": "25/07",
-          "score": 5
-        },
-        {
-          "label": "26/07",
-          "score": 5
-        },
-        {
-          "label": "26/07",
-          "score": 5
-        },
-        {
-          "label": "26/07",
-          "score": 5
-        },
-        {
-          "label": "27/07",
-          "score": 5
-        },
-        {
-          "label": "27/07",
-          "score": 13
-        },
-        {
-          "label": "27/07",
-          "score": 18
-        },
-        {
-          "label": "28/07",
-          "score": 68
-        },
-        {
-          "label": "28/07",
-          "score": 79
-        },
-        {
-          "label": "28/07",
-          "score": 5
-        },
-        {
-          "label": "29/07",
-          "score": 5
-        },
-        {
-          "label": "29/07",
-          "score": 5
-        },
-        {
-          "label": "29/07",
-          "score": 5
-        },
-        {
-          "label": "30/07",
-          "score": 5
-        },
-        {
-          "label": "30/07",
-          "score": 5
-        },
-        {
-          "label": "30/07",
-          "score": 27
-        },
-        {
-          "label": "31/07",
-          "score": 19
-        },
-        {
-          "label": "31/07",
-          "score": 5
-        },
-        {
-          "label": "31/07",
-          "score": 5
-        },
-        {
-          "label": "01/08",
-          "score": 50
-        },
-        {
-          "label": "01/08",
-          "score": 5
-        },
-        {
-          "label": "01/08",
-          "score": 98
-        },
-        {
-          "label": "02/08",
-          "score": 5
-        },
-        {
-          "label": "02/08",
-          "score": 5
-        },
-        {
-          "label": "02/08",
-          "score": 25
-        },
-        {
-          "label": "03/08",
-          "score": 5
-        },
-        {
-          "label": "03/08",
-          "score": 98
-        },
-        {
-          "label": "03/08",
-          "score": 5
-        },
-        {
-          "label": "04/08",
-          "score": 14
-        },
-        {
-          "label": "04/08",
-          "score": 5
-        },
-        {
-          "label": "04/08",
-          "score": 12
-        },
-        {
-          "label": "05/08",
-          "score": 38
-        },
-        {
-          "label": "05/08",
-          "score": 76
-        },
-        {
-          "label": "05/08",
-          "score": 47
-        },
-        {
-          "label": "06/08",
-          "score": 5
-        },
-        {
-          "label": "06/08",
-          "score": 64
-        },
-        {
-          "label": "06/08",
+          "label": "24/07",
           "score": 34
         },
         {
-          "label": "07/08",
+          "label": "24/07",
+          "score": 80
+        },
+        {
+          "label": "25/07",
           "score": 5
         },
         {
-          "label": "07/08",
+          "label": "25/07",
           "score": 5
         },
         {
-          "label": "07/08",
-          "score": 5
-        },
-        {
-          "label": "08/08",
-          "score": 53
-        },
-        {
-          "label": "08/08",
-          "score": 5
-        },
-        {
-          "label": "08/08",
-          "score": 5
-        },
-        {
-          "label": "09/08",
-          "score": 5
-        },
-        {
-          "label": "09/08",
-          "score": 98
-        },
-        {
-          "label": "09/08",
-          "score": 59
-        },
-        {
-          "label": "10/08",
-          "score": 5
-        },
-        {
-          "label": "10/08",
-          "score": 40
-        },
-        {
-          "label": "10/08",
-          "score": 5
-        },
-        {
-          "label": "11/08",
-          "score": 5
-        },
-        {
-          "label": "11/08",
-          "score": 5
-        },
-        {
-          "label": "11/08",
-          "score": 79
-        },
-        {
-          "label": "12/08",
-          "score": 5
-        },
-        {
-          "label": "12/08",
-          "score": 96
-        },
-        {
-          "label": "12/08",
-          "score": 5
-        },
-        {
-          "label": "13/08",
-          "score": 5
-        },
-        {
-          "label": "13/08",
-          "score": 48
-        },
-        {
-          "label": "13/08",
-          "score": 5
-        },
-        {
-          "label": "14/08",
-          "score": 60
-        },
-        {
-          "label": "14/08",
-          "score": 24
-        },
-        {
-          "label": "14/08",
-          "score": 79
-        },
-        {
-          "label": "15/08",
-          "score": 5
-        },
-        {
-          "label": "15/08",
-          "score": 5
-        },
-        {
-          "label": "15/08",
-          "score": 32
-        },
-        {
-          "label": "16/08",
-          "score": 5
-        },
-        {
-          "label": "16/08",
-          "score": 5
-        },
-        {
-          "label": "16/08",
-          "score": 5
-        },
-        {
-          "label": "17/08",
-          "score": 5
-        },
-        {
-          "label": "17/08",
-          "score": 5
-        },
-        {
-          "label": "17/08",
-          "score": 40
-        },
-        {
-          "label": "18/08",
-          "score": 14
-        },
-        {
-          "label": "18/08",
-          "score": 5
-        },
-        {
-          "label": "18/08",
-          "score": 36
-        },
-        {
-          "label": "19/08",
+          "label": "25/07",
           "score": 45
         },
         {
-          "label": "19/08",
+          "label": "26/07",
+          "score": 55
+        },
+        {
+          "label": "26/07",
+          "score": 98
+        },
+        {
+          "label": "26/07",
+          "score": 98
+        },
+        {
+          "label": "27/07",
+          "score": 58
+        },
+        {
+          "label": "27/07",
+          "score": 19
+        },
+        {
+          "label": "27/07",
           "score": 5
         },
         {
-          "label": "19/08",
+          "label": "28/07",
+          "score": 5
+        },
+        {
+          "label": "28/07",
+          "score": 88
+        },
+        {
+          "label": "28/07",
+          "score": 18
+        },
+        {
+          "label": "29/07",
+          "score": 40
+        },
+        {
+          "label": "29/07",
+          "score": 5
+        },
+        {
+          "label": "29/07",
+          "score": 5
+        },
+        {
+          "label": "30/07",
+          "score": 60
+        },
+        {
+          "label": "30/07",
+          "score": 5
+        },
+        {
+          "label": "30/07",
+          "score": 5
+        },
+        {
+          "label": "31/07",
+          "score": 5
+        },
+        {
+          "label": "31/07",
           "score": 49
         },
         {
-          "label": "20/08",
-          "score": 47
+          "label": "31/07",
+          "score": 44
         },
         {
-          "label": "20/08",
-          "score": 93
+          "label": "01/08",
+          "score": 46
         },
         {
-          "label": "20/08",
+          "label": "01/08",
+          "score": 6
+        },
+        {
+          "label": "01/08",
+          "score": 8
+        },
+        {
+          "label": "02/08",
           "score": 5
         },
         {
-          "label": "21/08",
-          "score": 5
+          "label": "02/08",
+          "score": 66
         },
         {
-          "label": "21/08",
-          "score": 70
+          "label": "02/08",
+          "score": 49
         },
         {
-          "label": "21/08",
-          "score": 5
-        },
-        {
-          "label": "22/08",
-          "score": 5
-        },
-        {
-          "label": "22/08",
-          "score": 5
-        },
-        {
-          "label": "22/08",
+          "label": "03/08",
           "score": 98
+        },
+        {
+          "label": "03/08",
+          "score": 5
+        },
+        {
+          "label": "03/08",
+          "score": 5
+        },
+        {
+          "label": "04/08",
+          "score": 26
+        },
+        {
+          "label": "04/08",
+          "score": 5
+        },
+        {
+          "label": "04/08",
+          "score": 32
+        },
+        {
+          "label": "05/08",
+          "score": 76
+        },
+        {
+          "label": "05/08",
+          "score": 24
+        },
+        {
+          "label": "05/08",
+          "score": 78
+        },
+        {
+          "label": "06/08",
+          "score": 55
+        },
+        {
+          "label": "06/08",
+          "score": 5
+        },
+        {
+          "label": "06/08",
+          "score": 85
+        },
+        {
+          "label": "07/08",
+          "score": 5
+        },
+        {
+          "label": "07/08",
+          "score": 5
+        },
+        {
+          "label": "07/08",
+          "score": 5
+        },
+        {
+          "label": "08/08",
+          "score": 5
+        },
+        {
+          "label": "08/08",
+          "score": 26
+        },
+        {
+          "label": "08/08",
+          "score": 95
+        },
+        {
+          "label": "09/08",
+          "score": 5
+        },
+        {
+          "label": "09/08",
+          "score": 5
+        },
+        {
+          "label": "09/08",
+          "score": 5
+        },
+        {
+          "label": "10/08",
+          "score": 5
+        },
+        {
+          "label": "10/08",
+          "score": 5
+        },
+        {
+          "label": "10/08",
+          "score": 5
+        },
+        {
+          "label": "11/08",
+          "score": 77
+        },
+        {
+          "label": "11/08",
+          "score": 5
+        },
+        {
+          "label": "11/08",
+          "score": 5
+        },
+        {
+          "label": "12/08",
+          "score": 5
+        },
+        {
+          "label": "12/08",
+          "score": 5
+        },
+        {
+          "label": "12/08",
+          "score": 5
+        },
+        {
+          "label": "13/08",
+          "score": 5
+        },
+        {
+          "label": "13/08",
+          "score": 5
+        },
+        {
+          "label": "13/08",
+          "score": 5
+        },
+        {
+          "label": "14/08",
+          "score": 68
+        },
+        {
+          "label": "14/08",
+          "score": 25
+        },
+        {
+          "label": "14/08",
+          "score": 5
+        },
+        {
+          "label": "15/08",
+          "score": 66
+        },
+        {
+          "label": "15/08",
+          "score": 5
+        },
+        {
+          "label": "15/08",
+          "score": 5
+        },
+        {
+          "label": "16/08",
+          "score": 5
+        },
+        {
+          "label": "16/08",
+          "score": 80
+        },
+        {
+          "label": "16/08",
+          "score": 5
+        },
+        {
+          "label": "17/08",
+          "score": 5
+        },
+        {
+          "label": "17/08",
+          "score": 5
+        },
+        {
+          "label": "17/08",
+          "score": 5
+        },
+        {
+          "label": "18/08",
+          "score": 5
+        },
+        {
+          "label": "18/08",
+          "score": 5
+        },
+        {
+          "label": "18/08",
+          "score": 60
+        },
+        {
+          "label": "19/08",
+          "score": 5
+        },
+        {
+          "label": "19/08",
+          "score": 86
+        },
+        {
+          "label": "19/08",
+          "score": 5
+        },
+        {
+          "label": "20/08",
+          "score": 5
+        },
+        {
+          "label": "20/08",
+          "score": 5
+        },
+        {
+          "label": "20/08",
+          "score": 5
+        },
+        {
+          "label": "21/08",
+          "score": 67
+        },
+        {
+          "label": "21/08",
+          "score": 15
+        },
+        {
+          "label": "21/08",
+          "score": 92
+        },
+        {
+          "label": "22/08",
+          "score": 41
+        },
+        {
+          "label": "22/08",
+          "score": 5
+        },
+        {
+          "label": "22/08",
+          "score": 5
         }
       ],
       "365d": [
@@ -9139,7 +9139,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "07/09/25",
-          "score": 5
+          "score": 33
         },
         {
           "label": "11/09/25",
@@ -9151,11 +9151,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "19/09/25",
-          "score": 5
+          "score": 98
         },
         {
           "label": "23/09/25",
-          "score": 5
+          "score": 39
         },
         {
           "label": "27/09/25",
@@ -9163,39 +9163,39 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "01/10/25",
-          "score": 14
+          "score": 5
         },
         {
           "label": "05/10/25",
-          "score": 33
+          "score": 5
         },
         {
           "label": "09/10/25",
-          "score": 26
+          "score": 55
         },
         {
           "label": "13/10/25",
-          "score": 5
+          "score": 49
         },
         {
           "label": "17/10/25",
-          "score": 21
+          "score": 5
         },
         {
           "label": "21/10/25",
-          "score": 16
+          "score": 72
         },
         {
           "label": "25/10/25",
-          "score": 5
+          "score": 42
         },
         {
           "label": "29/10/25",
-          "score": 5
+          "score": 42
         },
         {
           "label": "02/11/25",
-          "score": 27
+          "score": 5
         },
         {
           "label": "06/11/25",
@@ -9203,7 +9203,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "10/11/25",
-          "score": 70
+          "score": 97
         },
         {
           "label": "03/12/25",
@@ -9215,31 +9215,31 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "18/01/26",
-          "score": 23
+          "score": 5
         },
         {
           "label": "22/01/26",
-          "score": 45
+          "score": 5
         },
         {
           "label": "28/01/26",
-          "score": 36
+          "score": 21
         },
         {
           "label": "01/02/26",
-          "score": 98
+          "score": 69
         },
         {
           "label": "06/02/26",
-          "score": 46
+          "score": 5
         },
         {
           "label": "10/02/26",
-          "score": 56
+          "score": 5
         },
         {
           "label": "16/02/26",
-          "score": 5
+          "score": 16
         },
         {
           "label": "21/02/26",
@@ -9247,39 +9247,39 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "25/02/26",
-          "score": 98
+          "score": 27
         },
         {
           "label": "02/03/26",
-          "score": 85
-        },
-        {
-          "label": "07/03/26",
-          "score": 25
-        },
-        {
-          "label": "11/03/26",
           "score": 5
         },
         {
+          "label": "07/03/26",
+          "score": 62
+        },
+        {
+          "label": "11/03/26",
+          "score": 91
+        },
+        {
           "label": "16/03/26",
-          "score": 16
+          "score": 5
         },
         {
           "label": "20/03/26",
-          "score": 98
+          "score": 35
         },
         {
           "label": "25/03/26",
-          "score": 40
+          "score": 5
         },
         {
           "label": "30/03/26",
-          "score": 26
+          "score": 40
         },
         {
           "label": "03/04/26",
-          "score": 36
+          "score": 34
         },
         {
           "label": "08/04/26",
@@ -9291,27 +9291,27 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "16/04/26",
-          "score": 81
+          "score": 28
         },
         {
           "label": "20/04/26",
-          "score": 10
+          "score": 95
         },
         {
           "label": "24/04/26",
-          "score": 5
+          "score": 66
         },
         {
           "label": "29/04/26",
-          "score": 5
+          "score": 15
         },
         {
           "label": "03/05/26",
-          "score": 5
+          "score": 51
         },
         {
           "label": "07/05/26",
-          "score": 55
+          "score": 5
         },
         {
           "label": "13/05/26",
@@ -9319,7 +9319,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "17/05/26",
-          "score": 59
+          "score": 47
         },
         {
           "label": "22/05/26",
@@ -9327,39 +9327,39 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "26/05/26",
-          "score": 5
+          "score": 29
         },
         {
           "label": "30/05/26",
-          "score": 69
+          "score": 29
         },
         {
           "label": "04/06/26",
-          "score": 85
+          "score": 5
         },
         {
           "label": "08/06/26",
-          "score": 5
+          "score": 94
         },
         {
           "label": "12/06/26",
-          "score": 5
+          "score": 20
         },
         {
           "label": "16/06/26",
-          "score": 5
+          "score": 66
         },
         {
           "label": "20/06/26",
-          "score": 93
+          "score": 5
         },
         {
           "label": "24/06/26",
-          "score": 40
+          "score": 5
         },
         {
           "label": "28/06/26",
-          "score": 98
+          "score": 5
         },
         {
           "label": "02/07/26",
@@ -9367,7 +9367,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "06/07/26",
-          "score": 44
+          "score": 98
         },
         {
           "label": "10/07/26",
@@ -9379,11 +9379,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "18/07/26",
-          "score": 22
+          "score": 5
         },
         {
           "label": "22/07/26",
-          "score": 5
+          "score": 77
         },
         {
           "label": "26/07/26",
@@ -9395,15 +9395,15 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "03/08/26",
-          "score": 58
+          "score": 5
         },
         {
           "label": "07/08/26",
-          "score": 5
+          "score": 13
         },
         {
           "label": "11/08/26",
-          "score": 5
+          "score": 43
         },
         {
           "label": "15/08/26",
@@ -9411,11 +9411,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "19/08/26",
-          "score": 58
+          "score": 15
         },
         {
           "label": "22/08/26",
-          "score": 98
+          "score": 5
         }
       ]
     }
@@ -9431,10 +9431,10 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Desvio do Ratio Diário 24h (|Z_ETH/BTC| >= 1.50σ)",
     "trava_ruptura": "Coerência de Fase γ_ETH/BTC = 71.0% | Bloqueio PC1 > 75%",
     "cooldown_horas": 1.5,
-    "valor_atual_str": "ETH/BTC = 0.03131 (Z: -0.92σ)",
+    "valor_atual_str": "ETH/BTC = 0.03141 (Z: -0.65σ)",
     "alvo_str": "|Z| >= 1.50σ (Gatilho de Arbitragem)",
-    "distancia_display": "Faltam 0.58σ para disparo",
-    "proximidade_score": 62,
+    "distancia_display": "Faltam 0.85σ para disparo",
+    "proximidade_score": 43,
     "status": "MONITORANDO_SPREAD",
     "icone": "⚔️",
     "cor": "#06B6D4",
@@ -9443,130 +9443,6 @@ window.PLANOS_TACTICAL_DATA = [
     "limitacoes_trava": "• <b>Trava de Coerência:</b> Se a coerência espectral cair abaixo de 0.50, a operação é suspensa.<br>• <b>Trava de Pânico (PC1 > 75%):</b> Bloqueio de pairs durante choques sistêmicos.",
     "series_historica": {
       "1h": [
-        {
-          "label": "17:36",
-          "score": 40
-        },
-        {
-          "label": "17:37",
-          "score": 44
-        },
-        {
-          "label": "17:38",
-          "score": 42
-        },
-        {
-          "label": "17:39",
-          "score": 44
-        },
-        {
-          "label": "17:40",
-          "score": 41
-        },
-        {
-          "label": "17:41",
-          "score": 45
-        },
-        {
-          "label": "17:42",
-          "score": 44
-        },
-        {
-          "label": "17:43",
-          "score": 42
-        },
-        {
-          "label": "17:44",
-          "score": 43
-        },
-        {
-          "label": "17:45",
-          "score": 46
-        },
-        {
-          "label": "17:46",
-          "score": 47
-        },
-        {
-          "label": "17:47",
-          "score": 47
-        },
-        {
-          "label": "17:48",
-          "score": 48
-        },
-        {
-          "label": "17:49",
-          "score": 46
-        },
-        {
-          "label": "17:50",
-          "score": 44
-        },
-        {
-          "label": "17:51",
-          "score": 40
-        },
-        {
-          "label": "17:52",
-          "score": 40
-        },
-        {
-          "label": "17:53",
-          "score": 43
-        },
-        {
-          "label": "17:54",
-          "score": 42
-        },
-        {
-          "label": "17:55",
-          "score": 42
-        },
-        {
-          "label": "17:56",
-          "score": 45
-        },
-        {
-          "label": "17:57",
-          "score": 45
-        },
-        {
-          "label": "17:58",
-          "score": 46
-        },
-        {
-          "label": "17:59",
-          "score": 46
-        },
-        {
-          "label": "18:00",
-          "score": 45
-        },
-        {
-          "label": "18:01",
-          "score": 42
-        },
-        {
-          "label": "18:02",
-          "score": 42
-        },
-        {
-          "label": "18:03",
-          "score": 43
-        },
-        {
-          "label": "18:04",
-          "score": 43
-        },
-        {
-          "label": "18:05",
-          "score": 41
-        },
-        {
-          "label": "18:06",
-          "score": 41
-        },
         {
           "label": "18:07",
           "score": 41
@@ -9685,643 +9561,767 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "18:36",
+          "score": 36
+        },
+        {
+          "label": "18:37",
+          "score": 54
+        },
+        {
+          "label": "18:38",
+          "score": 60
+        },
+        {
+          "label": "18:39",
+          "score": 58
+        },
+        {
+          "label": "18:40",
+          "score": 57
+        },
+        {
+          "label": "18:41",
+          "score": 57
+        },
+        {
+          "label": "18:42",
+          "score": 57
+        },
+        {
+          "label": "18:43",
+          "score": 53
+        },
+        {
+          "label": "18:44",
+          "score": 60
+        },
+        {
+          "label": "18:45",
+          "score": 54
+        },
+        {
+          "label": "18:46",
+          "score": 58
+        },
+        {
+          "label": "18:47",
+          "score": 58
+        },
+        {
+          "label": "18:48",
+          "score": 59
+        },
+        {
+          "label": "18:49",
+          "score": 56
+        },
+        {
+          "label": "18:50",
+          "score": 55
+        },
+        {
+          "label": "18:51",
+          "score": 61
+        },
+        {
+          "label": "18:52",
+          "score": 63
+        },
+        {
+          "label": "18:53",
+          "score": 63
+        },
+        {
+          "label": "18:54",
+          "score": 61
+        },
+        {
+          "label": "18:55",
+          "score": 65
+        },
+        {
+          "label": "18:56",
+          "score": 59
+        },
+        {
+          "label": "18:57",
+          "score": 59
+        },
+        {
+          "label": "18:58",
+          "score": 59
+        },
+        {
+          "label": "18:59",
+          "score": 61
+        },
+        {
+          "label": "19:00",
+          "score": 52
+        },
+        {
+          "label": "19:01",
+          "score": 52
+        },
+        {
+          "label": "19:02",
           "score": 62
+        },
+        {
+          "label": "19:03",
+          "score": 62
+        },
+        {
+          "label": "19:04",
+          "score": 63
+        },
+        {
+          "label": "19:05",
+          "score": 52
+        },
+        {
+          "label": "19:06",
+          "score": 52
+        },
+        {
+          "label": "19:07",
+          "score": 43
         }
       ],
       "24h": [
         {
-          "label": "18:36",
-          "score": 6
-        },
-        {
-          "label": "18:56",
+          "label": "19:07",
           "score": 5
         },
         {
-          "label": "19:16",
-          "score": 7
+          "label": "19:27",
+          "score": 10
         },
         {
-          "label": "19:36",
+          "label": "19:47",
           "score": 5
         },
         {
-          "label": "19:56",
-          "score": 5
-        },
-        {
-          "label": "20:16",
-          "score": 16
-        },
-        {
-          "label": "20:36",
-          "score": 39
-        },
-        {
-          "label": "20:56",
-          "score": 38
-        },
-        {
-          "label": "21:16",
-          "score": 57
-        },
-        {
-          "label": "21:36",
-          "score": 94
-        },
-        {
-          "label": "21:56",
-          "score": 98
-        },
-        {
-          "label": "22:16",
-          "score": 98
-        },
-        {
-          "label": "22:36",
-          "score": 98
-        },
-        {
-          "label": "22:56",
-          "score": 98
-        },
-        {
-          "label": "23:16",
-          "score": 98
-        },
-        {
-          "label": "23:36",
-          "score": 98
-        },
-        {
-          "label": "23:56",
-          "score": 98
-        },
-        {
-          "label": "00:16",
-          "score": 98
-        },
-        {
-          "label": "00:36",
-          "score": 98
-        },
-        {
-          "label": "00:56",
-          "score": 98
-        },
-        {
-          "label": "01:16",
-          "score": 98
-        },
-        {
-          "label": "01:36",
-          "score": 98
-        },
-        {
-          "label": "01:56",
-          "score": 98
-        },
-        {
-          "label": "02:16",
-          "score": 98
-        },
-        {
-          "label": "02:36",
-          "score": 87
-        },
-        {
-          "label": "02:56",
-          "score": 90
-        },
-        {
-          "label": "03:16",
-          "score": 95
-        },
-        {
-          "label": "03:36",
-          "score": 83
-        },
-        {
-          "label": "03:56",
-          "score": 95
-        },
-        {
-          "label": "04:16",
-          "score": 87
-        },
-        {
-          "label": "04:36",
-          "score": 82
-        },
-        {
-          "label": "04:56",
-          "score": 83
-        },
-        {
-          "label": "05:16",
-          "score": 5
-        },
-        {
-          "label": "05:36",
-          "score": 18
-        },
-        {
-          "label": "05:56",
-          "score": 5
-        },
-        {
-          "label": "06:16",
-          "score": 5
-        },
-        {
-          "label": "06:36",
-          "score": 9
-        },
-        {
-          "label": "06:56",
-          "score": 5
-        },
-        {
-          "label": "07:16",
-          "score": 5
-        },
-        {
-          "label": "07:36",
-          "score": 6
-        },
-        {
-          "label": "07:56",
-          "score": 8
-        },
-        {
-          "label": "08:16",
-          "score": 7
-        },
-        {
-          "label": "08:36",
-          "score": 16
-        },
-        {
-          "label": "08:56",
-          "score": 7
-        },
-        {
-          "label": "09:16",
-          "score": 13
-        },
-        {
-          "label": "09:36",
-          "score": 12
-        },
-        {
-          "label": "09:56",
-          "score": 7
-        },
-        {
-          "label": "10:16",
+          "label": "20:07",
           "score": 26
         },
         {
-          "label": "10:36",
-          "score": 30
-        },
-        {
-          "label": "10:56",
-          "score": 28
-        },
-        {
-          "label": "11:16",
-          "score": 24
-        },
-        {
-          "label": "11:36",
-          "score": 21
-        },
-        {
-          "label": "11:56",
-          "score": 19
-        },
-        {
-          "label": "12:16",
-          "score": 8
-        },
-        {
-          "label": "12:36",
-          "score": 12
-        },
-        {
-          "label": "12:56",
-          "score": 26
-        },
-        {
-          "label": "13:16",
-          "score": 18
-        },
-        {
-          "label": "13:36",
-          "score": 19
-        },
-        {
-          "label": "13:56",
-          "score": 23
-        },
-        {
-          "label": "14:16",
-          "score": 30
-        },
-        {
-          "label": "14:36",
-          "score": 28
-        },
-        {
-          "label": "14:56",
-          "score": 45
-        },
-        {
-          "label": "15:16",
+          "label": "20:27",
           "score": 50
         },
         {
-          "label": "15:36",
-          "score": 54
+          "label": "20:47",
+          "score": 29
         },
         {
-          "label": "15:56",
+          "label": "21:07",
+          "score": 36
+        },
+        {
+          "label": "21:27",
+          "score": 98
+        },
+        {
+          "label": "21:47",
+          "score": 98
+        },
+        {
+          "label": "22:07",
+          "score": 98
+        },
+        {
+          "label": "22:27",
+          "score": 98
+        },
+        {
+          "label": "22:47",
+          "score": 98
+        },
+        {
+          "label": "23:07",
+          "score": 98
+        },
+        {
+          "label": "23:27",
+          "score": 98
+        },
+        {
+          "label": "23:47",
+          "score": 98
+        },
+        {
+          "label": "00:07",
+          "score": 98
+        },
+        {
+          "label": "00:27",
+          "score": 98
+        },
+        {
+          "label": "00:47",
+          "score": 98
+        },
+        {
+          "label": "01:07",
+          "score": 98
+        },
+        {
+          "label": "01:27",
+          "score": 98
+        },
+        {
+          "label": "01:47",
+          "score": 98
+        },
+        {
+          "label": "02:07",
+          "score": 98
+        },
+        {
+          "label": "02:27",
+          "score": 98
+        },
+        {
+          "label": "02:47",
+          "score": 83
+        },
+        {
+          "label": "03:07",
+          "score": 89
+        },
+        {
+          "label": "03:27",
+          "score": 87
+        },
+        {
+          "label": "03:47",
+          "score": 89
+        },
+        {
+          "label": "04:07",
+          "score": 98
+        },
+        {
+          "label": "04:27",
+          "score": 81
+        },
+        {
+          "label": "04:47",
+          "score": 87
+        },
+        {
+          "label": "05:07",
+          "score": 78
+        },
+        {
+          "label": "05:27",
+          "score": 24
+        },
+        {
+          "label": "05:47",
+          "score": 14
+        },
+        {
+          "label": "06:07",
+          "score": 8
+        },
+        {
+          "label": "06:27",
+          "score": 7
+        },
+        {
+          "label": "06:47",
+          "score": 5
+        },
+        {
+          "label": "07:07",
+          "score": 7
+        },
+        {
+          "label": "07:27",
+          "score": 6
+        },
+        {
+          "label": "07:47",
+          "score": 5
+        },
+        {
+          "label": "08:07",
+          "score": 5
+        },
+        {
+          "label": "08:27",
+          "score": 5
+        },
+        {
+          "label": "08:47",
+          "score": 15
+        },
+        {
+          "label": "09:07",
+          "score": 12
+        },
+        {
+          "label": "09:27",
+          "score": 13
+        },
+        {
+          "label": "09:47",
+          "score": 9
+        },
+        {
+          "label": "10:07",
+          "score": 18
+        },
+        {
+          "label": "10:27",
+          "score": 30
+        },
+        {
+          "label": "10:47",
+          "score": 30
+        },
+        {
+          "label": "11:07",
+          "score": 23
+        },
+        {
+          "label": "11:27",
+          "score": 19
+        },
+        {
+          "label": "11:47",
+          "score": 14
+        },
+        {
+          "label": "12:07",
+          "score": 15
+        },
+        {
+          "label": "12:27",
+          "score": 9
+        },
+        {
+          "label": "12:47",
+          "score": 22
+        },
+        {
+          "label": "13:07",
+          "score": 22
+        },
+        {
+          "label": "13:27",
+          "score": 21
+        },
+        {
+          "label": "13:47",
+          "score": 21
+        },
+        {
+          "label": "14:07",
+          "score": 28
+        },
+        {
+          "label": "14:27",
+          "score": 35
+        },
+        {
+          "label": "14:47",
+          "score": 42
+        },
+        {
+          "label": "15:07",
+          "score": 49
+        },
+        {
+          "label": "15:27",
           "score": 55
         },
         {
-          "label": "16:16",
-          "score": 48
+          "label": "15:47",
+          "score": 53
         },
         {
-          "label": "16:36",
-          "score": 48
+          "label": "16:07",
+          "score": 51
         },
         {
-          "label": "16:56",
-          "score": 54
+          "label": "16:27",
+          "score": 49
         },
         {
-          "label": "17:16",
-          "score": 48
+          "label": "16:47",
+          "score": 52
         },
         {
-          "label": "17:36",
-          "score": 40
+          "label": "17:07",
+          "score": 50
         },
         {
-          "label": "17:56",
-          "score": 45
+          "label": "17:27",
+          "score": 49
         },
         {
-          "label": "18:16",
+          "label": "17:47",
+          "score": 47
+        },
+        {
+          "label": "18:07",
+          "score": 41
+        },
+        {
+          "label": "18:27",
+          "score": 32
+        },
+        {
+          "label": "18:47",
+          "score": 58
+        },
+        {
+          "label": "19:07",
           "score": 43
-        },
-        {
-          "label": "18:36",
-          "score": 62
         }
       ],
       "7d": [
         {
-          "label": "15/08 18h",
-          "score": 21
-        },
-        {
-          "label": "15/08 20h",
-          "score": 28
-        },
-        {
-          "label": "15/08 22h",
-          "score": 11
-        },
-        {
-          "label": "16/08 00h",
+          "label": "15/08 19h",
           "score": 5
         },
         {
-          "label": "16/08 02h",
-          "score": 5
-        },
-        {
-          "label": "16/08 04h",
-          "score": 16
-        },
-        {
-          "label": "16/08 06h",
-          "score": 96
-        },
-        {
-          "label": "16/08 08h",
-          "score": 61
-        },
-        {
-          "label": "16/08 10h",
-          "score": 13
-        },
-        {
-          "label": "16/08 12h",
-          "score": 36
-        },
-        {
-          "label": "16/08 14h",
-          "score": 11
-        },
-        {
-          "label": "16/08 16h",
-          "score": 89
-        },
-        {
-          "label": "16/08 18h",
-          "score": 79
-        },
-        {
-          "label": "16/08 20h",
-          "score": 98
-        },
-        {
-          "label": "16/08 22h",
-          "score": 92
-        },
-        {
-          "label": "17/08 00h",
-          "score": 34
-        },
-        {
-          "label": "17/08 02h",
-          "score": 98
-        },
-        {
-          "label": "17/08 04h",
-          "score": 98
-        },
-        {
-          "label": "17/08 06h",
-          "score": 59
-        },
-        {
-          "label": "17/08 08h",
-          "score": 7
-        },
-        {
-          "label": "17/08 10h",
-          "score": 98
-        },
-        {
-          "label": "17/08 12h",
+          "label": "15/08 21h",
           "score": 18
         },
         {
-          "label": "17/08 14h",
-          "score": 18
+          "label": "15/08 23h",
+          "score": 40
         },
         {
-          "label": "17/08 16h",
-          "score": 98
+          "label": "16/08 01h",
+          "score": 55
         },
         {
-          "label": "17/08 18h",
-          "score": 98
-        },
-        {
-          "label": "17/08 20h",
-          "score": 98
-        },
-        {
-          "label": "17/08 22h",
-          "score": 98
-        },
-        {
-          "label": "18/08 00h",
-          "score": 93
-        },
-        {
-          "label": "18/08 02h",
-          "score": 98
-        },
-        {
-          "label": "18/08 04h",
-          "score": 98
-        },
-        {
-          "label": "18/08 06h",
-          "score": 80
-        },
-        {
-          "label": "18/08 08h",
-          "score": 65
-        },
-        {
-          "label": "18/08 10h",
-          "score": 53
-        },
-        {
-          "label": "18/08 12h",
-          "score": 38
-        },
-        {
-          "label": "18/08 14h",
-          "score": 49
-        },
-        {
-          "label": "18/08 16h",
+          "label": "16/08 03h",
           "score": 5
         },
         {
-          "label": "18/08 18h",
-          "score": 5
-        },
-        {
-          "label": "18/08 20h",
-          "score": 66
-        },
-        {
-          "label": "18/08 22h",
-          "score": 68
-        },
-        {
-          "label": "19/08 00h",
-          "score": 98
-        },
-        {
-          "label": "19/08 02h",
-          "score": 88
-        },
-        {
-          "label": "19/08 04h",
-          "score": 98
-        },
-        {
-          "label": "19/08 06h",
-          "score": 98
-        },
-        {
-          "label": "19/08 08h",
-          "score": 98
-        },
-        {
-          "label": "19/08 10h",
-          "score": 98
-        },
-        {
-          "label": "19/08 12h",
-          "score": 60
-        },
-        {
-          "label": "19/08 14h",
-          "score": 42
-        },
-        {
-          "label": "19/08 16h",
-          "score": 98
-        },
-        {
-          "label": "19/08 18h",
-          "score": 98
-        },
-        {
-          "label": "19/08 20h",
-          "score": 98
-        },
-        {
-          "label": "19/08 22h",
-          "score": 98
-        },
-        {
-          "label": "20/08 00h",
-          "score": 98
-        },
-        {
-          "label": "20/08 02h",
-          "score": 98
-        },
-        {
-          "label": "20/08 04h",
-          "score": 85
-        },
-        {
-          "label": "20/08 06h",
-          "score": 73
-        },
-        {
-          "label": "20/08 08h",
-          "score": 27
-        },
-        {
-          "label": "20/08 10h",
-          "score": 19
-        },
-        {
-          "label": "20/08 12h",
-          "score": 9
-        },
-        {
-          "label": "20/08 14h",
-          "score": 6
-        },
-        {
-          "label": "20/08 16h",
-          "score": 22
-        },
-        {
-          "label": "20/08 18h",
-          "score": 20
-        },
-        {
-          "label": "20/08 20h",
-          "score": 58
-        },
-        {
-          "label": "20/08 22h",
-          "score": 74
-        },
-        {
-          "label": "21/08 00h",
-          "score": 82
-        },
-        {
-          "label": "21/08 02h",
-          "score": 98
-        },
-        {
-          "label": "21/08 04h",
-          "score": 98
-        },
-        {
-          "label": "21/08 06h",
-          "score": 98
-        },
-        {
-          "label": "21/08 08h",
-          "score": 98
-        },
-        {
-          "label": "21/08 10h",
-          "score": 98
-        },
-        {
-          "label": "21/08 12h",
-          "score": 98
-        },
-        {
-          "label": "21/08 14h",
+          "label": "16/08 05h",
           "score": 81
         },
         {
-          "label": "21/08 16h",
-          "score": 52
+          "label": "16/08 07h",
+          "score": 82
         },
         {
-          "label": "21/08 18h",
-          "score": 5
+          "label": "16/08 09h",
+          "score": 71
         },
         {
-          "label": "21/08 20h",
-          "score": 38
+          "label": "16/08 11h",
+          "score": 28
         },
         {
-          "label": "21/08 22h",
+          "label": "16/08 13h",
+          "score": 72
+        },
+        {
+          "label": "16/08 15h",
+          "score": 9
+        },
+        {
+          "label": "16/08 17h",
           "score": 98
         },
         {
-          "label": "22/08 00h",
+          "label": "16/08 19h",
           "score": 98
         },
         {
-          "label": "22/08 02h",
-          "score": 89
+          "label": "16/08 21h",
+          "score": 20
         },
         {
-          "label": "22/08 04h",
-          "score": 88
+          "label": "16/08 23h",
+          "score": 98
         },
         {
-          "label": "22/08 06h",
-          "score": 5
+          "label": "17/08 01h",
+          "score": 98
         },
         {
-          "label": "22/08 08h",
-          "score": 12
+          "label": "17/08 03h",
+          "score": 98
         },
         {
-          "label": "22/08 10h",
-          "score": 34
+          "label": "17/08 05h",
+          "score": 98
         },
         {
-          "label": "22/08 12h",
+          "label": "17/08 07h",
+          "score": 98
+        },
+        {
+          "label": "17/08 09h",
           "score": 17
         },
         {
-          "label": "22/08 14h",
-          "score": 32
+          "label": "17/08 11h",
+          "score": 81
         },
         {
-          "label": "22/08 16h",
-          "score": 51
+          "label": "17/08 13h",
+          "score": 8
         },
         {
-          "label": "22/08 18h",
-          "score": 62
+          "label": "17/08 15h",
+          "score": 59
+        },
+        {
+          "label": "17/08 17h",
+          "score": 98
+        },
+        {
+          "label": "17/08 19h",
+          "score": 98
+        },
+        {
+          "label": "17/08 21h",
+          "score": 98
+        },
+        {
+          "label": "17/08 23h",
+          "score": 98
+        },
+        {
+          "label": "18/08 01h",
+          "score": 84
+        },
+        {
+          "label": "18/08 03h",
+          "score": 98
+        },
+        {
+          "label": "18/08 05h",
+          "score": 98
+        },
+        {
+          "label": "18/08 07h",
+          "score": 68
+        },
+        {
+          "label": "18/08 09h",
+          "score": 63
+        },
+        {
+          "label": "18/08 11h",
+          "score": 50
+        },
+        {
+          "label": "18/08 13h",
+          "score": 48
+        },
+        {
+          "label": "18/08 15h",
+          "score": 67
+        },
+        {
+          "label": "18/08 17h",
+          "score": 22
+        },
+        {
+          "label": "18/08 19h",
+          "score": 5
+        },
+        {
+          "label": "18/08 21h",
+          "score": 56
+        },
+        {
+          "label": "18/08 23h",
+          "score": 83
+        },
+        {
+          "label": "19/08 01h",
+          "score": 98
+        },
+        {
+          "label": "19/08 03h",
+          "score": 89
+        },
+        {
+          "label": "19/08 05h",
+          "score": 98
+        },
+        {
+          "label": "19/08 07h",
+          "score": 98
+        },
+        {
+          "label": "19/08 09h",
+          "score": 98
+        },
+        {
+          "label": "19/08 11h",
+          "score": 98
+        },
+        {
+          "label": "19/08 13h",
+          "score": 97
+        },
+        {
+          "label": "19/08 15h",
+          "score": 98
+        },
+        {
+          "label": "19/08 17h",
+          "score": 98
+        },
+        {
+          "label": "19/08 19h",
+          "score": 98
+        },
+        {
+          "label": "19/08 21h",
+          "score": 98
+        },
+        {
+          "label": "19/08 23h",
+          "score": 98
+        },
+        {
+          "label": "20/08 01h",
+          "score": 98
+        },
+        {
+          "label": "20/08 03h",
+          "score": 91
+        },
+        {
+          "label": "20/08 05h",
+          "score": 80
+        },
+        {
+          "label": "20/08 07h",
+          "score": 65
+        },
+        {
+          "label": "20/08 09h",
+          "score": 31
+        },
+        {
+          "label": "20/08 11h",
+          "score": 19
+        },
+        {
+          "label": "20/08 13h",
+          "score": 9
+        },
+        {
+          "label": "20/08 15h",
+          "score": 11
+        },
+        {
+          "label": "20/08 17h",
+          "score": 21
+        },
+        {
+          "label": "20/08 19h",
+          "score": 7
+        },
+        {
+          "label": "20/08 21h",
+          "score": 55
+        },
+        {
+          "label": "20/08 23h",
+          "score": 65
+        },
+        {
+          "label": "21/08 01h",
+          "score": 79
+        },
+        {
+          "label": "21/08 03h",
+          "score": 98
+        },
+        {
+          "label": "21/08 05h",
+          "score": 98
+        },
+        {
+          "label": "21/08 07h",
+          "score": 98
+        },
+        {
+          "label": "21/08 09h",
+          "score": 98
+        },
+        {
+          "label": "21/08 11h",
+          "score": 98
+        },
+        {
+          "label": "21/08 13h",
+          "score": 92
+        },
+        {
+          "label": "21/08 15h",
+          "score": 83
+        },
+        {
+          "label": "21/08 17h",
+          "score": 38
+        },
+        {
+          "label": "21/08 19h",
+          "score": 8
+        },
+        {
+          "label": "21/08 21h",
+          "score": 49
+        },
+        {
+          "label": "21/08 23h",
+          "score": 98
+        },
+        {
+          "label": "22/08 01h",
+          "score": 98
+        },
+        {
+          "label": "22/08 03h",
+          "score": 90
+        },
+        {
+          "label": "22/08 05h",
+          "score": 5
+        },
+        {
+          "label": "22/08 07h",
+          "score": 5
+        },
+        {
+          "label": "22/08 09h",
+          "score": 15
+        },
+        {
+          "label": "22/08 11h",
+          "score": 29
+        },
+        {
+          "label": "22/08 13h",
+          "score": 22
+        },
+        {
+          "label": "22/08 15h",
+          "score": 49
+        },
+        {
+          "label": "22/08 17h",
+          "score": 48
+        },
+        {
+          "label": "22/08 19h",
+          "score": 43
         }
       ],
       "30d": [
@@ -10339,15 +10339,15 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "24/07",
-          "score": 65
+          "score": 31
         },
         {
           "label": "25/07",
-          "score": 66
+          "score": 53
         },
         {
           "label": "25/07",
-          "score": 42
+          "score": 18
         },
         {
           "label": "25/07",
@@ -10355,265 +10355,265 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "26/07",
-          "score": 97
-        },
-        {
-          "label": "26/07",
           "score": 85
         },
         {
           "label": "26/07",
-          "score": 98
-        },
-        {
-          "label": "27/07",
-          "score": 98
-        },
-        {
-          "label": "27/07",
-          "score": 93
-        },
-        {
-          "label": "27/07",
-          "score": 19
-        },
-        {
-          "label": "28/07",
-          "score": 94
-        },
-        {
-          "label": "28/07",
-          "score": 92
-        },
-        {
-          "label": "28/07",
-          "score": 98
-        },
-        {
-          "label": "29/07",
-          "score": 26
-        },
-        {
-          "label": "29/07",
-          "score": 73
-        },
-        {
-          "label": "29/07",
-          "score": 5
-        },
-        {
-          "label": "30/07",
-          "score": 23
-        },
-        {
-          "label": "30/07",
-          "score": 8
-        },
-        {
-          "label": "30/07",
-          "score": 70
-        },
-        {
-          "label": "31/07",
-          "score": 89
-        },
-        {
-          "label": "31/07",
-          "score": 98
-        },
-        {
-          "label": "31/07",
-          "score": 34
-        },
-        {
-          "label": "01/08",
-          "score": 14
-        },
-        {
-          "label": "01/08",
-          "score": 5
-        },
-        {
-          "label": "01/08",
-          "score": 98
-        },
-        {
-          "label": "02/08",
-          "score": 14
-        },
-        {
-          "label": "02/08",
-          "score": 21
-        },
-        {
-          "label": "02/08",
-          "score": 85
-        },
-        {
-          "label": "03/08",
-          "score": 5
-        },
-        {
-          "label": "03/08",
-          "score": 85
-        },
-        {
-          "label": "03/08",
-          "score": 96
-        },
-        {
-          "label": "04/08",
-          "score": 66
-        },
-        {
-          "label": "04/08",
-          "score": 26
-        },
-        {
-          "label": "04/08",
-          "score": 98
-        },
-        {
-          "label": "05/08",
-          "score": 98
-        },
-        {
-          "label": "05/08",
-          "score": 26
-        },
-        {
-          "label": "05/08",
-          "score": 98
-        },
-        {
-          "label": "06/08",
-          "score": 35
-        },
-        {
-          "label": "06/08",
-          "score": 9
-        },
-        {
-          "label": "06/08",
-          "score": 73
-        },
-        {
-          "label": "07/08",
-          "score": 35
-        },
-        {
-          "label": "07/08",
-          "score": 98
-        },
-        {
-          "label": "07/08",
-          "score": 64
-        },
-        {
-          "label": "08/08",
           "score": 86
         },
         {
-          "label": "08/08",
-          "score": 77
-        },
-        {
-          "label": "08/08",
-          "score": 64
-        },
-        {
-          "label": "09/08",
-          "score": 54
-        },
-        {
-          "label": "09/08",
-          "score": 72
-        },
-        {
-          "label": "09/08",
+          "label": "26/07",
           "score": 98
         },
         {
-          "label": "10/08",
-          "score": 62
+          "label": "27/07",
+          "score": 86
         },
         {
-          "label": "10/08",
-          "score": 29
+          "label": "27/07",
+          "score": 86
         },
         {
-          "label": "10/08",
-          "score": 78
+          "label": "27/07",
+          "score": 26
         },
         {
-          "label": "11/08",
-          "score": 29
-        },
-        {
-          "label": "11/08",
-          "score": 84
-        },
-        {
-          "label": "11/08",
+          "label": "28/07",
           "score": 98
         },
         {
-          "label": "12/08",
-          "score": 89
-        },
-        {
-          "label": "12/08",
+          "label": "28/07",
           "score": 98
         },
         {
-          "label": "12/08",
-          "score": 50
-        },
-        {
-          "label": "13/08",
-          "score": 38
-        },
-        {
-          "label": "13/08",
-          "score": 87
-        },
-        {
-          "label": "13/08",
+          "label": "28/07",
           "score": 98
         },
         {
-          "label": "14/08",
-          "score": 12
+          "label": "29/07",
+          "score": 33
         },
         {
-          "label": "14/08",
-          "score": 98
+          "label": "29/07",
+          "score": 71
         },
         {
-          "label": "14/08",
-          "score": 34
-        },
-        {
-          "label": "15/08",
-          "score": 58
-        },
-        {
-          "label": "15/08",
-          "score": 5
-        },
-        {
-          "label": "15/08",
-          "score": 11
-        },
-        {
-          "label": "16/08",
-          "score": 5
-        },
-        {
-          "label": "16/08",
+          "label": "29/07",
           "score": 37
         },
         {
+          "label": "30/07",
+          "score": 28
+        },
+        {
+          "label": "30/07",
+          "score": 15
+        },
+        {
+          "label": "30/07",
+          "score": 63
+        },
+        {
+          "label": "31/07",
+          "score": 56
+        },
+        {
+          "label": "31/07",
+          "score": 98
+        },
+        {
+          "label": "31/07",
+          "score": 34
+        },
+        {
+          "label": "01/08",
+          "score": 34
+        },
+        {
+          "label": "01/08",
+          "score": 22
+        },
+        {
+          "label": "01/08",
+          "score": 98
+        },
+        {
+          "label": "02/08",
+          "score": 8
+        },
+        {
+          "label": "02/08",
+          "score": 10
+        },
+        {
+          "label": "02/08",
+          "score": 98
+        },
+        {
+          "label": "03/08",
+          "score": 19
+        },
+        {
+          "label": "03/08",
+          "score": 78
+        },
+        {
+          "label": "03/08",
+          "score": 93
+        },
+        {
+          "label": "04/08",
+          "score": 82
+        },
+        {
+          "label": "04/08",
+          "score": 21
+        },
+        {
+          "label": "04/08",
+          "score": 98
+        },
+        {
+          "label": "05/08",
+          "score": 98
+        },
+        {
+          "label": "05/08",
+          "score": 11
+        },
+        {
+          "label": "05/08",
+          "score": 98
+        },
+        {
+          "label": "06/08",
+          "score": 27
+        },
+        {
+          "label": "06/08",
+          "score": 35
+        },
+        {
+          "label": "06/08",
+          "score": 97
+        },
+        {
+          "label": "07/08",
+          "score": 12
+        },
+        {
+          "label": "07/08",
+          "score": 98
+        },
+        {
+          "label": "07/08",
+          "score": 43
+        },
+        {
+          "label": "08/08",
+          "score": 82
+        },
+        {
+          "label": "08/08",
+          "score": 67
+        },
+        {
+          "label": "08/08",
+          "score": 71
+        },
+        {
+          "label": "09/08",
+          "score": 49
+        },
+        {
+          "label": "09/08",
+          "score": 58
+        },
+        {
+          "label": "09/08",
+          "score": 98
+        },
+        {
+          "label": "10/08",
+          "score": 47
+        },
+        {
+          "label": "10/08",
+          "score": 37
+        },
+        {
+          "label": "10/08",
+          "score": 73
+        },
+        {
+          "label": "11/08",
+          "score": 39
+        },
+        {
+          "label": "11/08",
+          "score": 96
+        },
+        {
+          "label": "11/08",
+          "score": 98
+        },
+        {
+          "label": "12/08",
+          "score": 84
+        },
+        {
+          "label": "12/08",
+          "score": 98
+        },
+        {
+          "label": "12/08",
+          "score": 32
+        },
+        {
+          "label": "13/08",
+          "score": 46
+        },
+        {
+          "label": "13/08",
+          "score": 61
+        },
+        {
+          "label": "13/08",
+          "score": 98
+        },
+        {
+          "label": "14/08",
+          "score": 93
+        },
+        {
+          "label": "14/08",
+          "score": 98
+        },
+        {
+          "label": "14/08",
+          "score": 81
+        },
+        {
+          "label": "15/08",
+          "score": 51
+        },
+        {
+          "label": "15/08",
+          "score": 71
+        },
+        {
+          "label": "15/08",
+          "score": 16
+        },
+        {
+          "label": "16/08",
+          "score": 7
+        },
+        {
+          "label": "16/08",
+          "score": 16
+        },
+        {
           "label": "16/08",
           "score": 98
         },
@@ -10623,7 +10623,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "17/08",
-          "score": 86
+          "score": 50
         },
         {
           "label": "17/08",
@@ -10635,11 +10635,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "18/08",
-          "score": 56
+          "score": 39
         },
         {
           "label": "18/08",
-          "score": 9
+          "score": 37
         },
         {
           "label": "19/08",
@@ -10655,15 +10655,15 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "20/08",
-          "score": 92
+          "score": 98
         },
         {
           "label": "20/08",
-          "score": 17
+          "score": 27
         },
         {
           "label": "20/08",
-          "score": 15
+          "score": 14
         },
         {
           "label": "21/08",
@@ -10679,15 +10679,15 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "22/08",
-          "score": 91
+          "score": 86
         },
         {
           "label": "22/08",
-          "score": 30
+          "score": 17
         },
         {
           "label": "22/08",
-          "score": 62
+          "score": 43
         }
       ],
       "365d": [
@@ -10697,11 +10697,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "26/08/25",
-          "score": 98
+          "score": 96
         },
         {
           "label": "30/08/25",
-          "score": 71
+          "score": 89
         },
         {
           "label": "03/09/25",
@@ -10713,7 +10713,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "11/09/25",
-          "score": 26
+          "score": 34
         },
         {
           "label": "15/09/25",
@@ -10721,27 +10721,27 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "19/09/25",
-          "score": 77
+          "score": 75
         },
         {
           "label": "23/09/25",
-          "score": 98
+          "score": 34
         },
         {
           "label": "27/09/25",
-          "score": 86
+          "score": 63
         },
         {
           "label": "01/10/25",
-          "score": 68
+          "score": 74
         },
         {
           "label": "05/10/25",
-          "score": 39
+          "score": 40
         },
         {
           "label": "09/10/25",
-          "score": 48
+          "score": 43
         },
         {
           "label": "13/10/25",
@@ -10749,31 +10749,31 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "17/10/25",
-          "score": 48
+          "score": 91
         },
         {
           "label": "21/10/25",
-          "score": 68
+          "score": 98
         },
         {
           "label": "25/10/25",
-          "score": 83
+          "score": 94
         },
         {
           "label": "29/10/25",
-          "score": 72
+          "score": 34
         },
         {
           "label": "02/11/25",
-          "score": 59
+          "score": 35
         },
         {
           "label": "06/11/25",
-          "score": 29
+          "score": 51
         },
         {
           "label": "10/11/25",
-          "score": 89
+          "score": 75
         },
         {
           "label": "03/12/25",
@@ -10789,11 +10789,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "22/01/26",
-          "score": 94
+          "score": 64
         },
         {
           "label": "28/01/26",
-          "score": 71
+          "score": 73
         },
         {
           "label": "01/02/26",
@@ -10801,7 +10801,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "06/02/26",
-          "score": 26
+          "score": 66
         },
         {
           "label": "10/02/26",
@@ -10813,7 +10813,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "21/02/26",
-          "score": 23
+          "score": 46
         },
         {
           "label": "25/02/26",
@@ -10821,15 +10821,15 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "02/03/26",
-          "score": 98
+          "score": 68
         },
         {
           "label": "07/03/26",
-          "score": 30
+          "score": 28
         },
         {
           "label": "11/03/26",
-          "score": 98
+          "score": 81
         },
         {
           "label": "16/03/26",
@@ -10837,11 +10837,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "20/03/26",
-          "score": 16
+          "score": 24
         },
         {
           "label": "25/03/26",
-          "score": 20
+          "score": 22
         },
         {
           "label": "30/03/26",
@@ -10857,15 +10857,15 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "12/04/26",
-          "score": 21
+          "score": 20
         },
         {
           "label": "16/04/26",
-          "score": 78
+          "score": 90
         },
         {
           "label": "20/04/26",
-          "score": 61
+          "score": 83
         },
         {
           "label": "24/04/26",
@@ -10873,7 +10873,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "29/04/26",
-          "score": 35
+          "score": 71
         },
         {
           "label": "03/05/26",
@@ -10881,11 +10881,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "07/05/26",
-          "score": 36
+          "score": 74
         },
         {
           "label": "13/05/26",
-          "score": 98
+          "score": 83
         },
         {
           "label": "17/05/26",
@@ -10893,15 +10893,15 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "22/05/26",
-          "score": 9
+          "score": 5
         },
         {
           "label": "26/05/26",
-          "score": 9
+          "score": 15
         },
         {
           "label": "30/05/26",
-          "score": 35
+          "score": 62
         },
         {
           "label": "04/06/26",
@@ -10913,11 +10913,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "12/06/26",
-          "score": 44
+          "score": 57
         },
         {
           "label": "16/06/26",
-          "score": 39
+          "score": 32
         },
         {
           "label": "20/06/26",
@@ -10925,23 +10925,23 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "24/06/26",
-          "score": 61
+          "score": 37
         },
         {
           "label": "28/06/26",
-          "score": 83
+          "score": 94
         },
         {
           "label": "02/07/26",
-          "score": 20
+          "score": 82
         },
         {
           "label": "06/07/26",
-          "score": 60
+          "score": 34
         },
         {
           "label": "10/07/26",
-          "score": 69
+          "score": 12
         },
         {
           "label": "14/07/26",
@@ -10949,11 +10949,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "18/07/26",
-          "score": 63
+          "score": 52
         },
         {
           "label": "22/07/26",
-          "score": 5
+          "score": 21
         },
         {
           "label": "26/07/26",
@@ -10961,23 +10961,23 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "30/07/26",
-          "score": 88
+          "score": 57
         },
         {
           "label": "03/08/26",
-          "score": 12
+          "score": 6
         },
         {
           "label": "07/08/26",
-          "score": 16
+          "score": 33
         },
         {
           "label": "11/08/26",
-          "score": 48
+          "score": 38
         },
         {
           "label": "15/08/26",
-          "score": 83
+          "score": 37
         },
         {
           "label": "19/08/26",
@@ -10985,7 +10985,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "22/08/26",
-          "score": 62
+          "score": 43
         }
       ]
     }
@@ -11001,10 +11001,10 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Micro-Queda 5m <= -0.40% (> 1.5σ intradiário)",
     "trava_ruptura": "Trava Espectral: Exige Ew < 50.0 (Sem tempestade de choque)",
     "cooldown_horas": 1.5,
-    "valor_atual_str": "Retorno 5m = -0.45%",
+    "valor_atual_str": "Retorno 5m = +0.33%",
     "alvo_str": "Retorno 5m <= -0.40%",
-    "distancia_display": "Faltam -0.05% de recuo rápido",
-    "proximidade_score": 98,
+    "distancia_display": "Faltam +0.73% de recuo rápido",
+    "proximidade_score": 5,
     "status": "RADAR_ATIVO_5M",
     "icone": "🏹",
     "cor": "#EAB308",
@@ -11013,130 +11013,6 @@ window.PLANOS_TACTICAL_DATA = [
     "limitacoes_trava": "• <b>Trava Anti-Cascade:</b> Aborta se houver mais de 3 micro-quedas consecutivas sem repique.<br>• <b>Trava Wavelet Ew < 50.0:</b> Exige ausência de ondas de choque de alta energia.",
     "series_historica": {
       "1h": [
-        {
-          "label": "17:36",
-          "score": 5
-        },
-        {
-          "label": "17:37",
-          "score": 13
-        },
-        {
-          "label": "17:38",
-          "score": 15
-        },
-        {
-          "label": "17:39",
-          "score": 23
-        },
-        {
-          "label": "17:40",
-          "score": 23
-        },
-        {
-          "label": "17:41",
-          "score": 5
-        },
-        {
-          "label": "17:42",
-          "score": 5
-        },
-        {
-          "label": "17:43",
-          "score": 5
-        },
-        {
-          "label": "17:44",
-          "score": 5
-        },
-        {
-          "label": "17:45",
-          "score": 5
-        },
-        {
-          "label": "17:46",
-          "score": 5
-        },
-        {
-          "label": "17:47",
-          "score": 5
-        },
-        {
-          "label": "17:48",
-          "score": 5
-        },
-        {
-          "label": "17:49",
-          "score": 5
-        },
-        {
-          "label": "17:50",
-          "score": 5
-        },
-        {
-          "label": "17:51",
-          "score": 5
-        },
-        {
-          "label": "17:52",
-          "score": 5
-        },
-        {
-          "label": "17:53",
-          "score": 5
-        },
-        {
-          "label": "17:54",
-          "score": 5
-        },
-        {
-          "label": "17:55",
-          "score": 19
-        },
-        {
-          "label": "17:56",
-          "score": 20
-        },
-        {
-          "label": "17:57",
-          "score": 7
-        },
-        {
-          "label": "17:58",
-          "score": 5
-        },
-        {
-          "label": "17:59",
-          "score": 6
-        },
-        {
-          "label": "18:00",
-          "score": 5
-        },
-        {
-          "label": "18:01",
-          "score": 5
-        },
-        {
-          "label": "18:02",
-          "score": 5
-        },
-        {
-          "label": "18:03",
-          "score": 5
-        },
-        {
-          "label": "18:04",
-          "score": 5
-        },
-        {
-          "label": "18:05",
-          "score": 5
-        },
-        {
-          "label": "18:06",
-          "score": 5
-        },
         {
           "label": "18:07",
           "score": 5
@@ -11255,981 +11131,1105 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "18:36",
+          "score": 10
+        },
+        {
+          "label": "18:37",
+          "score": 91
+        },
+        {
+          "label": "18:38",
+          "score": 84
+        },
+        {
+          "label": "18:39",
           "score": 98
+        },
+        {
+          "label": "18:40",
+          "score": 98
+        },
+        {
+          "label": "18:41",
+          "score": 98
+        },
+        {
+          "label": "18:42",
+          "score": 26
+        },
+        {
+          "label": "18:43",
+          "score": 32
+        },
+        {
+          "label": "18:44",
+          "score": 5
+        },
+        {
+          "label": "18:45",
+          "score": 5
+        },
+        {
+          "label": "18:46",
+          "score": 7
+        },
+        {
+          "label": "18:47",
+          "score": 5
+        },
+        {
+          "label": "18:48",
+          "score": 5
+        },
+        {
+          "label": "18:49",
+          "score": 19
+        },
+        {
+          "label": "18:50",
+          "score": 14
+        },
+        {
+          "label": "18:51",
+          "score": 5
+        },
+        {
+          "label": "18:52",
+          "score": 5
+        },
+        {
+          "label": "18:53",
+          "score": 5
+        },
+        {
+          "label": "18:54",
+          "score": 14
+        },
+        {
+          "label": "18:55",
+          "score": 9
+        },
+        {
+          "label": "18:56",
+          "score": 29
+        },
+        {
+          "label": "18:57",
+          "score": 16
+        },
+        {
+          "label": "18:58",
+          "score": 16
+        },
+        {
+          "label": "18:59",
+          "score": 19
+        },
+        {
+          "label": "19:00",
+          "score": 13
+        },
+        {
+          "label": "19:01",
+          "score": 5
+        },
+        {
+          "label": "19:02",
+          "score": 29
+        },
+        {
+          "label": "19:03",
+          "score": 5
+        },
+        {
+          "label": "19:04",
+          "score": 5
+        },
+        {
+          "label": "19:05",
+          "score": 5
+        },
+        {
+          "label": "19:06",
+          "score": 5
+        },
+        {
+          "label": "19:07",
+          "score": 5
         }
       ],
       "24h": [
         {
-          "label": "18:36",
-          "score": 98
+          "label": "19:07",
+          "score": 39
         },
         {
-          "label": "18:56",
+          "label": "19:27",
           "score": 5
         },
         {
-          "label": "19:16",
-          "score": 22
-        },
-        {
-          "label": "19:36",
-          "score": 55
-        },
-        {
-          "label": "19:56",
-          "score": 34
-        },
-        {
-          "label": "20:16",
+          "label": "19:47",
           "score": 5
         },
         {
-          "label": "20:36",
+          "label": "20:07",
           "score": 5
         },
         {
-          "label": "20:56",
-          "score": 11
-        },
-        {
-          "label": "21:16",
-          "score": 12
-        },
-        {
-          "label": "21:36",
+          "label": "20:27",
           "score": 5
         },
         {
-          "label": "21:56",
-          "score": 5
+          "label": "20:47",
+          "score": 35
         },
         {
-          "label": "22:16",
-          "score": 11
-        },
-        {
-          "label": "22:36",
-          "score": 5
-        },
-        {
-          "label": "22:56",
-          "score": 5
-        },
-        {
-          "label": "23:16",
-          "score": 5
-        },
-        {
-          "label": "23:36",
-          "score": 44
-        },
-        {
-          "label": "23:56",
-          "score": 5
-        },
-        {
-          "label": "00:16",
-          "score": 5
-        },
-        {
-          "label": "00:36",
-          "score": 10
-        },
-        {
-          "label": "00:56",
-          "score": 5
-        },
-        {
-          "label": "01:16",
-          "score": 5
-        },
-        {
-          "label": "01:36",
-          "score": 5
-        },
-        {
-          "label": "01:56",
-          "score": 5
-        },
-        {
-          "label": "02:16",
-          "score": 5
-        },
-        {
-          "label": "02:36",
-          "score": 57
-        },
-        {
-          "label": "02:56",
-          "score": 5
-        },
-        {
-          "label": "03:16",
-          "score": 5
-        },
-        {
-          "label": "03:36",
-          "score": 14
-        },
-        {
-          "label": "03:56",
-          "score": 76
-        },
-        {
-          "label": "04:16",
-          "score": 24
-        },
-        {
-          "label": "04:36",
-          "score": 5
-        },
-        {
-          "label": "04:56",
-          "score": 5
-        },
-        {
-          "label": "05:16",
-          "score": 13
-        },
-        {
-          "label": "05:36",
-          "score": 5
-        },
-        {
-          "label": "05:56",
-          "score": 20
-        },
-        {
-          "label": "06:16",
-          "score": 5
-        },
-        {
-          "label": "06:36",
-          "score": 5
-        },
-        {
-          "label": "06:56",
-          "score": 27
-        },
-        {
-          "label": "07:16",
-          "score": 6
-        },
-        {
-          "label": "07:36",
-          "score": 12
-        },
-        {
-          "label": "07:56",
-          "score": 5
-        },
-        {
-          "label": "08:16",
-          "score": 5
-        },
-        {
-          "label": "08:36",
-          "score": 17
-        },
-        {
-          "label": "08:56",
-          "score": 17
-        },
-        {
-          "label": "09:16",
-          "score": 5
-        },
-        {
-          "label": "09:36",
-          "score": 5
-        },
-        {
-          "label": "09:56",
-          "score": 5
-        },
-        {
-          "label": "10:16",
-          "score": 5
-        },
-        {
-          "label": "10:36",
-          "score": 5
-        },
-        {
-          "label": "10:56",
-          "score": 42
-        },
-        {
-          "label": "11:16",
-          "score": 22
-        },
-        {
-          "label": "11:36",
-          "score": 5
-        },
-        {
-          "label": "11:56",
-          "score": 5
-        },
-        {
-          "label": "12:16",
-          "score": 5
-        },
-        {
-          "label": "12:36",
+          "label": "21:07",
           "score": 8
         },
         {
-          "label": "12:56",
+          "label": "21:27",
           "score": 5
         },
         {
-          "label": "13:16",
+          "label": "21:47",
           "score": 5
         },
         {
-          "label": "13:36",
-          "score": 34
+          "label": "22:07",
+          "score": 5
         },
         {
-          "label": "13:56",
+          "label": "22:27",
+          "score": 40
+        },
+        {
+          "label": "22:47",
+          "score": 32
+        },
+        {
+          "label": "23:07",
+          "score": 5
+        },
+        {
+          "label": "23:27",
+          "score": 74
+        },
+        {
+          "label": "23:47",
+          "score": 5
+        },
+        {
+          "label": "00:07",
+          "score": 98
+        },
+        {
+          "label": "00:27",
+          "score": 7
+        },
+        {
+          "label": "00:47",
+          "score": 5
+        },
+        {
+          "label": "01:07",
+          "score": 5
+        },
+        {
+          "label": "01:27",
+          "score": 5
+        },
+        {
+          "label": "01:47",
+          "score": 19
+        },
+        {
+          "label": "02:07",
+          "score": 5
+        },
+        {
+          "label": "02:27",
+          "score": 5
+        },
+        {
+          "label": "02:47",
           "score": 21
         },
         {
-          "label": "14:16",
+          "label": "03:07",
+          "score": 5
+        },
+        {
+          "label": "03:27",
+          "score": 5
+        },
+        {
+          "label": "03:47",
+          "score": 9
+        },
+        {
+          "label": "04:07",
+          "score": 10
+        },
+        {
+          "label": "04:27",
+          "score": 5
+        },
+        {
+          "label": "04:47",
+          "score": 42
+        },
+        {
+          "label": "05:07",
+          "score": 87
+        },
+        {
+          "label": "05:27",
+          "score": 5
+        },
+        {
+          "label": "05:47",
+          "score": 5
+        },
+        {
+          "label": "06:07",
+          "score": 62
+        },
+        {
+          "label": "06:27",
+          "score": 5
+        },
+        {
+          "label": "06:47",
+          "score": 5
+        },
+        {
+          "label": "07:07",
+          "score": 5
+        },
+        {
+          "label": "07:27",
+          "score": 5
+        },
+        {
+          "label": "07:47",
+          "score": 30
+        },
+        {
+          "label": "08:07",
+          "score": 26
+        },
+        {
+          "label": "08:27",
+          "score": 53
+        },
+        {
+          "label": "08:47",
+          "score": 5
+        },
+        {
+          "label": "09:07",
           "score": 12
         },
         {
-          "label": "14:36",
+          "label": "09:27",
+          "score": 39
+        },
+        {
+          "label": "09:47",
+          "score": 97
+        },
+        {
+          "label": "10:07",
+          "score": 9
+        },
+        {
+          "label": "10:27",
           "score": 5
         },
         {
-          "label": "14:56",
+          "label": "10:47",
           "score": 5
         },
         {
-          "label": "15:16",
+          "label": "11:07",
           "score": 5
         },
         {
-          "label": "15:36",
+          "label": "11:27",
           "score": 5
         },
         {
-          "label": "15:56",
+          "label": "11:47",
           "score": 5
         },
         {
-          "label": "16:16",
+          "label": "12:07",
           "score": 5
         },
         {
-          "label": "16:36",
+          "label": "12:27",
           "score": 5
         },
         {
-          "label": "16:56",
-          "score": 20
-        },
-        {
-          "label": "17:16",
+          "label": "12:47",
           "score": 5
         },
         {
-          "label": "17:36",
+          "label": "13:07",
+          "score": 8
+        },
+        {
+          "label": "13:27",
           "score": 5
         },
         {
-          "label": "17:56",
-          "score": 20
-        },
-        {
-          "label": "18:16",
+          "label": "13:47",
           "score": 5
         },
         {
-          "label": "18:36",
-          "score": 98
+          "label": "14:07",
+          "score": 79
+        },
+        {
+          "label": "14:27",
+          "score": 5
+        },
+        {
+          "label": "14:47",
+          "score": 5
+        },
+        {
+          "label": "15:07",
+          "score": 22
+        },
+        {
+          "label": "15:27",
+          "score": 5
+        },
+        {
+          "label": "15:47",
+          "score": 5
+        },
+        {
+          "label": "16:07",
+          "score": 5
+        },
+        {
+          "label": "16:27",
+          "score": 6
+        },
+        {
+          "label": "16:47",
+          "score": 5
+        },
+        {
+          "label": "17:07",
+          "score": 5
+        },
+        {
+          "label": "17:27",
+          "score": 5
+        },
+        {
+          "label": "17:47",
+          "score": 5
+        },
+        {
+          "label": "18:07",
+          "score": 5
+        },
+        {
+          "label": "18:27",
+          "score": 13
+        },
+        {
+          "label": "18:47",
+          "score": 5
+        },
+        {
+          "label": "19:07",
+          "score": 5
         }
       ],
       "7d": [
         {
-          "label": "15/08 18h",
+          "label": "15/08 19h",
           "score": 5
         },
         {
-          "label": "15/08 20h",
+          "label": "15/08 21h",
           "score": 5
         },
         {
-          "label": "15/08 22h",
+          "label": "15/08 23h",
           "score": 5
         },
         {
-          "label": "16/08 00h",
+          "label": "16/08 01h",
           "score": 5
         },
         {
-          "label": "16/08 02h",
+          "label": "16/08 03h",
           "score": 5
         },
         {
-          "label": "16/08 04h",
+          "label": "16/08 05h",
           "score": 5
         },
         {
-          "label": "16/08 06h",
+          "label": "16/08 07h",
           "score": 5
         },
         {
-          "label": "16/08 08h",
+          "label": "16/08 09h",
           "score": 5
         },
         {
-          "label": "16/08 10h",
+          "label": "16/08 11h",
           "score": 5
         },
         {
-          "label": "16/08 12h",
+          "label": "16/08 13h",
           "score": 5
         },
         {
-          "label": "16/08 14h",
+          "label": "16/08 15h",
           "score": 5
         },
         {
-          "label": "16/08 16h",
-          "score": 6
-        },
-        {
-          "label": "16/08 18h",
+          "label": "16/08 17h",
           "score": 5
         },
         {
-          "label": "16/08 20h",
+          "label": "16/08 19h",
           "score": 5
         },
         {
-          "label": "16/08 22h",
-          "score": 13
+          "label": "16/08 21h",
+          "score": 7
         },
         {
-          "label": "17/08 00h",
+          "label": "16/08 23h",
           "score": 5
         },
         {
-          "label": "17/08 02h",
-          "score": 32
-        },
-        {
-          "label": "17/08 04h",
+          "label": "17/08 01h",
           "score": 5
         },
         {
-          "label": "17/08 06h",
+          "label": "17/08 03h",
           "score": 5
         },
         {
-          "label": "17/08 08h",
-          "score": 11
+          "label": "17/08 05h",
+          "score": 18
         },
         {
-          "label": "17/08 10h",
+          "label": "17/08 07h",
           "score": 5
         },
         {
-          "label": "17/08 12h",
+          "label": "17/08 09h",
+          "score": 5
+        },
+        {
+          "label": "17/08 11h",
           "score": 10
         },
         {
-          "label": "17/08 14h",
-          "score": 9
-        },
-        {
-          "label": "17/08 16h",
+          "label": "17/08 13h",
           "score": 5
         },
         {
-          "label": "17/08 18h",
-          "score": 5
-        },
-        {
-          "label": "17/08 20h",
-          "score": 5
-        },
-        {
-          "label": "17/08 22h",
-          "score": 5
-        },
-        {
-          "label": "18/08 00h",
-          "score": 5
-        },
-        {
-          "label": "18/08 02h",
-          "score": 5
-        },
-        {
-          "label": "18/08 04h",
-          "score": 11
-        },
-        {
-          "label": "18/08 06h",
-          "score": 5
-        },
-        {
-          "label": "18/08 08h",
-          "score": 5
-        },
-        {
-          "label": "18/08 10h",
-          "score": 5
-        },
-        {
-          "label": "18/08 12h",
-          "score": 21
-        },
-        {
-          "label": "18/08 14h",
-          "score": 16
-        },
-        {
-          "label": "18/08 16h",
-          "score": 5
-        },
-        {
-          "label": "18/08 18h",
-          "score": 5
-        },
-        {
-          "label": "18/08 20h",
-          "score": 5
-        },
-        {
-          "label": "18/08 22h",
-          "score": 5
-        },
-        {
-          "label": "19/08 00h",
-          "score": 30
-        },
-        {
-          "label": "19/08 02h",
-          "score": 9
-        },
-        {
-          "label": "19/08 04h",
-          "score": 8
-        },
-        {
-          "label": "19/08 06h",
-          "score": 5
-        },
-        {
-          "label": "19/08 08h",
-          "score": 5
-        },
-        {
-          "label": "19/08 10h",
-          "score": 8
-        },
-        {
-          "label": "19/08 12h",
-          "score": 5
-        },
-        {
-          "label": "19/08 14h",
+          "label": "17/08 15h",
           "score": 12
         },
         {
-          "label": "19/08 16h",
-          "score": 46
-        },
-        {
-          "label": "19/08 18h",
+          "label": "17/08 17h",
           "score": 5
         },
         {
-          "label": "19/08 20h",
+          "label": "17/08 19h",
           "score": 5
         },
         {
-          "label": "19/08 22h",
+          "label": "17/08 21h",
           "score": 5
         },
         {
-          "label": "20/08 00h",
+          "label": "17/08 23h",
+          "score": 5
+        },
+        {
+          "label": "18/08 01h",
+          "score": 17
+        },
+        {
+          "label": "18/08 03h",
           "score": 10
         },
         {
-          "label": "20/08 02h",
+          "label": "18/08 05h",
           "score": 5
         },
         {
-          "label": "20/08 04h",
+          "label": "18/08 07h",
           "score": 5
         },
         {
-          "label": "20/08 06h",
+          "label": "18/08 09h",
           "score": 5
         },
         {
-          "label": "20/08 08h",
+          "label": "18/08 11h",
           "score": 5
         },
         {
-          "label": "20/08 10h",
-          "score": 23
-        },
-        {
-          "label": "20/08 12h",
+          "label": "18/08 13h",
           "score": 5
         },
         {
-          "label": "20/08 14h",
-          "score": 44
-        },
-        {
-          "label": "20/08 16h",
+          "label": "18/08 15h",
           "score": 5
         },
         {
-          "label": "20/08 18h",
-          "score": 16
-        },
-        {
-          "label": "20/08 20h",
-          "score": 49
-        },
-        {
-          "label": "20/08 22h",
-          "score": 20
-        },
-        {
-          "label": "21/08 00h",
-          "score": 48
-        },
-        {
-          "label": "21/08 02h",
+          "label": "18/08 17h",
           "score": 5
         },
         {
-          "label": "21/08 04h",
-          "score": 20
+          "label": "18/08 19h",
+          "score": 13
         },
         {
-          "label": "21/08 06h",
+          "label": "18/08 21h",
           "score": 5
         },
         {
-          "label": "21/08 08h",
-          "score": 49
-        },
-        {
-          "label": "21/08 10h",
+          "label": "18/08 23h",
           "score": 5
         },
         {
-          "label": "21/08 12h",
+          "label": "19/08 01h",
+          "score": 6
+        },
+        {
+          "label": "19/08 03h",
           "score": 5
         },
         {
-          "label": "21/08 14h",
-          "score": 29
-        },
-        {
-          "label": "21/08 16h",
-          "score": 21
-        },
-        {
-          "label": "21/08 18h",
+          "label": "19/08 05h",
           "score": 5
         },
         {
-          "label": "21/08 20h",
-          "score": 20
-        },
-        {
-          "label": "21/08 22h",
+          "label": "19/08 07h",
           "score": 5
         },
         {
-          "label": "22/08 00h",
-          "score": 11
-        },
-        {
-          "label": "22/08 02h",
+          "label": "19/08 09h",
           "score": 5
         },
         {
-          "label": "22/08 04h",
+          "label": "19/08 11h",
+          "score": 14
+        },
+        {
+          "label": "19/08 13h",
           "score": 5
         },
         {
-          "label": "22/08 06h",
+          "label": "19/08 15h",
           "score": 5
         },
         {
-          "label": "22/08 08h",
-          "score": 9
-        },
-        {
-          "label": "22/08 10h",
+          "label": "19/08 17h",
           "score": 5
         },
         {
-          "label": "22/08 12h",
+          "label": "19/08 19h",
           "score": 5
         },
         {
-          "label": "22/08 14h",
-          "score": 21
-        },
-        {
-          "label": "22/08 16h",
-          "score": 5
-        },
-        {
-          "label": "22/08 18h",
+          "label": "19/08 21h",
           "score": 98
+        },
+        {
+          "label": "19/08 23h",
+          "score": 5
+        },
+        {
+          "label": "20/08 01h",
+          "score": 5
+        },
+        {
+          "label": "20/08 03h",
+          "score": 63
+        },
+        {
+          "label": "20/08 05h",
+          "score": 26
+        },
+        {
+          "label": "20/08 07h",
+          "score": 6
+        },
+        {
+          "label": "20/08 09h",
+          "score": 5
+        },
+        {
+          "label": "20/08 11h",
+          "score": 5
+        },
+        {
+          "label": "20/08 13h",
+          "score": 5
+        },
+        {
+          "label": "20/08 15h",
+          "score": 5
+        },
+        {
+          "label": "20/08 17h",
+          "score": 28
+        },
+        {
+          "label": "20/08 19h",
+          "score": 5
+        },
+        {
+          "label": "20/08 21h",
+          "score": 5
+        },
+        {
+          "label": "20/08 23h",
+          "score": 5
+        },
+        {
+          "label": "21/08 01h",
+          "score": 5
+        },
+        {
+          "label": "21/08 03h",
+          "score": 5
+        },
+        {
+          "label": "21/08 05h",
+          "score": 5
+        },
+        {
+          "label": "21/08 07h",
+          "score": 5
+        },
+        {
+          "label": "21/08 09h",
+          "score": 5
+        },
+        {
+          "label": "21/08 11h",
+          "score": 5
+        },
+        {
+          "label": "21/08 13h",
+          "score": 36
+        },
+        {
+          "label": "21/08 15h",
+          "score": 5
+        },
+        {
+          "label": "21/08 17h",
+          "score": 5
+        },
+        {
+          "label": "21/08 19h",
+          "score": 5
+        },
+        {
+          "label": "21/08 21h",
+          "score": 5
+        },
+        {
+          "label": "21/08 23h",
+          "score": 5
+        },
+        {
+          "label": "22/08 01h",
+          "score": 5
+        },
+        {
+          "label": "22/08 03h",
+          "score": 62
+        },
+        {
+          "label": "22/08 05h",
+          "score": 98
+        },
+        {
+          "label": "22/08 07h",
+          "score": 87
+        },
+        {
+          "label": "22/08 09h",
+          "score": 5
+        },
+        {
+          "label": "22/08 11h",
+          "score": 18
+        },
+        {
+          "label": "22/08 13h",
+          "score": 5
+        },
+        {
+          "label": "22/08 15h",
+          "score": 20
+        },
+        {
+          "label": "22/08 17h",
+          "score": 5
+        },
+        {
+          "label": "22/08 19h",
+          "score": 5
         }
       ],
       "30d": [
         {
           "label": "23/07",
-          "score": 5
-        },
-        {
-          "label": "24/07",
-          "score": 40
-        },
-        {
-          "label": "24/07",
-          "score": 5
-        },
-        {
-          "label": "24/07",
-          "score": 16
-        },
-        {
-          "label": "25/07",
-          "score": 5
-        },
-        {
-          "label": "25/07",
-          "score": 5
-        },
-        {
-          "label": "25/07",
           "score": 20
         },
         {
-          "label": "26/07",
+          "label": "24/07",
           "score": 5
         },
         {
-          "label": "26/07",
+          "label": "24/07",
           "score": 5
         },
         {
-          "label": "26/07",
+          "label": "24/07",
+          "score": 29
+        },
+        {
+          "label": "25/07",
           "score": 5
         },
         {
-          "label": "27/07",
+          "label": "25/07",
           "score": 5
         },
         {
-          "label": "27/07",
-          "score": 5
-        },
-        {
-          "label": "27/07",
-          "score": 5
-        },
-        {
-          "label": "28/07",
-          "score": 24
-        },
-        {
-          "label": "28/07",
-          "score": 5
-        },
-        {
-          "label": "28/07",
-          "score": 5
-        },
-        {
-          "label": "29/07",
-          "score": 24
-        },
-        {
-          "label": "29/07",
-          "score": 5
-        },
-        {
-          "label": "29/07",
-          "score": 5
-        },
-        {
-          "label": "30/07",
-          "score": 5
-        },
-        {
-          "label": "30/07",
-          "score": 5
-        },
-        {
-          "label": "30/07",
-          "score": 6
-        },
-        {
-          "label": "31/07",
-          "score": 5
-        },
-        {
-          "label": "31/07",
-          "score": 7
-        },
-        {
-          "label": "31/07",
-          "score": 5
-        },
-        {
-          "label": "01/08",
-          "score": 5
-        },
-        {
-          "label": "01/08",
-          "score": 5
-        },
-        {
-          "label": "01/08",
-          "score": 5
-        },
-        {
-          "label": "02/08",
-          "score": 5
-        },
-        {
-          "label": "02/08",
-          "score": 5
-        },
-        {
-          "label": "02/08",
-          "score": 26
-        },
-        {
-          "label": "03/08",
-          "score": 7
-        },
-        {
-          "label": "03/08",
-          "score": 5
-        },
-        {
-          "label": "03/08",
-          "score": 5
-        },
-        {
-          "label": "04/08",
-          "score": 13
-        },
-        {
-          "label": "04/08",
-          "score": 5
-        },
-        {
-          "label": "04/08",
-          "score": 5
-        },
-        {
-          "label": "05/08",
-          "score": 5
-        },
-        {
-          "label": "05/08",
-          "score": 5
-        },
-        {
-          "label": "05/08",
-          "score": 5
-        },
-        {
-          "label": "06/08",
-          "score": 5
-        },
-        {
-          "label": "06/08",
-          "score": 6
-        },
-        {
-          "label": "06/08",
-          "score": 5
-        },
-        {
-          "label": "07/08",
+          "label": "25/07",
           "score": 9
         },
         {
-          "label": "07/08",
+          "label": "26/07",
           "score": 5
         },
         {
-          "label": "07/08",
+          "label": "26/07",
           "score": 5
         },
         {
-          "label": "08/08",
-          "score": 5
-        },
-        {
-          "label": "08/08",
-          "score": 5
-        },
-        {
-          "label": "08/08",
-          "score": 5
-        },
-        {
-          "label": "09/08",
-          "score": 5
-        },
-        {
-          "label": "09/08",
-          "score": 5
-        },
-        {
-          "label": "09/08",
-          "score": 5
-        },
-        {
-          "label": "10/08",
-          "score": 5
-        },
-        {
-          "label": "10/08",
+          "label": "26/07",
           "score": 13
         },
         {
-          "label": "10/08",
-          "score": 13
-        },
-        {
-          "label": "11/08",
+          "label": "27/07",
           "score": 5
         },
         {
-          "label": "11/08",
-          "score": 5
-        },
-        {
-          "label": "11/08",
-          "score": 25
-        },
-        {
-          "label": "12/08",
-          "score": 5
-        },
-        {
-          "label": "12/08",
-          "score": 6
-        },
-        {
-          "label": "12/08",
-          "score": 5
-        },
-        {
-          "label": "13/08",
-          "score": 10
-        },
-        {
-          "label": "13/08",
-          "score": 8
-        },
-        {
-          "label": "13/08",
-          "score": 5
-        },
-        {
-          "label": "14/08",
-          "score": 5
-        },
-        {
-          "label": "14/08",
-          "score": 14
-        },
-        {
-          "label": "14/08",
+          "label": "27/07",
           "score": 11
         },
         {
-          "label": "15/08",
+          "label": "27/07",
           "score": 5
         },
         {
-          "label": "15/08",
+          "label": "28/07",
           "score": 5
         },
         {
-          "label": "15/08",
+          "label": "28/07",
+          "score": 18
+        },
+        {
+          "label": "28/07",
+          "score": 7
+        },
+        {
+          "label": "29/07",
+          "score": 34
+        },
+        {
+          "label": "29/07",
           "score": 5
         },
         {
-          "label": "16/08",
+          "label": "29/07",
           "score": 5
         },
         {
-          "label": "16/08",
+          "label": "30/07",
           "score": 5
         },
         {
-          "label": "16/08",
+          "label": "30/07",
           "score": 5
         },
         {
-          "label": "17/08",
+          "label": "30/07",
           "score": 5
         },
         {
-          "label": "17/08",
+          "label": "31/07",
           "score": 5
         },
         {
-          "label": "17/08",
+          "label": "31/07",
           "score": 5
         },
         {
-          "label": "18/08",
-          "score": 13
-        },
-        {
-          "label": "18/08",
-          "score": 5
-        },
-        {
-          "label": "18/08",
-          "score": 5
-        },
-        {
-          "label": "19/08",
-          "score": 5
-        },
-        {
-          "label": "19/08",
+          "label": "31/07",
           "score": 8
         },
         {
+          "label": "01/08",
+          "score": 5
+        },
+        {
+          "label": "01/08",
+          "score": 5
+        },
+        {
+          "label": "01/08",
+          "score": 5
+        },
+        {
+          "label": "02/08",
+          "score": 5
+        },
+        {
+          "label": "02/08",
+          "score": 5
+        },
+        {
+          "label": "02/08",
+          "score": 5
+        },
+        {
+          "label": "03/08",
+          "score": 14
+        },
+        {
+          "label": "03/08",
+          "score": 5
+        },
+        {
+          "label": "03/08",
+          "score": 10
+        },
+        {
+          "label": "04/08",
+          "score": 5
+        },
+        {
+          "label": "04/08",
+          "score": 5
+        },
+        {
+          "label": "04/08",
+          "score": 9
+        },
+        {
+          "label": "05/08",
+          "score": 33
+        },
+        {
+          "label": "05/08",
+          "score": 5
+        },
+        {
+          "label": "05/08",
+          "score": 5
+        },
+        {
+          "label": "06/08",
+          "score": 9
+        },
+        {
+          "label": "06/08",
+          "score": 7
+        },
+        {
+          "label": "06/08",
+          "score": 10
+        },
+        {
+          "label": "07/08",
+          "score": 5
+        },
+        {
+          "label": "07/08",
+          "score": 23
+        },
+        {
+          "label": "07/08",
+          "score": 5
+        },
+        {
+          "label": "08/08",
+          "score": 5
+        },
+        {
+          "label": "08/08",
+          "score": 5
+        },
+        {
+          "label": "08/08",
+          "score": 5
+        },
+        {
+          "label": "09/08",
+          "score": 5
+        },
+        {
+          "label": "09/08",
+          "score": 5
+        },
+        {
+          "label": "09/08",
+          "score": 5
+        },
+        {
+          "label": "10/08",
+          "score": 25
+        },
+        {
+          "label": "10/08",
+          "score": 5
+        },
+        {
+          "label": "10/08",
+          "score": 5
+        },
+        {
+          "label": "11/08",
+          "score": 5
+        },
+        {
+          "label": "11/08",
+          "score": 5
+        },
+        {
+          "label": "11/08",
+          "score": 5
+        },
+        {
+          "label": "12/08",
+          "score": 5
+        },
+        {
+          "label": "12/08",
+          "score": 18
+        },
+        {
+          "label": "12/08",
+          "score": 5
+        },
+        {
+          "label": "13/08",
+          "score": 5
+        },
+        {
+          "label": "13/08",
+          "score": 5
+        },
+        {
+          "label": "13/08",
+          "score": 5
+        },
+        {
+          "label": "14/08",
+          "score": 27
+        },
+        {
+          "label": "14/08",
+          "score": 5
+        },
+        {
+          "label": "14/08",
+          "score": 5
+        },
+        {
+          "label": "15/08",
+          "score": 12
+        },
+        {
+          "label": "15/08",
+          "score": 5
+        },
+        {
+          "label": "15/08",
+          "score": 5
+        },
+        {
+          "label": "16/08",
+          "score": 5
+        },
+        {
+          "label": "16/08",
+          "score": 5
+        },
+        {
+          "label": "16/08",
+          "score": 7
+        },
+        {
+          "label": "17/08",
+          "score": 10
+        },
+        {
+          "label": "17/08",
+          "score": 5
+        },
+        {
+          "label": "17/08",
+          "score": 5
+        },
+        {
+          "label": "18/08",
+          "score": 5
+        },
+        {
+          "label": "18/08",
+          "score": 5
+        },
+        {
+          "label": "18/08",
+          "score": 14
+        },
+        {
           "label": "19/08",
-          "score": 83
+          "score": 5
         },
         {
-          "label": "20/08",
-          "score": 28
+          "label": "19/08",
+          "score": 9
+        },
+        {
+          "label": "19/08",
+          "score": 5
         },
         {
           "label": "20/08",
           "score": 5
+        },
+        {
+          "label": "20/08",
+          "score": 21
         },
         {
           "label": "20/08",
@@ -12241,23 +12241,23 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "21/08",
-          "score": 98
+          "score": 35
         },
         {
           "label": "21/08",
+          "score": 14
+        },
+        {
+          "label": "22/08",
+          "score": 19
+        },
+        {
+          "label": "22/08",
           "score": 5
         },
         {
           "label": "22/08",
-          "score": 47
-        },
-        {
-          "label": "22/08",
-          "score": 8
-        },
-        {
-          "label": "22/08",
-          "score": 98
+          "score": 5
         }
       ],
       "365d": [
@@ -12287,51 +12287,51 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "15/09/25",
-          "score": 29
+          "score": 5
         },
         {
           "label": "19/09/25",
-          "score": 5
+          "score": 11
         },
         {
           "label": "23/09/25",
-          "score": 5
+          "score": 17
         },
         {
           "label": "27/09/25",
-          "score": 6
+          "score": 5
         },
         {
           "label": "01/10/25",
-          "score": 5
+          "score": 10
         },
         {
           "label": "05/10/25",
-          "score": 19
+          "score": 5
         },
         {
           "label": "09/10/25",
-          "score": 5
+          "score": 18
         },
         {
           "label": "13/10/25",
-          "score": 5
+          "score": 19
         },
         {
           "label": "17/10/25",
-          "score": 7
-        },
-        {
-          "label": "21/10/25",
-          "score": 37
-        },
-        {
-          "label": "25/10/25",
           "score": 5
         },
         {
+          "label": "21/10/25",
+          "score": 11
+        },
+        {
+          "label": "25/10/25",
+          "score": 21
+        },
+        {
           "label": "29/10/25",
-          "score": 9
+          "score": 17
         },
         {
           "label": "02/11/25",
@@ -12343,7 +12343,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "10/11/25",
-          "score": 32
+          "score": 5
         },
         {
           "label": "03/12/25",
@@ -12351,7 +12351,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "07/12/25",
-          "score": 5
+          "score": 30
         },
         {
           "label": "18/01/26",
@@ -12367,27 +12367,27 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "01/02/26",
-          "score": 66
+          "score": 56
         },
         {
           "label": "06/02/26",
-          "score": 5
+          "score": 98
         },
         {
           "label": "10/02/26",
-          "score": 17
+          "score": 5
         },
         {
           "label": "16/02/26",
-          "score": 5
+          "score": 19
         },
         {
           "label": "21/02/26",
-          "score": 5
+          "score": 7
         },
         {
           "label": "25/02/26",
-          "score": 52
+          "score": 5
         },
         {
           "label": "02/03/26",
@@ -12395,19 +12395,19 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "07/03/26",
-          "score": 7
-        },
-        {
-          "label": "11/03/26",
           "score": 5
         },
         {
+          "label": "11/03/26",
+          "score": 10
+        },
+        {
           "label": "16/03/26",
-          "score": 82
+          "score": 5
         },
         {
           "label": "20/03/26",
-          "score": 7
+          "score": 5
         },
         {
           "label": "25/03/26",
@@ -12423,23 +12423,23 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "08/04/26",
-          "score": 28
+          "score": 5
         },
         {
           "label": "12/04/26",
-          "score": 14
+          "score": 5
         },
         {
           "label": "16/04/26",
-          "score": 5
+          "score": 46
         },
         {
           "label": "20/04/26",
-          "score": 5
+          "score": 12
         },
         {
           "label": "24/04/26",
-          "score": 5
+          "score": 14
         },
         {
           "label": "29/04/26",
@@ -12447,11 +12447,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "03/05/26",
-          "score": 5
+          "score": 13
         },
         {
           "label": "07/05/26",
-          "score": 18
+          "score": 5
         },
         {
           "label": "13/05/26",
@@ -12459,11 +12459,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "17/05/26",
-          "score": 51
+          "score": 20
         },
         {
           "label": "22/05/26",
-          "score": 8
+          "score": 14
         },
         {
           "label": "26/05/26",
@@ -12475,23 +12475,23 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "04/06/26",
-          "score": 98
+          "score": 5
         },
         {
           "label": "08/06/26",
-          "score": 5
+          "score": 66
         },
         {
           "label": "12/06/26",
-          "score": 5
+          "score": 6
         },
         {
           "label": "16/06/26",
-          "score": 9
+          "score": 5
         },
         {
           "label": "20/06/26",
-          "score": 5
+          "score": 6
         },
         {
           "label": "24/06/26",
@@ -12499,7 +12499,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "28/06/26",
-          "score": 42
+          "score": 5
         },
         {
           "label": "02/07/26",
@@ -12507,7 +12507,7 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "06/07/26",
-          "score": 5
+          "score": 24
         },
         {
           "label": "10/07/26",
@@ -12515,15 +12515,15 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "14/07/26",
-          "score": 13
+          "score": 5
         },
         {
           "label": "18/07/26",
-          "score": 25
+          "score": 5
         },
         {
           "label": "22/07/26",
-          "score": 5
+          "score": 18
         },
         {
           "label": "26/07/26",
@@ -12535,11 +12535,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "03/08/26",
-          "score": 5
+          "score": 45
         },
         {
           "label": "07/08/26",
-          "score": 5
+          "score": 6
         },
         {
           "label": "11/08/26",
@@ -12551,11 +12551,11 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "19/08/26",
-          "score": 15
+          "score": 5
         },
         {
           "label": "22/08/26",
-          "score": 98
+          "score": 5
         }
       ]
     }
@@ -12578,13 +12578,13 @@ window.PORTFOLIO_STATE = {
   "usdt_qtd": 5.8206,
   "usdt_pct": 1.76,
   "cotacoes_ao_vivo": {
-    "BTCBRL": 397181.0,
-    "USDTBRL": 5.1604,
-    "PAXGBRL": 23667.400540000002,
-    "SOLBRL": 479.6,
-    "ETHBRL": 12437.23,
+    "BTCBRL": 397693.0,
+    "USDTBRL": 5.1603,
+    "PAXGBRL": 23666.941905000003,
+    "SOLBRL": 482.0,
+    "ETHBRL": 12491.92,
     "LINKBRL": 59.53,
-    "BNBBRL": 3578.0,
+    "BNBBRL": 3588.0,
     "ADABRL": 1.15,
     "VIX": 16.09,
     "USDBRL_COMERCIAL": 5.011499881744385
