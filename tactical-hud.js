@@ -76,33 +76,52 @@ function renderHeroPatrimony(p) {
   }
 
   // -------------------------------------------------------------
-  // DISTRIBUIÇÃO PATRIMONIAL EM TEMPO REAL (CUSTÓDIA ATIVA)
+  // DISTRIBUIÇÃO PATRIMONIAL 100% DINÂMICA (CUSTÓDIA ATIVA SPOT)
   // -------------------------------------------------------------
-  const elAllocBrl = document.getElementById('allocValBRL');
-  const elFillBrl = document.getElementById('allocFillBRL');
-  if (elAllocBrl && p.caixa_brl !== undefined) elAllocBrl.textContent = `R$ ${fmt(p.caixa_brl)} (${p.caixa_pct || 67.4}%)`;
-  if (elFillBrl && p.caixa_pct !== undefined) elFillBrl.style.width = `${p.caixa_pct}%`;
+  const allocContainer = document.getElementById('allocBarsContainer');
+  if (allocContainer) {
+    let items = p.itens_custodia;
+    if (!items || items.length === 0) {
+      items = [];
+      if (p.caixa_brl !== undefined && p.caixa_brl > 0) {
+        items.push({ asset: 'BRL', nome: 'Caixa Livre BRL', qtd: null, valor_brl: p.caixa_brl, pct: p.caixa_pct || 0, cor: '#10B981', icone: '💵' });
+      }
+      if (p.btc_brl !== undefined && p.btc_brl > 0) {
+        items.push({ asset: 'BTC', nome: 'Bitcoin Spot', qtd: p.btc_qtd, valor_brl: p.btc_brl, pct: p.btc_pct || 0, cor: '#F59E0B', icone: '🪙' });
+      }
+      if (p.paxg_brl !== undefined && p.paxg_brl > 0) {
+        items.push({ asset: 'PAXG', nome: 'Ouro PAXG', qtd: p.paxg_qtd, valor_brl: p.paxg_brl, pct: p.paxg_pct || 0, cor: '#EAB308', icone: '🥇' });
+      }
+      if (p.sol_brl !== undefined && p.sol_brl > 0) {
+        items.push({ asset: 'SOL', nome: 'Solana Spot', qtd: p.sol_qtd, valor_brl: p.sol_brl, pct: p.sol_pct || 0, cor: '#A855F7', icone: '⚡' });
+      }
+      if (p.eth_brl !== undefined && p.eth_brl > 0) {
+        items.push({ asset: 'ETH', nome: 'Ethereum Spot', qtd: p.eth_qtd, valor_brl: p.eth_brl, pct: p.eth_pct || 0, cor: '#3B82F6', icone: '🔷' });
+      }
+      if (p.link_brl !== undefined && p.link_brl > 0) {
+        items.push({ asset: 'LINK', nome: 'Chainlink Spot', qtd: p.link_qtd, valor_brl: p.link_brl, pct: p.link_pct || 0, cor: '#6366F1', icone: '🔗' });
+      }
+      if (p.usdt_brl !== undefined && p.usdt_brl > 0) {
+        items.push({ asset: 'USDT', nome: 'Tether USD', qtd: p.usdt_qtd, valor_brl: p.usdt_brl, pct: p.usdt_pct || 0, cor: '#06B6D4', icone: '💵' });
+      }
+    }
 
-  const elLblBtc = document.getElementById('allocLabelBTC');
-  const elValBtc = document.getElementById('allocValBTC');
-  const elFillBtc = document.getElementById('allocFillBTC');
-  if (elLblBtc && p.btc_qtd !== undefined) elLblBtc.textContent = `Bitcoin Spot (${p.btc_qtd} BTC)`;
-  if (elValBtc && p.btc_brl !== undefined) elValBtc.textContent = `R$ ${fmt(p.btc_brl)} (${p.btc_pct || 26.2}%)`;
-  if (elFillBtc && p.btc_pct !== undefined) elFillBtc.style.width = `${p.btc_pct}%`;
-
-  const elLblPaxg = document.getElementById('allocLabelPAXG');
-  const elValPaxg = document.getElementById('allocValPAXG');
-  const elFillPaxg = document.getElementById('allocFillPAXG');
-  if (elLblPaxg && p.paxg_qtd !== undefined) elLblPaxg.textContent = `Ouro PAXG (${p.paxg_qtd} PAXG)`;
-  if (elValPaxg && p.paxg_brl !== undefined) elValPaxg.textContent = `R$ ${fmt(p.paxg_brl)} (${p.paxg_pct || 6.2}%)`;
-  if (elFillPaxg && p.paxg_pct !== undefined) elFillPaxg.style.width = `${p.paxg_pct}%`;
-
-  const elLblUsdt = document.getElementById('allocLabelUSDT');
-  const elValUsdt = document.getElementById('allocValUSDT');
-  const elFillUsdt = document.getElementById('allocFillUSDT');
-  if (elLblUsdt && p.usdt_qtd !== undefined) elLblUsdt.textContent = `Tether USD (${p.usdt_qtd} USDT)`;
-  if (elValUsdt && p.usdt_brl !== undefined) elValUsdt.textContent = `R$ ${fmt(p.usdt_brl)} (${p.usdt_pct || 0.2}%)`;
-  if (elFillUsdt && p.usdt_pct !== undefined) elFillUsdt.style.width = `${p.usdt_pct}%`;
+    allocContainer.innerHTML = items.map(it => {
+      const qtdStr = (it.qtd !== null && it.qtd !== undefined) ? ` (${it.qtd} ${it.asset})` : '';
+      const corAtivo = it.cor || '#06B6D4';
+      return `
+        <div class="alloc-bar-item" style="margin-bottom: 8px;">
+          <div class="abi-head" style="display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 0.73rem; margin-bottom: 2px;">
+            <span style="color: var(--text-primary); font-weight: 600;">${it.icone ? it.icone + ' ' : ''}${it.nome}${qtdStr}</span>
+            <b style="color: ${corAtivo};">R$ ${fmt(it.valor_brl)} (${it.pct}%)</b>
+          </div>
+          <div class="abi-track" style="height: 8px; background: rgba(255, 255, 255, 0.08); border-radius: 4px; overflow: hidden;">
+            <div class="abi-fill" style="width: ${Math.max(1.5, it.pct)}%; height: 100%; background: ${corAtivo}; border-radius: 4px; transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);"></div>
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
 }
 
 // ------------------------------------------------------------------------------
