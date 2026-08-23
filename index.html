@@ -16,7 +16,7 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   
   <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20260823_sx9">
+  <link rel="stylesheet" href="style.css?v=20260823_sx10">
 </head>
 <body class="dark-synth">
   <!-- Scanlines & Ambient Matrix Grid -->
@@ -304,6 +304,63 @@
             </div>
           </div>
 
+          <!-- BANCA DE SÍNTESE POLIFÔNICA (ATÉ 4 ATIVOS) & ARPEGGIO -->
+          <div class="deck-group polyphonic-group">
+            <div class="poly-header-row">
+              <label class="group-label" style="margin-bottom: 0;">BANCA POLIFÔNICA (ATÉ 4 ATIVOS)</label>
+              <span class="poly-slots-counter" id="polySlotsCounter">0 / 4</span>
+            </div>
+
+            <!-- CARD DE CLASSIFICAÇÃO DA TÉTRADE -->
+            <div class="poly-chord-badge" id="polyChordBadge">
+              <div class="pcb-type" id="pcbType">NENHUM ATIVO NA BANCA</div>
+              <div class="pcb-sub" id="pcbSub">Selecione até 4 nós no grafo para sintetizar acordes</div>
+            </div>
+
+            <!-- 4 SLOTS DE ATIVOS -->
+            <div class="poly-slots-grid">
+              <div class="poly-slot empty" id="polySlot0" data-index="0">
+                <span class="ps-num">①</span>
+                <span class="ps-ticker">Vazio</span>
+                <span class="ps-note">--</span>
+                <button class="ps-remove" title="Remover">×</button>
+              </div>
+              <div class="poly-slot empty" id="polySlot1" data-index="1">
+                <span class="ps-num">②</span>
+                <span class="ps-ticker">Vazio</span>
+                <span class="ps-note">--</span>
+                <button class="ps-remove" title="Remover">×</button>
+              </div>
+              <div class="poly-slot empty" id="polySlot2" data-index="2">
+                <span class="ps-num">③</span>
+                <span class="ps-ticker">Vazio</span>
+                <span class="ps-note">--</span>
+                <button class="ps-remove" title="Remover">×</button>
+              </div>
+              <div class="poly-slot empty" id="polySlot3" data-index="3">
+                <span class="ps-num">④</span>
+                <span class="ps-ticker">Vazio</span>
+                <span class="ps-note">--</span>
+                <button class="ps-remove" title="Remover">×</button>
+              </div>
+            </div>
+
+            <!-- CONTROLES DE ÁUDIO POLIFÔNICO E ARPEGGIO -->
+            <div class="poly-action-buttons">
+              <button class="poly-btn drone-btn" id="btnToggleDrone" title="Ligar/Desligar acorde contínuo com as vozes selecionadas">
+                <span class="pb-icon" id="droneIcon">🔊</span>
+                <span class="pb-text" id="droneText">ACORDE CONTÍNUO</span>
+              </button>
+              <button class="poly-btn arpeggio-btn" id="btnPlayArpeggio" title="Tocar os ativos um por um de forma melódica sequencial">
+                <span class="pb-icon" id="arpeggioIcon">▶</span>
+                <span class="pb-text" id="arpeggioText">PLAY MELODIA</span>
+              </button>
+              <button class="poly-btn clear-btn" id="btnClearPoly" title="Limpar todos os slots">
+                <span class="pb-icon">🗑️</span>
+              </button>
+            </div>
+          </div>
+
           <!-- REAL-TIME DSP SPECTRAL OBSERVABLES -->
           <div class="deck-group telemetry-group">
             <label class="group-label">OBSERVÁVEIS ESPECTRAIS EM TEMPO REAL (DSP)</label>
@@ -368,8 +425,18 @@
               </div>
             </div>
             <div class="network-stage-container" id="networkGraphStage">
-              <div class="node-hover-tooltip" id="nodeTooltip"></div>
-              <div class="graph-nav-hint">🖱️ Arraste nós para reposicionar • Arraste o fundo para mover • Scroll para Zoom</div>
+              <!-- HUD FIXO DE INSPEÇÃO ESPECTRAL NO CANTO SUPERIOR ESQUERDO -->
+              <div class="fixed-node-inspector" id="fixedNodeInspector">
+                <div class="fni-header">
+                  <span class="fni-tag" id="fniTag">INSPEÇÃO ESPECTRAL</span>
+                  <span class="fni-live">● VIVO</span>
+                </div>
+                <div class="fni-body" id="fniBody">
+                  <div class="fni-title" id="fniTitle">PASSE O MOUSE NO GRAFO</div>
+                  <div class="fni-sub" id="fniSub">Inspecione afinação (Hz), classe e volatilidade instantânea</div>
+                </div>
+              </div>
+              <div class="graph-nav-hint">🖱️ Clique para selecionar até 4 ativos • Arraste nós para mover • Scroll para Zoom</div>
             </div>
           </div>
 
@@ -504,12 +571,12 @@
   </div>
 
   <!-- SCRIPTS -->
-  <script src="data/planos_data.js?v=20260823_sx9"></script>
-  <script src="data/harmonicus_sx_data.js?v=20260823_sx9"></script>
-  <script src="data/charts_data.js?v=20260823_sx9"></script>
-  <script src="audio-engine.js?v=20260823_sx9"></script>
-  <script src="tactical-hud.js?v=20260823_sx9"></script>
-  <script src="harmonicus-sx.js?v=20260823_sx9"></script>
-  <script src="charts-kinetics.js?v=20260823_sx9"></script>
+  <script src="data/planos_data.js?v=20260823_sx10"></script>
+  <script src="data/harmonicus_sx_data.js?v=20260823_sx10"></script>
+  <script src="data/charts_data.js?v=20260823_sx10"></script>
+  <script src="audio-engine.js?v=20260823_sx10"></script>
+  <script src="tactical-hud.js?v=20260823_sx10"></script>
+  <script src="harmonicus-sx.js?v=20260823_sx10"></script>
+  <script src="charts-kinetics.js?v=20260823_sx10"></script>
 </body>
 </html>

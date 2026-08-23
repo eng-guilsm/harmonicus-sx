@@ -330,6 +330,125 @@ class HarmonicusAudioEngine {
     }
   }
 
+  // ============================================================================
+  // SÍNTESE POLIFÔNICA CONTÍNUA (DRONE DE ATÉ 4 VOZES / TÉTRADES DE HILBERT)
+  // ============================================================================
+  startPolyphonicDrone(nodesList) {
+    if (!this.ctx) this.init();
+    if (this.ctx.state === 'suspended') this.ctx.resume();
+
+    this.stopPolyphonicDrone();
+    if (!nodesList || nodesList.length === 0) return;
+
+    this.isPolyDroneActive = true;
+    const count = Math.min(4, nodesList.length);
+    const baseAmp = 0.26 / Math.sqrt(count);
+
+    if (!this.polyDroneVoices) this.polyDroneVoices = [];
+
+    nodesList.slice(0, 4).forEach((node, idx) => {
+      const freq = node.fundamental_hz || 220;
+      const osc = this.ctx.createOscillator();
+      const gain = this.ctx.createGain();
+
+      if (node.id === 'VIX_Index') osc.type = 'sawtooth';
+      else if (node.classe === 'Cripto') osc.type = idx % 2 === 0 ? 'triangle' : 'sine';
+      else if (node.classe === 'Macro') osc.type = 'sawtooth';
+      else osc.type = 'sine';
+
+      osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
+      
+      const detune = (idx - 1.5) * 2.8;
+      osc.detune.setValueAtTime(detune, this.ctx.currentTime);
+
+      gain.gain.setValueAtTime(0.0001, this.ctx.currentTime);
+      gain.gain.linearRampToValueAtTime(baseAmp, this.ctx.currentTime + 0.3);
+
+      osc.connect(gain);
+      gain.connect(this.filterNode);
+      osc.start();
+
+      this.polyDroneVoices.push({ osc, gain, node });
+    });
+  }
+
+  stopPolyphonicDrone() {
+    this.isPolyDroneActive = false;
+    if (this.polyDroneVoices && this.polyDroneVoices.length > 0) {
+      this.polyDroneVoices.forEach(v => {
+        try {
+          v.gain.gain.setTargetAtTime(0.0001, this.ctx.currentTime, 0.1);
+          setTimeout(() => {
+            v.osc.stop();
+            v.osc.disconnect();
+          }, 150);
+        } catch (e) {}
+      });
+      this.polyDroneVoices = [];
+    }
+  }
+
+  togglePolyphonicDrone(nodesList) {
+    if (this.isPolyDroneActive) {
+      this.stopPolyphonicDrone();
+      return false;
+    } else {
+      this.startPolyphonicDrone(nodesList);
+      return true;
+    }
+  }
+
+  // ============================================================================
+  // SEQUENCIADOR MELÓDICO (ARPEGGIO PASSO-A-PASSO NOTA POR NOTA)
+  // ============================================================================
+  playMelodicArpeggio(nodesList, onStepCallback, onDoneCallback) {
+    if (!this.ctx) this.init();
+    if (this.ctx.state === 'suspended') this.ctx.resume();
+
+    if (!nodesList || nodesList.length === 0) {
+      if (onDoneCallback) onDoneCallback();
+      return;
+    }
+
+    const wasDroneActive = this.isPolyDroneActive;
+    if (wasDroneActive) this.stopPolyphonicDrone();
+
+    this.isArpeggioPlaying = true;
+    const stepDurationMs = 460;
+    const totalSteps = nodesList.length;
+
+    nodesList.forEach((node, stepIdx) => {
+      setTimeout(() => {
+        if (!this.isArpeggioPlaying) return;
+
+        if (onStepCallback) onStepCallback(node, stepIdx);
+
+        const freq = node.fundamental_hz || 220;
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+
+        osc.type = node.id === 'VIX_Index' ? 'sawtooth' : 'triangle';
+        osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
+
+        gain.gain.setValueAtTime(0.0001, this.ctx.currentTime);
+        gain.gain.linearRampToValueAtTime(0.32, this.ctx.currentTime + 0.03);
+        gain.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 0.40);
+
+        osc.connect(gain);
+        gain.connect(this.filterNode);
+        osc.start();
+        osc.stop(this.ctx.currentTime + 0.42);
+
+      }, stepIdx * stepDurationMs);
+    });
+
+    setTimeout(() => {
+      this.isArpeggioPlaying = false;
+      if (onDoneCallback) onDoneCallback();
+      if (wasDroneActive) this.startPolyphonicDrone(nodesList);
+    }, totalSteps * stepDurationMs + 100);
+  }
+
   // Atualiza parâmetros de física (Langevin, Fourier, Morlet)
   updatePhysicsParams(damping, fourier, morlet) {
     this.damping = damping;

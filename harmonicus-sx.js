@@ -257,9 +257,13 @@ function initRadioTuner(bands) {
 }
 
 // ------------------------------------------------------------------------------
-// 4. COCKPIT ESPECTRAL & TOMADA DE DECISÃO (SUBSTITUI OS BOTÕES DE ACORDES)
 // ------------------------------------------------------------------------------
+// 4. COCKPIT ESPECTRAL & BANCA POLIFÔNICA (ATÉ 4 ATIVOS / TÉTRADES DE HILBERT)
+// ------------------------------------------------------------------------------
+let polyphonicSelectedNodes = [];
+
 function initSpectralCockpit() {
+  // Atalhos de foco rápido
   const quickBtns = document.querySelectorAll('.qfb-btn');
   quickBtns.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -267,14 +271,273 @@ function initSpectralCockpit() {
       if (assetKey === 'all') {
         resetSpectralFocus();
       } else {
-        focusSpectralNode(assetKey);
+        const node = d3GraphNodes.find(n => n.id === assetKey);
+        if (node) {
+          polyphonicSelectedNodes = [node];
+          updatePolyphonicSlotsUI();
+          focusSpectralNode(assetKey);
+        }
       }
     });
   });
+
+  // Botão Drone Contínuo (Sustentação de até 4 vozes)
+  const btnDrone = document.getElementById('btnToggleDrone');
+  const droneIcon = document.getElementById('droneIcon');
+  const droneText = document.getElementById('droneText');
+  if (btnDrone) {
+    btnDrone.addEventListener('click', () => {
+      if (polyphonicSelectedNodes.length === 0) return;
+      const isPlaying = window.harmonicusAudio.togglePolyphonicDrone(polyphonicSelectedNodes);
+      if (isPlaying) {
+        btnDrone.classList.add('active');
+        if (droneIcon) droneIcon.textContent = '⏹';
+        if (droneText) droneText.textContent = 'PARAR SOM';
+      } else {
+        btnDrone.classList.remove('active');
+        if (droneIcon) droneIcon.textContent = '🔊';
+        if (droneText) droneText.textContent = 'ACORDE CONTÍNUO';
+      }
+    });
+  }
+
+  // Botão Sequenciador Melódico (Play Arpeggio)
+  const btnArp = document.getElementById('btnPlayArpeggio');
+  const arpIcon = document.getElementById('arpeggioIcon');
+  const arpText = document.getElementById('arpeggioText');
+  if (btnArp) {
+    btnArp.addEventListener('click', () => {
+      if (polyphonicSelectedNodes.length === 0) return;
+      btnArp.classList.add('playing');
+      if (arpIcon) arpIcon.textContent = '⏳';
+      if (arpText) arpText.textContent = 'MELODIA...';
+
+      window.harmonicusAudio.playMelodicArpeggio(
+        polyphonicSelectedNodes,
+        (node, stepIdx) => {
+          // Animação de pulso luminoso sincronizada no nó correspondente
+          if (d3SvgSelection) {
+            d3SvgSelection.selectAll('.nodes .node-group')
+              .filter(d => d.id === node.id)
+              .select('.node-body')
+              .classed('node-arpeggio-pulse', true);
+            
+            setTimeout(() => {
+              d3SvgSelection.selectAll('.nodes .node-group .node-body')
+                .classed('node-arpeggio-pulse', false);
+            }, 420);
+          }
+        },
+        () => {
+          btnArp.classList.remove('playing');
+          if (arpIcon) arpIcon.textContent = '▶';
+          if (arpText) arpText.textContent = 'PLAY MELODIA';
+        }
+      );
+    });
+  }
+
+  // Botão Limpar Banca
+  const btnClear = document.getElementById('btnClearPoly');
+  if (btnClear) {
+    btnClear.addEventListener('click', () => {
+      resetSpectralFocus();
+    });
+  }
+
+  // Botões de Remover nos Slots Individuais
+  for (let i = 0; i < 4; i++) {
+    const slotEl = document.getElementById(`polySlot${i}`);
+    if (slotEl) {
+      const rmBtn = slotEl.querySelector('.ps-remove');
+      if (rmBtn) {
+        rmBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          if (polyphonicSelectedNodes[i]) {
+            polyphonicSelectedNodes.splice(i, 1);
+            updatePolyphonicSlotsUI();
+            if (polyphonicSelectedNodes.length > 0) {
+              focusSpectralNode(polyphonicSelectedNodes[0].id);
+            } else {
+              resetSpectralFocus();
+            }
+          }
+        });
+      }
+    }
+  }
 }
 
 // ------------------------------------------------------------------------------
-// 5. CLASSIFICAÇÃO ESPECTRAL RELACIONAL: OITAVADOS, HARMÔNICOS E ANARMÔNICOS
+// 5. CLASSIFICAÇÃO ESPECTRAL DA TÉTRADE / ACORDE FORMADO (1 A 4 ATIVOS)
+// ------------------------------------------------------------------------------
+function calculateTetradChord(nodesList) {
+  if (!nodesList || nodesList.length === 0) {
+    return {
+      type: "NENHUM ATIVO NA BANCA",
+      sub: "Clique em até 4 nós no grafo para sintetizar acordes",
+      consonance: 0,
+      isTension: false
+    };
+  }
+
+  if (nodesList.length === 1) {
+    const n = nodesList[0];
+    return {
+      type: `SOLO // ${n.id.replace('BRL','').replace('_Pts','')}`,
+      sub: `Fundamental: ${n.nota} (${n.fundamental_hz} Hz) • Vol: ${n.vol}% • PC1: ${(n.autovetor_pc1*100).toFixed(1)}%`,
+      consonance: 100,
+      isTension: n.id === 'VIX_Index'
+    };
+  }
+
+  const freqs = nodesList.map(n => n.fundamental_hz || 220);
+  const ids = nodesList.map(n => n.id);
+  const hasVix = ids.includes('VIX_Index');
+
+  if (nodesList.length === 2) {
+    const ratio = Math.max(freqs[0], freqs[1]) / Math.min(freqs[0], freqs[1]);
+    let interval = "Intervalo Espectral";
+    let cons = 85;
+
+    if (Math.abs(ratio - 2.0) < 0.04 || Math.abs(ratio - 1.0) < 0.025) {
+      interval = "DÍADE: Oitava Fractal (2^k)";
+      cons = 100;
+    } else if (Math.abs(ratio - 1.50) < 0.035) {
+      interval = "DÍADE: Quinta Justa (Poder)";
+      cons = 98;
+    } else if (Math.abs(ratio - 1.333) < 0.035) {
+      interval = "DÍADE: Quarta Justa";
+      cons = 95;
+    } else if (Math.abs(ratio - 1.25) < 0.035) {
+      interval = "DÍADE: Terça Maior (Expansão)";
+      cons = 92;
+    } else if (Math.abs(ratio - 1.414) < 0.045 || hasVix) {
+      interval = "DÍADE: Trítono Diabolus / Tensão";
+      cons = 42;
+    }
+
+    return {
+      type: interval,
+      sub: `${ids[0].replace('BRL','')} + ${ids[1].replace('BRL','')} // Consonância: ${cons}%`,
+      consonance: cons,
+      isTension: cons < 50
+    };
+  }
+
+  if (nodesList.length === 3) {
+    if (hasVix) {
+      return {
+        type: "TRÍADE DE TENSÃO & CHOQUE MACRO",
+        sub: `Dissonância de Cauda (VIX Ativo) // Consonância: 38%`,
+        consonance: 38,
+        isTension: true
+      };
+    }
+    const isMajor = ids.includes('BTCBRL') && ids.includes('ETHBRL');
+    return {
+      type: isMajor ? "TRÍADE MAIOR: Expansão de Liquidez" : "TRÍADE ESPECTRAL: Rotação Harmônica",
+      sub: `Clustered Fasor // Consonância: ${isMajor ? '94%' : '88%'}`,
+      consonance: isMajor ? 94 : 88,
+      isTension: false
+    };
+  }
+
+  if (nodesList.length >= 4) {
+    if (hasVix) {
+      return {
+        type: "TÉTRADE DE RISCO & PÂNICO SISTÊMICO",
+        sub: `Tensão 4D com VIX // Consonância: 32% (Stop Ativo)`,
+        consonance: 32,
+        isTension: true
+      };
+    }
+    const isCryptoConsonant = ids.includes('BTCBRL') && (ids.includes('ETHBRL') || ids.includes('SOLBRL'));
+    return {
+      type: isCryptoConsonant ? "TÉTRADE: Harmonious Major 7th (4D)" : "TÉTRADE: Subespaço Multiespectral",
+      sub: `Subespaço de Hilbert 4D // Consonância: ${isCryptoConsonant ? '96%' : '90%'}`,
+      consonance: isCryptoConsonant ? 96 : 90,
+      isTension: false
+    };
+  }
+}
+
+function updatePolyphonicSlotsUI() {
+  const count = polyphonicSelectedNodes.length;
+  const counterEl = document.getElementById('polySlotsCounter');
+  if (counterEl) counterEl.textContent = `${count} / 4`;
+
+  const chordInfo = calculateTetradChord(polyphonicSelectedNodes);
+  const badgeEl = document.getElementById('polyChordBadge');
+  const typeEl = document.getElementById('pcbType');
+  const subEl = document.getElementById('pcbSub');
+
+  if (badgeEl) {
+    if (count > 0) badgeEl.classList.add('active');
+    else badgeEl.classList.remove('active');
+  }
+  if (typeEl) {
+    typeEl.textContent = chordInfo.type;
+    typeEl.style.color = chordInfo.isTension ? '#EF4444' : (chordInfo.consonance >= 90 ? '#10B981' : '#F59E0B');
+  }
+  if (subEl) subEl.textContent = chordInfo.sub;
+
+  const btnDrone = document.getElementById('btnToggleDrone');
+  if (btnDrone) {
+    if (count === 0 && window.harmonicusAudio.isPolyDroneActive) {
+      window.harmonicusAudio.stopPolyphonicDrone();
+      btnDrone.classList.remove('active');
+      const dIcon = document.getElementById('droneIcon');
+      const dText = document.getElementById('droneText');
+      if (dIcon) dIcon.textContent = '🔊';
+      if (dText) dText.textContent = 'ACORDE CONTÍNUO';
+    }
+  }
+
+  for (let i = 0; i < 4; i++) {
+    const slotEl = document.getElementById(`polySlot${i}`);
+    if (!slotEl) continue;
+
+    const node = polyphonicSelectedNodes[i];
+    const tickerEl = slotEl.querySelector('.ps-ticker');
+    const noteEl = slotEl.querySelector('.ps-note');
+
+    if (node) {
+      slotEl.className = 'poly-slot filled';
+      slotEl.style.borderColor = node.cor;
+      if (tickerEl) tickerEl.innerHTML = `<span style="color:${node.cor}; font-weight:800;">${node.id.replace('BRL','').replace('_Pts','')}</span>`;
+      if (noteEl) noteEl.textContent = `${node.nota}`;
+    } else {
+      slotEl.className = 'poly-slot empty';
+      slotEl.style.borderColor = '';
+      if (tickerEl) tickerEl.textContent = 'Vazio';
+      if (noteEl) noteEl.textContent = '--';
+    }
+  }
+}
+
+function toggleNodeSelectionInPolyphony(node) {
+  const existingIdx = polyphonicSelectedNodes.findIndex(n => n.id === node.id);
+  if (existingIdx >= 0) {
+    if (polyphonicSelectedNodes.length > 1) {
+      polyphonicSelectedNodes.splice(existingIdx, 1);
+    }
+  } else {
+    if (polyphonicSelectedNodes.length < 4) {
+      polyphonicSelectedNodes.push(node);
+    } else {
+      polyphonicSelectedNodes[3] = node;
+    }
+  }
+  updatePolyphonicSlotsUI();
+
+  if (window.harmonicusAudio.isPolyDroneActive) {
+    window.harmonicusAudio.startPolyphonicDrone(polyphonicSelectedNodes);
+  }
+}
+
+// ------------------------------------------------------------------------------
+// 6. CLASSIFICAÇÃO ESPECTRAL RELACIONAL: OITAVADOS, HARMÔNICOS E ANARMÔNICOS
 // ------------------------------------------------------------------------------
 function calculateSpectralRelations(targetNode, allNodes, allEdges) {
   if (!targetNode) {
@@ -284,7 +547,6 @@ function calculateSpectralRelations(targetNode, allNodes, allEdges) {
   const fA = targetNode.fundamental_hz || 220.0;
   const tId = targetNode.id;
 
-  // Mapa de conexões diretas do grafo
   const directLinks = new Map();
   allEdges.forEach(e => {
     const sId = typeof e.source === 'object' ? e.source.id : e.source;
@@ -305,13 +567,13 @@ function calculateSpectralRelations(targetNode, allNodes, allEdges) {
     const ratio = Math.max(fA, fB) / Math.min(fA, fB);
     const linkInfo = directLinks.get(node.id);
 
-    // 1. OITAVADOS (Ressonância Fractal Pura: 1.0x, 2.0x, 4.0x)
+    // 1. OITAVADOS (Ressonância Fractal: 1.0x, 2.0x, 4.0x)
     const isOctave = (Math.abs(ratio - 1.0) < 0.025) || 
                      (Math.abs(ratio - 2.0) < 0.04) || 
                      (Math.abs(ratio - 4.0) < 0.08) ||
                      (Math.abs(ratio - 0.5) < 0.02);
 
-    // 2. HARMÔNICOS CONSONANTES (Quinta Justa 1.50, Quarta 1.33, Terça 1.25, Sexta 1.67 ou Coerência Forte >= 0.65)
+    // 2. HARMÔNICOS CONSONANTES (Quinta 1.50, Quarta 1.33, Terça 1.25, Sexta 1.67 ou Coerência Forte >= 0.65)
     const isHarmonicRatio = (Math.abs(ratio - 1.50) < 0.035) ||
                             (Math.abs(ratio - 1.333) < 0.035) ||
                             (Math.abs(ratio - 1.25) < 0.035) ||
@@ -339,7 +601,7 @@ function calculateSpectralRelations(targetNode, allNodes, allEdges) {
 }
 
 // ------------------------------------------------------------------------------
-// 6. MOTOR DE FOCO ESPECTRAL, HALOS E LINHAS DE CAMPO DIRECIONAL
+// 7. MOTOR DE FOCO ESPECTRAL, HALOS E LINHAS DE CAMPO DIRECIONAL
 // ------------------------------------------------------------------------------
 function focusSpectralNode(nodeId) {
   if (!d3SvgSelection || d3GraphNodes.length === 0) return;
@@ -358,7 +620,7 @@ function focusSpectralNode(nodeId) {
   if (facBadge) facBadge.textContent = targetNode.classe.toUpperCase();
   if (facHint) facHint.textContent = 'Auditoria Espectral Ativa';
   if (facTitle) facTitle.innerHTML = `<span style="color: ${targetNode.cor};">${targetNode.nome}</span> (${targetNode.id})`;
-  if (facMeta) facMeta.textContent = `Fundamental: ${targetNode.nota} (${targetNode.fundamental_hz} Hz) • Volatilidade: ${targetNode.vol}% • PC1: ${(targetNode.autovetor_pc1 * 100).toFixed(1)}%`;
+  if (facMeta) facMeta.textContent = `Fundamental: ${targetNode.nota} (${targetNode.fundamental_hz} Hz) • Vol: ${targetNode.vol}% • PC1: ${(targetNode.autovetor_pc1 * 100).toFixed(1)}%`;
 
   // Preencher Lista de Oitavados
   const listOct = document.getElementById('listOctave');
@@ -413,7 +675,11 @@ function focusSpectralNode(nodeId) {
     tag.addEventListener('click', (e) => {
       e.stopPropagation();
       const nextId = tag.getAttribute('data-id');
-      if (nextId) focusSpectralNode(nextId);
+      const nextNode = d3GraphNodes.find(n => n.id === nextId);
+      if (nextNode) {
+        toggleNodeSelectionInPolyphony(nextNode);
+        focusSpectralNode(nextId);
+      }
     });
   });
 
@@ -427,10 +693,13 @@ function focusSpectralNode(nodeId) {
   const nodeGroups = d3SvgSelection.selectAll('.nodes .node-group');
   const linkLines = d3SvgSelection.selectAll('.links line');
 
+  const selectedIds = new Set(polyphonicSelectedNodes.map(n => n.id));
+  if (selectedIds.size === 0) selectedIds.add(nodeId);
+
   const octaveIds = new Set(relations.octaves.map(n => n.id));
   const harmonicIds = new Set(relations.harmonics.map(n => n.id));
   const anarmonicIds = new Set(relations.anarmonics.map(n => n.id));
-  const relevantIds = new Set([nodeId, ...octaveIds, ...harmonicIds, ...anarmonicIds]);
+  const relevantIds = new Set([...selectedIds, ...octaveIds, ...harmonicIds, ...anarmonicIds]);
 
   // Transição de Nós
   nodeGroups.transition().duration(300)
@@ -443,11 +712,10 @@ function focusSpectralNode(nodeId) {
     const halo = grp.select('.node-halo');
     const ring = grp.select('.active-node-ring');
 
-    // Resetar classes
     halo.attr('class', 'node-halo').style('display', 'none');
     ring.style('display', 'none');
 
-    if (d.id === nodeId) {
+    if (selectedIds.has(d.id)) {
       ring.style('display', 'block');
     } else if (octaveIds.has(d.id)) {
       halo.classed('halo-octave', true).style('display', 'block');
@@ -463,10 +731,13 @@ function focusSpectralNode(nodeId) {
     .attr('stroke', l => {
       const sId = typeof l.source === 'object' ? l.source.id : l.source;
       const tId = typeof l.target === 'object' ? l.target.id : l.target;
-      const isIncident = (sId === nodeId || tId === nodeId);
+      const isBothSelected = selectedIds.has(sId) && selectedIds.has(tId);
+      if (isBothSelected) return '#F59E0B';
+
+      const isIncident = (selectedIds.has(sId) || selectedIds.has(tId));
       if (!isIncident) return '#1E293B';
 
-      const otherId = sId === nodeId ? tId : sId;
+      const otherId = selectedIds.has(sId) ? tId : sId;
       if (octaveIds.has(otherId)) return '#FFFFFF';
       if (anarmonicIds.has(otherId)) return '#EF4444';
       if (harmonicIds.has(otherId)) return '#06B6D4';
@@ -475,12 +746,14 @@ function focusSpectralNode(nodeId) {
     .attr('stroke-width', l => {
       const sId = typeof l.source === 'object' ? l.source.id : l.source;
       const tId = typeof l.target === 'object' ? l.target.id : l.target;
-      return (sId === nodeId || tId === nodeId) ? 3.5 : 1.0;
+      const isIncident = (selectedIds.has(sId) || selectedIds.has(tId));
+      return isIncident ? 3.5 : 1.0;
     })
     .attr('stroke-opacity', l => {
       const sId = typeof l.source === 'object' ? l.source.id : l.source;
       const tId = typeof l.target === 'object' ? l.target.id : l.target;
-      return (sId === nodeId || tId === nodeId) ? 1.0 : 0.04;
+      const isIncident = (selectedIds.has(sId) || selectedIds.has(tId));
+      return isIncident ? 1.0 : 0.04;
     });
 
   // Linhas de campo animadas para arestas incidentes
@@ -488,11 +761,11 @@ function focusSpectralNode(nodeId) {
     const lineEl = d3.select(this);
     const sId = typeof l.source === 'object' ? l.source.id : l.source;
     const tId = typeof l.target === 'object' ? l.target.id : l.target;
-    const isIncident = (sId === nodeId || tId === nodeId);
+    const isIncident = (selectedIds.has(sId) || selectedIds.has(tId));
 
     if (isIncident) {
       lineEl.classed('directional-field-line', true);
-      const otherId = sId === nodeId ? tId : sId;
+      const otherId = selectedIds.has(sId) ? tId : sId;
       if (octaveIds.has(otherId)) lineEl.attr('marker-end', 'url(#arrow-white)');
       else if (anarmonicIds.has(otherId)) lineEl.attr('marker-end', 'url(#arrow-red)');
       else if (harmonicIds.has(otherId)) lineEl.attr('marker-end', 'url(#arrow-cyan)');
@@ -503,16 +776,18 @@ function focusSpectralNode(nodeId) {
   });
 
   // 3. Tocar Sonificação Analítica
-  if (window.harmonicusAudio && typeof window.harmonicusAudio.playSpectralFocusChord === 'function') {
+  if (window.harmonicusAudio && !window.harmonicusAudio.isPolyDroneActive && typeof window.harmonicusAudio.playSpectralFocusChord === 'function') {
     window.harmonicusAudio.playSpectralFocusChord(targetNode, relations);
   }
 }
 
 // ------------------------------------------------------------------------------
-// 7. RESTAURAR VISÃO PANORÂMICA (SEM FILTRO / TODOS OS NÓS)
+// 8. RESTAURAR VISÃO PANORÂMICA (SEM FILTRO / TODOS OS NÓS)
 // ------------------------------------------------------------------------------
 function resetSpectralFocus() {
   focusedSpectralNodeId = null;
+  polyphonicSelectedNodes = [];
+  updatePolyphonicSlotsUI();
 
   const facBadge = document.getElementById('facBadge');
   const facHint = document.getElementById('facHint');
@@ -565,7 +840,7 @@ function resetSpectralFocus() {
 }
 
 // ------------------------------------------------------------------------------
-// 8. OBSERVÁVEIS ESPECTRAIS EM TEMPO REAL (TELEMETRIA DSP DE EHLERS & GRANGER)
+// 9. OBSERVÁVEIS ESPECTRAIS EM TEMPO REAL (TELEMETRIA DSP DE EHLERS & GRANGER)
 // ------------------------------------------------------------------------------
 function initSpectralTelemetry(sensores) {
   const telePC1 = document.getElementById('telePC1');
@@ -593,7 +868,7 @@ function initSpectralTelemetry(sensores) {
 }
 
 // ------------------------------------------------------------------------------
-// 9. OSCILOSCÓPIO CRT DE 60 FPS REATIVO
+// 10. OSCILOSCÓPIO CRT DE 60 FPS REATIVO
 // ------------------------------------------------------------------------------
 function initOscilloscope() {
   const canvas = document.getElementById('oscCanvas');
@@ -634,7 +909,7 @@ function initOscilloscope() {
     ctx.lineTo(w, h / 2);
     ctx.stroke();
 
-    const isPlaying = window.harmonicusAudio && window.harmonicusAudio.isPlaying;
+    const isPlaying = window.harmonicusAudio && (window.harmonicusAudio.isPlaying || window.harmonicusAudio.isPolyDroneActive);
     const dataArray = isPlaying ? window.harmonicusAudio.getWaveformData() : null;
 
     let freqMult = 1.0;
@@ -701,12 +976,15 @@ function initOscilloscope() {
 }
 
 // ------------------------------------------------------------------------------
-// 10. GRAFO TOPOLÓGICO DOS 26 ATIVOS COM HALOS & LINHAS DE CAMPO DIRECIONAIS
+// 11. GRAFO TOPOLÓGICO DOS 26 ATIVOS COM HALOS & LINHAS DE CAMPO DIRECIONAIS
 // ------------------------------------------------------------------------------
 function initD3NetworkGraph(rawNodes, rawEdges) {
   const container = document.getElementById('networkGraphStage');
-  const tooltip = document.getElementById('nodeTooltip');
   const btnReset = document.getElementById('btnResetZoom');
+  const fniTag = document.getElementById('fniTag');
+  const fniTitle = document.getElementById('fniTitle');
+  const fniSub = document.getElementById('fniSub');
+
   if (!container || !window.d3) return;
 
   const dataNodes = (rawNodes && rawNodes.length > 0) ? rawNodes : (window.HARMONICUS_SX_DATA && window.HARMONICUS_SX_DATA.nodes) || [];
@@ -861,30 +1139,29 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
     .attr('font-family', 'JetBrains Mono, monospace')
     .style('pointer-events', 'none');
 
-  // Tooltip
+  // INSPEÇÃO NO HUD FIXO (CANTO SUPERIOR ESQUERDO)
   node.on('mouseover', (event, d) => {
-    if (!tooltip) return;
-    tooltip.style.display = 'block';
-    tooltip.innerHTML = `
-      <b style="font-size: 13px; color:#FFFFFF;">${d.nome} (${d.id})</b><br>
-      Classe: <span style="color: ${d.cor}; font-weight:700;">${d.classe}</span><br>
-      Volatilidade Anual: <b>${d.vol}%</b><br>
-      Peso Autovetor PC1: <b>${d.autovetor_pc1.toFixed(3)}</b><br>
-      Afinação Sonora: <b>${d.nota} (${d.fundamental_hz} Hz)</b><br>
-      <i style="color:#06B6D4; font-size:10px;">Clique para auditar Halos Espectrais & Linhas de Fluxo</i>
-    `;
-  })
-  .on('mousemove', (event) => {
-    if (!tooltip) return;
-    const r = container.getBoundingClientRect();
-    tooltip.style.left = (event.clientX - r.left + 15) + 'px';
-    tooltip.style.top = (event.clientY - r.top - 20) + 'px';
+    if (fniTag) fniTag.textContent = `${d.classe.toUpperCase()} // ${d.nota}`;
+    if (fniTitle) fniTitle.innerHTML = `<span style="color: ${d.cor}; font-weight:800;">${d.nome}</span> (${d.id})`;
+    if (fniSub) fniSub.innerHTML = `Afinação: <b>${d.fundamental_hz} Hz</b> • Vol: <b>${d.vol}%</b> • PC1: <b>${(d.autovetor_pc1*100).toFixed(1)}%</b>`;
   })
   .on('mouseout', () => {
-    if (tooltip) tooltip.style.display = 'none';
+    if (focusedSpectralNodeId) {
+      const fNode = d3GraphNodes.find(n => n.id === focusedSpectralNodeId);
+      if (fNode) {
+        if (fniTag) fniTag.textContent = `${fNode.classe.toUpperCase()} // ${fNode.nota}`;
+        if (fniTitle) fniTitle.innerHTML = `<span style="color: ${fNode.cor}; font-weight:800;">${fNode.nome}</span> (${fNode.id})`;
+        if (fniSub) fniSub.innerHTML = `Afinação: <b>${fNode.fundamental_hz} Hz</b> • Vol: <b>${fNode.vol}%</b> • PC1: <b>${(fNode.autovetor_pc1*100).toFixed(1)}%</b>`;
+      }
+    } else {
+      if (fniTag) fniTag.textContent = 'INSPEÇÃO ESPECTRAL';
+      if (fniTitle) fniTitle.textContent = 'PASSE O MOUSE NO GRAFO';
+      if (fniSub) fniSub.textContent = 'Inspecione afinação (Hz), classe e volatilidade instantânea';
+    }
   })
   .on('click', (event, d) => {
     event.stopPropagation();
+    toggleNodeSelectionInPolyphony(d);
     focusSpectralNode(d.id);
   });
 

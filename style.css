@@ -1495,19 +1495,260 @@ input[type="range"]::-webkit-slider-thumb {
   margin-top: 8px;
 }
 
-.node-hover-tooltip {
-  position: absolute;
-  display: none;
-  background: rgba(5, 8, 17, 0.95);
-  border: 1px solid var(--accent-cyan);
-  padding: 8px 12px;
-  border-radius: 6px;
+/* ==============================================================================
+   BANCA DE SÍNTESE POLIFÔNICA (4 ATIVOS) & SEQUENCIADOR MELÓDICO
+   ============================================================================== */
+.polyphonic-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.poly-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.poly-slots-counter {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.65rem;
+  font-weight: 800;
+  color: var(--accent-cyan);
+  background: rgba(6, 182, 212, 0.12);
+  border: 1px solid var(--accent-cyan);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.poly-chord-badge {
+  background: rgba(5, 8, 17, 0.9);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  transition: all 0.25s ease;
+}
+
+.poly-chord-badge.active {
+  border-color: var(--accent-gold);
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.25);
+}
+
+.pcb-type {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 800;
   color: var(--text-primary);
+}
+
+.pcb-sub {
+  font-size: 0.62rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+.poly-slots-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.poly-slot {
+  background: rgba(14, 21, 38, 0.85);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  padding: 6px 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.poly-slot.filled {
+  border-color: var(--accent-cyan);
+  background: rgba(6, 182, 212, 0.12);
+  box-shadow: 0 0 8px rgba(6, 182, 212, 0.2);
+}
+
+.poly-slot.empty {
+  opacity: 0.5;
+  border-style: dashed;
+}
+
+.ps-num {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 800;
+  color: var(--accent-cyan);
+}
+
+.ps-ticker {
+  font-family: var(--font-mono);
+  font-size: 0.70rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  flex: 1;
+}
+
+.ps-note {
+  font-family: var(--font-mono);
+  font-size: 0.60rem;
+  color: var(--accent-gold);
+  font-weight: 600;
+}
+
+.ps-remove {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 0 2px;
+  line-height: 1;
+  display: none;
+}
+
+.poly-slot.filled .ps-remove {
+  display: block;
+}
+
+.ps-remove:hover {
+  color: #EF4444;
+}
+
+.poly-action-buttons {
+  display: flex;
+  gap: 6px;
+  margin-top: 2px;
+}
+
+.poly-btn {
+  background: rgba(14, 21, 38, 0.9);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.poly-btn.drone-btn {
+  flex: 1.2;
+}
+
+.poly-btn.arpeggio-btn {
+  flex: 1.2;
+}
+
+.poly-btn.clear-btn {
+  width: 32px;
+  padding: 6px 0;
+  color: var(--text-muted);
+}
+
+.poly-btn:hover {
+  border-color: var(--accent-cyan);
+  background: rgba(6, 182, 212, 0.15);
+  color: #FFFFFF;
+}
+
+.poly-btn.active {
+  background: rgba(16, 185, 129, 0.22);
+  border-color: #10B981;
+  color: #10B981;
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.35);
+}
+
+.poly-btn.playing {
+  background: rgba(245, 158, 11, 0.25);
+  border-color: #F59E0B;
+  color: #F59E0B;
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.35);
+}
+
+/* ==============================================================================
+   HUD FIXO DE INSPEÇÃO ESPECTRAL (CANTO SUPERIOR ESQUERDO DO GRAFO)
+   ============================================================================== */
+.fixed-node-inspector {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 240px;
+  background: rgba(5, 8, 17, 0.94);
+  border: 1px solid rgba(6, 182, 212, 0.35);
+  border-radius: 8px;
+  padding: 10px 12px;
+  z-index: 30;
   pointer-events: none;
-  z-index: 100;
-  box-shadow: 0 0 15px rgba(6, 182, 212, 0.3);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8), 0 0 12px rgba(6, 182, 212, 0.15);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fni-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.fni-tag {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  font-weight: 800;
+  color: var(--accent-cyan);
+  letter-spacing: 0.5px;
+}
+
+.fni-live {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  font-weight: 700;
+  color: var(--accent-emerald);
+  animation: liveBlink 1.5s infinite alternate;
+}
+
+@keyframes liveBlink {
+  0% { opacity: 0.4; }
+  100% { opacity: 1.0; }
+}
+
+.fni-title {
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 1.2;
+}
+
+.fni-sub {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-secondary);
+  line-height: 1.35;
+  margin-top: 3px;
+}
+
+/* Pulso visual do Arpeggio Melódico no nó */
+.node-arpeggio-pulse {
+  animation: arpeggioGlow 0.45s ease-out;
+}
+
+@keyframes arpeggioGlow {
+  0% { transform: scale(1.0); filter: drop-shadow(0 0 25px #FFFFFF) brightness(2.0); }
+  50% { transform: scale(1.35); filter: drop-shadow(0 0 40px #F59E0B) brightness(2.5); }
+  100% { transform: scale(1.0); }
 }
 
 /* CWT & STE Synth Footer */
