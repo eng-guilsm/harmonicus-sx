@@ -74,6 +74,35 @@ function renderHeroPatrimony(p) {
       if (elTime) elTime.textContent = parts[1];
     }
   }
+
+  // -------------------------------------------------------------
+  // DISTRIBUIÇÃO PATRIMONIAL EM TEMPO REAL (CUSTÓDIA ATIVA)
+  // -------------------------------------------------------------
+  const elAllocBrl = document.getElementById('allocValBRL');
+  const elFillBrl = document.getElementById('allocFillBRL');
+  if (elAllocBrl && p.caixa_brl !== undefined) elAllocBrl.textContent = `R$ ${fmt(p.caixa_brl)} (${p.caixa_pct || 67.4}%)`;
+  if (elFillBrl && p.caixa_pct !== undefined) elFillBrl.style.width = `${p.caixa_pct}%`;
+
+  const elLblBtc = document.getElementById('allocLabelBTC');
+  const elValBtc = document.getElementById('allocValBTC');
+  const elFillBtc = document.getElementById('allocFillBTC');
+  if (elLblBtc && p.btc_qtd !== undefined) elLblBtc.textContent = `Bitcoin Spot (${p.btc_qtd} BTC)`;
+  if (elValBtc && p.btc_brl !== undefined) elValBtc.textContent = `R$ ${fmt(p.btc_brl)} (${p.btc_pct || 26.2}%)`;
+  if (elFillBtc && p.btc_pct !== undefined) elFillBtc.style.width = `${p.btc_pct}%`;
+
+  const elLblPaxg = document.getElementById('allocLabelPAXG');
+  const elValPaxg = document.getElementById('allocValPAXG');
+  const elFillPaxg = document.getElementById('allocFillPAXG');
+  if (elLblPaxg && p.paxg_qtd !== undefined) elLblPaxg.textContent = `Ouro PAXG (${p.paxg_qtd} PAXG)`;
+  if (elValPaxg && p.paxg_brl !== undefined) elValPaxg.textContent = `R$ ${fmt(p.paxg_brl)} (${p.paxg_pct || 6.2}%)`;
+  if (elFillPaxg && p.paxg_pct !== undefined) elFillPaxg.style.width = `${p.paxg_pct}%`;
+
+  const elLblUsdt = document.getElementById('allocLabelUSDT');
+  const elValUsdt = document.getElementById('allocValUSDT');
+  const elFillUsdt = document.getElementById('allocFillUSDT');
+  if (elLblUsdt && p.usdt_qtd !== undefined) elLblUsdt.textContent = `Tether USD (${p.usdt_qtd} USDT)`;
+  if (elValUsdt && p.usdt_brl !== undefined) elValUsdt.textContent = `R$ ${fmt(p.usdt_brl)} (${p.usdt_pct || 0.2}%)`;
+  if (elFillUsdt && p.usdt_pct !== undefined) elFillUsdt.style.width = `${p.usdt_pct}%`;
 }
 
 // ------------------------------------------------------------------------------
@@ -459,12 +488,19 @@ function startLiveTacticalSync() {
   const doSync = async () => {
     try {
       const ts = Date.now();
-      const res = await fetch(`data/planos_data.js?_t=${ts}`, { cache: 'no-store' });
-      if (!res.ok) return;
-      const text = await res.text();
+      const [resPlanos, resSx] = await Promise.all([
+        fetch(`data/planos_data.js?_t=${ts}`, { cache: 'no-store' }).catch(() => null),
+        fetch(`data/harmonicus_sx_data.js?_t=${ts}`, { cache: 'no-store' }).catch(() => null)
+      ]);
       
-      const scriptFn = new Function(text);
-      scriptFn();
+      if (resPlanos && resPlanos.ok) {
+        const tPlanos = await resPlanos.text();
+        try { new Function(tPlanos)(); } catch(e) {}
+      }
+      if (resSx && resSx.ok) {
+        const tSx = await resSx.text();
+        try { new Function(tSx)(); } catch(e) {}
+      }
       
       const plans = window.PLANOS_TACTICAL_DATA || [];
       const portfolio = window.PORTFOLIO_STATE || {};

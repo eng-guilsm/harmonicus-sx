@@ -1,4 +1,4 @@
-// Gerado automaticamente pelo MoneyLab Data Engine (2026-08-23 12:56:05)
+// Gerado automaticamente pelo MoneyLab Data Engine (2026-08-23 12:56:27)
 window.PLANOS_TACTICAL_DATA = [
   {
     "id": 1,
@@ -11,7 +11,7 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Z <= -1.65σ (Topo BTC -> Ouro) / Z >= +1.65σ (Fundo BTC -> BTC)",
     "trava_ruptura": "Modulação CWT Morlet (Ew < 50: Lote 100% | Ew >= 50: Lote 50%)",
     "cooldown_horas": 4.0,
-    "valor_atual_str": "Ratio 0.05965 (Z: -1.13σ)",
+    "valor_atual_str": "Ratio 0.05963 (Z: -1.14σ)",
     "alvo_str": "Ratio <= 0.05580 (Alvo BTC: ~R$ 424.000)",
     "distancia_display": "+6.9% de distância do alvo",
     "proximidade_score": 69,
@@ -311,7 +311,7 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "09:55",
           "score": 69,
-          "metric": "Ratio: 0.05965 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05963 (Z: -1.14σ)"
         }
       ],
       "24h": [
@@ -4623,7 +4623,7 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "09:55",
           "score": 69,
-          "metric": "Ratio: 0.05965 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05963 (Z: -1.14σ)"
         }
       ],
       "7d": [
@@ -8080,7 +8080,7 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "23/08 09:00",
           "score": 69,
-          "metric": "Ratio: 0.05965 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05963 (Z: -1.14σ)"
         }
       ],
       "30d": [
@@ -11707,7 +11707,7 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "23/08 09:00",
           "score": 69,
-          "metric": "Ratio: 0.05965 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05963 (Z: -1.14σ)"
         }
       ]
     }
@@ -46859,9 +46859,9 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "|Z_SOL/BTC| 720h >= 1.75σ (Sobrecompra ou Sobrevenda)",
     "trava_ruptura": "Trava Pânico: Bloqueado se PC1 > 70% (Colapso Sistêmico)",
     "cooldown_horas": 4.0,
-    "valor_atual_str": "SOL/BTC = 0.001224 (Z: +2.08σ)",
+    "valor_atual_str": "SOL/BTC = 0.001224 (Z: +2.06σ)",
     "alvo_str": "Z >= +1.75σ (Sobrecompra SOL) ou Z <= -1.75σ (Sobrevenda SOL)",
-    "distancia_display": "Gatilho Ativo (+2.08σ >= +1.75σ)",
+    "distancia_display": "Gatilho Ativo (+2.06σ >= +1.75σ)",
     "proximidade_score": 100,
     "status": "ZONA_DE_DISPARO_ATIVA (SOL -> BTC)",
     "icone": "🪐",
@@ -47159,7 +47159,7 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "09:55",
           "score": 100,
-          "metric": "SOL/BTC: 0.001224 (Z: +2.08σ)"
+          "metric": "SOL/BTC: 0.001224 (Z: +2.06σ)"
         }
       ],
       "24h": [
@@ -51471,7 +51471,7 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "09:55",
           "score": 100,
-          "metric": "SOL/BTC: 0.001224 (Z: +2.08σ)"
+          "metric": "SOL/BTC: 0.001224 (Z: +2.06σ)"
         }
       ],
       "7d": [
@@ -54928,7 +54928,7 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "23/08 09:00",
           "score": 100,
-          "metric": "SOL/BTC: 0.001224 (Z: +2.08σ)"
+          "metric": "SOL/BTC: 0.001224 (Z: +2.06σ)"
         }
       ],
       "30d": [
@@ -58555,7 +58555,7 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "23/08 09:00",
           "score": 100,
-          "metric": "SOL/BTC: 0.001224 (Z: +2.08σ)"
+          "metric": "SOL/BTC: 0.001224 (Z: +2.06σ)"
         }
       ]
     }
@@ -70283,10 +70283,10 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Desvio do Ratio Diário 24h (|Z_ETH/BTC| >= 1.50σ)",
     "trava_ruptura": "Coerência de Fase γ_ETH/BTC = 71.0% | Bloqueio PC1 > 75%",
     "cooldown_horas": 1.5,
-    "valor_atual_str": "ETH/BTC = 0.03142 (Z: +0.25σ)",
+    "valor_atual_str": "ETH/BTC = 0.03144 (Z: +0.50σ)",
     "alvo_str": "|Z| >= 1.50σ (Gatilho de Arbitragem)",
-    "distancia_display": "Faltam 1.25σ para disparo",
-    "proximidade_score": 17,
+    "distancia_display": "Faltam 1.00σ para disparo",
+    "proximidade_score": 34,
     "status": "MONITORANDO_SPREAD",
     "icone": "⚔️",
     "cor": "#06B6D4",
@@ -70582,8 +70582,8 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "09:55",
-          "score": 17,
-          "metric": "ETH/BTC: 0.03142 (Z: +0.25σ)"
+          "score": 34,
+          "metric": "ETH/BTC: 0.03144 (Z: +0.50σ)"
         }
       ],
       "24h": [
@@ -74894,8 +74894,8 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "09:55",
-          "score": 17,
-          "metric": "ETH/BTC: 0.03142 (Z: +0.25σ)"
+          "score": 34,
+          "metric": "ETH/BTC: 0.03144 (Z: +0.50σ)"
         }
       ],
       "7d": [
@@ -78351,8 +78351,8 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "23/08 09:00",
-          "score": 17,
-          "metric": "ETH/BTC: 0.03142 (Z: +0.25σ)"
+          "score": 34,
+          "metric": "ETH/BTC: 0.03144 (Z: +0.50σ)"
         }
       ],
       "30d": [
@@ -81978,8 +81978,8 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "23/08 09:00",
-          "score": 17,
-          "metric": "ETH/BTC: 0.03142 (Z: +0.25σ)"
+          "score": 34,
+          "metric": "ETH/BTC: 0.03144 (Z: +0.50σ)"
         }
       ]
     }
@@ -81995,10 +81995,10 @@ window.PLANOS_TACTICAL_DATA = [
     "gatilho_desc": "Micro-Queda 5m <= -0.40% (> 1.5σ intradiário)",
     "trava_ruptura": "Trava Espectral: Exige Ew < 50.0 (Sem tempestade de choque)",
     "cooldown_horas": 1.5,
-    "valor_atual_str": "Retorno 5m = -0.10%",
+    "valor_atual_str": "Retorno 5m = -0.07%",
     "alvo_str": "Retorno 5m <= -0.40%",
-    "distancia_display": "Faltam +0.30% de recuo rápido",
-    "proximidade_score": 24,
+    "distancia_display": "Faltam +0.33% de recuo rápido",
+    "proximidade_score": 17,
     "status": "RADAR_ATIVO_5M",
     "icone": "🏹",
     "cor": "#EAB308",
@@ -82294,8 +82294,8 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "09:55",
-          "score": 24,
-          "metric": "Retorno 5m: -0.10%"
+          "score": 17,
+          "metric": "Retorno 5m: -0.07%"
         }
       ],
       "24h": [
@@ -86606,8 +86606,8 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "09:55",
-          "score": 24,
-          "metric": "Retorno 5m: -0.10%"
+          "score": 17,
+          "metric": "Retorno 5m: -0.07%"
         }
       ],
       "7d": [
@@ -90063,8 +90063,8 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "23/08 09:00",
-          "score": 24,
-          "metric": "Retorno 5m: -0.10%"
+          "score": 17,
+          "metric": "Retorno 5m: -0.07%"
         }
       ],
       "30d": [
@@ -93690,8 +93690,8 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "label": "23/08 09:00",
-          "score": 24,
-          "metric": "Retorno 5m: -0.10%"
+          "score": 17,
+          "metric": "Retorno 5m: -0.07%"
         }
       ]
     }
@@ -93699,13 +93699,13 @@ window.PLANOS_TACTICAL_DATA = [
 ];
 
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-23 09:56:05",
-  "total_brl": 1707.33,
+  "timestamp_str": "2026-08-23 09:56:27",
+  "total_brl": 1707.47,
   "aportado_brl": 1731.0,
-  "prejuizo_residual_brl": -23.67,
+  "prejuizo_residual_brl": -23.53,
   "caixa_brl": 1150.0,
-  "caixa_pct": 67.36,
-  "btc_brl": 447.3,
+  "caixa_pct": 67.35,
+  "btc_brl": 447.44,
   "btc_qtd": 0.00112671,
   "btc_pct": 26.2,
   "paxg_brl": 106.55,
@@ -93715,11 +93715,11 @@ window.PORTFOLIO_STATE = {
   "usdt_qtd": 0.6764,
   "usdt_pct": 0.2,
   "cotacoes_ao_vivo": {
-    "BTCBRL": 397000.0,
+    "BTCBRL": 397118.0,
     "USDTBRL": 5.1439,
     "PAXGBRL": 23681.281064000003,
     "SOLBRL": 486.0,
-    "ETHBRL": 12474.06,
+    "ETHBRL": 12486.69,
     "LINKBRL": 58.74,
     "BNBBRL": 3568.0,
     "ADABRL": 1.157,
