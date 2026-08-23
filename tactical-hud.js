@@ -23,6 +23,7 @@ function initTacticalHUD() {
   renderLiveThermometer(plans, activePlanFilter);
   initFilterButtons(plans);
   initModalEvents();
+  startLiveTacticalSync();
 }
 
 function renderHeroPatrimony(p) {
@@ -449,4 +450,36 @@ function initPlanCanvasInteractions(plan, tf) {
     tooltip.style.display = 'none';
     drawPlanHistoryChart(plan, tf);
   });
+}
+
+// ------------------------------------------------------------------------------
+// 3. LIVE BACKGROUND AUTO-POLLER (Ignora Cache e Atualiza a UI sem Reload)
+// ------------------------------------------------------------------------------
+function startLiveTacticalSync() {
+  setInterval(async () => {
+    try {
+      const ts = Date.now();
+      const res = await fetch(`data/planos_data.js?_t=${ts}`, { cache: 'no-store' });
+      if (!res.ok) return;
+      const text = await res.text();
+      
+      const scriptFn = new Function(text);
+      scriptFn();
+      
+      const plans = window.PLANOS_TACTICAL_DATA || [];
+      const portfolio = window.PORTFOLIO_STATE || {};
+      
+      renderHeroPatrimony(portfolio);
+      renderLiveThermometer(plans, activePlanFilter);
+      
+      if (activeModalPlanId) {
+        const activePlan = plans.find(p => p.id === activeModalPlanId);
+        if (activePlan) {
+          drawPlanHistoryChart(activePlan, activeModalTimeframe);
+        }
+      }
+    } catch (e) {
+      console.warn('Live sync notice:', e);
+    }
+  }, 20000);
 }
