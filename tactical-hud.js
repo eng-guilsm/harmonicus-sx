@@ -61,6 +61,12 @@ function renderHeroPatrimony(p) {
       elGatekeeperDetail.innerHTML = `Fator de Lote: <b>${lote}</b> | Sem tempestades espectrais`;
     }
   }
+
+  const elDbStatus = document.getElementById('dbStatusVal');
+  if (elDbStatus && p.timestamp_str) {
+    const timeOnly = p.timestamp_str.split(' ')[1] || p.timestamp_str;
+    elDbStatus.textContent = `${timeOnly} (LIVE 1M)`;
+  }
 }
 
 // ------------------------------------------------------------------------------
