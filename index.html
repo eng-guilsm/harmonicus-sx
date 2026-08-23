@@ -16,7 +16,7 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   
   <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20260822_sx7">
+  <link rel="stylesheet" href="style.css?v=20260822_sx8">
 </head>
 <body class="dark-synth">
   <!-- Scanlines & Ambient Matrix Grid -->
@@ -63,9 +63,10 @@
           </div>
         </div>
 
-        <div class="system-status-chip">
-          <span class="chip-label">AUTORUN:</span>
-          <span class="chip-val" id="dbStatusVal">1 MINUTO (LIVE)</span>
+        <div class="system-status-chip" style="display: flex; flex-direction: column; align-items: flex-end; justify-content: center; line-height: 1.25; padding: 4px 10px; background: rgba(5, 8, 17, 0.90); border: 1px solid var(--border-subtle); border-radius: 6px; min-width: 90px;">
+          <span class="chip-label" style="font-size: 0.60rem; color: var(--text-muted); font-family: var(--font-mono); font-weight: 700; letter-spacing: 0.08em;">AUTORUN</span>
+          <span id="autorunDate" style="font-size: 0.68rem; color: #06B6D4; font-family: var(--font-mono); font-weight: 600;">22/08/2026</span>
+          <span id="autorunTime" style="font-size: 0.82rem; color: #10B981; font-family: var(--font-mono); font-weight: 700;">22:49:00</span>
         </div>
       </div>
     </header>
@@ -469,12 +470,12 @@
   </div>
 
   <!-- SCRIPTS -->
-  <script src="data/planos_data.js?v=20260822_sx7"></script>
-  <script src="data/harmonicus_sx_data.js?v=20260822_sx7"></script>
-  <script src="data/charts_data.js?v=20260822_sx7"></script>
-  <script src="audio-engine.js?v=20260822_sx7"></script>
-  <script src="tactical-hud.js?v=20260822_sx7"></script>
-  <script src="harmonicus-sx.js?v=20260822_sx7"></script>
-  <script src="charts-kinetics.js?v=20260822_sx7"></script>
+  <script src="data/planos_data.js?v=20260822_sx8"></script>
+  <script src="data/harmonicus_sx_data.js?v=20260822_sx8"></script>
+  <script src="data/charts_data.js?v=20260822_sx8"></script>
+  <script src="audio-engine.js?v=20260822_sx8"></script>
+  <script src="tactical-hud.js?v=20260822_sx8"></script>
+  <script src="harmonicus-sx.js?v=20260822_sx8"></script>
+  <script src="charts-kinetics.js?v=20260822_sx8"></script>
 </body>
 </html>
