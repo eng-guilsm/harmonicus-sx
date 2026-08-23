@@ -1,6 +1,6 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-23 18:39:03)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-23 18:39:18)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-23 18:39:03",
+  "timestamp_str": "2026-08-23 18:39:18",
   "total_brl": 1716.53,
   "aportado_brl": 1731.0,
   "prejuizo_residual_brl": -14.47,
@@ -68,13 +68,13 @@ window.PORTFOLIO_STATE = {
   "cotacoes_ao_vivo": {
     "BTCBRL": 401418.0,
     "USDTBRL": 5.1624,
-    "PAXGBRL": 23772.955248000002,
+    "PAXGBRL": 23772.852,
     "SOLBRL": 493.9,
     "ETHBRL": 12737.97,
     "LINKBRL": 60.14,
     "BNBBRL": 3638.0,
     "ADABRL": 1.178,
-    "VIX": 15.13,
+    "VIX": 15.130000114440918,
     "USDBRL_COMERCIAL": 5.1364
   },
   "harmonicus_sensores": {
@@ -21011,3909 +21011,3909 @@ window.PLANOS_TACTICAL_DATA = [
       "7d": [
         {
           "label": "16/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.97 pts"
         },
         {
           "label": "17/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.97 pts"
         },
         {
           "label": "17/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.97 pts"
         },
         {
           "label": "17/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.97 pts"
         },
         {
           "label": "17/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.98 pts"
         },
         {
           "label": "17/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.98 pts"
         },
         {
           "label": "17/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.98 pts"
         },
         {
           "label": "17/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.98 pts"
         },
         {
           "label": "17/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.92 pts"
         },
         {
           "label": "17/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.92 pts"
         },
         {
           "label": "17/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.92 pts"
         },
         {
           "label": "17/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.92 pts"
         },
         {
           "label": "17/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.92 pts"
         },
         {
           "label": "17/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.92 pts"
         },
         {
           "label": "17/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.92 pts"
         },
         {
           "label": "17/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.92 pts"
         },
         {
           "label": "17/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 1,
+          "score_b": 99,
+          "score": 99,
+          "metric": "VIX: 15.08 pts"
         },
         {
           "label": "17/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.99 pts"
         },
         {
           "label": "17/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.99 pts"
         },
         {
           "label": "17/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.99 pts"
         },
         {
           "label": "17/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.99 pts"
         },
         {
           "label": "17/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.96 pts"
         },
         {
           "label": "17/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.96 pts"
         },
         {
           "label": "17/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.96 pts"
         },
         {
           "label": "17/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.96 pts"
         },
         {
           "label": "17/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 15.02 pts"
         },
         {
           "label": "17/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 15.02 pts"
         },
         {
           "label": "17/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 15.02 pts"
         },
         {
           "label": "17/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 15.02 pts"
         },
         {
           "label": "17/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.16 pts"
         },
         {
           "label": "17/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.16 pts"
         },
         {
           "label": "17/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.16 pts"
         },
         {
           "label": "17/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.16 pts"
         },
         {
           "label": "17/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.17 pts"
         },
         {
           "label": "17/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.17 pts"
         },
         {
           "label": "17/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.17 pts"
         },
         {
           "label": "17/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.17 pts"
         },
         {
           "label": "17/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.85 pts"
         },
         {
           "label": "18/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.85 pts"
         },
         {
           "label": "18/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.85 pts"
         },
         {
           "label": "18/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.85 pts"
         },
         {
           "label": "18/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 13,
+          "score_b": 87,
+          "score": 87,
+          "metric": "VIX: 15.94 pts"
         },
         {
           "label": "18/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 13,
+          "score_b": 87,
+          "score": 87,
+          "metric": "VIX: 15.94 pts"
         },
         {
           "label": "18/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 13,
+          "score_b": 87,
+          "score": 87,
+          "metric": "VIX: 15.94 pts"
         },
         {
           "label": "18/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 13,
+          "score_b": 87,
+          "score": 87,
+          "metric": "VIX: 15.94 pts"
         },
         {
           "label": "18/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.78 pts"
         },
         {
           "label": "18/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.78 pts"
         },
         {
           "label": "18/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.78 pts"
         },
         {
           "label": "18/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.78 pts"
         },
         {
           "label": "18/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.69 pts"
         },
         {
           "label": "18/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.69 pts"
         },
         {
           "label": "18/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.69 pts"
         },
         {
           "label": "18/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.69 pts"
         },
         {
           "label": "18/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.75 pts"
         },
         {
           "label": "18/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.80 pts"
         },
         {
           "label": "18/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.80 pts"
         },
         {
           "label": "18/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.80 pts"
         },
         {
           "label": "18/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.80 pts"
         },
         {
           "label": "18/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.75 pts"
         },
         {
           "label": "18/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.75 pts"
         },
         {
           "label": "18/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.75 pts"
         },
         {
           "label": "18/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.75 pts"
         },
         {
           "label": "18/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 9,
+          "score_b": 91,
+          "score": 91,
+          "metric": "VIX: 15.65 pts"
         },
         {
           "label": "18/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 9,
+          "score_b": 91,
+          "score": 91,
+          "metric": "VIX: 15.65 pts"
         },
         {
           "label": "18/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 9,
+          "score_b": 91,
+          "score": 91,
+          "metric": "VIX: 15.65 pts"
         },
         {
           "label": "18/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 9,
+          "score_b": 91,
+          "score": 91,
+          "metric": "VIX: 15.65 pts"
         },
         {
           "label": "18/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.75 pts"
         },
         {
           "label": "18/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.75 pts"
         },
         {
           "label": "18/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.75 pts"
         },
         {
           "label": "18/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.75 pts"
         },
         {
           "label": "18/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.68 pts"
         },
         {
           "label": "18/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.68 pts"
         },
         {
           "label": "18/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.68 pts"
         },
         {
           "label": "18/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.68 pts"
         },
         {
           "label": "18/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.83 pts"
         },
         {
           "label": "19/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.83 pts"
         },
         {
           "label": "19/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.83 pts"
         },
         {
           "label": "19/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.83 pts"
         },
         {
           "label": "19/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.87 pts"
         },
         {
           "label": "19/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.87 pts"
         },
         {
           "label": "19/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.87 pts"
         },
         {
           "label": "19/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.87 pts"
         },
         {
           "label": "19/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.82 pts"
         },
         {
           "label": "19/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.82 pts"
         },
         {
           "label": "19/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.82 pts"
         },
         {
           "label": "19/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.82 pts"
         },
         {
           "label": "19/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.73 pts"
         },
         {
           "label": "19/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.73 pts"
         },
         {
           "label": "19/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.73 pts"
         },
         {
           "label": "19/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.73 pts"
         },
         {
           "label": "19/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.47 pts"
         },
         {
           "label": "19/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.29 pts"
         },
         {
           "label": "19/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.29 pts"
         },
         {
           "label": "19/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.29 pts"
         },
         {
           "label": "19/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.29 pts"
         },
         {
           "label": "19/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "19/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "19/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "19/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "19/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.16 pts"
         },
         {
           "label": "19/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.16 pts"
         },
         {
           "label": "19/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.16 pts"
         },
         {
           "label": "19/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.16 pts"
         },
         {
           "label": "19/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.24 pts"
         },
         {
           "label": "19/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.24 pts"
         },
         {
           "label": "19/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.24 pts"
         },
         {
           "label": "19/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.24 pts"
         },
         {
           "label": "19/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.21 pts"
         },
         {
           "label": "19/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.21 pts"
         },
         {
           "label": "19/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.21 pts"
         },
         {
           "label": "19/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.21 pts"
         },
         {
           "label": "19/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 15.03 pts"
         },
         {
           "label": "19/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 15.03 pts"
         },
         {
           "label": "19/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 15.03 pts"
         },
         {
           "label": "19/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 15.03 pts"
         },
         {
           "label": "19/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.91 pts"
         },
         {
           "label": "19/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.91 pts"
         },
         {
           "label": "19/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.91 pts"
         },
         {
           "label": "19/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.91 pts"
         },
         {
           "label": "19/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.23 pts"
         },
         {
           "label": "20/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.23 pts"
         },
         {
           "label": "20/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.23 pts"
         },
         {
           "label": "20/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.23 pts"
         },
         {
           "label": "20/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.20 pts"
         },
         {
           "label": "20/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.20 pts"
         },
         {
           "label": "20/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.20 pts"
         },
         {
           "label": "20/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.20 pts"
         },
         {
           "label": "20/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.11 pts"
         },
         {
           "label": "20/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.11 pts"
         },
         {
           "label": "20/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.11 pts"
         },
         {
           "label": "20/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.11 pts"
         },
         {
           "label": "20/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 8,
+          "score_b": 92,
+          "score": 92,
+          "metric": "VIX: 15.56 pts"
         },
         {
           "label": "20/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 8,
+          "score_b": 92,
+          "score": 92,
+          "metric": "VIX: 15.56 pts"
         },
         {
           "label": "20/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 8,
+          "score_b": 92,
+          "score": 92,
+          "metric": "VIX: 15.56 pts"
         },
         {
           "label": "20/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 8,
+          "score_b": 92,
+          "score": 92,
+          "metric": "VIX: 15.56 pts"
         },
         {
           "label": "20/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.83 pts"
         },
         {
           "label": "20/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "20/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "20/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "20/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "20/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.68 pts"
         },
         {
           "label": "20/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.68 pts"
         },
         {
           "label": "20/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.68 pts"
         },
         {
           "label": "20/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.68 pts"
         },
         {
           "label": "20/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 13,
+          "score_b": 87,
+          "score": 87,
+          "metric": "VIX: 15.90 pts"
         },
         {
           "label": "20/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 13,
+          "score_b": 87,
+          "score": 87,
+          "metric": "VIX: 15.90 pts"
         },
         {
           "label": "20/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 13,
+          "score_b": 87,
+          "score": 87,
+          "metric": "VIX: 15.90 pts"
         },
         {
           "label": "20/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 13,
+          "score_b": 87,
+          "score": 87,
+          "metric": "VIX: 15.90 pts"
         },
         {
           "label": "20/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 8,
+          "score_b": 92,
+          "score": 92,
+          "metric": "VIX: 15.58 pts"
         },
         {
           "label": "20/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 8,
+          "score_b": 92,
+          "score": 92,
+          "metric": "VIX: 15.58 pts"
         },
         {
           "label": "20/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 8,
+          "score_b": 92,
+          "score": 92,
+          "metric": "VIX: 15.58 pts"
         },
         {
           "label": "20/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 8,
+          "score_b": 92,
+          "score": 92,
+          "metric": "VIX: 15.58 pts"
         },
         {
           "label": "20/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.81 pts"
         },
         {
           "label": "20/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.81 pts"
         },
         {
           "label": "20/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.81 pts"
         },
         {
           "label": "20/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.81 pts"
         },
         {
           "label": "20/08 15:00",
           "score_a": 16,
           "score_b": 84,
           "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "metric": "VIX: 16.10 pts"
         },
         {
           "label": "20/08 15:00",
           "score_a": 16,
           "score_b": 84,
           "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "metric": "VIX: 16.10 pts"
         },
         {
           "label": "20/08 15:00",
           "score_a": 16,
           "score_b": 84,
           "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "metric": "VIX: 16.10 pts"
         },
         {
           "label": "20/08 15:00",
           "score_a": 16,
           "score_b": 84,
           "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "metric": "VIX: 16.10 pts"
         },
         {
           "label": "20/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 15,
+          "score_b": 85,
+          "score": 85,
+          "metric": "VIX: 16.05 pts"
         },
         {
           "label": "20/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 15,
+          "score_b": 85,
+          "score": 85,
+          "metric": "VIX: 16.05 pts"
         },
         {
           "label": "20/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 15,
+          "score_b": 85,
+          "score": 85,
+          "metric": "VIX: 16.05 pts"
         },
         {
           "label": "20/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 15,
+          "score_b": 85,
+          "score": 85,
+          "metric": "VIX: 16.05 pts"
         },
         {
           "label": "20/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.72 pts"
         },
         {
           "label": "21/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.72 pts"
         },
         {
           "label": "21/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.72 pts"
         },
         {
           "label": "21/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.72 pts"
         },
         {
           "label": "21/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.68 pts"
         },
         {
           "label": "21/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.68 pts"
         },
         {
           "label": "21/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.68 pts"
         },
         {
           "label": "21/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.68 pts"
         },
         {
           "label": "21/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.67 pts"
         },
         {
           "label": "21/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.67 pts"
         },
         {
           "label": "21/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.67 pts"
         },
         {
           "label": "21/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.67 pts"
         },
         {
           "label": "21/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "21/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "21/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "21/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "21/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 6,
+          "score_b": 94,
+          "score": 94,
+          "metric": "VIX: 15.42 pts"
         },
         {
           "label": "21/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.49 pts"
         },
         {
           "label": "21/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.49 pts"
         },
         {
           "label": "21/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.49 pts"
         },
         {
           "label": "21/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.49 pts"
         },
         {
           "label": "21/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.27 pts"
         },
         {
           "label": "21/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.27 pts"
         },
         {
           "label": "21/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.27 pts"
         },
         {
           "label": "21/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.27 pts"
         },
         {
           "label": "21/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 5,
+          "score_b": 95,
+          "score": 95,
+          "metric": "VIX: 15.38 pts"
         },
         {
           "label": "21/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 5,
+          "score_b": 95,
+          "score": 95,
+          "metric": "VIX: 15.38 pts"
         },
         {
           "label": "21/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 5,
+          "score_b": 95,
+          "score": 95,
+          "metric": "VIX: 15.38 pts"
         },
         {
           "label": "21/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 5,
+          "score_b": 95,
+          "score": 95,
+          "metric": "VIX: 15.38 pts"
         },
         {
           "label": "21/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.31 pts"
         },
         {
           "label": "21/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.31 pts"
         },
         {
           "label": "21/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.31 pts"
         },
         {
           "label": "21/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.31 pts"
         },
         {
           "label": "21/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.24 pts"
         },
         {
           "label": "21/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.24 pts"
         },
         {
           "label": "21/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.24 pts"
         },
         {
           "label": "21/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.24 pts"
         },
         {
           "label": "21/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.25 pts"
         },
         {
           "label": "21/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.25 pts"
         },
         {
           "label": "21/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.25 pts"
         },
         {
           "label": "21/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.25 pts"
         },
         {
           "label": "21/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.17 pts"
         },
         {
           "label": "21/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.17 pts"
         },
         {
           "label": "21/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.17 pts"
         },
         {
           "label": "21/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.17 pts"
         },
         {
           "label": "21/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 14:00",
@@ -25843,4840 +25843,4840 @@ window.PLANOS_TACTICAL_DATA = [
       "30d": [
         {
           "label": "24/07 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "24/07 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "24/07 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "24/07 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "24/07 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "24/07 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "25/07 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "26/07 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "27/07 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.57 pts"
         },
         {
           "label": "27/07 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.58 pts"
         },
         {
           "label": "27/07 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.58 pts"
         },
         {
           "label": "27/07 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 51,
+          "score_b": 49,
+          "score": 51,
+          "metric": "VIX: 18.58 pts"
         },
         {
           "label": "27/07 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 52,
+          "score_b": 48,
+          "score": 52,
+          "metric": "VIX: 18.67 pts"
         },
         {
           "label": "27/07 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 37,
+          "score_b": 63,
+          "score": 63,
+          "metric": "VIX: 17.59 pts"
         },
         {
           "label": "27/07 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 37,
+          "score_b": 63,
+          "score": 63,
+          "metric": "VIX: 17.58 pts"
         },
         {
           "label": "27/07 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 37,
+          "score_b": 63,
+          "score": 63,
+          "metric": "VIX: 17.60 pts"
         },
         {
           "label": "27/07 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 39,
+          "score_b": 61,
+          "score": 61,
+          "metric": "VIX: 17.74 pts"
         },
         {
           "label": "27/07 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 52,
+          "score_b": 48,
+          "score": 52,
+          "metric": "VIX: 18.67 pts"
         },
         {
           "label": "27/07 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 52,
+          "score_b": 48,
+          "score": 52,
+          "metric": "VIX: 18.67 pts"
         },
         {
           "label": "27/07 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 55,
+          "score_b": 45,
+          "score": 55,
+          "metric": "VIX: 18.84 pts"
         },
         {
           "label": "27/07 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 62,
+          "score_b": 38,
+          "score": 62,
+          "metric": "VIX: 19.34 pts"
         },
         {
           "label": "27/07 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 64,
+          "score_b": 36,
+          "score": 64,
+          "metric": "VIX: 19.48 pts"
         },
         {
           "label": "27/07 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 60,
+          "score_b": 40,
+          "score": 60,
+          "metric": "VIX: 19.20 pts"
         },
         {
           "label": "27/07 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 57,
+          "score_b": 43,
+          "score": 57,
+          "metric": "VIX: 18.97 pts"
         },
         {
           "label": "27/07 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 53,
+          "score_b": 47,
+          "score": 53,
+          "metric": "VIX: 18.73 pts"
         },
         {
           "label": "27/07 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 52,
+          "score_b": 48,
+          "score": 52,
+          "metric": "VIX: 18.67 pts"
         },
         {
           "label": "27/07 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 52,
+          "score_b": 48,
+          "score": 52,
+          "metric": "VIX: 18.67 pts"
         },
         {
           "label": "27/07 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 52,
+          "score_b": 48,
+          "score": 52,
+          "metric": "VIX: 18.67 pts"
         },
         {
           "label": "27/07 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 52,
+          "score_b": 48,
+          "score": 52,
+          "metric": "VIX: 18.67 pts"
         },
         {
           "label": "27/07 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 52,
+          "score_b": 48,
+          "score": 52,
+          "metric": "VIX: 18.67 pts"
         },
         {
           "label": "27/07 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 52,
+          "score_b": 48,
+          "score": 52,
+          "metric": "VIX: 18.67 pts"
         },
         {
           "label": "27/07 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 52,
+          "score_b": 48,
+          "score": 52,
+          "metric": "VIX: 18.67 pts"
         },
         {
           "label": "28/07 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 52,
+          "score_b": 48,
+          "score": 52,
+          "metric": "VIX: 18.67 pts"
         },
         {
           "label": "28/07 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 52,
+          "score_b": 48,
+          "score": 52,
+          "metric": "VIX: 18.67 pts"
         },
         {
           "label": "28/07 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 52,
+          "score_b": 48,
+          "score": 52,
+          "metric": "VIX: 18.67 pts"
         },
         {
           "label": "28/07 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 52,
+          "score_b": 48,
+          "score": 52,
+          "metric": "VIX: 18.67 pts"
         },
         {
           "label": "28/07 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 46,
+          "score_b": 54,
+          "score": 54,
+          "metric": "VIX: 18.21 pts"
         },
         {
           "label": "28/07 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 56,
+          "score_b": 44,
+          "score": 56,
+          "metric": "VIX: 18.89 pts"
         },
         {
           "label": "28/07 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 56,
+          "score_b": 44,
+          "score": 56,
+          "metric": "VIX: 18.93 pts"
         },
         {
           "label": "28/07 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 57,
+          "score_b": 43,
+          "score": 57,
+          "metric": "VIX: 18.97 pts"
         },
         {
           "label": "28/07 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 54,
+          "score_b": 46,
+          "score": 54,
+          "metric": "VIX: 18.79 pts"
         },
         {
           "label": "28/07 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 46,
+          "score_b": 54,
+          "score": 54,
+          "metric": "VIX: 18.21 pts"
         },
         {
           "label": "28/07 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 62,
+          "score_b": 38,
+          "score": 62,
+          "metric": "VIX: 19.33 pts"
         },
         {
           "label": "28/07 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 50,
+          "score_b": 50,
+          "score": 50,
+          "metric": "VIX: 18.51 pts"
         },
         {
           "label": "28/07 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 42,
+          "score_b": 58,
+          "score": 58,
+          "metric": "VIX: 17.96 pts"
         },
         {
           "label": "28/07 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 42,
+          "score_b": 58,
+          "score": 58,
+          "metric": "VIX: 17.94 pts"
         },
         {
           "label": "28/07 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 47,
+          "score_b": 53,
+          "score": 53,
+          "metric": "VIX: 18.28 pts"
         },
         {
           "label": "28/07 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 45,
+          "score_b": 55,
+          "score": 55,
+          "metric": "VIX: 18.17 pts"
         },
         {
           "label": "28/07 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 47,
+          "score_b": 53,
+          "score": 53,
+          "metric": "VIX: 18.27 pts"
         },
         {
           "label": "28/07 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 46,
+          "score_b": 54,
+          "score": 54,
+          "metric": "VIX: 18.20 pts"
         },
         {
           "label": "28/07 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 46,
+          "score_b": 54,
+          "score": 54,
+          "metric": "VIX: 18.20 pts"
         },
         {
           "label": "28/07 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 46,
+          "score_b": 54,
+          "score": 54,
+          "metric": "VIX: 18.20 pts"
         },
         {
           "label": "28/07 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 46,
+          "score_b": 54,
+          "score": 54,
+          "metric": "VIX: 18.20 pts"
         },
         {
           "label": "28/07 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 46,
+          "score_b": 54,
+          "score": 54,
+          "metric": "VIX: 18.20 pts"
         },
         {
           "label": "28/07 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 46,
+          "score_b": 54,
+          "score": 54,
+          "metric": "VIX: 18.20 pts"
         },
         {
           "label": "28/07 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 46,
+          "score_b": 54,
+          "score": 54,
+          "metric": "VIX: 18.20 pts"
         },
         {
           "label": "29/07 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 46,
+          "score_b": 54,
+          "score": 54,
+          "metric": "VIX: 18.20 pts"
         },
         {
           "label": "29/07 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 46,
+          "score_b": 54,
+          "score": 54,
+          "metric": "VIX: 18.21 pts"
         },
         {
           "label": "29/07 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 46,
+          "score_b": 54,
+          "score": 54,
+          "metric": "VIX: 18.21 pts"
         },
         {
           "label": "29/07 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 46,
+          "score_b": 54,
+          "score": 54,
+          "metric": "VIX: 18.21 pts"
         },
         {
           "label": "29/07 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 81,
+          "score_b": 19,
+          "score": 81,
+          "metric": "VIX: 20.66 pts"
         },
         {
           "label": "29/07 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 46,
+          "score_b": 54,
+          "score": 54,
+          "metric": "VIX: 18.24 pts"
         },
         {
           "label": "29/07 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 45,
+          "score_b": 55,
+          "score": 55,
+          "metric": "VIX: 18.15 pts"
         },
         {
           "label": "29/07 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 48,
+          "score_b": 52,
+          "score": 52,
+          "metric": "VIX: 18.39 pts"
         },
         {
           "label": "29/07 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 48,
+          "score_b": 52,
+          "score": 52,
+          "metric": "VIX: 18.35 pts"
         },
         {
           "label": "29/07 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 81,
+          "score_b": 19,
+          "score": 81,
+          "metric": "VIX: 20.66 pts"
         },
         {
           "label": "29/07 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 61,
+          "score_b": 39,
+          "score": 61,
+          "metric": "VIX: 19.29 pts"
         },
         {
           "label": "29/07 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 69,
+          "score_b": 31,
+          "score": 69,
+          "metric": "VIX: 19.84 pts"
         },
         {
           "label": "29/07 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 70,
+          "score_b": 30,
+          "score": 70,
+          "metric": "VIX: 19.91 pts"
         },
         {
           "label": "29/07 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 67,
+          "score_b": 33,
+          "score": 67,
+          "metric": "VIX: 19.72 pts"
         },
         {
           "label": "29/07 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 62,
+          "score_b": 38,
+          "score": 62,
+          "metric": "VIX: 19.34 pts"
         },
         {
           "label": "29/07 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 38,
+          "score_b": 62,
+          "score": 62,
+          "metric": "VIX: 17.69 pts"
         },
         {
           "label": "29/07 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 76,
+          "score_b": 24,
+          "score": 76,
+          "metric": "VIX: 20.30 pts"
         },
         {
           "label": "29/07 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 80,
+          "score_b": 20,
+          "score": 80,
+          "metric": "VIX: 20.63 pts"
         },
         {
           "label": "29/07 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 80,
+          "score_b": 20,
+          "score": 80,
+          "metric": "VIX: 20.63 pts"
         },
         {
           "label": "29/07 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 80,
+          "score_b": 20,
+          "score": 80,
+          "metric": "VIX: 20.63 pts"
         },
         {
           "label": "29/07 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 80,
+          "score_b": 20,
+          "score": 80,
+          "metric": "VIX: 20.63 pts"
         },
         {
           "label": "29/07 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 80,
+          "score_b": 20,
+          "score": 80,
+          "metric": "VIX: 20.63 pts"
         },
         {
           "label": "29/07 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 80,
+          "score_b": 20,
+          "score": 80,
+          "metric": "VIX: 20.63 pts"
         },
         {
           "label": "29/07 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 80,
+          "score_b": 20,
+          "score": 80,
+          "metric": "VIX: 20.63 pts"
         },
         {
           "label": "30/07 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 80,
+          "score_b": 20,
+          "score": 80,
+          "metric": "VIX: 20.63 pts"
         },
         {
           "label": "30/07 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 81,
+          "score_b": 19,
+          "score": 81,
+          "metric": "VIX: 20.66 pts"
         },
         {
           "label": "30/07 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 81,
+          "score_b": 19,
+          "score": 81,
+          "metric": "VIX: 20.66 pts"
         },
         {
           "label": "30/07 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 81,
+          "score_b": 19,
+          "score": 81,
+          "metric": "VIX: 20.66 pts"
         },
         {
           "label": "30/07 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 30,
+          "score_b": 70,
+          "score": 70,
+          "metric": "VIX: 17.09 pts"
         },
         {
           "label": "30/07 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 68,
+          "score_b": 32,
+          "score": 68,
+          "metric": "VIX: 19.79 pts"
         },
         {
           "label": "30/07 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 68,
+          "score_b": 32,
+          "score": 68,
+          "metric": "VIX: 19.74 pts"
         },
         {
           "label": "30/07 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 64,
+          "score_b": 36,
+          "score": 64,
+          "metric": "VIX: 19.51 pts"
         },
         {
           "label": "30/07 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 58,
+          "score_b": 42,
+          "score": 58,
+          "metric": "VIX: 19.08 pts"
         },
         {
           "label": "30/07 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 30,
+          "score_b": 70,
+          "score": 70,
+          "metric": "VIX: 17.09 pts"
         },
         {
           "label": "30/07 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 46,
+          "score_b": 54,
+          "score": 54,
+          "metric": "VIX: 18.25 pts"
         },
         {
           "label": "30/07 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 54,
+          "score_b": 46,
+          "score": 54,
+          "metric": "VIX: 18.77 pts"
         },
         {
           "label": "30/07 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 50,
+          "score_b": 50,
+          "score": 50,
+          "metric": "VIX: 18.47 pts"
         },
         {
           "label": "30/07 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 44,
+          "score_b": 56,
+          "score": 56,
+          "metric": "VIX: 18.10 pts"
         },
         {
           "label": "30/07 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 42,
+          "score_b": 58,
+          "score": 58,
+          "metric": "VIX: 17.96 pts"
         },
         {
           "label": "30/07 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 38,
+          "score_b": 62,
+          "score": 62,
+          "metric": "VIX: 17.65 pts"
         },
         {
           "label": "30/07 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 33,
+          "score_b": 67,
+          "score": 67,
+          "metric": "VIX: 17.34 pts"
         },
         {
           "label": "30/07 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 30,
+          "score_b": 70,
+          "score": 70,
+          "metric": "VIX: 17.08 pts"
         },
         {
           "label": "30/07 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 30,
+          "score_b": 70,
+          "score": 70,
+          "metric": "VIX: 17.08 pts"
         },
         {
           "label": "30/07 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 30,
+          "score_b": 70,
+          "score": 70,
+          "metric": "VIX: 17.08 pts"
         },
         {
           "label": "30/07 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 30,
+          "score_b": 70,
+          "score": 70,
+          "metric": "VIX: 17.08 pts"
         },
         {
           "label": "30/07 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 30,
+          "score_b": 70,
+          "score": 70,
+          "metric": "VIX: 17.08 pts"
         },
         {
           "label": "30/07 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 30,
+          "score_b": 70,
+          "score": 70,
+          "metric": "VIX: 17.08 pts"
         },
         {
           "label": "30/07 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 30,
+          "score_b": 70,
+          "score": 70,
+          "metric": "VIX: 17.08 pts"
         },
         {
           "label": "31/07 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 30,
+          "score_b": 70,
+          "score": 70,
+          "metric": "VIX: 17.08 pts"
         },
         {
           "label": "31/07 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 30,
+          "score_b": 70,
+          "score": 70,
+          "metric": "VIX: 17.09 pts"
         },
         {
           "label": "31/07 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 30,
+          "score_b": 70,
+          "score": 70,
+          "metric": "VIX: 17.09 pts"
         },
         {
           "label": "31/07 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 30,
+          "score_b": 70,
+          "score": 70,
+          "metric": "VIX: 17.09 pts"
         },
         {
           "label": "31/07 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "31/07 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 25,
+          "score_b": 75,
+          "score": 75,
+          "metric": "VIX: 16.72 pts"
         },
         {
           "label": "31/07 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 26,
+          "score_b": 74,
+          "score": 74,
+          "metric": "VIX: 16.85 pts"
         },
         {
           "label": "31/07 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 26,
+          "score_b": 74,
+          "score": 74,
+          "metric": "VIX: 16.82 pts"
         },
         {
           "label": "31/07 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 28,
+          "score_b": 72,
+          "score": 72,
+          "metric": "VIX: 16.94 pts"
         },
         {
           "label": "31/07 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "31/07 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 40,
+          "score_b": 60,
+          "score": 60,
+          "metric": "VIX: 17.78 pts"
         },
         {
           "label": "31/07 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 35,
+          "score_b": 65,
+          "score": 65,
+          "metric": "VIX: 17.45 pts"
         },
         {
           "label": "31/07 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 33,
+          "score_b": 67,
+          "score": 67,
+          "metric": "VIX: 17.29 pts"
         },
         {
           "label": "31/07 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 27,
+          "score_b": 73,
+          "score": 73,
+          "metric": "VIX: 16.86 pts"
         },
         {
           "label": "31/07 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 24,
+          "score_b": 76,
+          "score": 76,
+          "metric": "VIX: 16.68 pts"
         },
         {
           "label": "31/07 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 21,
+          "score_b": 79,
+          "score": 79,
+          "metric": "VIX: 16.46 pts"
         },
         {
           "label": "31/07 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 15,
+          "score_b": 85,
+          "score": 85,
+          "metric": "VIX: 16.05 pts"
         },
         {
           "label": "31/07 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "31/07 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "31/07 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "31/07 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "31/07 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "31/07 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "31/07 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "01/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "02/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "03/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "03/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "03/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "03/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.99 pts"
         },
         {
           "label": "03/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "03/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 15,
+          "score_b": 85,
+          "score": 85,
+          "metric": "VIX: 16.04 pts"
         },
         {
           "label": "03/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 15,
+          "score_b": 85,
+          "score": 85,
+          "metric": "VIX: 16.04 pts"
         },
         {
           "label": "03/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.95 pts"
         },
         {
           "label": "03/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 15,
+          "score_b": 85,
+          "score": 85,
+          "metric": "VIX: 16.07 pts"
         },
         {
           "label": "03/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "03/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 15,
+          "score_b": 85,
+          "score": 85,
+          "metric": "VIX: 16.05 pts"
         },
         {
           "label": "03/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.70 pts"
         },
         {
           "label": "03/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 9,
+          "score_b": 91,
+          "score": 91,
+          "metric": "VIX: 15.63 pts"
         },
         {
           "label": "03/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 9,
+          "score_b": 91,
+          "score": 91,
+          "metric": "VIX: 15.60 pts"
         },
         {
           "label": "03/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.83 pts"
         },
         {
           "label": "03/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.78 pts"
         },
         {
           "label": "03/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.76 pts"
         },
         {
           "label": "03/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "03/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "03/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "03/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "03/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "03/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "03/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "04/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "04/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "04/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "04/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "04/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 21,
+          "score_b": 79,
+          "score": 79,
+          "metric": "VIX: 16.50 pts"
         },
         {
           "label": "04/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.82 pts"
         },
         {
           "label": "04/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.72 pts"
         },
         {
           "label": "04/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 9,
+          "score_b": 91,
+          "score": 91,
+          "metric": "VIX: 15.61 pts"
         },
         {
           "label": "04/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.69 pts"
         },
         {
           "label": "04/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 21,
+          "score_b": 79,
+          "score": 79,
+          "metric": "VIX: 16.50 pts"
         },
         {
           "label": "04/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.98 pts"
         },
         {
           "label": "04/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 13,
+          "score_b": 87,
+          "score": 87,
+          "metric": "VIX: 15.91 pts"
         },
         {
           "label": "04/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 20,
+          "score_b": 80,
+          "score": 80,
+          "metric": "VIX: 16.38 pts"
         },
         {
           "label": "04/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 18,
+          "score_b": 82,
+          "score": 82,
+          "metric": "VIX: 16.27 pts"
         },
         {
           "label": "04/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 22,
+          "score_b": 78,
+          "score": 78,
+          "metric": "VIX: 16.54 pts"
         },
         {
           "label": "04/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 19,
+          "score_b": 81,
+          "score": 81,
+          "metric": "VIX: 16.33 pts"
         },
         {
           "label": "04/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 20,
+          "score_b": 80,
+          "score": 80,
+          "metric": "VIX: 16.42 pts"
         },
         {
           "label": "04/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 21,
+          "score_b": 79,
+          "score": 79,
+          "metric": "VIX: 16.50 pts"
         },
         {
           "label": "04/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 21,
+          "score_b": 79,
+          "score": 79,
+          "metric": "VIX: 16.50 pts"
         },
         {
           "label": "04/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 21,
+          "score_b": 79,
+          "score": 79,
+          "metric": "VIX: 16.50 pts"
         },
         {
           "label": "04/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 21,
+          "score_b": 79,
+          "score": 79,
+          "metric": "VIX: 16.50 pts"
         },
         {
           "label": "04/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 21,
+          "score_b": 79,
+          "score": 79,
+          "metric": "VIX: 16.50 pts"
         },
         {
           "label": "04/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 21,
+          "score_b": 79,
+          "score": 79,
+          "metric": "VIX: 16.50 pts"
         },
         {
           "label": "04/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 21,
+          "score_b": 79,
+          "score": 79,
+          "metric": "VIX: 16.50 pts"
         },
         {
           "label": "05/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 21,
+          "score_b": 79,
+          "score": 79,
+          "metric": "VIX: 16.50 pts"
         },
         {
           "label": "05/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 21,
+          "score_b": 79,
+          "score": 79,
+          "metric": "VIX: 16.50 pts"
         },
         {
           "label": "05/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 21,
+          "score_b": 79,
+          "score": 79,
+          "metric": "VIX: 16.50 pts"
         },
         {
           "label": "05/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 21,
+          "score_b": 79,
+          "score": 79,
+          "metric": "VIX: 16.50 pts"
         },
         {
           "label": "05/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.81 pts"
         },
         {
           "label": "05/08 05:00",
           "score_a": 16,
           "score_b": 84,
           "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "metric": "VIX: 16.13 pts"
         },
         {
           "label": "05/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 19,
+          "score_b": 81,
+          "score": 81,
+          "metric": "VIX: 16.34 pts"
         },
         {
           "label": "05/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 23,
+          "score_b": 77,
+          "score": 77,
+          "metric": "VIX: 16.59 pts"
         },
         {
           "label": "05/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 24,
+          "score_b": 76,
+          "score": 76,
+          "metric": "VIX: 16.66 pts"
         },
         {
           "label": "05/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.81 pts"
         },
         {
           "label": "05/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 30,
+          "score_b": 70,
+          "score": 70,
+          "metric": "VIX: 17.08 pts"
         },
         {
           "label": "05/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 19,
+          "score_b": 81,
+          "score": 81,
+          "metric": "VIX: 16.36 pts"
         },
         {
           "label": "05/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 18,
+          "score_b": 82,
+          "score": 82,
+          "metric": "VIX: 16.24 pts"
         },
         {
           "label": "05/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.95 pts"
         },
         {
           "label": "05/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.83 pts"
         },
         {
           "label": "05/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 8,
+          "score_b": 92,
+          "score": 92,
+          "metric": "VIX: 15.57 pts"
         },
         {
           "label": "05/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.71 pts"
         },
         {
           "label": "05/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.82 pts"
         },
         {
           "label": "05/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.82 pts"
         },
         {
           "label": "05/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.82 pts"
         },
         {
           "label": "05/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.82 pts"
         },
         {
           "label": "05/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.82 pts"
         },
         {
           "label": "05/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.82 pts"
         },
         {
           "label": "05/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.82 pts"
         },
         {
           "label": "06/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.82 pts"
         },
         {
           "label": "06/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.81 pts"
         },
         {
           "label": "06/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.81 pts"
         },
         {
           "label": "06/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.81 pts"
         },
         {
           "label": "06/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.15 pts"
         },
         {
           "label": "06/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 13,
+          "score_b": 87,
+          "score": 87,
+          "metric": "VIX: 15.89 pts"
         },
         {
           "label": "06/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 13,
+          "score_b": 87,
+          "score": 87,
+          "metric": "VIX: 15.91 pts"
         },
         {
           "label": "06/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.95 pts"
         },
         {
           "label": "06/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 15.98 pts"
         },
         {
           "label": "06/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.15 pts"
         },
         {
           "label": "06/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.74 pts"
         },
         {
           "label": "06/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 5,
+          "score_b": 95,
+          "score": 95,
+          "metric": "VIX: 15.33 pts"
         },
         {
           "label": "06/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 8,
+          "score_b": 92,
+          "score": 92,
+          "metric": "VIX: 15.57 pts"
         },
         {
           "label": "06/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 6,
+          "score_b": 94,
+          "score": 94,
+          "metric": "VIX: 15.39 pts"
         },
         {
           "label": "06/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 5,
+          "score_b": 95,
+          "score": 95,
+          "metric": "VIX: 15.32 pts"
         },
         {
           "label": "06/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.24 pts"
         },
         {
           "label": "06/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.29 pts"
         },
         {
           "label": "06/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.14 pts"
         },
         {
           "label": "06/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.14 pts"
         },
         {
           "label": "06/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.14 pts"
         },
         {
           "label": "06/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.14 pts"
         },
         {
           "label": "06/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.14 pts"
         },
         {
           "label": "06/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.14 pts"
         },
         {
           "label": "06/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.14 pts"
         },
         {
           "label": "07/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.14 pts"
         },
         {
           "label": "07/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.15 pts"
         },
         {
           "label": "07/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.15 pts"
         },
         {
           "label": "07/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.15 pts"
         },
         {
           "label": "07/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.90 pts"
         },
         {
           "label": "07/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.27 pts"
         },
         {
           "label": "07/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.28 pts"
         },
         {
           "label": "07/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.27 pts"
         },
         {
           "label": "07/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.18 pts"
         },
         {
           "label": "07/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.90 pts"
         },
         {
           "label": "07/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 1,
+          "score_b": 99,
+          "score": 99,
+          "metric": "VIX: 15.04 pts"
         },
         {
           "label": "07/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.94 pts"
         },
         {
           "label": "07/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.93 pts"
         },
         {
           "label": "07/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.99 pts"
         },
         {
           "label": "07/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.91 pts"
         },
         {
           "label": "07/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.85 pts"
         },
         {
           "label": "07/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "07/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "07/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "07/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "07/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "07/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "07/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "08/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "09/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "10/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "10/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.90 pts"
         },
         {
           "label": "10/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.90 pts"
         },
         {
           "label": "10/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.90 pts"
         },
         {
           "label": "10/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "10/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "10/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 6,
+          "score_b": 94,
+          "score": 94,
+          "metric": "VIX: 15.43 pts"
         },
         {
           "label": "10/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 6,
+          "score_b": 94,
+          "score": 94,
+          "metric": "VIX: 15.45 pts"
         },
         {
           "label": "10/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 6,
+          "score_b": 94,
+          "score": 94,
+          "metric": "VIX: 15.44 pts"
         },
         {
           "label": "10/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 6,
+          "score_b": 94,
+          "score": 94,
+          "metric": "VIX: 15.43 pts"
         },
         {
           "label": "10/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.17 pts"
         },
         {
           "label": "10/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.21 pts"
         },
         {
           "label": "10/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.11 pts"
         },
         {
           "label": "10/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.29 pts"
         },
         {
           "label": "10/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 5,
+          "score_b": 95,
+          "score": 95,
+          "metric": "VIX: 15.32 pts"
         },
         {
           "label": "10/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 5,
+          "score_b": 95,
+          "score": 95,
+          "metric": "VIX: 15.35 pts"
         },
         {
           "label": "10/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 6,
+          "score_b": 94,
+          "score": 94,
+          "metric": "VIX: 15.41 pts"
         },
         {
           "label": "10/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "10/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "10/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "10/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "10/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "10/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "10/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "11/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "11/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "11/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "11/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "11/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.28 pts"
         },
         {
           "label": "11/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.51 pts"
         },
         {
           "label": "11/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 8,
+          "score_b": 92,
+          "score": 92,
+          "metric": "VIX: 15.53 pts"
         },
         {
           "label": "11/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.50 pts"
         },
         {
           "label": "11/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 6,
+          "score_b": 94,
+          "score": 94,
+          "metric": "VIX: 15.45 pts"
         },
         {
           "label": "11/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 8,
+          "score_b": 92,
+          "score": 92,
+          "metric": "VIX: 15.54 pts"
         },
         {
           "label": "11/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.48 pts"
         },
         {
           "label": "11/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.25 pts"
         },
         {
           "label": "11/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 5,
+          "score_b": 95,
+          "score": 95,
+          "metric": "VIX: 15.33 pts"
         },
         {
           "label": "11/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.47 pts"
         },
         {
           "label": "11/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.25 pts"
         },
         {
           "label": "11/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.27 pts"
         },
         {
           "label": "11/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 5,
+          "score_b": 95,
+          "score": 95,
+          "metric": "VIX: 15.33 pts"
         },
         {
           "label": "11/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.28 pts"
         },
         {
           "label": "11/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.28 pts"
         },
         {
           "label": "11/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.28 pts"
         },
         {
           "label": "11/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.28 pts"
         },
         {
           "label": "11/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.28 pts"
         },
         {
           "label": "11/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.28 pts"
         },
         {
           "label": "11/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.28 pts"
         },
         {
           "label": "12/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.28 pts"
         },
         {
           "label": "12/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.28 pts"
         },
         {
           "label": "12/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.28 pts"
         },
         {
           "label": "12/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.28 pts"
         },
         {
           "label": "12/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.55 pts"
         },
         {
           "label": "12/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 5,
+          "score_b": 95,
+          "score": 95,
+          "metric": "VIX: 15.32 pts"
         },
         {
           "label": "12/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 5,
+          "score_b": 95,
+          "score": 95,
+          "metric": "VIX: 15.38 pts"
         },
         {
           "label": "12/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 5,
+          "score_b": 95,
+          "score": 95,
+          "metric": "VIX: 15.38 pts"
         },
         {
           "label": "12/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 5,
+          "score_b": 95,
+          "score": 95,
+          "metric": "VIX: 15.38 pts"
         },
         {
           "label": "12/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 15.03 pts"
         },
         {
           "label": "12/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.77 pts"
         },
         {
           "label": "12/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.88 pts"
         },
         {
           "label": "12/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.79 pts"
         },
         {
           "label": "12/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.68 pts"
         },
         {
           "label": "12/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.57 pts"
         },
         {
           "label": "12/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.52 pts"
         },
         {
           "label": "12/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.44 pts"
         },
         {
           "label": "12/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.55 pts"
         },
         {
           "label": "12/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.55 pts"
         },
         {
           "label": "12/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.55 pts"
         },
         {
           "label": "12/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.55 pts"
         },
         {
           "label": "12/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.55 pts"
         },
         {
           "label": "12/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.55 pts"
         },
         {
           "label": "12/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.55 pts"
         },
         {
           "label": "13/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.55 pts"
         },
         {
           "label": "13/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.55 pts"
         },
         {
           "label": "13/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.55 pts"
         },
         {
           "label": "13/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.55 pts"
         },
         {
           "label": "13/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.63 pts"
         },
         {
           "label": "13/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.69 pts"
         },
         {
           "label": "13/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.65 pts"
         },
         {
           "label": "13/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.60 pts"
         },
         {
           "label": "13/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.57 pts"
         },
         {
           "label": "13/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.45 pts"
         },
         {
           "label": "13/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.63 pts"
         },
         {
           "label": "13/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.43 pts"
         },
         {
           "label": "13/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.67 pts"
         },
         {
           "label": "13/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.66 pts"
         },
         {
           "label": "13/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.69 pts"
         },
         {
           "label": "13/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.73 pts"
         },
         {
           "label": "13/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.57 pts"
         },
         {
           "label": "13/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.63 pts"
         },
         {
           "label": "13/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.63 pts"
         },
         {
           "label": "13/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.63 pts"
         },
         {
           "label": "13/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.63 pts"
         },
         {
           "label": "13/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.63 pts"
         },
         {
           "label": "13/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.63 pts"
         },
         {
           "label": "13/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.63 pts"
         },
         {
           "label": "14/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.63 pts"
         },
         {
           "label": "14/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.63 pts"
         },
         {
           "label": "14/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.63 pts"
         },
         {
           "label": "14/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.63 pts"
         },
         {
           "label": "14/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "14/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.58 pts"
         },
         {
           "label": "14/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.56 pts"
         },
         {
           "label": "14/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.50 pts"
         },
         {
           "label": "14/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.53 pts"
         },
         {
           "label": "14/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.52 pts"
         },
         {
           "label": "14/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.60 pts"
         },
         {
           "label": "14/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.49 pts"
         },
         {
           "label": "14/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.56 pts"
         },
         {
           "label": "14/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.45 pts"
         },
         {
           "label": "14/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.31 pts"
         },
         {
           "label": "14/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.35 pts"
         },
         {
           "label": "14/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.27 pts"
         },
         {
           "label": "14/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "14/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "14/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "14/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "14/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "14/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "14/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "15/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "16/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.25 pts"
         },
         {
           "label": "17/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.97 pts"
         },
         {
           "label": "17/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.98 pts"
         },
         {
           "label": "17/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.92 pts"
         },
         {
           "label": "17/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.92 pts"
         },
         {
           "label": "17/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 1,
+          "score_b": 99,
+          "score": 99,
+          "metric": "VIX: 15.08 pts"
         },
         {
           "label": "17/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.99 pts"
         },
         {
           "label": "17/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.96 pts"
         },
         {
           "label": "17/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 15.02 pts"
         },
         {
           "label": "17/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.16 pts"
         },
         {
           "label": "17/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.17 pts"
         },
         {
           "label": "17/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "17/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.19 pts"
         },
         {
           "label": "18/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.85 pts"
         },
         {
           "label": "18/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 13,
+          "score_b": 87,
+          "score": 87,
+          "metric": "VIX: 15.94 pts"
         },
         {
           "label": "18/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.78 pts"
         },
         {
           "label": "18/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.69 pts"
         },
         {
           "label": "18/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.75 pts"
         },
         {
           "label": "18/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.80 pts"
         },
         {
           "label": "18/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.75 pts"
         },
         {
           "label": "18/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 9,
+          "score_b": 91,
+          "score": 91,
+          "metric": "VIX: 15.65 pts"
         },
         {
           "label": "18/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 11,
+          "score_b": 89,
+          "score": 89,
+          "metric": "VIX: 15.75 pts"
         },
         {
           "label": "18/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.68 pts"
         },
         {
           "label": "18/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "18/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.84 pts"
         },
         {
           "label": "19/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.83 pts"
         },
         {
           "label": "19/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.87 pts"
         },
         {
           "label": "19/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.82 pts"
         },
         {
           "label": "19/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.73 pts"
         },
         {
           "label": "19/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.47 pts"
         },
         {
           "label": "19/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.29 pts"
         },
         {
           "label": "19/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "19/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.16 pts"
         },
         {
           "label": "19/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.24 pts"
         },
         {
           "label": "19/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.21 pts"
         },
         {
           "label": "19/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 15.03 pts"
         },
         {
           "label": "19/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.91 pts"
         },
         {
           "label": "19/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "19/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 0,
+          "score_b": 100,
+          "score": 100,
+          "metric": "VIX: 14.89 pts"
         },
         {
           "label": "20/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.23 pts"
         },
         {
           "label": "20/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.20 pts"
         },
         {
           "label": "20/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.11 pts"
         },
         {
           "label": "20/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 8,
+          "score_b": 92,
+          "score": 92,
+          "metric": "VIX: 15.56 pts"
         },
         {
           "label": "20/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.83 pts"
         },
         {
           "label": "20/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.86 pts"
         },
         {
           "label": "20/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.68 pts"
         },
         {
           "label": "20/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 13,
+          "score_b": 87,
+          "score": 87,
+          "metric": "VIX: 15.90 pts"
         },
         {
           "label": "20/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 8,
+          "score_b": 92,
+          "score": 92,
+          "metric": "VIX: 15.58 pts"
         },
         {
           "label": "20/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 12,
+          "score_b": 88,
+          "score": 88,
+          "metric": "VIX: 15.81 pts"
         },
         {
           "label": "20/08 15:00",
           "score_a": 16,
           "score_b": 84,
           "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "metric": "VIX: 16.10 pts"
         },
         {
           "label": "20/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 15,
+          "score_b": 85,
+          "score": 85,
+          "metric": "VIX: 16.05 pts"
         },
         {
           "label": "20/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "20/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 14,
+          "score_b": 86,
+          "score": 86,
+          "metric": "VIX: 16.01 pts"
         },
         {
           "label": "21/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.72 pts"
         },
         {
           "label": "21/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.68 pts"
         },
         {
           "label": "21/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 10,
+          "score_b": 90,
+          "score": 90,
+          "metric": "VIX: 15.67 pts"
         },
         {
           "label": "21/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.46 pts"
         },
         {
           "label": "21/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 6,
+          "score_b": 94,
+          "score": 94,
+          "metric": "VIX: 15.42 pts"
         },
         {
           "label": "21/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 7,
+          "score_b": 93,
+          "score": 93,
+          "metric": "VIX: 15.49 pts"
         },
         {
           "label": "21/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.27 pts"
         },
         {
           "label": "21/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 5,
+          "score_b": 95,
+          "score": 95,
+          "metric": "VIX: 15.38 pts"
         },
         {
           "label": "21/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.31 pts"
         },
         {
           "label": "21/08 14:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 3,
+          "score_b": 97,
+          "score": 97,
+          "metric": "VIX: 15.24 pts"
         },
         {
           "label": "21/08 15:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 4,
+          "score_b": 96,
+          "score": 96,
+          "metric": "VIX: 15.25 pts"
         },
         {
           "label": "21/08 16:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.17 pts"
         },
         {
           "label": "21/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 19:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 21:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 22:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "21/08 23:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 00:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 01:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 03:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 04:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 05:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 06:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 08:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 09:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 10:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 11:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 12:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 13:00",
-          "score_a": 16,
-          "score_b": 84,
-          "score": 84,
-          "metric": "VIX: 16.09 pts"
+          "score_a": 2,
+          "score_b": 98,
+          "score": 98,
+          "metric": "VIX: 15.13 pts"
         },
         {
           "label": "22/08 14:00",
