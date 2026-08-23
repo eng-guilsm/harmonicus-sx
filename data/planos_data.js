@@ -1,4 +1,4 @@
-// Gerado automaticamente pelo MoneyLab Data Engine (2026-08-23 10:43:45)
+// Gerado automaticamente pelo MoneyLab Data Engine (2026-08-23 10:44:11)
 window.PLANOS_TACTICAL_DATA = [
   {
     "id": 1,
@@ -14,7 +14,7 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Comprar Bitcoin (Fundo BTC ➔ BTC)",
     "ponta_b_score": 0,
     "proximidade_score": 90,
-    "valor_atual_str": "Ratio 0.05941 (Z: -1.49σ)",
+    "valor_atual_str": "Ratio 0.05940 (Z: -1.49σ)",
     "icone": "🥇",
     "cor": "#F59E0B",
     "descricao_executiva": "Arbitragem secular entre a reserva milenar de valor (Ouro PAXG) e a reserva digital soberana (Bitcoin). Monetiza topos de BTC girando para Ouro e recompra BTC nos fundos.",
@@ -445,14 +445,14 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 90,
           "score_b": 0,
           "score": 90,
-          "metric": "Ratio: 0.05941 (Z: -1.49σ)"
+          "metric": "Ratio: 0.05940 (Z: -1.49σ)"
         },
         {
           "label": "19:33",
           "score_a": 90,
           "score_b": 0,
           "score": 90,
-          "metric": "Ratio: 0.05941 (Z: -1.49σ)"
+          "metric": "Ratio: 0.05940 (Z: -1.49σ)"
         }
       ],
       "24h": [
@@ -5501,14 +5501,14 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 90,
           "score_b": 0,
           "score": 90,
-          "metric": "Ratio: 0.05941 (Z: -1.49σ)"
+          "metric": "Ratio: 0.05940 (Z: -1.49σ)"
         },
         {
           "label": "19:33",
           "score_a": 90,
           "score_b": 0,
           "score": 90,
-          "metric": "Ratio: 0.05941 (Z: -1.49σ)"
+          "metric": "Ratio: 0.05940 (Z: -1.49σ)"
         }
       ],
       "7d": [
@@ -10221,7 +10221,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 90,
           "score_b": 0,
           "score": 90,
-          "metric": "Ratio: 0.05941 (Z: -1.49σ)"
+          "metric": "Ratio: 0.05940 (Z: -1.49σ)"
         }
       ],
       "30d": [
@@ -15270,7 +15270,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 90,
           "score_b": 0,
           "score": 90,
-          "metric": "Ratio: 0.05941 (Z: -1.49σ)"
+          "metric": "Ratio: 0.05940 (Z: -1.49σ)"
         }
       ]
     }
@@ -30564,7 +30564,7 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Vender USDT no Ágio (USDT ➔ BRL)",
     "ponta_b_score": 100,
     "proximidade_score": 100,
-    "valor_atual_str": "Spread: +0.1406 (USDT R$ 5.152)",
+    "valor_atual_str": "Spread: +0.1405 (USDT R$ 5.152)",
     "icone": "💵",
     "cor": "#06B6D4",
     "descricao_executiva": "Arbitragem de paridade cambial pura entre o Tether (USDT) e o Dólar Comercial. Compra quando o USDT negocia com desconto e vende quando negocia com ágio.",
@@ -30995,14 +30995,14 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 0,
           "score_b": 100,
           "score": 100,
-          "metric": "Spread: +0.1406"
+          "metric": "Spread: +0.1405"
         },
         {
           "label": "19:33",
           "score_a": 0,
           "score_b": 100,
           "score": 100,
-          "metric": "Spread: +0.1406"
+          "metric": "Spread: +0.1405"
         }
       ],
       "24h": [
@@ -36051,14 +36051,14 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 0,
           "score_b": 100,
           "score": 100,
-          "metric": "Spread: +0.1406"
+          "metric": "Spread: +0.1405"
         },
         {
           "label": "19:33",
           "score_a": 0,
           "score_b": 100,
           "score": 100,
-          "metric": "Spread: +0.1406"
+          "metric": "Spread: +0.1405"
         }
       ],
       "7d": [
@@ -40771,7 +40771,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 0,
           "score_b": 100,
           "score": 100,
-          "metric": "Spread: +0.1406"
+          "metric": "Spread: +0.1405"
         }
       ],
       "30d": [
@@ -45820,7 +45820,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 0,
           "score_b": 100,
           "score": 100,
-          "metric": "Spread: +0.1406"
+          "metric": "Spread: +0.1405"
         }
       ]
     }
@@ -61114,7 +61114,7 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Comprar BTC com SOL (SOL Esticada | SOL ➔ BTC)",
     "ponta_b_score": 100,
     "proximidade_score": 100,
-    "valor_atual_str": "SOL/BTC: 0.001229 (Z: +2.46σ)",
+    "valor_atual_str": "SOL/BTC: 0.001229 (Z: +2.45σ)",
     "icone": "🌌",
     "cor": "#EC4899",
     "descricao_executiva": "Rotação de dominância entre Bitcoin e Solana na janela de 30 dias (720h). Transfere capital para a ponta descontada e extrai alfa de volatilidade.",
@@ -61545,14 +61545,14 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 0,
           "score_b": 100,
           "score": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +2.46σ)"
+          "metric": "SOL/BTC: 0.001229 (Z: +2.45σ)"
         },
         {
           "label": "19:33",
           "score_a": 0,
           "score_b": 100,
           "score": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +2.46σ)"
+          "metric": "SOL/BTC: 0.001229 (Z: +2.45σ)"
         }
       ],
       "24h": [
@@ -66601,14 +66601,14 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 0,
           "score_b": 100,
           "score": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +2.46σ)"
+          "metric": "SOL/BTC: 0.001229 (Z: +2.45σ)"
         },
         {
           "label": "19:33",
           "score_a": 0,
           "score_b": 100,
           "score": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +2.46σ)"
+          "metric": "SOL/BTC: 0.001229 (Z: +2.45σ)"
         }
       ],
       "7d": [
@@ -71321,7 +71321,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 0,
           "score_b": 100,
           "score": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +2.46σ)"
+          "metric": "SOL/BTC: 0.001229 (Z: +2.45σ)"
         }
       ],
       "30d": [
@@ -76370,7 +76370,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 0,
           "score_b": 100,
           "score": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +2.46σ)"
+          "metric": "SOL/BTC: 0.001229 (Z: +2.45σ)"
         }
       ]
     }
@@ -91662,9 +91662,9 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_a_label": "Comprar ETH com BTC (ETH Barato | BTC ➔ ETH)",
     "ponta_a_score": 0,
     "ponta_b_label": "Comprar BTC com ETH (ETH Esticado | ETH ➔ BTC)",
-    "ponta_b_score": 7,
-    "proximidade_score": 7,
-    "valor_atual_str": "ETH/BTC: 0.03168 (Z: +0.11σ)",
+    "ponta_b_score": 6,
+    "proximidade_score": 6,
+    "valor_atual_str": "ETH/BTC: 0.03167 (Z: +0.09σ)",
     "icone": "⚔️",
     "cor": "#3B82F6",
     "descricao_executiva": "Pairs trading estatístico entre os dois maiores gigantes cripto (Bitcoin e Ethereum). Explora divergências de ciclo de 24 horas.",
@@ -92093,16 +92093,16 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "19:33",
           "score_a": 0,
-          "score_b": 7,
-          "score": 7,
-          "metric": "ETH/BTC: 0.03168 (Z: +0.11σ)"
+          "score_b": 6,
+          "score": 6,
+          "metric": "ETH/BTC: 0.03167 (Z: +0.09σ)"
         },
         {
           "label": "19:33",
           "score_a": 0,
-          "score_b": 7,
-          "score": 7,
-          "metric": "ETH/BTC: 0.03168 (Z: +0.11σ)"
+          "score_b": 6,
+          "score": 6,
+          "metric": "ETH/BTC: 0.03167 (Z: +0.09σ)"
         }
       ],
       "24h": [
@@ -97149,16 +97149,16 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "19:33",
           "score_a": 0,
-          "score_b": 7,
-          "score": 7,
-          "metric": "ETH/BTC: 0.03168 (Z: +0.11σ)"
+          "score_b": 6,
+          "score": 6,
+          "metric": "ETH/BTC: 0.03167 (Z: +0.09σ)"
         },
         {
           "label": "19:33",
           "score_a": 0,
-          "score_b": 7,
-          "score": 7,
-          "metric": "ETH/BTC: 0.03168 (Z: +0.11σ)"
+          "score_b": 6,
+          "score": 6,
+          "metric": "ETH/BTC: 0.03167 (Z: +0.09σ)"
         }
       ],
       "7d": [
@@ -101869,9 +101869,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "22/08 19:00",
           "score_a": 0,
-          "score_b": 7,
-          "score": 7,
-          "metric": "ETH/BTC: 0.03168 (Z: +0.11σ)"
+          "score_b": 6,
+          "score": 6,
+          "metric": "ETH/BTC: 0.03167 (Z: +0.09σ)"
         }
       ],
       "30d": [
@@ -106918,9 +106918,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "22/08 19:00",
           "score_a": 0,
-          "score_b": 7,
-          "score": 7,
-          "metric": "ETH/BTC: 0.03168 (Z: +0.11σ)"
+          "score_b": 6,
+          "score": 6,
+          "metric": "ETH/BTC: 0.03167 (Z: +0.09σ)"
         }
       ]
     }
@@ -106937,9 +106937,9 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_a_label": "Comprar Micro-Dip BTC (BRL ➔ BTC | Queda <= -0.45%)",
     "ponta_a_score": 0,
     "ponta_b_label": "Realizar no Repique (BTC ➔ BRL | Lucro >= +0.90%)",
-    "ponta_b_score": 95,
-    "proximidade_score": 95,
-    "valor_atual_str": "Retorno 5m: +0.38%",
+    "ponta_b_score": 99,
+    "proximidade_score": 99,
+    "valor_atual_str": "Retorno 5m: +0.39%",
     "icone": "🏹",
     "cor": "#EF4444",
     "descricao_executiva": "Sniper de liquidação rápida em Bitcoin. Detecta absorção de ordens vendedoras de 5 minutos e realiza no repique com ganho líquido.",
@@ -107368,16 +107368,16 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "19:33",
           "score_a": 0,
-          "score_b": 95,
-          "score": 95,
-          "metric": "Retorno 5m: +0.38%"
+          "score_b": 99,
+          "score": 99,
+          "metric": "Retorno 5m: +0.39%"
         },
         {
           "label": "19:33",
           "score_a": 0,
-          "score_b": 95,
-          "score": 95,
-          "metric": "Retorno 5m: +0.38%"
+          "score_b": 99,
+          "score": 99,
+          "metric": "Retorno 5m: +0.39%"
         }
       ],
       "24h": [
@@ -112424,16 +112424,16 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "19:33",
           "score_a": 0,
-          "score_b": 95,
-          "score": 95,
-          "metric": "Retorno 5m: +0.38%"
+          "score_b": 99,
+          "score": 99,
+          "metric": "Retorno 5m: +0.39%"
         },
         {
           "label": "19:33",
           "score_a": 0,
-          "score_b": 95,
-          "score": 95,
-          "metric": "Retorno 5m: +0.38%"
+          "score_b": 99,
+          "score": 99,
+          "metric": "Retorno 5m: +0.39%"
         }
       ],
       "7d": [
@@ -117144,9 +117144,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "22/08 19:00",
           "score_a": 0,
-          "score_b": 95,
-          "score": 95,
-          "metric": "Retorno 5m: +0.38%"
+          "score_b": 99,
+          "score": 99,
+          "metric": "Retorno 5m: +0.39%"
         }
       ],
       "30d": [
@@ -122193,9 +122193,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "label": "22/08 19:00",
           "score_a": 0,
-          "score_b": 95,
-          "score": 95,
-          "metric": "Retorno 5m: +0.38%"
+          "score_b": 99,
+          "score": 99,
+          "metric": "Retorno 5m: +0.39%"
         }
       ]
     }
