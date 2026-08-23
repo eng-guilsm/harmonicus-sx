@@ -120,6 +120,11 @@ function renderLiveThermometer(plans, filter) {
     const badgeClass = isLow ? 'badge-low' : 'badge-mid';
     const badgeText = isLow ? '🛡️ BAIXO RISCO' : '⚡ MÉDIO RISCO';
 
+    const pA_score = plan.ponta_a_score !== undefined ? plan.ponta_a_score : plan.proximidade_score;
+    const pB_score = plan.ponta_b_score !== undefined ? plan.ponta_b_score : 0;
+    const pA_label = plan.ponta_a_label || 'Ponta A: Compra / Rotação A';
+    const pB_label = plan.ponta_b_label || 'Ponta B: Venda / Rotação B';
+
     return `
       <div class="thermo-card" data-plan-id="${plan.id}" style="border-top: 3px solid ${plan.cor};" title="Clique para abrir análise executiva e histórico">
         <div class="thermo-header">
@@ -130,19 +135,36 @@ function renderLiveThermometer(plans, filter) {
           <div class="thermo-name">${plan.icone} ${plan.nome}</div>
           <div class="thermo-par-tag">${plan.par} • Lote: R$ ${plan.lote_brl.toFixed(2)}</div>
         </div>
-        <div class="thermo-dist">${plan.distancia_display}</div>
-        <div>
-          <div style="display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 0.68rem; margin-bottom: 2px;">
-            <span>PROXIMIDADE:</span>
-            <span class="thermo-score-pill">${plan.proximidade_score}% SCORE</span>
+        <div class="thermo-dist">${plan.valor_atual_str || ''}</div>
+        
+        <!-- DUAS METAS BIDIRECIONAIS (PONTA A vs PONTA B) -->
+        <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 4px;">
+          <!-- PONTA A (COMPRA / ENTRADA) -->
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-family: var(--font-mono); font-size: 0.65rem; margin-bottom: 3px;">
+              <span style="color: #10B981; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 75%;">🟢 ${pA_label}</span>
+              <span style="color: #10B981; font-weight: 700; font-size: 0.72rem;">${pA_score}%</span>
+            </div>
+            <div class="thermo-bar-track" style="height: 6px; background: rgba(16, 185, 129, 0.15);">
+              <div class="thermo-bar-fill" style="width: ${pA_score}%; background: #10B981;"></div>
+            </div>
           </div>
-          <div class="thermo-bar-track">
-            <div class="thermo-bar-fill" style="width: ${plan.proximidade_score}%; background: ${plan.cor};"></div>
+
+          <!-- PONTA B (VENDA / REALIZAÇÃO) -->
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-family: var(--font-mono); font-size: 0.65rem; margin-bottom: 3px;">
+              <span style="color: #3B82F6; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 75%;">🔵 ${pB_label}</span>
+              <span style="color: #3B82F6; font-weight: 700; font-size: 0.72rem;">${pB_score}%</span>
+            </div>
+            <div class="thermo-bar-track" style="height: 6px; background: rgba(59, 130, 246, 0.15);">
+              <div class="thermo-bar-fill" style="width: ${pB_score}%; background: #3B82F6;"></div>
+            </div>
           </div>
         </div>
-        <div class="thermo-hint">
+
+        <div class="thermo-hint" style="margin-top: 8px;">
           <span>🔍</span>
-          <span>Clique para abrir gráfico interativo & histórico</span>
+          <span>Clique para abrir gráfico histórico bidirecional</span>
         </div>
       </div>
     `;
@@ -231,11 +253,14 @@ function renderModalLayout(plan, tf) {
       <button class="modal-tf-btn ${tf === '30d' ? 'active' : ''}" data-tf="30d">30D</button>
     </div>
 
-    <!-- GRÁFICO HISTÓRICO REAL DE PROXIMIDADE À META COM TOOLTIP -->
+    <!-- GRÁFICO HISTÓRICO REAL DE PROXIMIDADE À META BIDIRECIONAL COM TOOLTIP -->
     <div class="modal-chart-wrapper" id="planChartWrapper" style="position: relative; background: rgba(5, 8, 17, 0.95); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 12px; margin-bottom: 16px;">
-      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted);">
-        <span>EVOLUÇÃO HISTÓRICA DA PROXIMIDADE AO DISPARO (0% A 100%)</span>
-        <span style="color: ${plan.cor}; font-weight: 700;">AO VIVO: ${plan.proximidade_score}%</span>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-family: var(--font-mono); font-size: 0.70rem; color: var(--text-muted); flex-wrap: wrap; gap: 8px;">
+        <span>EVOLUÇÃO HISTÓRICA BIDIRECIONAL (0% A 100%)</span>
+        <div style="display: flex; gap: 12px;">
+          <span style="color: #10B981; font-weight: 700;">🟢 PONTA A: ${plan.ponta_a_score !== undefined ? plan.ponta_a_score : plan.proximidade_score}%</span>
+          <span style="color: #3B82F6; font-weight: 700;">🔵 PONTA B: ${plan.ponta_b_score !== undefined ? plan.ponta_b_score : 0}%</span>
+        </div>
       </div>
       <canvas id="planHistoryCanvas" width="620" height="150" style="width: 100%; height: 150px; display: block; cursor: crosshair;"></canvas>
       <div id="planCanvasTooltip" class="plan-canvas-tooltip" style="display: none; position: absolute; pointer-events: none; z-index: 50; background: rgba(10, 15, 29, 0.95); border: 1px solid ${plan.cor}; border-radius: 6px; padding: 6px 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); font-family: var(--font-mono); font-size: 0.72rem;"></div>
@@ -352,18 +377,49 @@ function drawPlanHistoryChart(plan, tf) {
   ctx.fillStyle = grad;
   ctx.fill();
 
-  // Curva de Trajetória Real
-  ctx.beginPath();
-  ctx.moveTo(getX(0), getY(series[0].score));
-  for (let i = 1; i < series.length; i++) {
-    ctx.lineTo(getX(i), getY(series[i].score));
+  // Curva de Trajetória da Ponta A (Verde / Compra)
+  const hasBidi = series.length > 0 && series[0].score_a !== undefined;
+
+  if (hasBidi) {
+    // 1. Curva da Ponta A (Verde Esmeralda)
+    ctx.beginPath();
+    ctx.moveTo(getX(0), getY(series[0].score_a));
+    for (let i = 1; i < series.length; i++) {
+      ctx.lineTo(getX(i), getY(series[i].score_a));
+    }
+    ctx.strokeStyle = '#10B981';
+    ctx.lineWidth = 2.5;
+    ctx.shadowColor = '#10B981';
+    ctx.shadowBlur = 6;
+    ctx.stroke();
+    ctx.shadowBlur = 0;
+
+    // 2. Curva da Ponta B (Azul Ciano)
+    ctx.beginPath();
+    ctx.moveTo(getX(0), getY(series[0].score_b));
+    for (let i = 1; i < series.length; i++) {
+      ctx.lineTo(getX(i), getY(series[i].score_b));
+    }
+    ctx.strokeStyle = '#3B82F6';
+    ctx.lineWidth = 2.5;
+    ctx.shadowColor = '#3B82F6';
+    ctx.shadowBlur = 6;
+    ctx.stroke();
+    ctx.shadowBlur = 0;
+  } else {
+    // Curva única legada
+    ctx.beginPath();
+    ctx.moveTo(getX(0), getY(series[0].score));
+    for (let i = 1; i < series.length; i++) {
+      ctx.lineTo(getX(i), getY(series[i].score));
+    }
+    ctx.strokeStyle = plan.cor;
+    ctx.lineWidth = 2.5;
+    ctx.shadowColor = plan.cor;
+    ctx.shadowBlur = 8;
+    ctx.stroke();
+    ctx.shadowBlur = 0;
   }
-  ctx.strokeStyle = plan.cor;
-  ctx.lineWidth = 2.5;
-  ctx.shadowColor = plan.cor;
-  ctx.shadowBlur = 8;
-  ctx.stroke();
-  ctx.shadowBlur = 0;
 
   // Rótulos de tempo no eixo X
   ctx.fillStyle = '#6B7280';
@@ -378,7 +434,10 @@ function drawPlanHistoryChart(plan, tf) {
   // Crosshair e Ponto de Inspeção em Hover
   if (modalHoverIdx >= 0 && modalHoverIdx < series.length) {
     const hX = getX(modalHoverIdx);
-    const hY = getY(series[modalHoverIdx].score);
+    const scoreA = hasBidi ? series[modalHoverIdx].score_a : series[modalHoverIdx].score;
+    const scoreB = hasBidi ? series[modalHoverIdx].score_b : 0;
+    const hY_A = getY(scoreA);
+    const hY_B = getY(scoreB);
 
     // Linha vertical pontilhada
     ctx.save();
@@ -391,25 +450,25 @@ function drawPlanHistoryChart(plan, tf) {
     ctx.stroke();
     ctx.restore();
 
-    // Ponto destacado
+    // Ponto A destacado (Verde)
     ctx.beginPath();
-    ctx.arc(hX, hY, 5.5, 0, Math.PI * 2);
+    ctx.arc(hX, hY_A, 5.0, 0, Math.PI * 2);
     ctx.fillStyle = '#FFFFFF';
     ctx.fill();
-    ctx.strokeStyle = plan.cor;
+    ctx.strokeStyle = '#10B981';
     ctx.lineWidth = 2.5;
     ctx.stroke();
-  } else {
-    // Ponto ao vivo no final por padrão
-    const lastX = getX(series.length - 1);
-    const lastY = getY(series[series.length - 1].score);
-    ctx.beginPath();
-    ctx.arc(lastX, lastY, 4.5, 0, Math.PI * 2);
-    ctx.fillStyle = '#FFFFFF';
-    ctx.fill();
-    ctx.strokeStyle = plan.cor;
-    ctx.lineWidth = 2;
-    ctx.stroke();
+
+    // Ponto B destacado (Azul)
+    if (hasBidi) {
+      ctx.beginPath();
+      ctx.arc(hX, hY_B, 5.0, 0, Math.PI * 2);
+      ctx.fillStyle = '#FFFFFF';
+      ctx.fill();
+      ctx.strokeStyle = '#3B82F6';
+      ctx.lineWidth = 2.5;
+      ctx.stroke();
+    }
   }
 }
 
@@ -442,16 +501,17 @@ function initPlanCanvasInteractions(plan, tf) {
     modalHoverIdx = idx;
 
     const pt = series[idx];
-    const isTrigger = pt.score >= 100;
-    const statusText = isTrigger ? '🔥 GATILHO ATINGIDO (DISPARO)' : (pt.score >= 75 ? '⚡ ZONA DE DISPARO IMINENTE' : '⏳ MONITORANDO RADAR');
-    const statusColor = isTrigger ? '#10B981' : (pt.score >= 75 ? '#F59E0B' : '#9CA3AF');
+    const scoreA = pt.score_a !== undefined ? pt.score_a : pt.score;
+    const scoreB = pt.score_b !== undefined ? pt.score_b : 0;
+    const isTriggerA = scoreA >= 100;
+    const isTriggerB = scoreB >= 100;
 
     tooltip.style.display = 'block';
     tooltip.innerHTML = `
-      <div style="color: #9CA3AF; font-size: 0.65rem; margin-bottom: 2px;">⏱️ ${pt.label}</div>
-      <div style="color: #FFFFFF; font-weight: 700; font-size: 0.8rem; margin-bottom: 2px;">PROXIMIDADE: <span style="color: ${plan.cor};">${pt.score}%</span></div>
-      ${pt.metric ? `<div style="color: #06B6D4; font-size: 0.68rem; margin-bottom: 2px;">📊 ${pt.metric}</div>` : ''}
-      <div style="color: ${statusColor}; font-size: 0.65rem; font-weight: 700;">${statusText}</div>
+      <div style="color: #9CA3AF; font-size: 0.65rem; margin-bottom: 3px;">⏱️ ${pt.label}</div>
+      <div style="color: #10B981; font-weight: 700; font-size: 0.75rem; margin-bottom: 2px;">🟢 Ponta A: ${scoreA}% ${isTriggerA ? '🔥 (GATILHO)' : ''}</div>
+      <div style="color: #3B82F6; font-weight: 700; font-size: 0.75rem; margin-bottom: 3px;">🔵 Ponta B: ${scoreB}% ${isTriggerB ? '🔥 (GATILHO)' : ''}</div>
+      ${pt.metric ? `<div style="color: #06B6D4; font-size: 0.68rem;">📊 ${pt.metric}</div>` : ''}
     `;
 
     const tipW = 200;
