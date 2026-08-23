@@ -16,7 +16,7 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   
   <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=20260822_sx8">
+  <link rel="stylesheet" href="style.css?v=20260823_sx9">
 </head>
 <body class="dark-synth">
   <!-- Scanlines & Ambient Matrix Grid -->
@@ -238,35 +238,69 @@
             </div>
           </div>
 
-          <!-- HARMONIC CHORD SELECTOR -->
-          <div class="deck-group chord-group">
-            <label class="group-label">SELETOR DE ACORDES & MODOS HARMÔNICOS</label>
-            <div class="chord-selector-grid">
-              <button class="chord-btn active" data-chord="none">
-                <span class="chord-tag">GLOBAL</span>
-                <span class="chord-name">🌐 Rede Completa (Sem Filtro)</span>
-                <span class="chord-sub">Todos os 26 ativos e conexões</span>
-              </button>
-              <button class="chord-btn" data-chord="unison">
-                <span class="chord-tag">MODO 1</span>
-                <span class="chord-name">Tríade Bitcoin (Uníssono)</span>
-                <span class="chord-sub">Ressonância Plena (PC1 > 60%)</span>
-              </button>
-              <button class="chord-btn" data-chord="tension">
-                <span class="chord-tag">MODO 2</span>
-                <span class="chord-name">Trítono de Tensão Macro</span>
-                <span class="chord-sub">Choque e Pânico VIX (F#3-C3)</span>
-              </button>
-              <button class="chord-btn" data-chord="major">
-                <span class="chord-tag">MODO 3</span>
-                <span class="chord-name">Tríade Alts (Expansão)</span>
-                <span class="chord-sub">Fluxo Causal Positivo (STE > 0)</span>
-              </button>
-              <button class="chord-btn" data-chord="ether">
-                <span class="chord-tag">MODO 4</span>
-                <span class="chord-name">Âncoras Peg (Arpeggio)</span>
-                <span class="chord-sub">Dispersão Calma e Renda Passiva</span>
-              </button>
+          <!-- COCKPIT DE DIAGNÓSTICO ESPECTRAL & DECISÃO -->
+          <div class="deck-group spectral-cockpit-group">
+            <label class="group-label">COCKPIT ESPECTRAL & TOMADA DE DECISÃO</label>
+            
+            <div class="focused-asset-card" id="focusedAssetCard">
+              <div class="fac-header">
+                <span class="fac-badge" id="facBadge">VISÃO PANORÂMICA</span>
+                <span class="fac-hint" id="facHint">Clique em um ativo para diagnosticar</span>
+              </div>
+              <div class="fac-body">
+                <div class="fac-title" id="facTitle">🌐 REDE COMPLETA (26 ATIVOS)</div>
+                <div class="fac-meta" id="facMeta">Afinação: Multiespectral • Coerência Global Ativa</div>
+              </div>
+            </div>
+
+            <!-- QUADRO DE RELAÇÕES ESPECTRAIS -->
+            <div class="spectral-relations-panel" id="spectralRelationsPanel">
+              <div class="srp-col octave-col">
+                <div class="srp-header">
+                  <span class="srp-dot white"></span>
+                  <span class="srp-title">OITAVADOS (2^k f₀)</span>
+                  <span class="srp-count" id="countOctave">0</span>
+                </div>
+                <div class="srp-list" id="listOctave">
+                  <span class="srp-empty">Selecione um ativo</span>
+                </div>
+              </div>
+
+              <div class="srp-col harmonic-col">
+                <div class="srp-header">
+                  <span class="srp-dot cyan"></span>
+                  <span class="srp-title">HARMÔNICOS (HEDGE)</span>
+                  <span class="srp-count" id="countHarmonic">0</span>
+                </div>
+                <div class="srp-list" id="listHarmonic">
+                  <span class="srp-empty">Selecione um ativo</span>
+                </div>
+              </div>
+
+              <div class="srp-col anarmonic-col">
+                <div class="srp-header">
+                  <span class="srp-dot red"></span>
+                  <span class="srp-title">ANARMÔNICOS (TENSÃO)</span>
+                  <span class="srp-count" id="countAnarmonic">0</span>
+                </div>
+                <div class="srp-list" id="listAnarmonic">
+                  <span class="srp-empty">Selecione um ativo</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- ATALHOS DE FOCO RÁPIDO -->
+            <div class="quick-focus-bar">
+              <span class="qfb-label">FOCO RÁPIDO ESTRATÉGICO:</span>
+              <div class="qfb-buttons">
+                <button class="qfb-btn" data-asset="BTCBRL" title="Focar Bitcoin (C3)">🪙 BTC</button>
+                <button class="qfb-btn" data-asset="SOLBRL" title="Focar Solana (C4)">⚡ SOL</button>
+                <button class="qfb-btn" data-asset="ETHBRL" title="Focar Ethereum (G3)">🔹 ETH</button>
+                <button class="qfb-btn" data-asset="PAXG_Ouro" title="Focar Ouro PAXG (E3)">🥇 PAXG</button>
+                <button class="qfb-btn" data-asset="USDTBRL" title="Focar Tether USD (A2)">💵 USDT</button>
+                <button class="qfb-btn" data-asset="VIX_Index" title="Focar Pânico VIX (F#3)">🛡️ VIX</button>
+                <button class="qfb-btn active" data-asset="all" title="Restaurar Visão Geral">🌐 TODOS</button>
+              </div>
             </div>
           </div>
 
@@ -325,10 +359,10 @@
               </div>
               <div class="graph-header-actions">
                 <div class="graph-legend">
-                  <span class="leg-item"><i style="background: #F59E0B;"></i> Cripto (10)</span>
-                  <span class="leg-item"><i style="background: #3B82F6;"></i> TradFi (9)</span>
-                  <span class="leg-item"><i style="background: #10B981;"></i> Câmbio FX</span>
-                  <span class="leg-item"><i style="background: #EF4444;"></i> Macro (7)</span>
+                  <span class="leg-item"><i style="background: #FFFFFF; box-shadow: 0 0 6px #FFFFFF;"></i> ⚪ Oitavado (2^k)</span>
+                  <span class="leg-item"><i style="background: #06B6D4; box-shadow: 0 0 6px #06B6D4;"></i> 🔵 Harmônico (Hedge)</span>
+                  <span class="leg-item"><i style="background: #EF4444; box-shadow: 0 0 6px #EF4444;"></i> 🔴 Anarmônico (Tensão)</span>
+                  <span class="leg-item" style="color: #F59E0B; font-weight:700;">➔ Linha de Campo STE</span>
                 </div>
                 <button id="btnResetZoom" class="mini-hud-btn" title="Centralizar e ajustar zoom do grafo">🎯 RECENTRALIZAR</button>
               </div>
@@ -470,12 +504,12 @@
   </div>
 
   <!-- SCRIPTS -->
-  <script src="data/planos_data.js?v=20260822_sx8"></script>
-  <script src="data/harmonicus_sx_data.js?v=20260822_sx8"></script>
-  <script src="data/charts_data.js?v=20260822_sx8"></script>
-  <script src="audio-engine.js?v=20260822_sx8"></script>
-  <script src="tactical-hud.js?v=20260822_sx8"></script>
-  <script src="harmonicus-sx.js?v=20260822_sx8"></script>
-  <script src="charts-kinetics.js?v=20260822_sx8"></script>
+  <script src="data/planos_data.js?v=20260823_sx9"></script>
+  <script src="data/harmonicus_sx_data.js?v=20260823_sx9"></script>
+  <script src="data/charts_data.js?v=20260823_sx9"></script>
+  <script src="audio-engine.js?v=20260823_sx9"></script>
+  <script src="tactical-hud.js?v=20260823_sx9"></script>
+  <script src="harmonicus-sx.js?v=20260823_sx9"></script>
+  <script src="charts-kinetics.js?v=20260823_sx9"></script>
 </body>
 </html>

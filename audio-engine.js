@@ -260,6 +260,76 @@ class HarmonicusAudioEngine {
     osc.stop(this.ctx.currentTime + 0.9);
   }
 
+  // Toca acorde espectral completo (Fundamental + Oitavados + Harmônicos + Tensão) ao focar um nó
+  playSpectralFocusChord(targetNode, relations) {
+    if (!this.ctx) this.init();
+    if (this.ctx.state === 'suspended') this.ctx.resume();
+
+    const fundamental = targetNode.fundamental_hz || 220;
+    
+    // Fundamental do Ativo Principal
+    const oscMain = this.ctx.createOscillator();
+    const gainMain = this.ctx.createGain();
+    oscMain.type = 'triangle';
+    oscMain.frequency.setValueAtTime(fundamental, this.ctx.currentTime);
+    gainMain.gain.setValueAtTime(0.0001, this.ctx.currentTime);
+    gainMain.gain.linearRampToValueAtTime(0.25, this.ctx.currentTime + 0.04);
+    gainMain.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 1.2);
+    oscMain.connect(gainMain);
+    gainMain.connect(this.filterNode);
+    oscMain.start();
+    oscMain.stop(this.ctx.currentTime + 1.25);
+
+    // Oitavados (Harmônicos Puros / Suaves)
+    if (relations && relations.octaves && relations.octaves.length > 0) {
+      relations.octaves.slice(0, 2).forEach((node, i) => {
+        const oscOct = this.ctx.createOscillator();
+        const gainOct = this.ctx.createGain();
+        oscOct.type = 'sine';
+        oscOct.frequency.setValueAtTime(node.fundamental_hz, this.ctx.currentTime);
+        gainOct.gain.setValueAtTime(0.0001, this.ctx.currentTime);
+        gainOct.gain.linearRampToValueAtTime(0.12, this.ctx.currentTime + 0.08 + (i * 0.04));
+        gainOct.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 1.0);
+        oscOct.connect(gainOct);
+        gainOct.connect(this.filterNode);
+        oscOct.start();
+        oscOct.stop(this.ctx.currentTime + 1.05);
+      });
+    }
+
+    // Harmônicos (Quinta/Terça Justa)
+    if (relations && relations.harmonics && relations.harmonics.length > 0) {
+      relations.harmonics.slice(0, 2).forEach((node, i) => {
+        const oscHarm = this.ctx.createOscillator();
+        const gainHarm = this.ctx.createGain();
+        oscHarm.type = 'sine';
+        oscHarm.frequency.setValueAtTime(node.fundamental_hz, this.ctx.currentTime);
+        gainHarm.gain.setValueAtTime(0.0001, this.ctx.currentTime);
+        gainHarm.gain.linearRampToValueAtTime(0.10, this.ctx.currentTime + 0.06 + (i * 0.05));
+        gainHarm.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 0.95);
+        oscHarm.connect(gainHarm);
+        gainHarm.connect(this.filterNode);
+        oscHarm.start();
+        oscHarm.stop(this.ctx.currentTime + 1.0);
+      });
+    }
+
+    // Anarmônicos (Trítono de Tensão se VIX presente)
+    if (relations && relations.anarmonics && relations.anarmonics.some(n => n.id === 'VIX_Index')) {
+      const oscTension = this.ctx.createOscillator();
+      const gainTension = this.ctx.createGain();
+      oscTension.type = 'sawtooth';
+      oscTension.frequency.setValueAtTime(185.0, this.ctx.currentTime); // F#3
+      gainTension.gain.setValueAtTime(0.0001, this.ctx.currentTime);
+      gainTension.gain.linearRampToValueAtTime(0.06, this.ctx.currentTime + 0.12);
+      gainTension.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 0.80);
+      oscTension.connect(gainTension);
+      gainTension.connect(this.filterNode);
+      oscTension.start();
+      oscTension.stop(this.ctx.currentTime + 0.85);
+    }
+  }
+
   // Atualiza parâmetros de física (Langevin, Fourier, Morlet)
   updatePhysicsParams(damping, fourier, morlet) {
     this.damping = damping;

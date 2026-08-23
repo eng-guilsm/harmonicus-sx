@@ -1,8 +1,9 @@
 /**
  * ==============================================================================
- * HARMONICUS SX // PÁGINA 2: SYNTHESIZER & SPECTRAL TOPOLOGY CONTROLLER (v3.8)
+ * HARMONICUS SX // PÁGINA 2: SYNTHESIZER & SPECTRAL TOPOLOGY CONTROLLER (v5.0)
  * Processamento Digital de Sinais (DSP) de John F. Ehlers & Análise Espectral
- * Rastreamento Angular Circular 360º, Grafo Compacto & Foco em Tríades
+ * Halos Espectrais Dinâmicos (Oitavados, Harmônicos, Anarmônicos),
+ * Linhas de Campo de Direcionalidade (STE) & Cockpit de Decisão
  * ==============================================================================
  */
 
@@ -11,12 +12,15 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 let activeTunerBand = 'daily';
-let activeHarmonicChord = 'none';
+let focusedSpectralNodeId = null; // null = visão panorâmica
 
 let d3GraphSimulation = null;
 let d3SvgSelection = null;
 let d3ZoomRoot = null;
 let d3ZoomBehavior = null;
+
+let d3GraphNodes = [];
+let d3GraphEdges = [];
 
 function initHarmonicusSX() {
   const data = window.HARMONICUS_SX_DATA || {};
@@ -24,7 +28,7 @@ function initHarmonicusSX() {
   initTabNavigation();
   initAudioControls();
   initRadioTuner(data.bands || []);
-  initChordSelector();
+  initSpectralCockpit();
   initSpectralTelemetry(data.sensores || {});
   initOscilloscope();
   initD3NetworkGraph(data.nodes || [], data.edges || []);
@@ -253,25 +257,315 @@ function initRadioTuner(bands) {
 }
 
 // ------------------------------------------------------------------------------
-// 4. SELETOR DE ACORDES HARMÔNICOS & TRÍADES (COM OPÇÃO REDE COMPLETA)
+// 4. COCKPIT ESPECTRAL & TOMADA DE DECISÃO (SUBSTITUI OS BOTÕES DE ACORDES)
 // ------------------------------------------------------------------------------
-function initChordSelector() {
-  const chordBtns = document.querySelectorAll('.chord-btn');
-  chordBtns.forEach(btn => {
+function initSpectralCockpit() {
+  const quickBtns = document.querySelectorAll('.qfb-btn');
+  quickBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-      chordBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      activeHarmonicChord = btn.getAttribute('data-chord');
-      if (activeHarmonicChord !== 'none') {
-        window.harmonicusAudio.playChord(activeHarmonicChord);
+      const assetKey = btn.getAttribute('data-asset');
+      if (assetKey === 'all') {
+        resetSpectralFocus();
+      } else {
+        focusSpectralNode(assetKey);
       }
-      updateD3GraphForChord(activeHarmonicChord);
     });
   });
 }
 
 // ------------------------------------------------------------------------------
-// 5. OBSERVÁVEIS ESPECTRAIS EM TEMPO REAL (TELEMETRIA DSP DE EHLERS & GRANGER)
+// 5. CLASSIFICAÇÃO ESPECTRAL RELACIONAL: OITAVADOS, HARMÔNICOS E ANARMÔNICOS
+// ------------------------------------------------------------------------------
+function calculateSpectralRelations(targetNode, allNodes, allEdges) {
+  if (!targetNode) {
+    return { octaves: [], harmonics: [], anarmonics: [], neutrals: allNodes, directLinks: new Map() };
+  }
+
+  const fA = targetNode.fundamental_hz || 220.0;
+  const tId = targetNode.id;
+
+  // Mapa de conexões diretas do grafo
+  const directLinks = new Map();
+  allEdges.forEach(e => {
+    const sId = typeof e.source === 'object' ? e.source.id : e.source;
+    const tgId = typeof e.target === 'object' ? e.target.id : e.target;
+    if (sId === tId) directLinks.set(tgId, { edge: e, direction: 'out', coherence: e.coerencia });
+    if (tgId === tId) directLinks.set(sId, { edge: e, direction: 'in', coherence: e.coerencia });
+  });
+
+  const octaves = [];
+  const harmonics = [];
+  const anarmonics = [];
+  const neutrals = [];
+
+  allNodes.forEach(node => {
+    if (node.id === tId) return;
+
+    const fB = node.fundamental_hz || 220.0;
+    const ratio = Math.max(fA, fB) / Math.min(fA, fB);
+    const linkInfo = directLinks.get(node.id);
+
+    // 1. OITAVADOS (Ressonância Fractal Pura: 1.0x, 2.0x, 4.0x)
+    const isOctave = (Math.abs(ratio - 1.0) < 0.025) || 
+                     (Math.abs(ratio - 2.0) < 0.04) || 
+                     (Math.abs(ratio - 4.0) < 0.08) ||
+                     (Math.abs(ratio - 0.5) < 0.02);
+
+    // 2. HARMÔNICOS CONSONANTES (Quinta Justa 1.50, Quarta 1.33, Terça 1.25, Sexta 1.67 ou Coerência Forte >= 0.65)
+    const isHarmonicRatio = (Math.abs(ratio - 1.50) < 0.035) ||
+                            (Math.abs(ratio - 1.333) < 0.035) ||
+                            (Math.abs(ratio - 1.25) < 0.035) ||
+                            (Math.abs(ratio - 1.667) < 0.04);
+    const isHarmonicCoherence = linkInfo && linkInfo.coherence >= 0.65 && node.id !== 'VIX_Index' && targetNode.id !== 'VIX_Index';
+
+    // 3. ANARMÔNICOS DISSONANTES (Trítono 1.414, Segunda menor 1.067, Sétima 1.875 ou VIX de Pânico)
+    const isTritone = (Math.abs(ratio - 1.414) < 0.045);
+    const isDissonantRatio = (Math.abs(ratio - 1.067) < 0.025) || (Math.abs(ratio - 1.875) < 0.04);
+    const isVixTension = (node.id === 'VIX_Index' || targetNode.id === 'VIX_Index') && 
+                         (node.classe === 'Cripto' || targetNode.classe === 'Cripto' || node.classe === 'TradFi' || targetNode.classe === 'TradFi');
+
+    if (isOctave) {
+      octaves.push(node);
+    } else if (isVixTension || isTritone || isDissonantRatio) {
+      anarmonics.push(node);
+    } else if (isHarmonicRatio || isHarmonicCoherence) {
+      harmonics.push(node);
+    } else {
+      neutrals.push(node);
+    }
+  });
+
+  return { octaves, harmonics, anarmonics, neutrals, directLinks };
+}
+
+// ------------------------------------------------------------------------------
+// 6. MOTOR DE FOCO ESPECTRAL, HALOS E LINHAS DE CAMPO DIRECIONAL
+// ------------------------------------------------------------------------------
+function focusSpectralNode(nodeId) {
+  if (!d3SvgSelection || d3GraphNodes.length === 0) return;
+  const targetNode = d3GraphNodes.find(n => n.id === nodeId);
+  if (!targetNode) return;
+
+  focusedSpectralNodeId = nodeId;
+  const relations = calculateSpectralRelations(targetNode, d3GraphNodes, d3GraphEdges);
+
+  // 1. Atualizar Cockpit Lateral
+  const facBadge = document.getElementById('facBadge');
+  const facHint = document.getElementById('facHint');
+  const facTitle = document.getElementById('facTitle');
+  const facMeta = document.getElementById('facMeta');
+
+  if (facBadge) facBadge.textContent = targetNode.classe.toUpperCase();
+  if (facHint) facHint.textContent = 'Auditoria Espectral Ativa';
+  if (facTitle) facTitle.innerHTML = `<span style="color: ${targetNode.cor};">${targetNode.nome}</span> (${targetNode.id})`;
+  if (facMeta) facMeta.textContent = `Fundamental: ${targetNode.nota} (${targetNode.fundamental_hz} Hz) • Volatilidade: ${targetNode.vol}% • PC1: ${(targetNode.autovetor_pc1 * 100).toFixed(1)}%`;
+
+  // Preencher Lista de Oitavados
+  const listOct = document.getElementById('listOctave');
+  const countOct = document.getElementById('countOctave');
+  if (countOct) countOct.textContent = relations.octaves.length;
+  if (listOct) {
+    if (relations.octaves.length === 0) {
+      listOct.innerHTML = '<span class="srp-empty">Nenhum par em oitava pura</span>';
+    } else {
+      listOct.innerHTML = relations.octaves.map(n => `
+        <span class="srp-tag tag-octave" data-id="${n.id}" title="${n.nome} (${n.nota} / ${n.fundamental_hz} Hz)">
+          ⚪ ${n.id.replace('BRL','').replace('_Pts','')} [${n.nota}]
+        </span>
+      `).join('');
+    }
+  }
+
+  // Preencher Lista de Harmônicos
+  const listHarm = document.getElementById('listHarmonic');
+  const countHarm = document.getElementById('countHarmonic');
+  if (countHarm) countHarm.textContent = relations.harmonics.length;
+  if (listHarm) {
+    if (relations.harmonics.length === 0) {
+      listHarm.innerHTML = '<span class="srp-empty">Sem acoplamento harmônico direto</span>';
+    } else {
+      listHarm.innerHTML = relations.harmonics.map(n => `
+        <span class="srp-tag tag-harmonic" data-id="${n.id}" title="${n.nome} (${n.nota} / ${n.fundamental_hz} Hz)">
+          🔵 ${n.id.replace('BRL','').replace('_Pts','')} [${n.nota}]
+        </span>
+      `).join('');
+    }
+  }
+
+  // Preencher Lista de Anarmônicos
+  const listAnarm = document.getElementById('listAnarmonic');
+  const countAnarm = document.getElementById('countAnarmonic');
+  if (countAnarm) countAnarm.textContent = relations.anarmonics.length;
+  if (listAnarm) {
+    if (relations.anarmonics.length === 0) {
+      listAnarm.innerHTML = '<span class="srp-empty">Sem tensão anarmônica detectada</span>';
+    } else {
+      listAnarm.innerHTML = relations.anarmonics.map(n => `
+        <span class="srp-tag tag-anarmonic" data-id="${n.id}" title="${n.nome} (${n.nota} / ${n.fundamental_hz} Hz)">
+          🔴 ${n.id.replace('BRL','').replace('_Pts','')} [${n.nota}]
+        </span>
+      `).join('');
+    }
+  }
+
+  // Eventos de clique nas tags do Cockpit
+  document.querySelectorAll('.srp-tag').forEach(tag => {
+    tag.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const nextId = tag.getAttribute('data-id');
+      if (nextId) focusSpectralNode(nextId);
+    });
+  });
+
+  // Atualizar botões de foco rápido
+  document.querySelectorAll('.qfb-btn').forEach(btn => {
+    if (btn.getAttribute('data-asset') === nodeId) btn.classList.add('active');
+    else btn.classList.remove('active');
+  });
+
+  // 2. Atualizar Grafo D3 (Halos, Opacidade e Linhas de Campo)
+  const nodeGroups = d3SvgSelection.selectAll('.nodes .node-group');
+  const linkLines = d3SvgSelection.selectAll('.links line');
+
+  const octaveIds = new Set(relations.octaves.map(n => n.id));
+  const harmonicIds = new Set(relations.harmonics.map(n => n.id));
+  const anarmonicIds = new Set(relations.anarmonics.map(n => n.id));
+  const relevantIds = new Set([nodeId, ...octaveIds, ...harmonicIds, ...anarmonicIds]);
+
+  // Transição de Nós
+  nodeGroups.transition().duration(300)
+    .style('opacity', d => relevantIds.has(d.id) ? 1.0 : 0.15)
+    .style('filter', d => relevantIds.has(d.id) ? 'none' : 'grayscale(80%) brightness(0.25)');
+
+  // Anéis e Halos
+  nodeGroups.each(function(d) {
+    const grp = d3.select(this);
+    const halo = grp.select('.node-halo');
+    const ring = grp.select('.active-node-ring');
+
+    // Resetar classes
+    halo.attr('class', 'node-halo').style('display', 'none');
+    ring.style('display', 'none');
+
+    if (d.id === nodeId) {
+      ring.style('display', 'block');
+    } else if (octaveIds.has(d.id)) {
+      halo.classed('halo-octave', true).style('display', 'block');
+    } else if (harmonicIds.has(d.id)) {
+      halo.classed('halo-harmonic', true).style('display', 'block');
+    } else if (anarmonicIds.has(d.id)) {
+      halo.classed('halo-anarmonic', true).style('display', 'block');
+    }
+  });
+
+  // Transição de Arestas e Linhas de Campo
+  linkLines.transition().duration(300)
+    .attr('stroke', l => {
+      const sId = typeof l.source === 'object' ? l.source.id : l.source;
+      const tId = typeof l.target === 'object' ? l.target.id : l.target;
+      const isIncident = (sId === nodeId || tId === nodeId);
+      if (!isIncident) return '#1E293B';
+
+      const otherId = sId === nodeId ? tId : sId;
+      if (octaveIds.has(otherId)) return '#FFFFFF';
+      if (anarmonicIds.has(otherId)) return '#EF4444';
+      if (harmonicIds.has(otherId)) return '#06B6D4';
+      return '#F59E0B';
+    })
+    .attr('stroke-width', l => {
+      const sId = typeof l.source === 'object' ? l.source.id : l.source;
+      const tId = typeof l.target === 'object' ? l.target.id : l.target;
+      return (sId === nodeId || tId === nodeId) ? 3.5 : 1.0;
+    })
+    .attr('stroke-opacity', l => {
+      const sId = typeof l.source === 'object' ? l.source.id : l.source;
+      const tId = typeof l.target === 'object' ? l.target.id : l.target;
+      return (sId === nodeId || tId === nodeId) ? 1.0 : 0.04;
+    });
+
+  // Linhas de campo animadas para arestas incidentes
+  linkLines.each(function(l) {
+    const lineEl = d3.select(this);
+    const sId = typeof l.source === 'object' ? l.source.id : l.source;
+    const tId = typeof l.target === 'object' ? l.target.id : l.target;
+    const isIncident = (sId === nodeId || tId === nodeId);
+
+    if (isIncident) {
+      lineEl.classed('directional-field-line', true);
+      const otherId = sId === nodeId ? tId : sId;
+      if (octaveIds.has(otherId)) lineEl.attr('marker-end', 'url(#arrow-white)');
+      else if (anarmonicIds.has(otherId)) lineEl.attr('marker-end', 'url(#arrow-red)');
+      else if (harmonicIds.has(otherId)) lineEl.attr('marker-end', 'url(#arrow-cyan)');
+      else lineEl.attr('marker-end', 'url(#arrow-gold)');
+    } else {
+      lineEl.classed('directional-field-line', false).attr('marker-end', null);
+    }
+  });
+
+  // 3. Tocar Sonificação Analítica
+  if (window.harmonicusAudio && typeof window.harmonicusAudio.playSpectralFocusChord === 'function') {
+    window.harmonicusAudio.playSpectralFocusChord(targetNode, relations);
+  }
+}
+
+// ------------------------------------------------------------------------------
+// 7. RESTAURAR VISÃO PANORÂMICA (SEM FILTRO / TODOS OS NÓS)
+// ------------------------------------------------------------------------------
+function resetSpectralFocus() {
+  focusedSpectralNodeId = null;
+
+  const facBadge = document.getElementById('facBadge');
+  const facHint = document.getElementById('facHint');
+  const facTitle = document.getElementById('facTitle');
+  const facMeta = document.getElementById('facMeta');
+
+  if (facBadge) facBadge.textContent = 'VISÃO PANORÂMICA';
+  if (facHint) facHint.textContent = 'Clique em um ativo para diagnosticar';
+  if (facTitle) facTitle.textContent = '🌐 REDE COMPLETA (26 ATIVOS)';
+  if (facMeta) facMeta.textContent = 'Afinação: Multiespectral • Coerência Global Ativa';
+
+  const listOct = document.getElementById('listOctave');
+  const listHarm = document.getElementById('listHarmonic');
+  const listAnarm = document.getElementById('listAnarmonic');
+  const countOct = document.getElementById('countOctave');
+  const countHarm = document.getElementById('countHarmonic');
+  const countAnarm = document.getElementById('countAnarmonic');
+
+  if (countOct) countOct.textContent = '0';
+  if (countHarm) countHarm.textContent = '0';
+  if (countAnarm) countAnarm.textContent = '0';
+
+  if (listOct) listOct.innerHTML = '<span class="srp-empty">Selecione um ativo</span>';
+  if (listHarm) listHarm.innerHTML = '<span class="srp-empty">Selecione um ativo</span>';
+  if (listAnarm) listAnarm.innerHTML = '<span class="srp-empty">Selecione um ativo</span>';
+
+  document.querySelectorAll('.qfb-btn').forEach(btn => {
+    if (btn.getAttribute('data-asset') === 'all') btn.classList.add('active');
+    else btn.classList.remove('active');
+  });
+
+  if (!d3SvgSelection) return;
+
+  const nodeGroups = d3SvgSelection.selectAll('.nodes .node-group');
+  const linkLines = d3SvgSelection.selectAll('.links line');
+
+  nodeGroups.transition().duration(300)
+    .style('opacity', 1.0)
+    .style('filter', 'none');
+
+  nodeGroups.selectAll('.node-halo').style('display', 'none');
+  nodeGroups.selectAll('.active-node-ring').style('display', 'none');
+
+  linkLines.transition().duration(300)
+    .attr('stroke', d => d.coerencia >= 0.75 ? '#06B6D4' : '#4B5563')
+    .attr('stroke-width', d => Math.max(1.5, d.peso * 0.9))
+    .attr('stroke-opacity', d => Math.max(0.25, d.coerencia));
+
+  linkLines.classed('directional-field-line', false).attr('marker-end', null);
+}
+
+// ------------------------------------------------------------------------------
+// 8. OBSERVÁVEIS ESPECTRAIS EM TEMPO REAL (TELEMETRIA DSP DE EHLERS & GRANGER)
 // ------------------------------------------------------------------------------
 function initSpectralTelemetry(sensores) {
   const telePC1 = document.getElementById('telePC1');
@@ -299,7 +593,7 @@ function initSpectralTelemetry(sensores) {
 }
 
 // ------------------------------------------------------------------------------
-// 6. OSCILOSCÓPIO CRT DE 60 FPS REATIVO
+// 9. OSCILOSCÓPIO CRT DE 60 FPS REATIVO
 // ------------------------------------------------------------------------------
 function initOscilloscope() {
   const canvas = document.getElementById('oscCanvas');
@@ -356,10 +650,10 @@ function initOscilloscope() {
 
     // Cor do feixe CRT
     let beamColor = '#06B6D4';
-    if (activeHarmonicChord === 'tension') beamColor = '#EF4444';
-    else if (activeHarmonicChord === 'major') beamColor = '#10B981';
-    else if (activeHarmonicChord === 'ether') beamColor = '#8B5CF6';
-    else if (activeHarmonicChord === 'unison') beamColor = isPlaying ? '#10B981' : '#F59E0B';
+    if (focusedSpectralNodeId === 'VIX_Index') beamColor = '#EF4444';
+    else if (focusedSpectralNodeId === 'BTCBRL') beamColor = '#F59E0B';
+    else if (focusedSpectralNodeId === 'SOLBRL') beamColor = '#EC4899';
+    else if (focusedSpectralNodeId === 'PAXG_Ouro') beamColor = '#FBBF24';
     else beamColor = '#06B6D4';
 
     ctx.lineWidth = 2.5;
@@ -382,15 +676,11 @@ function initOscilloscope() {
         const t = (i * 0.03 * freqMult) + phase;
         const noise = (Math.random() - 0.5) * (defaultDamping * 0.22);
         
-        if (activeHarmonicChord === 'unison') {
-          v = 1.0 + 0.28 * Math.sin(t) + 0.14 * Math.sin(t * 1.5) + 0.07 * Math.sin(t * 2.0) + noise;
-        } else if (activeHarmonicChord === 'tension') {
+        if (focusedSpectralNodeId === 'VIX_Index') {
           const saw = (t % (Math.PI * 2)) / Math.PI - 1.0;
           v = 1.0 + 0.32 * Math.sin(t) + 0.22 * Math.sin(t * 1.414) + 0.12 * saw + noise * 1.6;
-        } else if (activeHarmonicChord === 'major') {
-          v = 1.0 + 0.25 * Math.sin(t) + 0.18 * Math.sin(t * 1.25) + 0.12 * Math.sin(t * 1.5) + noise * 0.5;
-        } else if (activeHarmonicChord === 'ether') {
-          v = 1.0 + 0.22 * Math.sin(t * 0.8) + 0.15 * Math.cos(t * 1.6 - phase * 0.5) + noise * 0.3;
+        } else if (focusedSpectralNodeId === 'BTCBRL') {
+          v = 1.0 + 0.28 * Math.sin(t) + 0.14 * Math.sin(t * 1.5) + 0.07 * Math.sin(t * 2.0) + noise;
         } else {
           v = 1.0 + 0.20 * Math.sin(t) + 0.10 * Math.sin(t * 2) + noise * 0.4;
         }
@@ -411,7 +701,7 @@ function initOscilloscope() {
 }
 
 // ------------------------------------------------------------------------------
-// 7. GRAFO TOPOLÓGICO COMPACTO COM CÍRCULOS AMPLIADOS & FOCO EM TRÍADES
+// 10. GRAFO TOPOLÓGICO DOS 26 ATIVOS COM HALOS & LINHAS DE CAMPO DIRECIONAIS
 // ------------------------------------------------------------------------------
 function initD3NetworkGraph(rawNodes, rawEdges) {
   const container = document.getElementById('networkGraphStage');
@@ -424,8 +714,7 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
 
   if (dataNodes.length === 0) return;
 
-  // CLONE profundo para evitar que a mutação de links do D3 quebre reinicializações
-  const nodes = dataNodes.map(d => ({
+  d3GraphNodes = dataNodes.map(d => ({
     id: d.id,
     nome: d.nome,
     classe: d.classe,
@@ -436,7 +725,7 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
     autovetor_pc1: d.autovetor_pc1
   }));
 
-  const edges = dataEdges.map(d => ({
+  d3GraphEdges = dataEdges.map(d => ({
     source: typeof d.source === 'object' ? d.source.id : d.source,
     target: typeof d.target === 'object' ? d.target.id : d.target,
     coerencia: d.coerencia,
@@ -459,6 +748,28 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
 
   d3SvgSelection = svg;
 
+  // Defs com Marcadores de Seta SVG Direcionais (Linhas de Campo)
+  const defs = svg.append('defs');
+
+  const addMarker = (id, color) => {
+    defs.append('marker')
+      .attr('id', id)
+      .attr('viewBox', '0 -5 10 10')
+      .attr('refX', 30)
+      .attr('refY', 0)
+      .attr('markerWidth', 6)
+      .attr('markerHeight', 6)
+      .attr('orient', 'auto')
+      .append('path')
+      .attr('d', 'M0,-4L10,0L0,4')
+      .attr('fill', color);
+  };
+
+  addMarker('arrow-gold', '#F59E0B');
+  addMarker('arrow-cyan', '#06B6D4');
+  addMarker('arrow-red', '#EF4444');
+  addMarker('arrow-white', '#FFFFFF');
+
   // Container de Zoom e Pan
   d3ZoomRoot = svg.append('g').attr('class', 'zoom-root');
 
@@ -476,23 +787,23 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
         d3ZoomBehavior.transform,
         d3.zoomIdentity.translate(0, 0).scale(1)
       );
-      updateD3GraphForChord('none');
+      resetSpectralFocus();
     };
   }
 
   // Simulação física compacta e agrupada
-  d3GraphSimulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(edges).id(d => d.id).distance(d => Math.max(40, 72 - (d.coerencia * 30))))
+  d3GraphSimulation = d3.forceSimulation(d3GraphNodes)
+    .force('link', d3.forceLink(d3GraphEdges).id(d => d.id).distance(d => Math.max(40, 72 - (d.coerencia * 30))))
     .force('charge', d3.forceManyBody().strength(-105))
     .force('center', d3.forceCenter(width / 2, height / 2))
     .force('radial', d3.forceRadial(Math.min(width, height) * 0.28, width / 2, height / 2).strength(0.18))
-    .force('collision', d3.forceCollide().radius(d => Math.max(24, 26 + d.autovetor_pc1 * 26) + 4));
+    .force('collision', d3.forceCollide().radius(d => Math.max(24, 26 + d.autovetor_pc1 * 26) + 6));
 
   // Arestas
   const link = d3ZoomRoot.append('g')
     .attr('class', 'links')
     .selectAll('line')
-    .data(edges)
+    .data(d3GraphEdges)
     .enter().append('line')
     .attr('stroke', d => d.coerencia >= 0.75 ? '#06B6D4' : '#4B5563')
     .attr('stroke-width', d => Math.max(1.5, d.peso * 0.9))
@@ -502,7 +813,7 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
   const node = d3ZoomRoot.append('g')
     .attr('class', 'nodes')
     .selectAll('g')
-    .data(nodes)
+    .data(d3GraphNodes)
     .enter().append('g')
     .attr('class', 'node-group')
     .attr('data-id', d => d.id)
@@ -511,18 +822,31 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
       .on('drag', dragged)
       .on('end', dragended));
 
-  // Círculos ampliados para conter o texto perfeitamente
+  // 1. Halo Espectral Relacional (Branco, Azul ou Vermelho)
   node.append('circle')
+    .attr('class', 'node-halo')
+    .attr('r', d => Math.max(22, 24 + d.autovetor_pc1 * 24) + 8)
+    .style('display', 'none');
+
+  // 2. Anel de Seleção Ativa (Dourado Pulsante)
+  node.append('circle')
+    .attr('class', 'active-node-ring')
+    .attr('r', d => Math.max(22, 24 + d.autovetor_pc1 * 24) + 4)
+    .style('display', 'none');
+
+  // 3. Círculo do Ativo com Cor Temática
+  node.append('circle')
+    .attr('class', 'node-body')
     .attr('r', d => Math.max(22, 24 + d.autovetor_pc1 * 24))
     .attr('fill', d => d.cor)
     .attr('stroke', '#FFFFFF')
     .attr('stroke-width', 2.0)
     .attr('stroke-opacity', 0.9)
-    .style('cursor', 'grab')
+    .style('cursor', 'pointer')
     .style('transition', 'all 0.3s ease')
     .style('filter', d => `drop-shadow(0 0 10px ${d.cor})`);
 
-  // Texto perfeitamente dimensionado e centralizado dentro da bolha
+  // 4. Texto Símbolo do Ativo
   node.append('text')
     .text(d => {
       const clean = d.id.replace('BRL', '').replace('_Pts', '').replace('_USD', '').replace('_Yield', '').replace('_Index', '');
@@ -537,6 +861,7 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
     .attr('font-family', 'JetBrains Mono, monospace')
     .style('pointer-events', 'none');
 
+  // Tooltip
   node.on('mouseover', (event, d) => {
     if (!tooltip) return;
     tooltip.style.display = 'block';
@@ -546,7 +871,7 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
       Volatilidade Anual: <b>${d.vol}%</b><br>
       Peso Autovetor PC1: <b>${d.autovetor_pc1.toFixed(3)}</b><br>
       Afinação Sonora: <b>${d.nota} (${d.fundamental_hz} Hz)</b><br>
-      <i style="color:#06B6D4; font-size:10px;">Clique para isolar sub-rede • Arraste para mover</i>
+      <i style="color:#06B6D4; font-size:10px;">Clique para auditar Halos Espectrais & Linhas de Fluxo</i>
     `;
   })
   .on('mousemove', (event) => {
@@ -560,49 +885,17 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
   })
   .on('click', (event, d) => {
     event.stopPropagation();
-    window.harmonicusAudio.playNodeTone(d.fundamental_hz, d.nome);
-    
-    // Identificar vizinhos conectados de 1º grau
-    const connectedNodeIds = new Set([d.id]);
-    edges.forEach(l => {
-      const sId = typeof l.source === 'object' ? l.source.id : l.source;
-      const tId = typeof l.target === 'object' ? l.target.id : l.target;
-      if (sId === d.id) connectedNodeIds.add(tId);
-      if (tId === d.id) connectedNodeIds.add(sId);
-    });
-
-    // Nós conectados: 100% opacidade. Nós desconectados: quase invisíveis (0.03)
-    node.transition().duration(250)
-      .style('opacity', n => connectedNodeIds.has(n.id) ? 1.0 : 0.03)
-      .style('filter', n => connectedNodeIds.has(n.id) ? 'none' : 'grayscale(100%) brightness(0.15)');
-
-    // Arestas incidentes: iluminadas em ouro. Arestas desconectadas: completamente invisíveis (0.0)
-    link.transition().duration(250)
-      .attr('stroke', l => {
-        const sId = typeof l.source === 'object' ? l.source.id : l.source;
-        const tId = typeof l.target === 'object' ? l.target.id : l.target;
-        return (sId === d.id || tId === d.id) ? '#F59E0B' : '#374151';
-      })
-      .attr('stroke-width', l => {
-        const sId = typeof l.source === 'object' ? l.source.id : l.source;
-        const tId = typeof l.target === 'object' ? l.target.id : l.target;
-        return (sId === d.id || tId === d.id) ? 3.5 : 0;
-      })
-      .attr('stroke-opacity', l => {
-        const sId = typeof l.source === 'object' ? l.source.id : l.source;
-        const tId = typeof l.target === 'object' ? l.target.id : l.target;
-        return (sId === d.id || tId === d.id) ? 1.0 : 0.0;
-      });
+    focusSpectralNode(d.id);
   });
 
-  // Clique no fundo do SVG restaura a visão do acorde ativo
+  // Clique no fundo do SVG restaura a visão panorâmica
   svg.on('click', () => {
-    updateD3GraphForChord(activeHarmonicChord);
+    resetSpectralFocus();
   });
 
   // Tick com contenção suave
   d3GraphSimulation.on('tick', () => {
-    nodes.forEach(d => {
+    d3GraphNodes.forEach(d => {
       const r = 32;
       d.x = Math.max(r, Math.min(width - r, d.x));
       d.y = Math.max(r, Math.min(height - r, d.y));
@@ -634,26 +927,14 @@ function initD3NetworkGraph(rawNodes, rawEdges) {
     d.fx = null;
     d.fy = null;
   }
-
-  // Foco inicial
-  setTimeout(() => {
-    updateD3GraphForChord(activeHarmonicChord);
-  }, 100);
 }
 
+// ------------------------------------------------------------------------------
+// 11. SINTONIZADOR DE ONDAS NO GRAFO
+// ------------------------------------------------------------------------------
 function updateD3GraphForBand(bandId) {
   if (!d3SvgSelection) return;
   const links = d3SvgSelection.selectAll('.links line');
-  
-  const chordActiveNodes = {
-    'unison': ['BTCBRL', 'ETHBRL', 'SOLBRL', 'SP500_Pts', 'IBOV_Pts'],
-    'tension': ['VIX_Index', 'BTCBRL', 'Treasury_10Y', 'DXY_Index'],
-    'major': ['BTCBRL', 'ETHBRL', 'SOLBRL', 'LINKBRL', 'BNBBRL'],
-    'ether': ['USDTBRL', 'USD_BRL', 'PAXG_Ouro', 'Ouro_USD', 'DXY_Index']
-  };
-
-  const isFiltered = activeHarmonicChord !== 'none';
-  const activeList = isFiltered ? (chordActiveNodes[activeHarmonicChord] || []) : [];
 
   let bandColor = '#06B6D4';
   if (bandId === 'ultra_high') bandColor = '#F59E0B';
@@ -663,94 +944,20 @@ function updateD3GraphForBand(bandId) {
 
   links.transition().duration(300)
     .attr('stroke', d => {
-      if (isFiltered) {
-        const isInternal = activeList.includes(d.source.id) && activeList.includes(d.target.id);
-        return isInternal ? bandColor : '#374151';
-      }
+      if (focusedSpectralNodeId) return d3.select(this).attr('stroke');
       if (bandId === 'ultra_high') return (d.source.classe === 'Cripto' && d.target.classe === 'Cripto') ? '#F59E0B' : '#374151';
       if (bandId === 'intraday') return d.coerencia >= 0.70 ? '#06B6D4' : '#374151';
       if (bandId === 'daily') return d.coerencia >= 0.50 ? '#10B981' : '#4B5563';
       return (d.source.classe === 'Macro' || d.target.classe === 'Macro') ? '#EF4444' : '#374151';
     })
     .attr('stroke-opacity', d => {
-      if (isFiltered) {
-        const isInternal = activeList.includes(d.source.id) && activeList.includes(d.target.id);
-        return isInternal ? 1.0 : 0.0;
-      }
+      if (focusedSpectralNodeId) return d3.select(this).attr('stroke-opacity');
       return Math.max(0.25, d.coerencia);
-    })
-    .attr('stroke-width', d => {
-      if (isFiltered) {
-        const isInternal = activeList.includes(d.source.id) && activeList.includes(d.target.id);
-        return isInternal ? 4.0 : 0.0;
-      }
-      return Math.max(1.5, d.peso * 0.9);
     });
 }
 
 // ------------------------------------------------------------------------------
-// 8. FOCO DE TRÍADES / ACORDES: ISOLAMENTO TOTAL DAS CONEXÕES NÃO-SELECIONADAS
-// ------------------------------------------------------------------------------
-function updateD3GraphForChord(chordId) {
-  if (!d3SvgSelection) return;
-  const nodeGroups = d3SvgSelection.selectAll('.nodes .node-group');
-  const linkLines = d3SvgSelection.selectAll('.links line');
-
-  if (chordId === 'none') {
-    // Modo Global: Todos os 26 nós vívidos e todas as arestas naturais ativas
-    nodeGroups.transition().duration(300)
-      .style('opacity', 1.0)
-      .style('filter', 'none');
-
-    nodeGroups.select('circle').transition().duration(300)
-      .attr('stroke-width', 2.0)
-      .attr('stroke', '#FFFFFF')
-      .style('filter', d => `drop-shadow(0 0 10px ${d.cor})`);
-
-    linkLines.transition().duration(300)
-      .attr('stroke', d => d.coerencia >= 0.75 ? '#06B6D4' : '#4B5563')
-      .attr('stroke-width', d => Math.max(1.5, d.peso * 0.9))
-      .attr('stroke-opacity', d => Math.max(0.25, d.coerencia));
-    return;
-  }
-
-  const chordActiveNodes = {
-    'unison': ['BTCBRL', 'ETHBRL', 'SOLBRL', 'SP500_Pts', 'IBOV_Pts'],
-    'tension': ['VIX_Index', 'BTCBRL', 'Treasury_10Y', 'DXY_Index'],
-    'major': ['BTCBRL', 'ETHBRL', 'SOLBRL', 'LINKBRL', 'BNBBRL'],
-    'ether': ['USDTBRL', 'USD_BRL', 'PAXG_Ouro', 'Ouro_USD', 'DXY_Index']
-  };
-
-  const activeList = chordActiveNodes[chordId] || [];
-
-  // Transição de Nós: Ativos do Acorde = Iluminados | Outros Ativos = Quase Invisíveis (0.03)
-  nodeGroups.transition().duration(350)
-    .style('opacity', d => activeList.includes(d.id) ? 1.0 : 0.03)
-    .style('filter', d => activeList.includes(d.id) ? 'none' : 'grayscale(100%) brightness(0.15)');
-
-  nodeGroups.select('circle').transition().duration(350)
-    .attr('stroke-width', d => activeList.includes(d.id) ? 3.5 : 1.0)
-    .attr('stroke', d => activeList.includes(d.id) ? '#FFFFFF' : 'rgba(255,255,255,0.2)')
-    .style('filter', d => activeList.includes(d.id) ? `drop-shadow(0 0 18px ${d.cor})` : 'none');
-
-  // Transição de Arestas: SOMENTE as conexões internas do acorde são mostradas (externas = 0.0)
-  linkLines.transition().duration(350)
-    .attr('stroke', l => {
-      const isInternal = activeList.includes(l.source.id) && activeList.includes(l.target.id);
-      return isInternal ? '#F59E0B' : '#374151';
-    })
-    .attr('stroke-width', l => {
-      const isInternal = activeList.includes(l.source.id) && activeList.includes(l.target.id);
-      return isInternal ? 3.5 : 0;
-    })
-    .attr('stroke-opacity', l => {
-      const isInternal = activeList.includes(l.source.id) && activeList.includes(l.target.id);
-      return isInternal ? 1.0 : 0.0;
-    });
-}
-
-// ------------------------------------------------------------------------------
-// 9. RENDERIZAÇÃO DAS FATIAS CWT MORLET (CORREÇÃO DE CAMPOS E DB)
+// 12. RENDERIZAÇÃO DAS FATIAS CWT MORLET (CORREÇÃO DE CAMPOS E DB)
 // ------------------------------------------------------------------------------
 function renderCWTSlices(slices) {
   const container = document.getElementById('cwtBarsContainer');
