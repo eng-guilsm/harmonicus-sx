@@ -846,6 +846,8 @@ input[type="range"]::-webkit-slider-thumb {
 .abi-fill.brl { background: var(--accent-emerald); }
 .abi-fill.btc { background: var(--accent-amber); }
 .abi-fill.paxg { background: var(--accent-gold); }
+.abi-fill.sol { background: #A855F7; }
+.abi-fill.eth { background: #3B82F6; }
 .abi-fill.usdt { background: var(--accent-cyan); }
 
 .safeguards-list {
