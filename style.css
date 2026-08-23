@@ -1740,6 +1740,101 @@ input[type="range"]::-webkit-slider-thumb {
   margin-top: 3px;
 }
 
+/* ==============================================================================
+   HUD FIXO DE ATIVOS SELECIONADOS (CANTO SUPERIOR DIREITO DO GRAFO)
+   ============================================================================== */
+.fixed-selection-tray {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  max-width: 340px;
+  background: rgba(5, 8, 17, 0.94);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  border-radius: 8px;
+  padding: 8px 12px;
+  z-index: 30;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8), 0 0 12px rgba(245, 158, 11, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: all 0.25s ease;
+}
+
+.fst-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.fst-label {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  font-weight: 800;
+  color: var(--accent-gold);
+  letter-spacing: 0.5px;
+}
+
+.fst-chord {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.fst-badges-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+}
+
+.fst-badge-item {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(14, 21, 38, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #FFFFFF;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+  transition: all 0.2s ease;
+}
+
+.fst-badge-item.active-step {
+  border-color: #F59E0B;
+  background: rgba(245, 158, 11, 0.25);
+  box-shadow: 0 0 12px #F59E0B;
+  transform: scale(1.08);
+}
+
+.fst-badge-idx {
+  font-size: 0.55rem;
+  color: var(--accent-cyan);
+  font-weight: 800;
+}
+
+.fst-badge-note {
+  font-size: 0.58rem;
+  color: var(--accent-gold);
+}
+
+.fst-empty-hint {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
 /* Pulso visual do Arpeggio Melódico no nó */
 .node-arpeggio-pulse {
   animation: arpeggioGlow 0.45s ease-out;

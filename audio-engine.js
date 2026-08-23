@@ -57,11 +57,11 @@ class HarmonicusAudioEngine {
     this.masterGain = this.ctx.createGain();
     this.masterGain.gain.setValueAtTime(this.volume, this.ctx.currentTime);
 
-    // Resonant Low-Pass Filter (Modulated by PC1 Absorption Ratio)
+    // Resonant Low-Pass Filter (Afinação Aberta e Musical sem Distorção de Q)
     this.filterNode = this.ctx.createBiquadFilter();
     this.filterNode.type = 'lowpass';
-    this.filterNode.frequency.setValueAtTime(800, this.ctx.currentTime);
-    this.filterNode.Q.setValueAtTime(3.5, this.ctx.currentTime);
+    this.filterNode.frequency.setValueAtTime(3200, this.ctx.currentTime);
+    this.filterNode.Q.setValueAtTime(0.707, this.ctx.currentTime);
 
     // Analyser Node for 60fps CRT Oscilloscope
     this.analyser = this.ctx.createAnalyser();
@@ -71,7 +71,7 @@ class HarmonicusAudioEngine {
     // Convolution Reverb (Synthesized Impulse Response)
     this.reverbNode = this.createSyntheticReverb(2.5, 1.8);
 
-    // Signal Chain: Oscillators -> Filter -> Reverb/Dry -> Compressor -> MasterGain -> Analyser -> Destination
+    // Signal Chain: Oscillators -> Filter -> Compressor -> MasterGain -> Analyser -> Destination
     this.filterNode.connect(this.compressor);
     this.compressor.connect(this.masterGain);
     this.masterGain.connect(this.analyser);
@@ -122,12 +122,12 @@ class HarmonicusAudioEngine {
   start() {
     if (!this.ctx) this.init();
     this.isPlaying = true;
-    this.playChord(this.activeChord);
   }
 
   stop() {
     this.isPlaying = false;
     this.stopDrones();
+    this.stopPolyphonicDrone();
   }
 
   stopDrones() {
@@ -143,103 +143,7 @@ class HarmonicusAudioEngine {
     this.activeDrones = [];
   }
 
-  playChord(chordType) {
-    this.activeChord = chordType;
-    if (!this.isPlaying || !this.ctx) return;
-    this.stopDrones();
-
-    if (chordType === 'none') {
-      // Rede Completa (Sem filtro): silêncio suave para evitar cacofonia/dissonância
-      return;
-    }
-
-    let freqs = [];
-    switch (chordType) {
-      case 'unison':
-        // C3 (BTC), G3 (ETH), C4 (SOL) - Resonância Estrutural
-        freqs = [this.scale.C3, this.scale.G3, this.scale.C4];
-        break;
-      case 'tension':
-        // C3 (BTC), F#3 (VIX Tritone), A#2 (US10Y) - Pânico / Alarme
-        freqs = [this.scale.C3, this.scale.Fs3, 116.54];
-        break;
-      case 'major':
-        // C3 (BTC), E3 (PAXG/ADA), G3 (ETH), B3 (AVAX) - Fluxo Causal Positivo
-        freqs = [this.scale.C3, this.scale.E3, this.scale.G3, this.scale.B3];
-        break;
-      case 'ether':
-        // A2 (USDT), C3 (BTC), E3 (Ouro), A3 (LINK) - Calmaria / Renda Passiva
-        freqs = [this.scale.A2, this.scale.C3, this.scale.E3, this.scale.A3];
-        break;
-      default:
-        return;
-    }
-
-    freqs.forEach((freq, idx) => {
-      const osc = this.ctx.createOscillator();
-      const gain = this.ctx.createGain();
-
-      // Formas de onda quânticas baseadas na posição harmônica
-      osc.type = idx === 0 ? 'sine' : (idx === 1 ? 'triangle' : 'sawtooth');
-      osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
-
-      // Micro detune analógico para dar calor e ambiência vintage
-      const detuneCents = (idx - 1) * 3.5;
-      osc.detune.setValueAtTime(detuneCents, this.ctx.currentTime);
-
-      const amp = idx === 0 ? 0.22 : 0.12;
-      gain.gain.setValueAtTime(0.0001, this.ctx.currentTime);
-      gain.gain.exponentialRampToValueAtTime(amp, this.ctx.currentTime + 0.4);
-
-      osc.connect(gain);
-      gain.connect(this.filterNode);
-      osc.start();
-
-      this.activeDrones.push({ osc, gain });
-    });
-  }
-
-  // Sintonizador de Rádio Harmônico (Tuner Knob)
-  setBand(bandId) {
-    this.currentBand = bandId;
-    if (!this.ctx || !this.filterNode) return;
-
-    let cutoff = 800;
-    switch (bandId) {
-      case 'ultra_high': cutoff = 1600; break;
-      case 'intraday':   cutoff = 1000; break;
-      case 'daily':      cutoff = 600; break;
-      case 'macro':      cutoff = 320; break;
-    }
-
-    // Variação suave do filtro analógico com feedback sonoro
-    this.filterNode.frequency.setTargetAtTime(cutoff, this.ctx.currentTime, 0.2);
-
-    // Efeito de static/tuning sweep suave ao mudar de rádio
-    if (this.isPlaying) {
-      this.playTuningChime(cutoff);
-    }
-  }
-
-  playTuningChime(freq) {
-    if (!this.ctx) return;
-    const osc = this.ctx.createOscillator();
-    const gain = this.ctx.createGain();
-
-    osc.type = 'sine';
-    osc.frequency.setValueAtTime(freq * 0.5, this.ctx.currentTime);
-    osc.frequency.exponentialRampToValueAtTime(freq, this.ctx.currentTime + 0.15);
-
-    gain.gain.setValueAtTime(0.08, this.ctx.currentTime);
-    gain.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 0.25);
-
-    osc.connect(gain);
-    gain.connect(this.filterNode);
-    osc.start();
-    osc.stop(this.ctx.currentTime + 0.25);
-  }
-
-  // Toca nota fundamental quando o usuário clica em um nó do grafo
+  // Toca nota individual limpa (sem batimentos de desafinação)
   playNodeTone(freqHz, assetName) {
     if (!this.ctx) this.init();
     if (this.ctx.state === 'suspended') this.ctx.resume();
@@ -249,85 +153,44 @@ class HarmonicusAudioEngine {
 
     osc.type = 'triangle';
     osc.frequency.setValueAtTime(freqHz || 220, this.ctx.currentTime);
+    osc.detune.setValueAtTime(0, this.ctx.currentTime); // Afinação precisa 0 cents
 
     gain.gain.setValueAtTime(0.0001, this.ctx.currentTime);
     gain.gain.linearRampToValueAtTime(0.28, this.ctx.currentTime + 0.03);
-    gain.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 0.85);
+    gain.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 0.90);
 
     osc.connect(gain);
     gain.connect(this.filterNode);
     osc.start();
-    osc.stop(this.ctx.currentTime + 0.9);
+    osc.stop(this.ctx.currentTime + 0.95);
   }
 
-  // Toca acorde espectral completo (Fundamental + Oitavados + Harmônicos + Tensão) ao focar um nó
-  playSpectralFocusChord(targetNode, relations) {
+  // Toca o acorde exato formado pelos nós presentes na banca (Slots 1 a 4)
+  playBankChord(nodesList) {
     if (!this.ctx) this.init();
     if (this.ctx.state === 'suspended') this.ctx.resume();
+    if (!nodesList || nodesList.length === 0) return;
 
-    const fundamental = targetNode.fundamental_hz || 220;
-    
-    // Fundamental do Ativo Principal
-    const oscMain = this.ctx.createOscillator();
-    const gainMain = this.ctx.createGain();
-    oscMain.type = 'triangle';
-    oscMain.frequency.setValueAtTime(fundamental, this.ctx.currentTime);
-    gainMain.gain.setValueAtTime(0.0001, this.ctx.currentTime);
-    gainMain.gain.linearRampToValueAtTime(0.25, this.ctx.currentTime + 0.04);
-    gainMain.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 1.2);
-    oscMain.connect(gainMain);
-    gainMain.connect(this.filterNode);
-    oscMain.start();
-    oscMain.stop(this.ctx.currentTime + 1.25);
+    const count = Math.min(4, nodesList.length);
+    const baseAmp = 0.28 / Math.sqrt(count);
 
-    // Oitavados (Harmônicos Puros / Suaves)
-    if (relations && relations.octaves && relations.octaves.length > 0) {
-      relations.octaves.slice(0, 2).forEach((node, i) => {
-        const oscOct = this.ctx.createOscillator();
-        const gainOct = this.ctx.createGain();
-        oscOct.type = 'sine';
-        oscOct.frequency.setValueAtTime(node.fundamental_hz, this.ctx.currentTime);
-        gainOct.gain.setValueAtTime(0.0001, this.ctx.currentTime);
-        gainOct.gain.linearRampToValueAtTime(0.12, this.ctx.currentTime + 0.08 + (i * 0.04));
-        gainOct.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 1.0);
-        oscOct.connect(gainOct);
-        gainOct.connect(this.filterNode);
-        oscOct.start();
-        oscOct.stop(this.ctx.currentTime + 1.05);
-      });
-    }
+    nodesList.slice(0, 4).forEach((node, i) => {
+      const osc = this.ctx.createOscillator();
+      const gain = this.ctx.createGain();
 
-    // Harmônicos (Quinta/Terça Justa)
-    if (relations && relations.harmonics && relations.harmonics.length > 0) {
-      relations.harmonics.slice(0, 2).forEach((node, i) => {
-        const oscHarm = this.ctx.createOscillator();
-        const gainHarm = this.ctx.createGain();
-        oscHarm.type = 'sine';
-        oscHarm.frequency.setValueAtTime(node.fundamental_hz, this.ctx.currentTime);
-        gainHarm.gain.setValueAtTime(0.0001, this.ctx.currentTime);
-        gainHarm.gain.linearRampToValueAtTime(0.10, this.ctx.currentTime + 0.06 + (i * 0.05));
-        gainHarm.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 0.95);
-        oscHarm.connect(gainHarm);
-        gainHarm.connect(this.filterNode);
-        oscHarm.start();
-        oscHarm.stop(this.ctx.currentTime + 1.0);
-      });
-    }
+      osc.type = node.id === 'VIX_Index' ? 'sawtooth' : 'triangle';
+      osc.frequency.setValueAtTime(node.fundamental_hz || 220, this.ctx.currentTime);
+      osc.detune.setValueAtTime(0, this.ctx.currentTime); // Afinação pura sem desafinação
 
-    // Anarmônicos (Trítono de Tensão se VIX presente)
-    if (relations && relations.anarmonics && relations.anarmonics.some(n => n.id === 'VIX_Index')) {
-      const oscTension = this.ctx.createOscillator();
-      const gainTension = this.ctx.createGain();
-      oscTension.type = 'sawtooth';
-      oscTension.frequency.setValueAtTime(185.0, this.ctx.currentTime); // F#3
-      gainTension.gain.setValueAtTime(0.0001, this.ctx.currentTime);
-      gainTension.gain.linearRampToValueAtTime(0.06, this.ctx.currentTime + 0.12);
-      gainTension.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 0.80);
-      oscTension.connect(gainTension);
-      gainTension.connect(this.filterNode);
-      oscTension.start();
-      oscTension.stop(this.ctx.currentTime + 0.85);
-    }
+      gain.gain.setValueAtTime(0.0001, this.ctx.currentTime);
+      gain.gain.linearRampToValueAtTime(baseAmp, this.ctx.currentTime + 0.04);
+      gain.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 1.20);
+
+      osc.connect(gain);
+      gain.connect(this.filterNode);
+      osc.start();
+      osc.stop(this.ctx.currentTime + 1.25);
+    });
   }
 
   // ============================================================================
@@ -342,7 +205,7 @@ class HarmonicusAudioEngine {
 
     this.isPolyDroneActive = true;
     const count = Math.min(4, nodesList.length);
-    const baseAmp = 0.26 / Math.sqrt(count);
+    const baseAmp = 0.25 / Math.sqrt(count);
 
     if (!this.polyDroneVoices) this.polyDroneVoices = [];
 
@@ -351,18 +214,12 @@ class HarmonicusAudioEngine {
       const osc = this.ctx.createOscillator();
       const gain = this.ctx.createGain();
 
-      if (node.id === 'VIX_Index') osc.type = 'sawtooth';
-      else if (node.classe === 'Cripto') osc.type = idx % 2 === 0 ? 'triangle' : 'sine';
-      else if (node.classe === 'Macro') osc.type = 'sawtooth';
-      else osc.type = 'sine';
-
+      osc.type = node.id === 'VIX_Index' ? 'sawtooth' : 'triangle';
       osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
-      
-      const detune = (idx - 1.5) * 2.8;
-      osc.detune.setValueAtTime(detune, this.ctx.currentTime);
+      osc.detune.setValueAtTime(0, this.ctx.currentTime); // Afinação matemática pura (sem batimentos)
 
       gain.gain.setValueAtTime(0.0001, this.ctx.currentTime);
-      gain.gain.linearRampToValueAtTime(baseAmp, this.ctx.currentTime + 0.3);
+      gain.gain.linearRampToValueAtTime(baseAmp, this.ctx.currentTime + 0.25);
 
       osc.connect(gain);
       gain.connect(this.filterNode);
@@ -377,11 +234,11 @@ class HarmonicusAudioEngine {
     if (this.polyDroneVoices && this.polyDroneVoices.length > 0) {
       this.polyDroneVoices.forEach(v => {
         try {
-          v.gain.gain.setTargetAtTime(0.0001, this.ctx.currentTime, 0.1);
+          v.gain.gain.setTargetAtTime(0.0001, this.ctx.currentTime, 0.08);
           setTimeout(() => {
             v.osc.stop();
             v.osc.disconnect();
-          }, 150);
+          }, 120);
         } catch (e) {}
       });
       this.polyDroneVoices = [];
@@ -414,7 +271,7 @@ class HarmonicusAudioEngine {
     if (wasDroneActive) this.stopPolyphonicDrone();
 
     this.isArpeggioPlaying = true;
-    const stepDurationMs = 460;
+    const stepDurationMs = 450;
     const totalSteps = nodesList.length;
 
     nodesList.forEach((node, stepIdx) => {
@@ -429,9 +286,10 @@ class HarmonicusAudioEngine {
 
         osc.type = node.id === 'VIX_Index' ? 'sawtooth' : 'triangle';
         osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
+        osc.detune.setValueAtTime(0, this.ctx.currentTime); // Afinação precisa 0 cents
 
         gain.gain.setValueAtTime(0.0001, this.ctx.currentTime);
-        gain.gain.linearRampToValueAtTime(0.32, this.ctx.currentTime + 0.03);
+        gain.gain.linearRampToValueAtTime(0.30, this.ctx.currentTime + 0.03);
         gain.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 0.40);
 
         osc.connect(gain);

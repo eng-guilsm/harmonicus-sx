@@ -327,6 +327,13 @@ function initSpectralCockpit() {
                 .classed('node-arpeggio-pulse', false);
             }, 420);
           }
+
+          // Destacar badge no HUD superior direito
+          const badgeEl = document.getElementById(`fstBadgeItem${stepIdx}`);
+          if (badgeEl) {
+            badgeEl.classList.add('active-step');
+            setTimeout(() => badgeEl.classList.remove('active-step'), 420);
+          }
         },
         () => {
           btnArp.classList.remove('playing');
@@ -481,6 +488,38 @@ function updatePolyphonicSlotsUI() {
     typeEl.style.color = chordInfo.isTension ? '#EF4444' : (chordInfo.consonance >= 90 ? '#10B981' : '#F59E0B');
   }
   if (subEl) subEl.textContent = chordInfo.sub;
+
+  // Atualizar HUD Fixo no Canto Superior Direito do Grafo
+  const fstChord = document.getElementById('fstChordBadge');
+  const fstBadgesRow = document.getElementById('fstBadgesRow');
+  const slotSymbols = ['①', '②', '③', '④'];
+
+  if (fstChord) {
+    if (count === 0) {
+      fstChord.textContent = 'VAZIO';
+      fstChord.style.borderColor = 'rgba(245, 158, 11, 0.35)';
+      fstChord.style.color = '#FFFFFF';
+    } else {
+      const shortName = chordInfo.type.split('//')[0].replace('DÍADE: ', '').replace('TRÍADE: ', '').replace('TÉTRADE: ', '').trim();
+      fstChord.textContent = shortName.length > 20 ? shortName.substring(0, 20) : shortName;
+      fstChord.style.borderColor = chordInfo.isTension ? '#EF4444' : (chordInfo.consonance >= 90 ? '#10B981' : '#F59E0B');
+      fstChord.style.color = chordInfo.isTension ? '#EF4444' : (chordInfo.consonance >= 90 ? '#10B981' : '#F59E0B');
+    }
+  }
+
+  if (fstBadgesRow) {
+    if (count === 0) {
+      fstBadgesRow.innerHTML = '<span class="fst-empty-hint">Nenhum ativo (clique nos nós)</span>';
+    } else {
+      fstBadgesRow.innerHTML = polyphonicSelectedNodes.map((n, i) => `
+        <span class="fst-badge-item" id="fstBadgeItem${i}" style="border-color:${n.cor}; box-shadow: 0 0 8px ${n.cor}33;">
+          <span class="fst-badge-idx">${slotSymbols[i]}</span>
+          <span style="color:${n.cor}; font-weight:800;">${n.id.replace('BRL','').replace('_Pts','')}</span>
+          <span class="fst-badge-note">[${n.nota}]</span>
+        </span>
+      `).join('');
+    }
+  }
 
   const btnDrone = document.getElementById('btnToggleDrone');
   if (btnDrone) {
@@ -775,9 +814,13 @@ function focusSpectralNode(nodeId) {
     }
   });
 
-  // 3. Tocar Sonificação Analítica
-  if (window.harmonicusAudio && !window.harmonicusAudio.isPolyDroneActive && typeof window.harmonicusAudio.playSpectralFocusChord === 'function') {
-    window.harmonicusAudio.playSpectralFocusChord(targetNode, relations);
+  // 3. Tocar Sonificação Analítica Musical Pura
+  if (window.harmonicusAudio && !window.harmonicusAudio.isPolyDroneActive) {
+    if (polyphonicSelectedNodes.length > 1 && typeof window.harmonicusAudio.playBankChord === 'function') {
+      window.harmonicusAudio.playBankChord(polyphonicSelectedNodes);
+    } else if (typeof window.harmonicusAudio.playNodeTone === 'function') {
+      window.harmonicusAudio.playNodeTone(targetNode.fundamental_hz, targetNode.nome);
+    }
   }
 }
 
