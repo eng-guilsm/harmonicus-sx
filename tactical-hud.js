@@ -456,7 +456,7 @@ function initPlanCanvasInteractions(plan, tf) {
 // 3. LIVE BACKGROUND AUTO-POLLER (Ignora Cache e Atualiza a UI sem Reload)
 // ------------------------------------------------------------------------------
 function startLiveTacticalSync() {
-  setInterval(async () => {
+  const doSync = async () => {
     try {
       const ts = Date.now();
       const res = await fetch(`data/planos_data.js?_t=${ts}`, { cache: 'no-store' });
@@ -481,5 +481,10 @@ function startLiveTacticalSync() {
     } catch (e) {
       console.warn('Live sync notice:', e);
     }
-  }, 20000);
+  };
+
+  // Sincroniza imediatamente no carregamento da página
+  doSync();
+  // E sincroniza continuamente a cada 10 segundos
+  setInterval(doSync, 10000);
 }

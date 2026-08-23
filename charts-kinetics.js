@@ -594,5 +594,22 @@ function startLiveBinancePoller() {
     }
   };
 
+  const fetchChartsData = async () => {
+    try {
+      const ts = Date.now();
+      const res = await fetch(`data/charts_data.js?_t=${ts}`, { cache: 'no-store' });
+      if (!res.ok) return;
+      const text = await res.text();
+      const scriptFn = new Function(text);
+      scriptFn();
+      if (!isDraggingKineticsZoom && hoveredDataIndex === -1) {
+        renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, window.ASSETS_KINETICS_DATA || {});
+      }
+    } catch (e) {
+      // Falha silenciosa
+    }
+  };
+
   kineticsPollerTimer = setInterval(fetchLive, 5000);
+  setInterval(fetchChartsData, 20000);
 }
