@@ -1,15 +1,15 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-23 21:10:12)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-23 21:11:31)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-23 21:10:12",
-  "total_brl": 1714.51,
+  "timestamp_str": "2026-08-23 21:11:31",
+  "total_brl": 1714.25,
   "aportado_brl": 1731.0,
-  "prejuizo_residual_brl": -16.49,
+  "prejuizo_residual_brl": -16.75,
   "caixa_brl": 972.21,
-  "caixa_pct": 56.7,
-  "btc_brl": 629.67,
+  "caixa_pct": 56.71,
+  "btc_brl": 629.34,
   "btc_qtd": 0.00157122,
-  "btc_pct": 36.73,
-  "paxg_brl": 108.96,
+  "btc_pct": 36.71,
+  "paxg_brl": 109.03,
   "paxg_qtd": 0.00456335,
   "paxg_pct": 6.36,
   "sol_brl": 0.18,
@@ -24,7 +24,7 @@ window.PORTFOLIO_STATE = {
       "nome": "Caixa Livre BRL",
       "qtd": null,
       "valor_brl": 972.21,
-      "pct": 56.7,
+      "pct": 56.71,
       "cor": "#10B981",
       "icone": "💵"
     },
@@ -32,8 +32,8 @@ window.PORTFOLIO_STATE = {
       "asset": "BTC",
       "nome": "Bitcoin Spot",
       "qtd": 0.00157122,
-      "valor_brl": 629.67,
-      "pct": 36.73,
+      "valor_brl": 629.34,
+      "pct": 36.71,
       "cor": "#F59E0B",
       "icone": "🪙"
     },
@@ -41,7 +41,7 @@ window.PORTFOLIO_STATE = {
       "asset": "PAXG",
       "nome": "Ouro PAXG (Earn/Spot)",
       "qtd": 0.00456335,
-      "valor_brl": 108.96,
+      "valor_brl": 109.03,
       "pct": 6.36,
       "cor": "#EAB308",
       "icone": "🥇"
@@ -66,11 +66,11 @@ window.PORTFOLIO_STATE = {
     }
   ],
   "cotacoes_ao_vivo": {
-    "BTCBRL": 400755.0,
-    "USDTBRL": 5.1605,
-    "PAXGBRL": 23878.149550000002,
-    "SOLBRL": 491.7,
-    "ETHBRL": 12691.84,
+    "BTCBRL": 400540.0,
+    "USDTBRL": 5.1604,
+    "PAXGBRL": 23892.652000000002,
+    "SOLBRL": 491.5,
+    "ETHBRL": 12681.14,
     "LINKBRL": 59.31,
     "BNBBRL": 3624.0,
     "ADABRL": 1.165,
@@ -103,12 +103,12 @@ window.PLANOS_TACTICAL_DATA = [
     "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 150 | Teto R$ 300)",
     "cooldown_horas": 1.0,
     "ponta_a_label": "Trade BTC ➔ PAXG",
-    "ponta_a_score": 97,
+    "ponta_a_score": 96,
     "ponta_b_label": "Trade PAXG ➔ BTC",
-    "ponta_b_score": 3,
-    "proximidade_score": 97,
-    "valor_atual_str": "Ratio 0.05958 (Z: -1.07σ)",
-    "distancia_display": "Z = -1.07σ (Meta: ±1.15σ)",
+    "ponta_b_score": 4,
+    "proximidade_score": 96,
+    "valor_atual_str": "Ratio 0.05965 (Z: -1.06σ)",
+    "distancia_display": "Z = -1.06σ (Meta: ±1.15σ)",
     "status": "SENTINELA_QUENTE",
     "icone": "🥇",
     "cor": "#F59E0B",
@@ -467,9 +467,9 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "time": "20:57",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05958 (Z: -1.07σ)"
+          "score_a": 96,
+          "score_b": 4,
+          "metric": "Ratio: 0.05965 (Z: -1.06σ)"
         }
       ],
       "24h": [
@@ -26073,8 +26073,8 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Trade USDT ➔ BRL",
     "ponta_b_score": 100,
     "proximidade_score": 100,
-    "valor_atual_str": "Spread: +0.0241 (USDT R$ 5.160)",
-    "distancia_display": "Spread: +0.0241 (Meta: ±0.0200)",
+    "valor_atual_str": "Spread: +0.0240 (USDT R$ 5.160)",
+    "distancia_display": "Spread: +0.0240 (Meta: ±0.0200)",
     "status": "SENTINELA_QUENTE",
     "icone": "💵",
     "cor": "#06B6D4",
@@ -26435,7 +26435,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:57",
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0241 (USDT R$ 5.160)"
+          "metric": "Spread: +0.0240 (USDT R$ 5.160)"
         }
       ],
       "24h": [
@@ -52039,8 +52039,8 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Trade SOL ➔ BRL",
     "ponta_b_score": 100,
     "proximidade_score": 100,
-    "valor_atual_str": "SOL/BTC: 0.001227 (Z: +1.31σ)",
-    "distancia_display": "Z = +1.31σ (Meta: ±1.15σ)",
+    "valor_atual_str": "SOL/BTC: 0.001227 (Z: +1.32σ)",
+    "distancia_display": "Z = +1.32σ (Meta: ±1.15σ)",
     "status": "SENTINELA_QUENTE",
     "icone": "🌌",
     "cor": "#EC4899",
@@ -52401,7 +52401,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:57",
           "score_a": 0,
           "score_b": 100,
-          "metric": "SOL/BTC: 0.001227 (Z: +1.31σ)"
+          "metric": "SOL/BTC: 0.001227 (Z: +1.32σ)"
         }
       ],
       "24h": [
@@ -65018,12 +65018,12 @@ window.PLANOS_TACTICAL_DATA = [
     "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 100 | Teto R$ 200)",
     "cooldown_horas": 0.25,
     "ponta_a_label": "Trade BRL ➔ SOL",
-    "ponta_a_score": 77,
+    "ponta_a_score": 85,
     "ponta_b_label": "Trade SOL ➔ BRL",
-    "ponta_b_score": 23,
-    "proximidade_score": 77,
-    "valor_atual_str": "SOL: R$ 491.70 (Z: -0.72σ)",
-    "distancia_display": "Z = -0.72σ (Meta: ±1.35σ)",
+    "ponta_b_score": 15,
+    "proximidade_score": 85,
+    "valor_atual_str": "SOL: R$ 491.50 (Z: -0.95σ)",
+    "distancia_display": "Z = -0.95σ (Meta: ±1.35σ)",
     "status": "SENTINELA_QUENTE",
     "icone": "⚡",
     "cor": "#A855F7",
@@ -65382,9 +65382,9 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "time": "20:57",
-          "score_a": 77,
-          "score_b": 23,
-          "metric": "SOL 1h: R$ 491.70 (Z: -0.72σ)"
+          "score_a": 85,
+          "score_b": 15,
+          "metric": "SOL 1h: R$ 491.50 (Z: -0.95σ)"
         }
       ],
       "24h": [
@@ -78001,12 +78001,12 @@ window.PLANOS_TACTICAL_DATA = [
     "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 150 | Teto R$ 300)",
     "cooldown_horas": 0.33,
     "ponta_a_label": "Trade BTC ➔ ETH",
-    "ponta_a_score": 1,
+    "ponta_a_score": 4,
     "ponta_b_label": "Trade ETH ➔ BRL",
-    "ponta_b_score": 99,
-    "proximidade_score": 99,
-    "valor_atual_str": "ETH/BTC: 0.03167 (Z: +1.07σ)",
-    "distancia_display": "Z = +1.07σ (Meta: ±1.10σ)",
+    "ponta_b_score": 96,
+    "proximidade_score": 96,
+    "valor_atual_str": "ETH/BTC: 0.03166 (Z: +1.01σ)",
+    "distancia_display": "Z = +1.01σ (Meta: ±1.10σ)",
     "status": "SENTINELA_QUENTE",
     "icone": "⚔️",
     "cor": "#3B82F6",
@@ -78365,9 +78365,9 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "time": "20:57",
-          "score_a": 1,
-          "score_b": 99,
-          "metric": "ETH/BTC: 0.03167 (Z: +1.07σ)"
+          "score_a": 4,
+          "score_b": 96,
+          "metric": "ETH/BTC: 0.03166 (Z: +1.01σ)"
         }
       ],
       "24h": [
@@ -90984,12 +90984,12 @@ window.PLANOS_TACTICAL_DATA = [
     "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 120 | Teto R$ 240)",
     "cooldown_horas": 0.25,
     "ponta_a_label": "Trade BRL ➔ BTC",
-    "ponta_a_score": 37,
+    "ponta_a_score": 45,
     "ponta_b_label": "Trade BTC ➔ BRL",
-    "ponta_b_score": 63,
-    "proximidade_score": 63,
-    "valor_atual_str": "Retorno 5m: +0.09%",
-    "distancia_display": "Retorno 5m: +0.09% (Meta: ±0.35%)",
+    "ponta_b_score": 55,
+    "proximidade_score": 55,
+    "valor_atual_str": "Retorno 5m: +0.03%",
+    "distancia_display": "Retorno 5m: +0.03% (Meta: ±0.35%)",
     "status": "SENTINELA_QUENTE",
     "icone": "🏹",
     "cor": "#EF4444",
@@ -91348,9 +91348,9 @@ window.PLANOS_TACTICAL_DATA = [
         },
         {
           "time": "20:57",
-          "score_a": 37,
-          "score_b": 63,
-          "metric": "Retorno 5m: +0.09%"
+          "score_a": 45,
+          "score_b": 55,
+          "metric": "Retorno 5m: +0.03%"
         }
       ],
       "24h": [
