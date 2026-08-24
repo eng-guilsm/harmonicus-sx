@@ -798,7 +798,7 @@ input[type="range"]::-webkit-slider-thumb {
 /* Tactical Bottom Grid */
 .tactical-bottom-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 16px;
   align-items: start;
 }
