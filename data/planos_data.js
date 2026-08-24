@@ -1,6 +1,6 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-23 22:38:55)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-23 22:39:05)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-23 22:38:55",
+  "timestamp_str": "2026-08-23 22:39:05",
   "total_brl": 1709.8,
   "aportado_brl": 1731.0,
   "prejuizo_residual_brl": -21.2,
@@ -67,10 +67,10 @@ window.PORTFOLIO_STATE = {
   ],
   "cotacoes_ao_vivo": {
     "BTCBRL": 398101.0,
-    "USDTBRL": 5.1583,
-    "PAXGBRL": 23760.109876999995,
+    "USDTBRL": 5.1584,
+    "PAXGBRL": 23761.034752,
     "SOLBRL": 486.1,
-    "ETHBRL": 12575.48,
+    "ETHBRL": 12564.45,
     "LINKBRL": 58.95,
     "BNBBRL": 3600.0,
     "ADABRL": 1.134,
