@@ -385,10 +385,18 @@ function drawPlanHistoryChart(plan, tf) {
   grad.addColorStop(0, `${plan.cor}44`);
   grad.addColorStop(1, `${plan.cor}00`);
 
+  const getTopScore = (p) => {
+    if (!p) return 0;
+    if (p.score_a !== undefined && p.score_b !== undefined) return Math.max(p.score_a, p.score_b);
+    if (p.score_a !== undefined) return p.score_a;
+    if (p.score !== undefined) return p.score;
+    return 0;
+  };
+
   ctx.beginPath();
-  ctx.moveTo(getX(0), getY(series[0].score));
+  ctx.moveTo(getX(0), getY(getTopScore(series[0])));
   for (let i = 1; i < series.length; i++) {
-    ctx.lineTo(getX(i), getY(series[i].score));
+    ctx.lineTo(getX(i), getY(getTopScore(series[i])));
   }
   ctx.lineTo(getX(series.length - 1), h - padBottom);
   ctx.lineTo(getX(0), h - padBottom);
@@ -402,9 +410,9 @@ function drawPlanHistoryChart(plan, tf) {
   if (hasBidi) {
     // 1. Curva da Ponta A (Verde Esmeralda)
     ctx.beginPath();
-    ctx.moveTo(getX(0), getY(series[0].score_a));
+    ctx.moveTo(getX(0), getY(series[0].score_a || 0));
     for (let i = 1; i < series.length; i++) {
-      ctx.lineTo(getX(i), getY(series[i].score_a));
+      ctx.lineTo(getX(i), getY(series[i].score_a || 0));
     }
     ctx.strokeStyle = '#10B981';
     ctx.lineWidth = 2.5;
@@ -415,9 +423,9 @@ function drawPlanHistoryChart(plan, tf) {
 
     // 2. Curva da Ponta B (Azul Ciano)
     ctx.beginPath();
-    ctx.moveTo(getX(0), getY(series[0].score_b));
+    ctx.moveTo(getX(0), getY(series[0].score_b || 0));
     for (let i = 1; i < series.length; i++) {
-      ctx.lineTo(getX(i), getY(series[i].score_b));
+      ctx.lineTo(getX(i), getY(series[i].score_b || 0));
     }
     ctx.strokeStyle = '#3B82F6';
     ctx.lineWidth = 2.5;
@@ -428,9 +436,9 @@ function drawPlanHistoryChart(plan, tf) {
   } else {
     // Curva única legada
     ctx.beginPath();
-    ctx.moveTo(getX(0), getY(series[0].score));
+    ctx.moveTo(getX(0), getY(getTopScore(series[0])));
     for (let i = 1; i < series.length; i++) {
-      ctx.lineTo(getX(i), getY(series[i].score));
+      ctx.lineTo(getX(i), getY(getTopScore(series[i])));
     }
     ctx.strokeStyle = plan.cor;
     ctx.lineWidth = 2.5;
@@ -447,7 +455,8 @@ function drawPlanHistoryChart(plan, tf) {
   const labelSteps = Math.min(5, series.length);
   const step = Math.max(1, Math.floor(series.length / (labelSteps - 1)));
   for (let i = 0; i < series.length; i += step) {
-    ctx.fillText(series[i].label, getX(i), h - 8);
+    const timeLabel = series[i].time || series[i].label || '';
+    ctx.fillText(timeLabel, getX(i), h - 8);
   }
 
   // Crosshair e Ponto de Inspeção em Hover
@@ -525,9 +534,10 @@ function initPlanCanvasInteractions(plan, tf) {
     const isTriggerA = scoreA >= 100;
     const isTriggerB = scoreB >= 100;
 
+    const timeLabel = pt.time || pt.label || '';
     tooltip.style.display = 'block';
     tooltip.innerHTML = `
-      <div style="color: #9CA3AF; font-size: 0.65rem; margin-bottom: 3px;">⏱️ ${pt.label}</div>
+      <div style="color: #9CA3AF; font-size: 0.65rem; margin-bottom: 3px;">⏱️ ${timeLabel}</div>
       <div style="color: #10B981; font-weight: 700; font-size: 0.75rem; margin-bottom: 2px;">🟢 Ponta A: ${scoreA}% ${isTriggerA ? '🔥 (GATILHO)' : ''}</div>
       <div style="color: #3B82F6; font-weight: 700; font-size: 0.75rem; margin-bottom: 3px;">🔵 Ponta B: ${scoreB}% ${isTriggerB ? '🔥 (GATILHO)' : ''}</div>
       ${pt.metric ? `<div style="color: #06B6D4; font-size: 0.68rem;">📊 ${pt.metric}</div>` : ''}
