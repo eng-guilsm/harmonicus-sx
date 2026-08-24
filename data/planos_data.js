@@ -1,17 +1,17 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-23 21:57:17)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-23 21:58:35)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-23 21:57:17",
-  "total_brl": 1713.19,
+  "timestamp_str": "2026-08-23 21:58:35",
+  "total_brl": 1713.23,
   "aportado_brl": 1731.0,
-  "prejuizo_residual_brl": -17.81,
+  "prejuizo_residual_brl": -17.77,
   "caixa_brl": 972.21,
   "caixa_pct": 56.75,
-  "btc_brl": 628.77,
+  "btc_brl": 628.84,
   "btc_qtd": 0.00157122,
   "btc_pct": 36.7,
-  "paxg_brl": 108.54,
+  "paxg_brl": 108.51,
   "paxg_qtd": 0.00456335,
-  "paxg_pct": 6.34,
+  "paxg_pct": 6.33,
   "sol_brl": 0.18,
   "sol_qtd": 0.00036,
   "sol_pct": 0.01,
@@ -32,7 +32,7 @@ window.PORTFOLIO_STATE = {
       "asset": "BTC",
       "nome": "Bitcoin Spot",
       "qtd": 0.00157122,
-      "valor_brl": 628.77,
+      "valor_brl": 628.84,
       "pct": 36.7,
       "cor": "#F59E0B",
       "icone": "🪙"
@@ -41,8 +41,8 @@ window.PORTFOLIO_STATE = {
       "asset": "PAXG",
       "nome": "Ouro PAXG (Earn/Spot)",
       "qtd": 0.00456335,
-      "valor_brl": 108.54,
-      "pct": 6.34,
+      "valor_brl": 108.51,
+      "pct": 6.33,
       "cor": "#EAB308",
       "icone": "🥇"
     },
@@ -66,14 +66,14 @@ window.PORTFOLIO_STATE = {
     }
   ],
   "cotacoes_ao_vivo": {
-    "BTCBRL": 400181.0,
+    "BTCBRL": 400223.0,
     "USDTBRL": 5.1597,
-    "PAXGBRL": 23786.062209,
-    "SOLBRL": 491.5,
-    "ETHBRL": 12684.39,
+    "PAXGBRL": 23778.219465,
+    "SOLBRL": 492.1,
+    "ETHBRL": 12695.71,
     "LINKBRL": 59.05,
-    "BNBBRL": 3628.0,
-    "ADABRL": 1.153,
+    "BNBBRL": 3630.0,
+    "ADABRL": 1.156,
     "VIX": 15.130000114440918,
     "USDBRL_COMERCIAL": 5.1364
   },
@@ -107,8 +107,8 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Trade PAXG ➔ BTC",
     "ponta_b_score": 2,
     "proximidade_score": 98,
-    "valor_atual_str": "Ratio 0.05944 (Z: -1.10σ)",
-    "distancia_display": "Z = -1.10σ (Meta: ±1.15σ)",
+    "valor_atual_str": "Ratio 0.05941 (Z: -1.11σ)",
+    "distancia_display": "Z = -1.11σ (Meta: ±1.15σ)",
     "status": "SENTINELA_QUENTE",
     "icone": "🥇",
     "cor": "#F59E0B",
@@ -118,4473 +118,3957 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "time": "19:57",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05947 (Z: -1.11σ)"
-        },
-        {
-          "time": "19:58",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05948 (Z: -1.10σ)"
-        },
-        {
-          "time": "19:59",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05947 (Z: -1.11σ)"
-        },
-        {
-          "time": "20:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05948 (Z: -1.10σ)"
-        },
-        {
-          "time": "20:01",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05949 (Z: -1.10σ)"
-        },
-        {
-          "time": "20:02",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05956 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:02",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05956 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:03",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05958 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:05",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05959 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:06",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05957 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:07",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05961 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:08",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05960 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:09",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05956 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:10",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05953 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:11",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05959 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:12",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05962 (Z: -1.07σ)"
-        },
-        {
-          "time": "20:13",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05960 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:14",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05959 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:15",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05957 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:16",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05953 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:17",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05956 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:18",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05951 (Z: -1.10σ)"
-        },
-        {
-          "time": "20:19",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05949 (Z: -1.10σ)"
-        },
-        {
-          "time": "20:20",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05953 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:21",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05953 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:22",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05954 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:23",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05955 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:24",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05956 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:25",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05957 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:27",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05955 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:28",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05950 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:29",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05949 (Z: -1.10σ)"
-        },
-        {
-          "time": "20:30",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05942 (Z: -1.11σ)"
-        },
-        {
-          "time": "20:31",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.05937 (Z: -1.12σ)"
-        },
-        {
-          "time": "20:32",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.05934 (Z: -1.13σ)"
-        },
-        {
-          "time": "20:33",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.05939 (Z: -1.12σ)"
-        },
-        {
-          "time": "20:34",
+          "time": "21:57",
           "score_a": 98,
           "score_b": 2,
           "metric": "Ratio: 0.05941 (Z: -1.11σ)"
-        },
-        {
-          "time": "20:35",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05941 (Z: -1.11σ)"
-        },
-        {
-          "time": "20:36",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05947 (Z: -1.10σ)"
-        },
-        {
-          "time": "20:37",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05946 (Z: -1.10σ)"
-        },
-        {
-          "time": "20:38",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05949 (Z: -1.10σ)"
-        },
-        {
-          "time": "20:39",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05955 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:40",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05954 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:41",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05953 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:43",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05955 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:44",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05959 (Z: -1.07σ)"
-        },
-        {
-          "time": "20:45",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05955 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:46",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05955 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:47",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05951 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:48",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05951 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:49",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05952 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:50",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05950 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:51",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05945 (Z: -1.10σ)"
-        },
-        {
-          "time": "20:51",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05949 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:53",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05950 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:54",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05952 (Z: -1.09σ)"
-        },
-        {
-          "time": "20:55",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05944 (Z: -1.10σ)"
-        },
-        {
-          "time": "20:56",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05941 (Z: -1.11σ)"
-        },
-        {
-          "time": "20:57",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05944 (Z: -1.10σ)"
         }
       ],
       "24h": [
         {
-          "time": "20:58",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.34σ)"
-        },
-        {
-          "time": "21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05983 (Z: -1.33σ)"
-        },
-        {
-          "time": "21:02",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05979 (Z: -1.34σ)"
-        },
-        {
-          "time": "21:04",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.34σ)"
-        },
-        {
-          "time": "21:06",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05978 (Z: -1.34σ)"
-        },
-        {
-          "time": "21:08",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05979 (Z: -1.34σ)"
-        },
-        {
-          "time": "21:10",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05982 (Z: -1.33σ)"
-        },
-        {
-          "time": "21:12",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05983 (Z: -1.33σ)"
-        },
-        {
-          "time": "21:14",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.33σ)"
-        },
-        {
-          "time": "21:16",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05982 (Z: -1.33σ)"
-        },
-        {
-          "time": "21:19",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.33σ)"
-        },
-        {
-          "time": "21:21",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.33σ)"
-        },
-        {
-          "time": "21:23",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.33σ)"
-        },
-        {
-          "time": "21:25",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -1.34σ)"
-        },
-        {
-          "time": "21:27",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.35σ)"
-        },
-        {
-          "time": "21:29",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.35σ)"
-        },
-        {
-          "time": "21:31",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.35σ)"
-        },
-        {
-          "time": "21:33",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.35σ)"
-        },
-        {
-          "time": "21:35",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.36σ)"
-        },
-        {
-          "time": "21:37",
+          "time": "21:58",
           "score_a": 100,
           "score_b": 0,
           "metric": "Ratio: 0.05967 (Z: -1.36σ)"
         },
         {
-          "time": "21:39",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.35σ)"
-        },
-        {
-          "time": "21:41",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.35σ)"
-        },
-        {
-          "time": "21:44",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05966 (Z: -1.36σ)"
-        },
-        {
-          "time": "21:46",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.35σ)"
-        },
-        {
-          "time": "21:48",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.35σ)"
-        },
-        {
-          "time": "21:50",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05966 (Z: -1.36σ)"
-        },
-        {
-          "time": "21:52",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.36σ)"
-        },
-        {
-          "time": "21:54",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05963 (Z: -1.36σ)"
-        },
-        {
-          "time": "21:56",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05966 (Z: -1.35σ)"
-        },
-        {
-          "time": "21:58",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.36σ)"
-        },
-        {
           "time": "22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.35σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.35σ)"
         },
         {
           "time": "22:03",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.34σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.34σ)"
         },
         {
           "time": "22:05",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05973 (Z: -1.34σ)"
+          "metric": "Ratio: 0.05975 (Z: -1.34σ)"
         },
         {
           "time": "22:07",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.34σ)"
+          "metric": "Ratio: 0.05974 (Z: -1.34σ)"
         },
         {
           "time": "22:09",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.34σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.34σ)"
         },
         {
           "time": "22:11",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.34σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.34σ)"
         },
         {
           "time": "22:13",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.34σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.34σ)"
         },
         {
           "time": "22:15",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05961 (Z: -1.36σ)"
+          "metric": "Ratio: 0.05963 (Z: -1.36σ)"
         },
         {
           "time": "22:17",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05966 (Z: -1.35σ)"
+          "metric": "Ratio: 0.05968 (Z: -1.35σ)"
         },
         {
           "time": "22:19",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05966 (Z: -1.35σ)"
+          "metric": "Ratio: 0.05968 (Z: -1.35σ)"
         },
         {
           "time": "22:21",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05964 (Z: -1.35σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.35σ)"
         },
         {
           "time": "22:23",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05966 (Z: -1.35σ)"
+          "metric": "Ratio: 0.05968 (Z: -1.35σ)"
         },
         {
           "time": "22:25",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.34σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.34σ)"
         },
         {
           "time": "22:28",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.34σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.34σ)"
         },
         {
           "time": "22:30",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.34σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.34σ)"
         },
         {
           "time": "22:32",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.34σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.34σ)"
         },
         {
           "time": "22:34",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05973 (Z: -1.33σ)"
+          "metric": "Ratio: 0.05975 (Z: -1.33σ)"
         },
         {
           "time": "22:36",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.33σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.33σ)"
         },
         {
           "time": "22:38",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.33σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.33σ)"
         },
         {
           "time": "22:40",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.33σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.33σ)"
         },
         {
           "time": "22:42",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -1.32σ)"
+          "metric": "Ratio: 0.05977 (Z: -1.32σ)"
         },
         {
           "time": "22:44",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.33σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.33σ)"
         },
         {
           "time": "22:46",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.34σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.34σ)"
         },
         {
           "time": "22:49",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.33σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.33σ)"
         },
         {
           "time": "22:51",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.33σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.33σ)"
         },
         {
           "time": "22:53",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.33σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.33σ)"
         },
         {
           "time": "22:55",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.33σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.33σ)"
         },
         {
           "time": "22:57",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -1.32σ)"
+          "metric": "Ratio: 0.05977 (Z: -1.32σ)"
         },
         {
           "time": "22:59",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05974 (Z: -1.32σ)"
+          "metric": "Ratio: 0.05976 (Z: -1.32σ)"
         },
         {
           "time": "23:01",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05974 (Z: -1.32σ)"
+          "metric": "Ratio: 0.05976 (Z: -1.32σ)"
         },
         {
           "time": "23:03",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -1.32σ)"
+          "metric": "Ratio: 0.05977 (Z: -1.32σ)"
         },
         {
           "time": "23:05",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05978 (Z: -1.31σ)"
+          "metric": "Ratio: 0.05980 (Z: -1.31σ)"
         },
         {
           "time": "23:07",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05979 (Z: -1.31σ)"
+          "metric": "Ratio: 0.05981 (Z: -1.31σ)"
         },
         {
           "time": "23:10",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.30σ)"
+          "metric": "Ratio: 0.05982 (Z: -1.30σ)"
         },
         {
           "time": "23:12",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.30σ)"
+          "metric": "Ratio: 0.05983 (Z: -1.30σ)"
         },
         {
           "time": "23:14",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.30σ)"
+          "metric": "Ratio: 0.05982 (Z: -1.30σ)"
         },
         {
           "time": "23:16",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05979 (Z: -1.30σ)"
+          "metric": "Ratio: 0.05981 (Z: -1.30σ)"
         },
         {
           "time": "23:18",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05979 (Z: -1.30σ)"
+          "metric": "Ratio: 0.05981 (Z: -1.30σ)"
         },
         {
           "time": "23:20",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.30σ)"
+          "metric": "Ratio: 0.05983 (Z: -1.30σ)"
         },
         {
           "time": "23:22",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05984 (Z: -1.29σ)"
+          "metric": "Ratio: 0.05986 (Z: -1.29σ)"
         },
         {
           "time": "23:24",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05984 (Z: -1.29σ)"
+          "metric": "Ratio: 0.05986 (Z: -1.29σ)"
         },
         {
           "time": "23:26",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05979 (Z: -1.30σ)"
+          "metric": "Ratio: 0.05981 (Z: -1.30σ)"
         },
         {
           "time": "23:29",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.30σ)"
+          "metric": "Ratio: 0.05983 (Z: -1.30σ)"
         },
         {
           "time": "23:31",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05978 (Z: -1.30σ)"
+          "metric": "Ratio: 0.05980 (Z: -1.30σ)"
         },
         {
           "time": "23:33",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05973 (Z: -1.31σ)"
+          "metric": "Ratio: 0.05975 (Z: -1.31σ)"
         },
         {
           "time": "23:35",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05973 (Z: -1.31σ)"
+          "metric": "Ratio: 0.05975 (Z: -1.31σ)"
         },
         {
           "time": "23:37",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05973 (Z: -1.31σ)"
+          "metric": "Ratio: 0.05975 (Z: -1.31σ)"
         },
         {
           "time": "23:39",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05974 (Z: -1.31σ)"
+          "metric": "Ratio: 0.05976 (Z: -1.31σ)"
         },
         {
           "time": "23:41",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05974 (Z: -1.31σ)"
+          "metric": "Ratio: 0.05976 (Z: -1.31σ)"
         },
         {
           "time": "23:43",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -1.31σ)"
+          "metric": "Ratio: 0.05977 (Z: -1.31σ)"
         },
         {
           "time": "23:46",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -1.31σ)"
+          "metric": "Ratio: 0.05977 (Z: -1.31σ)"
         },
         {
           "time": "23:48",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05974 (Z: -1.31σ)"
+          "metric": "Ratio: 0.05976 (Z: -1.31σ)"
         },
         {
           "time": "23:50",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05976 (Z: -1.30σ)"
+          "metric": "Ratio: 0.05978 (Z: -1.30σ)"
         },
         {
           "time": "23:52",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05974 (Z: -1.31σ)"
+          "metric": "Ratio: 0.05976 (Z: -1.31σ)"
         },
         {
           "time": "23:54",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.29σ)"
+          "metric": "Ratio: 0.05983 (Z: -1.29σ)"
         },
         {
           "time": "23:56",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05982 (Z: -1.29σ)"
+          "metric": "Ratio: 0.05984 (Z: -1.29σ)"
         },
         {
           "time": "23:58",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.29σ)"
+          "metric": "Ratio: 0.05983 (Z: -1.29σ)"
         },
         {
           "time": "00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.29σ)"
+          "metric": "Ratio: 0.05983 (Z: -1.29σ)"
         },
         {
           "time": "00:02",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.29σ)"
+          "metric": "Ratio: 0.05982 (Z: -1.29σ)"
         },
         {
           "time": "00:05",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.29σ)"
+          "metric": "Ratio: 0.05983 (Z: -1.29σ)"
         },
         {
           "time": "00:07",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05983 (Z: -1.28σ)"
+          "metric": "Ratio: 0.05985 (Z: -1.28σ)"
         },
         {
           "time": "00:09",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05985 (Z: -1.28σ)"
+          "metric": "Ratio: 0.05987 (Z: -1.28σ)"
         },
         {
           "time": "00:11",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05985 (Z: -1.28σ)"
+          "metric": "Ratio: 0.05987 (Z: -1.28σ)"
         },
         {
           "time": "00:13",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05983 (Z: -1.28σ)"
+          "metric": "Ratio: 0.05985 (Z: -1.28σ)"
         },
         {
           "time": "00:15",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.29σ)"
+          "metric": "Ratio: 0.05983 (Z: -1.29σ)"
         },
         {
           "time": "00:17",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05979 (Z: -1.29σ)"
+          "metric": "Ratio: 0.05980 (Z: -1.29σ)"
         },
         {
           "time": "00:19",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.29σ)"
+          "metric": "Ratio: 0.05982 (Z: -1.29σ)"
         },
         {
           "time": "00:21",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05983 (Z: -1.28σ)"
+          "metric": "Ratio: 0.05985 (Z: -1.28σ)"
         },
         {
           "time": "00:24",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05986 (Z: -1.27σ)"
+          "metric": "Ratio: 0.05988 (Z: -1.27σ)"
         },
         {
           "time": "00:26",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05984 (Z: -1.28σ)"
+          "metric": "Ratio: 0.05986 (Z: -1.28σ)"
         },
         {
           "time": "00:28",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05987 (Z: -1.27σ)"
+          "metric": "Ratio: 0.05989 (Z: -1.27σ)"
         },
         {
           "time": "00:30",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05987 (Z: -1.27σ)"
+          "metric": "Ratio: 0.05989 (Z: -1.27σ)"
         },
         {
           "time": "00:32",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05991 (Z: -1.26σ)"
+          "metric": "Ratio: 0.05993 (Z: -1.26σ)"
         },
         {
           "time": "00:34",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05991 (Z: -1.26σ)"
+          "metric": "Ratio: 0.05993 (Z: -1.26σ)"
         },
         {
           "time": "00:36",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05991 (Z: -1.26σ)"
+          "metric": "Ratio: 0.05993 (Z: -1.26σ)"
         },
         {
           "time": "00:38",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05988 (Z: -1.27σ)"
+          "metric": "Ratio: 0.05990 (Z: -1.27σ)"
         },
         {
           "time": "00:40",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05994 (Z: -1.25σ)"
+          "metric": "Ratio: 0.05996 (Z: -1.25σ)"
         },
         {
           "time": "00:42",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05994 (Z: -1.25σ)"
+          "metric": "Ratio: 0.05996 (Z: -1.25σ)"
         },
         {
           "time": "00:45",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05996 (Z: -1.25σ)"
+          "metric": "Ratio: 0.05998 (Z: -1.25σ)"
         },
         {
           "time": "00:47",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05990 (Z: -1.26σ)"
+          "metric": "Ratio: 0.05992 (Z: -1.26σ)"
         },
         {
           "time": "00:49",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05991 (Z: -1.26σ)"
+          "metric": "Ratio: 0.05993 (Z: -1.26σ)"
         },
         {
           "time": "00:51",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05990 (Z: -1.26σ)"
+          "metric": "Ratio: 0.05992 (Z: -1.26σ)"
         },
         {
           "time": "00:53",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05991 (Z: -1.26σ)"
+          "metric": "Ratio: 0.05993 (Z: -1.26σ)"
         },
         {
           "time": "00:55",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05991 (Z: -1.25σ)"
+          "metric": "Ratio: 0.05993 (Z: -1.25σ)"
         },
         {
           "time": "00:57",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05992 (Z: -1.25σ)"
+          "metric": "Ratio: 0.05994 (Z: -1.25σ)"
         },
         {
           "time": "00:59",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05992 (Z: -1.25σ)"
+          "metric": "Ratio: 0.05994 (Z: -1.25σ)"
         },
         {
           "time": "01:01",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05992 (Z: -1.25σ)"
+          "metric": "Ratio: 0.05994 (Z: -1.25σ)"
         },
         {
           "time": "01:04",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05994 (Z: -1.25σ)"
+          "metric": "Ratio: 0.05996 (Z: -1.25σ)"
         },
         {
           "time": "01:06",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05995 (Z: -1.24σ)"
+          "metric": "Ratio: 0.05997 (Z: -1.24σ)"
         },
         {
           "time": "01:08",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05995 (Z: -1.24σ)"
+          "metric": "Ratio: 0.05997 (Z: -1.24σ)"
         },
         {
           "time": "01:10",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05998 (Z: -1.24σ)"
+          "metric": "Ratio: 0.06000 (Z: -1.24σ)"
         },
         {
           "time": "01:12",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05997 (Z: -1.24σ)"
+          "metric": "Ratio: 0.05999 (Z: -1.24σ)"
         },
         {
           "time": "01:14",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05986 (Z: -1.26σ)"
+          "metric": "Ratio: 0.05988 (Z: -1.26σ)"
         },
         {
           "time": "01:16",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05988 (Z: -1.25σ)"
+          "metric": "Ratio: 0.05990 (Z: -1.25σ)"
         },
         {
           "time": "01:18",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05992 (Z: -1.25σ)"
+          "metric": "Ratio: 0.05994 (Z: -1.25σ)"
         },
         {
           "time": "01:20",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05999 (Z: -1.23σ)"
+          "metric": "Ratio: 0.06001 (Z: -1.23σ)"
         },
         {
           "time": "01:23",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05998 (Z: -1.23σ)"
+          "metric": "Ratio: 0.06000 (Z: -1.23σ)"
         },
         {
           "time": "01:25",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05995 (Z: -1.24σ)"
+          "metric": "Ratio: 0.05997 (Z: -1.24σ)"
         },
         {
           "time": "01:27",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05990 (Z: -1.25σ)"
+          "metric": "Ratio: 0.05992 (Z: -1.25σ)"
         },
         {
           "time": "01:29",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05989 (Z: -1.25σ)"
+          "metric": "Ratio: 0.05991 (Z: -1.25σ)"
         },
         {
           "time": "01:31",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05992 (Z: -1.24σ)"
+          "metric": "Ratio: 0.05994 (Z: -1.24σ)"
         },
         {
           "time": "01:33",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05994 (Z: -1.24σ)"
+          "metric": "Ratio: 0.05996 (Z: -1.24σ)"
         },
         {
           "time": "01:35",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05998 (Z: -1.23σ)"
+          "metric": "Ratio: 0.06000 (Z: -1.23σ)"
         },
         {
           "time": "01:37",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05997 (Z: -1.23σ)"
+          "metric": "Ratio: 0.05999 (Z: -1.23σ)"
         },
         {
           "time": "01:39",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05996 (Z: -1.23σ)"
+          "metric": "Ratio: 0.05998 (Z: -1.23σ)"
         },
         {
           "time": "01:42",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05996 (Z: -1.23σ)"
+          "metric": "Ratio: 0.05998 (Z: -1.23σ)"
         },
         {
           "time": "01:44",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05998 (Z: -1.23σ)"
+          "metric": "Ratio: 0.06000 (Z: -1.23σ)"
         },
         {
           "time": "01:46",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06007 (Z: -1.21σ)"
+          "metric": "Ratio: 0.06009 (Z: -1.21σ)"
         },
         {
           "time": "01:48",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06005 (Z: -1.21σ)"
+          "metric": "Ratio: 0.06007 (Z: -1.21σ)"
         },
         {
           "time": "01:50",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06007 (Z: -1.21σ)"
+          "metric": "Ratio: 0.06009 (Z: -1.21σ)"
         },
         {
           "time": "01:52",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06008 (Z: -1.20σ)"
+          "metric": "Ratio: 0.06010 (Z: -1.20σ)"
         },
         {
           "time": "01:54",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06007 (Z: -1.21σ)"
+          "metric": "Ratio: 0.06009 (Z: -1.21σ)"
         },
         {
           "time": "01:56",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06010 (Z: -1.20σ)"
+          "metric": "Ratio: 0.06012 (Z: -1.20σ)"
         },
         {
           "time": "01:58",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06012 (Z: -1.19σ)"
+          "metric": "Ratio: 0.06014 (Z: -1.19σ)"
         },
         {
           "time": "02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06007 (Z: -1.20σ)"
+          "metric": "Ratio: 0.06009 (Z: -1.20σ)"
         },
         {
           "time": "02:03",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06019 (Z: -1.18σ)"
+          "metric": "Ratio: 0.06021 (Z: -1.18σ)"
         },
         {
           "time": "02:05",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06010 (Z: -1.20σ)"
+          "metric": "Ratio: 0.06012 (Z: -1.20σ)"
         },
         {
           "time": "02:07",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06014 (Z: -1.19σ)"
+          "metric": "Ratio: 0.06016 (Z: -1.19σ)"
         },
         {
           "time": "02:09",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06028 (Z: -1.16σ)"
+          "metric": "Ratio: 0.06030 (Z: -1.16σ)"
         },
         {
           "time": "02:11",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06030 (Z: -1.15σ)"
+          "metric": "Ratio: 0.06032 (Z: -1.15σ)"
         },
         {
           "time": "02:13",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06028 (Z: -1.16σ)"
+          "metric": "Ratio: 0.06030 (Z: -1.16σ)"
         },
         {
           "time": "02:15",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06051 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06053 (Z: -1.11σ)"
         },
         {
           "time": "02:17",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.06068 (Z: -1.07σ)"
+          "metric": "Ratio: 0.06070 (Z: -1.07σ)"
         },
         {
           "time": "02:19",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06051 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06053 (Z: -1.11σ)"
         },
         {
           "time": "02:22",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06044 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06046 (Z: -1.12σ)"
         },
         {
           "time": "02:24",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06040 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06042 (Z: -1.13σ)"
         },
         {
           "time": "02:26",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06037 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06039 (Z: -1.13σ)"
         },
         {
           "time": "02:28",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06036 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06038 (Z: -1.14σ)"
         },
         {
           "time": "02:30",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06034 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06036 (Z: -1.14σ)"
         },
         {
           "time": "02:32",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06033 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06035 (Z: -1.14σ)"
         },
         {
           "time": "02:34",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06034 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06036 (Z: -1.14σ)"
         },
         {
           "time": "02:36",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06039 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06041 (Z: -1.13σ)"
         },
         {
           "time": "02:38",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06039 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06041 (Z: -1.13σ)"
         },
         {
           "time": "02:40",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06040 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06042 (Z: -1.12σ)"
         },
         {
           "time": "02:43",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06042 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06044 (Z: -1.12σ)"
         },
         {
           "time": "02:45",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06043 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06045 (Z: -1.12σ)"
         },
         {
           "time": "02:47",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06044 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06046 (Z: -1.12σ)"
         },
         {
           "time": "02:49",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06040 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06042 (Z: -1.12σ)"
         },
         {
           "time": "02:51",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06037 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06039 (Z: -1.13σ)"
         },
         {
           "time": "02:53",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06045 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06047 (Z: -1.11σ)"
         },
         {
           "time": "02:55",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06045 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06047 (Z: -1.11σ)"
         },
         {
           "time": "02:57",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06046 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06048 (Z: -1.11σ)"
         },
         {
           "time": "02:59",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06047 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06049 (Z: -1.11σ)"
         },
         {
           "time": "03:02",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06050 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06052 (Z: -1.10σ)"
         },
         {
           "time": "03:04",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06049 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06051 (Z: -1.10σ)"
         },
         {
           "time": "03:06",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06048 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06050 (Z: -1.10σ)"
         },
         {
           "time": "03:08",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.06058 (Z: -1.08σ)"
+          "metric": "Ratio: 0.06060 (Z: -1.08σ)"
         },
         {
           "time": "03:10",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.06058 (Z: -1.08σ)"
+          "metric": "Ratio: 0.06060 (Z: -1.08σ)"
         },
         {
           "time": "03:12",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.06058 (Z: -1.08σ)"
+          "metric": "Ratio: 0.06060 (Z: -1.08σ)"
         },
         {
           "time": "03:14",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06046 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06048 (Z: -1.11σ)"
         },
         {
           "time": "03:16",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06041 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06043 (Z: -1.12σ)"
         },
         {
           "time": "03:18",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06042 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06044 (Z: -1.11σ)"
         },
         {
           "time": "03:21",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06034 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06036 (Z: -1.13σ)"
         },
         {
           "time": "03:23",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06038 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06040 (Z: -1.12σ)"
         },
         {
           "time": "03:25",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06035 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06037 (Z: -1.13σ)"
         },
         {
           "time": "03:27",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06040 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06042 (Z: -1.12σ)"
         },
         {
           "time": "03:29",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06041 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06043 (Z: -1.11σ)"
         },
         {
           "time": "03:31",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06031 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06033 (Z: -1.13σ)"
         },
         {
           "time": "03:33",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06030 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06032 (Z: -1.14σ)"
         },
         {
           "time": "03:35",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06030 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06032 (Z: -1.13σ)"
         },
         {
           "time": "03:37",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06035 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06037 (Z: -1.12σ)"
         },
         {
           "time": "03:40",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06038 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06040 (Z: -1.12σ)"
         },
         {
           "time": "03:42",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06033 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06035 (Z: -1.13σ)"
         },
         {
           "time": "03:44",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06036 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06038 (Z: -1.12σ)"
         },
         {
           "time": "03:46",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06037 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06039 (Z: -1.12σ)"
         },
         {
           "time": "03:48",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06037 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06039 (Z: -1.12σ)"
         },
         {
           "time": "03:50",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06040 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06042 (Z: -1.11σ)"
         },
         {
           "time": "03:52",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06040 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06042 (Z: -1.11σ)"
         },
         {
           "time": "03:54",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06042 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06044 (Z: -1.11σ)"
         },
         {
           "time": "03:56",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06045 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06047 (Z: -1.10σ)"
         },
         {
           "time": "03:59",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.06050 (Z: -1.09σ)"
+          "metric": "Ratio: 0.06052 (Z: -1.09σ)"
         },
         {
           "time": "04:01",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.06049 (Z: -1.09σ)"
+          "metric": "Ratio: 0.06051 (Z: -1.09σ)"
         },
         {
           "time": "04:03",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.06050 (Z: -1.09σ)"
+          "metric": "Ratio: 0.06052 (Z: -1.09σ)"
         },
         {
           "time": "04:05",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06043 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06045 (Z: -1.10σ)"
         },
         {
           "time": "04:07",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06036 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06038 (Z: -1.12σ)"
         },
         {
           "time": "04:09",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06038 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06040 (Z: -1.11σ)"
         },
         {
           "time": "04:11",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06037 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06039 (Z: -1.11σ)"
         },
         {
           "time": "04:13",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06033 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06035 (Z: -1.12σ)"
         },
         {
           "time": "04:15",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06030 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06032 (Z: -1.13σ)"
         },
         {
           "time": "04:17",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06029 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06031 (Z: -1.13σ)"
         },
         {
           "time": "04:19",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06029 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06031 (Z: -1.13σ)"
         },
         {
           "time": "04:22",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06036 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06038 (Z: -1.11σ)"
         },
         {
           "time": "04:24",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06035 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06037 (Z: -1.12σ)"
         },
         {
           "time": "04:26",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06034 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06036 (Z: -1.12σ)"
         },
         {
           "time": "04:28",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06037 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06039 (Z: -1.11σ)"
         },
         {
           "time": "04:30",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06037 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06039 (Z: -1.11σ)"
         },
         {
           "time": "04:32",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06039 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06041 (Z: -1.10σ)"
         },
         {
           "time": "04:34",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06043 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06045 (Z: -1.10σ)"
         },
         {
           "time": "04:36",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06044 (Z: -1.09σ)"
+          "metric": "Ratio: 0.06046 (Z: -1.09σ)"
         },
         {
           "time": "04:38",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06044 (Z: -1.09σ)"
+          "metric": "Ratio: 0.06046 (Z: -1.09σ)"
         },
         {
           "time": "04:41",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06043 (Z: -1.09σ)"
+          "metric": "Ratio: 0.06045 (Z: -1.09σ)"
         },
         {
           "time": "04:43",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.06047 (Z: -1.09σ)"
+          "metric": "Ratio: 0.06049 (Z: -1.09σ)"
         },
         {
           "time": "04:45",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.06048 (Z: -1.08σ)"
+          "metric": "Ratio: 0.06050 (Z: -1.08σ)"
         },
         {
           "time": "04:47",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.06047 (Z: -1.08σ)"
+          "metric": "Ratio: 0.06049 (Z: -1.08σ)"
         },
         {
           "time": "04:49",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.06048 (Z: -1.08σ)"
+          "metric": "Ratio: 0.06050 (Z: -1.08σ)"
         },
         {
           "time": "04:51",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.06044 (Z: -1.09σ)"
+          "metric": "Ratio: 0.06046 (Z: -1.09σ)"
         },
         {
           "time": "04:53",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.06044 (Z: -1.09σ)"
+          "metric": "Ratio: 0.06046 (Z: -1.09σ)"
         },
         {
           "time": "04:55",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.06052 (Z: -1.07σ)"
+          "metric": "Ratio: 0.06054 (Z: -1.07σ)"
         },
         {
           "time": "04:57",
           "score_a": 96,
           "score_b": 4,
-          "metric": "Ratio: 0.06057 (Z: -1.06σ)"
+          "metric": "Ratio: 0.06059 (Z: -1.06σ)"
         },
         {
           "time": "05:00",
           "score_a": 96,
           "score_b": 4,
-          "metric": "Ratio: 0.06053 (Z: -1.07σ)"
+          "metric": "Ratio: 0.06055 (Z: -1.07σ)"
         },
         {
           "time": "05:02",
           "score_a": 96,
           "score_b": 4,
-          "metric": "Ratio: 0.06055 (Z: -1.06σ)"
+          "metric": "Ratio: 0.06057 (Z: -1.06σ)"
         },
         {
           "time": "05:04",
           "score_a": 96,
           "score_b": 4,
-          "metric": "Ratio: 0.06053 (Z: -1.07σ)"
+          "metric": "Ratio: 0.06055 (Z: -1.07σ)"
         },
         {
           "time": "05:06",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.06046 (Z: -1.08σ)"
+          "metric": "Ratio: 0.06048 (Z: -1.08σ)"
         },
         {
           "time": "05:08",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.06044 (Z: -1.09σ)"
+          "metric": "Ratio: 0.06046 (Z: -1.09σ)"
         },
         {
           "time": "05:10",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06033 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06035 (Z: -1.11σ)"
         },
         {
           "time": "05:12",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06036 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06038 (Z: -1.10σ)"
         },
         {
           "time": "05:14",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06038 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06040 (Z: -1.10σ)"
         },
         {
           "time": "05:16",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06036 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06038 (Z: -1.10σ)"
         },
         {
           "time": "05:18",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06032 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06034 (Z: -1.11σ)"
         },
         {
           "time": "05:21",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06036 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06038 (Z: -1.10σ)"
         },
         {
           "time": "05:23",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06036 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06038 (Z: -1.10σ)"
         },
         {
           "time": "05:25",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06037 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06039 (Z: -1.10σ)"
         },
         {
           "time": "05:27",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06036 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06038 (Z: -1.10σ)"
         },
         {
           "time": "05:29",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06036 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06038 (Z: -1.10σ)"
         },
         {
           "time": "05:31",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06037 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06039 (Z: -1.10σ)"
         },
         {
           "time": "05:33",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06035 (Z: -1.10σ)"
+          "metric": "Ratio: 0.06037 (Z: -1.10σ)"
         },
         {
           "time": "05:35",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06032 (Z: -1.11σ)"
+          "metric": "Ratio: 0.06034 (Z: -1.11σ)"
         },
         {
           "time": "05:37",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06024 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06026 (Z: -1.12σ)"
         },
         {
           "time": "05:40",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06023 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06025 (Z: -1.12σ)"
         },
         {
           "time": "05:42",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06017 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06019 (Z: -1.14σ)"
         },
         {
           "time": "05:44",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06017 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06019 (Z: -1.14σ)"
         },
         {
           "time": "05:46",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06013 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06015 (Z: -1.14σ)"
         },
         {
           "time": "05:48",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06017 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06019 (Z: -1.14σ)"
         },
         {
           "time": "05:50",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06020 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06022 (Z: -1.13σ)"
         },
         {
           "time": "05:52",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06017 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06019 (Z: -1.14σ)"
         },
         {
           "time": "05:54",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06019 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06021 (Z: -1.13σ)"
         },
         {
           "time": "05:56",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06022 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06024 (Z: -1.12σ)"
         },
         {
           "time": "05:59",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06022 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06024 (Z: -1.12σ)"
         },
         {
           "time": "06:01",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06021 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06023 (Z: -1.12σ)"
         },
         {
           "time": "06:03",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06015 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06017 (Z: -1.14σ)"
         },
         {
           "time": "06:05",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06013 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06015 (Z: -1.14σ)"
         },
         {
           "time": "06:07",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06012 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06014 (Z: -1.14σ)"
         },
         {
           "time": "06:09",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06013 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06015 (Z: -1.14σ)"
         },
         {
           "time": "06:11",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06014 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06016 (Z: -1.14σ)"
         },
         {
           "time": "06:13",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06015 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06017 (Z: -1.13σ)"
         },
         {
           "time": "06:15",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06015 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06017 (Z: -1.13σ)"
         },
         {
           "time": "06:17",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06016 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06018 (Z: -1.13σ)"
         },
         {
           "time": "06:20",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06017 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06019 (Z: -1.13σ)"
         },
         {
           "time": "06:22",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06019 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06021 (Z: -1.13σ)"
         },
         {
           "time": "06:24",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06017 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06019 (Z: -1.13σ)"
         },
         {
           "time": "06:26",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06017 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06019 (Z: -1.13σ)"
         },
         {
           "time": "06:28",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06015 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06017 (Z: -1.13σ)"
         },
         {
           "time": "06:30",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06021 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06023 (Z: -1.12σ)"
         },
         {
           "time": "06:32",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06019 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06021 (Z: -1.12σ)"
         },
         {
           "time": "06:34",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06019 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06021 (Z: -1.12σ)"
         },
         {
           "time": "06:36",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06016 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06018 (Z: -1.13σ)"
         },
         {
           "time": "06:39",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06018 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06020 (Z: -1.12σ)"
         },
         {
           "time": "06:41",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06016 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06018 (Z: -1.13σ)"
         },
         {
           "time": "06:43",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06015 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06017 (Z: -1.13σ)"
         },
         {
           "time": "06:45",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06014 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06016 (Z: -1.13σ)"
         },
         {
           "time": "06:47",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06017 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06019 (Z: -1.12σ)"
         },
         {
           "time": "06:49",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06013 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06015 (Z: -1.13σ)"
         },
         {
           "time": "06:51",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06011 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06013 (Z: -1.14σ)"
         },
         {
           "time": "06:53",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06010 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06012 (Z: -1.14σ)"
         },
         {
           "time": "06:56",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06012 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06014 (Z: -1.13σ)"
         },
         {
           "time": "06:58",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06013 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06015 (Z: -1.13σ)"
         },
         {
           "time": "07:00",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06016 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06018 (Z: -1.12σ)"
         },
         {
           "time": "07:02",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06014 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06016 (Z: -1.13σ)"
         },
         {
           "time": "07:04",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06009 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06011 (Z: -1.14σ)"
         },
         {
           "time": "07:06",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06005 (Z: -1.15σ)"
+          "metric": "Ratio: 0.06007 (Z: -1.15σ)"
         },
         {
           "time": "07:08",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06007 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06009 (Z: -1.14σ)"
         },
         {
           "time": "07:10",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06006 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06008 (Z: -1.14σ)"
         },
         {
           "time": "07:12",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06010 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06012 (Z: -1.13σ)"
         },
         {
           "time": "07:14",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06011 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06013 (Z: -1.13σ)"
         },
         {
           "time": "07:16",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06010 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06012 (Z: -1.13σ)"
         },
         {
           "time": "07:19",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06008 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06010 (Z: -1.14σ)"
         },
         {
           "time": "07:21",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05999 (Z: -1.16σ)"
+          "metric": "Ratio: 0.06001 (Z: -1.16σ)"
         },
         {
           "time": "07:23",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05998 (Z: -1.16σ)"
+          "metric": "Ratio: 0.06000 (Z: -1.16σ)"
         },
         {
           "time": "07:25",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05995 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05996 (Z: -1.16σ)"
         },
         {
           "time": "07:27",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05998 (Z: -1.16σ)"
+          "metric": "Ratio: 0.06000 (Z: -1.16σ)"
         },
         {
           "time": "07:29",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06002 (Z: -1.15σ)"
+          "metric": "Ratio: 0.06004 (Z: -1.15σ)"
         },
         {
           "time": "07:31",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06002 (Z: -1.15σ)"
+          "metric": "Ratio: 0.06004 (Z: -1.15σ)"
         },
         {
           "time": "07:33",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05996 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05997 (Z: -1.16σ)"
         },
         {
           "time": "07:36",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05994 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05996 (Z: -1.16σ)"
         },
         {
           "time": "07:38",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05998 (Z: -1.15σ)"
+          "metric": "Ratio: 0.06000 (Z: -1.15σ)"
         },
         {
           "time": "07:40",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05997 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05999 (Z: -1.16σ)"
         },
         {
           "time": "07:42",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05995 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05997 (Z: -1.16σ)"
         },
         {
           "time": "07:44",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05996 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05998 (Z: -1.16σ)"
         },
         {
           "time": "07:46",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05994 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05996 (Z: -1.16σ)"
         },
         {
           "time": "07:48",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05996 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05998 (Z: -1.15σ)"
         },
         {
           "time": "07:50",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05998 (Z: -1.15σ)"
+          "metric": "Ratio: 0.06000 (Z: -1.15σ)"
         },
         {
           "time": "07:53",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05998 (Z: -1.15σ)"
+          "metric": "Ratio: 0.06000 (Z: -1.15σ)"
         },
         {
           "time": "07:55",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05997 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05999 (Z: -1.15σ)"
         },
         {
           "time": "07:57",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05999 (Z: -1.15σ)"
+          "metric": "Ratio: 0.06001 (Z: -1.15σ)"
         },
         {
           "time": "07:59",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05999 (Z: -1.15σ)"
+          "metric": "Ratio: 0.06001 (Z: -1.15σ)"
         },
         {
           "time": "08:01",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05997 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05999 (Z: -1.15σ)"
         },
         {
           "time": "08:03",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06001 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06003 (Z: -1.14σ)"
         },
         {
           "time": "08:05",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06001 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06003 (Z: -1.14σ)"
         },
         {
           "time": "08:07",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05998 (Z: -1.15σ)"
+          "metric": "Ratio: 0.06000 (Z: -1.15σ)"
         },
         {
           "time": "08:10",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05996 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05998 (Z: -1.15σ)"
         },
         {
           "time": "08:12",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05995 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05997 (Z: -1.15σ)"
         },
         {
           "time": "08:14",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05993 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05995 (Z: -1.16σ)"
         },
         {
           "time": "08:16",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05997 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05999 (Z: -1.15σ)"
         },
         {
           "time": "08:18",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05995 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05997 (Z: -1.15σ)"
         },
         {
           "time": "08:20",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05974 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05976 (Z: -1.20σ)"
         },
         {
           "time": "08:22",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.20σ)"
         },
         {
           "time": "08:24",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.21σ)"
         },
         {
           "time": "08:26",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05974 (Z: -1.20σ)"
         },
         {
           "time": "08:28",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05974 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05976 (Z: -1.20σ)"
         },
         {
           "time": "08:31",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05974 (Z: -1.20σ)"
         },
         {
           "time": "08:33",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.20σ)"
         },
         {
           "time": "08:35",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.20σ)"
         },
         {
           "time": "08:37",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05964 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.21σ)"
         },
         {
           "time": "08:39",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05960 (Z: -1.22σ)"
+          "metric": "Ratio: 0.05962 (Z: -1.22σ)"
         },
         {
           "time": "08:41",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.21σ)"
         },
         {
           "time": "08:43",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05966 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05968 (Z: -1.21σ)"
         },
         {
           "time": "08:45",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.21σ)"
         },
         {
           "time": "08:47",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.20σ)"
         },
         {
           "time": "08:50",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05973 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05975 (Z: -1.19σ)"
         },
         {
           "time": "08:52",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.19σ)"
         },
         {
           "time": "08:54",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05963 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05965 (Z: -1.21σ)"
         },
         {
           "time": "08:56",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.21σ)"
         },
         {
           "time": "08:58",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05966 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05968 (Z: -1.20σ)"
         },
         {
           "time": "09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05964 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.21σ)"
         },
         {
           "time": "09:02",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.20σ)"
         },
         {
           "time": "09:04",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05974 (Z: -1.19σ)"
         },
         {
           "time": "09:06",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05976 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05978 (Z: -1.18σ)"
         },
         {
           "time": "09:08",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05973 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05974 (Z: -1.19σ)"
         },
         {
           "time": "09:11",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05979 (Z: -1.17σ)"
+          "metric": "Ratio: 0.05981 (Z: -1.17σ)"
         },
         {
           "time": "09:13",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05982 (Z: -1.17σ)"
+          "metric": "Ratio: 0.05984 (Z: -1.17σ)"
         },
         {
           "time": "09:15",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.17σ)"
+          "metric": "Ratio: 0.05982 (Z: -1.17σ)"
         },
         {
           "time": "09:17",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.17σ)"
+          "metric": "Ratio: 0.05982 (Z: -1.17σ)"
         },
         {
           "time": "09:19",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05978 (Z: -1.17σ)"
+          "metric": "Ratio: 0.05980 (Z: -1.17σ)"
         },
         {
           "time": "09:21",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05978 (Z: -1.17σ)"
+          "metric": "Ratio: 0.05980 (Z: -1.17σ)"
         },
         {
           "time": "09:23",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05978 (Z: -1.17σ)"
+          "metric": "Ratio: 0.05980 (Z: -1.17σ)"
         },
         {
           "time": "09:25",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05979 (Z: -1.17σ)"
+          "metric": "Ratio: 0.05981 (Z: -1.17σ)"
         },
         {
           "time": "09:27",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05984 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05986 (Z: -1.16σ)"
         },
         {
           "time": "09:29",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05982 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05984 (Z: -1.16σ)"
         },
         {
           "time": "09:31",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05982 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05984 (Z: -1.16σ)"
         },
         {
           "time": "09:33",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05979 (Z: -1.17σ)"
+          "metric": "Ratio: 0.05981 (Z: -1.17σ)"
         },
         {
           "time": "09:35",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05979 (Z: -1.17σ)"
+          "metric": "Ratio: 0.05981 (Z: -1.17σ)"
         },
         {
           "time": "09:37",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05983 (Z: -1.16σ)"
         },
         {
           "time": "09:40",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05976 (Z: -1.17σ)"
+          "metric": "Ratio: 0.05978 (Z: -1.17σ)"
         },
         {
           "time": "09:42",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05973 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05975 (Z: -1.18σ)"
         },
         {
           "time": "09:44",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.19σ)"
         },
         {
           "time": "09:45",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.19σ)"
         },
         {
           "time": "09:48",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.19σ)"
         },
         {
           "time": "09:50",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.18σ)"
         },
         {
           "time": "09:52",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.19σ)"
         },
         {
           "time": "09:54",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05973 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05975 (Z: -1.18σ)"
         },
         {
           "time": "09:56",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.18σ)"
         },
         {
           "time": "09:58",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.18σ)"
         },
         {
           "time": "10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.18σ)"
         },
         {
           "time": "10:02",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.18σ)"
         },
         {
           "time": "10:04",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.18σ)"
         },
         {
           "time": "10:06",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.18σ)"
         },
         {
           "time": "10:08",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.18σ)"
         },
         {
           "time": "10:09",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.18σ)"
         },
         {
           "time": "10:11",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.19σ)"
         },
         {
           "time": "10:14",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05964 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.19σ)"
         },
         {
           "time": "10:16",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05963 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05964 (Z: -1.19σ)"
         },
         {
           "time": "10:18",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05955 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05957 (Z: -1.21σ)"
         },
         {
           "time": "10:20",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05945 (Z: -1.23σ)"
+          "metric": "Ratio: 0.05947 (Z: -1.23σ)"
         },
         {
           "time": "10:22",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05952 (Z: -1.22σ)"
+          "metric": "Ratio: 0.05954 (Z: -1.22σ)"
         },
         {
           "time": "10:24",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05945 (Z: -1.23σ)"
+          "metric": "Ratio: 0.05947 (Z: -1.23σ)"
         },
         {
           "time": "10:26",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05948 (Z: -1.22σ)"
+          "metric": "Ratio: 0.05950 (Z: -1.22σ)"
         },
         {
           "time": "10:28",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05951 (Z: -1.22σ)"
+          "metric": "Ratio: 0.05953 (Z: -1.22σ)"
         },
         {
           "time": "10:30",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05959 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05961 (Z: -1.20σ)"
         },
         {
           "time": "10:32",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05955 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05957 (Z: -1.21σ)"
         },
         {
           "time": "10:34",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05959 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05961 (Z: -1.20σ)"
         },
         {
           "time": "10:36",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05955 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05957 (Z: -1.21σ)"
         },
         {
           "time": "10:38",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05952 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05954 (Z: -1.21σ)"
         },
         {
           "time": "10:41",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05948 (Z: -1.22σ)"
+          "metric": "Ratio: 0.05950 (Z: -1.22σ)"
         },
         {
           "time": "10:43",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05952 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05954 (Z: -1.21σ)"
         },
         {
           "time": "10:45",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05955 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05957 (Z: -1.20σ)"
         },
         {
           "time": "10:47",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05950 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05952 (Z: -1.21σ)"
         },
         {
           "time": "10:49",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05953 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05955 (Z: -1.21σ)"
         },
         {
           "time": "10:51",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05957 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05959 (Z: -1.20σ)"
         },
         {
           "time": "10:53",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05957 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05959 (Z: -1.20σ)"
         },
         {
           "time": "10:56",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05954 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05956 (Z: -1.20σ)"
         },
         {
           "time": "10:58",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05955 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05957 (Z: -1.20σ)"
         },
         {
           "time": "11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05953 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05955 (Z: -1.20σ)"
         },
         {
           "time": "11:02",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05945 (Z: -1.22σ)"
+          "metric": "Ratio: 0.05947 (Z: -1.22σ)"
         },
         {
           "time": "11:04",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05948 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05950 (Z: -1.21σ)"
         },
         {
           "time": "11:06",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05960 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05962 (Z: -1.19σ)"
         },
         {
           "time": "11:08",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05957 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05959 (Z: -1.19σ)"
         },
         {
           "time": "11:10",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05956 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05958 (Z: -1.20σ)"
         },
         {
           "time": "11:12",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05953 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05955 (Z: -1.20σ)"
         },
         {
           "time": "11:14",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05948 (Z: -1.21σ)"
+          "metric": "Ratio: 0.05950 (Z: -1.21σ)"
         },
         {
           "time": "11:16",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05944 (Z: -1.22σ)"
+          "metric": "Ratio: 0.05946 (Z: -1.22σ)"
         },
         {
           "time": "11:18",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05951 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05953 (Z: -1.20σ)"
         },
         {
           "time": "11:21",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05953 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05955 (Z: -1.20σ)"
         },
         {
           "time": "11:23",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05957 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05959 (Z: -1.19σ)"
         },
         {
           "time": "11:25",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05957 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05959 (Z: -1.19σ)"
         },
         {
           "time": "11:26",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05953 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05955 (Z: -1.20σ)"
         },
         {
           "time": "11:28",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05953 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05955 (Z: -1.20σ)"
         },
         {
           "time": "11:31",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05956 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05958 (Z: -1.19σ)"
         },
         {
           "time": "11:33",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05956 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05958 (Z: -1.19σ)"
         },
         {
           "time": "11:35",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05956 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05958 (Z: -1.19σ)"
         },
         {
           "time": "11:37",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05957 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05959 (Z: -1.19σ)"
         },
         {
           "time": "11:39",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05957 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05958 (Z: -1.19σ)"
         },
         {
           "time": "11:41",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05957 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05959 (Z: -1.19σ)"
         },
         {
           "time": "11:43",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05988 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05990 (Z: -1.12σ)"
         },
         {
           "time": "11:45",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05983 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05985 (Z: -1.13σ)"
         },
         {
           "time": "11:48",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05980 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05982 (Z: -1.14σ)"
         },
         {
           "time": "11:50",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05974 (Z: -1.15σ)"
         },
         {
           "time": "11:52",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05974 (Z: -1.15σ)"
         },
         {
           "time": "11:54",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05974 (Z: -1.15σ)"
         },
         {
           "time": "11:56",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.15σ)"
         },
         {
           "time": "11:58",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05977 (Z: -1.15σ)"
         },
         {
           "time": "12:00",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05980 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05982 (Z: -1.13σ)"
         },
         {
           "time": "12:02",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05974 (Z: -1.15σ)"
         },
         {
           "time": "12:05",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.16σ)"
         },
         {
           "time": "12:07",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.16σ)"
         },
         {
           "time": "12:09",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.15σ)"
         },
         {
           "time": "12:11",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05966 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05968 (Z: -1.16σ)"
         },
         {
           "time": "12:13",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.15σ)"
         },
         {
           "time": "12:15",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05974 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05976 (Z: -1.14σ)"
         },
         {
           "time": "12:17",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05977 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05979 (Z: -1.14σ)"
         },
         {
           "time": "12:20",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05983 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05985 (Z: -1.12σ)"
         },
         {
           "time": "12:22",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05977 (Z: -1.14σ)"
         },
         {
           "time": "12:24",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05974 (Z: -1.15σ)"
         },
         {
           "time": "12:26",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.15σ)"
         },
         {
           "time": "12:28",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05974 (Z: -1.14σ)"
         },
         {
           "time": "12:30",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.15σ)"
         },
         {
           "time": "12:32",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05974 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05976 (Z: -1.14σ)"
         },
         {
           "time": "12:34",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05975 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05977 (Z: -1.14σ)"
         },
         {
           "time": "12:37",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05973 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05975 (Z: -1.14σ)"
         },
         {
           "time": "12:39",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.15σ)"
         },
         {
           "time": "12:41",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.15σ)"
         },
         {
           "time": "12:43",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05967 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05969 (Z: -1.15σ)"
         },
         {
           "time": "12:45",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.15σ)"
         },
         {
           "time": "12:47",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.14σ)"
         },
         {
           "time": "12:49",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.14σ)"
         },
         {
           "time": "12:51",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.14σ)"
         },
         {
           "time": "12:54",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05974 (Z: -1.14σ)"
         },
         {
           "time": "12:56",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05974 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05976 (Z: -1.14σ)"
         },
         {
           "time": "12:58",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05975 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05977 (Z: -1.13σ)"
         },
         {
           "time": "13:00",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05973 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05975 (Z: -1.14σ)"
         },
         {
           "time": "13:02",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.14σ)"
         },
         {
           "time": "13:04",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.15σ)"
         },
         {
           "time": "13:06",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.14σ)"
         },
         {
           "time": "13:08",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.14σ)"
         },
         {
           "time": "13:11",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.14σ)"
         },
         {
           "time": "13:13",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05967 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05969 (Z: -1.15σ)"
         },
         {
           "time": "13:15",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05967 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05969 (Z: -1.15σ)"
         },
         {
           "time": "13:17",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.15σ)"
         },
         {
           "time": "13:19",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05967 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05969 (Z: -1.15σ)"
         },
         {
           "time": "13:21",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.14σ)"
         },
         {
           "time": "13:23",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05967 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05969 (Z: -1.14σ)"
         },
         {
           "time": "13:26",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.15σ)"
         },
         {
           "time": "13:28",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.15σ)"
         },
         {
           "time": "13:30",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05964 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.15σ)"
         },
         {
           "time": "13:32",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05962 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05964 (Z: -1.15σ)"
         },
         {
           "time": "13:34",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05960 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05962 (Z: -1.16σ)"
         },
         {
           "time": "13:36",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05960 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05962 (Z: -1.16σ)"
         },
         {
           "time": "13:38",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05962 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05964 (Z: -1.15σ)"
         },
         {
           "time": "13:40",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05960 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05962 (Z: -1.16σ)"
         },
         {
           "time": "13:43",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05958 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05960 (Z: -1.16σ)"
         },
         {
           "time": "13:45",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05962 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05964 (Z: -1.15σ)"
         },
         {
           "time": "13:47",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05959 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05961 (Z: -1.16σ)"
         },
         {
           "time": "13:49",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05960 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05962 (Z: -1.15σ)"
         },
         {
           "time": "13:51",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05957 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05959 (Z: -1.16σ)"
         },
         {
           "time": "13:53",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05957 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05959 (Z: -1.16σ)"
         },
         {
           "time": "13:55",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05958 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05960 (Z: -1.16σ)"
         },
         {
           "time": "13:57",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05957 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05959 (Z: -1.16σ)"
         },
         {
           "time": "14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05958 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05960 (Z: -1.16σ)"
         },
         {
           "time": "14:02",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05961 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05963 (Z: -1.15σ)"
         },
         {
           "time": "14:04",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05970 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.13σ)"
         },
         {
           "time": "14:06",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.14σ)"
         },
         {
           "time": "14:08",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05964 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.14σ)"
         },
         {
           "time": "14:10",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05967 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05969 (Z: -1.13σ)"
         },
         {
           "time": "14:12",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05965 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.14σ)"
         },
         {
           "time": "14:15",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05965 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.14σ)"
         },
         {
           "time": "14:17",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05970 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.13σ)"
         },
         {
           "time": "14:19",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05962 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05964 (Z: -1.14σ)"
         },
         {
           "time": "14:21",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05962 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05964 (Z: -1.14σ)"
         },
         {
           "time": "14:23",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05961 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05963 (Z: -1.15σ)"
         },
         {
           "time": "14:25",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05966 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05968 (Z: -1.13σ)"
         },
         {
           "time": "14:27",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05968 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.13σ)"
         },
         {
           "time": "14:30",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05968 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.13σ)"
         },
         {
           "time": "14:32",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05974 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05976 (Z: -1.12σ)"
         },
         {
           "time": "14:34",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05970 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.12σ)"
         },
         {
           "time": "14:36",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05967 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05969 (Z: -1.13σ)"
         },
         {
           "time": "14:38",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05965 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.13σ)"
         },
         {
           "time": "14:40",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05968 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.13σ)"
         },
         {
           "time": "14:42",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05969 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.12σ)"
         },
         {
           "time": "14:45",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05969 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.12σ)"
         },
         {
           "time": "14:47",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05966 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05968 (Z: -1.13σ)"
         },
         {
           "time": "14:49",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05969 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.12σ)"
         },
         {
           "time": "14:51",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05968 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.12σ)"
         },
         {
           "time": "14:53",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05968 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.12σ)"
         },
         {
           "time": "14:55",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05969 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.12σ)"
         },
         {
           "time": "14:57",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05971 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.12σ)"
         },
         {
           "time": "14:59",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05973 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05975 (Z: -1.11σ)"
         },
         {
           "time": "15:01",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05972 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05974 (Z: -1.11σ)"
         },
         {
           "time": "15:03",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05972 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05974 (Z: -1.11σ)"
         },
         {
           "time": "15:05",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05974 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05976 (Z: -1.11σ)"
         },
         {
           "time": "15:07",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05976 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05978 (Z: -1.10σ)"
         },
         {
           "time": "15:09",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05973 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05975 (Z: -1.11σ)"
         },
         {
           "time": "15:11",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05967 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05969 (Z: -1.12σ)"
         },
         {
           "time": "15:14",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05963 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05965 (Z: -1.13σ)"
         },
         {
           "time": "15:16",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05960 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05962 (Z: -1.14σ)"
         },
         {
           "time": "15:18",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05963 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05965 (Z: -1.13σ)"
         },
         {
           "time": "15:20",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05966 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05968 (Z: -1.12σ)"
         },
         {
           "time": "15:21",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05964 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.13σ)"
         },
         {
           "time": "15:23",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05964 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.13σ)"
         },
         {
           "time": "15:25",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05963 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05965 (Z: -1.13σ)"
         },
         {
           "time": "15:28",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05962 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05964 (Z: -1.13σ)"
         },
         {
           "time": "15:30",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05963 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05965 (Z: -1.13σ)"
         },
         {
           "time": "15:32",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05964 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.12σ)"
         },
         {
           "time": "15:34",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05964 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.12σ)"
         },
         {
           "time": "15:36",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05964 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.12σ)"
         },
         {
           "time": "15:38",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05964 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.12σ)"
         },
         {
           "time": "15:40",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05964 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.12σ)"
         },
         {
           "time": "15:42",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05963 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05965 (Z: -1.12σ)"
         },
         {
           "time": "15:44",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05964 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.12σ)"
         },
         {
           "time": "15:46",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05965 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.12σ)"
         },
         {
           "time": "15:48",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05967 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05969 (Z: -1.11σ)"
         },
         {
           "time": "15:50",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05968 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.11σ)"
         },
         {
           "time": "15:53",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05965 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.12σ)"
         },
         {
           "time": "15:55",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05967 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05969 (Z: -1.11σ)"
         },
         {
           "time": "15:57",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05968 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.11σ)"
         },
         {
           "time": "15:59",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05965 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.12σ)"
         },
         {
           "time": "16:01",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05960 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05962 (Z: -1.13σ)"
         },
         {
           "time": "16:03",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05964 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.12σ)"
         },
         {
           "time": "16:05",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05965 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.12σ)"
         },
         {
           "time": "16:07",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05963 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05965 (Z: -1.12σ)"
         },
         {
           "time": "16:09",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05964 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.12σ)"
         },
         {
           "time": "16:11",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05966 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05968 (Z: -1.11σ)"
         },
         {
           "time": "16:13",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05969 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.11σ)"
         },
         {
           "time": "16:15",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05964 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.12σ)"
         },
         {
           "time": "16:18",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05962 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05964 (Z: -1.12σ)"
         },
         {
           "time": "16:20",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05962 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05964 (Z: -1.12σ)"
         },
         {
           "time": "16:22",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05962 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05964 (Z: -1.12σ)"
         },
         {
           "time": "16:24",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05961 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05963 (Z: -1.12σ)"
         },
         {
           "time": "16:26",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05962 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05964 (Z: -1.12σ)"
         },
         {
           "time": "16:28",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05964 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.11σ)"
         },
         {
           "time": "16:30",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05965 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.11σ)"
         },
         {
           "time": "16:32",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05966 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05968 (Z: -1.11σ)"
         },
         {
           "time": "16:34",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05964 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.11σ)"
         },
         {
           "time": "16:36",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05964 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.11σ)"
         },
         {
           "time": "16:39",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05964 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.11σ)"
         },
         {
           "time": "16:41",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05962 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05964 (Z: -1.11σ)"
         },
         {
           "time": "16:43",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05964 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.11σ)"
         },
         {
           "time": "16:45",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05956 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05958 (Z: -1.13σ)"
         },
         {
           "time": "16:47",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05961 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05963 (Z: -1.12σ)"
         },
         {
           "time": "16:49",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05960 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05962 (Z: -1.12σ)"
         },
         {
           "time": "16:51",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05961 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05963 (Z: -1.11σ)"
         },
         {
           "time": "16:53",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05961 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05963 (Z: -1.11σ)"
         },
         {
           "time": "16:55",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05962 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05964 (Z: -1.11σ)"
         },
         {
           "time": "16:58",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05965 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.10σ)"
         },
         {
           "time": "17:00",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05966 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05968 (Z: -1.10σ)"
         },
         {
           "time": "17:02",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05968 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05969 (Z: -1.10σ)"
         },
         {
           "time": "17:04",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05971 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.09σ)"
         },
         {
           "time": "17:06",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05973 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05975 (Z: -1.09σ)"
         },
         {
           "time": "17:08",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05971 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.09σ)"
         },
         {
           "time": "17:10",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05970 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.09σ)"
         },
         {
           "time": "17:12",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05968 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.10σ)"
         },
         {
           "time": "17:14",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05969 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.09σ)"
         },
         {
           "time": "17:16",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05968 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.09σ)"
         },
         {
           "time": "17:19",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05968 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.09σ)"
         },
         {
           "time": "17:21",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05964 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.10σ)"
         },
         {
           "time": "17:23",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05964 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.10σ)"
         },
         {
           "time": "17:25",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05964 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.10σ)"
         },
         {
           "time": "17:27",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05961 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05963 (Z: -1.11σ)"
         },
         {
           "time": "17:29",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05961 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05963 (Z: -1.11σ)"
         },
         {
           "time": "17:31",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05961 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05963 (Z: -1.11σ)"
         },
         {
           "time": "17:33",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05960 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05962 (Z: -1.11σ)"
         },
         {
           "time": "17:35",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05960 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05962 (Z: -1.11σ)"
         },
         {
           "time": "17:38",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05960 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05962 (Z: -1.11σ)"
         },
         {
           "time": "17:40",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05959 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05961 (Z: -1.11σ)"
         },
         {
           "time": "17:42",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05959 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05961 (Z: -1.11σ)"
         },
         {
           "time": "17:44",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05958 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05960 (Z: -1.11σ)"
         },
         {
           "time": "17:46",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05961 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05963 (Z: -1.10σ)"
         },
         {
           "time": "17:48",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05959 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05961 (Z: -1.11σ)"
         },
         {
           "time": "17:50",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05960 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05962 (Z: -1.11σ)"
         },
         {
           "time": "17:52",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05959 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05961 (Z: -1.11σ)"
         },
         {
           "time": "17:55",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05961 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05963 (Z: -1.10σ)"
         },
         {
           "time": "17:57",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05960 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05962 (Z: -1.10σ)"
         },
         {
           "time": "17:59",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05960 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05962 (Z: -1.10σ)"
         },
         {
           "time": "18:01",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05955 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05957 (Z: -1.11σ)"
         },
         {
           "time": "18:03",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05949 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05951 (Z: -1.13σ)"
         },
         {
           "time": "18:05",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05945 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05947 (Z: -1.13σ)"
         },
         {
           "time": "18:07",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05944 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05946 (Z: -1.14σ)"
         },
         {
           "time": "18:10",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05945 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05947 (Z: -1.13σ)"
         },
         {
           "time": "18:12",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05948 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05949 (Z: -1.13σ)"
         },
         {
           "time": "18:14",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05944 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05946 (Z: -1.13σ)"
         },
         {
           "time": "18:16",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05930 (Z: -1.17σ)"
+          "metric": "Ratio: 0.05932 (Z: -1.17σ)"
         },
         {
           "time": "18:18",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05925 (Z: -1.17σ)"
+          "metric": "Ratio: 0.05927 (Z: -1.17σ)"
         },
         {
           "time": "18:20",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05924 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05926 (Z: -1.18σ)"
         },
         {
           "time": "18:22",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05925 (Z: -1.17σ)"
+          "metric": "Ratio: 0.05927 (Z: -1.17σ)"
         },
         {
           "time": "18:24",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05928 (Z: -1.17σ)"
+          "metric": "Ratio: 0.05930 (Z: -1.17σ)"
         },
         {
           "time": "18:26",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05924 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05926 (Z: -1.18σ)"
         },
         {
           "time": "18:29",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05923 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05925 (Z: -1.18σ)"
         },
         {
           "time": "18:31",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05922 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05924 (Z: -1.18σ)"
         },
         {
           "time": "18:33",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05921 (Z: -1.18σ)"
+          "metric": "Ratio: 0.05923 (Z: -1.18σ)"
         },
         {
           "time": "18:35",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05931 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05933 (Z: -1.16σ)"
         },
         {
           "time": "18:37",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05933 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05935 (Z: -1.15σ)"
         },
         {
           "time": "18:39",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05943 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05945 (Z: -1.13σ)"
         },
         {
           "time": "18:41",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05945 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05947 (Z: -1.13σ)"
         },
         {
           "time": "18:43",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05947 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05949 (Z: -1.12σ)"
         },
         {
           "time": "18:46",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05940 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05942 (Z: -1.14σ)"
         },
         {
           "time": "18:48",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05941 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05943 (Z: -1.13σ)"
         },
         {
           "time": "18:50",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05936 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05938 (Z: -1.14σ)"
         },
         {
           "time": "18:52",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05935 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05937 (Z: -1.15σ)"
         },
         {
           "time": "18:54",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05934 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05936 (Z: -1.15σ)"
         },
         {
           "time": "18:56",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05935 (Z: -1.15σ)"
+          "metric": "Ratio: 0.05937 (Z: -1.15σ)"
         },
         {
           "time": "18:58",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05937 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05939 (Z: -1.14σ)"
         },
         {
           "time": "19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05926 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05928 (Z: -1.16σ)"
         },
         {
           "time": "19:03",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05940 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05942 (Z: -1.13σ)"
         },
         {
           "time": "19:05",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05938 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05940 (Z: -1.14σ)"
         },
         {
           "time": "19:07",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05940 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05942 (Z: -1.13σ)"
         },
         {
           "time": "19:09",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05939 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05941 (Z: -1.13σ)"
         },
         {
           "time": "19:11",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05937 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05939 (Z: -1.14σ)"
         },
         {
           "time": "19:13",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05940 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05942 (Z: -1.13σ)"
         },
         {
           "time": "19:15",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05944 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05946 (Z: -1.12σ)"
         },
         {
           "time": "19:16",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05939 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05941 (Z: -1.13σ)"
         },
         {
           "time": "19:18",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05943 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05945 (Z: -1.12σ)"
         },
         {
           "time": "19:21",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05940 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05942 (Z: -1.13σ)"
         },
         {
           "time": "19:23",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05938 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05940 (Z: -1.13σ)"
         },
         {
           "time": "19:25",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05937 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05939 (Z: -1.13σ)"
         },
         {
           "time": "19:27",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05938 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05940 (Z: -1.13σ)"
         },
         {
           "time": "19:29",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05942 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05944 (Z: -1.12σ)"
         },
         {
           "time": "19:31",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05942 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05944 (Z: -1.12σ)"
         },
         {
           "time": "19:33",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05945 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05947 (Z: -1.12σ)"
         },
         {
           "time": "19:35",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05944 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05946 (Z: -1.12σ)"
         },
         {
           "time": "19:38",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05946 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05948 (Z: -1.11σ)"
         },
         {
           "time": "19:40",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05942 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05944 (Z: -1.12σ)"
         },
         {
           "time": "19:42",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05943 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05945 (Z: -1.12σ)"
         },
         {
           "time": "19:44",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05944 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05946 (Z: -1.12σ)"
         },
         {
           "time": "19:46",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05947 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05949 (Z: -1.11σ)"
         },
         {
           "time": "19:48",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05946 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05948 (Z: -1.11σ)"
         },
         {
           "time": "19:50",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05944 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05946 (Z: -1.11σ)"
         },
         {
           "time": "19:52",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05943 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05945 (Z: -1.12σ)"
         },
         {
           "time": "19:54",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05946 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05947 (Z: -1.11σ)"
         },
         {
           "time": "19:56",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05945 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05947 (Z: -1.11σ)"
         },
         {
           "time": "19:58",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05948 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05950 (Z: -1.10σ)"
         },
         {
           "time": "20:00",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05948 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05950 (Z: -1.10σ)"
         },
         {
           "time": "20:02",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05956 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05958 (Z: -1.09σ)"
         },
         {
           "time": "20:03",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05958 (Z: -1.08σ)"
+          "metric": "Ratio: 0.05960 (Z: -1.08σ)"
         },
         {
           "time": "20:06",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05957 (Z: -1.08σ)"
+          "metric": "Ratio: 0.05959 (Z: -1.08σ)"
         },
         {
           "time": "20:08",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05960 (Z: -1.08σ)"
+          "metric": "Ratio: 0.05961 (Z: -1.08σ)"
         },
         {
           "time": "20:10",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05953 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05955 (Z: -1.09σ)"
         },
         {
           "time": "20:12",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05962 (Z: -1.07σ)"
+          "metric": "Ratio: 0.05964 (Z: -1.07σ)"
         },
         {
           "time": "20:14",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05959 (Z: -1.08σ)"
+          "metric": "Ratio: 0.05960 (Z: -1.08σ)"
         },
         {
           "time": "20:16",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05953 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05955 (Z: -1.09σ)"
         },
         {
           "time": "20:18",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05951 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05952 (Z: -1.10σ)"
         },
         {
           "time": "20:20",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05953 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05955 (Z: -1.09σ)"
         },
         {
           "time": "20:22",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05954 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05956 (Z: -1.09σ)"
         },
         {
           "time": "20:24",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05956 (Z: -1.08σ)"
+          "metric": "Ratio: 0.05958 (Z: -1.08σ)"
         },
         {
           "time": "20:27",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05955 (Z: -1.08σ)"
+          "metric": "Ratio: 0.05957 (Z: -1.08σ)"
         },
         {
           "time": "20:29",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05949 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05951 (Z: -1.10σ)"
         },
         {
           "time": "20:31",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05937 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05939 (Z: -1.12σ)"
         },
         {
           "time": "20:33",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05939 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05941 (Z: -1.12σ)"
         },
         {
           "time": "20:35",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05941 (Z: -1.11σ)"
+          "metric": "Ratio: 0.05943 (Z: -1.11σ)"
         },
         {
           "time": "20:37",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05946 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05948 (Z: -1.10σ)"
         },
         {
           "time": "20:39",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05955 (Z: -1.08σ)"
+          "metric": "Ratio: 0.05957 (Z: -1.08σ)"
         },
         {
           "time": "20:41",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05953 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05955 (Z: -1.09σ)"
         },
         {
           "time": "20:44",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05959 (Z: -1.07σ)"
+          "metric": "Ratio: 0.05961 (Z: -1.07σ)"
         },
         {
           "time": "20:46",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05955 (Z: -1.08σ)"
+          "metric": "Ratio: 0.05957 (Z: -1.08σ)"
         },
         {
           "time": "20:48",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05951 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05953 (Z: -1.09σ)"
         },
         {
           "time": "20:50",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05950 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05952 (Z: -1.09σ)"
         },
         {
           "time": "20:51",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05949 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05951 (Z: -1.09σ)"
         },
         {
           "time": "20:54",
           "score_a": 97,
           "score_b": 3,
-          "metric": "Ratio: 0.05952 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05954 (Z: -1.09σ)"
         },
         {
           "time": "20:56",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.05943 (Z: -1.11σ)"
+        },
+        {
+          "time": "21:57",
           "score_a": 98,
           "score_b": 2,
           "metric": "Ratio: 0.05941 (Z: -1.11σ)"
@@ -4592,2818 +4076,2800 @@ window.PLANOS_TACTICAL_DATA = [
       ],
       "7d": [
         {
-          "time": "16/08 20:00",
-          "score_a": 12,
-          "score_b": 88,
-          "metric": "Ratio: 0.07107 (Z: +0.88σ)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 9,
-          "score_b": 91,
-          "metric": "Ratio: 0.07111 (Z: +0.93σ)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 10,
-          "score_b": 90,
-          "metric": "Ratio: 0.07111 (Z: +0.92σ)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "Ratio: 0.07124 (Z: +1.11σ)"
-        },
-        {
           "time": "16/08 21:00",
           "score_a": 4,
           "score_b": 96,
-          "metric": "Ratio: 0.07119 (Z: +1.05σ)"
+          "metric": "Ratio: 0.07122 (Z: +1.05σ)"
         },
         {
           "time": "16/08 22:00",
           "score_a": 1,
           "score_b": 99,
-          "metric": "Ratio: 0.07124 (Z: +1.12σ)"
+          "metric": "Ratio: 0.07127 (Z: +1.12σ)"
         },
         {
           "time": "16/08 22:00",
           "score_a": 0,
           "score_b": 100,
-          "metric": "Ratio: 0.07131 (Z: +1.21σ)"
+          "metric": "Ratio: 0.07133 (Z: +1.21σ)"
         },
         {
           "time": "16/08 22:00",
           "score_a": 0,
           "score_b": 100,
-          "metric": "Ratio: 0.07139 (Z: +1.34σ)"
+          "metric": "Ratio: 0.07142 (Z: +1.34σ)"
         },
         {
           "time": "16/08 22:00",
           "score_a": 0,
           "score_b": 100,
-          "metric": "Ratio: 0.07128 (Z: +1.18σ)"
+          "metric": "Ratio: 0.07131 (Z: +1.18σ)"
         },
         {
           "time": "16/08 23:00",
           "score_a": 1,
           "score_b": 99,
-          "metric": "Ratio: 0.07126 (Z: +1.13σ)"
+          "metric": "Ratio: 0.07128 (Z: +1.13σ)"
         },
         {
           "time": "16/08 23:00",
           "score_a": 0,
           "score_b": 100,
-          "metric": "Ratio: 0.07133 (Z: +1.24σ)"
+          "metric": "Ratio: 0.07135 (Z: +1.24σ)"
         },
         {
           "time": "16/08 23:00",
           "score_a": 0,
           "score_b": 100,
-          "metric": "Ratio: 0.07127 (Z: +1.14σ)"
+          "metric": "Ratio: 0.07129 (Z: +1.14σ)"
         },
         {
           "time": "16/08 23:00",
           "score_a": 0,
           "score_b": 100,
-          "metric": "Ratio: 0.07127 (Z: +1.15σ)"
+          "metric": "Ratio: 0.07130 (Z: +1.15σ)"
         },
         {
           "time": "17/08 00:00",
           "score_a": 0,
           "score_b": 100,
-          "metric": "Ratio: 0.07128 (Z: +1.16σ)"
+          "metric": "Ratio: 0.07131 (Z: +1.16σ)"
         },
         {
           "time": "17/08 00:00",
           "score_a": 0,
           "score_b": 100,
-          "metric": "Ratio: 0.07134 (Z: +1.24σ)"
+          "metric": "Ratio: 0.07136 (Z: +1.24σ)"
         },
         {
           "time": "17/08 00:00",
           "score_a": 0,
           "score_b": 100,
-          "metric": "Ratio: 0.07129 (Z: +1.17σ)"
+          "metric": "Ratio: 0.07132 (Z: +1.17σ)"
         },
         {
           "time": "17/08 00:00",
           "score_a": 3,
           "score_b": 97,
-          "metric": "Ratio: 0.07123 (Z: +1.08σ)"
+          "metric": "Ratio: 0.07126 (Z: +1.08σ)"
         },
         {
           "time": "17/08 01:00",
           "score_a": 11,
           "score_b": 89,
-          "metric": "Ratio: 0.07111 (Z: +0.89σ)"
+          "metric": "Ratio: 0.07113 (Z: +0.89σ)"
         },
         {
           "time": "17/08 01:00",
           "score_a": 14,
           "score_b": 86,
-          "metric": "Ratio: 0.07107 (Z: +0.83σ)"
+          "metric": "Ratio: 0.07109 (Z: +0.83σ)"
         },
         {
           "time": "17/08 01:00",
           "score_a": 19,
           "score_b": 81,
-          "metric": "Ratio: 0.07099 (Z: +0.71σ)"
+          "metric": "Ratio: 0.07102 (Z: +0.71σ)"
         },
         {
           "time": "17/08 01:00",
           "score_a": 15,
           "score_b": 85,
-          "metric": "Ratio: 0.07106 (Z: +0.81σ)"
+          "metric": "Ratio: 0.07108 (Z: +0.81σ)"
         },
         {
           "time": "17/08 02:00",
           "score_a": 12,
           "score_b": 88,
-          "metric": "Ratio: 0.07110 (Z: +0.87σ)"
+          "metric": "Ratio: 0.07112 (Z: +0.87σ)"
         },
         {
           "time": "17/08 02:00",
           "score_a": 18,
           "score_b": 82,
-          "metric": "Ratio: 0.07101 (Z: +0.73σ)"
+          "metric": "Ratio: 0.07103 (Z: +0.73σ)"
         },
         {
           "time": "17/08 02:00",
           "score_a": 25,
           "score_b": 75,
-          "metric": "Ratio: 0.07092 (Z: +0.58σ)"
+          "metric": "Ratio: 0.07094 (Z: +0.58σ)"
         },
         {
           "time": "17/08 02:00",
           "score_a": 32,
           "score_b": 68,
-          "metric": "Ratio: 0.07081 (Z: +0.40σ)"
+          "metric": "Ratio: 0.07083 (Z: +0.40σ)"
         },
         {
           "time": "17/08 03:00",
           "score_a": 32,
           "score_b": 68,
-          "metric": "Ratio: 0.07082 (Z: +0.42σ)"
+          "metric": "Ratio: 0.07084 (Z: +0.42σ)"
         },
         {
           "time": "17/08 03:00",
           "score_a": 30,
           "score_b": 70,
-          "metric": "Ratio: 0.07085 (Z: +0.47σ)"
+          "metric": "Ratio: 0.07087 (Z: +0.47σ)"
         },
         {
           "time": "17/08 03:00",
           "score_a": 29,
           "score_b": 71,
-          "metric": "Ratio: 0.07086 (Z: +0.49σ)"
+          "metric": "Ratio: 0.07089 (Z: +0.49σ)"
         },
         {
           "time": "17/08 03:00",
           "score_a": 35,
           "score_b": 65,
-          "metric": "Ratio: 0.07078 (Z: +0.35σ)"
+          "metric": "Ratio: 0.07080 (Z: +0.35σ)"
         },
         {
           "time": "17/08 04:00",
           "score_a": 39,
           "score_b": 61,
-          "metric": "Ratio: 0.07072 (Z: +0.25σ)"
+          "metric": "Ratio: 0.07074 (Z: +0.25σ)"
         },
         {
           "time": "17/08 04:00",
           "score_a": 39,
           "score_b": 61,
-          "metric": "Ratio: 0.07072 (Z: +0.26σ)"
+          "metric": "Ratio: 0.07075 (Z: +0.26σ)"
         },
         {
           "time": "17/08 04:00",
           "score_a": 40,
           "score_b": 60,
-          "metric": "Ratio: 0.07070 (Z: +0.22σ)"
+          "metric": "Ratio: 0.07073 (Z: +0.22σ)"
         },
         {
           "time": "17/08 04:00",
           "score_a": 42,
           "score_b": 58,
-          "metric": "Ratio: 0.07068 (Z: +0.18σ)"
+          "metric": "Ratio: 0.07071 (Z: +0.18σ)"
         },
         {
           "time": "17/08 05:00",
           "score_a": 42,
           "score_b": 58,
-          "metric": "Ratio: 0.07069 (Z: +0.19σ)"
+          "metric": "Ratio: 0.07071 (Z: +0.18σ)"
         },
         {
           "time": "17/08 05:00",
           "score_a": 40,
           "score_b": 60,
-          "metric": "Ratio: 0.07072 (Z: +0.23σ)"
+          "metric": "Ratio: 0.07074 (Z: +0.23σ)"
         },
         {
           "time": "17/08 05:00",
           "score_a": 38,
           "score_b": 62,
-          "metric": "Ratio: 0.07075 (Z: +0.28σ)"
+          "metric": "Ratio: 0.07077 (Z: +0.28σ)"
         },
         {
           "time": "17/08 05:00",
           "score_a": 42,
           "score_b": 58,
-          "metric": "Ratio: 0.07069 (Z: +0.19σ)"
+          "metric": "Ratio: 0.07072 (Z: +0.19σ)"
         },
         {
           "time": "17/08 06:00",
           "score_a": 45,
           "score_b": 55,
-          "metric": "Ratio: 0.07065 (Z: +0.11σ)"
+          "metric": "Ratio: 0.07067 (Z: +0.11σ)"
         },
         {
           "time": "17/08 06:00",
           "score_a": 45,
           "score_b": 55,
-          "metric": "Ratio: 0.07065 (Z: +0.11σ)"
+          "metric": "Ratio: 0.07067 (Z: +0.11σ)"
         },
         {
           "time": "17/08 06:00",
           "score_a": 48,
           "score_b": 52,
-          "metric": "Ratio: 0.07061 (Z: +0.04σ)"
+          "metric": "Ratio: 0.07063 (Z: +0.04σ)"
         },
         {
           "time": "17/08 06:00",
           "score_a": 53,
           "score_b": 47,
-          "metric": "Ratio: 0.07056 (Z: -0.06σ)"
+          "metric": "Ratio: 0.07058 (Z: -0.06σ)"
         },
         {
           "time": "17/08 07:00",
           "score_a": 47,
           "score_b": 53,
-          "metric": "Ratio: 0.07064 (Z: +0.08σ)"
+          "metric": "Ratio: 0.07066 (Z: +0.08σ)"
         },
         {
           "time": "17/08 07:00",
           "score_a": 49,
           "score_b": 51,
-          "metric": "Ratio: 0.07061 (Z: +0.02σ)"
+          "metric": "Ratio: 0.07063 (Z: +0.02σ)"
         },
         {
           "time": "17/08 07:00",
           "score_a": 46,
           "score_b": 54,
-          "metric": "Ratio: 0.07065 (Z: +0.08σ)"
+          "metric": "Ratio: 0.07067 (Z: +0.08σ)"
         },
         {
           "time": "17/08 07:00",
           "score_a": 47,
           "score_b": 53,
-          "metric": "Ratio: 0.07064 (Z: +0.06σ)"
+          "metric": "Ratio: 0.07066 (Z: +0.06σ)"
         },
         {
           "time": "17/08 08:00",
           "score_a": 39,
           "score_b": 61,
-          "metric": "Ratio: 0.07075 (Z: +0.25σ)"
+          "metric": "Ratio: 0.07077 (Z: +0.25σ)"
         },
         {
           "time": "17/08 08:00",
           "score_a": 37,
           "score_b": 63,
-          "metric": "Ratio: 0.07077 (Z: +0.29σ)"
+          "metric": "Ratio: 0.07080 (Z: +0.29σ)"
         },
         {
           "time": "17/08 08:00",
           "score_a": 35,
           "score_b": 65,
-          "metric": "Ratio: 0.07080 (Z: +0.35σ)"
+          "metric": "Ratio: 0.07083 (Z: +0.35σ)"
         },
         {
           "time": "17/08 08:00",
           "score_a": 36,
           "score_b": 64,
-          "metric": "Ratio: 0.07079 (Z: +0.31σ)"
+          "metric": "Ratio: 0.07081 (Z: +0.31σ)"
         },
         {
           "time": "17/08 09:00",
           "score_a": 38,
           "score_b": 62,
-          "metric": "Ratio: 0.07077 (Z: +0.27σ)"
+          "metric": "Ratio: 0.07079 (Z: +0.27σ)"
         },
         {
           "time": "17/08 09:00",
           "score_a": 35,
           "score_b": 65,
-          "metric": "Ratio: 0.07081 (Z: +0.34σ)"
+          "metric": "Ratio: 0.07083 (Z: +0.34σ)"
         },
         {
           "time": "17/08 09:00",
           "score_a": 30,
           "score_b": 70,
-          "metric": "Ratio: 0.07087 (Z: +0.46σ)"
+          "metric": "Ratio: 0.07089 (Z: +0.46σ)"
         },
         {
           "time": "17/08 09:00",
           "score_a": 31,
           "score_b": 69,
-          "metric": "Ratio: 0.07085 (Z: +0.43σ)"
+          "metric": "Ratio: 0.07088 (Z: +0.43σ)"
         },
         {
           "time": "17/08 10:00",
           "score_a": 32,
           "score_b": 68,
-          "metric": "Ratio: 0.07085 (Z: +0.42σ)"
+          "metric": "Ratio: 0.07087 (Z: +0.42σ)"
         },
         {
           "time": "17/08 10:00",
           "score_a": 41,
           "score_b": 59,
-          "metric": "Ratio: 0.07074 (Z: +0.21σ)"
+          "metric": "Ratio: 0.07076 (Z: +0.21σ)"
         },
         {
           "time": "17/08 10:00",
           "score_a": 56,
           "score_b": 44,
-          "metric": "Ratio: 0.07056 (Z: -0.14σ)"
+          "metric": "Ratio: 0.07058 (Z: -0.14σ)"
         },
         {
           "time": "17/08 10:00",
           "score_a": 62,
           "score_b": 38,
-          "metric": "Ratio: 0.07050 (Z: -0.27σ)"
+          "metric": "Ratio: 0.07052 (Z: -0.27σ)"
         },
         {
           "time": "17/08 11:00",
           "score_a": 59,
           "score_b": 41,
-          "metric": "Ratio: 0.07053 (Z: -0.22σ)"
+          "metric": "Ratio: 0.07055 (Z: -0.22σ)"
         },
         {
           "time": "17/08 11:00",
           "score_a": 59,
           "score_b": 41,
-          "metric": "Ratio: 0.07053 (Z: -0.22σ)"
+          "metric": "Ratio: 0.07055 (Z: -0.22σ)"
         },
         {
           "time": "17/08 11:00",
           "score_a": 61,
           "score_b": 39,
-          "metric": "Ratio: 0.07051 (Z: -0.26σ)"
+          "metric": "Ratio: 0.07053 (Z: -0.26σ)"
         },
         {
           "time": "17/08 11:00",
           "score_a": 57,
           "score_b": 43,
-          "metric": "Ratio: 0.07057 (Z: -0.16σ)"
+          "metric": "Ratio: 0.07059 (Z: -0.16σ)"
         },
         {
           "time": "17/08 12:00",
           "score_a": 60,
           "score_b": 40,
-          "metric": "Ratio: 0.07053 (Z: -0.24σ)"
+          "metric": "Ratio: 0.07055 (Z: -0.24σ)"
         },
         {
           "time": "17/08 12:00",
           "score_a": 54,
           "score_b": 46,
-          "metric": "Ratio: 0.07060 (Z: -0.10σ)"
+          "metric": "Ratio: 0.07062 (Z: -0.10σ)"
         },
         {
           "time": "17/08 12:00",
           "score_a": 53,
           "score_b": 47,
-          "metric": "Ratio: 0.07061 (Z: -0.08σ)"
+          "metric": "Ratio: 0.07064 (Z: -0.08σ)"
         },
         {
           "time": "17/08 12:00",
           "score_a": 54,
           "score_b": 46,
-          "metric": "Ratio: 0.07061 (Z: -0.10σ)"
+          "metric": "Ratio: 0.07063 (Z: -0.10σ)"
         },
         {
           "time": "17/08 13:00",
           "score_a": 53,
           "score_b": 47,
-          "metric": "Ratio: 0.07062 (Z: -0.07σ)"
+          "metric": "Ratio: 0.07065 (Z: -0.07σ)"
         },
         {
           "time": "17/08 13:00",
           "score_a": 49,
           "score_b": 51,
-          "metric": "Ratio: 0.07067 (Z: +0.02σ)"
+          "metric": "Ratio: 0.07069 (Z: +0.02σ)"
         },
         {
           "time": "17/08 13:00",
           "score_a": 62,
           "score_b": 38,
-          "metric": "Ratio: 0.07053 (Z: -0.28σ)"
+          "metric": "Ratio: 0.07055 (Z: -0.28σ)"
         },
         {
           "time": "17/08 13:00",
           "score_a": 63,
           "score_b": 37,
-          "metric": "Ratio: 0.07052 (Z: -0.30σ)"
+          "metric": "Ratio: 0.07054 (Z: -0.30σ)"
         },
         {
           "time": "17/08 14:00",
           "score_a": 69,
           "score_b": 31,
-          "metric": "Ratio: 0.07046 (Z: -0.43σ)"
+          "metric": "Ratio: 0.07049 (Z: -0.43σ)"
         },
         {
           "time": "17/08 14:00",
           "score_a": 65,
           "score_b": 35,
-          "metric": "Ratio: 0.07050 (Z: -0.35σ)"
+          "metric": "Ratio: 0.07052 (Z: -0.35σ)"
         },
         {
           "time": "17/08 14:00",
           "score_a": 65,
           "score_b": 35,
-          "metric": "Ratio: 0.07051 (Z: -0.33σ)"
+          "metric": "Ratio: 0.07054 (Z: -0.33σ)"
         },
         {
           "time": "17/08 14:00",
           "score_a": 89,
           "score_b": 11,
-          "metric": "Ratio: 0.07026 (Z: -0.89σ)"
+          "metric": "Ratio: 0.07028 (Z: -0.89σ)"
         },
         {
           "time": "17/08 15:00",
           "score_a": 86,
           "score_b": 14,
-          "metric": "Ratio: 0.07029 (Z: -0.83σ)"
+          "metric": "Ratio: 0.07031 (Z: -0.83σ)"
         },
         {
           "time": "17/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.07010 (Z: -1.25σ)"
+          "metric": "Ratio: 0.07012 (Z: -1.25σ)"
         },
         {
           "time": "17/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.07007 (Z: -1.32σ)"
+          "metric": "Ratio: 0.07009 (Z: -1.32σ)"
         },
         {
           "time": "17/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06997 (Z: -1.54σ)"
+          "metric": "Ratio: 0.07000 (Z: -1.54σ)"
         },
         {
           "time": "17/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.07008 (Z: -1.31σ)"
+          "metric": "Ratio: 0.07010 (Z: -1.31σ)"
         },
         {
           "time": "17/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.07006 (Z: -1.35σ)"
+          "metric": "Ratio: 0.07009 (Z: -1.35σ)"
         },
         {
           "time": "17/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.07008 (Z: -1.31σ)"
+          "metric": "Ratio: 0.07010 (Z: -1.31σ)"
         },
         {
           "time": "17/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.07006 (Z: -1.36σ)"
+          "metric": "Ratio: 0.07009 (Z: -1.36σ)"
         },
         {
           "time": "17/08 17:00",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.07018 (Z: -1.10σ)"
+          "metric": "Ratio: 0.07020 (Z: -1.10σ)"
         },
         {
           "time": "17/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06999 (Z: -1.53σ)"
+          "metric": "Ratio: 0.07001 (Z: -1.53σ)"
         },
         {
           "time": "17/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06998 (Z: -1.53σ)"
+          "metric": "Ratio: 0.07000 (Z: -1.53σ)"
         },
         {
           "time": "17/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06989 (Z: -1.73σ)"
+          "metric": "Ratio: 0.06991 (Z: -1.73σ)"
         },
         {
           "time": "17/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06983 (Z: -1.86σ)"
+          "metric": "Ratio: 0.06985 (Z: -1.86σ)"
         },
         {
           "time": "17/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06974 (Z: -2.06σ)"
+          "metric": "Ratio: 0.06976 (Z: -2.06σ)"
         },
         {
           "time": "17/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06974 (Z: -2.05σ)"
+          "metric": "Ratio: 0.06976 (Z: -2.05σ)"
         },
         {
           "time": "17/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06977 (Z: -1.97σ)"
+          "metric": "Ratio: 0.06980 (Z: -1.97σ)"
         },
         {
           "time": "17/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06989 (Z: -1.73σ)"
+          "metric": "Ratio: 0.06991 (Z: -1.73σ)"
         },
         {
           "time": "17/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06979 (Z: -1.92σ)"
+          "metric": "Ratio: 0.06982 (Z: -1.92σ)"
         },
         {
           "time": "17/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06981 (Z: -1.88σ)"
+          "metric": "Ratio: 0.06984 (Z: -1.88σ)"
         },
         {
           "time": "17/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06987 (Z: -1.76σ)"
+          "metric": "Ratio: 0.06989 (Z: -1.76σ)"
         },
         {
           "time": "17/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06987 (Z: -1.75σ)"
+          "metric": "Ratio: 0.06990 (Z: -1.75σ)"
         },
         {
           "time": "17/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06978 (Z: -1.95σ)"
+          "metric": "Ratio: 0.06980 (Z: -1.95σ)"
         },
         {
           "time": "17/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06980 (Z: -1.90σ)"
+          "metric": "Ratio: 0.06982 (Z: -1.90σ)"
         },
         {
           "time": "17/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06980 (Z: -1.89σ)"
+          "metric": "Ratio: 0.06983 (Z: -1.89σ)"
         },
         {
           "time": "17/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06982 (Z: -1.85σ)"
+          "metric": "Ratio: 0.06985 (Z: -1.85σ)"
         },
         {
           "time": "17/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06987 (Z: -1.75σ)"
+          "metric": "Ratio: 0.06989 (Z: -1.75σ)"
         },
         {
           "time": "17/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06986 (Z: -1.77σ)"
+          "metric": "Ratio: 0.06989 (Z: -1.77σ)"
         },
         {
           "time": "17/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06983 (Z: -1.83σ)"
+          "metric": "Ratio: 0.06986 (Z: -1.83σ)"
         },
         {
           "time": "17/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06989 (Z: -1.70σ)"
+          "metric": "Ratio: 0.06992 (Z: -1.70σ)"
         },
         {
           "time": "17/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06990 (Z: -1.68σ)"
+          "metric": "Ratio: 0.06992 (Z: -1.68σ)"
         },
         {
           "time": "17/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06989 (Z: -1.69σ)"
+          "metric": "Ratio: 0.06992 (Z: -1.69σ)"
         },
         {
           "time": "17/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06991 (Z: -1.66σ)"
+          "metric": "Ratio: 0.06993 (Z: -1.66σ)"
         },
         {
           "time": "17/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06985 (Z: -1.79σ)"
+          "metric": "Ratio: 0.06987 (Z: -1.79σ)"
         },
         {
           "time": "17/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06974 (Z: -2.03σ)"
+          "metric": "Ratio: 0.06976 (Z: -2.03σ)"
         },
         {
           "time": "17/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06974 (Z: -2.02σ)"
+          "metric": "Ratio: 0.06976 (Z: -2.02σ)"
         },
         {
           "time": "17/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06969 (Z: -2.13σ)"
+          "metric": "Ratio: 0.06971 (Z: -2.13σ)"
         },
         {
           "time": "18/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06978 (Z: -1.92σ)"
+          "metric": "Ratio: 0.06980 (Z: -1.92σ)"
         },
         {
           "time": "18/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06975 (Z: -1.98σ)"
+          "metric": "Ratio: 0.06978 (Z: -1.98σ)"
         },
         {
           "time": "18/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06981 (Z: -1.84σ)"
+          "metric": "Ratio: 0.06984 (Z: -1.84σ)"
         },
         {
           "time": "18/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06982 (Z: -1.83σ)"
+          "metric": "Ratio: 0.06984 (Z: -1.83σ)"
         },
         {
           "time": "18/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06985 (Z: -1.75σ)"
+          "metric": "Ratio: 0.06988 (Z: -1.75σ)"
         },
         {
           "time": "18/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06988 (Z: -1.70σ)"
+          "metric": "Ratio: 0.06990 (Z: -1.70σ)"
         },
         {
           "time": "18/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06991 (Z: -1.62σ)"
+          "metric": "Ratio: 0.06994 (Z: -1.62σ)"
         },
         {
           "time": "18/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06998 (Z: -1.47σ)"
+          "metric": "Ratio: 0.07001 (Z: -1.47σ)"
         },
         {
           "time": "18/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.07000 (Z: -1.44σ)"
+          "metric": "Ratio: 0.07002 (Z: -1.44σ)"
         },
         {
           "time": "18/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.07003 (Z: -1.38σ)"
+          "metric": "Ratio: 0.07005 (Z: -1.38σ)"
         },
         {
           "time": "18/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.07005 (Z: -1.32σ)"
+          "metric": "Ratio: 0.07008 (Z: -1.32σ)"
         },
         {
           "time": "18/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.07006 (Z: -1.31σ)"
+          "metric": "Ratio: 0.07008 (Z: -1.31σ)"
         },
         {
           "time": "18/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.07007 (Z: -1.29σ)"
+          "metric": "Ratio: 0.07009 (Z: -1.29σ)"
         },
         {
           "time": "18/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.07010 (Z: -1.23σ)"
+          "metric": "Ratio: 0.07012 (Z: -1.23σ)"
         },
         {
           "time": "18/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.07002 (Z: -1.40σ)"
+          "metric": "Ratio: 0.07004 (Z: -1.40σ)"
         },
         {
           "time": "18/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.07004 (Z: -1.37σ)"
+          "metric": "Ratio: 0.07006 (Z: -1.37σ)"
         },
         {
           "time": "18/08 04:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07005 (Z: -1.34σ)"
-        },
-        {
-          "time": "18/08 04:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07002 (Z: -1.39σ)"
-        },
-        {
-          "time": "18/08 04:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06996 (Z: -1.53σ)"
-        },
-        {
-          "time": "18/08 05:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06998 (Z: -1.48σ)"
-        },
-        {
-          "time": "18/08 05:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06994 (Z: -1.57σ)"
-        },
-        {
-          "time": "18/08 05:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06997 (Z: -1.51σ)"
-        },
-        {
-          "time": "18/08 05:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06997 (Z: -1.52σ)"
-        },
-        {
-          "time": "18/08 06:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06999 (Z: -1.47σ)"
-        },
-        {
-          "time": "18/08 06:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06996 (Z: -1.53σ)"
-        },
-        {
-          "time": "18/08 06:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06982 (Z: -1.84σ)"
-        },
-        {
-          "time": "18/08 06:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06977 (Z: -1.94σ)"
-        },
-        {
-          "time": "18/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06987 (Z: -1.72σ)"
-        },
-        {
-          "time": "18/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06987 (Z: -1.73σ)"
-        },
-        {
-          "time": "18/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06992 (Z: -1.61σ)"
-        },
-        {
-          "time": "18/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06995 (Z: -1.56σ)"
-        },
-        {
-          "time": "18/08 08:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07000 (Z: -1.44σ)"
-        },
-        {
-          "time": "18/08 08:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07002 (Z: -1.40σ)"
-        },
-        {
-          "time": "18/08 08:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06998 (Z: -1.50σ)"
-        },
-        {
-          "time": "18/08 08:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06991 (Z: -1.63σ)"
-        },
-        {
-          "time": "18/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06993 (Z: -1.60σ)"
-        },
-        {
-          "time": "18/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06995 (Z: -1.55σ)"
-        },
-        {
-          "time": "18/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07003 (Z: -1.39σ)"
-        },
-        {
-          "time": "18/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07004 (Z: -1.37σ)"
-        },
-        {
-          "time": "18/08 10:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07003 (Z: -1.38σ)"
-        },
-        {
-          "time": "18/08 10:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07003 (Z: -1.39σ)"
-        },
-        {
-          "time": "18/08 10:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07003 (Z: -1.39σ)"
-        },
-        {
-          "time": "18/08 10:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07000 (Z: -1.45σ)"
-        },
-        {
-          "time": "18/08 11:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07000 (Z: -1.47σ)"
-        },
-        {
-          "time": "18/08 11:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06985 (Z: -1.78σ)"
-        },
-        {
-          "time": "18/08 11:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06986 (Z: -1.78σ)"
-        },
-        {
-          "time": "18/08 11:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06982 (Z: -1.87σ)"
-        },
-        {
-          "time": "18/08 12:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06987 (Z: -1.75σ)"
-        },
-        {
-          "time": "18/08 12:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06991 (Z: -1.67σ)"
-        },
-        {
-          "time": "18/08 12:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06992 (Z: -1.65σ)"
-        },
-        {
-          "time": "18/08 12:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06996 (Z: -1.58σ)"
-        },
-        {
-          "time": "18/08 13:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07000 (Z: -1.49σ)"
-        },
-        {
-          "time": "18/08 13:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07001 (Z: -1.48σ)"
-        },
-        {
-          "time": "18/08 13:00",
           "score_a": 100,
           "score_b": 0,
           "metric": "Ratio: 0.07007 (Z: -1.34σ)"
         },
         {
-          "time": "18/08 13:00",
+          "time": "18/08 04:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07005 (Z: -1.39σ)"
+        },
+        {
+          "time": "18/08 04:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06999 (Z: -1.53σ)"
+        },
+        {
+          "time": "18/08 05:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07001 (Z: -1.48σ)"
+        },
+        {
+          "time": "18/08 05:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06997 (Z: -1.57σ)"
+        },
+        {
+          "time": "18/08 05:00",
           "score_a": 100,
           "score_b": 0,
           "metric": "Ratio: 0.06999 (Z: -1.51σ)"
         },
         {
-          "time": "18/08 14:00",
+          "time": "18/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06994 (Z: -1.64σ)"
+          "metric": "Ratio: 0.06999 (Z: -1.52σ)"
+        },
+        {
+          "time": "18/08 06:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07001 (Z: -1.47σ)"
+        },
+        {
+          "time": "18/08 06:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06999 (Z: -1.53σ)"
+        },
+        {
+          "time": "18/08 06:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06984 (Z: -1.84σ)"
+        },
+        {
+          "time": "18/08 06:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06980 (Z: -1.94σ)"
+        },
+        {
+          "time": "18/08 07:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06989 (Z: -1.72σ)"
+        },
+        {
+          "time": "18/08 07:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06989 (Z: -1.73σ)"
+        },
+        {
+          "time": "18/08 07:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06994 (Z: -1.61σ)"
+        },
+        {
+          "time": "18/08 07:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06997 (Z: -1.56σ)"
+        },
+        {
+          "time": "18/08 08:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07002 (Z: -1.44σ)"
+        },
+        {
+          "time": "18/08 08:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07004 (Z: -1.40σ)"
+        },
+        {
+          "time": "18/08 08:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07000 (Z: -1.50σ)"
+        },
+        {
+          "time": "18/08 08:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06994 (Z: -1.63σ)"
+        },
+        {
+          "time": "18/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06995 (Z: -1.60σ)"
+        },
+        {
+          "time": "18/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06997 (Z: -1.55σ)"
+        },
+        {
+          "time": "18/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07005 (Z: -1.39σ)"
+        },
+        {
+          "time": "18/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07006 (Z: -1.37σ)"
+        },
+        {
+          "time": "18/08 10:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07006 (Z: -1.38σ)"
+        },
+        {
+          "time": "18/08 10:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07005 (Z: -1.39σ)"
+        },
+        {
+          "time": "18/08 10:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07005 (Z: -1.39σ)"
+        },
+        {
+          "time": "18/08 10:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07003 (Z: -1.45σ)"
+        },
+        {
+          "time": "18/08 11:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07002 (Z: -1.47σ)"
+        },
+        {
+          "time": "18/08 11:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06988 (Z: -1.78σ)"
+        },
+        {
+          "time": "18/08 11:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06988 (Z: -1.78σ)"
+        },
+        {
+          "time": "18/08 11:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06984 (Z: -1.87σ)"
+        },
+        {
+          "time": "18/08 12:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06990 (Z: -1.75σ)"
+        },
+        {
+          "time": "18/08 12:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06993 (Z: -1.67σ)"
+        },
+        {
+          "time": "18/08 12:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06994 (Z: -1.65σ)"
+        },
+        {
+          "time": "18/08 12:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06998 (Z: -1.58σ)"
+        },
+        {
+          "time": "18/08 13:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07002 (Z: -1.49σ)"
+        },
+        {
+          "time": "18/08 13:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07003 (Z: -1.48σ)"
+        },
+        {
+          "time": "18/08 13:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07009 (Z: -1.34σ)"
+        },
+        {
+          "time": "18/08 13:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07002 (Z: -1.51σ)"
         },
         {
           "time": "18/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06991 (Z: -1.71σ)"
+          "metric": "Ratio: 0.06996 (Z: -1.64σ)"
         },
         {
           "time": "18/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06923 (Z: -3.21σ)"
+          "metric": "Ratio: 0.06993 (Z: -1.71σ)"
         },
         {
           "time": "18/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06944 (Z: -2.73σ)"
+          "metric": "Ratio: 0.06925 (Z: -3.21σ)"
+        },
+        {
+          "time": "18/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06946 (Z: -2.73σ)"
         },
         {
           "time": "18/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06947 (Z: -2.66σ)"
+          "metric": "Ratio: 0.06949 (Z: -2.66σ)"
         },
         {
           "time": "18/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06950 (Z: -2.57σ)"
+          "metric": "Ratio: 0.06952 (Z: -2.57σ)"
         },
         {
           "time": "18/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06946 (Z: -2.64σ)"
+          "metric": "Ratio: 0.06948 (Z: -2.64σ)"
         },
         {
           "time": "18/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06942 (Z: -2.72σ)"
+          "metric": "Ratio: 0.06944 (Z: -2.72σ)"
         },
         {
           "time": "18/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06936 (Z: -2.81σ)"
+          "metric": "Ratio: 0.06939 (Z: -2.81σ)"
         },
         {
           "time": "18/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06949 (Z: -2.53σ)"
+          "metric": "Ratio: 0.06951 (Z: -2.53σ)"
         },
         {
           "time": "18/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06953 (Z: -2.43σ)"
+          "metric": "Ratio: 0.06955 (Z: -2.43σ)"
         },
         {
           "time": "18/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06947 (Z: -2.53σ)"
+          "metric": "Ratio: 0.06950 (Z: -2.53σ)"
         },
         {
           "time": "18/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06945 (Z: -2.56σ)"
+          "metric": "Ratio: 0.06948 (Z: -2.56σ)"
         },
         {
           "time": "18/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06946 (Z: -2.52σ)"
+          "metric": "Ratio: 0.06949 (Z: -2.52σ)"
         },
         {
           "time": "18/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06945 (Z: -2.53σ)"
+          "metric": "Ratio: 0.06948 (Z: -2.53σ)"
         },
         {
           "time": "18/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06951 (Z: -2.40σ)"
+          "metric": "Ratio: 0.06953 (Z: -2.40σ)"
         },
         {
           "time": "18/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06956 (Z: -2.28σ)"
+          "metric": "Ratio: 0.06958 (Z: -2.28σ)"
         },
         {
           "time": "18/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06951 (Z: -2.37σ)"
+          "metric": "Ratio: 0.06953 (Z: -2.37σ)"
         },
         {
           "time": "18/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06944 (Z: -2.50σ)"
+          "metric": "Ratio: 0.06946 (Z: -2.50σ)"
         },
         {
           "time": "18/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06947 (Z: -2.42σ)"
+          "metric": "Ratio: 0.06949 (Z: -2.42σ)"
         },
         {
           "time": "18/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06950 (Z: -2.35σ)"
+          "metric": "Ratio: 0.06952 (Z: -2.35σ)"
         },
         {
           "time": "18/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06955 (Z: -2.24σ)"
+          "metric": "Ratio: 0.06957 (Z: -2.24σ)"
         },
         {
           "time": "18/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06949 (Z: -2.34σ)"
+          "metric": "Ratio: 0.06951 (Z: -2.34σ)"
         },
         {
           "time": "18/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06956 (Z: -2.19σ)"
+          "metric": "Ratio: 0.06958 (Z: -2.19σ)"
         },
         {
           "time": "18/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06959 (Z: -2.13σ)"
+          "metric": "Ratio: 0.06961 (Z: -2.13σ)"
         },
         {
           "time": "18/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06959 (Z: -2.11σ)"
+          "metric": "Ratio: 0.06961 (Z: -2.11σ)"
         },
         {
           "time": "18/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06963 (Z: -2.01σ)"
+          "metric": "Ratio: 0.06966 (Z: -2.01σ)"
         },
         {
           "time": "18/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06962 (Z: -2.04σ)"
+          "metric": "Ratio: 0.06964 (Z: -2.04σ)"
         },
         {
           "time": "18/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06964 (Z: -1.99σ)"
+          "metric": "Ratio: 0.06966 (Z: -1.99σ)"
         },
         {
           "time": "18/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06964 (Z: -1.99σ)"
+          "metric": "Ratio: 0.06966 (Z: -1.99σ)"
         },
         {
           "time": "18/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06962 (Z: -2.01σ)"
+          "metric": "Ratio: 0.06964 (Z: -2.01σ)"
         },
         {
           "time": "18/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06964 (Z: -1.95σ)"
+          "metric": "Ratio: 0.06967 (Z: -1.95σ)"
         },
         {
           "time": "18/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06968 (Z: -1.88σ)"
+          "metric": "Ratio: 0.06970 (Z: -1.88σ)"
         },
         {
           "time": "18/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06968 (Z: -1.86σ)"
+          "metric": "Ratio: 0.06971 (Z: -1.86σ)"
         },
         {
           "time": "18/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06966 (Z: -1.90σ)"
+          "metric": "Ratio: 0.06968 (Z: -1.90σ)"
         },
         {
           "time": "18/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06964 (Z: -1.94σ)"
+          "metric": "Ratio: 0.06966 (Z: -1.94σ)"
         },
         {
           "time": "18/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06962 (Z: -1.97σ)"
+          "metric": "Ratio: 0.06964 (Z: -1.97σ)"
         },
         {
           "time": "18/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06957 (Z: -2.05σ)"
+          "metric": "Ratio: 0.06959 (Z: -2.05σ)"
         },
         {
           "time": "18/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06954 (Z: -2.10σ)"
+          "metric": "Ratio: 0.06957 (Z: -2.10σ)"
         },
         {
           "time": "18/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06951 (Z: -2.15σ)"
+          "metric": "Ratio: 0.06953 (Z: -2.15σ)"
         },
         {
           "time": "19/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06957 (Z: -2.03σ)"
+          "metric": "Ratio: 0.06959 (Z: -2.03σ)"
         },
         {
           "time": "19/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06969 (Z: -1.79σ)"
+          "metric": "Ratio: 0.06971 (Z: -1.79σ)"
         },
         {
           "time": "19/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06966 (Z: -1.85σ)"
+          "metric": "Ratio: 0.06968 (Z: -1.85σ)"
         },
         {
           "time": "19/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06971 (Z: -1.75σ)"
+          "metric": "Ratio: 0.06973 (Z: -1.75σ)"
         },
         {
           "time": "19/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06980 (Z: -1.55σ)"
+          "metric": "Ratio: 0.06983 (Z: -1.55σ)"
         },
         {
           "time": "19/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06975 (Z: -1.65σ)"
+          "metric": "Ratio: 0.06977 (Z: -1.65σ)"
         },
         {
           "time": "19/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06978 (Z: -1.60σ)"
+          "metric": "Ratio: 0.06980 (Z: -1.60σ)"
         },
         {
           "time": "19/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06983 (Z: -1.49σ)"
+          "metric": "Ratio: 0.06986 (Z: -1.49σ)"
         },
         {
           "time": "19/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06985 (Z: -1.44σ)"
+          "metric": "Ratio: 0.06988 (Z: -1.44σ)"
         },
         {
           "time": "19/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06984 (Z: -1.46σ)"
+          "metric": "Ratio: 0.06987 (Z: -1.46σ)"
         },
         {
           "time": "19/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06984 (Z: -1.47σ)"
+          "metric": "Ratio: 0.06986 (Z: -1.47σ)"
         },
         {
           "time": "19/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06982 (Z: -1.50σ)"
+          "metric": "Ratio: 0.06984 (Z: -1.50σ)"
         },
         {
           "time": "19/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06988 (Z: -1.39σ)"
+          "metric": "Ratio: 0.06990 (Z: -1.39σ)"
         },
         {
           "time": "19/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06988 (Z: -1.39σ)"
+          "metric": "Ratio: 0.06990 (Z: -1.39σ)"
         },
         {
           "time": "19/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06987 (Z: -1.39σ)"
+          "metric": "Ratio: 0.06990 (Z: -1.39σ)"
         },
         {
           "time": "19/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06988 (Z: -1.38σ)"
+          "metric": "Ratio: 0.06990 (Z: -1.38σ)"
         },
         {
           "time": "19/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06991 (Z: -1.31σ)"
+          "metric": "Ratio: 0.06994 (Z: -1.31σ)"
         },
         {
           "time": "19/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06991 (Z: -1.32σ)"
+          "metric": "Ratio: 0.06993 (Z: -1.32σ)"
         },
         {
           "time": "19/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06990 (Z: -1.32σ)"
+          "metric": "Ratio: 0.06993 (Z: -1.32σ)"
         },
         {
           "time": "19/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06987 (Z: -1.37σ)"
+          "metric": "Ratio: 0.06990 (Z: -1.37σ)"
         },
         {
           "time": "19/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06992 (Z: -1.29σ)"
+          "metric": "Ratio: 0.06994 (Z: -1.29σ)"
         },
         {
           "time": "19/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06986 (Z: -1.40σ)"
+          "metric": "Ratio: 0.06988 (Z: -1.40σ)"
         },
         {
           "time": "19/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06988 (Z: -1.36σ)"
+          "metric": "Ratio: 0.06990 (Z: -1.36σ)"
         },
         {
           "time": "19/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06991 (Z: -1.30σ)"
+          "metric": "Ratio: 0.06993 (Z: -1.30σ)"
         },
         {
           "time": "19/08 06:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06999 (Z: -1.15σ)"
+          "metric": "Ratio: 0.07001 (Z: -1.15σ)"
         },
         {
           "time": "19/08 06:00",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.07000 (Z: -1.13σ)"
+          "metric": "Ratio: 0.07002 (Z: -1.13σ)"
         },
         {
           "time": "19/08 06:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06994 (Z: -1.24σ)"
+          "metric": "Ratio: 0.06996 (Z: -1.24σ)"
         },
         {
           "time": "19/08 06:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06993 (Z: -1.26σ)"
+          "metric": "Ratio: 0.06995 (Z: -1.26σ)"
         },
         {
           "time": "19/08 07:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06991 (Z: -1.30σ)"
+          "metric": "Ratio: 0.06993 (Z: -1.30σ)"
         },
         {
           "time": "19/08 07:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06990 (Z: -1.31σ)"
+          "metric": "Ratio: 0.06992 (Z: -1.31σ)"
         },
         {
           "time": "19/08 07:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06988 (Z: -1.33σ)"
+          "metric": "Ratio: 0.06990 (Z: -1.33σ)"
         },
         {
           "time": "19/08 07:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06987 (Z: -1.36σ)"
+          "metric": "Ratio: 0.06989 (Z: -1.36σ)"
         },
         {
           "time": "19/08 08:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06993 (Z: -1.24σ)"
+          "metric": "Ratio: 0.06995 (Z: -1.24σ)"
         },
         {
           "time": "19/08 08:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06997 (Z: -1.16σ)"
+          "metric": "Ratio: 0.06999 (Z: -1.16σ)"
         },
         {
           "time": "19/08 08:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06987 (Z: -1.35σ)"
+          "metric": "Ratio: 0.06989 (Z: -1.35σ)"
         },
         {
           "time": "19/08 08:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06977 (Z: -1.52σ)"
+          "metric": "Ratio: 0.06980 (Z: -1.52σ)"
         },
         {
           "time": "19/08 09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06979 (Z: -1.48σ)"
+          "metric": "Ratio: 0.06981 (Z: -1.48σ)"
         },
         {
           "time": "19/08 09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06984 (Z: -1.38σ)"
+          "metric": "Ratio: 0.06987 (Z: -1.38σ)"
         },
         {
           "time": "19/08 09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06985 (Z: -1.37σ)"
+          "metric": "Ratio: 0.06987 (Z: -1.37σ)"
         },
         {
           "time": "19/08 09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06986 (Z: -1.35σ)"
+          "metric": "Ratio: 0.06988 (Z: -1.35σ)"
         },
         {
           "time": "19/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06983 (Z: -1.41σ)"
+          "metric": "Ratio: 0.06985 (Z: -1.41σ)"
         },
         {
           "time": "19/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06984 (Z: -1.38σ)"
+          "metric": "Ratio: 0.06987 (Z: -1.38σ)"
         },
         {
           "time": "19/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06983 (Z: -1.39σ)"
+          "metric": "Ratio: 0.06986 (Z: -1.39σ)"
         },
         {
           "time": "19/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06981 (Z: -1.43σ)"
+          "metric": "Ratio: 0.06983 (Z: -1.43σ)"
         },
         {
           "time": "19/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06977 (Z: -1.52σ)"
+          "metric": "Ratio: 0.06979 (Z: -1.52σ)"
         },
         {
           "time": "19/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06974 (Z: -1.55σ)"
+          "metric": "Ratio: 0.06977 (Z: -1.55σ)"
         },
         {
           "time": "19/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06971 (Z: -1.62σ)"
+          "metric": "Ratio: 0.06973 (Z: -1.62σ)"
         },
         {
           "time": "19/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06974 (Z: -1.57σ)"
+          "metric": "Ratio: 0.06976 (Z: -1.57σ)"
         },
         {
           "time": "19/08 12:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06972 (Z: -1.59σ)"
+          "metric": "Ratio: 0.06974 (Z: -1.59σ)"
         },
         {
           "time": "19/08 12:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06968 (Z: -1.66σ)"
+          "metric": "Ratio: 0.06970 (Z: -1.66σ)"
         },
         {
           "time": "19/08 12:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06970 (Z: -1.62σ)"
+          "metric": "Ratio: 0.06972 (Z: -1.62σ)"
         },
         {
           "time": "19/08 12:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06929 (Z: -2.37σ)"
+          "metric": "Ratio: 0.06931 (Z: -2.37σ)"
         },
         {
           "time": "19/08 13:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06934 (Z: -2.26σ)"
+          "metric": "Ratio: 0.06937 (Z: -2.26σ)"
         },
         {
           "time": "19/08 13:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06923 (Z: -2.45σ)"
+          "metric": "Ratio: 0.06925 (Z: -2.45σ)"
         },
         {
           "time": "19/08 13:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06900 (Z: -2.86σ)"
+          "metric": "Ratio: 0.06902 (Z: -2.86σ)"
         },
         {
           "time": "19/08 13:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06905 (Z: -2.75σ)"
+          "metric": "Ratio: 0.06907 (Z: -2.75σ)"
         },
         {
           "time": "19/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06915 (Z: -2.56σ)"
+          "metric": "Ratio: 0.06917 (Z: -2.56σ)"
         },
         {
           "time": "19/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06882 (Z: -3.12σ)"
+          "metric": "Ratio: 0.06884 (Z: -3.12σ)"
         },
         {
           "time": "19/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06886 (Z: -3.04σ)"
+          "metric": "Ratio: 0.06888 (Z: -3.04σ)"
         },
         {
           "time": "19/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06873 (Z: -3.22σ)"
+          "metric": "Ratio: 0.06876 (Z: -3.22σ)"
         },
         {
           "time": "19/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06835 (Z: -3.86σ)"
+          "metric": "Ratio: 0.06837 (Z: -3.86σ)"
         },
         {
           "time": "19/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06758 (Z: -5.09σ)"
+          "metric": "Ratio: 0.06761 (Z: -5.09σ)"
         },
         {
           "time": "19/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06668 (Z: -6.45σ)"
+          "metric": "Ratio: 0.06670 (Z: -6.45σ)"
         },
         {
           "time": "19/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06615 (Z: -7.04σ)"
+          "metric": "Ratio: 0.06617 (Z: -7.04σ)"
         },
         {
           "time": "19/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06605 (Z: -6.95σ)"
+          "metric": "Ratio: 0.06607 (Z: -6.95σ)"
         },
         {
           "time": "19/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06601 (Z: -6.76σ)"
+          "metric": "Ratio: 0.06603 (Z: -6.76σ)"
         },
         {
           "time": "19/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06592 (Z: -6.66σ)"
+          "metric": "Ratio: 0.06594 (Z: -6.66σ)"
         },
         {
           "time": "19/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06605 (Z: -6.26σ)"
+          "metric": "Ratio: 0.06607 (Z: -6.26σ)"
         },
         {
           "time": "19/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06626 (Z: -5.80σ)"
+          "metric": "Ratio: 0.06628 (Z: -5.80σ)"
         },
         {
           "time": "19/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06640 (Z: -5.46σ)"
+          "metric": "Ratio: 0.06642 (Z: -5.46σ)"
         },
         {
           "time": "19/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06671 (Z: -4.95σ)"
+          "metric": "Ratio: 0.06673 (Z: -4.95σ)"
         },
         {
           "time": "19/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06648 (Z: -5.14σ)"
+          "metric": "Ratio: 0.06650 (Z: -5.14σ)"
         },
         {
           "time": "19/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06640 (Z: -5.13σ)"
+          "metric": "Ratio: 0.06643 (Z: -5.13σ)"
         },
         {
           "time": "19/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06636 (Z: -5.08σ)"
+          "metric": "Ratio: 0.06638 (Z: -5.08σ)"
         },
         {
           "time": "19/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06638 (Z: -4.95σ)"
+          "metric": "Ratio: 0.06641 (Z: -4.95σ)"
         },
         {
           "time": "19/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06622 (Z: -5.05σ)"
+          "metric": "Ratio: 0.06624 (Z: -5.05σ)"
         },
         {
           "time": "19/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06624 (Z: -4.92σ)"
+          "metric": "Ratio: 0.06626 (Z: -4.92σ)"
         },
         {
           "time": "19/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06639 (Z: -4.66σ)"
+          "metric": "Ratio: 0.06641 (Z: -4.66σ)"
         },
         {
           "time": "19/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06640 (Z: -4.56σ)"
+          "metric": "Ratio: 0.06643 (Z: -4.56σ)"
         },
         {
           "time": "19/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06628 (Z: -4.62σ)"
+          "metric": "Ratio: 0.06630 (Z: -4.62σ)"
         },
         {
           "time": "19/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06624 (Z: -4.58σ)"
+          "metric": "Ratio: 0.06627 (Z: -4.58σ)"
         },
         {
           "time": "19/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06608 (Z: -4.68σ)"
+          "metric": "Ratio: 0.06610 (Z: -4.68σ)"
         },
         {
           "time": "19/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06602 (Z: -4.66σ)"
+          "metric": "Ratio: 0.06604 (Z: -4.66σ)"
         },
         {
           "time": "19/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06607 (Z: -4.52σ)"
+          "metric": "Ratio: 0.06609 (Z: -4.52σ)"
         },
         {
           "time": "19/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06571 (Z: -4.80σ)"
+          "metric": "Ratio: 0.06574 (Z: -4.80σ)"
         },
         {
           "time": "19/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06549 (Z: -4.92σ)"
+          "metric": "Ratio: 0.06552 (Z: -4.92σ)"
         },
         {
           "time": "19/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06516 (Z: -5.15σ)"
+          "metric": "Ratio: 0.06518 (Z: -5.15σ)"
         },
         {
           "time": "19/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06504 (Z: -5.16σ)"
+          "metric": "Ratio: 0.06507 (Z: -5.16σ)"
         },
         {
           "time": "19/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06529 (Z: -4.82σ)"
+          "metric": "Ratio: 0.06532 (Z: -4.82σ)"
         },
         {
           "time": "19/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06551 (Z: -4.54σ)"
+          "metric": "Ratio: 0.06553 (Z: -4.54σ)"
         },
         {
           "time": "19/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06566 (Z: -4.32σ)"
+          "metric": "Ratio: 0.06569 (Z: -4.32σ)"
         },
         {
           "time": "19/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06560 (Z: -4.32σ)"
+          "metric": "Ratio: 0.06562 (Z: -4.32σ)"
         },
         {
           "time": "19/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06553 (Z: -4.31σ)"
+          "metric": "Ratio: 0.06555 (Z: -4.31σ)"
         },
         {
           "time": "19/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06548 (Z: -4.29σ)"
+          "metric": "Ratio: 0.06550 (Z: -4.29σ)"
         },
         {
           "time": "19/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06553 (Z: -4.18σ)"
+          "metric": "Ratio: 0.06556 (Z: -4.18σ)"
         },
         {
           "time": "19/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06557 (Z: -4.09σ)"
+          "metric": "Ratio: 0.06560 (Z: -4.09σ)"
         },
         {
           "time": "20/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06544 (Z: -4.15σ)"
+          "metric": "Ratio: 0.06546 (Z: -4.15σ)"
         },
         {
           "time": "20/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06525 (Z: -4.24σ)"
+          "metric": "Ratio: 0.06527 (Z: -4.24σ)"
         },
         {
           "time": "20/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06529 (Z: -4.15σ)"
+          "metric": "Ratio: 0.06531 (Z: -4.15σ)"
         },
         {
           "time": "20/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06524 (Z: -4.13σ)"
+          "metric": "Ratio: 0.06526 (Z: -4.13σ)"
         },
         {
           "time": "20/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06538 (Z: -3.96σ)"
+          "metric": "Ratio: 0.06540 (Z: -3.96σ)"
         },
         {
           "time": "20/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06552 (Z: -3.79σ)"
+          "metric": "Ratio: 0.06555 (Z: -3.79σ)"
         },
         {
           "time": "20/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06546 (Z: -3.80σ)"
+          "metric": "Ratio: 0.06548 (Z: -3.80σ)"
         },
         {
           "time": "20/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06516 (Z: -3.98σ)"
+          "metric": "Ratio: 0.06518 (Z: -3.98σ)"
         },
         {
           "time": "20/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06516 (Z: -3.93σ)"
+          "metric": "Ratio: 0.06518 (Z: -3.93σ)"
         },
         {
           "time": "20/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06525 (Z: -3.81σ)"
+          "metric": "Ratio: 0.06527 (Z: -3.81σ)"
         },
         {
           "time": "20/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06538 (Z: -3.67σ)"
+          "metric": "Ratio: 0.06540 (Z: -3.67σ)"
         },
         {
           "time": "20/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06552 (Z: -3.53σ)"
+          "metric": "Ratio: 0.06554 (Z: -3.53σ)"
         },
         {
           "time": "20/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06559 (Z: -3.43σ)"
+          "metric": "Ratio: 0.06562 (Z: -3.43σ)"
         },
         {
           "time": "20/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06574 (Z: -3.29σ)"
+          "metric": "Ratio: 0.06576 (Z: -3.29σ)"
         },
         {
           "time": "20/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06572 (Z: -3.28σ)"
+          "metric": "Ratio: 0.06574 (Z: -3.28σ)"
         },
         {
           "time": "20/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06557 (Z: -3.35σ)"
+          "metric": "Ratio: 0.06559 (Z: -3.35σ)"
         },
         {
           "time": "20/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06565 (Z: -3.27σ)"
+          "metric": "Ratio: 0.06567 (Z: -3.27σ)"
         },
         {
           "time": "20/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06551 (Z: -3.33σ)"
+          "metric": "Ratio: 0.06553 (Z: -3.33σ)"
         },
         {
           "time": "20/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06554 (Z: -3.28σ)"
+          "metric": "Ratio: 0.06556 (Z: -3.28σ)"
         },
         {
           "time": "20/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06548 (Z: -3.29σ)"
+          "metric": "Ratio: 0.06550 (Z: -3.29σ)"
         },
         {
           "time": "20/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06537 (Z: -3.33σ)"
+          "metric": "Ratio: 0.06539 (Z: -3.33σ)"
         },
         {
           "time": "20/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06536 (Z: -3.30σ)"
+          "metric": "Ratio: 0.06538 (Z: -3.30σ)"
         },
         {
           "time": "20/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06527 (Z: -3.33σ)"
+          "metric": "Ratio: 0.06530 (Z: -3.33σ)"
         },
         {
           "time": "20/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06537 (Z: -3.24σ)"
+          "metric": "Ratio: 0.06539 (Z: -3.24σ)"
         },
         {
           "time": "20/08 06:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06546 (Z: -3.14σ)"
+          "metric": "Ratio: 0.06549 (Z: -3.14σ)"
         },
         {
           "time": "20/08 06:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06549 (Z: -3.10σ)"
+          "metric": "Ratio: 0.06551 (Z: -3.10σ)"
         },
         {
           "time": "20/08 06:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06525 (Z: -3.23σ)"
+          "metric": "Ratio: 0.06527 (Z: -3.23σ)"
         },
         {
           "time": "20/08 06:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06508 (Z: -3.31σ)"
+          "metric": "Ratio: 0.06510 (Z: -3.31σ)"
         },
         {
           "time": "20/08 07:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06511 (Z: -3.26σ)"
+          "metric": "Ratio: 0.06513 (Z: -3.26σ)"
         },
         {
           "time": "20/08 07:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06515 (Z: -3.20σ)"
+          "metric": "Ratio: 0.06517 (Z: -3.20σ)"
         },
         {
           "time": "20/08 07:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06531 (Z: -3.07σ)"
+          "metric": "Ratio: 0.06534 (Z: -3.07σ)"
         },
         {
           "time": "20/08 07:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06531 (Z: -3.05σ)"
+          "metric": "Ratio: 0.06533 (Z: -3.05σ)"
         },
         {
           "time": "20/08 08:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06510 (Z: -3.15σ)"
+          "metric": "Ratio: 0.06512 (Z: -3.15σ)"
         },
         {
           "time": "20/08 08:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06414 (Z: -3.72σ)"
+          "metric": "Ratio: 0.06416 (Z: -3.72σ)"
         },
         {
           "time": "20/08 08:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06400 (Z: -3.76σ)"
+          "metric": "Ratio: 0.06402 (Z: -3.76σ)"
         },
         {
           "time": "20/08 08:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06372 (Z: -3.88σ)"
+          "metric": "Ratio: 0.06374 (Z: -3.88σ)"
         },
         {
           "time": "20/08 09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06369 (Z: -3.86σ)"
+          "metric": "Ratio: 0.06371 (Z: -3.86σ)"
         },
         {
           "time": "20/08 09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06356 (Z: -3.89σ)"
+          "metric": "Ratio: 0.06358 (Z: -3.89σ)"
         },
         {
           "time": "20/08 09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06346 (Z: -3.89σ)"
+          "metric": "Ratio: 0.06348 (Z: -3.89σ)"
         },
         {
           "time": "20/08 09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06344 (Z: -3.85σ)"
+          "metric": "Ratio: 0.06346 (Z: -3.85σ)"
         },
         {
           "time": "20/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06361 (Z: -3.71σ)"
+          "metric": "Ratio: 0.06363 (Z: -3.71σ)"
         },
         {
           "time": "20/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06326 (Z: -3.87σ)"
+          "metric": "Ratio: 0.06328 (Z: -3.87σ)"
         },
         {
           "time": "20/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06347 (Z: -3.70σ)"
+          "metric": "Ratio: 0.06350 (Z: -3.70σ)"
         },
         {
           "time": "20/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06353 (Z: -3.62σ)"
+          "metric": "Ratio: 0.06355 (Z: -3.62σ)"
         },
         {
           "time": "20/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06332 (Z: -3.70σ)"
+          "metric": "Ratio: 0.06334 (Z: -3.70σ)"
         },
         {
           "time": "20/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06346 (Z: -3.58σ)"
+          "metric": "Ratio: 0.06348 (Z: -3.58σ)"
         },
         {
           "time": "20/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06339 (Z: -3.58σ)"
+          "metric": "Ratio: 0.06341 (Z: -3.58σ)"
         },
         {
           "time": "20/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06327 (Z: -3.60σ)"
+          "metric": "Ratio: 0.06329 (Z: -3.60σ)"
         },
         {
           "time": "20/08 12:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06350 (Z: -3.44σ)"
+          "metric": "Ratio: 0.06352 (Z: -3.44σ)"
         },
         {
           "time": "20/08 12:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06365 (Z: -3.33σ)"
+          "metric": "Ratio: 0.06367 (Z: -3.33σ)"
         },
         {
           "time": "20/08 12:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06353 (Z: -3.36σ)"
+          "metric": "Ratio: 0.06355 (Z: -3.36σ)"
         },
         {
           "time": "20/08 12:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06370 (Z: -3.24σ)"
+          "metric": "Ratio: 0.06372 (Z: -3.24σ)"
         },
         {
           "time": "20/08 13:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06352 (Z: -3.30σ)"
+          "metric": "Ratio: 0.06354 (Z: -3.30σ)"
         },
         {
           "time": "20/08 13:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06343 (Z: -3.32σ)"
+          "metric": "Ratio: 0.06345 (Z: -3.32σ)"
         },
         {
           "time": "20/08 13:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06368 (Z: -3.16σ)"
+          "metric": "Ratio: 0.06370 (Z: -3.16σ)"
         },
         {
           "time": "20/08 13:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06373 (Z: -3.11σ)"
+          "metric": "Ratio: 0.06375 (Z: -3.11σ)"
         },
         {
           "time": "20/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06375 (Z: -3.07σ)"
+          "metric": "Ratio: 0.06377 (Z: -3.07σ)"
         },
         {
           "time": "20/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06367 (Z: -3.08σ)"
+          "metric": "Ratio: 0.06369 (Z: -3.08σ)"
         },
         {
           "time": "20/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06390 (Z: -2.94σ)"
+          "metric": "Ratio: 0.06392 (Z: -2.94σ)"
         },
         {
           "time": "20/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06385 (Z: -2.94σ)"
+          "metric": "Ratio: 0.06387 (Z: -2.94σ)"
         },
         {
           "time": "20/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06357 (Z: -3.06σ)"
+          "metric": "Ratio: 0.06359 (Z: -3.06σ)"
         },
         {
           "time": "20/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06326 (Z: -3.18σ)"
+          "metric": "Ratio: 0.06328 (Z: -3.18σ)"
         },
         {
           "time": "20/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06306 (Z: -3.24σ)"
+          "metric": "Ratio: 0.06308 (Z: -3.24σ)"
         },
         {
           "time": "20/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06328 (Z: -3.11σ)"
+          "metric": "Ratio: 0.06330 (Z: -3.11σ)"
         },
         {
           "time": "20/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06317 (Z: -3.13σ)"
+          "metric": "Ratio: 0.06319 (Z: -3.13σ)"
         },
         {
           "time": "20/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06318 (Z: -3.10σ)"
+          "metric": "Ratio: 0.06320 (Z: -3.10σ)"
         },
         {
           "time": "20/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06321 (Z: -3.06σ)"
+          "metric": "Ratio: 0.06323 (Z: -3.06σ)"
         },
         {
           "time": "20/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06301 (Z: -3.13σ)"
+          "metric": "Ratio: 0.06303 (Z: -3.13σ)"
         },
         {
           "time": "20/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06291 (Z: -3.15σ)"
+          "metric": "Ratio: 0.06293 (Z: -3.15σ)"
         },
         {
           "time": "20/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06298 (Z: -3.09σ)"
+          "metric": "Ratio: 0.06300 (Z: -3.09σ)"
         },
         {
           "time": "20/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06285 (Z: -3.12σ)"
+          "metric": "Ratio: 0.06287 (Z: -3.12σ)"
         },
         {
           "time": "20/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06290 (Z: -3.07σ)"
+          "metric": "Ratio: 0.06292 (Z: -3.07σ)"
         },
         {
           "time": "20/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06288 (Z: -3.05σ)"
+          "metric": "Ratio: 0.06290 (Z: -3.05σ)"
         },
         {
           "time": "20/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06301 (Z: -2.97σ)"
+          "metric": "Ratio: 0.06303 (Z: -2.97σ)"
         },
         {
           "time": "20/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06297 (Z: -2.96σ)"
+          "metric": "Ratio: 0.06299 (Z: -2.96σ)"
         },
         {
           "time": "20/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06313 (Z: -2.87σ)"
+          "metric": "Ratio: 0.06315 (Z: -2.87σ)"
         },
         {
           "time": "20/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06316 (Z: -2.84σ)"
+          "metric": "Ratio: 0.06318 (Z: -2.84σ)"
         },
         {
           "time": "20/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06310 (Z: -2.84σ)"
+          "metric": "Ratio: 0.06312 (Z: -2.84σ)"
         },
         {
           "time": "20/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06300 (Z: -2.86σ)"
+          "metric": "Ratio: 0.06302 (Z: -2.86σ)"
         },
         {
           "time": "20/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06293 (Z: -2.87σ)"
+          "metric": "Ratio: 0.06295 (Z: -2.87σ)"
         },
         {
           "time": "20/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06299 (Z: -2.82σ)"
+          "metric": "Ratio: 0.06301 (Z: -2.82σ)"
         },
         {
           "time": "20/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06298 (Z: -2.81σ)"
+          "metric": "Ratio: 0.06300 (Z: -2.81σ)"
         },
         {
           "time": "20/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06285 (Z: -2.84σ)"
+          "metric": "Ratio: 0.06287 (Z: -2.84σ)"
         },
         {
           "time": "20/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06290 (Z: -2.80σ)"
+          "metric": "Ratio: 0.06292 (Z: -2.80σ)"
         },
         {
           "time": "20/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06299 (Z: -2.74σ)"
+          "metric": "Ratio: 0.06301 (Z: -2.74σ)"
         },
         {
           "time": "20/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06285 (Z: -2.78σ)"
+          "metric": "Ratio: 0.06287 (Z: -2.78σ)"
         },
         {
           "time": "20/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06295 (Z: -2.72σ)"
+          "metric": "Ratio: 0.06297 (Z: -2.72σ)"
         },
         {
           "time": "20/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06291 (Z: -2.71σ)"
+          "metric": "Ratio: 0.06293 (Z: -2.71σ)"
         },
         {
           "time": "20/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06291 (Z: -2.70σ)"
+          "metric": "Ratio: 0.06293 (Z: -2.70σ)"
         },
         {
           "time": "20/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06305 (Z: -2.62σ)"
+          "metric": "Ratio: 0.06307 (Z: -2.62σ)"
         },
         {
           "time": "20/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06290 (Z: -2.67σ)"
+          "metric": "Ratio: 0.06292 (Z: -2.67σ)"
         },
         {
           "time": "20/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06295 (Z: -2.62σ)"
+          "metric": "Ratio: 0.06297 (Z: -2.62σ)"
         },
         {
           "time": "20/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06296 (Z: -2.60σ)"
+          "metric": "Ratio: 0.06298 (Z: -2.60σ)"
         },
         {
           "time": "20/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06279 (Z: -2.65σ)"
+          "metric": "Ratio: 0.06281 (Z: -2.65σ)"
         },
         {
           "time": "20/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06250 (Z: -2.75σ)"
+          "metric": "Ratio: 0.06252 (Z: -2.75σ)"
         },
         {
           "time": "20/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06268 (Z: -2.66σ)"
+          "metric": "Ratio: 0.06270 (Z: -2.66σ)"
         },
         {
           "time": "21/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06269 (Z: -2.64σ)"
+          "metric": "Ratio: 0.06271 (Z: -2.64σ)"
         },
         {
           "time": "21/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06247 (Z: -2.71σ)"
+          "metric": "Ratio: 0.06249 (Z: -2.71σ)"
         },
         {
           "time": "21/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06219 (Z: -2.79σ)"
+          "metric": "Ratio: 0.06221 (Z: -2.79σ)"
         },
         {
           "time": "21/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06226 (Z: -2.75σ)"
+          "metric": "Ratio: 0.06228 (Z: -2.75σ)"
         },
         {
           "time": "21/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06224 (Z: -2.74σ)"
+          "metric": "Ratio: 0.06226 (Z: -2.74σ)"
         },
         {
           "time": "21/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06206 (Z: -2.79σ)"
+          "metric": "Ratio: 0.06208 (Z: -2.79σ)"
         },
         {
           "time": "21/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06155 (Z: -2.96σ)"
+          "metric": "Ratio: 0.06157 (Z: -2.96σ)"
         },
         {
           "time": "21/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06149 (Z: -2.96σ)"
+          "metric": "Ratio: 0.06151 (Z: -2.96σ)"
         },
         {
           "time": "21/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06129 (Z: -3.00σ)"
+          "metric": "Ratio: 0.06131 (Z: -3.00σ)"
         },
         {
           "time": "21/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06146 (Z: -2.92σ)"
+          "metric": "Ratio: 0.06148 (Z: -2.92σ)"
         },
         {
           "time": "21/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06131 (Z: -2.95σ)"
+          "metric": "Ratio: 0.06133 (Z: -2.95σ)"
         },
         {
           "time": "21/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06158 (Z: -2.83σ)"
+          "metric": "Ratio: 0.06160 (Z: -2.83σ)"
         },
         {
           "time": "21/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06172 (Z: -2.76σ)"
+          "metric": "Ratio: 0.06174 (Z: -2.76σ)"
         },
         {
           "time": "21/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06173 (Z: -2.73σ)"
+          "metric": "Ratio: 0.06175 (Z: -2.73σ)"
         },
         {
           "time": "21/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06158 (Z: -2.77σ)"
+          "metric": "Ratio: 0.06160 (Z: -2.77σ)"
         },
         {
           "time": "21/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06152 (Z: -2.77σ)"
+          "metric": "Ratio: 0.06154 (Z: -2.77σ)"
         },
         {
           "time": "21/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06158 (Z: -2.73σ)"
+          "metric": "Ratio: 0.06160 (Z: -2.73σ)"
         },
         {
           "time": "21/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06140 (Z: -2.77σ)"
+          "metric": "Ratio: 0.06142 (Z: -2.77σ)"
         },
         {
           "time": "21/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06145 (Z: -2.73σ)"
+          "metric": "Ratio: 0.06147 (Z: -2.73σ)"
         },
         {
           "time": "21/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06135 (Z: -2.75σ)"
+          "metric": "Ratio: 0.06137 (Z: -2.75σ)"
         },
         {
           "time": "21/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06132 (Z: -2.74σ)"
+          "metric": "Ratio: 0.06134 (Z: -2.74σ)"
         },
         {
           "time": "21/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06108 (Z: -2.80σ)"
+          "metric": "Ratio: 0.06110 (Z: -2.80σ)"
         },
         {
           "time": "21/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06118 (Z: -2.75σ)"
+          "metric": "Ratio: 0.06120 (Z: -2.75σ)"
         },
         {
           "time": "21/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06113 (Z: -2.75σ)"
+          "metric": "Ratio: 0.06115 (Z: -2.75σ)"
         },
         {
           "time": "21/08 06:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06102 (Z: -2.76σ)"
+          "metric": "Ratio: 0.06104 (Z: -2.76σ)"
         },
         {
           "time": "21/08 06:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06105 (Z: -2.73σ)"
+          "metric": "Ratio: 0.06107 (Z: -2.73σ)"
         },
         {
           "time": "21/08 06:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06102 (Z: -2.72σ)"
+          "metric": "Ratio: 0.06104 (Z: -2.72σ)"
         },
         {
           "time": "21/08 06:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06107 (Z: -2.69σ)"
+          "metric": "Ratio: 0.06109 (Z: -2.69σ)"
         },
         {
           "time": "21/08 07:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06083 (Z: -2.75σ)"
+          "metric": "Ratio: 0.06085 (Z: -2.75σ)"
         },
         {
           "time": "21/08 07:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06043 (Z: -2.86σ)"
+          "metric": "Ratio: 0.06045 (Z: -2.86σ)"
         },
         {
           "time": "21/08 07:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06029 (Z: -2.89σ)"
+          "metric": "Ratio: 0.06031 (Z: -2.89σ)"
         },
         {
           "time": "21/08 07:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06022 (Z: -2.89σ)"
+          "metric": "Ratio: 0.06024 (Z: -2.89σ)"
         },
         {
           "time": "21/08 08:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06038 (Z: -2.81σ)"
+          "metric": "Ratio: 0.06040 (Z: -2.81σ)"
         },
         {
           "time": "21/08 08:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05997 (Z: -2.93σ)"
+          "metric": "Ratio: 0.05999 (Z: -2.93σ)"
         },
         {
           "time": "21/08 08:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -2.98σ)"
+          "metric": "Ratio: 0.05977 (Z: -2.98σ)"
         },
         {
           "time": "21/08 08:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05945 (Z: -3.05σ)"
+          "metric": "Ratio: 0.05947 (Z: -3.05σ)"
         },
         {
           "time": "21/08 09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05879 (Z: -3.23σ)"
+          "metric": "Ratio: 0.05881 (Z: -3.23σ)"
         },
         {
           "time": "21/08 09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05952 (Z: -2.97σ)"
+          "metric": "Ratio: 0.05954 (Z: -2.97σ)"
         },
         {
           "time": "21/08 09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05948 (Z: -2.96σ)"
+          "metric": "Ratio: 0.05950 (Z: -2.96σ)"
         },
         {
           "time": "21/08 09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05907 (Z: -3.07σ)"
+          "metric": "Ratio: 0.05909 (Z: -3.07σ)"
         },
         {
           "time": "21/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05939 (Z: -2.94σ)"
+          "metric": "Ratio: 0.05941 (Z: -2.94σ)"
         },
         {
           "time": "21/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05923 (Z: -2.97σ)"
+          "metric": "Ratio: 0.05925 (Z: -2.97σ)"
         },
         {
           "time": "21/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05936 (Z: -2.91σ)"
+          "metric": "Ratio: 0.05938 (Z: -2.91σ)"
         },
         {
           "time": "21/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05932 (Z: -2.90σ)"
+          "metric": "Ratio: 0.05933 (Z: -2.90σ)"
         },
         {
           "time": "21/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05943 (Z: -2.84σ)"
+          "metric": "Ratio: 0.05945 (Z: -2.84σ)"
         },
         {
           "time": "21/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05960 (Z: -2.77σ)"
+          "metric": "Ratio: 0.05962 (Z: -2.77σ)"
         },
         {
           "time": "21/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -2.72σ)"
+          "metric": "Ratio: 0.05972 (Z: -2.72σ)"
         },
         {
           "time": "21/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05997 (Z: -2.62σ)"
+          "metric": "Ratio: 0.05999 (Z: -2.62σ)"
         },
         {
           "time": "21/08 12:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06015 (Z: -2.55σ)"
+          "metric": "Ratio: 0.06017 (Z: -2.55σ)"
         },
         {
           "time": "21/08 12:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06001 (Z: -2.57σ)"
+          "metric": "Ratio: 0.06003 (Z: -2.57σ)"
         },
         {
           "time": "21/08 12:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06013 (Z: -2.52σ)"
+          "metric": "Ratio: 0.06015 (Z: -2.52σ)"
         },
         {
           "time": "21/08 12:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05964 (Z: -2.65σ)"
+          "metric": "Ratio: 0.05966 (Z: -2.65σ)"
         },
         {
           "time": "21/08 13:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -2.59σ)"
+          "metric": "Ratio: 0.05982 (Z: -2.59σ)"
         },
         {
           "time": "21/08 13:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05985 (Z: -2.56σ)"
+          "metric": "Ratio: 0.05987 (Z: -2.56σ)"
         },
         {
           "time": "21/08 13:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05997 (Z: -2.50σ)"
+          "metric": "Ratio: 0.05999 (Z: -2.50σ)"
         },
         {
           "time": "21/08 13:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -2.57σ)"
+          "metric": "Ratio: 0.05972 (Z: -2.57σ)"
         },
         {
           "time": "21/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -2.52σ)"
+          "metric": "Ratio: 0.05982 (Z: -2.52σ)"
         },
         {
           "time": "21/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05997 (Z: -2.46σ)"
+          "metric": "Ratio: 0.05999 (Z: -2.46σ)"
         },
         {
           "time": "21/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -2.49σ)"
+          "metric": "Ratio: 0.05982 (Z: -2.49σ)"
         },
         {
           "time": "21/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -2.49σ)"
+          "metric": "Ratio: 0.05977 (Z: -2.49σ)"
         },
         {
           "time": "21/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -2.51σ)"
+          "metric": "Ratio: 0.05967 (Z: -2.51σ)"
         },
         {
           "time": "21/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05943 (Z: -2.55σ)"
+          "metric": "Ratio: 0.05945 (Z: -2.55σ)"
         },
         {
           "time": "21/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05947 (Z: -2.52σ)"
+          "metric": "Ratio: 0.05949 (Z: -2.52σ)"
         },
         {
           "time": "21/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05955 (Z: -2.49σ)"
+          "metric": "Ratio: 0.05957 (Z: -2.49σ)"
         },
         {
           "time": "21/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -2.43σ)"
+          "metric": "Ratio: 0.05970 (Z: -2.43σ)"
         },
         {
           "time": "21/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05991 (Z: -2.36σ)"
+          "metric": "Ratio: 0.05993 (Z: -2.36σ)"
         },
         {
           "time": "21/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -2.41σ)"
+          "metric": "Ratio: 0.05967 (Z: -2.41σ)"
         },
         {
           "time": "21/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05966 (Z: -2.40σ)"
+          "metric": "Ratio: 0.05968 (Z: -2.40σ)"
         },
         {
           "time": "21/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05953 (Z: -2.42σ)"
+          "metric": "Ratio: 0.05955 (Z: -2.42σ)"
         },
         {
           "time": "21/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05954 (Z: -2.40σ)"
+          "metric": "Ratio: 0.05956 (Z: -2.40σ)"
         },
         {
           "time": "21/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05949 (Z: -2.40σ)"
+          "metric": "Ratio: 0.05951 (Z: -2.40σ)"
         },
         {
           "time": "21/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -2.34σ)"
+          "metric": "Ratio: 0.05967 (Z: -2.34σ)"
         },
         {
           "time": "21/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05961 (Z: -2.34σ)"
+          "metric": "Ratio: 0.05963 (Z: -2.34σ)"
+        },
+        {
+          "time": "21/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05965 (Z: -2.32σ)"
         },
         {
           "time": "21/08 18:00",
@@ -7415,193 +6881,193 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05961 (Z: -2.32σ)"
-        },
-        {
-          "time": "21/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06002 (Z: -2.20σ)"
+          "metric": "Ratio: 0.06004 (Z: -2.20σ)"
         },
         {
           "time": "21/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -2.24σ)"
+          "metric": "Ratio: 0.05982 (Z: -2.24σ)"
         },
         {
           "time": "21/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -2.23σ)"
+          "metric": "Ratio: 0.05982 (Z: -2.23σ)"
         },
         {
           "time": "21/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -2.26σ)"
+          "metric": "Ratio: 0.05967 (Z: -2.26σ)"
         },
         {
           "time": "21/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -2.22σ)"
+          "metric": "Ratio: 0.05977 (Z: -2.22σ)"
         },
         {
           "time": "21/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05987 (Z: -2.18σ)"
+          "metric": "Ratio: 0.05989 (Z: -2.18σ)"
         },
         {
           "time": "21/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05963 (Z: -2.23σ)"
+          "metric": "Ratio: 0.05965 (Z: -2.23σ)"
         },
         {
           "time": "21/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05953 (Z: -2.24σ)"
+          "metric": "Ratio: 0.05955 (Z: -2.24σ)"
         },
         {
           "time": "21/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05957 (Z: -2.22σ)"
+          "metric": "Ratio: 0.05959 (Z: -2.22σ)"
         },
         {
           "time": "21/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05954 (Z: -2.22σ)"
+          "metric": "Ratio: 0.05956 (Z: -2.22σ)"
         },
         {
           "time": "21/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05942 (Z: -2.24σ)"
+          "metric": "Ratio: 0.05944 (Z: -2.24σ)"
         },
         {
           "time": "21/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05911 (Z: -2.31σ)"
+          "metric": "Ratio: 0.05913 (Z: -2.31σ)"
         },
         {
           "time": "21/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05897 (Z: -2.33σ)"
+          "metric": "Ratio: 0.05899 (Z: -2.33σ)"
         },
         {
           "time": "21/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05892 (Z: -2.33σ)"
+          "metric": "Ratio: 0.05893 (Z: -2.33σ)"
         },
         {
           "time": "21/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05882 (Z: -2.34σ)"
+          "metric": "Ratio: 0.05884 (Z: -2.34σ)"
         },
         {
           "time": "21/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05905 (Z: -2.27σ)"
+          "metric": "Ratio: 0.05907 (Z: -2.27σ)"
         },
         {
           "time": "21/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05899 (Z: -2.27σ)"
+          "metric": "Ratio: 0.05901 (Z: -2.27σ)"
         },
         {
           "time": "21/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05899 (Z: -2.26σ)"
+          "metric": "Ratio: 0.05901 (Z: -2.26σ)"
         },
         {
           "time": "21/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05885 (Z: -2.28σ)"
+          "metric": "Ratio: 0.05887 (Z: -2.28σ)"
         },
         {
           "time": "21/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05896 (Z: -2.24σ)"
+          "metric": "Ratio: 0.05898 (Z: -2.24σ)"
         },
         {
           "time": "21/08 23:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05900 (Z: -2.22σ)"
+          "metric": "Ratio: 0.05902 (Z: -2.22σ)"
         },
         {
           "time": "22/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05903 (Z: -2.20σ)"
+          "metric": "Ratio: 0.05905 (Z: -2.20σ)"
         },
         {
           "time": "22/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05923 (Z: -2.14σ)"
+          "metric": "Ratio: 0.05925 (Z: -2.14σ)"
         },
         {
           "time": "22/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05922 (Z: -2.13σ)"
+          "metric": "Ratio: 0.05924 (Z: -2.13σ)"
         },
         {
           "time": "22/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05939 (Z: -2.08σ)"
+          "metric": "Ratio: 0.05941 (Z: -2.08σ)"
         },
         {
           "time": "22/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05926 (Z: -2.10σ)"
+          "metric": "Ratio: 0.05928 (Z: -2.10σ)"
         },
         {
           "time": "22/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05913 (Z: -2.13σ)"
+          "metric": "Ratio: 0.05915 (Z: -2.13σ)"
         },
         {
           "time": "22/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05921 (Z: -2.10σ)"
+          "metric": "Ratio: 0.05922 (Z: -2.10σ)"
         },
         {
           "time": "22/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05925 (Z: -2.08σ)"
+          "metric": "Ratio: 0.05927 (Z: -2.08σ)"
         },
         {
           "time": "22/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05929 (Z: -2.06σ)"
+          "metric": "Ratio: 0.05931 (Z: -2.06σ)"
         },
         {
           "time": "22/08 02:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05913 (Z: -2.09σ)"
+          "metric": "Ratio: 0.05915 (Z: -2.09σ)"
+        },
+        {
+          "time": "22/08 02:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05896 (Z: -2.12σ)"
         },
         {
           "time": "22/08 02:00",
@@ -7610,103 +7076,103 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "Ratio: 0.05894 (Z: -2.12σ)"
         },
         {
-          "time": "22/08 02:00",
+          "time": "22/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05892 (Z: -2.12σ)"
+          "metric": "Ratio: 0.05898 (Z: -2.10σ)"
         },
         {
           "time": "22/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05896 (Z: -2.10σ)"
+          "metric": "Ratio: 0.05895 (Z: -2.09σ)"
         },
         {
           "time": "22/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05893 (Z: -2.09σ)"
+          "metric": "Ratio: 0.05876 (Z: -2.13σ)"
         },
         {
           "time": "22/08 03:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05874 (Z: -2.13σ)"
-        },
-        {
-          "time": "22/08 03:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05885 (Z: -2.09σ)"
+          "metric": "Ratio: 0.05887 (Z: -2.09σ)"
         },
         {
           "time": "22/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05894 (Z: -2.06σ)"
+          "metric": "Ratio: 0.05896 (Z: -2.06σ)"
         },
         {
           "time": "22/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05900 (Z: -2.04σ)"
+          "metric": "Ratio: 0.05902 (Z: -2.04σ)"
         },
         {
           "time": "22/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05889 (Z: -2.05σ)"
+          "metric": "Ratio: 0.05891 (Z: -2.05σ)"
         },
         {
           "time": "22/08 04:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05879 (Z: -2.07σ)"
+          "metric": "Ratio: 0.05881 (Z: -2.07σ)"
         },
         {
           "time": "22/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05888 (Z: -2.04σ)"
+          "metric": "Ratio: 0.05890 (Z: -2.04σ)"
         },
         {
           "time": "22/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05956 (Z: -1.87σ)"
+          "metric": "Ratio: 0.05958 (Z: -1.87σ)"
         },
         {
           "time": "22/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05983 (Z: -1.80σ)"
+          "metric": "Ratio: 0.05985 (Z: -1.80σ)"
         },
         {
           "time": "22/08 05:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.80σ)"
+          "metric": "Ratio: 0.05982 (Z: -1.80σ)"
         },
         {
           "time": "22/08 06:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.82σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.82σ)"
         },
         {
           "time": "22/08 06:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.80σ)"
+          "metric": "Ratio: 0.05974 (Z: -1.80σ)"
         },
         {
           "time": "22/08 06:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05973 (Z: -1.79σ)"
+          "metric": "Ratio: 0.05975 (Z: -1.79σ)"
         },
         {
           "time": "22/08 06:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05960 (Z: -1.82σ)"
+        },
+        {
+          "time": "22/08 07:00",
           "score_a": 100,
           "score_b": 0,
           "metric": "Ratio: 0.05958 (Z: -1.82σ)"
@@ -7715,46 +7181,46 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 07:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05956 (Z: -1.82σ)"
+          "metric": "Ratio: 0.05968 (Z: -1.78σ)"
         },
         {
           "time": "22/08 07:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05966 (Z: -1.78σ)"
+          "metric": "Ratio: 0.05959 (Z: -1.80σ)"
         },
         {
           "time": "22/08 07:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05957 (Z: -1.80σ)"
-        },
-        {
-          "time": "22/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05962 (Z: -1.78σ)"
+          "metric": "Ratio: 0.05964 (Z: -1.78σ)"
         },
         {
           "time": "22/08 08:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05966 (Z: -1.76σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.76σ)"
         },
         {
           "time": "22/08 08:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05959 (Z: -1.77σ)"
+          "metric": "Ratio: 0.05961 (Z: -1.77σ)"
         },
         {
           "time": "22/08 08:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.71σ)"
+          "metric": "Ratio: 0.05983 (Z: -1.71σ)"
         },
         {
           "time": "22/08 08:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05978 (Z: -1.72σ)"
+        },
+        {
+          "time": "22/08 09:00",
           "score_a": 100,
           "score_b": 0,
           "metric": "Ratio: 0.05976 (Z: -1.72σ)"
@@ -7763,5097 +7229,109 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05974 (Z: -1.72σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.73σ)"
         },
         {
           "time": "22/08 09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05964 (Z: -1.73σ)"
+          "metric": "Ratio: 0.05975 (Z: -1.71σ)"
         },
         {
           "time": "22/08 09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05973 (Z: -1.71σ)"
-        },
-        {
-          "time": "22/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.68σ)"
+          "metric": "Ratio: 0.05983 (Z: -1.68σ)"
         },
         {
           "time": "22/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05987 (Z: -1.66σ)"
+          "metric": "Ratio: 0.05989 (Z: -1.66σ)"
         },
         {
           "time": "22/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06003 (Z: -1.62σ)"
+          "metric": "Ratio: 0.06005 (Z: -1.62σ)"
         },
         {
           "time": "22/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05994 (Z: -1.63σ)"
+          "metric": "Ratio: 0.05996 (Z: -1.63σ)"
         },
         {
           "time": "22/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.66σ)"
+          "metric": "Ratio: 0.05982 (Z: -1.66σ)"
         },
         {
           "time": "22/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05991 (Z: -1.63σ)"
+          "metric": "Ratio: 0.05993 (Z: -1.63σ)"
         },
         {
           "time": "22/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05995 (Z: -1.61σ)"
+          "metric": "Ratio: 0.05997 (Z: -1.61σ)"
         },
         {
           "time": "22/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05991 (Z: -1.62σ)"
+          "metric": "Ratio: 0.05993 (Z: -1.62σ)"
         },
         {
           "time": "22/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -1.65σ)"
+          "metric": "Ratio: 0.05977 (Z: -1.65σ)"
         },
         {
           "time": "22/08 12:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.63σ)"
+          "metric": "Ratio: 0.05983 (Z: -1.63σ)"
         },
         {
           "time": "22/08 12:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.65σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.65σ)"
         },
         {
           "time": "22/08 12:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.64σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.64σ)"
         },
         {
           "time": "22/08 12:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05963 (Z: -1.65σ)"
+          "metric": "Ratio: 0.05965 (Z: -1.65σ)"
         },
         {
           "time": "22/08 13:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05967 (Z: -1.63σ)"
+          "metric": "Ratio: 0.05969 (Z: -1.63σ)"
         },
         {
           "time": "22/08 13:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.62σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.62σ)"
         },
         {
           "time": "22/08 13:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05974 (Z: -1.61σ)"
-        },
-        {
-          "time": "22/08 13:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -1.60σ)"
-        },
-        {
-          "time": "22/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05967 (Z: -1.61σ)"
-        },
-        {
-          "time": "22/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05982 (Z: -1.57σ)"
-        },
-        {
-          "time": "22/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05966 (Z: -1.60σ)"
-        },
-        {
-          "time": "22/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05985 (Z: -1.55σ)"
-        },
-        {
-          "time": "22/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -1.57σ)"
-        },
-        {
-          "time": "22/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05989 (Z: -1.53σ)"
-        },
-        {
-          "time": "22/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.58σ)"
-        },
-        {
-          "time": "22/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05988 (Z: -1.53σ)"
-        },
-        {
-          "time": "22/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05964 (Z: -1.57σ)"
-        },
-        {
-          "time": "22/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05990 (Z: -1.51σ)"
-        },
-        {
-          "time": "22/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05988 (Z: -1.51σ)"
-        },
-        {
-          "time": "22/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.55σ)"
-        },
-        {
-          "time": "22/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05983 (Z: -1.51σ)"
-        },
-        {
-          "time": "22/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.53σ)"
-        },
-        {
-          "time": "22/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05990 (Z: -1.48σ)"
-        },
-        {
-          "time": "22/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.52σ)"
-        },
-        {
-          "time": "22/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05983 (Z: -1.49σ)"
-        },
-        {
-          "time": "22/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.49σ)"
-        },
-        {
-          "time": "22/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.51σ)"
-        },
-        {
-          "time": "22/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.50σ)"
-        },
-        {
-          "time": "22/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05964 (Z: -1.51σ)"
-        },
-        {
-          "time": "22/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05957 (Z: -1.52σ)"
-        },
-        {
-          "time": "22/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.50σ)"
-        },
-        {
-          "time": "22/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05962 (Z: -1.50σ)"
-        },
-        {
-          "time": "22/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.48σ)"
-        },
-        {
-          "time": "22/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05967 (Z: -1.48σ)"
-        },
-        {
-          "time": "22/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05963 (Z: -1.48σ)"
-        },
-        {
-          "time": "22/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05976 (Z: -1.45σ)"
-        },
-        {
-          "time": "22/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05963 (Z: -1.47σ)"
-        },
-        {
-          "time": "22/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.45σ)"
-        },
-        {
-          "time": "22/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.45σ)"
-        },
-        {
-          "time": "22/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05983 (Z: -1.41σ)"
-        },
-        {
-          "time": "22/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05982 (Z: -1.41σ)"
-        },
-        {
-          "time": "22/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.44σ)"
-        },
-        {
-          "time": "22/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.43σ)"
-        },
-        {
-          "time": "22/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.40σ)"
-        },
-        {
-          "time": "22/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.42σ)"
-        },
-        {
-          "time": "22/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -1.40σ)"
-        },
-        {
-          "time": "22/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05994 (Z: -1.36σ)"
-        },
-        {
-          "time": "22/08 19:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05982 (Z: -1.38σ)"
-        },
-        {
-          "time": "22/08 19:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05966 (Z: -1.41σ)"
-        },
-        {
-          "time": "22/08 19:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05979 (Z: -1.38σ)"
-        },
-        {
-          "time": "22/08 19:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.37σ)"
-        },
-        {
-          "time": "22/08 19:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05963 (Z: -1.40σ)"
-        },
-        {
-          "time": "22/08 19:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05983 (Z: -1.36σ)"
-        },
-        {
-          "time": "22/08 19:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05977 (Z: -1.36σ)"
-        },
-        {
-          "time": "22/08 20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05983 (Z: -1.35σ)"
-        },
-        {
-          "time": "22/08 20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05985 (Z: -1.34σ)"
-        },
-        {
-          "time": "22/08 20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05988 (Z: -1.33σ)"
-        },
-        {
-          "time": "22/08 20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.34σ)"
-        },
-        {
-          "time": "22/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05982 (Z: -1.33σ)"
-        },
-        {
-          "time": "22/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05974 (Z: -1.35σ)"
-        },
-        {
-          "time": "22/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.35σ)"
-        },
-        {
-          "time": "22/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.36σ)"
-        },
-        {
-          "time": "22/08 22:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.34σ)"
-        },
-        {
-          "time": "22/08 22:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.34σ)"
-        },
-        {
-          "time": "22/08 22:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.33σ)"
-        },
-        {
-          "time": "22/08 23:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -1.32σ)"
-        },
-        {
-          "time": "22/08 23:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05979 (Z: -1.30σ)"
-        },
-        {
-          "time": "22/08 23:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05975 (Z: -1.31σ)"
-        },
-        {
-          "time": "22/08 23:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05974 (Z: -1.31σ)"
-        },
-        {
-          "time": "23/08 00:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05979 (Z: -1.29σ)"
-        },
-        {
-          "time": "23/08 00:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.29σ)"
-        },
-        {
-          "time": "23/08 00:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05990 (Z: -1.26σ)"
-        },
-        {
-          "time": "23/08 00:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05990 (Z: -1.26σ)"
-        },
-        {
-          "time": "23/08 01:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05994 (Z: -1.25σ)"
-        },
-        {
-          "time": "23/08 01:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05998 (Z: -1.23σ)"
-        },
-        {
-          "time": "23/08 01:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05997 (Z: -1.23σ)"
-        },
-        {
-          "time": "23/08 01:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06007 (Z: -1.21σ)"
-        },
-        {
-          "time": "23/08 02:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06031 (Z: -1.15σ)"
-        },
-        {
-          "time": "23/08 02:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.06037 (Z: -1.13σ)"
-        },
-        {
-          "time": "23/08 02:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.06038 (Z: -1.13σ)"
-        },
-        {
-          "time": "23/08 02:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.06046 (Z: -1.11σ)"
-        },
-        {
-          "time": "23/08 03:00",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.06055 (Z: -1.09σ)"
-        },
-        {
-          "time": "23/08 03:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.06041 (Z: -1.11σ)"
-        },
-        {
-          "time": "23/08 03:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.06037 (Z: -1.12σ)"
-        },
-        {
-          "time": "23/08 04:00",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.06049 (Z: -1.09σ)"
-        },
-        {
-          "time": "23/08 04:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.06029 (Z: -1.13σ)"
-        },
-        {
-          "time": "23/08 04:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.06039 (Z: -1.10σ)"
-        },
-        {
-          "time": "23/08 04:00",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.06050 (Z: -1.08σ)"
-        },
-        {
-          "time": "23/08 05:00",
-          "score_a": 96,
-          "score_b": 4,
-          "metric": "Ratio: 0.06053 (Z: -1.07σ)"
-        },
-        {
-          "time": "23/08 05:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.06035 (Z: -1.10σ)"
-        },
-        {
-          "time": "23/08 05:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.06032 (Z: -1.11σ)"
-        },
-        {
-          "time": "23/08 05:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.06021 (Z: -1.13σ)"
-        },
-        {
-          "time": "23/08 06:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06012 (Z: -1.14σ)"
-        },
-        {
-          "time": "23/08 06:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.06019 (Z: -1.13σ)"
-        },
-        {
-          "time": "23/08 06:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.06018 (Z: -1.12σ)"
-        },
-        {
-          "time": "23/08 06:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.06010 (Z: -1.14σ)"
-        },
-        {
-          "time": "23/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06006 (Z: -1.14σ)"
-        },
-        {
-          "time": "23/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05998 (Z: -1.16σ)"
-        },
-        {
-          "time": "23/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05995 (Z: -1.16σ)"
-        },
-        {
-          "time": "23/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05999 (Z: -1.15σ)"
-        },
-        {
-          "time": "23/08 08:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05993 (Z: -1.16σ)"
-        },
-        {
-          "time": "23/08 08:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05973 (Z: -1.20σ)"
-        },
-        {
-          "time": "23/08 08:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.21σ)"
-        },
-        {
-          "time": "23/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.20σ)"
-        },
-        {
-          "time": "23/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.17σ)"
-        },
-        {
-          "time": "23/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -1.17σ)"
-        },
-        {
-          "time": "23/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.19σ)"
-        },
-        {
-          "time": "23/08 10:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.18σ)"
-        },
-        {
-          "time": "23/08 10:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05955 (Z: -1.21σ)"
-        },
-        {
-          "time": "23/08 10:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05958 (Z: -1.20σ)"
-        },
-        {
-          "time": "23/08 10:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05953 (Z: -1.21σ)"
-        },
-        {
-          "time": "23/08 11:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05951 (Z: -1.21σ)"
-        },
-        {
-          "time": "23/08 11:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05953 (Z: -1.20σ)"
-        },
-        {
-          "time": "23/08 11:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05956 (Z: -1.19σ)"
-        },
-        {
-          "time": "23/08 11:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.15σ)"
-        },
-        {
-          "time": "23/08 12:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05966 (Z: -1.16σ)"
-        },
-        {
-          "time": "23/08 12:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.15σ)"
-        },
-        {
-          "time": "23/08 12:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.15σ)"
-        },
-        {
-          "time": "23/08 12:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.05974 (Z: -1.14σ)"
-        },
-        {
-          "time": "23/08 13:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05967 (Z: -1.15σ)"
-        },
-        {
-          "time": "23/08 13:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -1.15σ)"
-        },
-        {
-          "time": "23/08 13:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05958 (Z: -1.16σ)"
-        },
-        {
-          "time": "23/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05958 (Z: -1.16σ)"
-        },
-        {
-          "time": "23/08 14:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.05971 (Z: -1.12σ)"
-        },
-        {
-          "time": "23/08 14:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05974 (Z: -1.12σ)"
-        },
-        {
-          "time": "23/08 14:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.05970 (Z: -1.12σ)"
-        },
-        {
-          "time": "23/08 15:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05972 (Z: -1.11σ)"
-        },
-        {
-          "time": "23/08 15:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.05963 (Z: -1.13σ)"
-        },
-        {
-          "time": "23/08 15:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.05964 (Z: -1.12σ)"
-        },
-        {
-          "time": "23/08 15:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.05966 (Z: -1.12σ)"
-        },
-        {
-          "time": "23/08 16:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.05965 (Z: -1.12σ)"
-        },
-        {
-          "time": "23/08 16:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.05962 (Z: -1.12σ)"
-        },
-        {
-          "time": "23/08 16:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05964 (Z: -1.11σ)"
-        },
-        {
-          "time": "23/08 16:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05961 (Z: -1.11σ)"
-        },
-        {
-          "time": "23/08 17:00",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05971 (Z: -1.09σ)"
-        },
-        {
-          "time": "23/08 17:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05964 (Z: -1.10σ)"
-        },
-        {
-          "time": "23/08 17:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05959 (Z: -1.11σ)"
-        },
-        {
-          "time": "23/08 17:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05960 (Z: -1.10σ)"
-        },
-        {
-          "time": "23/08 18:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.05948 (Z: -1.13σ)"
-        },
-        {
-          "time": "23/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05927 (Z: -1.17σ)"
-        },
-        {
-          "time": "23/08 18:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.05947 (Z: -1.12σ)"
-        },
-        {
-          "time": "23/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05933 (Z: -1.15σ)"
-        },
-        {
-          "time": "23/08 19:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.05944 (Z: -1.12σ)"
-        },
-        {
-          "time": "23/08 19:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.05942 (Z: -1.12σ)"
-        },
-        {
-          "time": "23/08 19:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05947 (Z: -1.11σ)"
-        },
-        {
-          "time": "23/08 20:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.05949 (Z: -1.10σ)"
-        },
-        {
-          "time": "23/08 20:00",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05953 (Z: -1.09σ)"
-        },
-        {
-          "time": "23/08 20:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.05934 (Z: -1.13σ)"
-        },
-        {
-          "time": "23/08 20:00",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.05951 (Z: -1.09σ)"
-        }
-      ],
-      "30d": [
-        {
-          "time": "24/07 20:00",
-          "score_a": 4,
-          "score_b": 96,
-          "metric": "Ratio: 0.06975 (Z: +1.05σ)"
-        },
-        {
-          "time": "24/07 21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06984 (Z: +1.17σ)"
-        },
-        {
-          "time": "24/07 22:00",
-          "score_a": 1,
-          "score_b": 99,
-          "metric": "Ratio: 0.06981 (Z: +1.13σ)"
-        },
-        {
-          "time": "24/07 23:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06982 (Z: +1.16σ)"
-        },
-        {
-          "time": "25/07 00:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06990 (Z: +1.27σ)"
-        },
-        {
-          "time": "25/07 01:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06989 (Z: +1.26σ)"
-        },
-        {
-          "time": "25/07 02:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06994 (Z: +1.33σ)"
-        },
-        {
-          "time": "25/07 03:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06989 (Z: +1.26σ)"
-        },
-        {
-          "time": "25/07 04:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06982 (Z: +1.17σ)"
-        },
-        {
-          "time": "25/07 05:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06991 (Z: +1.30σ)"
-        },
-        {
-          "time": "25/07 06:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06994 (Z: +1.34σ)"
-        },
-        {
-          "time": "25/07 07:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06991 (Z: +1.31σ)"
-        },
-        {
-          "time": "25/07 08:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07007 (Z: +1.53σ)"
-        },
-        {
-          "time": "25/07 09:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06994 (Z: +1.34σ)"
-        },
-        {
-          "time": "25/07 10:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06988 (Z: +1.27σ)"
-        },
-        {
-          "time": "25/07 11:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06987 (Z: +1.26σ)"
-        },
-        {
-          "time": "25/07 12:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06983 (Z: +1.20σ)"
-        },
-        {
-          "time": "25/07 13:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06981 (Z: +1.18σ)"
-        },
-        {
-          "time": "25/07 14:00",
-          "score_a": 1,
-          "score_b": 99,
-          "metric": "Ratio: 0.06976 (Z: +1.12σ)"
-        },
-        {
-          "time": "25/07 15:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06978 (Z: +1.15σ)"
-        },
-        {
-          "time": "25/07 16:00",
-          "score_a": 1,
-          "score_b": 99,
-          "metric": "Ratio: 0.06976 (Z: +1.12σ)"
-        },
-        {
-          "time": "25/07 17:00",
-          "score_a": 4,
-          "score_b": 96,
-          "metric": "Ratio: 0.06972 (Z: +1.06σ)"
-        },
-        {
-          "time": "25/07 18:00",
-          "score_a": 12,
-          "score_b": 88,
-          "metric": "Ratio: 0.06957 (Z: +0.87σ)"
-        },
-        {
-          "time": "25/07 19:00",
-          "score_a": 12,
-          "score_b": 88,
-          "metric": "Ratio: 0.06958 (Z: +0.88σ)"
-        },
-        {
-          "time": "25/07 20:00",
-          "score_a": 8,
-          "score_b": 92,
-          "metric": "Ratio: 0.06965 (Z: +0.97σ)"
-        },
-        {
-          "time": "25/07 21:00",
-          "score_a": 9,
-          "score_b": 91,
-          "metric": "Ratio: 0.06963 (Z: +0.94σ)"
-        },
-        {
-          "time": "25/07 22:00",
-          "score_a": 13,
-          "score_b": 87,
-          "metric": "Ratio: 0.06957 (Z: +0.85σ)"
-        },
-        {
-          "time": "25/07 23:00",
-          "score_a": 11,
-          "score_b": 89,
-          "metric": "Ratio: 0.06960 (Z: +0.90σ)"
-        },
-        {
-          "time": "26/07 00:00",
-          "score_a": 18,
-          "score_b": 82,
-          "metric": "Ratio: 0.06949 (Z: +0.73σ)"
-        },
-        {
-          "time": "26/07 01:00",
-          "score_a": 15,
-          "score_b": 85,
-          "metric": "Ratio: 0.06953 (Z: +0.79σ)"
-        },
-        {
-          "time": "26/07 02:00",
-          "score_a": 19,
-          "score_b": 81,
-          "metric": "Ratio: 0.06947 (Z: +0.70σ)"
-        },
-        {
-          "time": "26/07 03:00",
-          "score_a": 21,
-          "score_b": 79,
-          "metric": "Ratio: 0.06944 (Z: +0.67σ)"
-        },
-        {
-          "time": "26/07 05:00",
-          "score_a": 20,
-          "score_b": 80,
-          "metric": "Ratio: 0.06947 (Z: +0.70σ)"
-        },
-        {
-          "time": "26/07 06:00",
-          "score_a": 14,
-          "score_b": 86,
-          "metric": "Ratio: 0.06956 (Z: +0.82σ)"
-        },
-        {
-          "time": "26/07 07:00",
-          "score_a": 16,
-          "score_b": 84,
-          "metric": "Ratio: 0.06954 (Z: +0.79σ)"
-        },
-        {
-          "time": "26/07 08:00",
-          "score_a": 12,
-          "score_b": 88,
-          "metric": "Ratio: 0.06961 (Z: +0.88σ)"
-        },
-        {
-          "time": "26/07 09:00",
-          "score_a": 17,
-          "score_b": 83,
-          "metric": "Ratio: 0.06951 (Z: +0.75σ)"
-        },
-        {
-          "time": "26/07 10:00",
-          "score_a": 19,
-          "score_b": 81,
-          "metric": "Ratio: 0.06948 (Z: +0.71σ)"
-        },
-        {
-          "time": "26/07 11:00",
-          "score_a": 19,
-          "score_b": 81,
-          "metric": "Ratio: 0.06948 (Z: +0.71σ)"
-        },
-        {
-          "time": "26/07 12:00",
-          "score_a": 19,
-          "score_b": 81,
-          "metric": "Ratio: 0.06948 (Z: +0.72σ)"
-        },
-        {
-          "time": "26/07 13:00",
-          "score_a": 17,
-          "score_b": 83,
-          "metric": "Ratio: 0.06951 (Z: +0.76σ)"
-        },
-        {
-          "time": "26/07 14:00",
-          "score_a": 20,
-          "score_b": 80,
-          "metric": "Ratio: 0.06946 (Z: +0.69σ)"
-        },
-        {
-          "time": "26/07 15:00",
-          "score_a": 29,
-          "score_b": 71,
-          "metric": "Ratio: 0.06930 (Z: +0.47σ)"
-        },
-        {
-          "time": "26/07 16:00",
-          "score_a": 34,
-          "score_b": 66,
-          "metric": "Ratio: 0.06923 (Z: +0.38σ)"
-        },
-        {
-          "time": "26/07 17:00",
-          "score_a": 30,
-          "score_b": 70,
-          "metric": "Ratio: 0.06929 (Z: +0.46σ)"
-        },
-        {
-          "time": "26/07 18:00",
-          "score_a": 29,
-          "score_b": 71,
-          "metric": "Ratio: 0.06931 (Z: +0.49σ)"
-        },
-        {
-          "time": "26/07 19:00",
-          "score_a": 31,
-          "score_b": 69,
-          "metric": "Ratio: 0.06927 (Z: +0.44σ)"
-        },
-        {
-          "time": "26/07 20:00",
-          "score_a": 29,
-          "score_b": 71,
-          "metric": "Ratio: 0.06930 (Z: +0.49σ)"
-        },
-        {
-          "time": "26/07 21:00",
-          "score_a": 27,
-          "score_b": 73,
-          "metric": "Ratio: 0.06933 (Z: +0.53σ)"
-        },
-        {
-          "time": "26/07 22:00",
-          "score_a": 46,
-          "score_b": 54,
-          "metric": "Ratio: 0.06900 (Z: +0.08σ)"
-        },
-        {
-          "time": "26/07 23:00",
-          "score_a": 70,
-          "score_b": 30,
-          "metric": "Ratio: 0.06861 (Z: -0.45σ)"
-        },
-        {
-          "time": "27/07 00:00",
-          "score_a": 63,
-          "score_b": 37,
-          "metric": "Ratio: 0.06871 (Z: -0.31σ)"
-        },
-        {
-          "time": "27/07 01:00",
-          "score_a": 53,
-          "score_b": 47,
-          "metric": "Ratio: 0.06888 (Z: -0.07σ)"
-        },
-        {
-          "time": "27/07 02:00",
-          "score_a": 54,
-          "score_b": 46,
-          "metric": "Ratio: 0.06885 (Z: -0.10σ)"
-        },
-        {
-          "time": "27/07 03:00",
-          "score_a": 57,
-          "score_b": 43,
-          "metric": "Ratio: 0.06880 (Z: -0.17σ)"
-        },
-        {
-          "time": "27/07 04:00",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "Ratio: 0.06877 (Z: -0.21σ)"
-        },
-        {
-          "time": "27/07 05:00",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "Ratio: 0.06876 (Z: -0.22σ)"
-        },
-        {
-          "time": "27/07 06:00",
-          "score_a": 68,
-          "score_b": 32,
-          "metric": "Ratio: 0.06861 (Z: -0.42σ)"
-        },
-        {
-          "time": "27/07 07:00",
-          "score_a": 66,
-          "score_b": 34,
-          "metric": "Ratio: 0.06864 (Z: -0.37σ)"
-        },
-        {
-          "time": "27/07 08:00",
-          "score_a": 54,
-          "score_b": 46,
-          "metric": "Ratio: 0.06883 (Z: -0.09σ)"
-        },
-        {
-          "time": "27/07 09:00",
-          "score_a": 48,
-          "score_b": 52,
-          "metric": "Ratio: 0.06892 (Z: +0.06σ)"
-        },
-        {
-          "time": "27/07 10:00",
-          "score_a": 56,
-          "score_b": 44,
-          "metric": "Ratio: 0.06878 (Z: -0.14σ)"
-        },
-        {
-          "time": "27/07 11:00",
-          "score_a": 60,
-          "score_b": 40,
-          "metric": "Ratio: 0.06871 (Z: -0.23σ)"
-        },
-        {
-          "time": "27/07 12:00",
-          "score_a": 48,
-          "score_b": 52,
-          "metric": "Ratio: 0.06891 (Z: +0.05σ)"
-        },
-        {
-          "time": "27/07 13:00",
-          "score_a": 42,
-          "score_b": 58,
-          "metric": "Ratio: 0.06899 (Z: +0.17σ)"
-        },
-        {
-          "time": "27/07 14:00",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "Ratio: 0.06872 (Z: -0.21σ)"
-        },
-        {
-          "time": "27/07 15:00",
-          "score_a": 18,
-          "score_b": 82,
-          "metric": "Ratio: 0.06937 (Z: +0.74σ)"
-        },
-        {
-          "time": "27/07 16:00",
-          "score_a": 13,
-          "score_b": 87,
-          "metric": "Ratio: 0.06945 (Z: +0.85σ)"
-        },
-        {
-          "time": "27/07 17:00",
-          "score_a": 31,
-          "score_b": 69,
-          "metric": "Ratio: 0.06916 (Z: +0.43σ)"
-        },
-        {
-          "time": "27/07 18:00",
-          "score_a": 40,
-          "score_b": 60,
-          "metric": "Ratio: 0.06903 (Z: +0.23σ)"
-        },
-        {
-          "time": "27/07 19:00",
-          "score_a": 29,
-          "score_b": 71,
-          "metric": "Ratio: 0.06921 (Z: +0.49σ)"
-        },
-        {
-          "time": "27/07 20:00",
-          "score_a": 40,
-          "score_b": 60,
-          "metric": "Ratio: 0.06903 (Z: +0.22σ)"
-        },
-        {
-          "time": "27/07 21:00",
-          "score_a": 34,
-          "score_b": 66,
-          "metric": "Ratio: 0.06914 (Z: +0.38σ)"
-        },
-        {
-          "time": "27/07 22:00",
-          "score_a": 20,
-          "score_b": 80,
-          "metric": "Ratio: 0.06935 (Z: +0.69σ)"
-        },
-        {
-          "time": "27/07 23:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07027 (Z: +1.99σ)"
-        },
-        {
-          "time": "28/07 00:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07023 (Z: +1.90σ)"
-        },
-        {
-          "time": "28/07 01:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07046 (Z: +2.18σ)"
-        },
-        {
-          "time": "28/07 02:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07070 (Z: +2.47σ)"
-        },
-        {
-          "time": "28/07 03:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07071 (Z: +2.42σ)"
-        },
-        {
-          "time": "28/07 04:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07060 (Z: +2.22σ)"
-        },
-        {
-          "time": "28/07 05:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07052 (Z: +2.07σ)"
-        },
-        {
-          "time": "28/07 06:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07049 (Z: +1.99σ)"
-        },
-        {
-          "time": "28/07 07:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07035 (Z: +1.77σ)"
-        },
-        {
-          "time": "28/07 08:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07041 (Z: +1.82σ)"
-        },
-        {
-          "time": "28/07 09:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07052 (Z: +1.94σ)"
-        },
-        {
-          "time": "28/07 10:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07057 (Z: +1.97σ)"
-        },
-        {
-          "time": "28/07 11:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07050 (Z: +1.86σ)"
-        },
-        {
-          "time": "28/07 12:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07050 (Z: +1.82σ)"
-        },
-        {
-          "time": "28/07 13:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07045 (Z: +1.74σ)"
-        },
-        {
-          "time": "28/07 14:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07078 (Z: +2.13σ)"
-        },
-        {
-          "time": "28/07 15:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07060 (Z: +1.88σ)"
-        },
-        {
-          "time": "28/07 16:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07005 (Z: +1.18σ)"
-        },
-        {
-          "time": "28/07 17:00",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "Ratio: 0.07001 (Z: +1.11σ)"
-        },
-        {
-          "time": "28/07 18:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07018 (Z: +1.31σ)"
-        },
-        {
-          "time": "28/07 19:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07015 (Z: +1.26σ)"
-        },
-        {
-          "time": "28/07 20:00",
-          "score_a": 1,
-          "score_b": 99,
-          "metric": "Ratio: 0.07006 (Z: +1.13σ)"
-        },
-        {
-          "time": "28/07 21:00",
-          "score_a": 3,
-          "score_b": 97,
-          "metric": "Ratio: 0.07004 (Z: +1.09σ)"
-        },
-        {
-          "time": "28/07 22:00",
-          "score_a": 4,
-          "score_b": 96,
-          "metric": "Ratio: 0.07002 (Z: +1.06σ)"
-        },
-        {
-          "time": "28/07 23:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07027 (Z: +1.38σ)"
-        },
-        {
-          "time": "29/07 00:00",
-          "score_a": 7,
-          "score_b": 93,
-          "metric": "Ratio: 0.06999 (Z: +0.99σ)"
-        },
-        {
-          "time": "29/07 01:00",
-          "score_a": 4,
-          "score_b": 96,
-          "metric": "Ratio: 0.07004 (Z: +1.05σ)"
-        },
-        {
-          "time": "29/07 02:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07029 (Z: +1.37σ)"
-        },
-        {
-          "time": "29/07 03:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07012 (Z: +1.14σ)"
-        },
-        {
-          "time": "29/07 04:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07034 (Z: +1.43σ)"
-        },
-        {
-          "time": "29/07 05:00",
-          "score_a": 5,
-          "score_b": 95,
-          "metric": "Ratio: 0.07006 (Z: +1.04σ)"
-        },
-        {
-          "time": "29/07 06:00",
-          "score_a": 11,
-          "score_b": 89,
-          "metric": "Ratio: 0.06997 (Z: +0.91σ)"
-        },
-        {
-          "time": "29/07 07:00",
-          "score_a": 30,
-          "score_b": 70,
-          "metric": "Ratio: 0.06965 (Z: +0.46σ)"
-        },
-        {
-          "time": "29/07 08:00",
-          "score_a": 37,
-          "score_b": 63,
-          "metric": "Ratio: 0.06954 (Z: +0.29σ)"
-        },
-        {
-          "time": "29/07 09:00",
-          "score_a": 33,
-          "score_b": 67,
-          "metric": "Ratio: 0.06962 (Z: +0.40σ)"
-        },
-        {
-          "time": "29/07 10:00",
-          "score_a": 45,
-          "score_b": 55,
-          "metric": "Ratio: 0.06943 (Z: +0.11σ)"
-        },
-        {
-          "time": "29/07 11:00",
-          "score_a": 35,
-          "score_b": 65,
-          "metric": "Ratio: 0.06959 (Z: +0.33σ)"
-        },
-        {
-          "time": "29/07 12:00",
-          "score_a": 36,
-          "score_b": 64,
-          "metric": "Ratio: 0.06958 (Z: +0.32σ)"
-        },
-        {
-          "time": "29/07 13:00",
-          "score_a": 26,
-          "score_b": 74,
-          "metric": "Ratio: 0.06975 (Z: +0.54σ)"
-        },
-        {
-          "time": "29/07 14:00",
-          "score_a": 47,
-          "score_b": 53,
-          "metric": "Ratio: 0.06943 (Z: +0.07σ)"
-        },
-        {
-          "time": "29/07 15:00",
-          "score_a": 17,
-          "score_b": 83,
-          "metric": "Ratio: 0.06990 (Z: +0.75σ)"
-        },
-        {
-          "time": "29/07 16:00",
-          "score_a": 9,
-          "score_b": 91,
-          "metric": "Ratio: 0.07003 (Z: +0.94σ)"
-        },
-        {
-          "time": "29/07 17:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07028 (Z: +1.29σ)"
-        },
-        {
-          "time": "29/07 18:00",
-          "score_a": 35,
-          "score_b": 65,
-          "metric": "Ratio: 0.06965 (Z: +0.34σ)"
-        },
-        {
-          "time": "29/07 19:00",
-          "score_a": 42,
-          "score_b": 58,
-          "metric": "Ratio: 0.06955 (Z: +0.18σ)"
-        },
-        {
-          "time": "29/07 20:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07042 (Z: +1.49σ)"
-        },
-        {
-          "time": "29/07 21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07057 (Z: +1.72σ)"
-        },
-        {
-          "time": "29/07 22:00",
-          "score_a": 17,
-          "score_b": 83,
-          "metric": "Ratio: 0.06995 (Z: +0.75σ)"
-        },
-        {
-          "time": "29/07 23:00",
-          "score_a": 9,
-          "score_b": 91,
-          "metric": "Ratio: 0.07008 (Z: +0.93σ)"
-        },
-        {
-          "time": "30/07 00:00",
-          "score_a": 15,
-          "score_b": 85,
-          "metric": "Ratio: 0.07000 (Z: +0.80σ)"
-        },
-        {
-          "time": "30/07 01:00",
-          "score_a": 1,
-          "score_b": 99,
-          "metric": "Ratio: 0.07021 (Z: +1.14σ)"
-        },
-        {
-          "time": "30/07 02:00",
-          "score_a": 34,
-          "score_b": 66,
-          "metric": "Ratio: 0.06974 (Z: +0.37σ)"
-        },
-        {
-          "time": "30/07 03:00",
-          "score_a": 30,
-          "score_b": 70,
-          "metric": "Ratio: 0.06980 (Z: +0.45σ)"
-        },
-        {
-          "time": "30/07 04:00",
-          "score_a": 28,
-          "score_b": 72,
-          "metric": "Ratio: 0.06984 (Z: +0.52σ)"
-        },
-        {
-          "time": "30/07 05:00",
-          "score_a": 17,
-          "score_b": 83,
-          "metric": "Ratio: 0.06999 (Z: +0.75σ)"
-        },
-        {
-          "time": "30/07 06:00",
-          "score_a": 21,
-          "score_b": 79,
-          "metric": "Ratio: 0.06994 (Z: +0.66σ)"
-        },
-        {
-          "time": "30/07 07:00",
-          "score_a": 26,
-          "score_b": 74,
-          "metric": "Ratio: 0.06989 (Z: +0.56σ)"
-        },
-        {
-          "time": "30/07 08:00",
-          "score_a": 21,
-          "score_b": 79,
-          "metric": "Ratio: 0.06995 (Z: +0.67σ)"
-        },
-        {
-          "time": "30/07 09:00",
-          "score_a": 39,
-          "score_b": 61,
-          "metric": "Ratio: 0.06972 (Z: +0.26σ)"
-        },
-        {
-          "time": "30/07 10:00",
-          "score_a": 62,
-          "score_b": 38,
-          "metric": "Ratio: 0.06944 (Z: -0.26σ)"
-        },
-        {
-          "time": "30/07 11:00",
-          "score_a": 60,
-          "score_b": 40,
-          "metric": "Ratio: 0.06947 (Z: -0.22σ)"
-        },
-        {
-          "time": "30/07 12:00",
-          "score_a": 83,
-          "score_b": 17,
-          "metric": "Ratio: 0.06918 (Z: -0.77σ)"
-        },
-        {
-          "time": "30/07 13:00",
-          "score_a": 88,
-          "score_b": 12,
-          "metric": "Ratio: 0.06912 (Z: -0.87σ)"
-        },
-        {
-          "time": "30/07 14:00",
-          "score_a": 87,
-          "score_b": 13,
-          "metric": "Ratio: 0.06914 (Z: -0.86σ)"
-        },
-        {
-          "time": "30/07 15:00",
-          "score_a": 81,
-          "score_b": 19,
-          "metric": "Ratio: 0.06922 (Z: -0.70σ)"
-        },
-        {
-          "time": "30/07 16:00",
-          "score_a": 90,
-          "score_b": 10,
-          "metric": "Ratio: 0.06911 (Z: -0.91σ)"
-        },
-        {
-          "time": "30/07 17:00",
-          "score_a": 89,
-          "score_b": 11,
-          "metric": "Ratio: 0.06912 (Z: -0.89σ)"
-        },
-        {
-          "time": "30/07 18:00",
-          "score_a": 92,
-          "score_b": 8,
-          "metric": "Ratio: 0.06908 (Z: -0.96σ)"
-        },
-        {
-          "time": "30/07 19:00",
-          "score_a": 86,
-          "score_b": 14,
-          "metric": "Ratio: 0.06916 (Z: -0.82σ)"
-        },
-        {
-          "time": "30/07 20:00",
-          "score_a": 91,
-          "score_b": 9,
-          "metric": "Ratio: 0.06909 (Z: -0.94σ)"
-        },
-        {
-          "time": "30/07 21:00",
-          "score_a": 83,
-          "score_b": 17,
-          "metric": "Ratio: 0.06919 (Z: -0.76σ)"
-        },
-        {
-          "time": "30/07 22:00",
-          "score_a": 90,
-          "score_b": 10,
-          "metric": "Ratio: 0.06911 (Z: -0.91σ)"
-        },
-        {
-          "time": "30/07 23:00",
-          "score_a": 91,
-          "score_b": 9,
-          "metric": "Ratio: 0.06909 (Z: -0.95σ)"
-        },
-        {
-          "time": "31/07 00:00",
-          "score_a": 87,
-          "score_b": 13,
-          "metric": "Ratio: 0.06914 (Z: -0.86σ)"
-        },
-        {
-          "time": "31/07 01:00",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.06903 (Z: -1.07σ)"
-        },
-        {
-          "time": "31/07 02:00",
-          "score_a": 68,
-          "score_b": 32,
-          "metric": "Ratio: 0.06938 (Z: -0.42σ)"
-        },
-        {
-          "time": "31/07 03:00",
-          "score_a": 44,
-          "score_b": 56,
-          "metric": "Ratio: 0.06969 (Z: +0.14σ)"
-        },
-        {
-          "time": "31/07 04:00",
-          "score_a": 54,
-          "score_b": 46,
-          "metric": "Ratio: 0.06957 (Z: -0.08σ)"
-        },
-        {
-          "time": "31/07 05:00",
-          "score_a": 56,
-          "score_b": 44,
-          "metric": "Ratio: 0.06955 (Z: -0.13σ)"
-        },
-        {
-          "time": "31/07 06:00",
-          "score_a": 56,
-          "score_b": 44,
-          "metric": "Ratio: 0.06956 (Z: -0.13σ)"
-        },
-        {
-          "time": "31/07 07:00",
-          "score_a": 36,
-          "score_b": 64,
-          "metric": "Ratio: 0.06980 (Z: +0.32σ)"
-        },
-        {
-          "time": "31/07 08:00",
-          "score_a": 21,
-          "score_b": 79,
-          "metric": "Ratio: 0.06998 (Z: +0.68σ)"
-        },
-        {
-          "time": "31/07 09:00",
-          "score_a": 13,
-          "score_b": 87,
-          "metric": "Ratio: 0.07008 (Z: +0.85σ)"
-        },
-        {
-          "time": "31/07 10:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07023 (Z: +1.15σ)"
-        },
-        {
-          "time": "31/07 11:00",
-          "score_a": 25,
-          "score_b": 75,
-          "metric": "Ratio: 0.06994 (Z: +0.56σ)"
-        },
-        {
-          "time": "31/07 12:00",
-          "score_a": 10,
-          "score_b": 90,
-          "metric": "Ratio: 0.07013 (Z: +0.92σ)"
-        },
-        {
-          "time": "31/07 13:00",
-          "score_a": 9,
-          "score_b": 91,
-          "metric": "Ratio: 0.07015 (Z: +0.95σ)"
-        },
-        {
-          "time": "31/07 14:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07110 (Z: +2.84σ)"
-        },
-        {
-          "time": "31/07 15:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07116 (Z: +2.88σ)"
-        },
-        {
-          "time": "31/07 16:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07104 (Z: +2.57σ)"
-        },
-        {
-          "time": "31/07 17:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07104 (Z: +2.51σ)"
-        },
-        {
-          "time": "31/07 18:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07065 (Z: +1.75σ)"
-        },
-        {
-          "time": "31/07 19:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07078 (Z: +1.96σ)"
-        },
-        {
-          "time": "31/07 20:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07086 (Z: +2.07σ)"
-        },
-        {
-          "time": "31/07 21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07090 (Z: +2.10σ)"
-        },
-        {
-          "time": "31/07 22:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07088 (Z: +2.03σ)"
-        },
-        {
-          "time": "31/07 23:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07089 (Z: +2.00σ)"
-        },
-        {
-          "time": "01/08 00:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07093 (Z: +2.04σ)"
-        },
-        {
-          "time": "01/08 01:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07092 (Z: +1.99σ)"
-        },
-        {
-          "time": "01/08 02:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07089 (Z: +1.90σ)"
-        },
-        {
-          "time": "01/08 03:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07083 (Z: +1.78σ)"
-        },
-        {
-          "time": "01/08 04:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07089 (Z: +1.84σ)"
-        },
-        {
-          "time": "01/08 05:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07079 (Z: +1.66σ)"
-        },
-        {
-          "time": "01/08 06:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07088 (Z: +1.77σ)"
-        },
-        {
-          "time": "01/08 07:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07080 (Z: +1.63σ)"
-        },
-        {
-          "time": "01/08 08:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07082 (Z: +1.64σ)"
-        },
-        {
-          "time": "01/08 09:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07079 (Z: +1.57σ)"
-        },
-        {
-          "time": "01/08 10:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07088 (Z: +1.70σ)"
-        },
-        {
-          "time": "01/08 11:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07085 (Z: +1.62σ)"
-        },
-        {
-          "time": "01/08 12:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07077 (Z: +1.48σ)"
-        },
-        {
-          "time": "01/08 13:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07078 (Z: +1.48σ)"
-        },
-        {
-          "time": "01/08 14:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07079 (Z: +1.48σ)"
-        },
-        {
-          "time": "01/08 15:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07079 (Z: +1.45σ)"
-        },
-        {
-          "time": "01/08 16:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07091 (Z: +1.61σ)"
-        },
-        {
-          "time": "01/08 17:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07091 (Z: +1.59σ)"
-        },
-        {
-          "time": "01/08 18:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07115 (Z: +1.92σ)"
-        },
-        {
-          "time": "01/08 19:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07128 (Z: +2.07σ)"
-        },
-        {
-          "time": "01/08 20:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07135 (Z: +2.12σ)"
-        },
-        {
-          "time": "01/08 21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07113 (Z: +1.77σ)"
-        },
-        {
-          "time": "01/08 22:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07106 (Z: +1.65σ)"
-        },
-        {
-          "time": "01/08 23:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07105 (Z: +1.61σ)"
-        },
-        {
-          "time": "02/08 00:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07098 (Z: +1.49σ)"
-        },
-        {
-          "time": "02/08 01:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07098 (Z: +1.48σ)"
-        },
-        {
-          "time": "02/08 02:00",
-          "score_a": 14,
-          "score_b": 86,
-          "metric": "Ratio: 0.07052 (Z: +0.82σ)"
-        },
-        {
-          "time": "02/08 03:00",
-          "score_a": 15,
-          "score_b": 85,
-          "metric": "Ratio: 0.07052 (Z: +0.80σ)"
-        },
-        {
-          "time": "02/08 04:00",
-          "score_a": 23,
-          "score_b": 77,
-          "metric": "Ratio: 0.07039 (Z: +0.63σ)"
-        },
-        {
-          "time": "02/08 05:00",
-          "score_a": 21,
-          "score_b": 79,
-          "metric": "Ratio: 0.07043 (Z: +0.67σ)"
-        },
-        {
-          "time": "02/08 06:00",
-          "score_a": 19,
-          "score_b": 81,
-          "metric": "Ratio: 0.07047 (Z: +0.72σ)"
-        },
-        {
-          "time": "02/08 07:00",
-          "score_a": 21,
-          "score_b": 79,
-          "metric": "Ratio: 0.07044 (Z: +0.67σ)"
-        },
-        {
-          "time": "02/08 08:00",
-          "score_a": 24,
-          "score_b": 76,
-          "metric": "Ratio: 0.07039 (Z: +0.59σ)"
-        },
-        {
-          "time": "02/08 09:00",
-          "score_a": 10,
-          "score_b": 90,
-          "metric": "Ratio: 0.07064 (Z: +0.92σ)"
-        },
-        {
-          "time": "02/08 10:00",
-          "score_a": 8,
-          "score_b": 92,
-          "metric": "Ratio: 0.07067 (Z: +0.96σ)"
-        },
-        {
-          "time": "02/08 11:00",
-          "score_a": 4,
-          "score_b": 96,
-          "metric": "Ratio: 0.07075 (Z: +1.05σ)"
-        },
-        {
-          "time": "02/08 12:00",
-          "score_a": 4,
-          "score_b": 96,
-          "metric": "Ratio: 0.07077 (Z: +1.06σ)"
-        },
-        {
-          "time": "02/08 13:00",
-          "score_a": 3,
-          "score_b": 97,
-          "metric": "Ratio: 0.07078 (Z: +1.07σ)"
-        },
-        {
-          "time": "02/08 14:00",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "Ratio: 0.07082 (Z: +1.11σ)"
-        },
-        {
-          "time": "02/08 15:00",
-          "score_a": 4,
-          "score_b": 96,
-          "metric": "Ratio: 0.07078 (Z: +1.05σ)"
-        },
-        {
-          "time": "02/08 16:00",
-          "score_a": 6,
-          "score_b": 94,
-          "metric": "Ratio: 0.07076 (Z: +1.00σ)"
-        },
-        {
-          "time": "02/08 17:00",
-          "score_a": 9,
-          "score_b": 91,
-          "metric": "Ratio: 0.07073 (Z: +0.95σ)"
-        },
-        {
-          "time": "02/08 18:00",
-          "score_a": 16,
-          "score_b": 84,
-          "metric": "Ratio: 0.07061 (Z: +0.78σ)"
-        },
-        {
-          "time": "02/08 19:00",
-          "score_a": 20,
-          "score_b": 80,
-          "metric": "Ratio: 0.07055 (Z: +0.69σ)"
-        },
-        {
-          "time": "02/08 20:00",
-          "score_a": 25,
-          "score_b": 75,
-          "metric": "Ratio: 0.07047 (Z: +0.57σ)"
-        },
-        {
-          "time": "02/08 21:00",
-          "score_a": 30,
-          "score_b": 70,
-          "metric": "Ratio: 0.07039 (Z: +0.46σ)"
-        },
-        {
-          "time": "02/08 22:00",
-          "score_a": 46,
-          "score_b": 54,
-          "metric": "Ratio: 0.07013 (Z: +0.09σ)"
-        },
-        {
-          "time": "02/08 23:00",
-          "score_a": 23,
-          "score_b": 77,
-          "metric": "Ratio: 0.07052 (Z: +0.62σ)"
-        },
-        {
-          "time": "03/08 00:00",
-          "score_a": 27,
-          "score_b": 73,
-          "metric": "Ratio: 0.07047 (Z: +0.54σ)"
-        },
-        {
-          "time": "03/08 01:00",
-          "score_a": 19,
-          "score_b": 81,
-          "metric": "Ratio: 0.07059 (Z: +0.70σ)"
-        },
-        {
-          "time": "03/08 02:00",
-          "score_a": 13,
-          "score_b": 87,
-          "metric": "Ratio: 0.07071 (Z: +0.85σ)"
-        },
-        {
-          "time": "03/08 03:00",
-          "score_a": 11,
-          "score_b": 89,
-          "metric": "Ratio: 0.07073 (Z: +0.89σ)"
-        },
-        {
-          "time": "03/08 04:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07101 (Z: +1.28σ)"
-        },
-        {
-          "time": "03/08 05:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07100 (Z: +1.26σ)"
-        },
-        {
-          "time": "03/08 06:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07097 (Z: +1.20σ)"
-        },
-        {
-          "time": "03/08 07:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07119 (Z: +1.51σ)"
-        },
-        {
-          "time": "03/08 08:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07131 (Z: +1.69σ)"
-        },
-        {
-          "time": "03/08 09:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07127 (Z: +1.61σ)"
-        },
-        {
-          "time": "03/08 10:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07104 (Z: +1.25σ)"
-        },
-        {
-          "time": "03/08 11:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07123 (Z: +1.53σ)"
-        },
-        {
-          "time": "03/08 12:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07129 (Z: +1.61σ)"
-        },
-        {
-          "time": "03/08 13:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07107 (Z: +1.26σ)"
-        },
-        {
-          "time": "03/08 14:00",
-          "score_a": 35,
-          "score_b": 65,
-          "metric": "Ratio: 0.07049 (Z: +0.34σ)"
-        },
-        {
-          "time": "03/08 15:00",
-          "score_a": 58,
-          "score_b": 42,
-          "metric": "Ratio: 0.07015 (Z: -0.19σ)"
-        },
-        {
-          "time": "03/08 16:00",
-          "score_a": 60,
-          "score_b": 40,
-          "metric": "Ratio: 0.07013 (Z: -0.23σ)"
-        },
-        {
-          "time": "03/08 17:00",
-          "score_a": 63,
-          "score_b": 37,
-          "metric": "Ratio: 0.07010 (Z: -0.29σ)"
-        },
-        {
-          "time": "03/08 18:00",
-          "score_a": 71,
-          "score_b": 29,
-          "metric": "Ratio: 0.07000 (Z: -0.48σ)"
-        },
-        {
-          "time": "03/08 19:00",
-          "score_a": 71,
-          "score_b": 29,
-          "metric": "Ratio: 0.07001 (Z: -0.47σ)"
-        },
-        {
-          "time": "03/08 20:00",
-          "score_a": 72,
-          "score_b": 28,
-          "metric": "Ratio: 0.07000 (Z: -0.50σ)"
-        },
-        {
-          "time": "03/08 21:00",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "Ratio: 0.07018 (Z: -0.21σ)"
-        },
-        {
-          "time": "03/08 22:00",
-          "score_a": 43,
-          "score_b": 57,
-          "metric": "Ratio: 0.07040 (Z: +0.15σ)"
-        },
-        {
-          "time": "03/08 23:00",
-          "score_a": 49,
-          "score_b": 51,
-          "metric": "Ratio: 0.07033 (Z: +0.02σ)"
-        },
-        {
-          "time": "04/08 00:00",
-          "score_a": 44,
-          "score_b": 56,
-          "metric": "Ratio: 0.07040 (Z: +0.14σ)"
-        },
-        {
-          "time": "04/08 01:00",
-          "score_a": 40,
-          "score_b": 60,
-          "metric": "Ratio: 0.07046 (Z: +0.23σ)"
-        },
-        {
-          "time": "04/08 02:00",
-          "score_a": 62,
-          "score_b": 38,
-          "metric": "Ratio: 0.07015 (Z: -0.27σ)"
-        },
-        {
-          "time": "04/08 03:00",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "Ratio: 0.07020 (Z: -0.20σ)"
-        },
-        {
-          "time": "04/08 04:00",
-          "score_a": 64,
-          "score_b": 36,
-          "metric": "Ratio: 0.07012 (Z: -0.32σ)"
-        },
-        {
-          "time": "04/08 05:00",
-          "score_a": 70,
-          "score_b": 30,
-          "metric": "Ratio: 0.07004 (Z: -0.46σ)"
-        },
-        {
-          "time": "04/08 06:00",
-          "score_a": 65,
-          "score_b": 35,
-          "metric": "Ratio: 0.07010 (Z: -0.34σ)"
-        },
-        {
-          "time": "04/08 07:00",
-          "score_a": 50,
-          "score_b": 50,
-          "metric": "Ratio: 0.07030 (Z: -0.01σ)"
-        },
-        {
-          "time": "04/08 08:00",
-          "score_a": 53,
-          "score_b": 47,
-          "metric": "Ratio: 0.07025 (Z: -0.08σ)"
-        },
-        {
-          "time": "04/08 09:00",
-          "score_a": 48,
-          "score_b": 52,
-          "metric": "Ratio: 0.07032 (Z: +0.04σ)"
-        },
-        {
-          "time": "04/08 10:00",
-          "score_a": 44,
-          "score_b": 56,
-          "metric": "Ratio: 0.07038 (Z: +0.13σ)"
-        },
-        {
-          "time": "04/08 11:00",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "Ratio: 0.07017 (Z: -0.21σ)"
-        },
-        {
-          "time": "04/08 12:00",
-          "score_a": 65,
-          "score_b": 35,
-          "metric": "Ratio: 0.07009 (Z: -0.35σ)"
-        },
-        {
-          "time": "04/08 13:00",
-          "score_a": 74,
-          "score_b": 26,
-          "metric": "Ratio: 0.06997 (Z: -0.54σ)"
-        },
-        {
-          "time": "04/08 14:00",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "Ratio: 0.07017 (Z: -0.21σ)"
-        },
-        {
-          "time": "04/08 15:00",
-          "score_a": 78,
-          "score_b": 22,
-          "metric": "Ratio: 0.06991 (Z: -0.64σ)"
-        },
-        {
-          "time": "04/08 16:00",
-          "score_a": 75,
-          "score_b": 25,
-          "metric": "Ratio: 0.06995 (Z: -0.57σ)"
-        },
-        {
-          "time": "04/08 17:00",
-          "score_a": 78,
-          "score_b": 22,
-          "metric": "Ratio: 0.06991 (Z: -0.64σ)"
-        },
-        {
-          "time": "04/08 18:00",
-          "score_a": 80,
-          "score_b": 20,
-          "metric": "Ratio: 0.06987 (Z: -0.70σ)"
-        },
-        {
-          "time": "04/08 19:00",
-          "score_a": 90,
-          "score_b": 10,
-          "metric": "Ratio: 0.06974 (Z: -0.92σ)"
-        },
-        {
-          "time": "04/08 20:00",
-          "score_a": 81,
-          "score_b": 19,
-          "metric": "Ratio: 0.06985 (Z: -0.72σ)"
-        },
-        {
-          "time": "04/08 21:00",
-          "score_a": 84,
-          "score_b": 16,
-          "metric": "Ratio: 0.06981 (Z: -0.78σ)"
-        },
-        {
-          "time": "04/08 22:00",
-          "score_a": 83,
-          "score_b": 17,
-          "metric": "Ratio: 0.06982 (Z: -0.77σ)"
-        },
-        {
-          "time": "04/08 23:00",
-          "score_a": 96,
-          "score_b": 4,
-          "metric": "Ratio: 0.06965 (Z: -1.05σ)"
-        },
-        {
-          "time": "05/08 00:00",
-          "score_a": 69,
-          "score_b": 31,
-          "metric": "Ratio: 0.07001 (Z: -0.44σ)"
-        },
-        {
-          "time": "05/08 01:00",
-          "score_a": 67,
-          "score_b": 33,
-          "metric": "Ratio: 0.07003 (Z: -0.40σ)"
-        },
-        {
-          "time": "05/08 02:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.06961 (Z: -1.10σ)"
-        },
-        {
-          "time": "05/08 03:00",
-          "score_a": 91,
-          "score_b": 9,
-          "metric": "Ratio: 0.06971 (Z: -0.94σ)"
-        },
-        {
-          "time": "05/08 04:00",
-          "score_a": 76,
-          "score_b": 24,
-          "metric": "Ratio: 0.06991 (Z: -0.59σ)"
-        },
-        {
-          "time": "05/08 05:00",
-          "score_a": 88,
-          "score_b": 12,
-          "metric": "Ratio: 0.06974 (Z: -0.87σ)"
-        },
-        {
-          "time": "05/08 06:00",
-          "score_a": 87,
-          "score_b": 13,
-          "metric": "Ratio: 0.06975 (Z: -0.85σ)"
-        },
-        {
-          "time": "05/08 07:00",
-          "score_a": 79,
-          "score_b": 21,
-          "metric": "Ratio: 0.06987 (Z: -0.66σ)"
-        },
-        {
-          "time": "05/08 08:00",
-          "score_a": 82,
-          "score_b": 18,
-          "metric": "Ratio: 0.06982 (Z: -0.74σ)"
-        },
-        {
-          "time": "05/08 09:00",
-          "score_a": 77,
-          "score_b": 23,
-          "metric": "Ratio: 0.06990 (Z: -0.61σ)"
-        },
-        {
-          "time": "05/08 10:00",
-          "score_a": 78,
-          "score_b": 22,
-          "metric": "Ratio: 0.06989 (Z: -0.64σ)"
-        },
-        {
-          "time": "05/08 11:00",
-          "score_a": 74,
-          "score_b": 26,
-          "metric": "Ratio: 0.06994 (Z: -0.55σ)"
-        },
-        {
-          "time": "05/08 12:00",
-          "score_a": 83,
-          "score_b": 17,
-          "metric": "Ratio: 0.06982 (Z: -0.76σ)"
-        },
-        {
-          "time": "05/08 13:00",
-          "score_a": 78,
-          "score_b": 22,
-          "metric": "Ratio: 0.06989 (Z: -0.64σ)"
-        },
-        {
-          "time": "05/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06954 (Z: -1.24σ)"
-        },
-        {
-          "time": "05/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06948 (Z: -1.33σ)"
-        },
-        {
-          "time": "05/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06948 (Z: -1.32σ)"
-        },
-        {
-          "time": "05/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06948 (Z: -1.31σ)"
-        },
-        {
-          "time": "05/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06926 (Z: -1.66σ)"
-        },
-        {
-          "time": "05/08 19:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06921 (Z: -1.74σ)"
-        },
-        {
-          "time": "05/08 20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06916 (Z: -1.79σ)"
-        },
-        {
-          "time": "05/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06931 (Z: -1.53σ)"
-        },
-        {
-          "time": "05/08 22:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06940 (Z: -1.35σ)"
-        },
-        {
-          "time": "05/08 23:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06941 (Z: -1.33σ)"
-        },
-        {
-          "time": "06/08 00:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06946 (Z: -1.23σ)"
-        },
-        {
-          "time": "06/08 01:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06948 (Z: -1.19σ)"
-        },
-        {
-          "time": "06/08 02:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06949 (Z: -1.16σ)"
-        },
-        {
-          "time": "06/08 03:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06948 (Z: -1.17σ)"
-        },
-        {
-          "time": "06/08 04:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06947 (Z: -1.18σ)"
-        },
-        {
-          "time": "06/08 05:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06916 (Z: -1.66σ)"
-        },
-        {
-          "time": "06/08 06:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06929 (Z: -1.44σ)"
-        },
-        {
-          "time": "06/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06917 (Z: -1.62σ)"
-        },
-        {
-          "time": "06/08 08:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06928 (Z: -1.42σ)"
-        },
-        {
-          "time": "06/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06927 (Z: -1.43σ)"
-        },
-        {
-          "time": "06/08 10:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06943 (Z: -1.17σ)"
-        },
-        {
-          "time": "06/08 11:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06943 (Z: -1.18σ)"
-        },
-        {
-          "time": "06/08 12:00",
-          "score_a": 91,
-          "score_b": 9,
-          "metric": "Ratio: 0.06958 (Z: -0.95σ)"
-        },
-        {
-          "time": "06/08 13:00",
-          "score_a": 84,
-          "score_b": 16,
-          "metric": "Ratio: 0.06970 (Z: -0.77σ)"
-        },
-        {
-          "time": "06/08 14:00",
-          "score_a": 95,
-          "score_b": 5,
-          "metric": "Ratio: 0.06954 (Z: -1.03σ)"
-        },
-        {
-          "time": "06/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06916 (Z: -1.62σ)"
-        },
-        {
-          "time": "06/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06941 (Z: -1.24σ)"
-        },
-        {
-          "time": "06/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06933 (Z: -1.37σ)"
-        },
-        {
-          "time": "06/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06945 (Z: -1.19σ)"
-        },
-        {
-          "time": "06/08 19:00",
-          "score_a": 95,
-          "score_b": 5,
-          "metric": "Ratio: 0.06956 (Z: -1.03σ)"
-        },
-        {
-          "time": "06/08 20:00",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "Ratio: 0.06950 (Z: -1.14σ)"
-        },
-        {
-          "time": "06/08 21:00",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "Ratio: 0.06954 (Z: -1.08σ)"
-        },
-        {
-          "time": "06/08 22:00",
-          "score_a": 93,
-          "score_b": 7,
-          "metric": "Ratio: 0.06960 (Z: -0.99σ)"
-        },
-        {
-          "time": "06/08 23:00",
-          "score_a": 88,
-          "score_b": 12,
-          "metric": "Ratio: 0.06968 (Z: -0.87σ)"
-        },
-        {
-          "time": "07/08 00:00",
-          "score_a": 86,
-          "score_b": 14,
-          "metric": "Ratio: 0.06972 (Z: -0.83σ)"
-        },
-        {
-          "time": "07/08 01:00",
-          "score_a": 90,
-          "score_b": 10,
-          "metric": "Ratio: 0.06967 (Z: -0.92σ)"
-        },
-        {
-          "time": "07/08 02:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06952 (Z: -1.17σ)"
-        },
-        {
-          "time": "07/08 03:00",
-          "score_a": 89,
-          "score_b": 11,
-          "metric": "Ratio: 0.06968 (Z: -0.90σ)"
-        },
-        {
-          "time": "07/08 04:00",
-          "score_a": 88,
-          "score_b": 12,
-          "metric": "Ratio: 0.06971 (Z: -0.87σ)"
-        },
-        {
-          "time": "07/08 05:00",
-          "score_a": 84,
-          "score_b": 16,
-          "metric": "Ratio: 0.06976 (Z: -0.78σ)"
-        },
-        {
-          "time": "07/08 06:00",
-          "score_a": 94,
-          "score_b": 6,
-          "metric": "Ratio: 0.06962 (Z: -1.01σ)"
-        },
-        {
-          "time": "07/08 07:00",
-          "score_a": 91,
-          "score_b": 9,
-          "metric": "Ratio: 0.06967 (Z: -0.94σ)"
-        },
-        {
-          "time": "07/08 08:00",
-          "score_a": 94,
-          "score_b": 6,
-          "metric": "Ratio: 0.06962 (Z: -1.02σ)"
-        },
-        {
-          "time": "07/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06929 (Z: -1.54σ)"
-        },
-        {
-          "time": "07/08 10:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06922 (Z: -1.64σ)"
-        },
-        {
-          "time": "07/08 11:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06910 (Z: -1.81σ)"
-        },
-        {
-          "time": "07/08 12:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06889 (Z: -2.12σ)"
-        },
-        {
-          "time": "07/08 13:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06882 (Z: -2.18σ)"
-        },
-        {
-          "time": "07/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06911 (Z: -1.69σ)"
-        },
-        {
-          "time": "07/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06902 (Z: -1.81σ)"
-        },
-        {
-          "time": "07/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06901 (Z: -1.81σ)"
-        },
-        {
-          "time": "07/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06927 (Z: -1.38σ)"
-        },
-        {
-          "time": "07/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06914 (Z: -1.56σ)"
-        },
-        {
-          "time": "07/08 19:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06912 (Z: -1.57σ)"
-        },
-        {
-          "time": "07/08 20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06904 (Z: -1.67σ)"
-        },
-        {
-          "time": "07/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06904 (Z: -1.64σ)"
-        },
-        {
-          "time": "07/08 22:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06908 (Z: -1.56σ)"
-        },
-        {
-          "time": "07/08 23:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06912 (Z: -1.48σ)"
-        },
-        {
-          "time": "08/08 00:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06916 (Z: -1.40σ)"
-        },
-        {
-          "time": "08/08 01:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06909 (Z: -1.48σ)"
-        },
-        {
-          "time": "08/08 02:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06910 (Z: -1.45σ)"
-        },
-        {
-          "time": "08/08 03:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06906 (Z: -1.49σ)"
-        },
-        {
-          "time": "08/08 04:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06904 (Z: -1.51σ)"
-        },
-        {
-          "time": "08/08 05:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06903 (Z: -1.49σ)"
-        },
-        {
-          "time": "08/08 06:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06904 (Z: -1.46σ)"
-        },
-        {
-          "time": "08/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06903 (Z: -1.46σ)"
-        },
-        {
-          "time": "08/08 08:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06906 (Z: -1.40σ)"
-        },
-        {
-          "time": "08/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06901 (Z: -1.46σ)"
-        },
-        {
-          "time": "08/08 10:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06903 (Z: -1.41σ)"
-        },
-        {
-          "time": "08/08 11:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06904 (Z: -1.38σ)"
-        },
-        {
-          "time": "08/08 12:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06902 (Z: -1.39σ)"
-        },
-        {
-          "time": "08/08 13:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06902 (Z: -1.38σ)"
-        },
-        {
-          "time": "08/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06898 (Z: -1.41σ)"
-        },
-        {
-          "time": "08/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06894 (Z: -1.45σ)"
-        },
-        {
-          "time": "08/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06893 (Z: -1.44σ)"
-        },
-        {
-          "time": "08/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06891 (Z: -1.46σ)"
-        },
-        {
-          "time": "08/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06897 (Z: -1.37σ)"
-        },
-        {
-          "time": "08/08 19:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06900 (Z: -1.31σ)"
-        },
-        {
-          "time": "08/08 20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06897 (Z: -1.34σ)"
-        },
-        {
-          "time": "08/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06900 (Z: -1.29σ)"
-        },
-        {
-          "time": "08/08 22:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06904 (Z: -1.22σ)"
-        },
-        {
-          "time": "08/08 23:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06908 (Z: -1.15σ)"
-        },
-        {
-          "time": "09/08 00:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06906 (Z: -1.17σ)"
-        },
-        {
-          "time": "09/08 01:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06905 (Z: -1.18σ)"
-        },
-        {
-          "time": "09/08 02:00",
-          "score_a": 92,
-          "score_b": 8,
-          "metric": "Ratio: 0.06917 (Z: -0.97σ)"
-        },
-        {
-          "time": "09/08 03:00",
-          "score_a": 87,
-          "score_b": 13,
-          "metric": "Ratio: 0.06924 (Z: -0.85σ)"
-        },
-        {
-          "time": "09/08 04:00",
-          "score_a": 89,
-          "score_b": 11,
-          "metric": "Ratio: 0.06921 (Z: -0.89σ)"
-        },
-        {
-          "time": "09/08 05:00",
-          "score_a": 87,
-          "score_b": 13,
-          "metric": "Ratio: 0.06922 (Z: -0.86σ)"
-        },
-        {
-          "time": "09/08 06:00",
-          "score_a": 90,
-          "score_b": 10,
-          "metric": "Ratio: 0.06917 (Z: -0.93σ)"
-        },
-        {
-          "time": "09/08 07:00",
-          "score_a": 90,
-          "score_b": 10,
-          "metric": "Ratio: 0.06917 (Z: -0.92σ)"
-        },
-        {
-          "time": "09/08 08:00",
-          "score_a": 94,
-          "score_b": 6,
-          "metric": "Ratio: 0.06911 (Z: -1.00σ)"
-        },
-        {
-          "time": "09/08 09:00",
-          "score_a": 88,
-          "score_b": 12,
-          "metric": "Ratio: 0.06918 (Z: -0.88σ)"
-        },
-        {
-          "time": "09/08 10:00",
-          "score_a": 96,
-          "score_b": 4,
-          "metric": "Ratio: 0.06906 (Z: -1.06σ)"
-        },
-        {
-          "time": "09/08 11:00",
-          "score_a": 96,
-          "score_b": 4,
-          "metric": "Ratio: 0.06906 (Z: -1.05σ)"
-        },
-        {
-          "time": "09/08 12:00",
-          "score_a": 93,
-          "score_b": 7,
-          "metric": "Ratio: 0.06909 (Z: -0.99σ)"
-        },
-        {
-          "time": "09/08 13:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06899 (Z: -1.14σ)"
-        },
-        {
-          "time": "09/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06886 (Z: -1.34σ)"
-        },
-        {
-          "time": "09/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06882 (Z: -1.38σ)"
-        },
-        {
-          "time": "09/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06881 (Z: -1.40σ)"
-        },
-        {
-          "time": "09/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06883 (Z: -1.35σ)"
-        },
-        {
-          "time": "09/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06886 (Z: -1.29σ)"
-        },
-        {
-          "time": "09/08 19:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06886 (Z: -1.27σ)"
-        },
-        {
-          "time": "09/08 20:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.06895 (Z: -1.12σ)"
-        },
-        {
-          "time": "09/08 21:00",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "Ratio: 0.06894 (Z: -1.11σ)"
-        },
-        {
-          "time": "09/08 22:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06875 (Z: -1.40σ)"
-        },
-        {
-          "time": "09/08 23:00",
-          "score_a": 87,
-          "score_b": 13,
-          "metric": "Ratio: 0.06908 (Z: -0.85σ)"
-        },
-        {
-          "time": "10/08 00:00",
-          "score_a": 93,
-          "score_b": 7,
-          "metric": "Ratio: 0.06899 (Z: -0.99σ)"
-        },
-        {
-          "time": "10/08 01:00",
-          "score_a": 90,
-          "score_b": 10,
-          "metric": "Ratio: 0.06903 (Z: -0.92σ)"
-        },
-        {
-          "time": "10/08 02:00",
-          "score_a": 87,
-          "score_b": 13,
-          "metric": "Ratio: 0.06906 (Z: -0.85σ)"
-        },
-        {
-          "time": "10/08 03:00",
-          "score_a": 93,
-          "score_b": 7,
-          "metric": "Ratio: 0.06898 (Z: -0.98σ)"
-        },
-        {
-          "time": "10/08 04:00",
-          "score_a": 93,
-          "score_b": 7,
-          "metric": "Ratio: 0.06897 (Z: -1.00σ)"
-        },
-        {
-          "time": "10/08 05:00",
-          "score_a": 88,
-          "score_b": 12,
-          "metric": "Ratio: 0.06903 (Z: -0.88σ)"
-        },
-        {
-          "time": "10/08 06:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06886 (Z: -1.18σ)"
-        },
-        {
-          "time": "10/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06879 (Z: -1.30σ)"
-        },
-        {
-          "time": "10/08 08:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06878 (Z: -1.32σ)"
-        },
-        {
-          "time": "10/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06885 (Z: -1.21σ)"
-        },
-        {
-          "time": "10/08 10:00",
-          "score_a": 93,
-          "score_b": 7,
-          "metric": "Ratio: 0.06896 (Z: -0.99σ)"
-        },
-        {
-          "time": "10/08 11:00",
-          "score_a": 95,
-          "score_b": 5,
-          "metric": "Ratio: 0.06894 (Z: -1.04σ)"
-        },
-        {
-          "time": "10/08 12:00",
-          "score_a": 93,
-          "score_b": 7,
-          "metric": "Ratio: 0.06896 (Z: -1.00σ)"
-        },
-        {
-          "time": "10/08 13:00",
-          "score_a": 85,
-          "score_b": 15,
-          "metric": "Ratio: 0.06906 (Z: -0.80σ)"
-        },
-        {
-          "time": "10/08 14:00",
-          "score_a": 64,
-          "score_b": 36,
-          "metric": "Ratio: 0.06928 (Z: -0.32σ)"
-        },
-        {
-          "time": "10/08 15:00",
-          "score_a": 40,
-          "score_b": 60,
-          "metric": "Ratio: 0.06951 (Z: +0.22σ)"
-        },
-        {
-          "time": "10/08 16:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06994 (Z: +1.20σ)"
-        },
-        {
-          "time": "10/08 17:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07005 (Z: +1.46σ)"
-        },
-        {
-          "time": "10/08 18:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07004 (Z: +1.44σ)"
-        },
-        {
-          "time": "10/08 19:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07001 (Z: +1.36σ)"
-        },
-        {
-          "time": "10/08 20:00",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "Ratio: 0.06989 (Z: +1.11σ)"
-        },
-        {
-          "time": "10/08 21:00",
-          "score_a": 3,
-          "score_b": 97,
-          "metric": "Ratio: 0.06988 (Z: +1.08σ)"
-        },
-        {
-          "time": "10/08 22:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07000 (Z: +1.36σ)"
-        },
-        {
-          "time": "10/08 23:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07003 (Z: +1.45σ)"
-        },
-        {
-          "time": "11/08 00:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07003 (Z: +1.47σ)"
-        },
-        {
-          "time": "11/08 01:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06996 (Z: +1.34σ)"
-        },
-        {
-          "time": "11/08 02:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06994 (Z: +1.31σ)"
-        },
-        {
-          "time": "11/08 03:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06987 (Z: +1.14σ)"
-        },
-        {
-          "time": "11/08 04:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06987 (Z: +1.15σ)"
-        },
-        {
-          "time": "11/08 05:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07003 (Z: +1.53σ)"
-        },
-        {
-          "time": "11/08 06:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06999 (Z: +1.43σ)"
-        },
-        {
-          "time": "11/08 07:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07005 (Z: +1.60σ)"
-        },
-        {
-          "time": "11/08 08:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06993 (Z: +1.32σ)"
-        },
-        {
-          "time": "11/08 09:00",
-          "score_a": 4,
-          "score_b": 96,
-          "metric": "Ratio: 0.06981 (Z: +1.05σ)"
-        },
-        {
-          "time": "11/08 10:00",
-          "score_a": 8,
-          "score_b": 92,
-          "metric": "Ratio: 0.06977 (Z: +0.97σ)"
-        },
-        {
-          "time": "11/08 11:00",
-          "score_a": 18,
-          "score_b": 82,
-          "metric": "Ratio: 0.06968 (Z: +0.74σ)"
-        },
-        {
-          "time": "11/08 12:00",
-          "score_a": 18,
-          "score_b": 82,
-          "metric": "Ratio: 0.06967 (Z: +0.75σ)"
-        },
-        {
-          "time": "11/08 13:00",
-          "score_a": 7,
-          "score_b": 93,
-          "metric": "Ratio: 0.06976 (Z: +0.99σ)"
-        },
-        {
-          "time": "11/08 14:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.06993 (Z: +1.45σ)"
-        },
-        {
-          "time": "11/08 15:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07027 (Z: +2.30σ)"
-        },
-        {
-          "time": "11/08 16:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07045 (Z: +2.72σ)"
-        },
-        {
-          "time": "11/08 17:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07051 (Z: +2.81σ)"
-        },
-        {
-          "time": "11/08 18:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07050 (Z: +2.73σ)"
-        },
-        {
-          "time": "11/08 19:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07070 (Z: +3.13σ)"
-        },
-        {
-          "time": "11/08 20:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07042 (Z: +2.40σ)"
-        },
-        {
-          "time": "11/08 21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07041 (Z: +2.35σ)"
-        },
-        {
-          "time": "11/08 22:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07035 (Z: +2.17σ)"
-        },
-        {
-          "time": "11/08 23:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07048 (Z: +2.42σ)"
-        },
-        {
-          "time": "12/08 00:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07038 (Z: +2.17σ)"
-        },
-        {
-          "time": "12/08 01:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07032 (Z: +2.00σ)"
-        },
-        {
-          "time": "12/08 02:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07028 (Z: +1.89σ)"
-        },
-        {
-          "time": "12/08 03:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07033 (Z: +1.97σ)"
-        },
-        {
-          "time": "12/08 04:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07020 (Z: +1.67σ)"
-        },
-        {
-          "time": "12/08 05:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07027 (Z: +1.81σ)"
-        },
-        {
-          "time": "12/08 06:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07043 (Z: +2.13σ)"
-        },
-        {
-          "time": "12/08 07:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07035 (Z: +1.93σ)"
-        },
-        {
-          "time": "12/08 08:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07025 (Z: +1.70σ)"
-        },
-        {
-          "time": "12/08 09:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07012 (Z: +1.41σ)"
-        },
-        {
-          "time": "12/08 10:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07002 (Z: +1.20σ)"
-        },
-        {
-          "time": "12/08 11:00",
-          "score_a": 6,
-          "score_b": 94,
-          "metric": "Ratio: 0.06993 (Z: +1.01σ)"
-        },
-        {
-          "time": "12/08 12:00",
-          "score_a": 14,
-          "score_b": 86,
-          "metric": "Ratio: 0.06984 (Z: +0.84σ)"
-        },
-        {
-          "time": "12/08 13:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07014 (Z: +1.44σ)"
-        },
-        {
-          "time": "12/08 14:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07034 (Z: +1.83σ)"
-        },
-        {
-          "time": "12/08 15:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07059 (Z: +2.30σ)"
-        },
-        {
-          "time": "12/08 16:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07054 (Z: +2.15σ)"
-        },
-        {
-          "time": "12/08 17:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07063 (Z: +2.28σ)"
-        },
-        {
-          "time": "12/08 18:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07063 (Z: +2.25σ)"
-        },
-        {
-          "time": "12/08 19:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07075 (Z: +2.42σ)"
-        },
-        {
-          "time": "12/08 20:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07058 (Z: +2.06σ)"
-        },
-        {
-          "time": "12/08 21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07058 (Z: +2.02σ)"
-        },
-        {
-          "time": "12/08 22:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07060 (Z: +2.01σ)"
-        },
-        {
-          "time": "12/08 23:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07071 (Z: +2.17σ)"
-        },
-        {
-          "time": "13/08 00:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07051 (Z: +1.78σ)"
-        },
-        {
-          "time": "13/08 01:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07068 (Z: +2.05σ)"
-        },
-        {
-          "time": "13/08 02:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07064 (Z: +1.94σ)"
-        },
-        {
-          "time": "13/08 03:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07050 (Z: +1.67σ)"
-        },
-        {
-          "time": "13/08 04:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07050 (Z: +1.65σ)"
-        },
-        {
-          "time": "13/08 05:00",
-          "score_a": 1,
-          "score_b": 99,
-          "metric": "Ratio: 0.07021 (Z: +1.13σ)"
-        },
-        {
-          "time": "13/08 06:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07030 (Z: +1.28σ)"
-        },
-        {
-          "time": "13/08 07:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07025 (Z: +1.17σ)"
-        },
-        {
-          "time": "13/08 08:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07032 (Z: +1.28σ)"
-        },
-        {
-          "time": "13/08 09:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07041 (Z: +1.42σ)"
-        },
-        {
-          "time": "13/08 10:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07047 (Z: +1.49σ)"
-        },
-        {
-          "time": "13/08 11:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07063 (Z: +1.74σ)"
-        },
-        {
-          "time": "13/08 12:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07054 (Z: +1.56σ)"
-        },
-        {
-          "time": "13/08 13:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07048 (Z: +1.45σ)"
-        },
-        {
-          "time": "13/08 14:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07031 (Z: +1.16σ)"
-        },
-        {
-          "time": "13/08 15:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07039 (Z: +1.27σ)"
-        },
-        {
-          "time": "13/08 16:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07058 (Z: +1.56σ)"
-        },
-        {
-          "time": "13/08 17:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07090 (Z: +2.04σ)"
-        },
-        {
-          "time": "13/08 18:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07091 (Z: +2.02σ)"
-        },
-        {
-          "time": "13/08 19:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07067 (Z: +1.62σ)"
-        },
-        {
-          "time": "13/08 20:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07067 (Z: +1.58σ)"
-        },
-        {
-          "time": "13/08 21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07065 (Z: +1.53σ)"
-        },
-        {
-          "time": "13/08 22:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07051 (Z: +1.31σ)"
-        },
-        {
-          "time": "13/08 23:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07064 (Z: +1.48σ)"
-        },
-        {
-          "time": "14/08 00:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07068 (Z: +1.52σ)"
-        },
-        {
-          "time": "14/08 01:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07058 (Z: +1.36σ)"
-        },
-        {
-          "time": "14/08 02:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07061 (Z: +1.39σ)"
-        },
-        {
-          "time": "14/08 03:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07060 (Z: +1.36σ)"
-        },
-        {
-          "time": "14/08 04:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07069 (Z: +1.48σ)"
-        },
-        {
-          "time": "14/08 05:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07078 (Z: +1.58σ)"
-        },
-        {
-          "time": "14/08 06:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07087 (Z: +1.70σ)"
-        },
-        {
-          "time": "14/08 07:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07095 (Z: +1.79σ)"
-        },
-        {
-          "time": "14/08 08:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07128 (Z: +2.22σ)"
-        },
-        {
-          "time": "14/08 09:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07117 (Z: +2.03σ)"
-        },
-        {
-          "time": "14/08 10:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07119 (Z: +2.01σ)"
-        },
-        {
-          "time": "14/08 11:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07116 (Z: +1.94σ)"
-        },
-        {
-          "time": "14/08 12:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07121 (Z: +1.98σ)"
-        },
-        {
-          "time": "14/08 13:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07135 (Z: +2.12σ)"
-        },
-        {
-          "time": "14/08 14:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07143 (Z: +2.19σ)"
-        },
-        {
-          "time": "14/08 15:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07141 (Z: +2.12σ)"
-        },
-        {
-          "time": "14/08 16:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07110 (Z: +1.68σ)"
-        },
-        {
-          "time": "14/08 17:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07099 (Z: +1.51σ)"
-        },
-        {
-          "time": "14/08 18:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07110 (Z: +1.63σ)"
-        },
-        {
-          "time": "14/08 19:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07121 (Z: +1.75σ)"
-        },
-        {
-          "time": "14/08 20:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07119 (Z: +1.70σ)"
-        },
-        {
-          "time": "14/08 21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07124 (Z: +1.73σ)"
-        },
-        {
-          "time": "14/08 22:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07131 (Z: +1.80σ)"
-        },
-        {
-          "time": "14/08 23:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07121 (Z: +1.64σ)"
-        },
-        {
-          "time": "15/08 00:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07115 (Z: +1.54σ)"
-        },
-        {
-          "time": "15/08 01:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07112 (Z: +1.49σ)"
-        },
-        {
-          "time": "15/08 02:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07106 (Z: +1.39σ)"
-        },
-        {
-          "time": "15/08 03:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07106 (Z: +1.37σ)"
-        },
-        {
-          "time": "15/08 04:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07102 (Z: +1.31σ)"
-        },
-        {
-          "time": "15/08 05:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07104 (Z: +1.32σ)"
-        },
-        {
-          "time": "15/08 06:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07112 (Z: +1.40σ)"
-        },
-        {
-          "time": "15/08 07:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07107 (Z: +1.32σ)"
-        },
-        {
-          "time": "15/08 08:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07110 (Z: +1.34σ)"
-        },
-        {
-          "time": "15/08 09:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07116 (Z: +1.40σ)"
-        },
-        {
-          "time": "15/08 10:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07114 (Z: +1.36σ)"
-        },
-        {
-          "time": "15/08 11:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07112 (Z: +1.31σ)"
-        },
-        {
-          "time": "15/08 12:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07118 (Z: +1.37σ)"
-        },
-        {
-          "time": "15/08 13:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07113 (Z: +1.29σ)"
-        },
-        {
-          "time": "15/08 14:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07112 (Z: +1.27σ)"
-        },
-        {
-          "time": "15/08 15:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07109 (Z: +1.22σ)"
-        },
-        {
-          "time": "15/08 16:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07105 (Z: +1.16σ)"
-        },
-        {
-          "time": "15/08 17:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07109 (Z: +1.20σ)"
-        },
-        {
-          "time": "15/08 18:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07112 (Z: +1.21σ)"
-        },
-        {
-          "time": "15/08 19:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07108 (Z: +1.16σ)"
-        },
-        {
-          "time": "15/08 20:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07109 (Z: +1.16σ)"
-        },
-        {
-          "time": "15/08 21:00",
-          "score_a": 4,
-          "score_b": 96,
-          "metric": "Ratio: 0.07102 (Z: +1.05σ)"
-        },
-        {
-          "time": "15/08 22:00",
-          "score_a": 5,
-          "score_b": 95,
-          "metric": "Ratio: 0.07102 (Z: +1.05σ)"
-        },
-        {
-          "time": "15/08 23:00",
-          "score_a": 3,
-          "score_b": 97,
-          "metric": "Ratio: 0.07106 (Z: +1.08σ)"
-        },
-        {
-          "time": "16/08 00:00",
-          "score_a": 1,
-          "score_b": 99,
-          "metric": "Ratio: 0.07110 (Z: +1.12σ)"
-        },
-        {
-          "time": "16/08 01:00",
-          "score_a": 1,
-          "score_b": 99,
-          "metric": "Ratio: 0.07111 (Z: +1.12σ)"
-        },
-        {
-          "time": "16/08 02:00",
-          "score_a": 4,
-          "score_b": 96,
-          "metric": "Ratio: 0.07107 (Z: +1.05σ)"
-        },
-        {
-          "time": "16/08 03:00",
-          "score_a": 5,
-          "score_b": 95,
-          "metric": "Ratio: 0.07107 (Z: +1.05σ)"
-        },
-        {
-          "time": "16/08 04:00",
-          "score_a": 7,
-          "score_b": 93,
-          "metric": "Ratio: 0.07104 (Z: +1.00σ)"
-        },
-        {
-          "time": "16/08 05:00",
-          "score_a": 4,
-          "score_b": 96,
-          "metric": "Ratio: 0.07111 (Z: +1.07σ)"
-        },
-        {
-          "time": "16/08 06:00",
-          "score_a": 3,
-          "score_b": 97,
-          "metric": "Ratio: 0.07113 (Z: +1.08σ)"
-        },
-        {
-          "time": "16/08 07:00",
-          "score_a": 4,
-          "score_b": 96,
-          "metric": "Ratio: 0.07113 (Z: +1.07σ)"
-        },
-        {
-          "time": "16/08 08:00",
-          "score_a": 5,
-          "score_b": 95,
-          "metric": "Ratio: 0.07111 (Z: +1.03σ)"
-        },
-        {
-          "time": "16/08 09:00",
-          "score_a": 5,
-          "score_b": 95,
-          "metric": "Ratio: 0.07111 (Z: +1.03σ)"
-        },
-        {
-          "time": "16/08 10:00",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "Ratio: 0.07118 (Z: +1.10σ)"
-        },
-        {
-          "time": "16/08 11:00",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "Ratio: 0.07118 (Z: +1.10σ)"
-        },
-        {
-          "time": "16/08 12:00",
-          "score_a": 4,
-          "score_b": 96,
-          "metric": "Ratio: 0.07116 (Z: +1.06σ)"
-        },
-        {
-          "time": "16/08 13:00",
-          "score_a": 7,
-          "score_b": 93,
-          "metric": "Ratio: 0.07111 (Z: +0.98σ)"
-        },
-        {
-          "time": "16/08 14:00",
-          "score_a": 8,
-          "score_b": 92,
-          "metric": "Ratio: 0.07110 (Z: +0.96σ)"
-        },
-        {
-          "time": "16/08 15:00",
-          "score_a": 11,
-          "score_b": 89,
-          "metric": "Ratio: 0.07106 (Z: +0.89σ)"
-        },
-        {
-          "time": "16/08 16:00",
-          "score_a": 25,
-          "score_b": 75,
-          "metric": "Ratio: 0.07083 (Z: +0.57σ)"
-        },
-        {
-          "time": "16/08 17:00",
-          "score_a": 16,
-          "score_b": 84,
-          "metric": "Ratio: 0.07099 (Z: +0.78σ)"
-        },
-        {
-          "time": "16/08 18:00",
-          "score_a": 14,
-          "score_b": 86,
-          "metric": "Ratio: 0.07102 (Z: +0.83σ)"
-        },
-        {
-          "time": "16/08 19:00",
-          "score_a": 19,
-          "score_b": 81,
-          "metric": "Ratio: 0.07096 (Z: +0.72σ)"
-        },
-        {
-          "time": "16/08 20:00",
-          "score_a": 12,
-          "score_b": 88,
-          "metric": "Ratio: 0.07107 (Z: +0.88σ)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 9,
-          "score_b": 91,
-          "metric": "Ratio: 0.07112 (Z: +0.94σ)"
-        },
-        {
-          "time": "16/08 22:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07135 (Z: +1.27σ)"
-        },
-        {
-          "time": "16/08 23:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07133 (Z: +1.24σ)"
-        },
-        {
-          "time": "17/08 00:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Ratio: 0.07138 (Z: +1.31σ)"
-        },
-        {
-          "time": "17/08 01:00",
-          "score_a": 21,
-          "score_b": 79,
-          "metric": "Ratio: 0.07097 (Z: +0.67σ)"
-        },
-        {
-          "time": "17/08 02:00",
-          "score_a": 16,
-          "score_b": 84,
-          "metric": "Ratio: 0.07104 (Z: +0.77σ)"
-        },
-        {
-          "time": "17/08 03:00",
-          "score_a": 29,
-          "score_b": 71,
-          "metric": "Ratio: 0.07086 (Z: +0.48σ)"
-        },
-        {
-          "time": "17/08 04:00",
-          "score_a": 38,
-          "score_b": 62,
-          "metric": "Ratio: 0.07074 (Z: +0.28σ)"
-        },
-        {
-          "time": "17/08 05:00",
-          "score_a": 40,
-          "score_b": 60,
-          "metric": "Ratio: 0.07072 (Z: +0.23σ)"
-        },
-        {
-          "time": "17/08 06:00",
-          "score_a": 46,
-          "score_b": 54,
-          "metric": "Ratio: 0.07064 (Z: +0.09σ)"
-        },
-        {
-          "time": "17/08 07:00",
-          "score_a": 48,
-          "score_b": 52,
-          "metric": "Ratio: 0.07062 (Z: +0.04σ)"
-        },
-        {
-          "time": "17/08 08:00",
-          "score_a": 38,
-          "score_b": 62,
-          "metric": "Ratio: 0.07076 (Z: +0.27σ)"
-        },
-        {
-          "time": "17/08 09:00",
-          "score_a": 35,
-          "score_b": 65,
-          "metric": "Ratio: 0.07081 (Z: +0.34σ)"
-        },
-        {
-          "time": "17/08 10:00",
-          "score_a": 43,
-          "score_b": 57,
-          "metric": "Ratio: 0.07072 (Z: +0.17σ)"
-        },
-        {
-          "time": "17/08 11:00",
-          "score_a": 61,
-          "score_b": 39,
-          "metric": "Ratio: 0.07051 (Z: -0.26σ)"
-        },
-        {
-          "time": "17/08 12:00",
-          "score_a": 57,
-          "score_b": 43,
-          "metric": "Ratio: 0.07057 (Z: -0.16σ)"
-        },
-        {
-          "time": "17/08 13:00",
-          "score_a": 65,
-          "score_b": 35,
-          "metric": "Ratio: 0.07049 (Z: -0.35σ)"
-        },
-        {
-          "time": "17/08 14:00",
-          "score_a": 67,
-          "score_b": 33,
-          "metric": "Ratio: 0.07049 (Z: -0.39σ)"
-        },
-        {
-          "time": "17/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07014 (Z: -1.17σ)"
-        },
-        {
-          "time": "17/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07005 (Z: -1.39σ)"
-        },
-        {
-          "time": "17/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07002 (Z: -1.45σ)"
-        },
-        {
-          "time": "17/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06978 (Z: -1.97σ)"
-        },
-        {
-          "time": "17/08 19:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06982 (Z: -1.86σ)"
-        },
-        {
-          "time": "17/08 20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06983 (Z: -1.84σ)"
-        },
-        {
-          "time": "17/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06986 (Z: -1.78σ)"
-        },
-        {
-          "time": "17/08 22:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06992 (Z: -1.65σ)"
-        },
-        {
-          "time": "17/08 23:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06968 (Z: -2.15σ)"
-        },
-        {
-          "time": "18/08 00:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06977 (Z: -1.93σ)"
-        },
-        {
-          "time": "18/08 01:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06986 (Z: -1.73σ)"
-        },
-        {
-          "time": "18/08 02:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07004 (Z: -1.35σ)"
-        },
-        {
-          "time": "18/08 03:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07012 (Z: -1.19σ)"
-        },
-        {
-          "time": "18/08 04:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06999 (Z: -1.46σ)"
-        },
-        {
-          "time": "18/08 05:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06998 (Z: -1.49σ)"
-        },
-        {
-          "time": "18/08 06:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06982 (Z: -1.85σ)"
-        },
-        {
-          "time": "18/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06992 (Z: -1.61σ)"
-        },
-        {
-          "time": "18/08 08:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06995 (Z: -1.55σ)"
-        },
-        {
-          "time": "18/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07002 (Z: -1.41σ)"
-        },
-        {
-          "time": "18/08 10:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07000 (Z: -1.45σ)"
-        },
-        {
-          "time": "18/08 11:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06986 (Z: -1.78σ)"
-        },
-        {
-          "time": "18/08 12:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06992 (Z: -1.65σ)"
-        },
-        {
-          "time": "18/08 13:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.07009 (Z: -1.29σ)"
-        },
-        {
-          "time": "18/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06941 (Z: -2.79σ)"
-        },
-        {
-          "time": "18/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06944 (Z: -2.67σ)"
-        },
-        {
-          "time": "18/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06950 (Z: -2.48σ)"
-        },
-        {
-          "time": "18/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06945 (Z: -2.53σ)"
-        },
-        {
-          "time": "18/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06947 (Z: -2.44σ)"
-        },
-        {
-          "time": "18/08 19:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06951 (Z: -2.30σ)"
-        },
-        {
-          "time": "18/08 20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06960 (Z: -2.07σ)"
-        },
-        {
-          "time": "18/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06963 (Z: -1.98σ)"
-        },
-        {
-          "time": "18/08 22:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06966 (Z: -1.91σ)"
-        },
-        {
-          "time": "18/08 23:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06953 (Z: -2.12σ)"
-        },
-        {
-          "time": "19/08 00:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06964 (Z: -1.87σ)"
-        },
-        {
-          "time": "19/08 01:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06977 (Z: -1.61σ)"
-        },
-        {
-          "time": "19/08 02:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06986 (Z: -1.43σ)"
-        },
-        {
-          "time": "19/08 03:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06988 (Z: -1.37σ)"
-        },
-        {
-          "time": "19/08 04:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06989 (Z: -1.34σ)"
-        },
-        {
-          "time": "19/08 05:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06988 (Z: -1.36σ)"
-        },
-        {
-          "time": "19/08 06:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06996 (Z: -1.21σ)"
-        },
-        {
-          "time": "19/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06986 (Z: -1.38σ)"
-        },
-        {
-          "time": "19/08 08:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06985 (Z: -1.37σ)"
-        },
-        {
-          "time": "19/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06983 (Z: -1.41σ)"
-        },
-        {
-          "time": "19/08 10:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06982 (Z: -1.42σ)"
-        },
-        {
-          "time": "19/08 11:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06972 (Z: -1.59σ)"
-        },
-        {
-          "time": "19/08 12:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06955 (Z: -1.91σ)"
-        },
-        {
-          "time": "19/08 13:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06911 (Z: -2.65σ)"
-        },
-        {
-          "time": "19/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06887 (Z: -3.00σ)"
-        },
-        {
-          "time": "19/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06621 (Z: -7.18σ)"
-        },
-        {
-          "time": "19/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06596 (Z: -6.55σ)"
-        },
-        {
-          "time": "19/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06662 (Z: -5.04σ)"
-        },
-        {
-          "time": "19/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06634 (Z: -4.98σ)"
-        },
-        {
-          "time": "19/08 19:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06639 (Z: -4.56σ)"
-        },
-        {
-          "time": "19/08 20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06596 (Z: -4.70σ)"
-        },
-        {
-          "time": "19/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06517 (Z: -5.12σ)"
-        },
-        {
-          "time": "19/08 22:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06574 (Z: -4.24σ)"
-        },
-        {
-          "time": "19/08 23:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06557 (Z: -4.14σ)"
-        },
-        {
-          "time": "20/08 00:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06526 (Z: -4.16σ)"
-        },
-        {
-          "time": "20/08 01:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06531 (Z: -3.91σ)"
-        },
-        {
-          "time": "20/08 02:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06539 (Z: -3.65σ)"
-        },
-        {
-          "time": "20/08 03:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06572 (Z: -3.27σ)"
-        },
-        {
-          "time": "20/08 04:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06557 (Z: -3.25σ)"
-        },
-        {
-          "time": "20/08 05:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06531 (Z: -3.30σ)"
-        },
-        {
-          "time": "20/08 06:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06525 (Z: -3.22σ)"
-        },
-        {
-          "time": "20/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06527 (Z: -3.09σ)"
-        },
-        {
-          "time": "20/08 08:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06396 (Z: -3.78σ)"
-        },
-        {
-          "time": "20/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06346 (Z: -3.88σ)"
-        },
-        {
-          "time": "20/08 10:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06349 (Z: -3.68σ)"
-        },
-        {
-          "time": "20/08 11:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06326 (Z: -3.64σ)"
-        },
-        {
-          "time": "20/08 12:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06363 (Z: -3.30σ)"
-        },
-        {
-          "time": "20/08 13:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06375 (Z: -3.12σ)"
-        },
-        {
-          "time": "20/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06375 (Z: -3.01σ)"
-        },
-        {
-          "time": "20/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06312 (Z: -3.21σ)"
-        },
-        {
-          "time": "20/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06316 (Z: -3.08σ)"
-        },
-        {
-          "time": "20/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06287 (Z: -3.11σ)"
-        },
-        {
-          "time": "20/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06306 (Z: -2.92σ)"
-        },
-        {
-          "time": "20/08 19:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06299 (Z: -2.86σ)"
-        },
-        {
-          "time": "20/08 20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06280 (Z: -2.86σ)"
-        },
-        {
-          "time": "20/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06289 (Z: -2.74σ)"
-        },
-        {
-          "time": "20/08 22:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06291 (Z: -2.66σ)"
-        },
-        {
-          "time": "20/08 23:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06252 (Z: -2.74σ)"
-        },
-        {
-          "time": "21/08 00:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06218 (Z: -2.79σ)"
-        },
-        {
-          "time": "21/08 01:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06147 (Z: -2.98σ)"
-        },
-        {
-          "time": "21/08 02:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06151 (Z: -2.87σ)"
-        },
-        {
-          "time": "21/08 03:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06157 (Z: -2.76σ)"
-        },
-        {
-          "time": "21/08 04:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06136 (Z: -2.76σ)"
-        },
-        {
-          "time": "21/08 05:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06117 (Z: -2.75σ)"
-        },
-        {
-          "time": "21/08 06:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06086 (Z: -2.77σ)"
-        },
-        {
-          "time": "21/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06038 (Z: -2.85σ)"
-        },
-        {
-          "time": "21/08 08:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05959 (Z: -3.02σ)"
-        },
-        {
-          "time": "21/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05936 (Z: -3.00σ)"
-        },
-        {
-          "time": "21/08 10:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05942 (Z: -2.88σ)"
-        },
-        {
-          "time": "21/08 11:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06015 (Z: -2.58σ)"
-        },
-        {
-          "time": "21/08 12:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06011 (Z: -2.52σ)"
-        },
-        {
-          "time": "21/08 13:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.06014 (Z: -2.45σ)"
-        },
-        {
-          "time": "21/08 14:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05980 (Z: -2.49σ)"
-        },
-        {
-          "time": "21/08 15:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05946 (Z: -2.52σ)"
-        },
-        {
-          "time": "21/08 16:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05965 (Z: -2.41σ)"
-        },
-        {
-          "time": "21/08 17:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05946 (Z: -2.41σ)"
-        },
-        {
-          "time": "21/08 18:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05962 (Z: -2.31σ)"
-        },
-        {
-          "time": "21/08 19:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -2.25σ)"
-        },
-        {
-          "time": "21/08 20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05953 (Z: -2.24σ)"
-        },
-        {
-          "time": "21/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05897 (Z: -2.34σ)"
-        },
-        {
-          "time": "21/08 22:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05899 (Z: -2.28σ)"
-        },
-        {
-          "time": "21/08 23:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05895 (Z: -2.24σ)"
-        },
-        {
-          "time": "22/08 00:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05923 (Z: -2.13σ)"
-        },
-        {
-          "time": "22/08 01:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05910 (Z: -2.12σ)"
-        },
-        {
-          "time": "22/08 02:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05903 (Z: -2.10σ)"
-        },
-        {
-          "time": "22/08 03:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05880 (Z: -2.11σ)"
-        },
-        {
-          "time": "22/08 04:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05882 (Z: -2.07σ)"
-        },
-        {
-          "time": "22/08 05:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.83σ)"
-        },
-        {
-          "time": "22/08 06:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.77σ)"
-        },
-        {
-          "time": "22/08 07:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05956 (Z: -1.80σ)"
-        },
-        {
-          "time": "22/08 08:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05981 (Z: -1.71σ)"
-        },
-        {
-          "time": "22/08 09:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.71σ)"
-        },
-        {
-          "time": "22/08 10:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05994 (Z: -1.63σ)"
-        },
-        {
-          "time": "22/08 11:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05985 (Z: -1.63σ)"
-        },
-        {
-          "time": "22/08 12:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Ratio: 0.05971 (Z: -1.64σ)"
+          "metric": "Ratio: 0.05976 (Z: -1.61σ)"
         },
         {
           "time": "22/08 13:00",
@@ -12865,85 +7343,349 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05984 (Z: -1.56σ)"
+          "metric": "Ratio: 0.05969 (Z: -1.61σ)"
         },
         {
           "time": "22/08 14:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05989 (Z: -1.53σ)"
+          "metric": "Ratio: 0.05984 (Z: -1.57σ)"
+        },
+        {
+          "time": "22/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05968 (Z: -1.60σ)"
+        },
+        {
+          "time": "22/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05987 (Z: -1.55σ)"
+        },
+        {
+          "time": "22/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05977 (Z: -1.57σ)"
+        },
+        {
+          "time": "22/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05991 (Z: -1.53σ)"
+        },
+        {
+          "time": "22/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05970 (Z: -1.58σ)"
+        },
+        {
+          "time": "22/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05990 (Z: -1.53σ)"
         },
         {
           "time": "22/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05967 (Z: -1.56σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.57σ)"
         },
         {
           "time": "22/08 15:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05978 (Z: -1.51σ)"
+          "metric": "Ratio: 0.05992 (Z: -1.51σ)"
+        },
+        {
+          "time": "22/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05990 (Z: -1.51σ)"
+        },
+        {
+          "time": "22/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05970 (Z: -1.55σ)"
+        },
+        {
+          "time": "22/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05985 (Z: -1.51σ)"
+        },
+        {
+          "time": "22/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05973 (Z: -1.53σ)"
+        },
+        {
+          "time": "22/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05992 (Z: -1.48σ)"
         },
         {
           "time": "22/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05974 (Z: -1.50σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.52σ)"
         },
         {
           "time": "22/08 16:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05957 (Z: -1.51σ)"
+          "metric": "Ratio: 0.05985 (Z: -1.49σ)"
+        },
+        {
+          "time": "22/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05983 (Z: -1.49σ)"
+        },
+        {
+          "time": "22/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05971 (Z: -1.51σ)"
+        },
+        {
+          "time": "22/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05973 (Z: -1.50σ)"
+        },
+        {
+          "time": "22/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05966 (Z: -1.51σ)"
+        },
+        {
+          "time": "22/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05959 (Z: -1.52σ)"
+        },
+        {
+          "time": "22/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05967 (Z: -1.50σ)"
         },
         {
           "time": "22/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05968 (Z: -1.47σ)"
+          "metric": "Ratio: 0.05964 (Z: -1.50σ)"
         },
         {
           "time": "22/08 17:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05967 (Z: -1.45σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.48σ)"
+        },
+        {
+          "time": "22/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05969 (Z: -1.48σ)"
+        },
+        {
+          "time": "22/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05965 (Z: -1.48σ)"
+        },
+        {
+          "time": "22/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05978 (Z: -1.45σ)"
+        },
+        {
+          "time": "22/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05965 (Z: -1.47σ)"
+        },
+        {
+          "time": "22/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05971 (Z: -1.45σ)"
+        },
+        {
+          "time": "22/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05970 (Z: -1.45σ)"
         },
         {
           "time": "22/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05973 (Z: -1.42σ)"
+          "metric": "Ratio: 0.05985 (Z: -1.41σ)"
+        },
+        {
+          "time": "22/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05984 (Z: -1.41σ)"
+        },
+        {
+          "time": "22/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05970 (Z: -1.44σ)"
+        },
+        {
+          "time": "22/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05970 (Z: -1.43σ)"
+        },
+        {
+          "time": "22/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05982 (Z: -1.40σ)"
+        },
+        {
+          "time": "22/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05972 (Z: -1.42σ)"
+        },
+        {
+          "time": "22/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05977 (Z: -1.40σ)"
+        },
+        {
+          "time": "22/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05996 (Z: -1.36σ)"
         },
         {
           "time": "22/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.41σ)"
+          "metric": "Ratio: 0.05984 (Z: -1.38σ)"
         },
         {
           "time": "22/08 19:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05966 (Z: -1.40σ)"
+          "metric": "Ratio: 0.05968 (Z: -1.41σ)"
+        },
+        {
+          "time": "22/08 19:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05981 (Z: -1.38σ)"
+        },
+        {
+          "time": "22/08 19:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05983 (Z: -1.37σ)"
+        },
+        {
+          "time": "22/08 19:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05965 (Z: -1.40σ)"
+        },
+        {
+          "time": "22/08 19:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05985 (Z: -1.36σ)"
+        },
+        {
+          "time": "22/08 19:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05979 (Z: -1.36σ)"
         },
         {
           "time": "22/08 20:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05984 (Z: -1.34σ)"
+          "metric": "Ratio: 0.05985 (Z: -1.35σ)"
+        },
+        {
+          "time": "22/08 20:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05987 (Z: -1.34σ)"
+        },
+        {
+          "time": "22/08 20:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05990 (Z: -1.33σ)"
+        },
+        {
+          "time": "22/08 20:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05983 (Z: -1.34σ)"
         },
         {
           "time": "22/08 21:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05982 (Z: -1.33σ)"
+          "metric": "Ratio: 0.05984 (Z: -1.33σ)"
+        },
+        {
+          "time": "22/08 21:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05976 (Z: -1.35σ)"
+        },
+        {
+          "time": "22/08 21:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05971 (Z: -1.35σ)"
+        },
+        {
+          "time": "22/08 21:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05967 (Z: -1.36σ)"
         },
         {
           "time": "22/08 22:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05964 (Z: -1.35σ)"
+          "metric": "Ratio: 0.05971 (Z: -1.34σ)"
+        },
+        {
+          "time": "22/08 22:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05972 (Z: -1.34σ)"
+        },
+        {
+          "time": "22/08 22:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05972 (Z: -1.33σ)"
+        },
+        {
+          "time": "22/08 23:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05977 (Z: -1.32σ)"
         },
         {
           "time": "22/08 23:00",
@@ -12952,88 +7694,358 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "Ratio: 0.05981 (Z: -1.30σ)"
         },
         {
+          "time": "22/08 23:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05977 (Z: -1.31σ)"
+        },
+        {
+          "time": "22/08 23:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05976 (Z: -1.31σ)"
+        },
+        {
           "time": "23/08 00:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05983 (Z: -1.28σ)"
+          "metric": "Ratio: 0.05981 (Z: -1.29σ)"
+        },
+        {
+          "time": "23/08 00:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05982 (Z: -1.29σ)"
+        },
+        {
+          "time": "23/08 00:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05992 (Z: -1.26σ)"
+        },
+        {
+          "time": "23/08 00:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05992 (Z: -1.26σ)"
         },
         {
           "time": "23/08 01:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05993 (Z: -1.24σ)"
+          "metric": "Ratio: 0.05996 (Z: -1.25σ)"
+        },
+        {
+          "time": "23/08 01:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06000 (Z: -1.23σ)"
+        },
+        {
+          "time": "23/08 01:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05999 (Z: -1.23σ)"
+        },
+        {
+          "time": "23/08 01:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06009 (Z: -1.21σ)"
+        },
+        {
+          "time": "23/08 02:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06033 (Z: -1.15σ)"
         },
         {
           "time": "23/08 02:00",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06037 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06039 (Z: -1.13σ)"
+        },
+        {
+          "time": "23/08 02:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.06040 (Z: -1.13σ)"
+        },
+        {
+          "time": "23/08 02:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.06048 (Z: -1.11σ)"
+        },
+        {
+          "time": "23/08 03:00",
+          "score_a": 97,
+          "score_b": 3,
+          "metric": "Ratio: 0.06057 (Z: -1.09σ)"
+        },
+        {
+          "time": "23/08 03:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.06043 (Z: -1.11σ)"
         },
         {
           "time": "23/08 03:00",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06030 (Z: -1.14σ)"
+          "metric": "Ratio: 0.06039 (Z: -1.12σ)"
+        },
+        {
+          "time": "23/08 04:00",
+          "score_a": 97,
+          "score_b": 3,
+          "metric": "Ratio: 0.06051 (Z: -1.09σ)"
+        },
+        {
+          "time": "23/08 04:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.06031 (Z: -1.13σ)"
         },
         {
           "time": "23/08 04:00",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.06044 (Z: -1.09σ)"
+          "metric": "Ratio: 0.06041 (Z: -1.10σ)"
+        },
+        {
+          "time": "23/08 04:00",
+          "score_a": 97,
+          "score_b": 3,
+          "metric": "Ratio: 0.06052 (Z: -1.08σ)"
+        },
+        {
+          "time": "23/08 05:00",
+          "score_a": 96,
+          "score_b": 4,
+          "metric": "Ratio: 0.06055 (Z: -1.07σ)"
+        },
+        {
+          "time": "23/08 05:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.06037 (Z: -1.10σ)"
+        },
+        {
+          "time": "23/08 05:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.06034 (Z: -1.11σ)"
         },
         {
           "time": "23/08 05:00",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06023 (Z: -1.12σ)"
+          "metric": "Ratio: 0.06023 (Z: -1.13σ)"
+        },
+        {
+          "time": "23/08 06:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06014 (Z: -1.14σ)"
         },
         {
           "time": "23/08 06:00",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.06015 (Z: -1.13σ)"
+          "metric": "Ratio: 0.06021 (Z: -1.13σ)"
+        },
+        {
+          "time": "23/08 06:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.06020 (Z: -1.12σ)"
+        },
+        {
+          "time": "23/08 06:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.06012 (Z: -1.14σ)"
         },
         {
           "time": "23/08 07:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05994 (Z: -1.16σ)"
+          "metric": "Ratio: 0.06008 (Z: -1.14σ)"
+        },
+        {
+          "time": "23/08 07:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06000 (Z: -1.16σ)"
+        },
+        {
+          "time": "23/08 07:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05997 (Z: -1.16σ)"
+        },
+        {
+          "time": "23/08 07:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06001 (Z: -1.15σ)"
         },
         {
           "time": "23/08 08:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05972 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05995 (Z: -1.16σ)"
+        },
+        {
+          "time": "23/08 08:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05975 (Z: -1.20σ)"
+        },
+        {
+          "time": "23/08 08:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05967 (Z: -1.21σ)"
         },
         {
           "time": "23/08 09:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05969 (Z: -1.19σ)"
+          "metric": "Ratio: 0.05970 (Z: -1.20σ)"
+        },
+        {
+          "time": "23/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05982 (Z: -1.17σ)"
+        },
+        {
+          "time": "23/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05982 (Z: -1.17σ)"
+        },
+        {
+          "time": "23/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05971 (Z: -1.19σ)"
         },
         {
           "time": "23/08 10:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05956 (Z: -1.20σ)"
+          "metric": "Ratio: 0.05972 (Z: -1.18σ)"
+        },
+        {
+          "time": "23/08 10:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05957 (Z: -1.21σ)"
+        },
+        {
+          "time": "23/08 10:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05960 (Z: -1.20σ)"
+        },
+        {
+          "time": "23/08 10:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05955 (Z: -1.21σ)"
         },
         {
           "time": "23/08 11:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05970 (Z: -1.16σ)"
+          "metric": "Ratio: 0.05953 (Z: -1.21σ)"
+        },
+        {
+          "time": "23/08 11:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05955 (Z: -1.20σ)"
+        },
+        {
+          "time": "23/08 11:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05958 (Z: -1.19σ)"
+        },
+        {
+          "time": "23/08 11:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05974 (Z: -1.15σ)"
+        },
+        {
+          "time": "23/08 12:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05968 (Z: -1.16σ)"
+        },
+        {
+          "time": "23/08 12:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05974 (Z: -1.15σ)"
+        },
+        {
+          "time": "23/08 12:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05970 (Z: -1.15σ)"
         },
         {
           "time": "23/08 12:00",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05976 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05976 (Z: -1.14σ)"
+        },
+        {
+          "time": "23/08 13:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05969 (Z: -1.15σ)"
+        },
+        {
+          "time": "23/08 13:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05967 (Z: -1.15σ)"
+        },
+        {
+          "time": "23/08 13:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05960 (Z: -1.16σ)"
+        },
+        {
+          "time": "23/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05960 (Z: -1.16σ)"
         },
         {
           "time": "23/08 14:00",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05969 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05973 (Z: -1.12σ)"
+        },
+        {
+          "time": "23/08 14:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.05976 (Z: -1.12σ)"
+        },
+        {
+          "time": "23/08 14:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.05972 (Z: -1.12σ)"
         },
         {
           "time": "23/08 15:00",
@@ -13042,34 +8054,4476 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "Ratio: 0.05974 (Z: -1.11σ)"
         },
         {
+          "time": "23/08 15:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.05965 (Z: -1.13σ)"
+        },
+        {
+          "time": "23/08 15:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.05966 (Z: -1.12σ)"
+        },
+        {
+          "time": "23/08 15:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.05968 (Z: -1.12σ)"
+        },
+        {
           "time": "23/08 16:00",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05962 (Z: -1.12σ)"
+          "metric": "Ratio: 0.05967 (Z: -1.12σ)"
+        },
+        {
+          "time": "23/08 16:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.05964 (Z: -1.12σ)"
+        },
+        {
+          "time": "23/08 16:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.05966 (Z: -1.11σ)"
+        },
+        {
+          "time": "23/08 16:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.05963 (Z: -1.11σ)"
+        },
+        {
+          "time": "23/08 17:00",
+          "score_a": 97,
+          "score_b": 3,
+          "metric": "Ratio: 0.05973 (Z: -1.09σ)"
         },
         {
           "time": "23/08 17:00",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05969 (Z: -1.09σ)"
+          "metric": "Ratio: 0.05966 (Z: -1.10σ)"
+        },
+        {
+          "time": "23/08 17:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.05961 (Z: -1.11σ)"
+        },
+        {
+          "time": "23/08 17:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.05962 (Z: -1.10σ)"
+        },
+        {
+          "time": "23/08 18:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.05949 (Z: -1.13σ)"
         },
         {
           "time": "23/08 18:00",
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05940 (Z: -1.14σ)"
+          "metric": "Ratio: 0.05929 (Z: -1.17σ)"
+        },
+        {
+          "time": "23/08 18:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.05949 (Z: -1.12σ)"
+        },
+        {
+          "time": "23/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05935 (Z: -1.15σ)"
         },
         {
           "time": "23/08 19:00",
           "score_a": 99,
           "score_b": 1,
-          "metric": "Ratio: 0.05942 (Z: -1.13σ)"
+          "metric": "Ratio: 0.05946 (Z: -1.12σ)"
+        },
+        {
+          "time": "23/08 19:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.05944 (Z: -1.12σ)"
+        },
+        {
+          "time": "23/08 19:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.05949 (Z: -1.11σ)"
         },
         {
           "time": "23/08 20:00",
           "score_a": 98,
           "score_b": 2,
-          "metric": "Ratio: 0.05949 (Z: -1.10σ)"
+          "metric": "Ratio: 0.05951 (Z: -1.10σ)"
+        },
+        {
+          "time": "23/08 20:00",
+          "score_a": 97,
+          "score_b": 3,
+          "metric": "Ratio: 0.05955 (Z: -1.09σ)"
+        },
+        {
+          "time": "23/08 20:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.05936 (Z: -1.13σ)"
+        },
+        {
+          "time": "23/08 20:00",
+          "score_a": 97,
+          "score_b": 3,
+          "metric": "Ratio: 0.05953 (Z: -1.09σ)"
+        }
+      ],
+      "30d": [
+        {
+          "time": "24/07 21:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06986 (Z: +1.17σ)"
+        },
+        {
+          "time": "24/07 22:00",
+          "score_a": 1,
+          "score_b": 99,
+          "metric": "Ratio: 0.06983 (Z: +1.13σ)"
+        },
+        {
+          "time": "24/07 23:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06985 (Z: +1.16σ)"
+        },
+        {
+          "time": "25/07 00:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06993 (Z: +1.27σ)"
+        },
+        {
+          "time": "25/07 01:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06992 (Z: +1.26σ)"
+        },
+        {
+          "time": "25/07 02:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06997 (Z: +1.33σ)"
+        },
+        {
+          "time": "25/07 03:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06991 (Z: +1.26σ)"
+        },
+        {
+          "time": "25/07 04:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06984 (Z: +1.17σ)"
+        },
+        {
+          "time": "25/07 05:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06993 (Z: +1.30σ)"
+        },
+        {
+          "time": "25/07 06:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06996 (Z: +1.34σ)"
+        },
+        {
+          "time": "25/07 07:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06993 (Z: +1.31σ)"
+        },
+        {
+          "time": "25/07 08:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07010 (Z: +1.53σ)"
+        },
+        {
+          "time": "25/07 09:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06996 (Z: +1.34σ)"
+        },
+        {
+          "time": "25/07 10:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06990 (Z: +1.27σ)"
+        },
+        {
+          "time": "25/07 11:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06989 (Z: +1.26σ)"
+        },
+        {
+          "time": "25/07 12:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06985 (Z: +1.20σ)"
+        },
+        {
+          "time": "25/07 13:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06983 (Z: +1.18σ)"
+        },
+        {
+          "time": "25/07 14:00",
+          "score_a": 1,
+          "score_b": 99,
+          "metric": "Ratio: 0.06978 (Z: +1.12σ)"
+        },
+        {
+          "time": "25/07 15:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06980 (Z: +1.15σ)"
+        },
+        {
+          "time": "25/07 16:00",
+          "score_a": 1,
+          "score_b": 99,
+          "metric": "Ratio: 0.06978 (Z: +1.12σ)"
+        },
+        {
+          "time": "25/07 17:00",
+          "score_a": 4,
+          "score_b": 96,
+          "metric": "Ratio: 0.06974 (Z: +1.06σ)"
+        },
+        {
+          "time": "25/07 18:00",
+          "score_a": 12,
+          "score_b": 88,
+          "metric": "Ratio: 0.06960 (Z: +0.87σ)"
+        },
+        {
+          "time": "25/07 19:00",
+          "score_a": 12,
+          "score_b": 88,
+          "metric": "Ratio: 0.06961 (Z: +0.88σ)"
+        },
+        {
+          "time": "25/07 20:00",
+          "score_a": 8,
+          "score_b": 92,
+          "metric": "Ratio: 0.06967 (Z: +0.97σ)"
+        },
+        {
+          "time": "25/07 21:00",
+          "score_a": 9,
+          "score_b": 91,
+          "metric": "Ratio: 0.06965 (Z: +0.94σ)"
+        },
+        {
+          "time": "25/07 22:00",
+          "score_a": 13,
+          "score_b": 87,
+          "metric": "Ratio: 0.06959 (Z: +0.85σ)"
+        },
+        {
+          "time": "25/07 23:00",
+          "score_a": 11,
+          "score_b": 89,
+          "metric": "Ratio: 0.06963 (Z: +0.90σ)"
+        },
+        {
+          "time": "26/07 00:00",
+          "score_a": 18,
+          "score_b": 82,
+          "metric": "Ratio: 0.06951 (Z: +0.73σ)"
+        },
+        {
+          "time": "26/07 01:00",
+          "score_a": 15,
+          "score_b": 85,
+          "metric": "Ratio: 0.06956 (Z: +0.79σ)"
+        },
+        {
+          "time": "26/07 02:00",
+          "score_a": 19,
+          "score_b": 81,
+          "metric": "Ratio: 0.06949 (Z: +0.70σ)"
+        },
+        {
+          "time": "26/07 03:00",
+          "score_a": 21,
+          "score_b": 79,
+          "metric": "Ratio: 0.06946 (Z: +0.67σ)"
+        },
+        {
+          "time": "26/07 05:00",
+          "score_a": 20,
+          "score_b": 80,
+          "metric": "Ratio: 0.06949 (Z: +0.70σ)"
+        },
+        {
+          "time": "26/07 06:00",
+          "score_a": 14,
+          "score_b": 86,
+          "metric": "Ratio: 0.06958 (Z: +0.82σ)"
+        },
+        {
+          "time": "26/07 07:00",
+          "score_a": 16,
+          "score_b": 84,
+          "metric": "Ratio: 0.06956 (Z: +0.79σ)"
+        },
+        {
+          "time": "26/07 08:00",
+          "score_a": 12,
+          "score_b": 88,
+          "metric": "Ratio: 0.06963 (Z: +0.88σ)"
+        },
+        {
+          "time": "26/07 09:00",
+          "score_a": 17,
+          "score_b": 83,
+          "metric": "Ratio: 0.06953 (Z: +0.75σ)"
+        },
+        {
+          "time": "26/07 10:00",
+          "score_a": 19,
+          "score_b": 81,
+          "metric": "Ratio: 0.06950 (Z: +0.71σ)"
+        },
+        {
+          "time": "26/07 11:00",
+          "score_a": 19,
+          "score_b": 81,
+          "metric": "Ratio: 0.06950 (Z: +0.71σ)"
+        },
+        {
+          "time": "26/07 12:00",
+          "score_a": 19,
+          "score_b": 81,
+          "metric": "Ratio: 0.06951 (Z: +0.72σ)"
+        },
+        {
+          "time": "26/07 13:00",
+          "score_a": 17,
+          "score_b": 83,
+          "metric": "Ratio: 0.06954 (Z: +0.76σ)"
+        },
+        {
+          "time": "26/07 14:00",
+          "score_a": 20,
+          "score_b": 80,
+          "metric": "Ratio: 0.06948 (Z: +0.69σ)"
+        },
+        {
+          "time": "26/07 15:00",
+          "score_a": 29,
+          "score_b": 71,
+          "metric": "Ratio: 0.06932 (Z: +0.47σ)"
+        },
+        {
+          "time": "26/07 16:00",
+          "score_a": 34,
+          "score_b": 66,
+          "metric": "Ratio: 0.06925 (Z: +0.38σ)"
+        },
+        {
+          "time": "26/07 17:00",
+          "score_a": 30,
+          "score_b": 70,
+          "metric": "Ratio: 0.06931 (Z: +0.46σ)"
+        },
+        {
+          "time": "26/07 18:00",
+          "score_a": 29,
+          "score_b": 71,
+          "metric": "Ratio: 0.06933 (Z: +0.49σ)"
+        },
+        {
+          "time": "26/07 19:00",
+          "score_a": 31,
+          "score_b": 69,
+          "metric": "Ratio: 0.06929 (Z: +0.44σ)"
+        },
+        {
+          "time": "26/07 20:00",
+          "score_a": 29,
+          "score_b": 71,
+          "metric": "Ratio: 0.06932 (Z: +0.49σ)"
+        },
+        {
+          "time": "26/07 21:00",
+          "score_a": 27,
+          "score_b": 73,
+          "metric": "Ratio: 0.06935 (Z: +0.53σ)"
+        },
+        {
+          "time": "26/07 22:00",
+          "score_a": 46,
+          "score_b": 54,
+          "metric": "Ratio: 0.06902 (Z: +0.08σ)"
+        },
+        {
+          "time": "26/07 23:00",
+          "score_a": 70,
+          "score_b": 30,
+          "metric": "Ratio: 0.06863 (Z: -0.45σ)"
+        },
+        {
+          "time": "27/07 00:00",
+          "score_a": 63,
+          "score_b": 37,
+          "metric": "Ratio: 0.06873 (Z: -0.31σ)"
+        },
+        {
+          "time": "27/07 01:00",
+          "score_a": 53,
+          "score_b": 47,
+          "metric": "Ratio: 0.06890 (Z: -0.07σ)"
+        },
+        {
+          "time": "27/07 02:00",
+          "score_a": 54,
+          "score_b": 46,
+          "metric": "Ratio: 0.06887 (Z: -0.10σ)"
+        },
+        {
+          "time": "27/07 03:00",
+          "score_a": 57,
+          "score_b": 43,
+          "metric": "Ratio: 0.06882 (Z: -0.17σ)"
+        },
+        {
+          "time": "27/07 04:00",
+          "score_a": 59,
+          "score_b": 41,
+          "metric": "Ratio: 0.06879 (Z: -0.21σ)"
+        },
+        {
+          "time": "27/07 05:00",
+          "score_a": 59,
+          "score_b": 41,
+          "metric": "Ratio: 0.06878 (Z: -0.22σ)"
+        },
+        {
+          "time": "27/07 06:00",
+          "score_a": 68,
+          "score_b": 32,
+          "metric": "Ratio: 0.06863 (Z: -0.42σ)"
+        },
+        {
+          "time": "27/07 07:00",
+          "score_a": 66,
+          "score_b": 34,
+          "metric": "Ratio: 0.06866 (Z: -0.37σ)"
+        },
+        {
+          "time": "27/07 08:00",
+          "score_a": 54,
+          "score_b": 46,
+          "metric": "Ratio: 0.06885 (Z: -0.09σ)"
+        },
+        {
+          "time": "27/07 09:00",
+          "score_a": 48,
+          "score_b": 52,
+          "metric": "Ratio: 0.06895 (Z: +0.06σ)"
+        },
+        {
+          "time": "27/07 10:00",
+          "score_a": 56,
+          "score_b": 44,
+          "metric": "Ratio: 0.06880 (Z: -0.14σ)"
+        },
+        {
+          "time": "27/07 11:00",
+          "score_a": 60,
+          "score_b": 40,
+          "metric": "Ratio: 0.06874 (Z: -0.23σ)"
+        },
+        {
+          "time": "27/07 12:00",
+          "score_a": 48,
+          "score_b": 52,
+          "metric": "Ratio: 0.06893 (Z: +0.05σ)"
+        },
+        {
+          "time": "27/07 13:00",
+          "score_a": 42,
+          "score_b": 58,
+          "metric": "Ratio: 0.06901 (Z: +0.17σ)"
+        },
+        {
+          "time": "27/07 14:00",
+          "score_a": 59,
+          "score_b": 41,
+          "metric": "Ratio: 0.06874 (Z: -0.21σ)"
+        },
+        {
+          "time": "27/07 15:00",
+          "score_a": 18,
+          "score_b": 82,
+          "metric": "Ratio: 0.06939 (Z: +0.74σ)"
+        },
+        {
+          "time": "27/07 16:00",
+          "score_a": 13,
+          "score_b": 87,
+          "metric": "Ratio: 0.06947 (Z: +0.85σ)"
+        },
+        {
+          "time": "27/07 17:00",
+          "score_a": 31,
+          "score_b": 69,
+          "metric": "Ratio: 0.06919 (Z: +0.43σ)"
+        },
+        {
+          "time": "27/07 18:00",
+          "score_a": 40,
+          "score_b": 60,
+          "metric": "Ratio: 0.06905 (Z: +0.23σ)"
+        },
+        {
+          "time": "27/07 19:00",
+          "score_a": 29,
+          "score_b": 71,
+          "metric": "Ratio: 0.06923 (Z: +0.49σ)"
+        },
+        {
+          "time": "27/07 20:00",
+          "score_a": 40,
+          "score_b": 60,
+          "metric": "Ratio: 0.06905 (Z: +0.22σ)"
+        },
+        {
+          "time": "27/07 21:00",
+          "score_a": 34,
+          "score_b": 66,
+          "metric": "Ratio: 0.06916 (Z: +0.38σ)"
+        },
+        {
+          "time": "27/07 22:00",
+          "score_a": 20,
+          "score_b": 80,
+          "metric": "Ratio: 0.06938 (Z: +0.69σ)"
+        },
+        {
+          "time": "27/07 23:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07029 (Z: +1.99σ)"
+        },
+        {
+          "time": "28/07 00:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07026 (Z: +1.90σ)"
+        },
+        {
+          "time": "28/07 01:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07048 (Z: +2.18σ)"
+        },
+        {
+          "time": "28/07 02:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07073 (Z: +2.47σ)"
+        },
+        {
+          "time": "28/07 03:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07074 (Z: +2.42σ)"
+        },
+        {
+          "time": "28/07 04:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07062 (Z: +2.22σ)"
+        },
+        {
+          "time": "28/07 05:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07055 (Z: +2.07σ)"
+        },
+        {
+          "time": "28/07 06:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07051 (Z: +1.99σ)"
+        },
+        {
+          "time": "28/07 07:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07037 (Z: +1.77σ)"
+        },
+        {
+          "time": "28/07 08:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07043 (Z: +1.82σ)"
+        },
+        {
+          "time": "28/07 09:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07054 (Z: +1.94σ)"
+        },
+        {
+          "time": "28/07 10:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07059 (Z: +1.97σ)"
+        },
+        {
+          "time": "28/07 11:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07053 (Z: +1.86σ)"
+        },
+        {
+          "time": "28/07 12:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07052 (Z: +1.82σ)"
+        },
+        {
+          "time": "28/07 13:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07047 (Z: +1.74σ)"
+        },
+        {
+          "time": "28/07 14:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07080 (Z: +2.13σ)"
+        },
+        {
+          "time": "28/07 15:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07063 (Z: +1.88σ)"
+        },
+        {
+          "time": "28/07 16:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07008 (Z: +1.18σ)"
+        },
+        {
+          "time": "28/07 17:00",
+          "score_a": 2,
+          "score_b": 98,
+          "metric": "Ratio: 0.07003 (Z: +1.11σ)"
+        },
+        {
+          "time": "28/07 18:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07020 (Z: +1.31σ)"
+        },
+        {
+          "time": "28/07 19:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07017 (Z: +1.26σ)"
+        },
+        {
+          "time": "28/07 20:00",
+          "score_a": 1,
+          "score_b": 99,
+          "metric": "Ratio: 0.07008 (Z: +1.13σ)"
+        },
+        {
+          "time": "28/07 21:00",
+          "score_a": 3,
+          "score_b": 97,
+          "metric": "Ratio: 0.07006 (Z: +1.09σ)"
+        },
+        {
+          "time": "28/07 22:00",
+          "score_a": 4,
+          "score_b": 96,
+          "metric": "Ratio: 0.07004 (Z: +1.06σ)"
+        },
+        {
+          "time": "28/07 23:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07030 (Z: +1.38σ)"
+        },
+        {
+          "time": "29/07 00:00",
+          "score_a": 7,
+          "score_b": 93,
+          "metric": "Ratio: 0.07001 (Z: +0.99σ)"
+        },
+        {
+          "time": "29/07 01:00",
+          "score_a": 4,
+          "score_b": 96,
+          "metric": "Ratio: 0.07006 (Z: +1.05σ)"
+        },
+        {
+          "time": "29/07 02:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07031 (Z: +1.37σ)"
+        },
+        {
+          "time": "29/07 03:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07015 (Z: +1.14σ)"
+        },
+        {
+          "time": "29/07 04:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07036 (Z: +1.43σ)"
+        },
+        {
+          "time": "29/07 05:00",
+          "score_a": 5,
+          "score_b": 95,
+          "metric": "Ratio: 0.07009 (Z: +1.04σ)"
+        },
+        {
+          "time": "29/07 06:00",
+          "score_a": 11,
+          "score_b": 89,
+          "metric": "Ratio: 0.06999 (Z: +0.91σ)"
+        },
+        {
+          "time": "29/07 07:00",
+          "score_a": 30,
+          "score_b": 70,
+          "metric": "Ratio: 0.06968 (Z: +0.46σ)"
+        },
+        {
+          "time": "29/07 08:00",
+          "score_a": 37,
+          "score_b": 63,
+          "metric": "Ratio: 0.06956 (Z: +0.29σ)"
+        },
+        {
+          "time": "29/07 09:00",
+          "score_a": 33,
+          "score_b": 67,
+          "metric": "Ratio: 0.06965 (Z: +0.40σ)"
+        },
+        {
+          "time": "29/07 10:00",
+          "score_a": 45,
+          "score_b": 55,
+          "metric": "Ratio: 0.06945 (Z: +0.11σ)"
+        },
+        {
+          "time": "29/07 11:00",
+          "score_a": 35,
+          "score_b": 65,
+          "metric": "Ratio: 0.06961 (Z: +0.33σ)"
+        },
+        {
+          "time": "29/07 12:00",
+          "score_a": 36,
+          "score_b": 64,
+          "metric": "Ratio: 0.06961 (Z: +0.32σ)"
+        },
+        {
+          "time": "29/07 13:00",
+          "score_a": 26,
+          "score_b": 74,
+          "metric": "Ratio: 0.06977 (Z: +0.54σ)"
+        },
+        {
+          "time": "29/07 14:00",
+          "score_a": 47,
+          "score_b": 53,
+          "metric": "Ratio: 0.06945 (Z: +0.07σ)"
+        },
+        {
+          "time": "29/07 15:00",
+          "score_a": 17,
+          "score_b": 83,
+          "metric": "Ratio: 0.06992 (Z: +0.75σ)"
+        },
+        {
+          "time": "29/07 16:00",
+          "score_a": 9,
+          "score_b": 91,
+          "metric": "Ratio: 0.07006 (Z: +0.94σ)"
+        },
+        {
+          "time": "29/07 17:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07030 (Z: +1.29σ)"
+        },
+        {
+          "time": "29/07 18:00",
+          "score_a": 35,
+          "score_b": 65,
+          "metric": "Ratio: 0.06967 (Z: +0.34σ)"
+        },
+        {
+          "time": "29/07 19:00",
+          "score_a": 42,
+          "score_b": 58,
+          "metric": "Ratio: 0.06957 (Z: +0.18σ)"
+        },
+        {
+          "time": "29/07 20:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07044 (Z: +1.49σ)"
+        },
+        {
+          "time": "29/07 21:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07059 (Z: +1.72σ)"
+        },
+        {
+          "time": "29/07 22:00",
+          "score_a": 17,
+          "score_b": 83,
+          "metric": "Ratio: 0.06998 (Z: +0.75σ)"
+        },
+        {
+          "time": "29/07 23:00",
+          "score_a": 9,
+          "score_b": 91,
+          "metric": "Ratio: 0.07010 (Z: +0.93σ)"
+        },
+        {
+          "time": "30/07 00:00",
+          "score_a": 15,
+          "score_b": 85,
+          "metric": "Ratio: 0.07002 (Z: +0.80σ)"
+        },
+        {
+          "time": "30/07 01:00",
+          "score_a": 1,
+          "score_b": 99,
+          "metric": "Ratio: 0.07023 (Z: +1.14σ)"
+        },
+        {
+          "time": "30/07 02:00",
+          "score_a": 34,
+          "score_b": 66,
+          "metric": "Ratio: 0.06977 (Z: +0.37σ)"
+        },
+        {
+          "time": "30/07 03:00",
+          "score_a": 30,
+          "score_b": 70,
+          "metric": "Ratio: 0.06982 (Z: +0.45σ)"
+        },
+        {
+          "time": "30/07 04:00",
+          "score_a": 28,
+          "score_b": 72,
+          "metric": "Ratio: 0.06987 (Z: +0.52σ)"
+        },
+        {
+          "time": "30/07 05:00",
+          "score_a": 17,
+          "score_b": 83,
+          "metric": "Ratio: 0.07001 (Z: +0.75σ)"
+        },
+        {
+          "time": "30/07 06:00",
+          "score_a": 21,
+          "score_b": 79,
+          "metric": "Ratio: 0.06996 (Z: +0.66σ)"
+        },
+        {
+          "time": "30/07 07:00",
+          "score_a": 26,
+          "score_b": 74,
+          "metric": "Ratio: 0.06991 (Z: +0.56σ)"
+        },
+        {
+          "time": "30/07 08:00",
+          "score_a": 21,
+          "score_b": 79,
+          "metric": "Ratio: 0.06998 (Z: +0.67σ)"
+        },
+        {
+          "time": "30/07 09:00",
+          "score_a": 39,
+          "score_b": 61,
+          "metric": "Ratio: 0.06975 (Z: +0.26σ)"
+        },
+        {
+          "time": "30/07 10:00",
+          "score_a": 62,
+          "score_b": 38,
+          "metric": "Ratio: 0.06946 (Z: -0.26σ)"
+        },
+        {
+          "time": "30/07 11:00",
+          "score_a": 60,
+          "score_b": 40,
+          "metric": "Ratio: 0.06949 (Z: -0.22σ)"
+        },
+        {
+          "time": "30/07 12:00",
+          "score_a": 83,
+          "score_b": 17,
+          "metric": "Ratio: 0.06920 (Z: -0.77σ)"
+        },
+        {
+          "time": "30/07 13:00",
+          "score_a": 88,
+          "score_b": 12,
+          "metric": "Ratio: 0.06915 (Z: -0.87σ)"
+        },
+        {
+          "time": "30/07 14:00",
+          "score_a": 87,
+          "score_b": 13,
+          "metric": "Ratio: 0.06916 (Z: -0.86σ)"
+        },
+        {
+          "time": "30/07 15:00",
+          "score_a": 81,
+          "score_b": 19,
+          "metric": "Ratio: 0.06924 (Z: -0.70σ)"
+        },
+        {
+          "time": "30/07 16:00",
+          "score_a": 90,
+          "score_b": 10,
+          "metric": "Ratio: 0.06913 (Z: -0.91σ)"
+        },
+        {
+          "time": "30/07 17:00",
+          "score_a": 89,
+          "score_b": 11,
+          "metric": "Ratio: 0.06914 (Z: -0.89σ)"
+        },
+        {
+          "time": "30/07 18:00",
+          "score_a": 92,
+          "score_b": 8,
+          "metric": "Ratio: 0.06910 (Z: -0.96σ)"
+        },
+        {
+          "time": "30/07 19:00",
+          "score_a": 86,
+          "score_b": 14,
+          "metric": "Ratio: 0.06918 (Z: -0.82σ)"
+        },
+        {
+          "time": "30/07 20:00",
+          "score_a": 91,
+          "score_b": 9,
+          "metric": "Ratio: 0.06911 (Z: -0.94σ)"
+        },
+        {
+          "time": "30/07 21:00",
+          "score_a": 83,
+          "score_b": 17,
+          "metric": "Ratio: 0.06921 (Z: -0.76σ)"
+        },
+        {
+          "time": "30/07 22:00",
+          "score_a": 90,
+          "score_b": 10,
+          "metric": "Ratio: 0.06913 (Z: -0.91σ)"
+        },
+        {
+          "time": "30/07 23:00",
+          "score_a": 91,
+          "score_b": 9,
+          "metric": "Ratio: 0.06911 (Z: -0.95σ)"
+        },
+        {
+          "time": "31/07 00:00",
+          "score_a": 87,
+          "score_b": 13,
+          "metric": "Ratio: 0.06917 (Z: -0.86σ)"
+        },
+        {
+          "time": "31/07 01:00",
+          "score_a": 97,
+          "score_b": 3,
+          "metric": "Ratio: 0.06905 (Z: -1.07σ)"
+        },
+        {
+          "time": "31/07 02:00",
+          "score_a": 68,
+          "score_b": 32,
+          "metric": "Ratio: 0.06941 (Z: -0.42σ)"
+        },
+        {
+          "time": "31/07 03:00",
+          "score_a": 44,
+          "score_b": 56,
+          "metric": "Ratio: 0.06971 (Z: +0.14σ)"
+        },
+        {
+          "time": "31/07 04:00",
+          "score_a": 54,
+          "score_b": 46,
+          "metric": "Ratio: 0.06959 (Z: -0.08σ)"
+        },
+        {
+          "time": "31/07 05:00",
+          "score_a": 56,
+          "score_b": 44,
+          "metric": "Ratio: 0.06958 (Z: -0.13σ)"
+        },
+        {
+          "time": "31/07 06:00",
+          "score_a": 56,
+          "score_b": 44,
+          "metric": "Ratio: 0.06958 (Z: -0.13σ)"
+        },
+        {
+          "time": "31/07 07:00",
+          "score_a": 36,
+          "score_b": 64,
+          "metric": "Ratio: 0.06982 (Z: +0.32σ)"
+        },
+        {
+          "time": "31/07 08:00",
+          "score_a": 21,
+          "score_b": 79,
+          "metric": "Ratio: 0.07001 (Z: +0.68σ)"
+        },
+        {
+          "time": "31/07 09:00",
+          "score_a": 13,
+          "score_b": 87,
+          "metric": "Ratio: 0.07010 (Z: +0.85σ)"
+        },
+        {
+          "time": "31/07 10:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07026 (Z: +1.15σ)"
+        },
+        {
+          "time": "31/07 11:00",
+          "score_a": 25,
+          "score_b": 75,
+          "metric": "Ratio: 0.06997 (Z: +0.56σ)"
+        },
+        {
+          "time": "31/07 12:00",
+          "score_a": 10,
+          "score_b": 90,
+          "metric": "Ratio: 0.07015 (Z: +0.92σ)"
+        },
+        {
+          "time": "31/07 13:00",
+          "score_a": 9,
+          "score_b": 91,
+          "metric": "Ratio: 0.07017 (Z: +0.95σ)"
+        },
+        {
+          "time": "31/07 14:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07113 (Z: +2.84σ)"
+        },
+        {
+          "time": "31/07 15:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07119 (Z: +2.88σ)"
+        },
+        {
+          "time": "31/07 16:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07107 (Z: +2.57σ)"
+        },
+        {
+          "time": "31/07 17:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07107 (Z: +2.51σ)"
+        },
+        {
+          "time": "31/07 18:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07068 (Z: +1.75σ)"
+        },
+        {
+          "time": "31/07 19:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07081 (Z: +1.96σ)"
+        },
+        {
+          "time": "31/07 20:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07089 (Z: +2.07σ)"
+        },
+        {
+          "time": "31/07 21:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07093 (Z: +2.10σ)"
+        },
+        {
+          "time": "31/07 22:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07091 (Z: +2.03σ)"
+        },
+        {
+          "time": "31/07 23:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07091 (Z: +2.00σ)"
+        },
+        {
+          "time": "01/08 00:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07096 (Z: +2.04σ)"
+        },
+        {
+          "time": "01/08 01:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07095 (Z: +1.99σ)"
+        },
+        {
+          "time": "01/08 02:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07091 (Z: +1.90σ)"
+        },
+        {
+          "time": "01/08 03:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07086 (Z: +1.78σ)"
+        },
+        {
+          "time": "01/08 04:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07091 (Z: +1.84σ)"
+        },
+        {
+          "time": "01/08 05:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07082 (Z: +1.66σ)"
+        },
+        {
+          "time": "01/08 06:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07090 (Z: +1.77σ)"
+        },
+        {
+          "time": "01/08 07:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07083 (Z: +1.63σ)"
+        },
+        {
+          "time": "01/08 08:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07085 (Z: +1.64σ)"
+        },
+        {
+          "time": "01/08 09:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07081 (Z: +1.57σ)"
+        },
+        {
+          "time": "01/08 10:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07091 (Z: +1.70σ)"
+        },
+        {
+          "time": "01/08 11:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07087 (Z: +1.62σ)"
+        },
+        {
+          "time": "01/08 12:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07079 (Z: +1.48σ)"
+        },
+        {
+          "time": "01/08 13:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07081 (Z: +1.48σ)"
+        },
+        {
+          "time": "01/08 14:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07082 (Z: +1.48σ)"
+        },
+        {
+          "time": "01/08 15:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07081 (Z: +1.45σ)"
+        },
+        {
+          "time": "01/08 16:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07093 (Z: +1.61σ)"
+        },
+        {
+          "time": "01/08 17:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07093 (Z: +1.59σ)"
+        },
+        {
+          "time": "01/08 18:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07117 (Z: +1.92σ)"
+        },
+        {
+          "time": "01/08 19:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07130 (Z: +2.07σ)"
+        },
+        {
+          "time": "01/08 20:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07137 (Z: +2.12σ)"
+        },
+        {
+          "time": "01/08 21:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07115 (Z: +1.77σ)"
+        },
+        {
+          "time": "01/08 22:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07108 (Z: +1.65σ)"
+        },
+        {
+          "time": "01/08 23:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07107 (Z: +1.61σ)"
+        },
+        {
+          "time": "02/08 00:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07100 (Z: +1.49σ)"
+        },
+        {
+          "time": "02/08 01:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07101 (Z: +1.48σ)"
+        },
+        {
+          "time": "02/08 02:00",
+          "score_a": 14,
+          "score_b": 86,
+          "metric": "Ratio: 0.07054 (Z: +0.82σ)"
+        },
+        {
+          "time": "02/08 03:00",
+          "score_a": 15,
+          "score_b": 85,
+          "metric": "Ratio: 0.07054 (Z: +0.80σ)"
+        },
+        {
+          "time": "02/08 04:00",
+          "score_a": 23,
+          "score_b": 77,
+          "metric": "Ratio: 0.07042 (Z: +0.63σ)"
+        },
+        {
+          "time": "02/08 05:00",
+          "score_a": 21,
+          "score_b": 79,
+          "metric": "Ratio: 0.07046 (Z: +0.67σ)"
+        },
+        {
+          "time": "02/08 06:00",
+          "score_a": 19,
+          "score_b": 81,
+          "metric": "Ratio: 0.07049 (Z: +0.72σ)"
+        },
+        {
+          "time": "02/08 07:00",
+          "score_a": 21,
+          "score_b": 79,
+          "metric": "Ratio: 0.07046 (Z: +0.67σ)"
+        },
+        {
+          "time": "02/08 08:00",
+          "score_a": 24,
+          "score_b": 76,
+          "metric": "Ratio: 0.07041 (Z: +0.59σ)"
+        },
+        {
+          "time": "02/08 09:00",
+          "score_a": 10,
+          "score_b": 90,
+          "metric": "Ratio: 0.07066 (Z: +0.92σ)"
+        },
+        {
+          "time": "02/08 10:00",
+          "score_a": 8,
+          "score_b": 92,
+          "metric": "Ratio: 0.07069 (Z: +0.96σ)"
+        },
+        {
+          "time": "02/08 11:00",
+          "score_a": 4,
+          "score_b": 96,
+          "metric": "Ratio: 0.07077 (Z: +1.05σ)"
+        },
+        {
+          "time": "02/08 12:00",
+          "score_a": 4,
+          "score_b": 96,
+          "metric": "Ratio: 0.07079 (Z: +1.06σ)"
+        },
+        {
+          "time": "02/08 13:00",
+          "score_a": 3,
+          "score_b": 97,
+          "metric": "Ratio: 0.07080 (Z: +1.07σ)"
+        },
+        {
+          "time": "02/08 14:00",
+          "score_a": 2,
+          "score_b": 98,
+          "metric": "Ratio: 0.07084 (Z: +1.11σ)"
+        },
+        {
+          "time": "02/08 15:00",
+          "score_a": 4,
+          "score_b": 96,
+          "metric": "Ratio: 0.07080 (Z: +1.05σ)"
+        },
+        {
+          "time": "02/08 16:00",
+          "score_a": 6,
+          "score_b": 94,
+          "metric": "Ratio: 0.07078 (Z: +1.00σ)"
+        },
+        {
+          "time": "02/08 17:00",
+          "score_a": 9,
+          "score_b": 91,
+          "metric": "Ratio: 0.07075 (Z: +0.95σ)"
+        },
+        {
+          "time": "02/08 18:00",
+          "score_a": 16,
+          "score_b": 84,
+          "metric": "Ratio: 0.07063 (Z: +0.78σ)"
+        },
+        {
+          "time": "02/08 19:00",
+          "score_a": 20,
+          "score_b": 80,
+          "metric": "Ratio: 0.07057 (Z: +0.69σ)"
+        },
+        {
+          "time": "02/08 20:00",
+          "score_a": 25,
+          "score_b": 75,
+          "metric": "Ratio: 0.07049 (Z: +0.57σ)"
+        },
+        {
+          "time": "02/08 21:00",
+          "score_a": 30,
+          "score_b": 70,
+          "metric": "Ratio: 0.07041 (Z: +0.46σ)"
+        },
+        {
+          "time": "02/08 22:00",
+          "score_a": 46,
+          "score_b": 54,
+          "metric": "Ratio: 0.07015 (Z: +0.09σ)"
+        },
+        {
+          "time": "02/08 23:00",
+          "score_a": 23,
+          "score_b": 77,
+          "metric": "Ratio: 0.07054 (Z: +0.62σ)"
+        },
+        {
+          "time": "03/08 00:00",
+          "score_a": 27,
+          "score_b": 73,
+          "metric": "Ratio: 0.07049 (Z: +0.54σ)"
+        },
+        {
+          "time": "03/08 01:00",
+          "score_a": 19,
+          "score_b": 81,
+          "metric": "Ratio: 0.07061 (Z: +0.70σ)"
+        },
+        {
+          "time": "03/08 02:00",
+          "score_a": 13,
+          "score_b": 87,
+          "metric": "Ratio: 0.07073 (Z: +0.85σ)"
+        },
+        {
+          "time": "03/08 03:00",
+          "score_a": 11,
+          "score_b": 89,
+          "metric": "Ratio: 0.07076 (Z: +0.89σ)"
+        },
+        {
+          "time": "03/08 04:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07104 (Z: +1.28σ)"
+        },
+        {
+          "time": "03/08 05:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07103 (Z: +1.26σ)"
+        },
+        {
+          "time": "03/08 06:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07100 (Z: +1.20σ)"
+        },
+        {
+          "time": "03/08 07:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07121 (Z: +1.51σ)"
+        },
+        {
+          "time": "03/08 08:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07134 (Z: +1.69σ)"
+        },
+        {
+          "time": "03/08 09:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07130 (Z: +1.61σ)"
+        },
+        {
+          "time": "03/08 10:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07106 (Z: +1.25σ)"
+        },
+        {
+          "time": "03/08 11:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07126 (Z: +1.53σ)"
+        },
+        {
+          "time": "03/08 12:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07132 (Z: +1.61σ)"
+        },
+        {
+          "time": "03/08 13:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07109 (Z: +1.26σ)"
+        },
+        {
+          "time": "03/08 14:00",
+          "score_a": 35,
+          "score_b": 65,
+          "metric": "Ratio: 0.07051 (Z: +0.34σ)"
+        },
+        {
+          "time": "03/08 15:00",
+          "score_a": 58,
+          "score_b": 42,
+          "metric": "Ratio: 0.07018 (Z: -0.19σ)"
+        },
+        {
+          "time": "03/08 16:00",
+          "score_a": 60,
+          "score_b": 40,
+          "metric": "Ratio: 0.07016 (Z: -0.23σ)"
+        },
+        {
+          "time": "03/08 17:00",
+          "score_a": 63,
+          "score_b": 37,
+          "metric": "Ratio: 0.07012 (Z: -0.29σ)"
+        },
+        {
+          "time": "03/08 18:00",
+          "score_a": 71,
+          "score_b": 29,
+          "metric": "Ratio: 0.07002 (Z: -0.48σ)"
+        },
+        {
+          "time": "03/08 19:00",
+          "score_a": 71,
+          "score_b": 29,
+          "metric": "Ratio: 0.07003 (Z: -0.47σ)"
+        },
+        {
+          "time": "03/08 20:00",
+          "score_a": 72,
+          "score_b": 28,
+          "metric": "Ratio: 0.07002 (Z: -0.50σ)"
+        },
+        {
+          "time": "03/08 21:00",
+          "score_a": 59,
+          "score_b": 41,
+          "metric": "Ratio: 0.07020 (Z: -0.21σ)"
+        },
+        {
+          "time": "03/08 22:00",
+          "score_a": 43,
+          "score_b": 57,
+          "metric": "Ratio: 0.07042 (Z: +0.15σ)"
+        },
+        {
+          "time": "03/08 23:00",
+          "score_a": 49,
+          "score_b": 51,
+          "metric": "Ratio: 0.07035 (Z: +0.02σ)"
+        },
+        {
+          "time": "04/08 00:00",
+          "score_a": 44,
+          "score_b": 56,
+          "metric": "Ratio: 0.07042 (Z: +0.14σ)"
+        },
+        {
+          "time": "04/08 01:00",
+          "score_a": 40,
+          "score_b": 60,
+          "metric": "Ratio: 0.07048 (Z: +0.23σ)"
+        },
+        {
+          "time": "04/08 02:00",
+          "score_a": 62,
+          "score_b": 38,
+          "metric": "Ratio: 0.07018 (Z: -0.27σ)"
+        },
+        {
+          "time": "04/08 03:00",
+          "score_a": 59,
+          "score_b": 41,
+          "metric": "Ratio: 0.07022 (Z: -0.20σ)"
+        },
+        {
+          "time": "04/08 04:00",
+          "score_a": 64,
+          "score_b": 36,
+          "metric": "Ratio: 0.07014 (Z: -0.32σ)"
+        },
+        {
+          "time": "04/08 05:00",
+          "score_a": 70,
+          "score_b": 30,
+          "metric": "Ratio: 0.07006 (Z: -0.46σ)"
+        },
+        {
+          "time": "04/08 06:00",
+          "score_a": 65,
+          "score_b": 35,
+          "metric": "Ratio: 0.07013 (Z: -0.34σ)"
+        },
+        {
+          "time": "04/08 07:00",
+          "score_a": 50,
+          "score_b": 50,
+          "metric": "Ratio: 0.07032 (Z: -0.01σ)"
+        },
+        {
+          "time": "04/08 08:00",
+          "score_a": 53,
+          "score_b": 47,
+          "metric": "Ratio: 0.07028 (Z: -0.08σ)"
+        },
+        {
+          "time": "04/08 09:00",
+          "score_a": 48,
+          "score_b": 52,
+          "metric": "Ratio: 0.07035 (Z: +0.04σ)"
+        },
+        {
+          "time": "04/08 10:00",
+          "score_a": 44,
+          "score_b": 56,
+          "metric": "Ratio: 0.07040 (Z: +0.13σ)"
+        },
+        {
+          "time": "04/08 11:00",
+          "score_a": 59,
+          "score_b": 41,
+          "metric": "Ratio: 0.07020 (Z: -0.21σ)"
+        },
+        {
+          "time": "04/08 12:00",
+          "score_a": 65,
+          "score_b": 35,
+          "metric": "Ratio: 0.07011 (Z: -0.35σ)"
+        },
+        {
+          "time": "04/08 13:00",
+          "score_a": 74,
+          "score_b": 26,
+          "metric": "Ratio: 0.07000 (Z: -0.54σ)"
+        },
+        {
+          "time": "04/08 14:00",
+          "score_a": 59,
+          "score_b": 41,
+          "metric": "Ratio: 0.07019 (Z: -0.21σ)"
+        },
+        {
+          "time": "04/08 15:00",
+          "score_a": 78,
+          "score_b": 22,
+          "metric": "Ratio: 0.06993 (Z: -0.64σ)"
+        },
+        {
+          "time": "04/08 16:00",
+          "score_a": 75,
+          "score_b": 25,
+          "metric": "Ratio: 0.06997 (Z: -0.57σ)"
+        },
+        {
+          "time": "04/08 17:00",
+          "score_a": 78,
+          "score_b": 22,
+          "metric": "Ratio: 0.06993 (Z: -0.64σ)"
+        },
+        {
+          "time": "04/08 18:00",
+          "score_a": 80,
+          "score_b": 20,
+          "metric": "Ratio: 0.06989 (Z: -0.70σ)"
+        },
+        {
+          "time": "04/08 19:00",
+          "score_a": 90,
+          "score_b": 10,
+          "metric": "Ratio: 0.06976 (Z: -0.92σ)"
+        },
+        {
+          "time": "04/08 20:00",
+          "score_a": 81,
+          "score_b": 19,
+          "metric": "Ratio: 0.06987 (Z: -0.72σ)"
+        },
+        {
+          "time": "04/08 21:00",
+          "score_a": 84,
+          "score_b": 16,
+          "metric": "Ratio: 0.06984 (Z: -0.78σ)"
+        },
+        {
+          "time": "04/08 22:00",
+          "score_a": 83,
+          "score_b": 17,
+          "metric": "Ratio: 0.06984 (Z: -0.77σ)"
+        },
+        {
+          "time": "04/08 23:00",
+          "score_a": 96,
+          "score_b": 4,
+          "metric": "Ratio: 0.06967 (Z: -1.05σ)"
+        },
+        {
+          "time": "05/08 00:00",
+          "score_a": 69,
+          "score_b": 31,
+          "metric": "Ratio: 0.07003 (Z: -0.44σ)"
+        },
+        {
+          "time": "05/08 01:00",
+          "score_a": 67,
+          "score_b": 33,
+          "metric": "Ratio: 0.07005 (Z: -0.40σ)"
+        },
+        {
+          "time": "05/08 02:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.06964 (Z: -1.10σ)"
+        },
+        {
+          "time": "05/08 03:00",
+          "score_a": 91,
+          "score_b": 9,
+          "metric": "Ratio: 0.06973 (Z: -0.94σ)"
+        },
+        {
+          "time": "05/08 04:00",
+          "score_a": 76,
+          "score_b": 24,
+          "metric": "Ratio: 0.06993 (Z: -0.59σ)"
+        },
+        {
+          "time": "05/08 05:00",
+          "score_a": 88,
+          "score_b": 12,
+          "metric": "Ratio: 0.06976 (Z: -0.87σ)"
+        },
+        {
+          "time": "05/08 06:00",
+          "score_a": 87,
+          "score_b": 13,
+          "metric": "Ratio: 0.06977 (Z: -0.85σ)"
+        },
+        {
+          "time": "05/08 07:00",
+          "score_a": 79,
+          "score_b": 21,
+          "metric": "Ratio: 0.06989 (Z: -0.66σ)"
+        },
+        {
+          "time": "05/08 08:00",
+          "score_a": 82,
+          "score_b": 18,
+          "metric": "Ratio: 0.06984 (Z: -0.74σ)"
+        },
+        {
+          "time": "05/08 09:00",
+          "score_a": 77,
+          "score_b": 23,
+          "metric": "Ratio: 0.06992 (Z: -0.61σ)"
+        },
+        {
+          "time": "05/08 10:00",
+          "score_a": 78,
+          "score_b": 22,
+          "metric": "Ratio: 0.06991 (Z: -0.64σ)"
+        },
+        {
+          "time": "05/08 11:00",
+          "score_a": 74,
+          "score_b": 26,
+          "metric": "Ratio: 0.06996 (Z: -0.55σ)"
+        },
+        {
+          "time": "05/08 12:00",
+          "score_a": 83,
+          "score_b": 17,
+          "metric": "Ratio: 0.06984 (Z: -0.76σ)"
+        },
+        {
+          "time": "05/08 13:00",
+          "score_a": 78,
+          "score_b": 22,
+          "metric": "Ratio: 0.06991 (Z: -0.64σ)"
+        },
+        {
+          "time": "05/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06956 (Z: -1.24σ)"
+        },
+        {
+          "time": "05/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06950 (Z: -1.33σ)"
+        },
+        {
+          "time": "05/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06950 (Z: -1.32σ)"
+        },
+        {
+          "time": "05/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06950 (Z: -1.31σ)"
+        },
+        {
+          "time": "05/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06928 (Z: -1.66σ)"
+        },
+        {
+          "time": "05/08 19:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06923 (Z: -1.74σ)"
+        },
+        {
+          "time": "05/08 20:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06918 (Z: -1.79σ)"
+        },
+        {
+          "time": "05/08 21:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06933 (Z: -1.53σ)"
+        },
+        {
+          "time": "05/08 22:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06942 (Z: -1.35σ)"
+        },
+        {
+          "time": "05/08 23:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06943 (Z: -1.33σ)"
+        },
+        {
+          "time": "06/08 00:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06948 (Z: -1.23σ)"
+        },
+        {
+          "time": "06/08 01:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06950 (Z: -1.19σ)"
+        },
+        {
+          "time": "06/08 02:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06951 (Z: -1.16σ)"
+        },
+        {
+          "time": "06/08 03:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06951 (Z: -1.17σ)"
+        },
+        {
+          "time": "06/08 04:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06950 (Z: -1.18σ)"
+        },
+        {
+          "time": "06/08 05:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06918 (Z: -1.66σ)"
+        },
+        {
+          "time": "06/08 06:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06931 (Z: -1.44σ)"
+        },
+        {
+          "time": "06/08 07:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06919 (Z: -1.62σ)"
+        },
+        {
+          "time": "06/08 08:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06931 (Z: -1.42σ)"
+        },
+        {
+          "time": "06/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06929 (Z: -1.43σ)"
+        },
+        {
+          "time": "06/08 10:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06946 (Z: -1.17σ)"
+        },
+        {
+          "time": "06/08 11:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06945 (Z: -1.18σ)"
+        },
+        {
+          "time": "06/08 12:00",
+          "score_a": 91,
+          "score_b": 9,
+          "metric": "Ratio: 0.06960 (Z: -0.95σ)"
+        },
+        {
+          "time": "06/08 13:00",
+          "score_a": 84,
+          "score_b": 16,
+          "metric": "Ratio: 0.06972 (Z: -0.77σ)"
+        },
+        {
+          "time": "06/08 14:00",
+          "score_a": 95,
+          "score_b": 5,
+          "metric": "Ratio: 0.06957 (Z: -1.03σ)"
+        },
+        {
+          "time": "06/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06918 (Z: -1.62σ)"
+        },
+        {
+          "time": "06/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06943 (Z: -1.24σ)"
+        },
+        {
+          "time": "06/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06935 (Z: -1.37σ)"
+        },
+        {
+          "time": "06/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06947 (Z: -1.19σ)"
+        },
+        {
+          "time": "06/08 19:00",
+          "score_a": 95,
+          "score_b": 5,
+          "metric": "Ratio: 0.06958 (Z: -1.03σ)"
+        },
+        {
+          "time": "06/08 20:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.06952 (Z: -1.14σ)"
+        },
+        {
+          "time": "06/08 21:00",
+          "score_a": 97,
+          "score_b": 3,
+          "metric": "Ratio: 0.06956 (Z: -1.08σ)"
+        },
+        {
+          "time": "06/08 22:00",
+          "score_a": 93,
+          "score_b": 7,
+          "metric": "Ratio: 0.06962 (Z: -0.99σ)"
+        },
+        {
+          "time": "06/08 23:00",
+          "score_a": 88,
+          "score_b": 12,
+          "metric": "Ratio: 0.06971 (Z: -0.87σ)"
+        },
+        {
+          "time": "07/08 00:00",
+          "score_a": 86,
+          "score_b": 14,
+          "metric": "Ratio: 0.06974 (Z: -0.83σ)"
+        },
+        {
+          "time": "07/08 01:00",
+          "score_a": 90,
+          "score_b": 10,
+          "metric": "Ratio: 0.06969 (Z: -0.92σ)"
+        },
+        {
+          "time": "07/08 02:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06955 (Z: -1.17σ)"
+        },
+        {
+          "time": "07/08 03:00",
+          "score_a": 89,
+          "score_b": 11,
+          "metric": "Ratio: 0.06971 (Z: -0.90σ)"
+        },
+        {
+          "time": "07/08 04:00",
+          "score_a": 88,
+          "score_b": 12,
+          "metric": "Ratio: 0.06973 (Z: -0.87σ)"
+        },
+        {
+          "time": "07/08 05:00",
+          "score_a": 84,
+          "score_b": 16,
+          "metric": "Ratio: 0.06978 (Z: -0.78σ)"
+        },
+        {
+          "time": "07/08 06:00",
+          "score_a": 94,
+          "score_b": 6,
+          "metric": "Ratio: 0.06964 (Z: -1.01σ)"
+        },
+        {
+          "time": "07/08 07:00",
+          "score_a": 91,
+          "score_b": 9,
+          "metric": "Ratio: 0.06969 (Z: -0.94σ)"
+        },
+        {
+          "time": "07/08 08:00",
+          "score_a": 94,
+          "score_b": 6,
+          "metric": "Ratio: 0.06964 (Z: -1.02σ)"
+        },
+        {
+          "time": "07/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06932 (Z: -1.54σ)"
+        },
+        {
+          "time": "07/08 10:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06924 (Z: -1.64σ)"
+        },
+        {
+          "time": "07/08 11:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06912 (Z: -1.81σ)"
+        },
+        {
+          "time": "07/08 12:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06891 (Z: -2.12σ)"
+        },
+        {
+          "time": "07/08 13:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06884 (Z: -2.18σ)"
+        },
+        {
+          "time": "07/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06913 (Z: -1.69σ)"
+        },
+        {
+          "time": "07/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06905 (Z: -1.81σ)"
+        },
+        {
+          "time": "07/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06903 (Z: -1.81σ)"
+        },
+        {
+          "time": "07/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06929 (Z: -1.38σ)"
+        },
+        {
+          "time": "07/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06916 (Z: -1.56σ)"
+        },
+        {
+          "time": "07/08 19:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06914 (Z: -1.57σ)"
+        },
+        {
+          "time": "07/08 20:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06906 (Z: -1.67σ)"
+        },
+        {
+          "time": "07/08 21:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06907 (Z: -1.64σ)"
+        },
+        {
+          "time": "07/08 22:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06910 (Z: -1.56σ)"
+        },
+        {
+          "time": "07/08 23:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06914 (Z: -1.48σ)"
+        },
+        {
+          "time": "08/08 00:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06918 (Z: -1.40σ)"
+        },
+        {
+          "time": "08/08 01:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06912 (Z: -1.48σ)"
+        },
+        {
+          "time": "08/08 02:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06913 (Z: -1.45σ)"
+        },
+        {
+          "time": "08/08 03:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06909 (Z: -1.49σ)"
+        },
+        {
+          "time": "08/08 04:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06906 (Z: -1.51σ)"
+        },
+        {
+          "time": "08/08 05:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06906 (Z: -1.49σ)"
+        },
+        {
+          "time": "08/08 06:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06907 (Z: -1.46σ)"
+        },
+        {
+          "time": "08/08 07:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06905 (Z: -1.46σ)"
+        },
+        {
+          "time": "08/08 08:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06908 (Z: -1.40σ)"
+        },
+        {
+          "time": "08/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06903 (Z: -1.46σ)"
+        },
+        {
+          "time": "08/08 10:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06905 (Z: -1.41σ)"
+        },
+        {
+          "time": "08/08 11:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06906 (Z: -1.38σ)"
+        },
+        {
+          "time": "08/08 12:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06904 (Z: -1.39σ)"
+        },
+        {
+          "time": "08/08 13:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06904 (Z: -1.38σ)"
+        },
+        {
+          "time": "08/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06900 (Z: -1.41σ)"
+        },
+        {
+          "time": "08/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06896 (Z: -1.45σ)"
+        },
+        {
+          "time": "08/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06896 (Z: -1.44σ)"
+        },
+        {
+          "time": "08/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06894 (Z: -1.46σ)"
+        },
+        {
+          "time": "08/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06899 (Z: -1.37σ)"
+        },
+        {
+          "time": "08/08 19:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06902 (Z: -1.31σ)"
+        },
+        {
+          "time": "08/08 20:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06900 (Z: -1.34σ)"
+        },
+        {
+          "time": "08/08 21:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06902 (Z: -1.29σ)"
+        },
+        {
+          "time": "08/08 22:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06906 (Z: -1.22σ)"
+        },
+        {
+          "time": "08/08 23:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06910 (Z: -1.15σ)"
+        },
+        {
+          "time": "09/08 00:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06908 (Z: -1.17σ)"
+        },
+        {
+          "time": "09/08 01:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06907 (Z: -1.18σ)"
+        },
+        {
+          "time": "09/08 02:00",
+          "score_a": 92,
+          "score_b": 8,
+          "metric": "Ratio: 0.06919 (Z: -0.97σ)"
+        },
+        {
+          "time": "09/08 03:00",
+          "score_a": 87,
+          "score_b": 13,
+          "metric": "Ratio: 0.06926 (Z: -0.85σ)"
+        },
+        {
+          "time": "09/08 04:00",
+          "score_a": 89,
+          "score_b": 11,
+          "metric": "Ratio: 0.06923 (Z: -0.89σ)"
+        },
+        {
+          "time": "09/08 05:00",
+          "score_a": 87,
+          "score_b": 13,
+          "metric": "Ratio: 0.06924 (Z: -0.86σ)"
+        },
+        {
+          "time": "09/08 06:00",
+          "score_a": 90,
+          "score_b": 10,
+          "metric": "Ratio: 0.06919 (Z: -0.93σ)"
+        },
+        {
+          "time": "09/08 07:00",
+          "score_a": 90,
+          "score_b": 10,
+          "metric": "Ratio: 0.06919 (Z: -0.92σ)"
+        },
+        {
+          "time": "09/08 08:00",
+          "score_a": 94,
+          "score_b": 6,
+          "metric": "Ratio: 0.06913 (Z: -1.00σ)"
+        },
+        {
+          "time": "09/08 09:00",
+          "score_a": 88,
+          "score_b": 12,
+          "metric": "Ratio: 0.06921 (Z: -0.88σ)"
+        },
+        {
+          "time": "09/08 10:00",
+          "score_a": 96,
+          "score_b": 4,
+          "metric": "Ratio: 0.06909 (Z: -1.06σ)"
+        },
+        {
+          "time": "09/08 11:00",
+          "score_a": 96,
+          "score_b": 4,
+          "metric": "Ratio: 0.06908 (Z: -1.05σ)"
+        },
+        {
+          "time": "09/08 12:00",
+          "score_a": 93,
+          "score_b": 7,
+          "metric": "Ratio: 0.06911 (Z: -0.99σ)"
+        },
+        {
+          "time": "09/08 13:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06901 (Z: -1.14σ)"
+        },
+        {
+          "time": "09/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06888 (Z: -1.34σ)"
+        },
+        {
+          "time": "09/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06885 (Z: -1.38σ)"
+        },
+        {
+          "time": "09/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06883 (Z: -1.40σ)"
+        },
+        {
+          "time": "09/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06885 (Z: -1.35σ)"
+        },
+        {
+          "time": "09/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06888 (Z: -1.29σ)"
+        },
+        {
+          "time": "09/08 19:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06888 (Z: -1.27σ)"
+        },
+        {
+          "time": "09/08 20:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.06897 (Z: -1.12σ)"
+        },
+        {
+          "time": "09/08 21:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.06896 (Z: -1.11σ)"
+        },
+        {
+          "time": "09/08 22:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06878 (Z: -1.40σ)"
+        },
+        {
+          "time": "09/08 23:00",
+          "score_a": 87,
+          "score_b": 13,
+          "metric": "Ratio: 0.06910 (Z: -0.85σ)"
+        },
+        {
+          "time": "10/08 00:00",
+          "score_a": 93,
+          "score_b": 7,
+          "metric": "Ratio: 0.06901 (Z: -0.99σ)"
+        },
+        {
+          "time": "10/08 01:00",
+          "score_a": 90,
+          "score_b": 10,
+          "metric": "Ratio: 0.06905 (Z: -0.92σ)"
+        },
+        {
+          "time": "10/08 02:00",
+          "score_a": 87,
+          "score_b": 13,
+          "metric": "Ratio: 0.06909 (Z: -0.85σ)"
+        },
+        {
+          "time": "10/08 03:00",
+          "score_a": 93,
+          "score_b": 7,
+          "metric": "Ratio: 0.06900 (Z: -0.98σ)"
+        },
+        {
+          "time": "10/08 04:00",
+          "score_a": 93,
+          "score_b": 7,
+          "metric": "Ratio: 0.06899 (Z: -1.00σ)"
+        },
+        {
+          "time": "10/08 05:00",
+          "score_a": 88,
+          "score_b": 12,
+          "metric": "Ratio: 0.06905 (Z: -0.88σ)"
+        },
+        {
+          "time": "10/08 06:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06888 (Z: -1.18σ)"
+        },
+        {
+          "time": "10/08 07:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06881 (Z: -1.30σ)"
+        },
+        {
+          "time": "10/08 08:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06880 (Z: -1.32σ)"
+        },
+        {
+          "time": "10/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06887 (Z: -1.21σ)"
+        },
+        {
+          "time": "10/08 10:00",
+          "score_a": 93,
+          "score_b": 7,
+          "metric": "Ratio: 0.06898 (Z: -0.99σ)"
+        },
+        {
+          "time": "10/08 11:00",
+          "score_a": 95,
+          "score_b": 5,
+          "metric": "Ratio: 0.06896 (Z: -1.04σ)"
+        },
+        {
+          "time": "10/08 12:00",
+          "score_a": 93,
+          "score_b": 7,
+          "metric": "Ratio: 0.06899 (Z: -1.00σ)"
+        },
+        {
+          "time": "10/08 13:00",
+          "score_a": 85,
+          "score_b": 15,
+          "metric": "Ratio: 0.06909 (Z: -0.80σ)"
+        },
+        {
+          "time": "10/08 14:00",
+          "score_a": 64,
+          "score_b": 36,
+          "metric": "Ratio: 0.06930 (Z: -0.32σ)"
+        },
+        {
+          "time": "10/08 15:00",
+          "score_a": 40,
+          "score_b": 60,
+          "metric": "Ratio: 0.06953 (Z: +0.22σ)"
+        },
+        {
+          "time": "10/08 16:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06996 (Z: +1.20σ)"
+        },
+        {
+          "time": "10/08 17:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07007 (Z: +1.46σ)"
+        },
+        {
+          "time": "10/08 18:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07006 (Z: +1.44σ)"
+        },
+        {
+          "time": "10/08 19:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07003 (Z: +1.36σ)"
+        },
+        {
+          "time": "10/08 20:00",
+          "score_a": 2,
+          "score_b": 98,
+          "metric": "Ratio: 0.06992 (Z: +1.11σ)"
+        },
+        {
+          "time": "10/08 21:00",
+          "score_a": 3,
+          "score_b": 97,
+          "metric": "Ratio: 0.06990 (Z: +1.08σ)"
+        },
+        {
+          "time": "10/08 22:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07002 (Z: +1.36σ)"
+        },
+        {
+          "time": "10/08 23:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07005 (Z: +1.45σ)"
+        },
+        {
+          "time": "11/08 00:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07005 (Z: +1.47σ)"
+        },
+        {
+          "time": "11/08 01:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06998 (Z: +1.34σ)"
+        },
+        {
+          "time": "11/08 02:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06997 (Z: +1.31σ)"
+        },
+        {
+          "time": "11/08 03:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06990 (Z: +1.14σ)"
+        },
+        {
+          "time": "11/08 04:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06989 (Z: +1.15σ)"
+        },
+        {
+          "time": "11/08 05:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07005 (Z: +1.53σ)"
+        },
+        {
+          "time": "11/08 06:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07001 (Z: +1.43σ)"
+        },
+        {
+          "time": "11/08 07:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07008 (Z: +1.60σ)"
+        },
+        {
+          "time": "11/08 08:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06996 (Z: +1.32σ)"
+        },
+        {
+          "time": "11/08 09:00",
+          "score_a": 4,
+          "score_b": 96,
+          "metric": "Ratio: 0.06984 (Z: +1.05σ)"
+        },
+        {
+          "time": "11/08 10:00",
+          "score_a": 8,
+          "score_b": 92,
+          "metric": "Ratio: 0.06979 (Z: +0.97σ)"
+        },
+        {
+          "time": "11/08 11:00",
+          "score_a": 18,
+          "score_b": 82,
+          "metric": "Ratio: 0.06970 (Z: +0.74σ)"
+        },
+        {
+          "time": "11/08 12:00",
+          "score_a": 18,
+          "score_b": 82,
+          "metric": "Ratio: 0.06969 (Z: +0.75σ)"
+        },
+        {
+          "time": "11/08 13:00",
+          "score_a": 7,
+          "score_b": 93,
+          "metric": "Ratio: 0.06979 (Z: +0.99σ)"
+        },
+        {
+          "time": "11/08 14:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.06996 (Z: +1.45σ)"
+        },
+        {
+          "time": "11/08 15:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07029 (Z: +2.30σ)"
+        },
+        {
+          "time": "11/08 16:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07047 (Z: +2.72σ)"
+        },
+        {
+          "time": "11/08 17:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07053 (Z: +2.81σ)"
+        },
+        {
+          "time": "11/08 18:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07052 (Z: +2.73σ)"
+        },
+        {
+          "time": "11/08 19:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07072 (Z: +3.13σ)"
+        },
+        {
+          "time": "11/08 20:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07044 (Z: +2.40σ)"
+        },
+        {
+          "time": "11/08 21:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07044 (Z: +2.35σ)"
+        },
+        {
+          "time": "11/08 22:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07038 (Z: +2.17σ)"
+        },
+        {
+          "time": "11/08 23:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07050 (Z: +2.42σ)"
+        },
+        {
+          "time": "12/08 00:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07041 (Z: +2.17σ)"
+        },
+        {
+          "time": "12/08 01:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07034 (Z: +2.00σ)"
+        },
+        {
+          "time": "12/08 02:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07030 (Z: +1.89σ)"
+        },
+        {
+          "time": "12/08 03:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07035 (Z: +1.97σ)"
+        },
+        {
+          "time": "12/08 04:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07022 (Z: +1.67σ)"
+        },
+        {
+          "time": "12/08 05:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07029 (Z: +1.81σ)"
+        },
+        {
+          "time": "12/08 06:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07045 (Z: +2.13σ)"
+        },
+        {
+          "time": "12/08 07:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07037 (Z: +1.93σ)"
+        },
+        {
+          "time": "12/08 08:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07027 (Z: +1.70σ)"
+        },
+        {
+          "time": "12/08 09:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07014 (Z: +1.41σ)"
+        },
+        {
+          "time": "12/08 10:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07004 (Z: +1.20σ)"
+        },
+        {
+          "time": "12/08 11:00",
+          "score_a": 6,
+          "score_b": 94,
+          "metric": "Ratio: 0.06995 (Z: +1.01σ)"
+        },
+        {
+          "time": "12/08 12:00",
+          "score_a": 14,
+          "score_b": 86,
+          "metric": "Ratio: 0.06987 (Z: +0.84σ)"
+        },
+        {
+          "time": "12/08 13:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07016 (Z: +1.44σ)"
+        },
+        {
+          "time": "12/08 14:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07036 (Z: +1.83σ)"
+        },
+        {
+          "time": "12/08 15:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07061 (Z: +2.30σ)"
+        },
+        {
+          "time": "12/08 16:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07056 (Z: +2.15σ)"
+        },
+        {
+          "time": "12/08 17:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07065 (Z: +2.28σ)"
+        },
+        {
+          "time": "12/08 18:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07066 (Z: +2.25σ)"
+        },
+        {
+          "time": "12/08 19:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07077 (Z: +2.42σ)"
+        },
+        {
+          "time": "12/08 20:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07060 (Z: +2.06σ)"
+        },
+        {
+          "time": "12/08 21:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07060 (Z: +2.02σ)"
+        },
+        {
+          "time": "12/08 22:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07062 (Z: +2.01σ)"
+        },
+        {
+          "time": "12/08 23:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07073 (Z: +2.17σ)"
+        },
+        {
+          "time": "13/08 00:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07053 (Z: +1.78σ)"
+        },
+        {
+          "time": "13/08 01:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07070 (Z: +2.05σ)"
+        },
+        {
+          "time": "13/08 02:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07066 (Z: +1.94σ)"
+        },
+        {
+          "time": "13/08 03:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07052 (Z: +1.67σ)"
+        },
+        {
+          "time": "13/08 04:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07052 (Z: +1.65σ)"
+        },
+        {
+          "time": "13/08 05:00",
+          "score_a": 1,
+          "score_b": 99,
+          "metric": "Ratio: 0.07023 (Z: +1.13σ)"
+        },
+        {
+          "time": "13/08 06:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07033 (Z: +1.28σ)"
+        },
+        {
+          "time": "13/08 07:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07027 (Z: +1.17σ)"
+        },
+        {
+          "time": "13/08 08:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07035 (Z: +1.28σ)"
+        },
+        {
+          "time": "13/08 09:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07044 (Z: +1.42σ)"
+        },
+        {
+          "time": "13/08 10:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07049 (Z: +1.49σ)"
+        },
+        {
+          "time": "13/08 11:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07065 (Z: +1.74σ)"
+        },
+        {
+          "time": "13/08 12:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07056 (Z: +1.56σ)"
+        },
+        {
+          "time": "13/08 13:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07050 (Z: +1.45σ)"
+        },
+        {
+          "time": "13/08 14:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07033 (Z: +1.16σ)"
+        },
+        {
+          "time": "13/08 15:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07041 (Z: +1.27σ)"
+        },
+        {
+          "time": "13/08 16:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07060 (Z: +1.56σ)"
+        },
+        {
+          "time": "13/08 17:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07092 (Z: +2.04σ)"
+        },
+        {
+          "time": "13/08 18:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07093 (Z: +2.02σ)"
+        },
+        {
+          "time": "13/08 19:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07070 (Z: +1.62σ)"
+        },
+        {
+          "time": "13/08 20:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07069 (Z: +1.58σ)"
+        },
+        {
+          "time": "13/08 21:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07067 (Z: +1.53σ)"
+        },
+        {
+          "time": "13/08 22:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07054 (Z: +1.31σ)"
+        },
+        {
+          "time": "13/08 23:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07066 (Z: +1.48σ)"
+        },
+        {
+          "time": "14/08 00:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07070 (Z: +1.52σ)"
+        },
+        {
+          "time": "14/08 01:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07060 (Z: +1.36σ)"
+        },
+        {
+          "time": "14/08 02:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07064 (Z: +1.39σ)"
+        },
+        {
+          "time": "14/08 03:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07063 (Z: +1.36σ)"
+        },
+        {
+          "time": "14/08 04:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07072 (Z: +1.48σ)"
+        },
+        {
+          "time": "14/08 05:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07080 (Z: +1.58σ)"
+        },
+        {
+          "time": "14/08 06:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07090 (Z: +1.70σ)"
+        },
+        {
+          "time": "14/08 07:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07098 (Z: +1.79σ)"
+        },
+        {
+          "time": "14/08 08:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07130 (Z: +2.22σ)"
+        },
+        {
+          "time": "14/08 09:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07120 (Z: +2.03σ)"
+        },
+        {
+          "time": "14/08 10:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07121 (Z: +2.01σ)"
+        },
+        {
+          "time": "14/08 11:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07118 (Z: +1.94σ)"
+        },
+        {
+          "time": "14/08 12:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07124 (Z: +1.98σ)"
+        },
+        {
+          "time": "14/08 13:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07137 (Z: +2.12σ)"
+        },
+        {
+          "time": "14/08 14:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07145 (Z: +2.19σ)"
+        },
+        {
+          "time": "14/08 15:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07143 (Z: +2.12σ)"
+        },
+        {
+          "time": "14/08 16:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07112 (Z: +1.68σ)"
+        },
+        {
+          "time": "14/08 17:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07101 (Z: +1.51σ)"
+        },
+        {
+          "time": "14/08 18:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07112 (Z: +1.63σ)"
+        },
+        {
+          "time": "14/08 19:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07123 (Z: +1.75σ)"
+        },
+        {
+          "time": "14/08 20:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07121 (Z: +1.70σ)"
+        },
+        {
+          "time": "14/08 21:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07126 (Z: +1.73σ)"
+        },
+        {
+          "time": "14/08 22:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07133 (Z: +1.80σ)"
+        },
+        {
+          "time": "14/08 23:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07123 (Z: +1.64σ)"
+        },
+        {
+          "time": "15/08 00:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07117 (Z: +1.54σ)"
+        },
+        {
+          "time": "15/08 01:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07114 (Z: +1.49σ)"
+        },
+        {
+          "time": "15/08 02:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07108 (Z: +1.39σ)"
+        },
+        {
+          "time": "15/08 03:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07108 (Z: +1.37σ)"
+        },
+        {
+          "time": "15/08 04:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07105 (Z: +1.31σ)"
+        },
+        {
+          "time": "15/08 05:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07106 (Z: +1.32σ)"
+        },
+        {
+          "time": "15/08 06:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07114 (Z: +1.40σ)"
+        },
+        {
+          "time": "15/08 07:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07109 (Z: +1.32σ)"
+        },
+        {
+          "time": "15/08 08:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07112 (Z: +1.34σ)"
+        },
+        {
+          "time": "15/08 09:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07119 (Z: +1.40σ)"
+        },
+        {
+          "time": "15/08 10:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07116 (Z: +1.36σ)"
+        },
+        {
+          "time": "15/08 11:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07114 (Z: +1.31σ)"
+        },
+        {
+          "time": "15/08 12:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07120 (Z: +1.37σ)"
+        },
+        {
+          "time": "15/08 13:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07115 (Z: +1.29σ)"
+        },
+        {
+          "time": "15/08 14:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07114 (Z: +1.27σ)"
+        },
+        {
+          "time": "15/08 15:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07112 (Z: +1.22σ)"
+        },
+        {
+          "time": "15/08 16:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07107 (Z: +1.16σ)"
+        },
+        {
+          "time": "15/08 17:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07112 (Z: +1.20σ)"
+        },
+        {
+          "time": "15/08 18:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07114 (Z: +1.21σ)"
+        },
+        {
+          "time": "15/08 19:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07111 (Z: +1.16σ)"
+        },
+        {
+          "time": "15/08 20:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07112 (Z: +1.16σ)"
+        },
+        {
+          "time": "15/08 21:00",
+          "score_a": 4,
+          "score_b": 96,
+          "metric": "Ratio: 0.07104 (Z: +1.05σ)"
+        },
+        {
+          "time": "15/08 22:00",
+          "score_a": 5,
+          "score_b": 95,
+          "metric": "Ratio: 0.07105 (Z: +1.05σ)"
+        },
+        {
+          "time": "15/08 23:00",
+          "score_a": 3,
+          "score_b": 97,
+          "metric": "Ratio: 0.07108 (Z: +1.08σ)"
+        },
+        {
+          "time": "16/08 00:00",
+          "score_a": 1,
+          "score_b": 99,
+          "metric": "Ratio: 0.07112 (Z: +1.12σ)"
+        },
+        {
+          "time": "16/08 01:00",
+          "score_a": 1,
+          "score_b": 99,
+          "metric": "Ratio: 0.07114 (Z: +1.12σ)"
+        },
+        {
+          "time": "16/08 02:00",
+          "score_a": 4,
+          "score_b": 96,
+          "metric": "Ratio: 0.07109 (Z: +1.05σ)"
+        },
+        {
+          "time": "16/08 03:00",
+          "score_a": 5,
+          "score_b": 95,
+          "metric": "Ratio: 0.07109 (Z: +1.05σ)"
+        },
+        {
+          "time": "16/08 04:00",
+          "score_a": 7,
+          "score_b": 93,
+          "metric": "Ratio: 0.07107 (Z: +1.00σ)"
+        },
+        {
+          "time": "16/08 05:00",
+          "score_a": 4,
+          "score_b": 96,
+          "metric": "Ratio: 0.07113 (Z: +1.07σ)"
+        },
+        {
+          "time": "16/08 06:00",
+          "score_a": 3,
+          "score_b": 97,
+          "metric": "Ratio: 0.07115 (Z: +1.08σ)"
+        },
+        {
+          "time": "16/08 07:00",
+          "score_a": 4,
+          "score_b": 96,
+          "metric": "Ratio: 0.07115 (Z: +1.07σ)"
+        },
+        {
+          "time": "16/08 08:00",
+          "score_a": 5,
+          "score_b": 95,
+          "metric": "Ratio: 0.07113 (Z: +1.03σ)"
+        },
+        {
+          "time": "16/08 09:00",
+          "score_a": 5,
+          "score_b": 95,
+          "metric": "Ratio: 0.07113 (Z: +1.03σ)"
+        },
+        {
+          "time": "16/08 10:00",
+          "score_a": 2,
+          "score_b": 98,
+          "metric": "Ratio: 0.07120 (Z: +1.10σ)"
+        },
+        {
+          "time": "16/08 11:00",
+          "score_a": 2,
+          "score_b": 98,
+          "metric": "Ratio: 0.07121 (Z: +1.10σ)"
+        },
+        {
+          "time": "16/08 12:00",
+          "score_a": 4,
+          "score_b": 96,
+          "metric": "Ratio: 0.07118 (Z: +1.06σ)"
+        },
+        {
+          "time": "16/08 13:00",
+          "score_a": 7,
+          "score_b": 93,
+          "metric": "Ratio: 0.07113 (Z: +0.98σ)"
+        },
+        {
+          "time": "16/08 14:00",
+          "score_a": 8,
+          "score_b": 92,
+          "metric": "Ratio: 0.07113 (Z: +0.96σ)"
+        },
+        {
+          "time": "16/08 15:00",
+          "score_a": 11,
+          "score_b": 89,
+          "metric": "Ratio: 0.07108 (Z: +0.89σ)"
+        },
+        {
+          "time": "16/08 16:00",
+          "score_a": 25,
+          "score_b": 75,
+          "metric": "Ratio: 0.07085 (Z: +0.57σ)"
+        },
+        {
+          "time": "16/08 17:00",
+          "score_a": 16,
+          "score_b": 84,
+          "metric": "Ratio: 0.07101 (Z: +0.78σ)"
+        },
+        {
+          "time": "16/08 18:00",
+          "score_a": 14,
+          "score_b": 86,
+          "metric": "Ratio: 0.07105 (Z: +0.83σ)"
+        },
+        {
+          "time": "16/08 19:00",
+          "score_a": 19,
+          "score_b": 81,
+          "metric": "Ratio: 0.07098 (Z: +0.72σ)"
+        },
+        {
+          "time": "16/08 20:00",
+          "score_a": 12,
+          "score_b": 88,
+          "metric": "Ratio: 0.07109 (Z: +0.88σ)"
+        },
+        {
+          "time": "16/08 21:00",
+          "score_a": 9,
+          "score_b": 91,
+          "metric": "Ratio: 0.07114 (Z: +0.94σ)"
+        },
+        {
+          "time": "16/08 22:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07137 (Z: +1.27σ)"
+        },
+        {
+          "time": "16/08 23:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07135 (Z: +1.24σ)"
+        },
+        {
+          "time": "17/08 00:00",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Ratio: 0.07140 (Z: +1.31σ)"
+        },
+        {
+          "time": "17/08 01:00",
+          "score_a": 21,
+          "score_b": 79,
+          "metric": "Ratio: 0.07099 (Z: +0.67σ)"
+        },
+        {
+          "time": "17/08 02:00",
+          "score_a": 16,
+          "score_b": 84,
+          "metric": "Ratio: 0.07106 (Z: +0.77σ)"
+        },
+        {
+          "time": "17/08 03:00",
+          "score_a": 29,
+          "score_b": 71,
+          "metric": "Ratio: 0.07088 (Z: +0.48σ)"
+        },
+        {
+          "time": "17/08 04:00",
+          "score_a": 38,
+          "score_b": 62,
+          "metric": "Ratio: 0.07076 (Z: +0.28σ)"
+        },
+        {
+          "time": "17/08 05:00",
+          "score_a": 40,
+          "score_b": 60,
+          "metric": "Ratio: 0.07074 (Z: +0.23σ)"
+        },
+        {
+          "time": "17/08 06:00",
+          "score_a": 46,
+          "score_b": 54,
+          "metric": "Ratio: 0.07066 (Z: +0.09σ)"
+        },
+        {
+          "time": "17/08 07:00",
+          "score_a": 48,
+          "score_b": 52,
+          "metric": "Ratio: 0.07065 (Z: +0.04σ)"
+        },
+        {
+          "time": "17/08 08:00",
+          "score_a": 38,
+          "score_b": 62,
+          "metric": "Ratio: 0.07078 (Z: +0.27σ)"
+        },
+        {
+          "time": "17/08 09:00",
+          "score_a": 35,
+          "score_b": 65,
+          "metric": "Ratio: 0.07083 (Z: +0.34σ)"
+        },
+        {
+          "time": "17/08 10:00",
+          "score_a": 43,
+          "score_b": 57,
+          "metric": "Ratio: 0.07074 (Z: +0.17σ)"
+        },
+        {
+          "time": "17/08 11:00",
+          "score_a": 61,
+          "score_b": 39,
+          "metric": "Ratio: 0.07053 (Z: -0.26σ)"
+        },
+        {
+          "time": "17/08 12:00",
+          "score_a": 57,
+          "score_b": 43,
+          "metric": "Ratio: 0.07059 (Z: -0.16σ)"
+        },
+        {
+          "time": "17/08 13:00",
+          "score_a": 65,
+          "score_b": 35,
+          "metric": "Ratio: 0.07052 (Z: -0.35σ)"
+        },
+        {
+          "time": "17/08 14:00",
+          "score_a": 67,
+          "score_b": 33,
+          "metric": "Ratio: 0.07051 (Z: -0.39σ)"
+        },
+        {
+          "time": "17/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07016 (Z: -1.17σ)"
+        },
+        {
+          "time": "17/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07007 (Z: -1.39σ)"
+        },
+        {
+          "time": "17/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07004 (Z: -1.45σ)"
+        },
+        {
+          "time": "17/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06980 (Z: -1.97σ)"
+        },
+        {
+          "time": "17/08 19:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06984 (Z: -1.86σ)"
+        },
+        {
+          "time": "17/08 20:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06985 (Z: -1.84σ)"
+        },
+        {
+          "time": "17/08 21:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06988 (Z: -1.78σ)"
+        },
+        {
+          "time": "17/08 22:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06994 (Z: -1.65σ)"
+        },
+        {
+          "time": "17/08 23:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06970 (Z: -2.15σ)"
+        },
+        {
+          "time": "18/08 00:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06980 (Z: -1.93σ)"
+        },
+        {
+          "time": "18/08 01:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06989 (Z: -1.73σ)"
+        },
+        {
+          "time": "18/08 02:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07006 (Z: -1.35σ)"
+        },
+        {
+          "time": "18/08 03:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07014 (Z: -1.19σ)"
+        },
+        {
+          "time": "18/08 04:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07002 (Z: -1.46σ)"
+        },
+        {
+          "time": "18/08 05:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07001 (Z: -1.49σ)"
+        },
+        {
+          "time": "18/08 06:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06984 (Z: -1.85σ)"
+        },
+        {
+          "time": "18/08 07:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06994 (Z: -1.61σ)"
+        },
+        {
+          "time": "18/08 08:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06997 (Z: -1.55σ)"
+        },
+        {
+          "time": "18/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07004 (Z: -1.41σ)"
+        },
+        {
+          "time": "18/08 10:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07002 (Z: -1.45σ)"
+        },
+        {
+          "time": "18/08 11:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06988 (Z: -1.78σ)"
+        },
+        {
+          "time": "18/08 12:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06994 (Z: -1.65σ)"
+        },
+        {
+          "time": "18/08 13:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.07011 (Z: -1.29σ)"
+        },
+        {
+          "time": "18/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06944 (Z: -2.79σ)"
+        },
+        {
+          "time": "18/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06947 (Z: -2.67σ)"
+        },
+        {
+          "time": "18/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06953 (Z: -2.48σ)"
+        },
+        {
+          "time": "18/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06947 (Z: -2.53σ)"
+        },
+        {
+          "time": "18/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06949 (Z: -2.44σ)"
+        },
+        {
+          "time": "18/08 19:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06953 (Z: -2.30σ)"
+        },
+        {
+          "time": "18/08 20:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06963 (Z: -2.07σ)"
+        },
+        {
+          "time": "18/08 21:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06966 (Z: -1.98σ)"
+        },
+        {
+          "time": "18/08 22:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06968 (Z: -1.91σ)"
+        },
+        {
+          "time": "18/08 23:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06955 (Z: -2.12σ)"
+        },
+        {
+          "time": "19/08 00:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06966 (Z: -1.87σ)"
+        },
+        {
+          "time": "19/08 01:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06979 (Z: -1.61σ)"
+        },
+        {
+          "time": "19/08 02:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06988 (Z: -1.43σ)"
+        },
+        {
+          "time": "19/08 03:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06991 (Z: -1.37σ)"
+        },
+        {
+          "time": "19/08 04:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06992 (Z: -1.34σ)"
+        },
+        {
+          "time": "19/08 05:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06990 (Z: -1.36σ)"
+        },
+        {
+          "time": "19/08 06:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06998 (Z: -1.21σ)"
+        },
+        {
+          "time": "19/08 07:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06988 (Z: -1.38σ)"
+        },
+        {
+          "time": "19/08 08:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06988 (Z: -1.37σ)"
+        },
+        {
+          "time": "19/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06985 (Z: -1.41σ)"
+        },
+        {
+          "time": "19/08 10:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06984 (Z: -1.42σ)"
+        },
+        {
+          "time": "19/08 11:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06975 (Z: -1.59σ)"
+        },
+        {
+          "time": "19/08 12:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06957 (Z: -1.91σ)"
+        },
+        {
+          "time": "19/08 13:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06914 (Z: -2.65σ)"
+        },
+        {
+          "time": "19/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06890 (Z: -3.00σ)"
+        },
+        {
+          "time": "19/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06623 (Z: -7.18σ)"
+        },
+        {
+          "time": "19/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06598 (Z: -6.55σ)"
+        },
+        {
+          "time": "19/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06665 (Z: -5.04σ)"
+        },
+        {
+          "time": "19/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06637 (Z: -4.98σ)"
+        },
+        {
+          "time": "19/08 19:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06641 (Z: -4.56σ)"
+        },
+        {
+          "time": "19/08 20:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06598 (Z: -4.70σ)"
+        },
+        {
+          "time": "19/08 21:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06519 (Z: -5.12σ)"
+        },
+        {
+          "time": "19/08 22:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06576 (Z: -4.24σ)"
+        },
+        {
+          "time": "19/08 23:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06559 (Z: -4.14σ)"
+        },
+        {
+          "time": "20/08 00:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06528 (Z: -4.16σ)"
+        },
+        {
+          "time": "20/08 01:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06533 (Z: -3.91σ)"
+        },
+        {
+          "time": "20/08 02:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06541 (Z: -3.65σ)"
+        },
+        {
+          "time": "20/08 03:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06574 (Z: -3.27σ)"
+        },
+        {
+          "time": "20/08 04:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06559 (Z: -3.25σ)"
+        },
+        {
+          "time": "20/08 05:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06533 (Z: -3.30σ)"
+        },
+        {
+          "time": "20/08 06:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06527 (Z: -3.22σ)"
+        },
+        {
+          "time": "20/08 07:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06529 (Z: -3.09σ)"
+        },
+        {
+          "time": "20/08 08:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06398 (Z: -3.78σ)"
+        },
+        {
+          "time": "20/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06348 (Z: -3.88σ)"
+        },
+        {
+          "time": "20/08 10:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06351 (Z: -3.68σ)"
+        },
+        {
+          "time": "20/08 11:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06328 (Z: -3.64σ)"
+        },
+        {
+          "time": "20/08 12:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06365 (Z: -3.30σ)"
+        },
+        {
+          "time": "20/08 13:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06377 (Z: -3.12σ)"
+        },
+        {
+          "time": "20/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06377 (Z: -3.01σ)"
+        },
+        {
+          "time": "20/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06314 (Z: -3.21σ)"
+        },
+        {
+          "time": "20/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06318 (Z: -3.08σ)"
+        },
+        {
+          "time": "20/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06289 (Z: -3.11σ)"
+        },
+        {
+          "time": "20/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06308 (Z: -2.92σ)"
+        },
+        {
+          "time": "20/08 19:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06301 (Z: -2.86σ)"
+        },
+        {
+          "time": "20/08 20:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06282 (Z: -2.86σ)"
+        },
+        {
+          "time": "20/08 21:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06291 (Z: -2.74σ)"
+        },
+        {
+          "time": "20/08 22:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06293 (Z: -2.66σ)"
+        },
+        {
+          "time": "20/08 23:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06254 (Z: -2.74σ)"
+        },
+        {
+          "time": "21/08 00:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06220 (Z: -2.79σ)"
+        },
+        {
+          "time": "21/08 01:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06149 (Z: -2.98σ)"
+        },
+        {
+          "time": "21/08 02:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06153 (Z: -2.87σ)"
+        },
+        {
+          "time": "21/08 03:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06160 (Z: -2.76σ)"
+        },
+        {
+          "time": "21/08 04:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06138 (Z: -2.76σ)"
+        },
+        {
+          "time": "21/08 05:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06119 (Z: -2.75σ)"
+        },
+        {
+          "time": "21/08 06:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06088 (Z: -2.77σ)"
+        },
+        {
+          "time": "21/08 07:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06040 (Z: -2.85σ)"
+        },
+        {
+          "time": "21/08 08:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05961 (Z: -3.02σ)"
+        },
+        {
+          "time": "21/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05938 (Z: -3.00σ)"
+        },
+        {
+          "time": "21/08 10:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05944 (Z: -2.88σ)"
+        },
+        {
+          "time": "21/08 11:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06017 (Z: -2.58σ)"
+        },
+        {
+          "time": "21/08 12:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06013 (Z: -2.52σ)"
+        },
+        {
+          "time": "21/08 13:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.06016 (Z: -2.45σ)"
+        },
+        {
+          "time": "21/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05982 (Z: -2.49σ)"
+        },
+        {
+          "time": "21/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05948 (Z: -2.52σ)"
+        },
+        {
+          "time": "21/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05967 (Z: -2.41σ)"
+        },
+        {
+          "time": "21/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05948 (Z: -2.41σ)"
+        },
+        {
+          "time": "21/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05964 (Z: -2.31σ)"
+        },
+        {
+          "time": "21/08 19:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05970 (Z: -2.25σ)"
+        },
+        {
+          "time": "21/08 20:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05955 (Z: -2.24σ)"
+        },
+        {
+          "time": "21/08 21:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05899 (Z: -2.34σ)"
+        },
+        {
+          "time": "21/08 22:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05901 (Z: -2.28σ)"
+        },
+        {
+          "time": "21/08 23:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05897 (Z: -2.24σ)"
+        },
+        {
+          "time": "22/08 00:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05925 (Z: -2.13σ)"
+        },
+        {
+          "time": "22/08 01:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05912 (Z: -2.12σ)"
+        },
+        {
+          "time": "22/08 02:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05905 (Z: -2.10σ)"
+        },
+        {
+          "time": "22/08 03:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05882 (Z: -2.11σ)"
+        },
+        {
+          "time": "22/08 04:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05884 (Z: -2.07σ)"
+        },
+        {
+          "time": "22/08 05:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05971 (Z: -1.83σ)"
+        },
+        {
+          "time": "22/08 06:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05983 (Z: -1.77σ)"
+        },
+        {
+          "time": "22/08 07:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05958 (Z: -1.80σ)"
+        },
+        {
+          "time": "22/08 08:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05983 (Z: -1.71σ)"
+        },
+        {
+          "time": "22/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05972 (Z: -1.71σ)"
+        },
+        {
+          "time": "22/08 10:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05996 (Z: -1.63σ)"
+        },
+        {
+          "time": "22/08 11:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05987 (Z: -1.63σ)"
+        },
+        {
+          "time": "22/08 12:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05973 (Z: -1.64σ)"
+        },
+        {
+          "time": "22/08 13:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05979 (Z: -1.60σ)"
+        },
+        {
+          "time": "22/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05986 (Z: -1.56σ)"
+        },
+        {
+          "time": "22/08 14:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05991 (Z: -1.53σ)"
+        },
+        {
+          "time": "22/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05969 (Z: -1.56σ)"
+        },
+        {
+          "time": "22/08 15:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05980 (Z: -1.51σ)"
+        },
+        {
+          "time": "22/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05976 (Z: -1.50σ)"
+        },
+        {
+          "time": "22/08 16:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05959 (Z: -1.51σ)"
+        },
+        {
+          "time": "22/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05970 (Z: -1.47σ)"
+        },
+        {
+          "time": "22/08 17:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05969 (Z: -1.45σ)"
+        },
+        {
+          "time": "22/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05975 (Z: -1.42σ)"
+        },
+        {
+          "time": "22/08 19:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05972 (Z: -1.41σ)"
+        },
+        {
+          "time": "22/08 19:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05968 (Z: -1.40σ)"
+        },
+        {
+          "time": "22/08 20:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05986 (Z: -1.34σ)"
+        },
+        {
+          "time": "22/08 21:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05984 (Z: -1.33σ)"
+        },
+        {
+          "time": "22/08 22:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05966 (Z: -1.35σ)"
+        },
+        {
+          "time": "22/08 23:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05983 (Z: -1.30σ)"
+        },
+        {
+          "time": "23/08 00:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05985 (Z: -1.28σ)"
+        },
+        {
+          "time": "23/08 01:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05995 (Z: -1.24σ)"
+        },
+        {
+          "time": "23/08 02:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.06039 (Z: -1.14σ)"
+        },
+        {
+          "time": "23/08 03:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.06032 (Z: -1.14σ)"
+        },
+        {
+          "time": "23/08 04:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.06046 (Z: -1.09σ)"
+        },
+        {
+          "time": "23/08 05:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.06025 (Z: -1.12σ)"
+        },
+        {
+          "time": "23/08 06:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.06017 (Z: -1.13σ)"
+        },
+        {
+          "time": "23/08 07:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05996 (Z: -1.16σ)"
+        },
+        {
+          "time": "23/08 08:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05974 (Z: -1.19σ)"
+        },
+        {
+          "time": "23/08 09:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05971 (Z: -1.19σ)"
+        },
+        {
+          "time": "23/08 10:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05958 (Z: -1.20σ)"
+        },
+        {
+          "time": "23/08 11:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05972 (Z: -1.16σ)"
+        },
+        {
+          "time": "23/08 12:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.05978 (Z: -1.13σ)"
+        },
+        {
+          "time": "23/08 14:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.05971 (Z: -1.13σ)"
+        },
+        {
+          "time": "23/08 15:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.05976 (Z: -1.11σ)"
+        },
+        {
+          "time": "23/08 16:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.05964 (Z: -1.12σ)"
+        },
+        {
+          "time": "23/08 17:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.05971 (Z: -1.09σ)"
+        },
+        {
+          "time": "23/08 18:00",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Ratio: 0.05942 (Z: -1.14σ)"
+        },
+        {
+          "time": "23/08 19:00",
+          "score_a": 99,
+          "score_b": 1,
+          "metric": "Ratio: 0.05944 (Z: -1.13σ)"
+        },
+        {
+          "time": "23/08 20:00",
+          "score_a": 98,
+          "score_b": 2,
+          "metric": "Ratio: 0.05951 (Z: -1.10σ)"
         }
       ]
     }
@@ -13101,535 +12555,13 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "time": "19:57",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "19:58",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "19:59",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:00",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:01",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:02",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:02",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:03",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:05",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:06",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:07",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:08",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:09",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:10",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:11",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:12",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:13",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:14",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:15",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:16",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:17",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:18",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:19",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:20",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:21",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:22",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:23",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:24",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:25",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:27",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:28",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:29",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:30",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:31",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:32",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:33",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:34",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:35",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:36",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:37",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:38",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:39",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:40",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:41",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:43",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:44",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:45",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:46",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:47",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:48",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:49",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:50",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:51",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:51",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:53",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:54",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:55",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:56",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "20:57",
+          "time": "21:57",
           "score_a": 2,
           "score_b": 98,
           "metric": "VIX: 15.13 pts"
         }
       ],
       "24h": [
-        {
-          "time": "20:58",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:00",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:02",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:04",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:06",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:08",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:10",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:12",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:14",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:16",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:19",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:21",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:23",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:25",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:27",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:29",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:31",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:33",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:35",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:37",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:39",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:41",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:44",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:46",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:48",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:50",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:52",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:54",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
-        {
-          "time": "21:56",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "VIX: 15.13 pts"
-        },
         {
           "time": "21:58",
           "score_a": 2,
@@ -17571,33 +16503,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 2,
           "score_b": 98,
           "metric": "VIX: 15.13 pts"
+        },
+        {
+          "time": "21:57",
+          "score_a": 2,
+          "score_b": 98,
+          "metric": "VIX: 15.13 pts"
         }
       ],
       "7d": [
-        {
-          "time": "16/08 20:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "VIX: 14.25 pts"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "VIX: 14.25 pts"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "VIX: 14.25 pts"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "VIX: 14.25 pts"
-        },
         {
           "time": "16/08 21:00",
           "score_a": 0,
@@ -21710,12 +20624,6 @@ window.PLANOS_TACTICAL_DATA = [
         }
       ],
       "30d": [
-        {
-          "time": "24/07 20:00",
-          "score_a": 51,
-          "score_b": 49,
-          "metric": "VIX: 18.57 pts"
-        },
         {
           "time": "24/07 21:00",
           "score_a": 51,
@@ -26084,535 +24992,13 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "time": "19:57",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "19:58",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "19:59",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:01",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:02",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:02",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:03",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:05",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:06",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:07",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:08",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:09",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:10",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:11",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:12",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:13",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:14",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:15",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:16",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:17",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:18",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:19",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:20",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:21",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:22",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:23",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:24",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:25",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:27",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:28",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:29",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:30",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:31",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:32",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:33",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:34",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:35",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:36",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:37",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:38",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:39",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:40",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:41",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:43",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:44",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:45",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:46",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:47",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:48",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:49",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:50",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:51",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:51",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:53",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:54",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0249 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:55",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:56",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0248 (USDT R$ 5.161)"
-        },
-        {
-          "time": "20:57",
+          "time": "21:57",
           "score_a": 0,
           "score_b": 100,
           "metric": "Spread: +0.0233 (USDT R$ 5.160)"
         }
       ],
       "24h": [
-        {
-          "time": "20:58",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0218 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0218 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:02",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0219 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:04",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0218 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:06",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0218 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:08",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0218 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:10",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0219 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:12",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0218 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:14",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0219 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:16",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0219 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:19",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0218 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:21",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0218 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:23",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0219 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:25",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0218 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:27",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0218 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:29",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0219 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:31",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0218 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:33",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0219 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:35",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0219 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:37",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0218 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:39",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0219 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:41",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0218 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:44",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0219 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:46",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0219 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:48",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0218 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:50",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0219 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:52",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0219 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:54",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0218 (USDT R$ 5.158)"
-        },
-        {
-          "time": "21:56",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0218 (USDT R$ 5.158)"
-        },
         {
           "time": "21:58",
           "score_a": 0,
@@ -30554,33 +28940,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 0,
           "score_b": 100,
           "metric": "Spread: +0.0248 (USDT R$ 5.161)"
+        },
+        {
+          "time": "21:57",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Spread: +0.0233 (USDT R$ 5.160)"
         }
       ],
       "7d": [
-        {
-          "time": "16/08 20:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0996 (USDT R$ 5.236)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.1009 (USDT R$ 5.237)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.1010 (USDT R$ 5.237)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.1010 (USDT R$ 5.237)"
-        },
         {
           "time": "16/08 21:00",
           "score_a": 0,
@@ -34693,12 +33061,6 @@ window.PLANOS_TACTICAL_DATA = [
         }
       ],
       "30d": [
-        {
-          "time": "24/07 20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Spread: -0.0366 (USDT R$ 5.100)"
-        },
         {
           "time": "24/07 21:00",
           "score_a": 100,
@@ -39067,535 +37429,13 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "time": "19:57",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.61 (Z: -4.43σ)"
-        },
-        {
-          "time": "19:58",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.61 (Z: -3.78σ)"
-        },
-        {
-          "time": "19:59",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.61 (Z: -3.34σ)"
-        },
-        {
-          "time": "20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.61 (Z: -3.01σ)"
-        },
-        {
-          "time": "20:01",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.61 (Z: -2.76σ)"
-        },
-        {
-          "time": "20:02",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.55 (Z: -3.03σ)"
-        },
-        {
-          "time": "20:02",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.55 (Z: -2.77σ)"
-        },
-        {
-          "time": "20:03",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.55 (Z: -2.56σ)"
-        },
-        {
-          "time": "20:05",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.55 (Z: -2.39σ)"
-        },
-        {
-          "time": "20:06",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.55 (Z: -2.24σ)"
-        },
-        {
-          "time": "20:07",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.55 (Z: -2.12σ)"
-        },
-        {
-          "time": "20:08",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.55 (Z: -2.00σ)"
-        },
-        {
-          "time": "20:09",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.55 (Z: -1.90σ)"
-        },
-        {
-          "time": "20:10",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.55 (Z: -1.81σ)"
-        },
-        {
-          "time": "20:11",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.55 (Z: -1.73σ)"
-        },
-        {
-          "time": "20:12",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.55 (Z: -1.66σ)"
-        },
-        {
-          "time": "20:13",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.55 (Z: -1.59σ)"
-        },
-        {
-          "time": "20:14",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.55 (Z: -1.53σ)"
-        },
-        {
-          "time": "20:15",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.55 (Z: -1.47σ)"
-        },
-        {
-          "time": "20:16",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.31 (Z: -2.66σ)"
-        },
-        {
-          "time": "20:17",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.31 (Z: -2.47σ)"
-        },
-        {
-          "time": "20:18",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.31 (Z: -2.32σ)"
-        },
-        {
-          "time": "20:19",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.31 (Z: -2.18σ)"
-        },
-        {
-          "time": "20:20",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.31 (Z: -2.07σ)"
-        },
-        {
-          "time": "20:21",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.31 (Z: -1.96σ)"
-        },
-        {
-          "time": "20:22",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.31 (Z: -1.87σ)"
-        },
-        {
-          "time": "20:23",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.31 (Z: -1.78σ)"
-        },
-        {
-          "time": "20:24",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.31 (Z: -1.71σ)"
-        },
-        {
-          "time": "20:25",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.31 (Z: -1.64σ)"
-        },
-        {
-          "time": "20:27",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.31 (Z: -1.57σ)"
-        },
-        {
-          "time": "20:28",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.31 (Z: -1.51σ)"
-        },
-        {
-          "time": "20:29",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.31 (Z: -1.46σ)"
-        },
-        {
-          "time": "20:30",
-          "score_a": 73,
-          "score_b": 27,
-          "metric": "LINK: R$ 59.51 (Z: -0.61σ)"
-        },
-        {
-          "time": "20:31",
-          "score_a": 46,
-          "score_b": 54,
-          "metric": "LINK: R$ 59.68 (Z: +0.11σ)"
-        },
-        {
-          "time": "20:32",
-          "score_a": 45,
-          "score_b": 55,
-          "metric": "LINK: R$ 59.68 (Z: +0.13σ)"
-        },
-        {
-          "time": "20:33",
-          "score_a": 66,
-          "score_b": 34,
-          "metric": "LINK: R$ 59.54 (Z: -0.44σ)"
-        },
-        {
-          "time": "20:34",
-          "score_a": 65,
-          "score_b": 35,
-          "metric": "LINK: R$ 59.54 (Z: -0.42σ)"
-        },
-        {
-          "time": "20:35",
-          "score_a": 65,
-          "score_b": 35,
-          "metric": "LINK: R$ 59.54 (Z: -0.39σ)"
-        },
-        {
-          "time": "20:36",
-          "score_a": 64,
-          "score_b": 36,
-          "metric": "LINK: R$ 59.54 (Z: -0.37σ)"
-        },
-        {
-          "time": "20:37",
-          "score_a": 63,
-          "score_b": 37,
-          "metric": "LINK: R$ 59.54 (Z: -0.35σ)"
-        },
-        {
-          "time": "20:38",
-          "score_a": 62,
-          "score_b": 38,
-          "metric": "LINK: R$ 59.54 (Z: -0.32σ)"
-        },
-        {
-          "time": "20:39",
-          "score_a": 61,
-          "score_b": 39,
-          "metric": "LINK: R$ 59.54 (Z: -0.30σ)"
-        },
-        {
-          "time": "20:40",
-          "score_a": 60,
-          "score_b": 40,
-          "metric": "LINK: R$ 59.54 (Z: -0.27σ)"
-        },
-        {
-          "time": "20:41",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "LINK: R$ 59.54 (Z: -0.25σ)"
-        },
-        {
-          "time": "20:43",
-          "score_a": 99,
-          "score_b": 1,
-          "metric": "LINK: R$ 59.31 (Z: -1.33σ)"
-        },
-        {
-          "time": "20:44",
-          "score_a": 98,
-          "score_b": 2,
-          "metric": "LINK: R$ 59.31 (Z: -1.29σ)"
-        },
-        {
-          "time": "20:45",
-          "score_a": 97,
-          "score_b": 3,
-          "metric": "LINK: R$ 59.31 (Z: -1.26σ)"
-        },
-        {
-          "time": "20:46",
-          "score_a": 95,
-          "score_b": 5,
-          "metric": "LINK: R$ 59.31 (Z: -1.23σ)"
-        },
-        {
-          "time": "20:47",
-          "score_a": 51,
-          "score_b": 49,
-          "metric": "LINK: R$ 59.54 (Z: -0.02σ)"
-        },
-        {
-          "time": "20:48",
-          "score_a": 49,
-          "score_b": 51,
-          "metric": "LINK: R$ 59.54 (Z: +0.02σ)"
-        },
-        {
-          "time": "20:49",
-          "score_a": 48,
-          "score_b": 52,
-          "metric": "LINK: R$ 59.54 (Z: +0.06σ)"
-        },
-        {
-          "time": "20:50",
-          "score_a": 46,
-          "score_b": 54,
-          "metric": "LINK: R$ 59.54 (Z: +0.10σ)"
-        },
-        {
-          "time": "20:51",
-          "score_a": 45,
-          "score_b": 55,
-          "metric": "LINK: R$ 59.54 (Z: +0.15σ)"
-        },
-        {
-          "time": "20:51",
-          "score_a": 43,
-          "score_b": 57,
-          "metric": "LINK: R$ 59.54 (Z: +0.20σ)"
-        },
-        {
-          "time": "20:53",
-          "score_a": 40,
-          "score_b": 60,
-          "metric": "LINK: R$ 59.54 (Z: +0.26σ)"
-        },
-        {
-          "time": "20:54",
-          "score_a": 39,
-          "score_b": 61,
-          "metric": "LINK: R$ 59.54 (Z: +0.30σ)"
-        },
-        {
-          "time": "20:55",
-          "score_a": 37,
-          "score_b": 63,
-          "metric": "LINK: R$ 59.54 (Z: +0.34σ)"
-        },
-        {
-          "time": "20:56",
-          "score_a": 18,
-          "score_b": 82,
-          "metric": "LINK: R$ 59.60 (Z: +0.86σ)"
-        },
-        {
-          "time": "20:57",
+          "time": "21:57",
           "score_a": 100,
           "score_b": 0,
           "metric": "LINK: R$ 59.05 (Z: -3.30σ)"
         }
       ],
       "24h": [
-        {
-          "time": "20:58",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "LINK: R$ 60.02 (Z: +1.31σ)"
-        },
-        {
-          "time": "21:00",
-          "score_a": 4,
-          "score_b": 96,
-          "metric": "LINK: R$ 60.02 (Z: +1.23σ)"
-        },
-        {
-          "time": "21:02",
-          "score_a": 9,
-          "score_b": 91,
-          "metric": "LINK: R$ 60.01 (Z: +1.11σ)"
-        },
-        {
-          "time": "21:04",
-          "score_a": 11,
-          "score_b": 89,
-          "metric": "LINK: R$ 60.01 (Z: +1.05σ)"
-        },
-        {
-          "time": "21:06",
-          "score_a": 13,
-          "score_b": 87,
-          "metric": "LINK: R$ 60.01 (Z: +1.00σ)"
-        },
-        {
-          "time": "21:08",
-          "score_a": 14,
-          "score_b": 86,
-          "metric": "LINK: R$ 60.01 (Z: +0.97σ)"
-        },
-        {
-          "time": "21:10",
-          "score_a": 15,
-          "score_b": 85,
-          "metric": "LINK: R$ 60.01 (Z: +0.94σ)"
-        },
-        {
-          "time": "21:12",
-          "score_a": 16,
-          "score_b": 84,
-          "metric": "LINK: R$ 60.01 (Z: +0.91σ)"
-        },
-        {
-          "time": "21:14",
-          "score_a": 19,
-          "score_b": 81,
-          "metric": "LINK: R$ 60.01 (Z: +0.85σ)"
-        },
-        {
-          "time": "21:16",
-          "score_a": 21,
-          "score_b": 79,
-          "metric": "LINK: R$ 60.01 (Z: +0.79σ)"
-        },
-        {
-          "time": "21:19",
-          "score_a": 23,
-          "score_b": 77,
-          "metric": "LINK: R$ 60.01 (Z: +0.74σ)"
-        },
-        {
-          "time": "21:21",
-          "score_a": 25,
-          "score_b": 75,
-          "metric": "LINK: R$ 60.01 (Z: +0.68σ)"
-        },
-        {
-          "time": "21:23",
-          "score_a": 27,
-          "score_b": 73,
-          "metric": "LINK: R$ 60.01 (Z: +0.63σ)"
-        },
-        {
-          "time": "21:25",
-          "score_a": 28,
-          "score_b": 72,
-          "metric": "LINK: R$ 60.01 (Z: +0.58σ)"
-        },
-        {
-          "time": "21:27",
-          "score_a": 30,
-          "score_b": 70,
-          "metric": "LINK: R$ 60.01 (Z: +0.53σ)"
-        },
-        {
-          "time": "21:29",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "LINK: R$ 60.16 (Z: +1.93σ)"
-        },
-        {
-          "time": "21:31",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "LINK: R$ 60.16 (Z: +1.81σ)"
-        },
-        {
-          "time": "21:33",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "LINK: R$ 60.16 (Z: +1.72σ)"
-        },
-        {
-          "time": "21:35",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "LINK: R$ 60.16 (Z: +1.65σ)"
-        },
-        {
-          "time": "21:37",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "LINK: R$ 60.16 (Z: +1.61σ)"
-        },
-        {
-          "time": "21:39",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "LINK: R$ 60.52 (Z: +4.05σ)"
-        },
-        {
-          "time": "21:41",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "LINK: R$ 60.52 (Z: +3.31σ)"
-        },
-        {
-          "time": "21:44",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "LINK: R$ 60.52 (Z: +2.80σ)"
-        },
-        {
-          "time": "21:46",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "LINK: R$ 60.52 (Z: +2.41σ)"
-        },
-        {
-          "time": "21:48",
-          "score_a": 43,
-          "score_b": 57,
-          "metric": "LINK: R$ 60.15 (Z: +0.20σ)"
-        },
-        {
-          "time": "21:50",
-          "score_a": 17,
-          "score_b": 83,
-          "metric": "LINK: R$ 60.28 (Z: +0.88σ)"
-        },
-        {
-          "time": "21:52",
-          "score_a": 19,
-          "score_b": 81,
-          "metric": "LINK: R$ 60.28 (Z: +0.83σ)"
-        },
-        {
-          "time": "21:54",
-          "score_a": 21,
-          "score_b": 79,
-          "metric": "LINK: R$ 60.28 (Z: +0.78σ)"
-        },
-        {
-          "time": "21:56",
-          "score_a": 23,
-          "score_b": 77,
-          "metric": "LINK: R$ 60.28 (Z: +0.73σ)"
-        },
         {
           "time": "21:58",
           "score_a": 25,
@@ -43537,33 +41377,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 18,
           "score_b": 82,
           "metric": "LINK: R$ 59.60 (Z: +0.86σ)"
+        },
+        {
+          "time": "21:57",
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "LINK: R$ 59.05 (Z: -3.30σ)"
         }
       ],
       "7d": [
-        {
-          "time": "16/08 20:00",
-          "score_a": 19,
-          "score_b": 81,
-          "metric": "LINK: R$ 49.64 (Z: +0.83σ)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 49.48 (Z: -1.79σ)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 89,
-          "score_b": 11,
-          "metric": "LINK: R$ 49.48 (Z: -1.05σ)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 49.20 (Z: -2.60σ)"
-        },
         {
           "time": "16/08 21:00",
           "score_a": 100,
@@ -47676,12 +45498,6 @@ window.PLANOS_TACTICAL_DATA = [
         }
       ],
       "30d": [
-        {
-          "time": "24/07 20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "LINK: R$ 42.49 (Z: -1.39σ)"
-        },
         {
           "time": "24/07 21:00",
           "score_a": 30,
@@ -52039,8 +49855,8 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Trade SOL ➔ BRL",
     "ponta_b_score": 100,
     "proximidade_score": 100,
-    "valor_atual_str": "SOL/BTC: 0.001228 (Z: +1.38σ)",
-    "distancia_display": "Z = +1.38σ (Meta: ±1.15σ)",
+    "valor_atual_str": "SOL/BTC: 0.001230 (Z: +1.45σ)",
+    "distancia_display": "Z = +1.45σ (Meta: ±1.15σ)",
     "status": "SENTINELA_QUENTE",
     "icone": "🌌",
     "cor": "#EC4899",
@@ -52050,535 +49866,13 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "time": "19:57",
+          "time": "21:57",
           "score_a": 0,
           "score_b": 100,
-          "metric": "SOL/BTC: 0.001231 (Z: +1.57σ)"
-        },
-        {
-          "time": "19:58",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001231 (Z: +1.56σ)"
-        },
-        {
-          "time": "19:59",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001232 (Z: +1.59σ)"
-        },
-        {
-          "time": "20:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001232 (Z: +1.61σ)"
-        },
-        {
-          "time": "20:01",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001231 (Z: +1.57σ)"
-        },
-        {
-          "time": "20:02",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001232 (Z: +1.60σ)"
-        },
-        {
-          "time": "20:02",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001232 (Z: +1.60σ)"
-        },
-        {
-          "time": "20:03",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001232 (Z: +1.62σ)"
-        },
-        {
-          "time": "20:05",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001233 (Z: +1.67σ)"
-        },
-        {
-          "time": "20:06",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001232 (Z: +1.60σ)"
-        },
-        {
-          "time": "20:07",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001231 (Z: +1.56σ)"
-        },
-        {
-          "time": "20:08",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001231 (Z: +1.54σ)"
-        },
-        {
-          "time": "20:09",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001231 (Z: +1.57σ)"
-        },
-        {
-          "time": "20:10",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001231 (Z: +1.57σ)"
-        },
-        {
-          "time": "20:11",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001233 (Z: +1.65σ)"
-        },
-        {
-          "time": "20:12",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +1.45σ)"
-        },
-        {
-          "time": "20:13",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +1.44σ)"
-        },
-        {
-          "time": "20:14",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +1.43σ)"
-        },
-        {
-          "time": "20:15",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +1.41σ)"
-        },
-        {
-          "time": "20:16",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001228 (Z: +1.36σ)"
-        },
-        {
-          "time": "20:17",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001231 (Z: +1.53σ)"
-        },
-        {
-          "time": "20:18",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001231 (Z: +1.57σ)"
-        },
-        {
-          "time": "20:19",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001232 (Z: +1.59σ)"
-        },
-        {
-          "time": "20:20",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001232 (Z: +1.60σ)"
-        },
-        {
-          "time": "20:21",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001233 (Z: +1.64σ)"
-        },
-        {
-          "time": "20:22",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.51σ)"
-        },
-        {
-          "time": "20:23",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +1.43σ)"
-        },
-        {
-          "time": "20:24",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +1.45σ)"
-        },
-        {
-          "time": "20:25",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001228 (Z: +1.38σ)"
-        },
-        {
-          "time": "20:27",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.48σ)"
-        },
-        {
-          "time": "20:28",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.47σ)"
-        },
-        {
-          "time": "20:29",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.49σ)"
-        },
-        {
-          "time": "20:30",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.47σ)"
-        },
-        {
-          "time": "20:31",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001231 (Z: +1.55σ)"
-        },
-        {
-          "time": "20:32",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001231 (Z: +1.52σ)"
-        },
-        {
-          "time": "20:33",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.50σ)"
-        },
-        {
-          "time": "20:34",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001231 (Z: +1.53σ)"
-        },
-        {
-          "time": "20:35",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.46σ)"
-        },
-        {
-          "time": "20:36",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.50σ)"
-        },
-        {
-          "time": "20:37",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.48σ)"
-        },
-        {
-          "time": "20:38",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.49σ)"
-        },
-        {
-          "time": "20:39",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +1.41σ)"
-        },
-        {
-          "time": "20:40",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +1.43σ)"
-        },
-        {
-          "time": "20:41",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001228 (Z: +1.35σ)"
-        },
-        {
-          "time": "20:43",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001228 (Z: +1.38σ)"
-        },
-        {
-          "time": "20:44",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +1.42σ)"
-        },
-        {
-          "time": "20:45",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001228 (Z: +1.40σ)"
-        },
-        {
-          "time": "20:46",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001228 (Z: +1.39σ)"
-        },
-        {
-          "time": "20:47",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.49σ)"
-        },
-        {
-          "time": "20:48",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.47σ)"
-        },
-        {
-          "time": "20:49",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.48σ)"
-        },
-        {
-          "time": "20:50",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +1.42σ)"
-        },
-        {
-          "time": "20:51",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.51σ)"
-        },
-        {
-          "time": "20:51",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.47σ)"
-        },
-        {
-          "time": "20:53",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.47σ)"
-        },
-        {
-          "time": "20:54",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001230 (Z: +1.46σ)"
-        },
-        {
-          "time": "20:55",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +1.40σ)"
-        },
-        {
-          "time": "20:56",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001229 (Z: +1.42σ)"
-        },
-        {
-          "time": "20:57",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001228 (Z: +1.38σ)"
+          "metric": "SOL/BTC: 0.001230 (Z: +1.45σ)"
         }
       ],
       "24h": [
-        {
-          "time": "20:58",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001218 (Z: +1.27σ)"
-        },
-        {
-          "time": "21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001218 (Z: +1.27σ)"
-        },
-        {
-          "time": "21:02",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001218 (Z: +1.23σ)"
-        },
-        {
-          "time": "21:04",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001218 (Z: +1.25σ)"
-        },
-        {
-          "time": "21:06",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001219 (Z: +1.29σ)"
-        },
-        {
-          "time": "21:08",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001218 (Z: +1.27σ)"
-        },
-        {
-          "time": "21:10",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001218 (Z: +1.23σ)"
-        },
-        {
-          "time": "21:12",
-          "score_a": 2,
-          "score_b": 98,
-          "metric": "SOL/BTC: 0.001216 (Z: +1.10σ)"
-        },
-        {
-          "time": "21:14",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001217 (Z: +1.16σ)"
-        },
-        {
-          "time": "21:16",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001217 (Z: +1.19σ)"
-        },
-        {
-          "time": "21:19",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001217 (Z: +1.21σ)"
-        },
-        {
-          "time": "21:21",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001219 (Z: +1.30σ)"
-        },
-        {
-          "time": "21:23",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001220 (Z: +1.35σ)"
-        },
-        {
-          "time": "21:25",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001219 (Z: +1.33σ)"
-        },
-        {
-          "time": "21:27",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001220 (Z: +1.35σ)"
-        },
-        {
-          "time": "21:29",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001221 (Z: +1.43σ)"
-        },
-        {
-          "time": "21:31",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001222 (Z: +1.52σ)"
-        },
-        {
-          "time": "21:33",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001223 (Z: +1.59σ)"
-        },
-        {
-          "time": "21:35",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001224 (Z: +1.64σ)"
-        },
-        {
-          "time": "21:37",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001237 (Z: +2.43σ)"
-        },
-        {
-          "time": "21:39",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001248 (Z: +3.14σ)"
-        },
-        {
-          "time": "21:41",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001240 (Z: +2.63σ)"
-        },
-        {
-          "time": "21:44",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001250 (Z: +3.26σ)"
-        },
-        {
-          "time": "21:46",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001251 (Z: +3.31σ)"
-        },
-        {
-          "time": "21:48",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001245 (Z: +2.94σ)"
-        },
-        {
-          "time": "21:50",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001249 (Z: +3.17σ)"
-        },
-        {
-          "time": "21:52",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001254 (Z: +3.48σ)"
-        },
-        {
-          "time": "21:54",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001250 (Z: +3.26σ)"
-        },
-        {
-          "time": "21:56",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001248 (Z: +3.09σ)"
-        },
         {
           "time": "21:58",
           "score_a": 0,
@@ -56520,33 +53814,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 0,
           "score_b": 100,
           "metric": "SOL/BTC: 0.001229 (Z: +1.42σ)"
+        },
+        {
+          "time": "21:57",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "SOL/BTC: 0.001230 (Z: +1.45σ)"
         }
       ],
       "7d": [
-        {
-          "time": "16/08 20:00",
-          "score_a": 70,
-          "score_b": 30,
-          "metric": "SOL/BTC: 0.001190 (Z: -0.45σ)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 67,
-          "score_b": 33,
-          "metric": "SOL/BTC: 0.001190 (Z: -0.40σ)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 74,
-          "score_b": 26,
-          "metric": "SOL/BTC: 0.001189 (Z: -0.55σ)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL/BTC: 0.001184 (Z: -1.34σ)"
-        },
         {
           "time": "16/08 21:00",
           "score_a": 100,
@@ -60659,12 +57935,6 @@ window.PLANOS_TACTICAL_DATA = [
         }
       ],
       "30d": [
-        {
-          "time": "24/07 20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL/BTC: 0.001150 (Z: -2.67σ)"
-        },
         {
           "time": "24/07 21:00",
           "score_a": 100,
@@ -65018,12 +62288,12 @@ window.PLANOS_TACTICAL_DATA = [
     "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 100 | Teto R$ 200)",
     "cooldown_horas": 0.25,
     "ponta_a_label": "Trade BRL ➔ SOL",
-    "ponta_a_score": 85,
+    "ponta_a_score": 59,
     "ponta_b_label": "Trade SOL ➔ BRL",
-    "ponta_b_score": 15,
-    "proximidade_score": 85,
-    "valor_atual_str": "SOL: R$ 491.50 (Z: -0.95σ)",
-    "distancia_display": "Z = -0.95σ (Meta: ±1.35σ)",
+    "ponta_b_score": 41,
+    "proximidade_score": 59,
+    "valor_atual_str": "SOL: R$ 492.10 (Z: -0.23σ)",
+    "distancia_display": "Z = -0.23σ (Meta: ±1.35σ)",
     "status": "SENTINELA_QUENTE",
     "icone": "⚡",
     "cor": "#A855F7",
@@ -65033,535 +62303,13 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "time": "19:57",
-          "score_a": 22,
-          "score_b": 78,
-          "metric": "SOL 1h: R$ 493.20 (Z: +0.76σ)"
-        },
-        {
-          "time": "19:58",
-          "score_a": 29,
-          "score_b": 71,
-          "metric": "SOL 1h: R$ 493.00 (Z: +0.55σ)"
-        },
-        {
-          "time": "19:59",
-          "score_a": 19,
-          "score_b": 81,
-          "metric": "SOL 1h: R$ 493.30 (Z: +0.84σ)"
-        },
-        {
-          "time": "20:00",
-          "score_a": 16,
-          "score_b": 84,
-          "metric": "SOL 1h: R$ 493.40 (Z: +0.91σ)"
-        },
-        {
-          "time": "20:01",
-          "score_a": 31,
-          "score_b": 69,
-          "metric": "SOL 1h: R$ 493.00 (Z: +0.50σ)"
-        },
-        {
-          "time": "20:02",
-          "score_a": 49,
-          "score_b": 51,
-          "metric": "SOL 1h: R$ 492.50 (Z: +0.02σ)"
-        },
-        {
-          "time": "20:02",
-          "score_a": 50,
-          "score_b": 50,
-          "metric": "SOL 1h: R$ 492.50 (Z: -0.01σ)"
-        },
-        {
-          "time": "20:03",
-          "score_a": 52,
-          "score_b": 48,
-          "metric": "SOL 1h: R$ 492.50 (Z: -0.06σ)"
-        },
-        {
-          "time": "20:05",
-          "score_a": 41,
-          "score_b": 59,
-          "metric": "SOL 1h: R$ 492.80 (Z: +0.24σ)"
-        },
-        {
-          "time": "20:06",
-          "score_a": 61,
-          "score_b": 39,
-          "metric": "SOL 1h: R$ 492.40 (Z: -0.28σ)"
-        },
-        {
-          "time": "20:07",
-          "score_a": 90,
-          "score_b": 10,
-          "metric": "SOL 1h: R$ 491.80 (Z: -1.08σ)"
-        },
-        {
-          "time": "20:08",
-          "score_a": 92,
-          "score_b": 8,
-          "metric": "SOL 1h: R$ 491.80 (Z: -1.13σ)"
-        },
-        {
-          "time": "20:09",
-          "score_a": 69,
-          "score_b": 31,
-          "metric": "SOL 1h: R$ 492.30 (Z: -0.52σ)"
-        },
-        {
-          "time": "20:10",
-          "score_a": 55,
-          "score_b": 45,
-          "metric": "SOL 1h: R$ 492.60 (Z: -0.13σ)"
-        },
-        {
-          "time": "20:11",
-          "score_a": 56,
-          "score_b": 44,
-          "metric": "SOL 1h: R$ 492.60 (Z: -0.16σ)"
-        },
-        {
-          "time": "20:12",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL 1h: R$ 490.90 (Z: -2.52σ)"
-        },
-        {
-          "time": "20:13",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL 1h: R$ 491.00 (Z: -2.27σ)"
-        },
-        {
-          "time": "20:14",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL 1h: R$ 491.10 (Z: -2.11σ)"
-        },
-        {
-          "time": "20:15",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL 1h: R$ 491.10 (Z: -2.09σ)"
-        },
-        {
-          "time": "20:16",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL 1h: R$ 491.10 (Z: -2.07σ)"
-        },
-        {
-          "time": "20:17",
-          "score_a": 83,
-          "score_b": 17,
-          "metric": "SOL 1h: R$ 492.00 (Z: -0.89σ)"
-        },
-        {
-          "time": "20:18",
-          "score_a": 40,
-          "score_b": 60,
-          "metric": "SOL 1h: R$ 492.90 (Z: +0.27σ)"
-        },
-        {
-          "time": "20:19",
-          "score_a": 26,
-          "score_b": 74,
-          "metric": "SOL 1h: R$ 493.20 (Z: +0.65σ)"
-        },
-        {
-          "time": "20:20",
-          "score_a": 42,
-          "score_b": 58,
-          "metric": "SOL 1h: R$ 492.90 (Z: +0.21σ)"
-        },
-        {
-          "time": "20:21",
-          "score_a": 28,
-          "score_b": 72,
-          "metric": "SOL 1h: R$ 493.20 (Z: +0.60σ)"
-        },
-        {
-          "time": "20:22",
-          "score_a": 86,
-          "score_b": 14,
-          "metric": "SOL 1h: R$ 492.10 (Z: -0.97σ)"
-        },
-        {
-          "time": "20:23",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL 1h: R$ 491.40 (Z: -1.91σ)"
-        },
-        {
-          "time": "20:24",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL 1h: R$ 491.50 (Z: -1.70σ)"
-        },
-        {
-          "time": "20:25",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL 1h: R$ 490.90 (Z: -2.36σ)"
-        },
-        {
-          "time": "20:27",
-          "score_a": 93,
-          "score_b": 7,
-          "metric": "SOL 1h: R$ 491.80 (Z: -1.16σ)"
-        },
-        {
-          "time": "20:28",
-          "score_a": 73,
-          "score_b": 27,
-          "metric": "SOL 1h: R$ 492.20 (Z: -0.63σ)"
-        },
-        {
-          "time": "20:29",
+          "time": "21:57",
           "score_a": 59,
           "score_b": 41,
-          "metric": "SOL 1h: R$ 492.50 (Z: -0.23σ)"
-        },
-        {
-          "time": "20:30",
-          "score_a": 35,
-          "score_b": 65,
-          "metric": "SOL 1h: R$ 493.00 (Z: +0.41σ)"
-        },
-        {
-          "time": "20:31",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 494.10 (Z: +1.79σ)"
-        },
-        {
-          "time": "20:32",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 494.10 (Z: +1.76σ)"
-        },
-        {
-          "time": "20:33",
-          "score_a": 13,
-          "score_b": 87,
-          "metric": "SOL 1h: R$ 493.50 (Z: +1.00σ)"
-        },
-        {
-          "time": "20:34",
-          "score_a": 13,
-          "score_b": 87,
-          "metric": "SOL 1h: R$ 493.50 (Z: +0.99σ)"
-        },
-        {
-          "time": "20:35",
-          "score_a": 36,
-          "score_b": 64,
-          "metric": "SOL 1h: R$ 493.00 (Z: +0.37σ)"
-        },
-        {
-          "time": "20:36",
-          "score_a": 50,
-          "score_b": 50,
-          "metric": "SOL 1h: R$ 492.70 (Z: -0.00σ)"
-        },
-        {
-          "time": "20:37",
-          "score_a": 50,
-          "score_b": 50,
-          "metric": "SOL 1h: R$ 492.70 (Z: +0.01σ)"
-        },
-        {
-          "time": "20:38",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "SOL 1h: R$ 492.50 (Z: -0.23σ)"
-        },
-        {
-          "time": "20:39",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL 1h: R$ 491.40 (Z: -1.54σ)"
-        },
-        {
-          "time": "20:40",
-          "score_a": 96,
-          "score_b": 4,
-          "metric": "SOL 1h: R$ 491.60 (Z: -1.25σ)"
-        },
-        {
-          "time": "20:41",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL 1h: R$ 491.10 (Z: -1.78σ)"
-        },
-        {
-          "time": "20:43",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL 1h: R$ 491.10 (Z: -1.70σ)"
-        },
-        {
-          "time": "20:44",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL 1h: R$ 491.00 (Z: -1.74σ)"
-        },
-        {
-          "time": "20:45",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL 1h: R$ 491.20 (Z: -1.45σ)"
-        },
-        {
-          "time": "20:46",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL 1h: R$ 491.20 (Z: -1.40σ)"
-        },
-        {
-          "time": "20:47",
-          "score_a": 56,
-          "score_b": 44,
-          "metric": "SOL 1h: R$ 492.30 (Z: -0.15σ)"
-        },
-        {
-          "time": "20:48",
-          "score_a": 60,
-          "score_b": 40,
-          "metric": "SOL 1h: R$ 492.20 (Z: -0.26σ)"
-        },
-        {
-          "time": "20:49",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "SOL 1h: R$ 492.20 (Z: -0.25σ)"
-        },
-        {
-          "time": "20:50",
-          "score_a": 71,
-          "score_b": 29,
-          "metric": "SOL 1h: R$ 491.90 (Z: -0.57σ)"
-        },
-        {
-          "time": "20:51",
-          "score_a": 25,
-          "score_b": 75,
-          "metric": "SOL 1h: R$ 493.00 (Z: +0.68σ)"
-        },
-        {
-          "time": "20:51",
-          "score_a": 49,
-          "score_b": 51,
-          "metric": "SOL 1h: R$ 492.40 (Z: +0.02σ)"
-        },
-        {
-          "time": "20:53",
-          "score_a": 53,
-          "score_b": 47,
-          "metric": "SOL 1h: R$ 492.30 (Z: -0.07σ)"
-        },
-        {
-          "time": "20:54",
-          "score_a": 65,
-          "score_b": 35,
-          "metric": "SOL 1h: R$ 492.00 (Z: -0.40σ)"
-        },
-        {
-          "time": "20:55",
-          "score_a": 47,
-          "score_b": 53,
-          "metric": "SOL 1h: R$ 492.40 (Z: +0.09σ)"
-        },
-        {
-          "time": "20:56",
-          "score_a": 29,
-          "score_b": 71,
-          "metric": "SOL 1h: R$ 492.80 (Z: +0.57σ)"
-        },
-        {
-          "time": "20:57",
-          "score_a": 85,
-          "score_b": 15,
-          "metric": "SOL 1h: R$ 491.50 (Z: -0.95σ)"
+          "metric": "SOL 1h: R$ 492.10 (Z: -0.23σ)"
         }
       ],
       "24h": [
-        {
-          "time": "20:58",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 484.50 (Z: +1.85σ)"
-        },
-        {
-          "time": "21:00",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 484.20 (Z: +1.34σ)"
-        },
-        {
-          "time": "21:02",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 484.30 (Z: +1.34σ)"
-        },
-        {
-          "time": "21:04",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 484.40 (Z: +1.39σ)"
-        },
-        {
-          "time": "21:06",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 484.80 (Z: +1.79σ)"
-        },
-        {
-          "time": "21:08",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 484.60 (Z: +1.42σ)"
-        },
-        {
-          "time": "21:10",
-          "score_a": 26,
-          "score_b": 74,
-          "metric": "SOL 1h: R$ 484.00 (Z: +0.64σ)"
-        },
-        {
-          "time": "21:12",
-          "score_a": 67,
-          "score_b": 33,
-          "metric": "SOL 1h: R$ 483.10 (Z: -0.46σ)"
-        },
-        {
-          "time": "21:14",
-          "score_a": 40,
-          "score_b": 60,
-          "metric": "SOL 1h: R$ 483.70 (Z: +0.28σ)"
-        },
-        {
-          "time": "21:16",
-          "score_a": 36,
-          "score_b": 64,
-          "metric": "SOL 1h: R$ 483.80 (Z: +0.38σ)"
-        },
-        {
-          "time": "21:19",
-          "score_a": 24,
-          "score_b": 76,
-          "metric": "SOL 1h: R$ 484.10 (Z: +0.71σ)"
-        },
-        {
-          "time": "21:21",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 484.70 (Z: +1.37σ)"
-        },
-        {
-          "time": "21:23",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 485.00 (Z: +1.62σ)"
-        },
-        {
-          "time": "21:25",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 485.40 (Z: +1.90σ)"
-        },
-        {
-          "time": "21:27",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 485.80 (Z: +2.08σ)"
-        },
-        {
-          "time": "21:29",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 486.30 (Z: +2.28σ)"
-        },
-        {
-          "time": "21:31",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 487.00 (Z: +2.58σ)"
-        },
-        {
-          "time": "21:33",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 487.50 (Z: +2.62σ)"
-        },
-        {
-          "time": "21:35",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 488.00 (Z: +2.60σ)"
-        },
-        {
-          "time": "21:37",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 493.00 (Z: +4.53σ)"
-        },
-        {
-          "time": "21:39",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 497.40 (Z: +4.52σ)"
-        },
-        {
-          "time": "21:41",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 494.20 (Z: +2.68σ)"
-        },
-        {
-          "time": "21:44",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 498.40 (Z: +3.26σ)"
-        },
-        {
-          "time": "21:46",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 498.50 (Z: +2.75σ)"
-        },
-        {
-          "time": "21:48",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 496.20 (Z: +1.98σ)"
-        },
-        {
-          "time": "21:50",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 497.90 (Z: +2.09σ)"
-        },
-        {
-          "time": "21:52",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 500.00 (Z: +2.25σ)"
-        },
-        {
-          "time": "21:54",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 498.80 (Z: +1.81σ)"
-        },
-        {
-          "time": "21:56",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL 1h: R$ 497.50 (Z: +1.46σ)"
-        },
         {
           "time": "21:58",
           "score_a": 0,
@@ -69503,33 +66251,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 29,
           "score_b": 71,
           "metric": "SOL 1h: R$ 492.80 (Z: +0.57σ)"
+        },
+        {
+          "time": "21:57",
+          "score_a": 59,
+          "score_b": 41,
+          "metric": "SOL 1h: R$ 492.10 (Z: -0.23σ)"
         }
       ],
       "7d": [
-        {
-          "time": "16/08 20:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL 1h: R$ 392.90 (Z: -1.88σ)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 86,
-          "score_b": 14,
-          "metric": "SOL 1h: R$ 392.90 (Z: -0.97σ)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 91,
-          "score_b": 9,
-          "metric": "SOL 1h: R$ 392.60 (Z: -1.12σ)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SOL 1h: R$ 390.00 (Z: -3.48σ)"
-        },
         {
           "time": "16/08 21:00",
           "score_a": 100,
@@ -73642,12 +70372,6 @@ window.PLANOS_TACTICAL_DATA = [
         }
       ],
       "30d": [
-        {
-          "time": "24/07 20:00",
-          "score_a": 83,
-          "score_b": 17,
-          "metric": "SOL 1h: R$ 376.40 (Z: -0.90σ)"
-        },
         {
           "time": "24/07 21:00",
           "score_a": 35,
@@ -78005,8 +74729,8 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Trade ETH ➔ BRL",
     "ponta_b_score": 100,
     "proximidade_score": 100,
-    "valor_atual_str": "ETH/BTC: 0.03170 (Z: +1.25σ)",
-    "distancia_display": "Z = +1.25σ (Meta: ±1.10σ)",
+    "valor_atual_str": "ETH/BTC: 0.03172 (Z: +1.41σ)",
+    "distancia_display": "Z = +1.41σ (Meta: ±1.10σ)",
     "status": "SENTINELA_QUENTE",
     "icone": "⚔️",
     "cor": "#3B82F6",
@@ -78016,535 +74740,13 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "time": "19:57",
-          "score_a": 8,
-          "score_b": 92,
-          "metric": "ETH/BTC: 0.03164 (Z: +0.93σ)"
-        },
-        {
-          "time": "19:58",
-          "score_a": 14,
-          "score_b": 86,
-          "metric": "ETH/BTC: 0.03162 (Z: +0.80σ)"
-        },
-        {
-          "time": "19:59",
-          "score_a": 6,
-          "score_b": 94,
-          "metric": "ETH/BTC: 0.03164 (Z: +0.97σ)"
-        },
-        {
-          "time": "20:00",
-          "score_a": 10,
-          "score_b": 90,
-          "metric": "ETH/BTC: 0.03163 (Z: +0.88σ)"
-        },
-        {
-          "time": "20:01",
-          "score_a": 6,
-          "score_b": 94,
-          "metric": "ETH/BTC: 0.03164 (Z: +0.97σ)"
-        },
-        {
-          "time": "20:02",
-          "score_a": 8,
-          "score_b": 92,
-          "metric": "ETH/BTC: 0.03164 (Z: +0.93σ)"
-        },
-        {
-          "time": "20:02",
-          "score_a": 8,
-          "score_b": 92,
-          "metric": "ETH/BTC: 0.03164 (Z: +0.93σ)"
-        },
-        {
-          "time": "20:03",
-          "score_a": 19,
-          "score_b": 81,
-          "metric": "ETH/BTC: 0.03160 (Z: +0.68σ)"
-        },
-        {
-          "time": "20:05",
-          "score_a": 6,
-          "score_b": 94,
-          "metric": "ETH/BTC: 0.03164 (Z: +0.97σ)"
-        },
-        {
-          "time": "20:06",
-          "score_a": 14,
-          "score_b": 86,
-          "metric": "ETH/BTC: 0.03162 (Z: +0.80σ)"
-        },
-        {
-          "time": "20:07",
-          "score_a": 11,
-          "score_b": 89,
-          "metric": "ETH/BTC: 0.03163 (Z: +0.87σ)"
-        },
-        {
-          "time": "20:08",
-          "score_a": 6,
-          "score_b": 94,
-          "metric": "ETH/BTC: 0.03164 (Z: +0.96σ)"
-        },
-        {
-          "time": "20:09",
-          "score_a": 9,
-          "score_b": 91,
-          "metric": "ETH/BTC: 0.03163 (Z: +0.89σ)"
-        },
-        {
-          "time": "20:10",
+          "time": "21:57",
           "score_a": 0,
           "score_b": 100,
-          "metric": "ETH/BTC: 0.03167 (Z: +1.12σ)"
-        },
-        {
-          "time": "20:11",
-          "score_a": 7,
-          "score_b": 93,
-          "metric": "ETH/BTC: 0.03164 (Z: +0.94σ)"
-        },
-        {
-          "time": "20:12",
-          "score_a": 13,
-          "score_b": 87,
-          "metric": "ETH/BTC: 0.03162 (Z: +0.82σ)"
-        },
-        {
-          "time": "20:13",
-          "score_a": 13,
-          "score_b": 87,
-          "metric": "ETH/BTC: 0.03162 (Z: +0.81σ)"
-        },
-        {
-          "time": "20:14",
-          "score_a": 15,
-          "score_b": 85,
-          "metric": "ETH/BTC: 0.03161 (Z: +0.77σ)"
-        },
-        {
-          "time": "20:15",
-          "score_a": 15,
-          "score_b": 85,
-          "metric": "ETH/BTC: 0.03162 (Z: +0.78σ)"
-        },
-        {
-          "time": "20:16",
-          "score_a": 17,
-          "score_b": 83,
-          "metric": "ETH/BTC: 0.03161 (Z: +0.73σ)"
-        },
-        {
-          "time": "20:17",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03167 (Z: +1.16σ)"
-        },
-        {
-          "time": "20:18",
-          "score_a": 12,
-          "score_b": 88,
-          "metric": "ETH/BTC: 0.03162 (Z: +0.83σ)"
-        },
-        {
-          "time": "20:19",
-          "score_a": 9,
-          "score_b": 91,
-          "metric": "ETH/BTC: 0.03164 (Z: +0.90σ)"
-        },
-        {
-          "time": "20:20",
-          "score_a": 7,
-          "score_b": 93,
-          "metric": "ETH/BTC: 0.03164 (Z: +0.95σ)"
-        },
-        {
-          "time": "20:21",
-          "score_a": 5,
-          "score_b": 95,
-          "metric": "ETH/BTC: 0.03165 (Z: +0.98σ)"
-        },
-        {
-          "time": "20:22",
-          "score_a": 8,
-          "score_b": 92,
-          "metric": "ETH/BTC: 0.03164 (Z: +0.92σ)"
-        },
-        {
-          "time": "20:23",
-          "score_a": 14,
-          "score_b": 86,
-          "metric": "ETH/BTC: 0.03162 (Z: +0.80σ)"
-        },
-        {
-          "time": "20:24",
-          "score_a": 11,
-          "score_b": 89,
-          "metric": "ETH/BTC: 0.03163 (Z: +0.86σ)"
-        },
-        {
-          "time": "20:25",
-          "score_a": 12,
-          "score_b": 88,
-          "metric": "ETH/BTC: 0.03163 (Z: +0.84σ)"
-        },
-        {
-          "time": "20:27",
-          "score_a": 7,
-          "score_b": 93,
-          "metric": "ETH/BTC: 0.03164 (Z: +0.95σ)"
-        },
-        {
-          "time": "20:28",
-          "score_a": 10,
-          "score_b": 90,
-          "metric": "ETH/BTC: 0.03163 (Z: +0.88σ)"
-        },
-        {
-          "time": "20:29",
-          "score_a": 10,
-          "score_b": 90,
-          "metric": "ETH/BTC: 0.03163 (Z: +0.88σ)"
-        },
-        {
-          "time": "20:30",
-          "score_a": 1,
-          "score_b": 99,
-          "metric": "ETH/BTC: 0.03166 (Z: +1.07σ)"
-        },
-        {
-          "time": "20:31",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03173 (Z: +1.53σ)"
-        },
-        {
-          "time": "20:32",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03175 (Z: +1.67σ)"
-        },
-        {
-          "time": "20:33",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03170 (Z: +1.31σ)"
-        },
-        {
-          "time": "20:34",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03169 (Z: +1.27σ)"
-        },
-        {
-          "time": "20:35",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03171 (Z: +1.39σ)"
-        },
-        {
-          "time": "20:36",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03170 (Z: +1.31σ)"
-        },
-        {
-          "time": "20:37",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03168 (Z: +1.17σ)"
-        },
-        {
-          "time": "20:38",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03168 (Z: +1.15σ)"
-        },
-        {
-          "time": "20:39",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03168 (Z: +1.14σ)"
-        },
-        {
-          "time": "20:40",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03171 (Z: +1.34σ)"
-        },
-        {
-          "time": "20:41",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03168 (Z: +1.13σ)"
-        },
-        {
-          "time": "20:43",
-          "score_a": 4,
-          "score_b": 96,
-          "metric": "ETH/BTC: 0.03166 (Z: +1.02σ)"
-        },
-        {
-          "time": "20:44",
-          "score_a": 6,
-          "score_b": 94,
-          "metric": "ETH/BTC: 0.03165 (Z: +0.98σ)"
-        },
-        {
-          "time": "20:45",
-          "score_a": 1,
-          "score_b": 99,
-          "metric": "ETH/BTC: 0.03167 (Z: +1.07σ)"
-        },
-        {
-          "time": "20:46",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03167 (Z: +1.10σ)"
-        },
-        {
-          "time": "20:47",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03168 (Z: +1.17σ)"
-        },
-        {
-          "time": "20:48",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03168 (Z: +1.16σ)"
-        },
-        {
-          "time": "20:49",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03169 (Z: +1.19σ)"
-        },
-        {
-          "time": "20:50",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03169 (Z: +1.24σ)"
-        },
-        {
-          "time": "20:51",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03177 (Z: +1.73σ)"
-        },
-        {
-          "time": "20:51",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03175 (Z: +1.60σ)"
-        },
-        {
-          "time": "20:53",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03173 (Z: +1.46σ)"
-        },
-        {
-          "time": "20:54",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03173 (Z: +1.46σ)"
-        },
-        {
-          "time": "20:55",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03171 (Z: +1.36σ)"
-        },
-        {
-          "time": "20:56",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03171 (Z: +1.32σ)"
-        },
-        {
-          "time": "20:57",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03170 (Z: +1.25σ)"
+          "metric": "ETH/BTC: 0.03172 (Z: +1.41σ)"
         }
       ],
       "24h": [
-        {
-          "time": "20:58",
-          "score_a": 57,
-          "score_b": 43,
-          "metric": "ETH/BTC: 0.03146 (Z: -0.15σ)"
-        },
-        {
-          "time": "21:00",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "ETH/BTC: 0.03144 (Z: -0.21σ)"
-        },
-        {
-          "time": "21:02",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "ETH/BTC: 0.03144 (Z: -0.21σ)"
-        },
-        {
-          "time": "21:04",
-          "score_a": 61,
-          "score_b": 39,
-          "metric": "ETH/BTC: 0.03143 (Z: -0.25σ)"
-        },
-        {
-          "time": "21:06",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "ETH/BTC: 0.03144 (Z: -0.20σ)"
-        },
-        {
-          "time": "21:08",
-          "score_a": 61,
-          "score_b": 39,
-          "metric": "ETH/BTC: 0.03143 (Z: -0.24σ)"
-        },
-        {
-          "time": "21:10",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "ETH/BTC: 0.03144 (Z: -0.21σ)"
-        },
-        {
-          "time": "21:12",
-          "score_a": 65,
-          "score_b": 35,
-          "metric": "ETH/BTC: 0.03141 (Z: -0.33σ)"
-        },
-        {
-          "time": "21:14",
-          "score_a": 65,
-          "score_b": 35,
-          "metric": "ETH/BTC: 0.03141 (Z: -0.32σ)"
-        },
-        {
-          "time": "21:16",
-          "score_a": 67,
-          "score_b": 33,
-          "metric": "ETH/BTC: 0.03140 (Z: -0.38σ)"
-        },
-        {
-          "time": "21:19",
-          "score_a": 65,
-          "score_b": 35,
-          "metric": "ETH/BTC: 0.03141 (Z: -0.32σ)"
-        },
-        {
-          "time": "21:21",
-          "score_a": 62,
-          "score_b": 38,
-          "metric": "ETH/BTC: 0.03143 (Z: -0.26σ)"
-        },
-        {
-          "time": "21:23",
-          "score_a": 60,
-          "score_b": 40,
-          "metric": "ETH/BTC: 0.03143 (Z: -0.22σ)"
-        },
-        {
-          "time": "21:25",
-          "score_a": 51,
-          "score_b": 49,
-          "metric": "ETH/BTC: 0.03147 (Z: -0.02σ)"
-        },
-        {
-          "time": "21:27",
-          "score_a": 63,
-          "score_b": 37,
-          "metric": "ETH/BTC: 0.03142 (Z: -0.29σ)"
-        },
-        {
-          "time": "21:29",
-          "score_a": 63,
-          "score_b": 37,
-          "metric": "ETH/BTC: 0.03142 (Z: -0.29σ)"
-        },
-        {
-          "time": "21:31",
-          "score_a": 61,
-          "score_b": 39,
-          "metric": "ETH/BTC: 0.03142 (Z: -0.25σ)"
-        },
-        {
-          "time": "21:33",
-          "score_a": 62,
-          "score_b": 38,
-          "metric": "ETH/BTC: 0.03142 (Z: -0.25σ)"
-        },
-        {
-          "time": "21:35",
-          "score_a": 64,
-          "score_b": 36,
-          "metric": "ETH/BTC: 0.03141 (Z: -0.32σ)"
-        },
-        {
-          "time": "21:37",
-          "score_a": 57,
-          "score_b": 43,
-          "metric": "ETH/BTC: 0.03144 (Z: -0.16σ)"
-        },
-        {
-          "time": "21:39",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "ETH/BTC: 0.03143 (Z: -0.19σ)"
-        },
-        {
-          "time": "21:41",
-          "score_a": 61,
-          "score_b": 39,
-          "metric": "ETH/BTC: 0.03142 (Z: -0.24σ)"
-        },
-        {
-          "time": "21:44",
-          "score_a": 62,
-          "score_b": 38,
-          "metric": "ETH/BTC: 0.03142 (Z: -0.26σ)"
-        },
-        {
-          "time": "21:46",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "ETH/BTC: 0.03143 (Z: -0.19σ)"
-        },
-        {
-          "time": "21:48",
-          "score_a": 63,
-          "score_b": 37,
-          "metric": "ETH/BTC: 0.03141 (Z: -0.28σ)"
-        },
-        {
-          "time": "21:50",
-          "score_a": 54,
-          "score_b": 46,
-          "metric": "ETH/BTC: 0.03145 (Z: -0.08σ)"
-        },
-        {
-          "time": "21:52",
-          "score_a": 57,
-          "score_b": 43,
-          "metric": "ETH/BTC: 0.03144 (Z: -0.14σ)"
-        },
-        {
-          "time": "21:54",
-          "score_a": 48,
-          "score_b": 52,
-          "metric": "ETH/BTC: 0.03147 (Z: +0.04σ)"
-        },
-        {
-          "time": "21:56",
-          "score_a": 47,
-          "score_b": 53,
-          "metric": "ETH/BTC: 0.03148 (Z: +0.07σ)"
-        },
         {
           "time": "21:58",
           "score_a": 47,
@@ -82486,33 +78688,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 0,
           "score_b": 100,
           "metric": "ETH/BTC: 0.03171 (Z: +1.32σ)"
+        },
+        {
+          "time": "21:57",
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "ETH/BTC: 0.03172 (Z: +1.41σ)"
         }
       ],
       "7d": [
-        {
-          "time": "16/08 20:00",
-          "score_a": 73,
-          "score_b": 27,
-          "metric": "ETH/BTC: 0.02983 (Z: -0.50σ)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 29,
-          "score_b": 71,
-          "metric": "ETH/BTC: 0.02985 (Z: +0.46σ)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 83,
-          "score_b": 17,
-          "metric": "ETH/BTC: 0.02983 (Z: -0.73σ)"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "ETH/BTC: 0.02980 (Z: -2.43σ)"
-        },
         {
           "time": "16/08 21:00",
           "score_a": 100,
@@ -86625,12 +82809,6 @@ window.PLANOS_TACTICAL_DATA = [
         }
       ],
       "30d": [
-        {
-          "time": "24/07 20:00",
-          "score_a": 15,
-          "score_b": 85,
-          "metric": "ETH/BTC: 0.02900 (Z: +0.78σ)"
-        },
         {
           "time": "24/07 21:00",
           "score_a": 29,
@@ -90984,12 +87162,12 @@ window.PLANOS_TACTICAL_DATA = [
     "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 120 | Teto R$ 240)",
     "cooldown_horas": 0.25,
     "ponta_a_label": "Trade BRL ➔ BTC",
-    "ponta_a_score": 58,
+    "ponta_a_score": 53,
     "ponta_b_label": "Trade BTC ➔ BRL",
-    "ponta_b_score": 42,
-    "proximidade_score": 58,
-    "valor_atual_str": "Retorno 5m: -0.06%",
-    "distancia_display": "Retorno 5m: -0.06% (Meta: ±0.35%)",
+    "ponta_b_score": 47,
+    "proximidade_score": 53,
+    "valor_atual_str": "Retorno 5m: -0.02%",
+    "distancia_display": "Retorno 5m: -0.02% (Meta: ±0.35%)",
     "status": "SENTINELA_QUENTE",
     "icone": "🏹",
     "cor": "#EF4444",
@@ -90999,535 +87177,13 @@ window.PLANOS_TACTICAL_DATA = [
     "series_historica": {
       "1h": [
         {
-          "time": "19:57",
-          "score_a": 62,
-          "score_b": 38,
-          "metric": "Retorno 5m: -0.09%"
-        },
-        {
-          "time": "19:58",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "Retorno 5m: -0.06%"
-        },
-        {
-          "time": "19:59",
-          "score_a": 55,
-          "score_b": 45,
-          "metric": "Retorno 5m: -0.03%"
-        },
-        {
-          "time": "20:00",
-          "score_a": 58,
-          "score_b": 42,
-          "metric": "Retorno 5m: -0.05%"
-        },
-        {
-          "time": "20:01",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "Retorno 5m: -0.07%"
-        },
-        {
-          "time": "20:02",
-          "score_a": 76,
-          "score_b": 24,
-          "metric": "Retorno 5m: -0.18%"
-        },
-        {
-          "time": "20:02",
-          "score_a": 73,
-          "score_b": 27,
-          "metric": "Retorno 5m: -0.16%"
-        },
-        {
-          "time": "20:03",
-          "score_a": 81,
-          "score_b": 19,
-          "metric": "Retorno 5m: -0.21%"
-        },
-        {
-          "time": "20:05",
-          "score_a": 80,
-          "score_b": 20,
-          "metric": "Retorno 5m: -0.21%"
-        },
-        {
-          "time": "20:06",
-          "score_a": 75,
-          "score_b": 25,
-          "metric": "Retorno 5m: -0.17%"
-        },
-        {
-          "time": "20:07",
-          "score_a": 63,
-          "score_b": 37,
-          "metric": "Retorno 5m: -0.09%"
-        },
-        {
-          "time": "20:08",
-          "score_a": 59,
-          "score_b": 41,
-          "metric": "Retorno 5m: -0.06%"
-        },
-        {
-          "time": "20:09",
-          "score_a": 45,
-          "score_b": 55,
-          "metric": "Retorno 5m: +0.04%"
-        },
-        {
-          "time": "20:10",
-          "score_a": 35,
-          "score_b": 65,
-          "metric": "Retorno 5m: +0.11%"
-        },
-        {
-          "time": "20:11",
-          "score_a": 55,
-          "score_b": 45,
-          "metric": "Retorno 5m: -0.04%"
-        },
-        {
-          "time": "20:12",
+          "time": "21:57",
           "score_a": 53,
           "score_b": 47,
           "metric": "Retorno 5m: -0.02%"
-        },
-        {
-          "time": "20:13",
-          "score_a": 52,
-          "score_b": 48,
-          "metric": "Retorno 5m: -0.01%"
-        },
-        {
-          "time": "20:14",
-          "score_a": 56,
-          "score_b": 44,
-          "metric": "Retorno 5m: -0.05%"
-        },
-        {
-          "time": "20:15",
-          "score_a": 61,
-          "score_b": 39,
-          "metric": "Retorno 5m: -0.08%"
-        },
-        {
-          "time": "20:16",
-          "score_a": 33,
-          "score_b": 67,
-          "metric": "Retorno 5m: +0.12%"
-        },
-        {
-          "time": "20:17",
-          "score_a": 35,
-          "score_b": 65,
-          "metric": "Retorno 5m: +0.11%"
-        },
-        {
-          "time": "20:18",
-          "score_a": 23,
-          "score_b": 77,
-          "metric": "Retorno 5m: +0.19%"
-        },
-        {
-          "time": "20:19",
-          "score_a": 22,
-          "score_b": 78,
-          "metric": "Retorno 5m: +0.19%"
-        },
-        {
-          "time": "20:20",
-          "score_a": 37,
-          "score_b": 63,
-          "metric": "Retorno 5m: +0.09%"
-        },
-        {
-          "time": "20:21",
-          "score_a": 48,
-          "score_b": 52,
-          "metric": "Retorno 5m: +0.01%"
-        },
-        {
-          "time": "20:22",
-          "score_a": 44,
-          "score_b": 56,
-          "metric": "Retorno 5m: +0.04%"
-        },
-        {
-          "time": "20:23",
-          "score_a": 63,
-          "score_b": 37,
-          "metric": "Retorno 5m: -0.09%"
-        },
-        {
-          "time": "20:24",
-          "score_a": 70,
-          "score_b": 30,
-          "metric": "Retorno 5m: -0.14%"
-        },
-        {
-          "time": "20:25",
-          "score_a": 62,
-          "score_b": 38,
-          "metric": "Retorno 5m: -0.09%"
-        },
-        {
-          "time": "20:27",
-          "score_a": 57,
-          "score_b": 43,
-          "metric": "Retorno 5m: -0.05%"
-        },
-        {
-          "time": "20:28",
-          "score_a": 39,
-          "score_b": 61,
-          "metric": "Retorno 5m: +0.08%"
-        },
-        {
-          "time": "20:29",
-          "score_a": 32,
-          "score_b": 68,
-          "metric": "Retorno 5m: +0.13%"
-        },
-        {
-          "time": "20:30",
-          "score_a": 12,
-          "score_b": 88,
-          "metric": "Retorno 5m: +0.27%"
-        },
-        {
-          "time": "20:31",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Retorno 5m: +0.40%"
-        },
-        {
-          "time": "20:32",
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Retorno 5m: +0.41%"
-        },
-        {
-          "time": "20:33",
-          "score_a": 19,
-          "score_b": 81,
-          "metric": "Retorno 5m: +0.22%"
-        },
-        {
-          "time": "20:34",
-          "score_a": 29,
-          "score_b": 71,
-          "metric": "Retorno 5m: +0.15%"
-        },
-        {
-          "time": "20:35",
-          "score_a": 48,
-          "score_b": 52,
-          "metric": "Retorno 5m: +0.02%"
-        },
-        {
-          "time": "20:36",
-          "score_a": 79,
-          "score_b": 21,
-          "metric": "Retorno 5m: -0.20%"
-        },
-        {
-          "time": "20:37",
-          "score_a": 84,
-          "score_b": 16,
-          "metric": "Retorno 5m: -0.23%"
-        },
-        {
-          "time": "20:38",
-          "score_a": 77,
-          "score_b": 23,
-          "metric": "Retorno 5m: -0.19%"
-        },
-        {
-          "time": "20:39",
-          "score_a": 88,
-          "score_b": 12,
-          "metric": "Retorno 5m: -0.26%"
-        },
-        {
-          "time": "20:40",
-          "score_a": 86,
-          "score_b": 14,
-          "metric": "Retorno 5m: -0.25%"
-        },
-        {
-          "time": "20:41",
-          "score_a": 67,
-          "score_b": 33,
-          "metric": "Retorno 5m: -0.12%"
-        },
-        {
-          "time": "20:43",
-          "score_a": 75,
-          "score_b": 25,
-          "metric": "Retorno 5m: -0.18%"
-        },
-        {
-          "time": "20:44",
-          "score_a": 79,
-          "score_b": 21,
-          "metric": "Retorno 5m: -0.21%"
-        },
-        {
-          "time": "20:45",
-          "score_a": 52,
-          "score_b": 48,
-          "metric": "Retorno 5m: -0.01%"
-        },
-        {
-          "time": "20:46",
-          "score_a": 52,
-          "score_b": 48,
-          "metric": "Retorno 5m: -0.02%"
-        },
-        {
-          "time": "20:47",
-          "score_a": 44,
-          "score_b": 56,
-          "metric": "Retorno 5m: +0.04%"
-        },
-        {
-          "time": "20:48",
-          "score_a": 38,
-          "score_b": 62,
-          "metric": "Retorno 5m: +0.08%"
-        },
-        {
-          "time": "20:49",
-          "score_a": 29,
-          "score_b": 71,
-          "metric": "Retorno 5m: +0.15%"
-        },
-        {
-          "time": "20:50",
-          "score_a": 36,
-          "score_b": 64,
-          "metric": "Retorno 5m: +0.10%"
-        },
-        {
-          "time": "20:51",
-          "score_a": 23,
-          "score_b": 77,
-          "metric": "Retorno 5m: +0.19%"
-        },
-        {
-          "time": "20:51",
-          "score_a": 43,
-          "score_b": 57,
-          "metric": "Retorno 5m: +0.05%"
-        },
-        {
-          "time": "20:53",
-          "score_a": 47,
-          "score_b": 53,
-          "metric": "Retorno 5m: +0.02%"
-        },
-        {
-          "time": "20:54",
-          "score_a": 51,
-          "score_b": 49,
-          "metric": "Retorno 5m: -0.01%"
-        },
-        {
-          "time": "20:55",
-          "score_a": 31,
-          "score_b": 69,
-          "metric": "Retorno 5m: +0.13%"
-        },
-        {
-          "time": "20:56",
-          "score_a": 39,
-          "score_b": 61,
-          "metric": "Retorno 5m: +0.08%"
-        },
-        {
-          "time": "20:57",
-          "score_a": 58,
-          "score_b": 42,
-          "metric": "Retorno 5m: -0.06%"
         }
       ],
       "24h": [
-        {
-          "time": "20:58",
-          "score_a": 44,
-          "score_b": 56,
-          "metric": "Retorno 5m: +0.04%"
-        },
-        {
-          "time": "21:00",
-          "score_a": 55,
-          "score_b": 45,
-          "metric": "Retorno 5m: -0.03%"
-        },
-        {
-          "time": "21:02",
-          "score_a": 47,
-          "score_b": 53,
-          "metric": "Retorno 5m: +0.02%"
-        },
-        {
-          "time": "21:04",
-          "score_a": 48,
-          "score_b": 52,
-          "metric": "Retorno 5m: +0.01%"
-        },
-        {
-          "time": "21:06",
-          "score_a": 49,
-          "score_b": 51,
-          "metric": "Retorno 5m: +0.01%"
-        },
-        {
-          "time": "21:08",
-          "score_a": 50,
-          "score_b": 50,
-          "metric": "Retorno 5m: +0.00%"
-        },
-        {
-          "time": "21:10",
-          "score_a": 58,
-          "score_b": 42,
-          "metric": "Retorno 5m: -0.05%"
-        },
-        {
-          "time": "21:12",
-          "score_a": 62,
-          "score_b": 38,
-          "metric": "Retorno 5m: -0.08%"
-        },
-        {
-          "time": "21:14",
-          "score_a": 52,
-          "score_b": 48,
-          "metric": "Retorno 5m: -0.01%"
-        },
-        {
-          "time": "21:16",
-          "score_a": 53,
-          "score_b": 47,
-          "metric": "Retorno 5m: -0.02%"
-        },
-        {
-          "time": "21:19",
-          "score_a": 46,
-          "score_b": 54,
-          "metric": "Retorno 5m: +0.03%"
-        },
-        {
-          "time": "21:21",
-          "score_a": 39,
-          "score_b": 61,
-          "metric": "Retorno 5m: +0.08%"
-        },
-        {
-          "time": "21:23",
-          "score_a": 46,
-          "score_b": 54,
-          "metric": "Retorno 5m: +0.03%"
-        },
-        {
-          "time": "21:25",
-          "score_a": 36,
-          "score_b": 64,
-          "metric": "Retorno 5m: +0.10%"
-        },
-        {
-          "time": "21:27",
-          "score_a": 26,
-          "score_b": 74,
-          "metric": "Retorno 5m: +0.17%"
-        },
-        {
-          "time": "21:29",
-          "score_a": 35,
-          "score_b": 65,
-          "metric": "Retorno 5m: +0.11%"
-        },
-        {
-          "time": "21:31",
-          "score_a": 40,
-          "score_b": 60,
-          "metric": "Retorno 5m: +0.07%"
-        },
-        {
-          "time": "21:33",
-          "score_a": 48,
-          "score_b": 52,
-          "metric": "Retorno 5m: +0.02%"
-        },
-        {
-          "time": "21:35",
-          "score_a": 38,
-          "score_b": 62,
-          "metric": "Retorno 5m: +0.08%"
-        },
-        {
-          "time": "21:37",
-          "score_a": 41,
-          "score_b": 59,
-          "metric": "Retorno 5m: +0.06%"
-        },
-        {
-          "time": "21:39",
-          "score_a": 46,
-          "score_b": 54,
-          "metric": "Retorno 5m: +0.03%"
-        },
-        {
-          "time": "21:41",
-          "score_a": 47,
-          "score_b": 53,
-          "metric": "Retorno 5m: +0.02%"
-        },
-        {
-          "time": "21:44",
-          "score_a": 40,
-          "score_b": 60,
-          "metric": "Retorno 5m: +0.07%"
-        },
-        {
-          "time": "21:46",
-          "score_a": 46,
-          "score_b": 54,
-          "metric": "Retorno 5m: +0.03%"
-        },
-        {
-          "time": "21:48",
-          "score_a": 49,
-          "score_b": 51,
-          "metric": "Retorno 5m: +0.01%"
-        },
-        {
-          "time": "21:50",
-          "score_a": 43,
-          "score_b": 57,
-          "metric": "Retorno 5m: +0.05%"
-        },
-        {
-          "time": "21:52",
-          "score_a": 38,
-          "score_b": 62,
-          "metric": "Retorno 5m: +0.08%"
-        },
-        {
-          "time": "21:54",
-          "score_a": 49,
-          "score_b": 51,
-          "metric": "Retorno 5m: +0.01%"
-        },
-        {
-          "time": "21:56",
-          "score_a": 51,
-          "score_b": 49,
-          "metric": "Retorno 5m: -0.01%"
-        },
         {
           "time": "21:58",
           "score_a": 50,
@@ -95469,33 +91125,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 39,
           "score_b": 61,
           "metric": "Retorno 5m: +0.08%"
+        },
+        {
+          "time": "21:57",
+          "score_a": 53,
+          "score_b": 47,
+          "metric": "Retorno 5m: -0.02%"
         }
       ],
       "7d": [
-        {
-          "time": "16/08 20:00",
-          "score_a": 45,
-          "score_b": 55,
-          "metric": "Retorno 5m: +0.03%"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 54,
-          "score_b": 46,
-          "metric": "Retorno 5m: -0.03%"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 51,
-          "score_b": 49,
-          "metric": "Retorno 5m: -0.01%"
-        },
-        {
-          "time": "16/08 21:00",
-          "score_a": 74,
-          "score_b": 26,
-          "metric": "Retorno 5m: -0.17%"
-        },
         {
           "time": "16/08 21:00",
           "score_a": 46,
@@ -99608,12 +95246,6 @@ window.PLANOS_TACTICAL_DATA = [
         }
       ],
       "30d": [
-        {
-          "time": "24/07 20:00",
-          "score_a": 40,
-          "score_b": 60,
-          "metric": "Retorno 5m: +0.07%"
-        },
         {
           "time": "24/07 21:00",
           "score_a": 45,
