@@ -1,15 +1,15 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-23 22:33:59)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-23 22:35:16)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-23 22:33:59",
-  "total_brl": 1711.16,
+  "timestamp_str": "2026-08-23 22:35:16",
+  "total_brl": 1711.18,
   "aportado_brl": 1731.0,
-  "prejuizo_residual_brl": -19.84,
+  "prejuizo_residual_brl": -19.82,
   "caixa_brl": 972.21,
   "caixa_pct": 56.82,
-  "btc_brl": 626.93,
+  "btc_brl": 626.9,
   "btc_qtd": 0.00157122,
   "btc_pct": 36.64,
-  "paxg_brl": 108.35,
+  "paxg_brl": 108.4,
   "paxg_qtd": 0.00456335,
   "paxg_pct": 6.33,
   "sol_brl": 0.18,
@@ -32,7 +32,7 @@ window.PORTFOLIO_STATE = {
       "asset": "BTC",
       "nome": "Bitcoin Spot",
       "qtd": 0.00157122,
-      "valor_brl": 626.93,
+      "valor_brl": 626.9,
       "pct": 36.64,
       "cor": "#F59E0B",
       "icone": "🪙"
@@ -41,7 +41,7 @@ window.PORTFOLIO_STATE = {
       "asset": "PAXG",
       "nome": "Ouro PAXG (Earn/Spot)",
       "qtd": 0.00456335,
-      "valor_brl": 108.35,
+      "valor_brl": 108.4,
       "pct": 6.33,
       "cor": "#EAB308",
       "icone": "🥇"
@@ -66,13 +66,13 @@ window.PORTFOLIO_STATE = {
     }
   ],
   "cotacoes_ao_vivo": {
-    "BTCBRL": 399010.0,
-    "USDTBRL": 5.1584,
-    "PAXGBRL": 23744.218368000005,
+    "BTCBRL": 398989.0,
+    "USDTBRL": 5.1583,
+    "PAXGBRL": 23755.312658,
     "SOLBRL": 488.0,
-    "ETHBRL": 12619.76,
+    "ETHBRL": 12632.29,
     "LINKBRL": 59.08,
-    "BNBBRL": 3607.0,
+    "BNBBRL": 3609.0,
     "ADABRL": 1.142,
     "VIX": 15.130000114440918,
     "USDBRL_COMERCIAL": 5.1364

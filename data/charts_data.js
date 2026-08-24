@@ -1,4 +1,4 @@
-// Gerado automaticamente pelo MoneyLab Multi-Timeframe Kinetics Engine (2026-08-24 01:34:06)
+// Gerado automaticamente pelo MoneyLab Multi-Timeframe Kinetics Engine (2026-08-24 01:35:23)
 window.ASSETS_KINETICS_DATA = {
   "BTCBRL": {
     "symbol": "BTCBRL",
@@ -89515,14 +89515,14 @@ window.ASSETS_KINETICS_DATA = {
   "PAXGBRL": {
     "symbol": "PAXGBRL",
     "display_name": "PAXG",
-    "preco_atual": 23748.61,
+    "preco_atual": 23763.25,
     "timeframes": {
       "1h": {
         "label": "1 HORA",
-        "variacao_periodo": 0.3,
-        "velocidade_inst": 0.192,
-        "aceleracao_inst": 0.19,
-        "poder_subida_thrust": 59.2,
+        "variacao_periodo": 0.36,
+        "velocidade_inst": 0.223,
+        "aceleracao_inst": 0.221,
+        "poder_subida_thrust": 60.6,
         "estado_cinetico": "EQUILIBRIO_INERCIAL",
         "series": {
           "timestamps": [
@@ -89599,7 +89599,7 @@ window.ASSETS_KINETICS_DATA = {
             23657.78,
             23655.91,
             23658.19,
-            23748.61
+            23763.25
           ],
           "bb_upper": [
             23673.85,
@@ -89637,7 +89637,7 @@ window.ASSETS_KINETICS_DATA = {
             23672.77,
             23671.93,
             23670.37,
-            23705.4
+            23712.58
           ],
           "bb_lower": [
             23673.85,
@@ -89675,7 +89675,7 @@ window.ASSETS_KINETICS_DATA = {
             23653.67,
             23653.05,
             23653.26,
-            23625.97
+            23620.25
           ],
           "bollinger_upper": [
             23673.85,
@@ -89713,7 +89713,7 @@ window.ASSETS_KINETICS_DATA = {
             23672.77,
             23671.93,
             23670.37,
-            23705.4
+            23712.58
           ],
           "bollinger_lower": [
             23673.85,
@@ -89751,7 +89751,7 @@ window.ASSETS_KINETICS_DATA = {
             23653.67,
             23653.05,
             23653.26,
-            23625.97
+            23620.25
           ],
           "velocities": [
             0.0,
@@ -89789,7 +89789,7 @@ window.ASSETS_KINETICS_DATA = {
             -0.0,
             -0.004,
             0.003,
-            0.192
+            0.223
           ],
           "accelerations": [
             0.0,
@@ -89827,7 +89827,7 @@ window.ASSETS_KINETICS_DATA = {
             0.002,
             -0.004,
             0.007,
-            0.19
+            0.221
           ],
           "thrust": [
             50.0,
@@ -89865,16 +89865,16 @@ window.ASSETS_KINETICS_DATA = {
             50.1,
             49.8,
             50.3,
-            59.2
+            60.6
           ]
         }
       },
       "24h": {
         "label": "24 HORAS",
-        "variacao_periodo": 0.42,
-        "velocidade_inst": 0.121,
-        "aceleracao_inst": 0.132,
-        "poder_subida_thrust": 56.1,
+        "variacao_periodo": 0.48,
+        "velocidade_inst": 0.142,
+        "aceleracao_inst": 0.153,
+        "poder_subida_thrust": 57.1,
         "estado_cinetico": "EQUILIBRIO_INERCIAL",
         "series": {
           "timestamps": [
@@ -90539,7 +90539,7 @@ window.ASSETS_KINETICS_DATA = {
             23660.85,
             23658.29,
             23657.39,
-            23748.61
+            23763.25
           ],
           "bb_upper": [
             23649.1,
@@ -90871,7 +90871,7 @@ window.ASSETS_KINETICS_DATA = {
             23698.98,
             23700.44,
             23701.67,
-            23720.96
+            23727.14
           ],
           "bb_lower": [
             23649.1,
@@ -91203,7 +91203,7 @@ window.ASSETS_KINETICS_DATA = {
             23663.15,
             23659.27,
             23655.85,
-            23643.45
+            23638.73
           ],
           "bollinger_upper": [
             23649.1,
@@ -91535,7 +91535,7 @@ window.ASSETS_KINETICS_DATA = {
             23698.98,
             23700.44,
             23701.67,
-            23720.96
+            23727.14
           ],
           "bollinger_lower": [
             23649.1,
@@ -91867,7 +91867,7 @@ window.ASSETS_KINETICS_DATA = {
             23663.15,
             23659.27,
             23655.85,
-            23643.45
+            23638.73
           ],
           "velocities": [
             0.0,
@@ -92199,7 +92199,7 @@ window.ASSETS_KINETICS_DATA = {
             -0.016,
             -0.014,
             -0.011,
-            0.121
+            0.142
           ],
           "accelerations": [
             0.0,
@@ -92531,7 +92531,7 @@ window.ASSETS_KINETICS_DATA = {
             0.001,
             0.002,
             0.003,
-            0.132
+            0.153
           ],
           "thrust": [
             50.0,
@@ -92863,16 +92863,16 @@ window.ASSETS_KINETICS_DATA = {
             49.7,
             49.8,
             49.9,
-            56.1
+            57.1
           ]
         }
       },
       "1sem": {
         "label": "1 SEMANA",
-        "variacao_periodo": 1.75,
-        "velocidade_inst": 0.088,
-        "aceleracao_inst": 0.119,
-        "poder_subida_thrust": 55.1,
+        "variacao_periodo": 1.81,
+        "velocidade_inst": 0.106,
+        "aceleracao_inst": 0.136,
+        "poder_subida_thrust": 56.0,
         "estado_cinetico": "EQUILIBRIO_INERCIAL",
         "series": {
           "timestamps": [
@@ -93907,7 +93907,7 @@ window.ASSETS_KINETICS_DATA = {
             23680.46,
             23678.54,
             23657.67,
-            23748.61
+            23763.25
           ],
           "bb_upper": [
             23405.13,
@@ -94424,7 +94424,7 @@ window.ASSETS_KINETICS_DATA = {
             23720.87,
             23720.45,
             23718.12,
-            23730.9
+            23735.93
           ],
           "bb_lower": [
             23405.13,
@@ -94941,7 +94941,7 @@ window.ASSETS_KINETICS_DATA = {
             23610.05,
             23615.78,
             23621.51,
-            23621.35
+            23617.78
           ],
           "bollinger_upper": [
             23405.13,
@@ -95458,7 +95458,7 @@ window.ASSETS_KINETICS_DATA = {
             23720.87,
             23720.45,
             23718.12,
-            23730.9
+            23735.93
           ],
           "bollinger_lower": [
             23405.13,
@@ -95975,7 +95975,7 @@ window.ASSETS_KINETICS_DATA = {
             23610.05,
             23615.78,
             23621.51,
-            23621.35
+            23617.78
           ],
           "velocities": [
             0.0,
@@ -96492,7 +96492,7 @@ window.ASSETS_KINETICS_DATA = {
             -0.008,
             -0.008,
             -0.031,
-            0.088
+            0.106
           ],
           "accelerations": [
             0.0,
@@ -97009,7 +97009,7 @@ window.ASSETS_KINETICS_DATA = {
             -0.003,
             -0.0,
             -0.023,
-            0.119
+            0.136
           ],
           "thrust": [
             50.0,
@@ -97526,16 +97526,16 @@ window.ASSETS_KINETICS_DATA = {
             49.8,
             49.9,
             48.8,
-            55.1
+            56.0
           ]
         }
       },
       "1m": {
         "label": "1 MÊS",
-        "variacao_periodo": 4.54,
-        "velocidade_inst": 0.086,
-        "aceleracao_inst": 0.056,
-        "poder_subida_thrust": 53.2,
+        "variacao_periodo": 4.61,
+        "velocidade_inst": 0.1,
+        "aceleracao_inst": 0.07,
+        "poder_subida_thrust": 53.9,
         "estado_cinetico": "EQUILIBRIO_INERCIAL",
         "series": {
           "timestamps": [
@@ -98506,7 +98506,7 @@ window.ASSETS_KINETICS_DATA = {
             23665.5,
             23702.9,
             23681.87,
-            23748.61
+            23763.25
           ],
           "bb_upper": [
             22750.75,
@@ -98991,7 +98991,7 @@ window.ASSETS_KINETICS_DATA = {
             23696.31,
             23701.84,
             23705.66,
-            23723.27
+            23728.26
           ],
           "bb_lower": [
             22750.75,
@@ -99476,7 +99476,7 @@ window.ASSETS_KINETICS_DATA = {
             23584.87,
             23581.74,
             23580.69,
-            23569.8
+            23566.27
           ],
           "bollinger_upper": [
             22750.75,
@@ -99961,7 +99961,7 @@ window.ASSETS_KINETICS_DATA = {
             23696.31,
             23701.84,
             23705.66,
-            23723.27
+            23728.26
           ],
           "bollinger_lower": [
             22750.75,
@@ -100446,7 +100446,7 @@ window.ASSETS_KINETICS_DATA = {
             23584.87,
             23581.74,
             23580.69,
-            23569.8
+            23566.27
           ],
           "velocities": [
             0.0,
@@ -100931,7 +100931,7 @@ window.ASSETS_KINETICS_DATA = {
             0.037,
             0.064,
             0.03,
-            0.086
+            0.1
           ],
           "accelerations": [
             0.0,
@@ -101416,7 +101416,7 @@ window.ASSETS_KINETICS_DATA = {
             0.021,
             0.027,
             -0.034,
-            0.056
+            0.07
           ],
           "thrust": [
             50.0,
@@ -101901,16 +101901,16 @@ window.ASSETS_KINETICS_DATA = {
             51.3,
             52.0,
             49.5,
-            53.2
+            53.9
           ]
         }
       },
       "1a": {
         "label": "1 ANO",
-        "variacao_periodo": -11.28,
-        "velocidade_inst": 0.12,
-        "aceleracao_inst": 0.085,
-        "poder_subida_thrust": 54.7,
+        "variacao_periodo": -11.23,
+        "velocidade_inst": 0.131,
+        "aceleracao_inst": 0.096,
+        "poder_subida_thrust": 55.2,
         "estado_cinetico": "EQUILIBRIO_INERCIAL",
         "series": {
           "timestamps": [
@@ -103085,7 +103085,7 @@ window.ASSETS_KINETICS_DATA = {
             23666.09,
             23638.44,
             23630.01,
-            23748.61
+            23763.25
           ],
           "bb_upper": [
             26600.43,
@@ -103672,7 +103672,7 @@ window.ASSETS_KINETICS_DATA = {
             23795.3,
             23811.42,
             23820.48,
-            23834.84
+            23837.9
           ],
           "bb_lower": [
             26600.43,
@@ -104259,7 +104259,7 @@ window.ASSETS_KINETICS_DATA = {
             23067.88,
             23095.42,
             23129.17,
-            23174.96
+            23173.36
           ],
           "bollinger_upper": [
             26600.43,
@@ -104846,7 +104846,7 @@ window.ASSETS_KINETICS_DATA = {
             23795.3,
             23811.42,
             23820.48,
-            23834.84
+            23837.9
           ],
           "bollinger_lower": [
             26600.43,
@@ -105433,7 +105433,7 @@ window.ASSETS_KINETICS_DATA = {
             23067.88,
             23095.42,
             23129.17,
-            23174.96
+            23173.36
           ],
           "velocities": [
             0.0,
@@ -106020,7 +106020,7 @@ window.ASSETS_KINETICS_DATA = {
             0.088,
             0.051,
             0.035,
-            0.12
+            0.131
           ],
           "accelerations": [
             0.0,
@@ -106607,7 +106607,7 @@ window.ASSETS_KINETICS_DATA = {
             -0.053,
             -0.037,
             -0.016,
-            0.085
+            0.096
           ],
           "thrust": [
             50.0,
@@ -107194,16 +107194,16 @@ window.ASSETS_KINETICS_DATA = {
             50.0,
             49.8,
             50.2,
-            54.7
+            55.2
           ]
         }
       },
       "tudo": {
         "label": "TUDO (1.4 ANOS)",
-        "variacao_periodo": -21.53,
-        "velocidade_inst": 0.215,
-        "aceleracao_inst": 0.045,
-        "poder_subida_thrust": 55.2,
+        "variacao_periodo": -21.48,
+        "velocidade_inst": 0.224,
+        "aceleracao_inst": 0.055,
+        "poder_subida_thrust": 55.7,
         "estado_cinetico": "EQUILIBRIO_INERCIAL",
         "series": {
           "timestamps": [
@@ -108244,7 +108244,7 @@ window.ASSETS_KINETICS_DATA = {
             23815.42,
             23714.95,
             23639.13,
-            23748.61
+            23763.25
           ],
           "bb_upper": [
             29881.65,
@@ -108764,7 +108764,7 @@ window.ASSETS_KINETICS_DATA = {
             23747.05,
             23830.29,
             23871.29,
-            23926.64
+            23929.69
           ],
           "bb_lower": [
             29881.65,
@@ -109284,7 +109284,7 @@ window.ASSETS_KINETICS_DATA = {
             22407.87,
             22426.26,
             22489.23,
-            22541.12
+            22539.54
           ],
           "bollinger_upper": [
             29881.65,
@@ -109804,7 +109804,7 @@ window.ASSETS_KINETICS_DATA = {
             23747.05,
             23830.29,
             23871.29,
-            23926.64
+            23929.69
           ],
           "bollinger_lower": [
             29881.65,
@@ -110324,7 +110324,7 @@ window.ASSETS_KINETICS_DATA = {
             22407.87,
             22426.26,
             22489.23,
-            22541.12
+            22539.54
           ],
           "velocities": [
             0.0,
@@ -110844,7 +110844,7 @@ window.ASSETS_KINETICS_DATA = {
             0.382,
             0.258,
             0.169,
-            0.215
+            0.224
           ],
           "accelerations": [
             0.0,
@@ -111364,7 +111364,7 @@ window.ASSETS_KINETICS_DATA = {
             0.192,
             -0.124,
             -0.089,
-            0.045
+            0.055
           ],
           "thrust": [
             50.0,
@@ -111884,7 +111884,7 @@ window.ASSETS_KINETICS_DATA = {
             62.6,
             50.9,
             50.4,
-            55.2
+            55.7
           ]
         }
       }
