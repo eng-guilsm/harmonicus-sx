@@ -32,7 +32,10 @@ function renderHeroPatrimony(p) {
   const elPatrimonio = document.getElementById('patrimonioTotal');
   const elCaixa = document.getElementById('caixaLivre');
   const elBtc = document.getElementById('tickBTC');
+  const elLink = document.getElementById('tickLINK');
+  const elSol = document.getElementById('tickSOL');
   const elPaxg = document.getElementById('tickPAXG');
+  const elEth = document.getElementById('tickETH');
   const elUsdt = document.getElementById('tickUSDT');
   const elVix = document.getElementById('tickVIX');
   const elGatekeeperBadge = document.getElementById('gatekeeperBadge');
@@ -45,7 +48,10 @@ function renderHeroPatrimony(p) {
 
   const c = p.cotacoes_ao_vivo || {};
   if (elBtc && c.BTCBRL) elBtc.textContent = `R$ ${Math.round(c.BTCBRL).toLocaleString('pt-BR')}`;
+  if (elLink && c.LINKBRL) elLink.textContent = `R$ ${c.LINKBRL.toFixed(2)}`;
+  if (elSol && c.SOLBRL) elSol.textContent = `R$ ${c.SOLBRL.toFixed(2)}`;
   if (elPaxg && c.PAXGBRL) elPaxg.textContent = `R$ ${Math.round(c.PAXGBRL).toLocaleString('pt-BR')}`;
+  if (elEth && c.ETHBRL) elEth.textContent = `R$ ${Math.round(c.ETHBRL).toLocaleString('pt-BR')}`;
   if (elUsdt && c.USDTBRL) elUsdt.textContent = `R$ ${c.USDTBRL.toFixed(3)}`;
   if (elVix && c.VIX) elVix.textContent = `${c.VIX.toFixed(2)} pts`;
 

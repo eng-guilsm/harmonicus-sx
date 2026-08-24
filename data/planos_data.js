@@ -1,23 +1,29 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-23 23:09:58)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-23 23:10:37)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-23 23:09:58",
-  "total_brl": 1707.43,
+  "timestamp_str": "2026-08-23 23:10:37",
+  "total_brl": 1707.46,
   "aportado_brl": 1731.0,
-  "prejuizo_residual_brl": -23.57,
+  "prejuizo_residual_brl": -23.54,
   "caixa_brl": 752.88,
   "caixa_pct": 44.09,
-  "btc_brl": 624.8,
+  "btc_brl": 624.76,
   "btc_qtd": 0.00157122,
   "btc_pct": 36.59,
-  "paxg_brl": 109.01,
-  "paxg_qtd": 0.00456335,
-  "paxg_pct": 6.38,
+  "link_brl": 118.23,
+  "link_qtd": 2.02797,
+  "link_pct": 6.92,
   "sol_brl": 99.02,
   "sol_qtd": 0.204156,
   "sol_pct": 5.8,
+  "paxg_brl": 109.08,
+  "paxg_qtd": 0.00456335,
+  "paxg_pct": 6.39,
   "usdt_brl": 3.49,
   "usdt_qtd": 0.6764,
   "usdt_pct": 0.2,
+  "eth_brl": 0.0,
+  "eth_qtd": 0.0,
+  "eth_pct": 0.0,
   "itens_custodia": [
     {
       "asset": "BRL",
@@ -30,25 +36,43 @@ window.PORTFOLIO_STATE = {
     },
     {
       "asset": "BTC",
-      "nome": "Bitcoin Spot",
+      "nome": "Bitcoin Spot (Reserva/Sagarana)",
       "qtd": 0.00157122,
-      "valor_brl": 624.8,
+      "valor_brl": 624.76,
       "pct": 36.59,
       "cor": "#F59E0B",
       "icone": "🪙"
     },
     {
+      "asset": "LINK",
+      "nome": "Chainlink Spot (Caboclo)",
+      "qtd": 2.03,
+      "valor_brl": 118.23,
+      "pct": 6.92,
+      "cor": "#6366F1",
+      "icone": "🌐"
+    },
+    {
+      "asset": "SOL",
+      "nome": "Solana Spot (Corisco/Gravidade)",
+      "qtd": 0.204,
+      "valor_brl": 99.02,
+      "pct": 5.8,
+      "cor": "#A855F7",
+      "icone": "⚡"
+    },
+    {
       "asset": "PAXG",
-      "nome": "Ouro PAXG (Earn/Spot)",
+      "nome": "Ouro PAXG (Guiana Brasileira)",
       "qtd": 0.00456335,
-      "valor_brl": 109.01,
-      "pct": 6.38,
+      "valor_brl": 109.08,
+      "pct": 6.39,
       "cor": "#EAB308",
       "icone": "🥇"
     },
     {
       "asset": "USDT",
-      "nome": "Tether USD",
+      "nome": "Tether USD (Pátria Volátil)",
       "qtd": 0.68,
       "valor_brl": 3.49,
       "pct": 0.2,
@@ -56,19 +80,19 @@ window.PORTFOLIO_STATE = {
       "icone": "💵"
     },
     {
-      "asset": "SOL",
-      "nome": "Solana Spot (Residual)",
-      "qtd": 0.204156,
-      "valor_brl": 99.02,
-      "pct": 5.8,
-      "cor": "#A855F7",
-      "icone": "⚡"
+      "asset": "ETH",
+      "nome": "Ethereum Spot (Duelo de Titãs)",
+      "qtd": 0.0,
+      "valor_brl": 0.0,
+      "pct": 0.0,
+      "cor": "#3B82F6",
+      "icone": "⚔️"
     }
   ],
   "cotacoes_ao_vivo": {
-    "BTCBRL": 397650.0,
-    "USDTBRL": 5.1571,
-    "PAXGBRL": 23887.274632,
+    "BTCBRL": 397629.0,
+    "USDTBRL": 5.1572,
+    "PAXGBRL": 23903.622,
     "SOLBRL": 485.0,
     "ETHBRL": 12554.0,
     "LINKBRL": 58.3,
