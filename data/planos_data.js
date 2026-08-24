@@ -104,12 +104,9 @@ window.PORTFOLIO_STATE = {
   "harmonicus_sensores": {
     "pc1": 0.3939,
     "entropia": 1.7516,
-    "energia_fourier": 39.3157,
     "energia_wavelet_morlet": -0.0282,
-    "t0_ehlers": 13.7,
-    "snr_ehlers": -15.71,
     "fluxo_ste": 0.1325,
-    "regime": "TURBULENCIA_LOCAL",
+    "regime": "CALIBRAÇÃO_QUANT_ATIVA",
     "fator_lote": 1.0
   }
 };
@@ -118,13 +115,13 @@ window.PLANOS_TACTICAL_DATA = [
   {
     "id": 1,
     "nome": "Plano Guiana Brasileira",
-    "badge": "🥇 Macro Rotação",
+    "badge": "🥇 Macro Rotação & Acúmulo de Ouro",
     "categoria": "baixo_risco",
     "par": "PAXG <-> BTC",
     "lote_brl": 150.0,
     "lucro_min_pct": 1.4,
-    "gatilho_desc": "Z <= -1.15σ (Trade BTC ➔ PAXG) / Z >= +1.40σ (Trade PAXG ➔ BTC)",
-    "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 150 | Teto R$ 300)",
+    "gatilho_desc": "Z <= -0.75σ (Trade BTC ➔ PAXG 72h) / Z >= +1.00σ (Trade PAXG ➔ BTC)",
+    "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 150 | Teto R$ 450)",
     "cooldown_horas": 1.0,
     "ponta_a_label": "Trade BTC ➔ PAXG",
     "ponta_a_score": 92,
@@ -136,9 +133,9 @@ window.PLANOS_TACTICAL_DATA = [
     "status": "SENTINELA_QUENTE",
     "icone": "🥇",
     "cor": "#F59E0B",
-    "descricao_executiva": "Arbitragem secular entre a reserva milenar de valor (Ouro PAXG) e a reserva digital soberana (Bitcoin). Monetiza topos de BTC girando para Ouro e recompra BTC nos fundos com execução multi-tranche.",
-    "condicoes_ativacao": "• Z-Score do par PAXG/BTC ultrapassa ±1.15σ na janela de 168 horas.<br>• Ratio PAXG/BTC atinge bandas de descolamento estatístico.<br>• Confirmação de cointegração pelo teste Engle-Granger (p < 0.05).",
-    "limitacoes_trava": "• <b>Teto de Posição em Aberto:</b> R$ 300,00 máx (2 slots de R$ 150).<br>• <b>Trava 6 (Breakeven Lock VWAP):</b> Proíbe vendas se o retorno for < +0,40% líquido sobre o preço médio ponderado.<br>• <b>Modulação CWT Morlet (Ew < 55):</b> Reduz exposição se houver tempestade de volatilidade.",
+    "descricao_executiva": "Arbitragem secular entre a reserva física (Ouro PAXG) e digital (Bitcoin). Drena Bitcoin nos topos para Ouro no Simple Earn com janela de 72 horas e retém lucros perenes em ouro.",
+    "condicoes_ativacao": "• Z-Score do par PAXG/BTC rompe ±0.75σ na janela de 72 horas.<br>• Ratio PAXG/BTC fora da banda normal.<br>• Auto-subscrição ao Simple Earn flexível de PAXG.",
+    "limitacoes_trava": "• <b>Teto de Custódia:</b> R$ 800,00 máx em PAXG.<br>• <b>Trava 6 (Breakeven Lock VWAP):</b> Retorno mínimo obrigatório de +0.40% líquido.<br>• <b>Modulação CWT Morlet (Ew < 55).</b>",
     "series_historica": {
       "1h": [
         {
@@ -6079,7 +6076,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06997 (Z: -1.39σ)"
+          "metric": "Ratio: 0.06973 (Z: -1.70σ)"
         },
         {
           "time": "17/08 17:00",
@@ -7991,7 +7988,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06542 (Z: -3.28σ)"
+          "metric": "Ratio: 0.06727 (Z: -1.54σ)"
         },
         {
           "time": "20/08 04:00",
@@ -8991,7 +8988,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.06003 (Z: -2.57σ)"
+          "metric": "Ratio: 0.06102 (Z: -1.60σ)"
         },
         {
           "time": "21/08 12:00",
@@ -9879,7 +9876,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05977 (Z: -1.54σ)"
+          "metric": "Ratio: 0.06066 (Z: -0.82σ)"
         },
         {
           "time": "22/08 15:00",
@@ -16857,27 +16854,27 @@ window.PLANOS_TACTICAL_DATA = [
   {
     "id": 2,
     "nome": "Plano Escudo de Aquiles",
-    "badge": "🛡️ VIX Dip-Hunter",
+    "badge": "🛡️ VIX Dip-Hunter & Sweeper de Ouro",
     "categoria": "baixo_risco",
-    "par": "BRL -> BTC",
-    "lote_brl": 300.0,
-    "lucro_min_pct": 2.0,
-    "gatilho_desc": "VIX >= 22.00 pts (Trade BRL ➔ BTC)",
+    "par": "BRL -> BTC ➔ Ouro",
+    "lote_brl": 200.0,
+    "lucro_min_pct": 1.8,
+    "gatilho_desc": "VIX >= 21.00 pts (Trade BRL ➔ BTC)",
     "trava_ruptura": "Anti-Faca Caindo: Exige desaceleração de onda Ew < 55.0",
-    "cooldown_horas": 1.0,
+    "cooldown_horas": 2.0,
     "ponta_a_label": "Trade BRL ➔ BTC",
     "ponta_a_score": 2,
     "ponta_b_label": "Saída no Repique",
     "ponta_b_score": 0,
     "proximidade_score": 2,
     "valor_atual_str": "VIX = 15.13 pts (Calmaria Global)",
-    "distancia_display": "+6.87 pts de estresse no VIX",
+    "distancia_display": "+5.87 pts para estresse",
     "status": "AGUARDANDO_PANICO_GLOBAL",
     "icone": "🛡️",
     "cor": "#10B981",
-    "descricao_executiva": "Caçador de capitulação macroeconômica. Aproveita picos de aversão a risco global (VIX >= 22.00) para efetuar compras cirúrgicas de Bitcoin com Caixa BRL e realizar lucro no repique.",
-    "condicoes_ativacao": "• Índice VIX sobe acima de 22.00 pontos base.<br>• Coerência sistêmica PC1 >= 38% indicando desova indiscriminada.<br>• Entropia Espectral S <= 1.80.",
-    "limitacoes_trava": "• <b>Teto de Exposição BTC:</b> 35% do patrimônio total.<br>• <b>Realização de Lucro:</b> Vende quando VIX recuar < 18.50 e retorno >= +0.50%.<br>• <b>Filtro Anti-Faca Caindo:</b> Proíbe compras se Ew > 55.0.",
+    "descricao_executiva": "Caçador de capitulação macro. Compra Bitcoin no pânico (VIX >= 21.0) e realiza no repique, direcionando 50% do lucro líquido diretamente para Ouro PAXG no Earn.",
+    "condicoes_ativacao": "• Índice VIX sobe acima de 21.00 pontos.<br>• PC1 >= 38% e Entropia Espectral S <= 1.80.",
+    "limitacoes_trava": "• <b>Teto BTC:</b> Máximo 50% da carteira.<br>• <b>Trava 6 (Breakeven Lock VWAP):</b> Retorno mínimo +0.40% líquido.",
     "series_historica": {
       "1h": [
         {
@@ -33600,7 +33597,7 @@ window.PLANOS_TACTICAL_DATA = [
     "categoria": "baixo_risco",
     "par": "BRL <-> USDT",
     "lote_brl": 250.0,
-    "lucro_min_pct": 0.65,
+    "lucro_min_pct": 0.4,
     "gatilho_desc": "Spread <= -0.0200 (Trade BRL ➔ USDT) / Spread >= +0.0200 (Trade USDT ➔ BRL)",
     "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 250 | Teto R$ 500)",
     "cooldown_horas": 0.5,
@@ -33614,9 +33611,9 @@ window.PLANOS_TACTICAL_DATA = [
     "status": "SENTINELA_QUENTE",
     "icone": "💵",
     "cor": "#06B6D4",
-    "descricao_executiva": "Arbitragem de paridade cambial pura entre o Tether (USDT) e o Dólar Comercial. Compra quando o USDT negocia com desconto e vende quando negocia com ágio garantido.",
-    "condicoes_ativacao": "• Desvio absoluto do PEG do USDT vs Dólar Comercial ultrapassa R$ 0.0200.<br>• Spread cambial fora da banda de confiança estatística de 95%.",
-    "limitacoes_trava": "• <b>Teto de Posição em Aberto:</b> R$ 500,00 máx (2 slots de R$ 250).<br>• <b>Trava 6 (Breakeven Lock VWAP):</b> Retorno mínimo obrigatório de +0.40% líquido na liquidação.<br>• <b>Cooldown:</b> 30 minutos.",
+    "descricao_executiva": "Arbitragem de PEG cambial puro entre Tether (USDT) e Dólar Comercial. Captura distorções de spread institucional.",
+    "condicoes_ativacao": "• Desvio absoluto do PEG do USDT vs Dólar Comercial ultrapassa R$ 0.0200.",
+    "limitacoes_trava": "• <b>Teto em Aberto:</b> R$ 500,00 máx.<br>• <b>Trava 6:</b> +0.40% líquido.",
     "series_historica": {
       "1h": [
         {
@@ -49474,6 +49471,22 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "Spread: +0.0425 (USDT R$ 5.191)"
         },
         {
+          "time": "19/08 23:00",
+          "label": "19/08 23:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "Spread: +0.1793 (USDT R$ 5.191)"
+        },
+        {
+          "time": "19/08 23:00",
+          "label": "19/08 23:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "Spread: +0.1767 (USDT R$ 5.188)"
+        },
+        {
           "time": "20/08 00:00",
           "label": "20/08 00:00",
           "score": 0,
@@ -49568,6 +49581,30 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 0,
           "score_b": 0,
           "metric": "Spread: +0.0416 (USDT R$ 5.190)"
+        },
+        {
+          "time": "20/08 11:00",
+          "label": "20/08 11:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "Spread: +0.1770 (USDT R$ 5.189)"
+        },
+        {
+          "time": "20/08 11:00",
+          "label": "20/08 11:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "Spread: +0.1770 (USDT R$ 5.189)"
+        },
+        {
+          "time": "20/08 11:00",
+          "label": "20/08 11:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "Spread: +0.1785 (USDT R$ 5.190)"
         },
         {
           "time": "20/08 12:00",
@@ -50335,13 +50372,13 @@ window.PLANOS_TACTICAL_DATA = [
   {
     "id": 4,
     "nome": "Plano Caboclo dos Oráculos",
-    "badge": "⚡ Reversão Estatística",
+    "badge": "⚡ Reversão Estatística 1h",
     "categoria": "baixo_risco",
     "par": "BRL <-> LINK",
     "lote_brl": 120.0,
-    "lucro_min_pct": 1.4,
+    "lucro_min_pct": 1.3,
     "gatilho_desc": "Z <= -1.35σ (Trade BRL ➔ LINK 1h) / Z >= +0.55σ (Trade LINK ➔ BRL)",
-    "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 120 | Teto R$ 250)",
+    "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 120 | Teto R$ 240)",
     "cooldown_horas": 0.33,
     "ponta_a_label": "Trade BRL ➔ LINK",
     "ponta_a_score": 0,
@@ -50353,9 +50390,9 @@ window.PLANOS_TACTICAL_DATA = [
     "status": "SENTINELA_QUENTE",
     "icone": "⚡",
     "cor": "#6366F1",
-    "descricao_executiva": "Reversão à média intradiária de 1 hora do token de infraestrutura Chainlink (LINK). Compra fundos estatísticos em tranches e embolsa o repique diretamente no Caixa BRL.",
-    "condicoes_ativacao": "• Z-Score do LINKBRL rompe ±1.35σ na janela de 1 hora.<br>• Volume intradiário acima da média móvel.",
-    "limitacoes_trava": "• <b>Teto de Posição em Aberto:</b> R$ 250,00 máx.<br>• <b>Trava 6 (Breakeven Lock VWAP):</b> Retorno mínimo obrigatório de +0.40% líquido.<br>• <b>Cooldown:</b> 20 minutos.",
+    "descricao_executiva": "Reversão à média intradiária de 1 hora no token Chainlink (LINK). Compra fundos estatísticos e embolsa lucros no Caixa BRL.",
+    "condicoes_ativacao": "• Z-Score do LINKBRL rompe ±1.35σ na janela de 1 hora.",
+    "limitacoes_trava": "• <b>Teto em Aberto:</b> R$ 250,00 máx.<br>• <b>Trava 6 VWAP:</b> Proíbe vendas sem ganho líquido.",
     "series_historica": {
       "1h": [
         {
@@ -57104,7 +57141,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "LINK: R$ 49.52 (Z: +1.69σ)"
+          "metric": "LINK: R$ 49.67 (Z: +2.52σ)"
         },
         {
           "time": "18/08 18:00",
@@ -67074,14 +67111,14 @@ window.PLANOS_TACTICAL_DATA = [
   {
     "id": 5,
     "nome": "Plano Gravidade Zero",
-    "badge": "🌌 Rotação Multiativos",
+    "badge": "🌌 Rotação Multiativos 72h",
     "categoria": "medio_risco",
-    "par": "BTC -> SOL ➔ BRL",
+    "par": "BTC -> SOL ➔ BRL/Ouro",
     "lote_brl": 120.0,
     "lucro_min_pct": 2.0,
-    "gatilho_desc": "Ratio Z <= -1.15σ (Trade BTC ➔ SOL 7d) / Z >= +1.10σ (Trade SOL ➔ BRL)",
+    "gatilho_desc": "Ratio Z <= -1.00σ (Trade BTC ➔ SOL 72h) / Z >= +1.00σ (Trade SOL ➔ BRL)",
     "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 120 | Teto R$ 220)",
-    "cooldown_horas": 0.33,
+    "cooldown_horas": 1.0,
     "ponta_a_label": "Trade BTC ➔ SOL",
     "ponta_a_score": 0,
     "ponta_b_label": "Trade SOL ➔ BRL",
@@ -67091,10 +67128,10 @@ window.PLANOS_TACTICAL_DATA = [
     "distancia_display": "Z = +0.82σ (Meta: ±1.15σ)",
     "status": "SENTINELA_QUENTE",
     "icone": "🌌",
-    "cor": "#EC4899",
-    "descricao_executiva": "Rotação de dominância entre Bitcoin e Solana na janela de 7 dias. Transfere capital para a Solana descontada e realiza lucros expressivos diretamente para o Caixa BRL.",
-    "condicoes_ativacao": "• Ratio SOL/BTC desvia além de ±1.15σ da média de 7 dias.<br>• Spread de volatilidade relativa favorável.",
-    "limitacoes_trava": "• <b>Teto de Posição em Aberto:</b> R$ 220,00 máx.<br>• <b>Trava 6 (Breakeven Lock VWAP):</b> Liquidação autorizada com retorno >= +0.40% líquido sobre o VWAP.<br>• <b>Cooldown:</b> 20 minutos.",
+    "cor": "#8B5CF6",
+    "descricao_executiva": "Arbitragem triangular de 72 horas no par SOL/BTC. Rotaciona Bitcoin para Solana quando a altcoin está barata e realiza no Caixa BRL e Ouro.",
+    "condicoes_ativacao": "• Ratio SOL/BTC descola ±1.00σ na janela de 72 horas.",
+    "limitacoes_trava": "• <b>Teto SOL:</b> R$ 220,00 máx.<br>• <b>Trava 6 Breakeven Lock:</b> Obrigatória.",
     "series_historica": {
       "1h": [
         {
@@ -83444,16 +83481,64 @@ window.PLANOS_TACTICAL_DATA = [
           "label": "22/08 13:00",
           "score": 100,
           "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001215 (Z: +1.28σ)"
+          "score_b": 28,
+          "metric": "SOL/BTC: 0.001209 (Z: +0.28σ)"
+        },
+        {
+          "time": "22/08 09:00",
+          "label": "22/08 09:00",
+          "score": 90,
+          "score_a": 0,
+          "score_b": 90,
+          "metric": "SOL/BTC: 0.001220 (Z: +0.90σ)"
+        },
+        {
+          "time": "22/08 09:00",
+          "label": "22/08 09:00",
+          "score": 89,
+          "score_a": 0,
+          "score_b": 89,
+          "metric": "SOL/BTC: 0.001220 (Z: +0.89σ)"
+        },
+        {
+          "time": "22/08 09:00",
+          "label": "22/08 09:00",
+          "score": 69,
+          "score_a": 0,
+          "score_b": 69,
+          "metric": "SOL/BTC: 0.001217 (Z: +0.69σ)"
         },
         {
           "time": "22/08 14:00",
           "label": "22/08 14:00",
           "score": 100,
           "score_a": 0,
-          "score_b": 100,
-          "metric": "SOL/BTC: 0.001219 (Z: +1.47σ)"
+          "score_b": 72,
+          "metric": "SOL/BTC: 0.001219 (Z: +0.72σ)"
+        },
+        {
+          "time": "22/08 18:00",
+          "label": "22/08 18:00",
+          "score": 84,
+          "score_a": 0,
+          "score_b": 84,
+          "metric": "SOL/BTC: 0.001221 (Z: +0.84σ)"
+        },
+        {
+          "time": "22/08 18:00",
+          "label": "22/08 18:00",
+          "score": 90,
+          "score_a": 0,
+          "score_b": 90,
+          "metric": "SOL/BTC: 0.001222 (Z: +0.90σ)"
+        },
+        {
+          "time": "22/08 18:00",
+          "label": "22/08 18:00",
+          "score": 23,
+          "score_a": 0,
+          "score_b": 23,
+          "metric": "SOL/BTC: 0.001210 (Z: +0.23σ)"
         },
         {
           "time": "22/08 14:00",
@@ -83813,16 +83898,16 @@ window.PLANOS_TACTICAL_DATA = [
   {
     "id": 6,
     "nome": "Plano Corisco da Solana",
-    "badge": "⚡ Scalp Harmonicus SC",
+    "badge": "⚡ Scalping Intradiário 15m",
     "categoria": "medio_risco",
     "par": "BRL <-> SOL",
     "lote_brl": 100.0,
-    "lucro_min_pct": 1.4,
-    "gatilho_desc": "Z <= -1.35σ (Trade BRL ➔ SOL 1h) / Z >= +0.40σ (Trade SOL ➔ BRL)",
+    "lucro_min_pct": 0.75,
+    "gatilho_desc": "Z <= -1.35σ (Trade BRL ➔ SOL 15m) / Z >= +0.40σ (Trade SOL ➔ BRL)",
     "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 100 | Teto R$ 200)",
     "cooldown_horas": 0.25,
     "ponta_a_label": "Trade BRL ➔ SOL",
-    "ponta_a_score": 0,
+    "ponta_a_score": 43,
     "ponta_b_label": "Trade SOL ➔ BRL",
     "ponta_b_score": 100,
     "proximidade_score": 100,
@@ -83831,9 +83916,9 @@ window.PLANOS_TACTICAL_DATA = [
     "status": "SENTINELA_QUENTE",
     "icone": "⚡",
     "cor": "#A855F7",
-    "descricao_executiva": "Operador de micro-ondas intradiárias de 1 hora em Solana. Captura fundos estatísticos locais em tranches e realiza lucro no primeiro repique com Breakeven Lock estrito.",
-    "condicoes_ativacao": "• Z-Score do SOLBRL rompe ±1.35σ na janela de 1 hora.<br>• Sem pânico sistêmico no Bitcoin (queda 15m moderada).",
-    "limitacoes_trava": "• <b>Teto de Posição em Aberto:</b> R$ 220,00 máx.<br>• <b>Trava 6 (Breakeven Lock VWAP):</b> Retorno mínimo obrigatório de +0.40% líquido sobre o preço médio ponderado.<br>• <b>Cooldown:</b> 15 minutos.",
+    "descricao_executiva": "Sniper de microestrutura intradiária de 15 minutos em Solana. Explora liquidez e repiques rápidos para abastecer o Caixa BRL.",
+    "condicoes_ativacao": "• Z-Score do SOLBRL rompe ±1.35σ na janela de 15 minutos.",
+    "limitacoes_trava": "• <b>Teto de Exposição:</b> R$ 200,00 máx (2 slots).<br>• <b>Trava 6:</b> +0.40% líquido.",
     "series_historica": {
       "1h": [
         {
@@ -85108,7 +85193,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "SOL 1h: R$ 493.50 (Z: +1.56σ)"
+          "metric": "SOL 15m: R$ 493.50 (Z: +0.60σ)"
         },
         {
           "time": "12:43",
@@ -93078,7 +93163,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SOL 1h: R$ 482.00 (Z: -1.38σ)"
+          "metric": "SOL 15m: R$ 482.00 (Z: -0.03σ)"
         },
         {
           "time": "22/08 00:00",
@@ -93398,7 +93483,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SOL 1h: R$ 475.90 (Z: -2.95σ)"
+          "metric": "SOL 15m: R$ 475.90 (Z: -1.59σ)"
         },
         {
           "time": "22/08 10:00",
@@ -93446,7 +93531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "SOL 1h: R$ 482.20 (Z: +1.59σ)"
+          "metric": "SOL 15m: R$ 482.20 (Z: +0.52σ)"
         },
         {
           "time": "22/08 11:00",
@@ -93462,7 +93547,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "SOL 1h: R$ 484.20 (Z: +1.96σ)"
+          "metric": "SOL 15m: R$ 484.20 (Z: +1.54σ)"
         },
         {
           "time": "22/08 12:00",
@@ -93510,7 +93595,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SOL 1h: R$ 483.50 (Z: -1.36σ)"
+          "metric": "SOL 15m: R$ 483.50 (Z: -0.53σ)"
         },
         {
           "time": "22/08 13:00",
@@ -100552,14 +100637,14 @@ window.PLANOS_TACTICAL_DATA = [
   {
     "id": 7,
     "nome": "Plano Duelo de Titãs",
-    "badge": "⚔️ Arbitragem Cripto",
-    "categoria": "medio_risco",
-    "par": "BTC -> ETH ➔ BRL",
+    "badge": "⚔️ Paridade ETH/BTC 24h",
+    "categoria": "baixo_risco",
+    "par": "BTC -> ETH ➔ BRL/Ouro",
     "lote_brl": 150.0,
-    "lucro_min_pct": 1.2,
-    "gatilho_desc": "Ratio Z <= -1.10σ (Trade BTC ➔ ETH 24h) / Z >= +0.90σ (Trade ETH ➔ BRL)",
+    "lucro_min_pct": 1.1,
+    "gatilho_desc": "Ratio Z <= -1.00σ (Trade BTC ➔ ETH 24h) / Z >= +0.85σ (Trade ETH ➔ BRL)",
     "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 150 | Teto R$ 300)",
-    "cooldown_horas": 0.33,
+    "cooldown_horas": 0.5,
     "ponta_a_label": "Trade BTC ➔ ETH",
     "ponta_a_score": 0,
     "ponta_b_label": "Trade ETH ➔ BRL",
@@ -100570,9 +100655,9 @@ window.PLANOS_TACTICAL_DATA = [
     "status": "SENTINELA_QUENTE",
     "icone": "⚔️",
     "cor": "#3B82F6",
-    "descricao_executiva": "Pairs trading estatístico entre Bitcoin e Ethereum. Explora divergências de ciclo de 24 horas transferindo capital para Ethereum descontado e realizando para Caixa BRL.",
-    "condicoes_ativacao": "• Ratio ETH/BTC ultrapassa ±1.10σ na janela de 24 horas.<br>• Coerência espectral robusta.",
-    "limitacoes_trava": "• <b>Teto de Posição em Aberto:</b> R$ 300,00 máx.<br>• <b>Trava 6 (Breakeven Lock VWAP):</b> Retorno mínimo obrigatório de +0.40% líquido na liquidação para BRL.<br>• <b>Cooldown:</b> 20 minutos.",
+    "descricao_executiva": "Arbitragem de paridade institucional entre Ethereum e Bitcoin em janela de 24 horas. Transfere 35% do alfa diretamente para Ouro PAXG.",
+    "condicoes_ativacao": "• Ratio ETH/BTC rompe ±1.00σ na janela de 24 horas.",
+    "limitacoes_trava": "• <b>Teto ETH:</b> R$ 300,00 máx.<br>• <b>Trava 6:</b> +0.40% líquido.",
     "series_historica": {
       "1h": [
         {
@@ -106473,7 +106558,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "ETH/BTC: 0.02981 (Z: -1.57σ)"
+          "metric": "ETH/BTC: 0.02979 (Z: -2.58σ)"
         },
         {
           "time": "17/08 15:00",
@@ -106681,7 +106766,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "ETH/BTC: 0.02963 (Z: -1.90σ)"
+          "metric": "ETH/BTC: 0.02963 (Z: -1.92σ)"
         },
         {
           "time": "17/08 22:00",
@@ -106809,7 +106894,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "ETH/BTC: 0.02961 (Z: -1.51σ)"
+          "metric": "ETH/BTC: 0.02960 (Z: -1.54σ)"
         },
         {
           "time": "18/08 02:00",
@@ -109081,7 +109166,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "ETH/BTC: 0.03171 (Z: -1.24σ)"
+          "metric": "ETH/BTC: 0.03157 (Z: -1.69σ)"
         },
         {
           "time": "21/08 01:00",
@@ -117291,16 +117376,16 @@ window.PLANOS_TACTICAL_DATA = [
   {
     "id": 8,
     "nome": "Plano Flecha de Sagarana",
-    "badge": "🏹 Micro-Dip Sniper",
-    "categoria": "medio_risco",
-    "par": "BRL <-> BTC",
+    "badge": "🏹 Micro-Dip 5m & Sweeper Ouro",
+    "categoria": "baixo_risco",
+    "par": "BRL <-> BTC ➔ Ouro",
     "lote_brl": 120.0,
-    "lucro_min_pct": 0.85,
-    "gatilho_desc": "Queda 5m <= -0.35% (Trade BRL ➔ BTC) / Repique >= +0.35% (Trade BTC ➔ BRL)",
-    "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 120 | Teto R$ 240)",
+    "lucro_min_pct": 0.75,
+    "gatilho_desc": "Retorno 5m <= -0.35% (Trade BRL ➔ BTC) / Retorno >= +0.35% (Trade BTC ➔ BRL)",
+    "trava_ruptura": "Time-Decay: Venda a mercado em 120 min se estagnar",
     "cooldown_horas": 0.25,
     "ponta_a_label": "Trade BRL ➔ BTC",
-    "ponta_a_score": 0,
+    "ponta_a_score": 36,
     "ponta_b_label": "Trade BTC ➔ BRL",
     "ponta_b_score": 3,
     "proximidade_score": 3,
@@ -117309,9 +117394,9 @@ window.PLANOS_TACTICAL_DATA = [
     "status": "SENTINELA_QUENTE",
     "icone": "🏹",
     "cor": "#EF4444",
-    "descricao_executiva": "Sniper de micro-dips em Bitcoin. Detecta absorção de quedas rápidas de 5 minutos e realiza no repique com lucro garantido em reais.",
-    "condicoes_ativacao": "• Retorno do Bitcoin em 5 minutos desvia além de ±0.35%.<br>• Absorção de fluxo no livro de ofertas.",
-    "limitacoes_trava": "• <b>Trava de Caixa:</b> Exige saldo BRL >= R$ 120.<br>• <b>Trava 6 (Breakeven Lock VWAP):</b> Retorno mínimo obrigatório de +0.40% líquido.<br>• <b>Time-Decay:</b> 120 minutos de tolerância máxima para captura do repique.",
+    "descricao_executiva": "Sniper de micro-dips de 5 minutos do Bitcoin. Captura descargas de ordens a mercado e canaliza 40% de todo lucro realizado para Ouro PAXG no Simple Earn.",
+    "condicoes_ativacao": "• Retorno do BTCBRL nos últimos 5 minutos <= -0.35%.",
+    "limitacoes_trava": "• <b>Teto BTC:</b> R$ 600,00 máx.<br>• <b>Trava 6 Breakeven Lock:</b> Obrigatória.<br>• <b>Cooldown:</b> 15 minutos.",
     "series_historica": {
       "1h": [
         {
@@ -117608,7 +117693,175 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.36%"
+          "metric": "Retorno 5m: -0.12%"
+        },
+        {
+          "time": "22/08 12:00",
+          "label": "22/08 12:00",
+          "score": 1,
+          "score_a": 1,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.00%"
+        },
+        {
+          "time": "22/08 13:00",
+          "label": "22/08 13:00",
+          "score": 31,
+          "score_a": 31,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.11%"
+        },
+        {
+          "time": "22/08 13:00",
+          "label": "22/08 13:00",
+          "score": 32,
+          "score_a": 32,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.11%"
+        },
+        {
+          "time": "22/08 13:00",
+          "label": "22/08 13:00",
+          "score": 24,
+          "score_a": 24,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.09%"
+        },
+        {
+          "time": "22/08 13:00",
+          "label": "22/08 13:00",
+          "score": 34,
+          "score_a": 0,
+          "score_b": 34,
+          "metric": "Retorno 5m: +0.12%"
+        },
+        {
+          "time": "22/08 14:00",
+          "label": "22/08 14:00",
+          "score": 30,
+          "score_a": 30,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.11%"
+        },
+        {
+          "time": "22/08 14:00",
+          "label": "22/08 14:00",
+          "score": 10,
+          "score_a": 10,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.04%"
+        },
+        {
+          "time": "22/08 14:00",
+          "label": "22/08 14:00",
+          "score": 22,
+          "score_a": 0,
+          "score_b": 22,
+          "metric": "Retorno 5m: +0.08%"
+        },
+        {
+          "time": "22/08 14:00",
+          "label": "22/08 14:00",
+          "score": 5,
+          "score_a": 0,
+          "score_b": 5,
+          "metric": "Retorno 5m: +0.02%"
+        },
+        {
+          "time": "22/08 15:00",
+          "label": "22/08 15:00",
+          "score": 1,
+          "score_a": 1,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.01%"
+        },
+        {
+          "time": "22/08 15:00",
+          "label": "22/08 15:00",
+          "score": 4,
+          "score_a": 4,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.01%"
+        },
+        {
+          "time": "22/08 15:00",
+          "label": "22/08 15:00",
+          "score": 47,
+          "score_a": 0,
+          "score_b": 47,
+          "metric": "Retorno 5m: +0.16%"
+        },
+        {
+          "time": "22/08 15:00",
+          "label": "22/08 15:00",
+          "score": 20,
+          "score_a": 20,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.07%"
+        },
+        {
+          "time": "22/08 16:00",
+          "label": "22/08 16:00",
+          "score": 22,
+          "score_a": 0,
+          "score_b": 22,
+          "metric": "Retorno 5m: +0.08%"
+        },
+        {
+          "time": "22/08 16:00",
+          "label": "22/08 16:00",
+          "score": 26,
+          "score_a": 0,
+          "score_b": 26,
+          "metric": "Retorno 5m: +0.09%"
+        },
+        {
+          "time": "22/08 16:00",
+          "label": "22/08 16:00",
+          "score": 7,
+          "score_a": 0,
+          "score_b": 7,
+          "metric": "Retorno 5m: +0.02%"
+        },
+        {
+          "time": "22/08 16:00",
+          "label": "22/08 16:00",
+          "score": 31,
+          "score_a": 0,
+          "score_b": 31,
+          "metric": "Retorno 5m: +0.11%"
+        },
+        {
+          "time": "22/08 17:00",
+          "label": "22/08 17:00",
+          "score": 11,
+          "score_a": 11,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.04%"
+        },
+        {
+          "time": "22/08 17:00",
+          "label": "22/08 17:00",
+          "score": 19,
+          "score_a": 0,
+          "score_b": 19,
+          "metric": "Retorno 5m: +0.07%"
+        },
+        {
+          "time": "22/08 17:00",
+          "label": "22/08 17:00",
+          "score": 28,
+          "score_a": 0,
+          "score_b": 28,
+          "metric": "Retorno 5m: +0.10%"
+        },
+        {
+          "time": "22/08 17:00",
+          "label": "22/08 17:00",
+          "score": 28,
+          "score_a": 0,
+          "score_b": 28,
+          "metric": "Retorno 5m: +0.10%"
         },
         {
           "time": "08:50",
@@ -132439,6 +132692,54 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 0,
           "score_b": 0,
           "metric": "Retorno 5m: +0.00%"
+        },
+        {
+          "time": "15/08 23:00",
+          "label": "15/08 23:00",
+          "score": 3,
+          "score_a": 3,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.01%"
+        },
+        {
+          "time": "16/08 00:00",
+          "label": "16/08 00:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.00%"
+        },
+        {
+          "time": "16/08 01:00",
+          "label": "16/08 01:00",
+          "score": 3,
+          "score_a": 0,
+          "score_b": 3,
+          "metric": "Retorno 5m: +0.01%"
+        },
+        {
+          "time": "16/08 02:00",
+          "label": "16/08 02:00",
+          "score": 1,
+          "score_a": 0,
+          "score_b": 1,
+          "metric": "Retorno 5m: +0.01%"
+        },
+        {
+          "time": "16/08 03:00",
+          "label": "16/08 03:00",
+          "score": 22,
+          "score_a": 0,
+          "score_b": 22,
+          "metric": "Retorno 5m: +0.08%"
+        },
+        {
+          "time": "16/08 04:00",
+          "label": "16/08 04:00",
+          "score": 15,
+          "score_a": 15,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.05%"
         },
         {
           "time": "16/08 05:00",
