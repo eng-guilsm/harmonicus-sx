@@ -1,12 +1,12 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-24 18:50:29)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-24 18:51:45)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-24 18:50:29",
-  "total_brl": 1733.15,
+  "timestamp_str": "2026-08-24 18:51:45",
+  "total_brl": 1733.17,
   "aportado_brl": 1731.0,
-  "prejuizo_residual_brl": 2.15,
+  "prejuizo_residual_brl": 2.17,
   "caixa_brl": 752.88,
   "caixa_pct": 43.44,
-  "btc_brl": 642.36,
+  "btc_brl": 642.38,
   "btc_qtd": 0.00157122,
   "btc_pct": 37.06,
   "link_brl": 121.88,
@@ -38,7 +38,7 @@ window.PORTFOLIO_STATE = {
       "asset": "BTC",
       "nome": "Bitcoin Spot (Reserva/Sagarana)",
       "qtd": 0.00157122,
-      "valor_brl": 642.36,
+      "valor_brl": 642.38,
       "pct": 37.06,
       "cor": "#F59E0B",
       "icone": "🪙"
@@ -90,13 +90,13 @@ window.PORTFOLIO_STATE = {
     }
   ],
   "cotacoes_ao_vivo": {
-    "BTCBRL": 408827.0,
+    "BTCBRL": 408842.0,
     "USDTBRL": 5.174,
-    "PAXGBRL": 24043.526260000002,
+    "PAXGBRL": 24043.47452,
     "SOLBRL": 503.6,
-    "ETHBRL": 12860.8,
+    "ETHBRL": 12862.59,
     "LINKBRL": 60.1,
-    "BNBBRL": 3644.0,
+    "BNBBRL": 3647.0,
     "ADABRL": 1.145,
     "VIX": 15.130000114440918,
     "USDBRL_COMERCIAL": 5.154
