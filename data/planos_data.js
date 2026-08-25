@@ -1,36 +1,36 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-24 22:43:22)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-24 22:43:56)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-24 22:43:22",
-  "total_brl": 1421.2,
+  "timestamp_str": "2026-08-24 22:43:56",
+  "total_brl": 1729.71,
   "aportado_brl": 1731.0,
-  "prejuizo_residual_brl": -309.8,
+  "prejuizo_residual_brl": -1.29,
   "caixa_brl": 1034.01,
-  "caixa_pct": 72.76,
+  "caixa_pct": 59.78,
   "btc_brl": 169.35,
   "btc_qtd": 0.00041089,
-  "btc_pct": 11.92,
+  "btc_pct": 9.79,
   "link_brl": 0.11,
   "link_qtd": 0.00177,
   "link_pct": 0.01,
   "sol_brl": 0.27,
   "sol_qtd": 0.000519,
   "sol_pct": 0.02,
-  "paxg_brl": 149.51,
-  "paxg_qtd": 0.0061856,
-  "paxg_pct": 10.52,
+  "paxg_brl": 458.02,
+  "paxg_qtd": 0.01894897,
+  "paxg_pct": 26.48,
   "usdt_brl": 3.49,
   "usdt_qtd": 0.6764,
-  "usdt_pct": 0.25,
+  "usdt_pct": 0.2,
   "eth_brl": 64.46,
   "eth_qtd": 0.004995,
-  "eth_pct": 4.54,
+  "eth_pct": 3.73,
   "itens_custodia": [
     {
       "asset": "BRL",
       "nome": "Caixa Livre BRL",
       "qtd": null,
       "valor_brl": 1034.01,
-      "pct": 72.76,
+      "pct": 59.78,
       "cor": "#10B981",
       "icone": "💵"
     },
@@ -39,7 +39,7 @@ window.PORTFOLIO_STATE = {
       "nome": "Bitcoin Spot (Reserva/Sagarana)",
       "qtd": 0.00041089,
       "valor_brl": 169.35,
-      "pct": 11.92,
+      "pct": 9.79,
       "cor": "#F59E0B",
       "icone": "🪙"
     },
@@ -64,9 +64,9 @@ window.PORTFOLIO_STATE = {
     {
       "asset": "PAXG",
       "nome": "Ouro PAXG (Guiana Brasileira)",
-      "qtd": 0.0061856,
-      "valor_brl": 149.51,
-      "pct": 10.52,
+      "qtd": 0.01894897,
+      "valor_brl": 458.02,
+      "pct": 26.48,
       "cor": "#EAB308",
       "icone": "🥇"
     },
@@ -75,7 +75,7 @@ window.PORTFOLIO_STATE = {
       "nome": "Tether USD (Pátria Volátil)",
       "qtd": 0.68,
       "valor_brl": 3.49,
-      "pct": 0.25,
+      "pct": 0.2,
       "cor": "#06B6D4",
       "icone": "💵"
     },
@@ -84,7 +84,7 @@ window.PORTFOLIO_STATE = {
       "nome": "Ethereum Spot (Duelo de Titãs)",
       "qtd": 0.005,
       "valor_brl": 64.46,
-      "pct": 4.54,
+      "pct": 3.73,
       "cor": "#3B82F6",
       "icone": "⚔️"
     }
