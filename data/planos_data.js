@@ -1,6 +1,6 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-26 05:28:06)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-26 05:29:21)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-26 05:28:06",
+  "timestamp_str": "2026-08-26 05:29:21",
   "total_brl": 1562.67,
   "aportado_brl": 1712.91,
   "lucro_liquido_real_brl": -150.24,
@@ -16,7 +16,7 @@ window.PORTFOLIO_STATE = {
   "sol_qtd": 0.545355,
   "sol_pct": 17.35,
   "paxg_brl": 525.61,
-  "paxg_qtd": 0.02174618,
+  "paxg_qtd": 0.021746190000000002,
   "paxg_pct": 33.64,
   "usdt_brl": 3.49,
   "usdt_qtd": 0.6764,
@@ -43,7 +43,7 @@ window.PORTFOLIO_STATE = {
     {
       "asset": "PAXG",
       "nome": "Ouro PAXG (Simple Earn)",
-      "qtd": 0.02174618,
+      "qtd": 0.021746190000000002,
       "valor_brl": 525.61,
       "pct": 33.64,
       "cor": "#EAB308",
