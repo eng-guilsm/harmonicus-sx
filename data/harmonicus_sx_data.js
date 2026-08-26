@@ -1,6 +1,6 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-26 08:17:26)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-26 08:18:44)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-26 08:17:26",
+  "timestamp_str": "2026-08-26 08:18:44",
   "total_brl": 1562.57,
   "aportado_brl": 1712.91,
   "lucro_liquido_real_brl": -150.34,
@@ -91216,27 +91216,27 @@ window.PLANOS_TACTICAL_DATA = [
   {
     "id": 8,
     "nome": "Plano Flecha de Sagarana",
-    "badge": "🏹 Micro-Dip 5m & Sweeper Ouro",
+    "badge": "🏹 Harmonicus 6h Ultra-Consistente",
     "categoria": "baixo_risco",
     "par": "BRL <-> BTC ➔ Ouro",
-    "lote_brl": 120.0,
-    "lucro_min_pct": 0.75,
-    "gatilho_desc": "Retorno 5m <= -0.35% (Trade BRL ➔ BTC) / Retorno >= +0.35% (Trade BTC ➔ BRL)",
-    "trava_ruptura": "Time-Decay: Venda a mercado em 120 min se estagnar",
-    "cooldown_horas": 0.25,
+    "lote_brl": 170.0,
+    "lucro_min_pct": 0.4,
+    "gatilho_desc": "Z <= -0.90σ (Trade BRL ➔ BTC 6h) / Z >= +0.15σ ou Topo de Fase (Trade BTC ➔ BRL)",
+    "trava_ruptura": "Grid Tático Reciclado (4 slots de R$ 170 | Teto R$ 650)",
+    "cooldown_horas": 1.0,
     "ponta_a_label": "Trade BRL ➔ BTC",
     "ponta_a_score": 0,
     "ponta_b_label": "Trade BTC ➔ BRL",
     "ponta_b_score": 6,
     "proximidade_score": 6,
-    "valor_atual_str": "Retorno 5m: +0.02%",
-    "distancia_display": "Retorno 5m: +0.02% (Meta: -0.35%)",
+    "valor_atual_str": "BTC: R$ 405581.00",
+    "distancia_display": "Gatilho: Z <= -0.90σ (Saída: +0.40%)",
     "status": "SENTINELA_QUENTE",
     "icone": "🏹",
     "cor": "#EF4444",
-    "descricao_executiva": "Sniper de micro-dips de 5 minutos do Bitcoin. Captura descargas de ordens a mercado e canaliza 40% de todo lucro realizado para Ouro PAXG no Simple Earn.",
-    "condicoes_ativacao": "• Retorno do BTCBRL nos últimos 5 minutos <= -0.35%.",
-    "limitacoes_trava": "• <b>Teto BTC:</b> R$ 600,00 máx.<br>• <b>Trava 6 Breakeven Lock:</b> Obrigatória.<br>• <b>Cooldown:</b> 15 minutos.",
+    "descricao_executiva": "Sniper Harmonicus de 6 horas em Bitcoin com Filtro SuperSmoother e Discriminador de Fase de Hilbert. Realiza em repiques rápidos de +0.40%.",
+    "condicoes_ativacao": "• Z-Score do BTCBRL rompe -0.90σ na janela de 6 horas.",
+    "limitacoes_trava": "• <b>Teto BTC:</b> R$ 650,00 máx.<br>• <b>Trava 6:</b> +0.40% líquido.<br>• <b>Cooldown:</b> 1.0 hora.",
     "series_historica": {
       "1h": [
         {
