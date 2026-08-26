@@ -1,6 +1,6 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-26 12:06:06)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-26 12:07:22)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-26 12:06:06",
+  "timestamp_str": "2026-08-26 12:07:22",
   "total_brl": 1556.7,
   "aportado_brl": 1712.91,
   "lucro_liquido_real_brl": -156.21,
@@ -143260,27 +143260,27 @@ window.PLANOS_TACTICAL_DATA = [
   {
     "id": 12,
     "nome": "Plano Farol de NEAR",
-    "badge": "🧭 Anti-BTC Descorrelacionado 24m",
+    "badge": "🧭 Harmonicus 10h Maximizer",
     "categoria": "baixo_risco",
     "par": "BRL <-> NEAR",
-    "lote_brl": 90.0,
-    "lucro_min_pct": 0.8,
-    "gatilho_desc": "Z <= -1.35σ (Trade BRL ➔ NEAR) / Z >= +0.35σ (Trade NEAR ➔ BRL)",
-    "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 90 | Teto R$ 180)",
-    "cooldown_horas": 0.25,
+    "lote_brl": 200.0,
+    "lucro_min_pct": 0.7,
+    "gatilho_desc": "Z <= -0.95σ (Trade BRL ➔ NEAR 10h) / Z >= +0.25σ ou Topo de Fase (Trade NEAR ➔ BRL)",
+    "trava_ruptura": "Grid Tático Reciclado (4 slots de R$ 200 | Teto R$ 450)",
+    "cooldown_horas": 1.0,
     "ponta_a_label": "Trade BRL ➔ NEAR",
     "ponta_a_score": 0,
     "ponta_b_label": "Trade NEAR ➔ BRL",
     "ponta_b_score": 0,
     "proximidade_score": 0,
-    "valor_atual_str": "NEAR 24m: R$ 9.54 (Z: +0.00σ)",
-    "distancia_display": "Z = +0.00σ (Meta: ±1.35σ)",
+    "valor_atual_str": "NEAR: R$ 9.54",
+    "distancia_display": "Z = +0.00σ (Meta: -0.95σ / +0.25σ)",
     "status": "SENTINELA_QUENTE",
     "icone": "🧭",
     "cor": "#10B981",
-    "descricao_executiva": "Motor descorrelacionador de alta performance (+70,36 Reais em 10 meses). Atua nos ciclos independentes de sharding e infraestrutura de IA da NEAR Protocol com Trava 6 Breakeven Lock.",
-    "condicoes_ativacao": "• Z-Score do NEARBRL rompe ±1.35σ na janela de 24 períodos.<br>• Caixa Livre >= R$ 250,00.",
-    "limitacoes_trava": "• <b>Teto NEAR:</b> R$ 180,00 máx.<br>• <b>Trava 6 FIFO:</b> +0.40% líquido.<br>• <b>Cooldown:</b> 15 minutos.",
+    "descricao_executiva": "Motor descorrelacionador de alta performance (+3.179,32 Reais em 10 meses / +2.356,78 Reais em 2026). Atua nos ciclos independentes de infraestrutura da NEAR com SuperSmoother 10h e Trava 6 Breakeven Lock.",
+    "condicoes_ativacao": "• Z-Score do NEARBRL rompe -0.95σ na janela de 10 horas.<br>• Caixa Livre >= R$ 100,00.",
+    "limitacoes_trava": "• <b>Teto NEAR:</b> R$ 450,00 máx.<br>• <b>Trava 6 FIFO:</b> +0.40% líquido.<br>• <b>Cooldown:</b> 1.0 hora.",
     "series_historica": {
       "1h": [
         {
@@ -149546,10 +149546,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "19/08 15:00",
           "label": "19/08 15:00",
-          "score": 69,
-          "score_a": 69,
+          "score": 49,
+          "score_a": 49,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.50 (Z: -0.94σ)"
+          "metric": "NEAR 24m: R$ 8.50 (Z: -0.66σ)"
         },
         {
           "time": "19/08 15:00",
@@ -149557,7 +149557,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.55 (Z: +1.30σ)"
+          "metric": "NEAR 24m: R$ 8.55 (Z: +0.74σ)"
         },
         {
           "time": "19/08 15:00",
@@ -149565,7 +149565,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.75 (Z: +1.61σ)"
+          "metric": "NEAR 24m: R$ 8.74 (Z: +1.82σ)"
         },
         {
           "time": "19/08 15:00",
@@ -149573,23 +149573,23 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.77 (Z: +0.54σ)"
+          "metric": "NEAR 24m: R$ 8.77 (Z: +0.67σ)"
         },
         {
           "time": "19/08 16:00",
           "label": "19/08 16:00",
-          "score": 100,
-          "score_a": 100,
+          "score": 79,
+          "score_a": 79,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.61 (Z: -1.70σ)"
+          "metric": "NEAR 24m: R$ 8.61 (Z: -1.06σ)"
         },
         {
           "time": "19/08 16:00",
           "label": "19/08 16:00",
-          "score": 2,
-          "score_a": 2,
+          "score": 0,
+          "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.65 (Z: -0.03σ)"
+          "metric": "NEAR 24m: R$ 8.65 (Z: +0.98σ)"
         },
         {
           "time": "19/08 16:00",
@@ -149613,7 +149613,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.74 (Z: +0.86σ)"
+          "metric": "NEAR 24m: R$ 8.74 (Z: +0.94σ)"
         },
         {
           "time": "19/08 17:00",
@@ -149621,15 +149621,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.74 (Z: +0.38σ)"
+          "metric": "NEAR 24m: R$ 8.75 (Z: +1.10σ)"
         },
         {
           "time": "19/08 17:00",
           "label": "19/08 17:00",
-          "score": 76,
-          "score_a": 76,
+          "score": 82,
+          "score_a": 82,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.72 (Z: -1.03σ)"
+          "metric": "NEAR 24m: R$ 8.72 (Z: -1.11σ)"
         },
         {
           "time": "19/08 17:00",
@@ -149637,7 +149637,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.78 (Z: +1.48σ)"
+          "metric": "NEAR 24m: R$ 8.78 (Z: +1.62σ)"
         },
         {
           "time": "19/08 18:00",
@@ -149645,7 +149645,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.82 (Z: +0.86σ)"
+          "metric": "NEAR 24m: R$ 8.82 (Z: +1.19σ)"
         },
         {
           "time": "19/08 18:00",
@@ -149661,7 +149661,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.86 (Z: +1.26σ)"
+          "metric": "NEAR 24m: R$ 8.86 (Z: +1.38σ)"
         },
         {
           "time": "19/08 18:00",
@@ -149669,7 +149669,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.86 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 8.86 (Z: +0.20σ)"
         },
         {
           "time": "19/08 19:00",
@@ -149677,15 +149677,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.78 (Z: -3.25σ)"
+          "metric": "NEAR 24m: R$ 8.78 (Z: -4.69σ)"
         },
         {
           "time": "19/08 19:00",
           "label": "19/08 19:00",
-          "score": 47,
-          "score_a": 47,
+          "score": 51,
+          "score_a": 51,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.78 (Z: -0.63σ)"
+          "metric": "NEAR 24m: R$ 8.78 (Z: -0.69σ)"
         },
         {
           "time": "19/08 19:00",
@@ -149693,7 +149693,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.79 (Z: +0.13σ)"
+          "metric": "NEAR 24m: R$ 8.80 (Z: +1.16σ)"
         },
         {
           "time": "19/08 19:00",
@@ -149717,7 +149717,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.83 (Z: +1.48σ)"
+          "metric": "NEAR 24m: R$ 8.83 (Z: +1.54σ)"
         },
         {
           "time": "19/08 20:00",
@@ -149741,7 +149741,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.96 (Z: +0.83σ)"
+          "metric": "NEAR 24m: R$ 8.94 (Z: +0.68σ)"
         },
         {
           "time": "19/08 21:00",
@@ -149749,7 +149749,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.03 (Z: +0.66σ)"
+          "metric": "NEAR 24m: R$ 9.03 (Z: +0.77σ)"
         },
         {
           "time": "19/08 21:00",
@@ -149757,7 +149757,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.11 (Z: +2.08σ)"
+          "metric": "NEAR 24m: R$ 9.11 (Z: +2.42σ)"
         },
         {
           "time": "19/08 21:00",
@@ -149786,10 +149786,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "19/08 22:00",
           "label": "19/08 22:00",
-          "score": 100,
-          "score_a": 100,
+          "score": 63,
+          "score_a": 63,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.93 (Z: -1.48σ)"
+          "metric": "NEAR 24m: R$ 8.97 (Z: -0.84σ)"
         },
         {
           "time": "19/08 22:00",
@@ -149797,15 +149797,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.99 (Z: +0.75σ)"
+          "metric": "NEAR 24m: R$ 8.98 (Z: +0.36σ)"
         },
         {
           "time": "19/08 23:00",
           "label": "19/08 23:00",
-          "score": 94,
-          "score_a": 94,
+          "score": 5,
+          "score_a": 5,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.98 (Z: -1.26σ)"
+          "metric": "NEAR 24m: R$ 8.98 (Z: -0.07σ)"
         },
         {
           "time": "19/08 23:00",
@@ -149834,10 +149834,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "20/08 00:00",
           "label": "20/08 00:00",
-          "score": 86,
-          "score_a": 86,
+          "score": 94,
+          "score_a": 94,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.94 (Z: -1.16σ)"
+          "metric": "NEAR 24m: R$ 8.94 (Z: -1.26σ)"
         },
         {
           "time": "20/08 00:00",
@@ -153365,7 +153365,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 10.23 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 10.23 (Z: -0.00σ)"
         },
         {
           "time": "24/08 14:00",
@@ -154924,18 +154924,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "19/08 15:00",
           "label": "19/08 15:00",
-          "score": 69,
-          "score_a": 69,
+          "score": 49,
+          "score_a": 49,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.50 (Z: -0.94σ)"
+          "metric": "NEAR 24m: R$ 8.50 (Z: -0.66σ)"
         },
         {
           "time": "19/08 16:00",
           "label": "19/08 16:00",
-          "score": 100,
-          "score_a": 100,
+          "score": 79,
+          "score_a": 79,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.61 (Z: -1.70σ)"
+          "metric": "NEAR 24m: R$ 8.61 (Z: -1.06σ)"
         },
         {
           "time": "19/08 17:00",
@@ -154943,7 +154943,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.74 (Z: +0.86σ)"
+          "metric": "NEAR 24m: R$ 8.74 (Z: +0.94σ)"
         },
         {
           "time": "19/08 18:00",
@@ -154951,7 +154951,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.82 (Z: +0.86σ)"
+          "metric": "NEAR 24m: R$ 8.82 (Z: +1.19σ)"
         },
         {
           "time": "19/08 19:00",
@@ -154959,7 +154959,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.78 (Z: -3.25σ)"
+          "metric": "NEAR 24m: R$ 8.78 (Z: -4.69σ)"
         },
         {
           "time": "19/08 20:00",
@@ -154975,7 +154975,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.96 (Z: +0.83σ)"
+          "metric": "NEAR 24m: R$ 8.94 (Z: +0.68σ)"
         },
         {
           "time": "19/08 22:00",
@@ -154988,18 +154988,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "19/08 23:00",
           "label": "19/08 23:00",
-          "score": 94,
-          "score_a": 94,
+          "score": 5,
+          "score_a": 5,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.98 (Z: -1.26σ)"
+          "metric": "NEAR 24m: R$ 8.98 (Z: -0.07σ)"
         },
         {
           "time": "20/08 00:00",
           "label": "20/08 00:00",
-          "score": 86,
-          "score_a": 86,
+          "score": 94,
+          "score_a": 94,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.94 (Z: -1.16σ)"
+          "metric": "NEAR 24m: R$ 8.94 (Z: -1.26σ)"
         },
         {
           "time": "20/08 01:00",
