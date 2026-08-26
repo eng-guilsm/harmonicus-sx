@@ -1,6 +1,6 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-25 22:04:54)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-25 22:06:08)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-25 22:04:54",
+  "timestamp_str": "2026-08-25 22:06:08",
   "total_brl": 1562.67,
   "aportado_brl": 1712.91,
   "lucro_liquido_real_brl": -150.24,
@@ -39172,27 +39172,27 @@ window.PLANOS_TACTICAL_DATA = [
   {
     "id": 4,
     "nome": "Plano Caboclo dos Oráculos",
-    "badge": "⚡ Reversão Estatística 1h",
+    "badge": "⚡ SuperSmoother 10h Power-Grid",
     "categoria": "baixo_risco",
     "par": "BRL <-> LINK",
-    "lote_brl": 120.0,
-    "lucro_min_pct": 1.3,
-    "gatilho_desc": "Z <= -1.35σ (Trade BRL ➔ LINK 1h) / Z >= +0.55σ (Trade LINK ➔ BRL)",
-    "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 120 | Teto R$ 240)",
-    "cooldown_horas": 0.33,
+    "lote_brl": 200.0,
+    "lucro_min_pct": 0.7,
+    "gatilho_desc": "Z <= -0.95σ (Trade BRL ➔ LINK 10h) / Z >= +0.25σ ou Topo de Fase (Trade LINK ➔ BRL)",
+    "trava_ruptura": "Grid Tático Reciclado (4 slots de R$ 200 | Teto R$ 450)",
+    "cooldown_horas": 1.0,
     "ponta_a_label": "Trade BRL ➔ LINK",
     "ponta_a_score": 53,
     "ponta_b_label": "Trade LINK ➔ BRL",
     "ponta_b_score": 0,
     "proximidade_score": 53,
     "valor_atual_str": "LINK: R$ 58.32 (Z: -0.72σ)",
-    "distancia_display": "Z = -0.72σ (Meta: ±1.35σ)",
+    "distancia_display": "Z = -0.72σ (Meta: -0.95σ / +0.25σ)",
     "status": "SENTINELA_QUENTE",
     "icone": "⚡",
     "cor": "#6366F1",
-    "descricao_executiva": "Reversão à média intradiária de 1 hora no token Chainlink (LINK). Compra fundos estatísticos e embolsa lucros no Caixa BRL.",
-    "condicoes_ativacao": "• Z-Score do LINKBRL rompe ±1.35σ na janela de 1 hora.",
-    "limitacoes_trava": "• <b>Teto em Aberto:</b> R$ 250,00 máx.<br>• <b>Trava 6 VWAP:</b> Proíbe vendas sem ganho líquido.",
+    "descricao_executiva": "SuperSmoother 10h com Discriminador de Fase de Hilbert em Chainlink (LINK). Compra vales de fase e embolsa lucros no Caixa BRL.",
+    "condicoes_ativacao": "• Z-Score do LINKBRL rompe -0.95σ na janela de 10 horas.",
+    "limitacoes_trava": "• <b>Teto em Aberto:</b> R$ 450,00 máx.<br>• <b>Trava 6:</b> +0.40% líquido.",
     "series_historica": {
       "1h": [
         {
