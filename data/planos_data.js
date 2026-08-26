@@ -1,6 +1,6 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-26 12:14:45)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-26 12:15:59)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-26 12:14:45",
+  "timestamp_str": "2026-08-26 12:15:59",
   "total_brl": 1557.5,
   "aportado_brl": 1712.91,
   "lucro_liquido_real_brl": -155.41,
@@ -253,10 +253,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:26",
           "label": "11:26",
-          "score": 21,
+          "score": 36,
           "score_a": 0,
-          "score_b": 21,
-          "metric": "Ratio: 0.05971 (Z: +0.21σ)"
+          "score_b": 36,
+          "metric": "Ratio: 0.05983 (Z: +0.36σ)"
         },
         {
           "time": "11:27",
@@ -269,10 +269,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:28",
           "label": "11:28",
-          "score": 41,
+          "score": 20,
           "score_a": 0,
-          "score_b": 41,
-          "metric": "Ratio: 0.05986 (Z: +0.41σ)"
+          "score_b": 20,
+          "metric": "Ratio: 0.05970 (Z: +0.20σ)"
         },
         {
           "time": "11:29",
@@ -309,18 +309,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:33",
           "label": "11:33",
-          "score": 24,
+          "score": 43,
           "score_a": 0,
-          "score_b": 24,
-          "metric": "Ratio: 0.05973 (Z: +0.24σ)"
+          "score_b": 43,
+          "metric": "Ratio: 0.05988 (Z: +0.43σ)"
         },
         {
           "time": "11:34",
           "label": "11:34",
-          "score": 42,
+          "score": 24,
           "score_a": 0,
-          "score_b": 42,
-          "metric": "Ratio: 0.05987 (Z: +0.42σ)"
+          "score_b": 24,
+          "metric": "Ratio: 0.05973 (Z: +0.24σ)"
         },
         {
           "time": "11:35",
@@ -365,10 +365,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:40",
           "label": "11:40",
-          "score": 42,
+          "score": 47,
           "score_a": 0,
-          "score_b": 42,
-          "metric": "Ratio: 0.05986 (Z: +0.42σ)"
+          "score_b": 47,
+          "metric": "Ratio: 0.05990 (Z: +0.47σ)"
         },
         {
           "time": "11:41",
@@ -381,10 +381,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:42",
           "label": "11:42",
-          "score": 61,
+          "score": 36,
           "score_a": 0,
-          "score_b": 61,
-          "metric": "Ratio: 0.06000 (Z: +0.61σ)"
+          "score_b": 36,
+          "metric": "Ratio: 0.05982 (Z: +0.36σ)"
         },
         {
           "time": "11:43",
@@ -421,18 +421,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:47",
           "label": "11:47",
-          "score": 41,
+          "score": 67,
           "score_a": 0,
-          "score_b": 41,
-          "metric": "Ratio: 0.05986 (Z: +0.41σ)"
+          "score_b": 67,
+          "metric": "Ratio: 0.06005 (Z: +0.67σ)"
         },
         {
           "time": "11:48",
           "label": "11:48",
-          "score": 64,
+          "score": 39,
           "score_a": 0,
-          "score_b": 64,
-          "metric": "Ratio: 0.06003 (Z: +0.64σ)"
+          "score_b": 39,
+          "metric": "Ratio: 0.05985 (Z: +0.39σ)"
         },
         {
           "time": "11:49",
@@ -485,18 +485,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:55",
           "label": "11:55",
-          "score": 33,
+          "score": 79,
           "score_a": 0,
-          "score_b": 33,
-          "metric": "Ratio: 0.05979 (Z: +0.33σ)"
+          "score_b": 79,
+          "metric": "Ratio: 0.06014 (Z: +0.79σ)"
         },
         {
           "time": "11:56",
           "label": "11:56",
-          "score": 83,
+          "score": 30,
           "score_a": 0,
-          "score_b": 83,
-          "metric": "Ratio: 0.06016 (Z: +0.83σ)"
+          "score_b": 30,
+          "metric": "Ratio: 0.05977 (Z: +0.30σ)"
         },
         {
           "time": "11:57",
@@ -1114,7 +1114,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Ratio: 0.05922 (Z: -0.78σ)"
+          "metric": "Ratio: 0.05922 (Z: -0.79σ)"
         },
         {
           "time": "14:11",
@@ -5719,10 +5719,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:21",
           "label": "09:21",
-          "score": 30,
+          "score": 32,
           "score_a": 0,
-          "score_b": 30,
-          "metric": "Ratio: 0.05980 (Z: +0.30σ)"
+          "score_b": 32,
+          "metric": "Ratio: 0.05982 (Z: +0.32σ)"
         },
         {
           "time": "09:23",
@@ -5759,10 +5759,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:31",
           "label": "09:31",
-          "score": 36,
+          "score": 29,
           "score_a": 0,
-          "score_b": 36,
-          "metric": "Ratio: 0.05985 (Z: +0.36σ)"
+          "score_b": 29,
+          "metric": "Ratio: 0.05979 (Z: +0.29σ)"
         },
         {
           "time": "09:33",
@@ -5783,10 +5783,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:37",
           "label": "09:37",
-          "score": 51,
+          "score": 31,
           "score_a": 0,
-          "score_b": 51,
-          "metric": "Ratio: 0.05996 (Z: +0.51σ)"
+          "score_b": 31,
+          "metric": "Ratio: 0.05981 (Z: +0.31σ)"
         },
         {
           "time": "09:39",
@@ -5807,18 +5807,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:43",
           "label": "09:43",
-          "score": 41,
+          "score": 30,
           "score_a": 0,
-          "score_b": 41,
-          "metric": "Ratio: 0.05988 (Z: +0.41σ)"
+          "score_b": 30,
+          "metric": "Ratio: 0.05980 (Z: +0.30σ)"
         },
         {
           "time": "09:45",
           "label": "09:45",
-          "score": 37,
+          "score": 46,
           "score_a": 0,
-          "score_b": 37,
-          "metric": "Ratio: 0.05985 (Z: +0.37σ)"
+          "score_b": 46,
+          "metric": "Ratio: 0.05992 (Z: +0.46σ)"
         },
         {
           "time": "09:47",
@@ -5839,10 +5839,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:51",
           "label": "09:51",
-          "score": 31,
+          "score": 36,
           "score_a": 0,
-          "score_b": 31,
-          "metric": "Ratio: 0.05980 (Z: +0.31σ)"
+          "score_b": 36,
+          "metric": "Ratio: 0.05984 (Z: +0.36σ)"
         },
         {
           "time": "09:53",
@@ -5895,10 +5895,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:05",
           "label": "10:05",
-          "score": 48,
+          "score": 36,
           "score_a": 0,
-          "score_b": 48,
-          "metric": "Ratio: 0.05993 (Z: +0.48σ)"
+          "score_b": 36,
+          "metric": "Ratio: 0.05984 (Z: +0.36σ)"
         },
         {
           "time": "10:07",
@@ -5951,10 +5951,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:19",
           "label": "10:19",
-          "score": 28,
+          "score": 55,
           "score_a": 0,
-          "score_b": 28,
-          "metric": "Ratio: 0.05978 (Z: +0.28σ)"
+          "score_b": 55,
+          "metric": "Ratio: 0.05998 (Z: +0.55σ)"
         },
         {
           "time": "10:21",
@@ -6015,10 +6015,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:35",
           "label": "10:35",
-          "score": 18,
+          "score": 30,
           "score_a": 0,
-          "score_b": 18,
-          "metric": "Ratio: 0.05970 (Z: +0.18σ)"
+          "score_b": 30,
+          "metric": "Ratio: 0.05979 (Z: +0.30σ)"
         },
         {
           "time": "10:37",
@@ -6071,10 +6071,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:49",
           "label": "10:49",
-          "score": 2,
+          "score": 24,
           "score_a": 0,
-          "score_b": 2,
-          "metric": "Ratio: 0.05958 (Z: +0.02σ)"
+          "score_b": 24,
+          "metric": "Ratio: 0.05974 (Z: +0.24σ)"
         },
         {
           "time": "10:51",
@@ -6103,18 +6103,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:57",
           "label": "10:57",
-          "score": 12,
+          "score": 31,
           "score_a": 0,
-          "score_b": 12,
-          "metric": "Ratio: 0.05965 (Z: +0.12σ)"
+          "score_b": 31,
+          "metric": "Ratio: 0.05980 (Z: +0.31σ)"
         },
         {
           "time": "10:59",
           "label": "10:59",
-          "score": 21,
+          "score": 13,
           "score_a": 0,
-          "score_b": 21,
-          "metric": "Ratio: 0.05972 (Z: +0.21σ)"
+          "score_b": 13,
+          "metric": "Ratio: 0.05966 (Z: +0.13σ)"
         },
         {
           "time": "11:01",
@@ -6135,10 +6135,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:05",
           "label": "11:05",
-          "score": 19,
+          "score": 11,
           "score_a": 0,
-          "score_b": 19,
-          "metric": "Ratio: 0.05970 (Z: +0.19σ)"
+          "score_b": 11,
+          "metric": "Ratio: 0.05964 (Z: +0.11σ)"
         },
         {
           "time": "11:07",
@@ -6159,18 +6159,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:11",
           "label": "11:11",
-          "score": 14,
+          "score": 7,
           "score_a": 0,
-          "score_b": 14,
-          "metric": "Ratio: 0.05967 (Z: +0.14σ)"
+          "score_b": 7,
+          "metric": "Ratio: 0.05961 (Z: +0.07σ)"
         },
         {
           "time": "11:13",
           "label": "11:13",
-          "score": 21,
+          "score": 17,
           "score_a": 0,
-          "score_b": 21,
-          "metric": "Ratio: 0.05971 (Z: +0.21σ)"
+          "score_b": 17,
+          "metric": "Ratio: 0.05969 (Z: +0.17σ)"
         },
         {
           "time": "11:15",
@@ -6247,10 +6247,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:33",
           "label": "11:33",
-          "score": 24,
+          "score": 43,
           "score_a": 0,
-          "score_b": 24,
-          "metric": "Ratio: 0.05973 (Z: +0.24σ)"
+          "score_b": 43,
+          "metric": "Ratio: 0.05988 (Z: +0.43σ)"
         },
         {
           "time": "11:35",
@@ -6303,10 +6303,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:47",
           "label": "11:47",
-          "score": 41,
+          "score": 67,
           "score_a": 0,
-          "score_b": 41,
-          "metric": "Ratio: 0.05986 (Z: +0.41σ)"
+          "score_b": 67,
+          "metric": "Ratio: 0.06005 (Z: +0.67σ)"
         },
         {
           "time": "11:49",
@@ -6335,10 +6335,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:55",
           "label": "11:55",
-          "score": 33,
+          "score": 79,
           "score_a": 0,
-          "score_b": 33,
-          "metric": "Ratio: 0.05979 (Z: +0.33σ)"
+          "score_b": 79,
+          "metric": "Ratio: 0.06014 (Z: +0.79σ)"
         },
         {
           "time": "11:57",
@@ -10017,8 +10017,8 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "24/08 04:00",
           "label": "24/08 04:00",
-          "score": 72,
-          "score_a": 72,
+          "score": 73,
+          "score_a": 73,
           "score_b": 0,
           "metric": "Ratio: 0.06034 (Z: -0.54σ)"
         },
@@ -11705,18 +11705,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 40,
+          "score": 22,
           "score_a": 0,
-          "score_b": 40,
-          "metric": "Ratio: 0.05988 (Z: +0.40σ)"
+          "score_b": 22,
+          "metric": "Ratio: 0.05975 (Z: +0.22σ)"
         },
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 36,
+          "score": 29,
           "score_a": 0,
-          "score_b": 36,
-          "metric": "Ratio: 0.05985 (Z: +0.36σ)"
+          "score_b": 29,
+          "metric": "Ratio: 0.05979 (Z: +0.29σ)"
         },
         {
           "time": "26/08 09:00",
@@ -13123,10 +13123,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 40,
+          "score": 22,
           "score_a": 0,
-          "score_b": 40,
-          "metric": "Ratio: 0.05988 (Z: +0.40σ)"
+          "score_b": 22,
+          "metric": "Ratio: 0.05975 (Z: +0.22σ)"
         },
         {
           "time": "26/08 10:00",
@@ -39185,8 +39185,8 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Trade LINK ➔ BRL",
     "ponta_b_score": 0,
     "proximidade_score": 0,
-    "valor_atual_str": "LINK: R$ 57.83 (Z: -0.00σ)",
-    "distancia_display": "Z = -0.00σ (Meta: -0.95σ / +0.25σ)",
+    "valor_atual_str": "LINK: R$ 57.83 (Z: +0.00σ)",
+    "distancia_display": "Z = +0.00σ (Meta: -0.95σ / +0.25σ)",
     "status": "SENTINELA_QUENTE",
     "icone": "⚡",
     "cor": "#6366F1",
@@ -39217,7 +39217,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:18",
@@ -39225,7 +39225,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:19",
@@ -39241,7 +39241,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "11:21",
@@ -39273,7 +39273,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:25",
@@ -39289,7 +39289,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "11:27",
@@ -39297,7 +39297,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "11:28",
@@ -39321,7 +39321,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:31",
@@ -39329,7 +39329,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:32",
@@ -39345,7 +39345,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "11:34",
@@ -39377,7 +39377,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:38",
@@ -39393,7 +39393,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "11:40",
@@ -39401,7 +39401,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "11:41",
@@ -39425,7 +39425,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:44",
@@ -39433,7 +39433,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:45",
@@ -39449,7 +39449,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "11:47",
@@ -39473,7 +39473,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:50",
@@ -39481,7 +39481,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:51",
@@ -39497,7 +39497,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "11:53",
@@ -39529,7 +39529,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:57",
@@ -39545,7 +39545,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "11:59",
@@ -39553,7 +39553,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "12:00",
@@ -39577,7 +39577,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "12:03",
@@ -39585,7 +39585,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "12:04",
@@ -39601,7 +39601,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "12:06",
@@ -39633,7 +39633,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "12:10",
@@ -39649,7 +39649,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "12:12",
@@ -39657,7 +39657,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "12:13",
@@ -39681,7 +39681,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         }
       ],
       "24h": [
@@ -41979,7 +41979,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 58.32 (Z: +0.00σ)"
+          "metric": "LINK: R$ 58.32 (Z: -0.00σ)"
         },
         {
           "time": "21:49",
@@ -41995,7 +41995,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 58.32 (Z: -0.00σ)"
+          "metric": "LINK: R$ 58.32 (Z: +0.00σ)"
         },
         {
           "time": "21:53",
@@ -42011,7 +42011,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 58.32 (Z: +0.00σ)"
+          "metric": "LINK: R$ 58.32 (Z: -0.00σ)"
         },
         {
           "time": "21:57",
@@ -42027,7 +42027,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 58.32 (Z: -0.00σ)"
+          "metric": "LINK: R$ 58.32 (Z: +0.00σ)"
         },
         {
           "time": "22:01",
@@ -42035,7 +42035,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 58.32 (Z: +0.00σ)"
+          "metric": "LINK: R$ 58.32 (Z: -0.00σ)"
         },
         {
           "time": "22:03",
@@ -42051,7 +42051,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 58.32 (Z: -0.00σ)"
+          "metric": "LINK: R$ 58.32 (Z: +0.00σ)"
         },
         {
           "time": "22:07",
@@ -42067,7 +42067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 58.32 (Z: +0.00σ)"
+          "metric": "LINK: R$ 58.32 (Z: -0.00σ)"
         },
         {
           "time": "22:11",
@@ -42083,7 +42083,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 58.32 (Z: -0.00σ)"
+          "metric": "LINK: R$ 58.32 (Z: +0.00σ)"
         },
         {
           "time": "22:15",
@@ -42091,7 +42091,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 58.32 (Z: +0.00σ)"
+          "metric": "LINK: R$ 58.32 (Z: -0.00σ)"
         },
         {
           "time": "22:17",
@@ -42107,7 +42107,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 58.32 (Z: -0.00σ)"
+          "metric": "LINK: R$ 58.32 (Z: +0.00σ)"
         },
         {
           "time": "22:21",
@@ -42123,7 +42123,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 58.32 (Z: +0.00σ)"
+          "metric": "LINK: R$ 58.32 (Z: -0.00σ)"
         },
         {
           "time": "22:25",
@@ -42379,7 +42379,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "23:29",
@@ -42403,7 +42403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "23:35",
@@ -42443,7 +42443,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "23:45",
@@ -42459,7 +42459,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "23:49",
@@ -42467,7 +42467,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "23:51",
@@ -42483,7 +42483,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "23:55",
@@ -42491,7 +42491,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "23:57",
@@ -42507,7 +42507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "00:01",
@@ -42531,7 +42531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "00:07",
@@ -42571,7 +42571,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "00:17",
@@ -42587,7 +42587,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "00:21",
@@ -42595,7 +42595,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "00:23",
@@ -42611,7 +42611,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "00:27",
@@ -42619,7 +42619,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "00:29",
@@ -42635,7 +42635,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "00:33",
@@ -42659,7 +42659,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "00:39",
@@ -42699,7 +42699,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "00:49",
@@ -42715,7 +42715,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "00:53",
@@ -42723,7 +42723,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "00:55",
@@ -42739,7 +42739,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "00:59",
@@ -42747,7 +42747,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "01:01",
@@ -42763,7 +42763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "01:05",
@@ -42787,7 +42787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "01:11",
@@ -42827,7 +42827,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "01:21",
@@ -42843,7 +42843,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "01:25",
@@ -42851,7 +42851,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "01:27",
@@ -42867,7 +42867,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "01:31",
@@ -42875,7 +42875,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "01:33",
@@ -42891,7 +42891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "01:37",
@@ -42915,7 +42915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "01:43",
@@ -42955,7 +42955,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "01:53",
@@ -42971,7 +42971,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "01:57",
@@ -42979,7 +42979,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "01:59",
@@ -42995,7 +42995,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "02:03",
@@ -43003,7 +43003,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "02:05",
@@ -43019,7 +43019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "02:09",
@@ -43043,7 +43043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "02:15",
@@ -43083,7 +43083,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "02:25",
@@ -43099,7 +43099,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "02:29",
@@ -43107,7 +43107,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "02:31",
@@ -43123,7 +43123,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "02:35",
@@ -43131,7 +43131,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "02:37",
@@ -43147,7 +43147,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "02:41",
@@ -43171,7 +43171,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "02:47",
@@ -43211,7 +43211,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "02:57",
@@ -43227,7 +43227,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "03:01",
@@ -43235,7 +43235,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "03:03",
@@ -43251,7 +43251,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "03:07",
@@ -43259,7 +43259,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "03:09",
@@ -43275,7 +43275,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "03:13",
@@ -43299,7 +43299,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "03:19",
@@ -43339,7 +43339,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "03:29",
@@ -43355,7 +43355,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "03:33",
@@ -43363,7 +43363,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "03:35",
@@ -43379,7 +43379,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "03:39",
@@ -43387,7 +43387,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "03:41",
@@ -43403,7 +43403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "03:45",
@@ -43427,7 +43427,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "03:51",
@@ -43467,7 +43467,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "04:01",
@@ -43483,7 +43483,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "04:05",
@@ -43491,7 +43491,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "04:07",
@@ -43507,7 +43507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "04:11",
@@ -43515,7 +43515,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "04:13",
@@ -43531,7 +43531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "04:17",
@@ -43555,7 +43555,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "04:23",
@@ -43595,7 +43595,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "04:33",
@@ -43611,7 +43611,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "04:37",
@@ -43619,7 +43619,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "04:39",
@@ -43635,7 +43635,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "04:43",
@@ -43643,7 +43643,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "04:45",
@@ -43659,7 +43659,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "04:49",
@@ -43683,7 +43683,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "04:55",
@@ -43723,7 +43723,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "05:05",
@@ -43739,7 +43739,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "05:09",
@@ -43747,7 +43747,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "05:11",
@@ -43763,7 +43763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "05:15",
@@ -43771,7 +43771,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "05:17",
@@ -43787,7 +43787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "05:21",
@@ -43811,7 +43811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "05:27",
@@ -43851,7 +43851,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "05:37",
@@ -43867,7 +43867,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "05:41",
@@ -43875,7 +43875,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "05:43",
@@ -43891,7 +43891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "05:47",
@@ -43899,7 +43899,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "05:49",
@@ -43915,7 +43915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "05:53",
@@ -43939,7 +43939,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "05:59",
@@ -43979,7 +43979,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "06:09",
@@ -43995,7 +43995,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "06:13",
@@ -44003,7 +44003,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "06:15",
@@ -44019,7 +44019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "06:19",
@@ -44027,7 +44027,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "06:21",
@@ -44043,7 +44043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "06:25",
@@ -44067,7 +44067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "06:31",
@@ -44107,7 +44107,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "06:41",
@@ -44123,7 +44123,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "06:45",
@@ -44131,7 +44131,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "06:47",
@@ -44147,7 +44147,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "06:51",
@@ -44155,7 +44155,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "06:53",
@@ -44171,7 +44171,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "06:57",
@@ -44195,7 +44195,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "07:03",
@@ -44235,7 +44235,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "07:13",
@@ -44251,7 +44251,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "07:17",
@@ -44259,7 +44259,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "07:19",
@@ -44275,7 +44275,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "07:23",
@@ -44283,7 +44283,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "07:25",
@@ -44299,7 +44299,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "07:29",
@@ -44323,7 +44323,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "07:35",
@@ -44363,7 +44363,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "07:45",
@@ -44379,7 +44379,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "07:49",
@@ -44387,7 +44387,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "07:51",
@@ -44403,7 +44403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "07:55",
@@ -44411,7 +44411,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "07:57",
@@ -44427,7 +44427,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "08:01",
@@ -44451,7 +44451,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "08:07",
@@ -44491,7 +44491,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "08:17",
@@ -44507,7 +44507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "08:21",
@@ -44515,7 +44515,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "08:23",
@@ -44531,7 +44531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "08:27",
@@ -44539,7 +44539,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "08:29",
@@ -44555,7 +44555,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "08:33",
@@ -44579,7 +44579,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "08:39",
@@ -44619,7 +44619,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "08:49",
@@ -44635,7 +44635,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "08:53",
@@ -44643,7 +44643,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "08:55",
@@ -44659,7 +44659,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "08:59",
@@ -44667,7 +44667,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "09:01",
@@ -44683,7 +44683,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "09:05",
@@ -44707,7 +44707,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "09:11",
@@ -44747,7 +44747,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "09:21",
@@ -44763,7 +44763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "09:25",
@@ -44771,7 +44771,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "09:27",
@@ -44787,7 +44787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "09:31",
@@ -44795,7 +44795,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "09:33",
@@ -44811,7 +44811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "09:37",
@@ -44835,7 +44835,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "09:43",
@@ -44875,7 +44875,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "09:53",
@@ -44891,7 +44891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "09:57",
@@ -44899,7 +44899,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "09:59",
@@ -44915,7 +44915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "10:03",
@@ -44923,7 +44923,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "10:05",
@@ -44939,7 +44939,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "10:09",
@@ -44963,7 +44963,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "10:15",
@@ -45003,7 +45003,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "10:25",
@@ -45019,7 +45019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "10:29",
@@ -45027,7 +45027,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "10:31",
@@ -45043,7 +45043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "10:35",
@@ -45051,7 +45051,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "10:37",
@@ -45067,7 +45067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "10:41",
@@ -45091,7 +45091,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "10:47",
@@ -45131,7 +45131,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "10:57",
@@ -45147,7 +45147,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:01",
@@ -45155,7 +45155,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "11:03",
@@ -45171,7 +45171,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:07",
@@ -45179,7 +45179,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "11:09",
@@ -45195,7 +45195,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:13",
@@ -45219,7 +45219,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:19",
@@ -45259,7 +45259,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "11:29",
@@ -45275,7 +45275,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:33",
@@ -45283,7 +45283,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "11:35",
@@ -45299,7 +45299,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:39",
@@ -45307,7 +45307,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "11:41",
@@ -45323,7 +45323,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:45",
@@ -45347,7 +45347,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "11:51",
@@ -45387,7 +45387,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "12:01",
@@ -45403,7 +45403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "12:05",
@@ -45411,7 +45411,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "12:07",
@@ -45427,7 +45427,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "12:11",
@@ -45435,7 +45435,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "12:13",
@@ -45451,7 +45451,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         }
       ],
       "7d": [
@@ -47826,10 +47826,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22/08 14:00",
           "label": "22/08 14:00",
-          "score": 45,
-          "score_a": 45,
+          "score": 39,
+          "score_a": 39,
           "score_b": 0,
-          "metric": "LINK: R$ 60.84 (Z: -0.61σ)"
+          "metric": "LINK: R$ 60.84 (Z: -0.53σ)"
         },
         {
           "time": "22/08 14:00",
@@ -47837,15 +47837,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "LINK: R$ 60.47 (Z: -1.78σ)"
+          "metric": "LINK: R$ 60.47 (Z: -1.71σ)"
         },
         {
           "time": "22/08 14:00",
           "label": "22/08 14:00",
-          "score": 84,
-          "score_a": 84,
+          "score": 81,
+          "score_a": 81,
           "score_b": 0,
-          "metric": "LINK: R$ 60.47 (Z: -1.13σ)"
+          "metric": "LINK: R$ 60.47 (Z: -1.10σ)"
         },
         {
           "time": "22/08 15:00",
@@ -47874,26 +47874,26 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22/08 15:00",
           "label": "22/08 15:00",
-          "score": 3,
-          "score_a": 3,
-          "score_b": 0,
-          "metric": "LINK: R$ 59.87 (Z: -0.05σ)"
-        },
-        {
-          "time": "22/08 16:00",
-          "label": "22/08 16:00",
-          "score": 13,
+          "score": 6,
           "score_a": 0,
-          "score_b": 13,
-          "metric": "LINK: R$ 59.83 (Z: +0.07σ)"
+          "score_b": 6,
+          "metric": "LINK: R$ 59.87 (Z: +0.03σ)"
         },
         {
           "time": "22/08 16:00",
           "label": "22/08 16:00",
-          "score": 57,
-          "score_a": 57,
+          "score": 50,
+          "score_a": 0,
+          "score_b": 50,
+          "metric": "LINK: R$ 59.83 (Z: +0.27σ)"
+        },
+        {
+          "time": "22/08 16:00",
+          "label": "22/08 16:00",
+          "score": 62,
+          "score_a": 62,
           "score_b": 0,
-          "metric": "LINK: R$ 59.62 (Z: -0.76σ)"
+          "metric": "LINK: R$ 59.62 (Z: -0.83σ)"
         },
         {
           "time": "22/08 16:00",
@@ -47901,7 +47901,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "LINK: R$ 60.20 (Z: +1.62σ)"
+          "metric": "LINK: R$ 60.20 (Z: +2.08σ)"
         },
         {
           "time": "22/08 16:00",
@@ -47909,7 +47909,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "LINK: R$ 60.54 (Z: +2.30σ)"
+          "metric": "LINK: R$ 60.54 (Z: +2.41σ)"
         },
         {
           "time": "22/08 17:00",
@@ -50381,7 +50381,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 58.32 (Z: +0.00σ)"
+          "metric": "LINK: R$ 58.32 (Z: -0.00σ)"
         },
         {
           "time": "25/08 22:00",
@@ -50389,7 +50389,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 58.32 (Z: -0.00σ)"
+          "metric": "LINK: R$ 58.32 (Z: +0.00σ)"
         },
         {
           "time": "25/08 22:00",
@@ -50437,22 +50437,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
-        },
-        {
-          "time": "26/08 00:00",
-          "label": "26/08 00:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
-        },
-        {
-          "time": "26/08 00:00",
-          "label": "26/08 00:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
@@ -50472,16 +50456,16 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
-          "time": "26/08 01:00",
-          "label": "26/08 01:00",
+          "time": "26/08 00:00",
+          "label": "26/08 00:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
           "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
-          "time": "26/08 01:00",
-          "label": "26/08 01:00",
+          "time": "26/08 00:00",
+          "label": "26/08 00:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
@@ -50504,6 +50488,30 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
+          "time": "26/08 01:00",
+          "label": "26/08 01:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+        },
+        {
+          "time": "26/08 01:00",
+          "label": "26/08 01:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+        },
+        {
+          "time": "26/08 02:00",
+          "label": "26/08 02:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+        },
+        {
           "time": "26/08 02:00",
           "label": "26/08 02:00",
           "score": 0,
@@ -50528,30 +50536,6 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
-          "time": "26/08 02:00",
-          "label": "26/08 02:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
-        },
-        {
-          "time": "26/08 03:00",
-          "label": "26/08 03:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
-        },
-        {
-          "time": "26/08 03:00",
-          "label": "26/08 03:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
-        },
-        {
           "time": "26/08 03:00",
           "label": "26/08 03:00",
           "score": 0,
@@ -50566,6 +50550,22 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 0,
           "score_b": 0,
           "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+        },
+        {
+          "time": "26/08 03:00",
+          "label": "26/08 03:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+        },
+        {
+          "time": "26/08 03:00",
+          "label": "26/08 03:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "26/08 04:00",
@@ -50581,7 +50581,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "26/08 04:00",
@@ -50589,7 +50589,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "26/08 04:00",
@@ -50613,7 +50613,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "26/08 05:00",
@@ -50669,22 +50669,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
-        },
-        {
-          "time": "26/08 07:00",
-          "label": "26/08 07:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
-        },
-        {
-          "time": "26/08 07:00",
-          "label": "26/08 07:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
@@ -50696,16 +50680,16 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
-          "time": "26/08 08:00",
-          "label": "26/08 08:00",
+          "time": "26/08 07:00",
+          "label": "26/08 07:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
-          "time": "26/08 08:00",
-          "label": "26/08 08:00",
+          "time": "26/08 07:00",
+          "label": "26/08 07:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
@@ -50728,6 +50712,30 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
+          "time": "26/08 08:00",
+          "label": "26/08 08:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+        },
+        {
+          "time": "26/08 08:00",
+          "label": "26/08 08:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+        },
+        {
+          "time": "26/08 09:00",
+          "label": "26/08 09:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+        },
+        {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
           "score": 0,
@@ -50752,8 +50760,8 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
-          "time": "26/08 09:00",
-          "label": "26/08 09:00",
+          "time": "26/08 10:00",
+          "label": "26/08 10:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
@@ -50784,30 +50792,6 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
-          "time": "26/08 10:00",
-          "label": "26/08 10:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
-        },
-        {
-          "time": "26/08 11:00",
-          "label": "26/08 11:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
-        },
-        {
-          "time": "26/08 11:00",
-          "label": "26/08 11:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
-        },
-        {
           "time": "26/08 11:00",
           "label": "26/08 11:00",
           "score": 0,
@@ -50822,6 +50806,22 @@ window.PLANOS_TACTICAL_DATA = [
           "score_a": 0,
           "score_b": 0,
           "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+        },
+        {
+          "time": "26/08 11:00",
+          "label": "26/08 11:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+        },
+        {
+          "time": "26/08 11:00",
+          "label": "26/08 11:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "26/08 12:00",
@@ -51428,10 +51428,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22/08 14:00",
           "label": "22/08 14:00",
-          "score": 45,
-          "score_a": 45,
+          "score": 39,
+          "score_a": 39,
           "score_b": 0,
-          "metric": "LINK: R$ 60.84 (Z: -0.61σ)"
+          "metric": "LINK: R$ 60.84 (Z: -0.53σ)"
         },
         {
           "time": "22/08 15:00",
@@ -51444,10 +51444,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22/08 16:00",
           "label": "22/08 16:00",
-          "score": 57,
-          "score_a": 57,
+          "score": 62,
+          "score_a": 62,
           "score_b": 0,
-          "metric": "LINK: R$ 59.62 (Z: -0.76σ)"
+          "metric": "LINK: R$ 59.62 (Z: -0.83σ)"
         },
         {
           "time": "22/08 17:00",
@@ -52071,7 +52071,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 58.32 (Z: -0.00σ)"
+          "metric": "LINK: R$ 58.32 (Z: +0.00σ)"
         },
         {
           "time": "25/08 23:00",
@@ -52095,7 +52095,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "26/08 02:00",
@@ -52103,7 +52103,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "26/08 03:00",
@@ -52119,7 +52119,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "26/08 05:00",
@@ -52127,7 +52127,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "26/08 06:00",
@@ -52159,7 +52159,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
         },
         {
           "time": "26/08 10:00",
@@ -52167,7 +52167,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "LINK: R$ 57.83 (Z: +0.00σ)"
+          "metric": "LINK: R$ 57.83 (Z: -0.00σ)"
         },
         {
           "time": "26/08 11:00",
@@ -52297,10 +52297,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:26",
           "label": "11:26",
-          "score": 83,
-          "score_a": 83,
+          "score": 69,
+          "score_a": 69,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001217 (Z: -0.83σ)"
+          "metric": "SOL/BTC: 0.001219 (Z: -0.69σ)"
         },
         {
           "time": "11:27",
@@ -52313,10 +52313,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:28",
           "label": "11:28",
-          "score": 64,
-          "score_a": 64,
+          "score": 84,
+          "score_a": 84,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001220 (Z: -0.64σ)"
+          "metric": "SOL/BTC: 0.001216 (Z: -0.84σ)"
         },
         {
           "time": "11:29",
@@ -52353,18 +52353,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:33",
           "label": "11:33",
-          "score": 80,
-          "score_a": 80,
+          "score": 63,
+          "score_a": 63,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001217 (Z: -0.80σ)"
+          "metric": "SOL/BTC: 0.001220 (Z: -0.63σ)"
         },
         {
           "time": "11:34",
           "label": "11:34",
-          "score": 64,
-          "score_a": 64,
+          "score": 80,
+          "score_a": 80,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001220 (Z: -0.64σ)"
+          "metric": "SOL/BTC: 0.001217 (Z: -0.80σ)"
         },
         {
           "time": "11:35",
@@ -52409,10 +52409,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:40",
           "label": "11:40",
-          "score": 64,
-          "score_a": 64,
+          "score": 60,
+          "score_a": 60,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001220 (Z: -0.64σ)"
+          "metric": "SOL/BTC: 0.001220 (Z: -0.60σ)"
         },
         {
           "time": "11:41",
@@ -52425,10 +52425,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:42",
           "label": "11:42",
-          "score": 47,
-          "score_a": 47,
+          "score": 69,
+          "score_a": 69,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001222 (Z: -0.47σ)"
+          "metric": "SOL/BTC: 0.001219 (Z: -0.69σ)"
         },
         {
           "time": "11:43",
@@ -52465,18 +52465,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:47",
           "label": "11:47",
-          "score": 65,
-          "score_a": 65,
+          "score": 42,
+          "score_a": 42,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001220 (Z: -0.65σ)"
+          "metric": "SOL/BTC: 0.001223 (Z: -0.42σ)"
         },
         {
           "time": "11:48",
           "label": "11:48",
-          "score": 44,
-          "score_a": 44,
+          "score": 66,
+          "score_a": 66,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001223 (Z: -0.44σ)"
+          "metric": "SOL/BTC: 0.001219 (Z: -0.66σ)"
         },
         {
           "time": "11:49",
@@ -52529,18 +52529,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:55",
           "label": "11:55",
-          "score": 72,
-          "score_a": 72,
+          "score": 31,
+          "score_a": 31,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001218 (Z: -0.72σ)"
+          "metric": "SOL/BTC: 0.001225 (Z: -0.31σ)"
         },
         {
           "time": "11:56",
           "label": "11:56",
-          "score": 28,
-          "score_a": 28,
+          "score": 75,
+          "score_a": 75,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001226 (Z: -0.28σ)"
+          "metric": "SOL/BTC: 0.001218 (Z: -0.75σ)"
         },
         {
           "time": "11:57",
@@ -53219,10 +53219,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "14:25",
           "label": "14:25",
-          "score": 46,
+          "score": 47,
           "score_a": 0,
-          "score_b": 46,
-          "metric": "SOL/BTC: 0.001238 (Z: +0.46σ)"
+          "score_b": 47,
+          "metric": "SOL/BTC: 0.001238 (Z: +0.47σ)"
         },
         {
           "time": "14:27",
@@ -53299,10 +53299,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "14:45",
           "label": "14:45",
-          "score": 50,
+          "score": 51,
           "score_a": 0,
-          "score_b": 50,
-          "metric": "SOL/BTC: 0.001239 (Z: +0.50σ)"
+          "score_b": 51,
+          "metric": "SOL/BTC: 0.001239 (Z: +0.51σ)"
         },
         {
           "time": "14:47",
@@ -53395,10 +53395,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "15:09",
           "label": "15:09",
-          "score": 51,
+          "score": 52,
           "score_a": 0,
-          "score_b": 51,
-          "metric": "SOL/BTC: 0.001239 (Z: +0.51σ)"
+          "score_b": 52,
+          "metric": "SOL/BTC: 0.001239 (Z: +0.52σ)"
         },
         {
           "time": "15:11",
@@ -57763,10 +57763,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:21",
           "label": "09:21",
-          "score": 74,
-          "score_a": 74,
+          "score": 71,
+          "score_a": 71,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001218 (Z: -0.74σ)"
+          "metric": "SOL/BTC: 0.001219 (Z: -0.71σ)"
         },
         {
           "time": "09:23",
@@ -57803,10 +57803,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:31",
           "label": "09:31",
-          "score": 69,
-          "score_a": 69,
+          "score": 75,
+          "score_a": 75,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001219 (Z: -0.69σ)"
+          "metric": "SOL/BTC: 0.001218 (Z: -0.75σ)"
         },
         {
           "time": "09:33",
@@ -57827,10 +57827,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:37",
           "label": "09:37",
-          "score": 55,
-          "score_a": 55,
+          "score": 73,
+          "score_a": 73,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001222 (Z: -0.55σ)"
+          "metric": "SOL/BTC: 0.001219 (Z: -0.73σ)"
         },
         {
           "time": "09:39",
@@ -57851,18 +57851,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:43",
           "label": "09:43",
-          "score": 64,
-          "score_a": 64,
+          "score": 74,
+          "score_a": 74,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001220 (Z: -0.64σ)"
+          "metric": "SOL/BTC: 0.001218 (Z: -0.74σ)"
         },
         {
           "time": "09:45",
           "label": "09:45",
-          "score": 68,
-          "score_a": 68,
+          "score": 59,
+          "score_a": 59,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001219 (Z: -0.68σ)"
+          "metric": "SOL/BTC: 0.001221 (Z: -0.59σ)"
         },
         {
           "time": "09:47",
@@ -57883,10 +57883,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:51",
           "label": "09:51",
-          "score": 74,
-          "score_a": 74,
+          "score": 69,
+          "score_a": 69,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001218 (Z: -0.74σ)"
+          "metric": "SOL/BTC: 0.001219 (Z: -0.69σ)"
         },
         {
           "time": "09:53",
@@ -57939,10 +57939,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:05",
           "label": "10:05",
-          "score": 58,
-          "score_a": 58,
+          "score": 69,
+          "score_a": 69,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001221 (Z: -0.58σ)"
+          "metric": "SOL/BTC: 0.001219 (Z: -0.69σ)"
         },
         {
           "time": "10:07",
@@ -57995,10 +57995,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:19",
           "label": "10:19",
-          "score": 76,
-          "score_a": 76,
+          "score": 52,
+          "score_a": 52,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001218 (Z: -0.76σ)"
+          "metric": "SOL/BTC: 0.001222 (Z: -0.52σ)"
         },
         {
           "time": "10:21",
@@ -58059,10 +58059,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:35",
           "label": "10:35",
-          "score": 85,
-          "score_a": 85,
+          "score": 75,
+          "score_a": 75,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001216 (Z: -0.85σ)"
+          "metric": "SOL/BTC: 0.001218 (Z: -0.75σ)"
         },
         {
           "time": "10:37",
@@ -58115,10 +58115,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:49",
           "label": "10:49",
-          "score": 100,
-          "score_a": 100,
+          "score": 80,
+          "score_a": 80,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001214 (Z: -1.00σ)"
+          "metric": "SOL/BTC: 0.001217 (Z: -0.80σ)"
         },
         {
           "time": "10:51",
@@ -58147,18 +58147,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:57",
           "label": "10:57",
-          "score": 91,
-          "score_a": 91,
+          "score": 74,
+          "score_a": 74,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001215 (Z: -0.91σ)"
+          "metric": "SOL/BTC: 0.001218 (Z: -0.74σ)"
         },
         {
           "time": "10:59",
           "label": "10:59",
-          "score": 83,
-          "score_a": 83,
+          "score": 90,
+          "score_a": 90,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001217 (Z: -0.83σ)"
+          "metric": "SOL/BTC: 0.001215 (Z: -0.90σ)"
         },
         {
           "time": "11:01",
@@ -58179,10 +58179,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:05",
           "label": "11:05",
-          "score": 85,
-          "score_a": 85,
+          "score": 92,
+          "score_a": 92,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001216 (Z: -0.85σ)"
+          "metric": "SOL/BTC: 0.001215 (Z: -0.92σ)"
         },
         {
           "time": "11:07",
@@ -58203,18 +58203,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:11",
           "label": "11:11",
-          "score": 89,
-          "score_a": 89,
+          "score": 95,
+          "score_a": 95,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001216 (Z: -0.89σ)"
+          "metric": "SOL/BTC: 0.001215 (Z: -0.95σ)"
         },
         {
           "time": "11:13",
           "label": "11:13",
-          "score": 83,
-          "score_a": 83,
+          "score": 87,
+          "score_a": 87,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001217 (Z: -0.83σ)"
+          "metric": "SOL/BTC: 0.001216 (Z: -0.87σ)"
         },
         {
           "time": "11:15",
@@ -58291,10 +58291,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:33",
           "label": "11:33",
-          "score": 80,
-          "score_a": 80,
+          "score": 63,
+          "score_a": 63,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001217 (Z: -0.80σ)"
+          "metric": "SOL/BTC: 0.001220 (Z: -0.63σ)"
         },
         {
           "time": "11:35",
@@ -58347,10 +58347,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:47",
           "label": "11:47",
-          "score": 65,
-          "score_a": 65,
+          "score": 42,
+          "score_a": 42,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001220 (Z: -0.65σ)"
+          "metric": "SOL/BTC: 0.001223 (Z: -0.42σ)"
         },
         {
           "time": "11:49",
@@ -58379,10 +58379,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:55",
           "label": "11:55",
-          "score": 72,
-          "score_a": 72,
+          "score": 31,
+          "score_a": 31,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001218 (Z: -0.72σ)"
+          "metric": "SOL/BTC: 0.001225 (Z: -0.31σ)"
         },
         {
           "time": "11:57",
@@ -61013,10 +61013,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22/08 19:00",
           "label": "22/08 19:00",
-          "score": 58,
+          "score": 59,
           "score_a": 0,
-          "score_b": 58,
-          "metric": "SOL/BTC: 0.001217 (Z: +0.58σ)"
+          "score_b": 59,
+          "metric": "SOL/BTC: 0.001217 (Z: +0.59σ)"
         },
         {
           "time": "22/08 20:00",
@@ -61165,10 +61165,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23/08 00:00",
           "label": "23/08 00:00",
-          "score": 99,
+          "score": 100,
           "score_a": 0,
-          "score_b": 99,
-          "metric": "SOL/BTC: 0.001225 (Z: +0.99σ)"
+          "score_b": 100,
+          "metric": "SOL/BTC: 0.001225 (Z: +1.00σ)"
         },
         {
           "time": "23/08 00:00",
@@ -61472,7 +61472,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "SOL/BTC: 0.001225 (Z: +1.09σ)"
+          "metric": "SOL/BTC: 0.001225 (Z: +1.10σ)"
         },
         {
           "time": "23/08 10:00",
@@ -61520,7 +61520,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "SOL/BTC: 0.001232 (Z: +1.44σ)"
+          "metric": "SOL/BTC: 0.001232 (Z: +1.45σ)"
         },
         {
           "time": "23/08 11:00",
@@ -61909,10 +61909,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23/08 23:00",
           "label": "23/08 23:00",
-          "score": 63,
+          "score": 64,
           "score_a": 0,
-          "score_b": 63,
-          "metric": "SOL/BTC: 0.001223 (Z: +0.63σ)"
+          "score_b": 64,
+          "metric": "SOL/BTC: 0.001223 (Z: +0.64σ)"
         },
         {
           "time": "24/08 00:00",
@@ -62552,7 +62552,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "SOL/BTC: 0.001240 (Z: +1.67σ)"
+          "metric": "SOL/BTC: 0.001240 (Z: +1.68σ)"
         },
         {
           "time": "24/08 20:00",
@@ -62768,7 +62768,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "SOL/BTC: 0.001272 (Z: +3.09σ)"
+          "metric": "SOL/BTC: 0.001272 (Z: +3.08σ)"
         },
         {
           "time": "25/08 02:00",
@@ -63749,18 +63749,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 64,
-          "score_a": 64,
+          "score": 81,
+          "score_a": 81,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001220 (Z: -0.64σ)"
+          "metric": "SOL/BTC: 0.001217 (Z: -0.81σ)"
         },
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 69,
-          "score_a": 69,
+          "score": 75,
+          "score_a": 75,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001219 (Z: -0.69σ)"
+          "metric": "SOL/BTC: 0.001218 (Z: -0.75σ)"
         },
         {
           "time": "26/08 09:00",
@@ -65167,10 +65167,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 64,
-          "score_a": 64,
+          "score": 81,
+          "score_a": 81,
           "score_b": 0,
-          "metric": "SOL/BTC: 0.001220 (Z: -0.64σ)"
+          "metric": "SOL/BTC: 0.001217 (Z: -0.81σ)"
         },
         {
           "time": "26/08 10:00",
@@ -73848,10 +73848,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22/08 14:00",
           "label": "22/08 14:00",
-          "score": 95,
-          "score_a": 95,
+          "score": 81,
+          "score_a": 81,
           "score_b": 0,
-          "metric": "SOL 15m: R$ 483.90 (Z: -1.29σ)"
+          "metric": "SOL 15m: R$ 483.90 (Z: -1.10σ)"
         },
         {
           "time": "22/08 14:00",
@@ -73896,18 +73896,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22/08 15:00",
           "label": "22/08 15:00",
-          "score": 15,
-          "score_a": 15,
+          "score": 1,
+          "score_a": 1,
           "score_b": 0,
-          "metric": "SOL 15m: R$ 481.80 (Z: -0.21σ)"
+          "metric": "SOL 15m: R$ 481.80 (Z: -0.01σ)"
         },
         {
           "time": "22/08 16:00",
           "label": "22/08 16:00",
-          "score": 27,
-          "score_a": 27,
+          "score": 25,
+          "score_a": 25,
           "score_b": 0,
-          "metric": "SOL 15m: R$ 480.80 (Z: -0.37σ)"
+          "metric": "SOL 15m: R$ 480.80 (Z: -0.34σ)"
         },
         {
           "time": "22/08 16:00",
@@ -74843,7 +74843,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SOL 15m: R$ 492.60 (Z: +0.00σ)"
+          "metric": "SOL 15m: R$ 492.60 (Z: -0.00σ)"
         },
         {
           "time": "23/08 21:00",
@@ -77450,10 +77450,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22/08 14:00",
           "label": "22/08 14:00",
-          "score": 95,
-          "score_a": 95,
+          "score": 81,
+          "score_a": 81,
           "score_b": 0,
-          "metric": "SOL 15m: R$ 483.90 (Z: -1.29σ)"
+          "metric": "SOL 15m: R$ 483.90 (Z: -1.10σ)"
         },
         {
           "time": "22/08 15:00",
@@ -77701,7 +77701,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SOL 15m: R$ 492.60 (Z: +0.00σ)"
+          "metric": "SOL 15m: R$ 492.60 (Z: -0.00σ)"
         },
         {
           "time": "23/08 22:00",
@@ -78319,10 +78319,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:26",
           "label": "11:26",
-          "score": 5,
+          "score": 60,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "ETH/BTC: 0.03106 (Z: +0.04σ)"
+          "score_b": 60,
+          "metric": "ETH/BTC: 0.03112 (Z: +0.51σ)"
         },
         {
           "time": "11:27",
@@ -78335,10 +78335,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:28",
           "label": "11:28",
-          "score": 78,
+          "score": 0,
           "score_a": 0,
-          "score_b": 78,
-          "metric": "ETH/BTC: 0.03114 (Z: +0.67σ)"
+          "score_b": 0,
+          "metric": "ETH/BTC: 0.03105 (Z: +0.00σ)"
         },
         {
           "time": "11:29",
@@ -78375,18 +78375,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:33",
           "label": "11:33",
-          "score": 15,
+          "score": 86,
           "score_a": 0,
-          "score_b": 15,
-          "metric": "ETH/BTC: 0.03107 (Z: +0.12σ)"
+          "score_b": 86,
+          "metric": "ETH/BTC: 0.03114 (Z: +0.73σ)"
         },
         {
           "time": "11:34",
           "label": "11:34",
-          "score": 81,
+          "score": 15,
           "score_a": 0,
-          "score_b": 81,
-          "metric": "ETH/BTC: 0.03114 (Z: +0.69σ)"
+          "score_b": 15,
+          "metric": "ETH/BTC: 0.03107 (Z: +0.13σ)"
         },
         {
           "time": "11:35",
@@ -78394,7 +78394,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "ETH/BTC: 0.03117 (Z: +0.92σ)"
+          "metric": "ETH/BTC: 0.03117 (Z: +0.91σ)"
         },
         {
           "time": "11:36",
@@ -78431,10 +78431,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:40",
           "label": "11:40",
-          "score": 80,
+          "score": 98,
           "score_a": 0,
-          "score_b": 80,
-          "metric": "ETH/BTC: 0.03114 (Z: +0.68σ)"
+          "score_b": 98,
+          "metric": "ETH/BTC: 0.03115 (Z: +0.83σ)"
         },
         {
           "time": "11:41",
@@ -78447,10 +78447,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:42",
           "label": "11:42",
-          "score": 100,
+          "score": 59,
           "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03121 (Z: +1.26σ)"
+          "score_b": 59,
+          "metric": "ETH/BTC: 0.03111 (Z: +0.50σ)"
         },
         {
           "time": "11:43",
@@ -78482,23 +78482,23 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "ETH/BTC: 0.03122 (Z: +1.39σ)"
+          "metric": "ETH/BTC: 0.03122 (Z: +1.40σ)"
         },
         {
           "time": "11:47",
           "label": "11:47",
-          "score": 78,
+          "score": 100,
           "score_a": 0,
-          "score_b": 78,
-          "metric": "ETH/BTC: 0.03113 (Z: +0.67σ)"
+          "score_b": 100,
+          "metric": "ETH/BTC: 0.03123 (Z: +1.45σ)"
         },
         {
           "time": "11:48",
           "label": "11:48",
-          "score": 100,
+          "score": 72,
           "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03122 (Z: +1.37σ)"
+          "score_b": 72,
+          "metric": "ETH/BTC: 0.03113 (Z: +0.61σ)"
         },
         {
           "time": "11:49",
@@ -78514,7 +78514,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "ETH/BTC: 0.03122 (Z: +1.40σ)"
+          "metric": "ETH/BTC: 0.03122 (Z: +1.41σ)"
         },
         {
           "time": "11:51",
@@ -78551,18 +78551,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:55",
           "label": "11:55",
-          "score": 47,
+          "score": 100,
           "score_a": 0,
-          "score_b": 47,
-          "metric": "ETH/BTC: 0.03110 (Z: +0.40σ)"
+          "score_b": 100,
+          "metric": "ETH/BTC: 0.03128 (Z: +1.83σ)"
         },
         {
           "time": "11:56",
           "label": "11:56",
-          "score": 100,
+          "score": 36,
           "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03129 (Z: +1.94σ)"
+          "score_b": 36,
+          "metric": "ETH/BTC: 0.03109 (Z: +0.31σ)"
         },
         {
           "time": "11:57",
@@ -78658,7 +78658,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 86,
           "score_a": 0,
           "score_b": 86,
-          "metric": "ETH/BTC: 0.03114 (Z: +0.73σ)"
+          "metric": "ETH/BTC: 0.03114 (Z: +0.74σ)"
         },
         {
           "time": "12:09",
@@ -78671,9 +78671,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "12:10",
           "label": "12:10",
-          "score": 52,
+          "score": 53,
           "score_a": 0,
-          "score_b": 52,
+          "score_b": 53,
           "metric": "ETH/BTC: 0.03110 (Z: +0.45σ)"
         },
         {
@@ -78682,7 +78682,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 76,
           "score_a": 0,
           "score_b": 76,
-          "metric": "ETH/BTC: 0.03113 (Z: +0.64σ)"
+          "metric": "ETH/BTC: 0.03113 (Z: +0.65σ)"
         },
         {
           "time": "12:12",
@@ -78690,7 +78690,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 74,
           "score_a": 0,
           "score_b": 74,
-          "metric": "ETH/BTC: 0.03113 (Z: +0.62σ)"
+          "metric": "ETH/BTC: 0.03113 (Z: +0.63σ)"
         },
         {
           "time": "12:13",
@@ -83785,10 +83785,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:21",
           "label": "09:21",
-          "score": 31,
+          "score": 40,
           "score_a": 0,
-          "score_b": 31,
-          "metric": "ETH/BTC: 0.03110 (Z: +0.26σ)"
+          "score_b": 40,
+          "metric": "ETH/BTC: 0.03111 (Z: +0.34σ)"
         },
         {
           "time": "09:23",
@@ -83825,10 +83825,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:31",
           "label": "09:31",
-          "score": 51,
+          "score": 27,
           "score_a": 0,
-          "score_b": 51,
-          "metric": "ETH/BTC: 0.03113 (Z: +0.43σ)"
+          "score_b": 27,
+          "metric": "ETH/BTC: 0.03110 (Z: +0.23σ)"
         },
         {
           "time": "09:33",
@@ -83849,10 +83849,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:37",
           "label": "09:37",
-          "score": 100,
+          "score": 36,
           "score_a": 0,
-          "score_b": 100,
-          "metric": "ETH/BTC: 0.03118 (Z: +0.85σ)"
+          "score_b": 36,
+          "metric": "ETH/BTC: 0.03111 (Z: +0.31σ)"
         },
         {
           "time": "09:39",
@@ -83873,18 +83873,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:43",
           "label": "09:43",
-          "score": 69,
+          "score": 33,
           "score_a": 0,
-          "score_b": 69,
-          "metric": "ETH/BTC: 0.03115 (Z: +0.59σ)"
+          "score_b": 33,
+          "metric": "ETH/BTC: 0.03110 (Z: +0.28σ)"
         },
         {
           "time": "09:45",
           "label": "09:45",
-          "score": 55,
+          "score": 86,
           "score_a": 0,
-          "score_b": 55,
-          "metric": "ETH/BTC: 0.03113 (Z: +0.47σ)"
+          "score_b": 86,
+          "metric": "ETH/BTC: 0.03117 (Z: +0.73σ)"
         },
         {
           "time": "09:47",
@@ -83905,10 +83905,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:51",
           "label": "09:51",
-          "score": 34,
+          "score": 52,
           "score_a": 0,
-          "score_b": 34,
-          "metric": "ETH/BTC: 0.03110 (Z: +0.29σ)"
+          "score_b": 52,
+          "metric": "ETH/BTC: 0.03112 (Z: +0.44σ)"
         },
         {
           "time": "09:53",
@@ -83940,7 +83940,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 57,
           "score_a": 0,
           "score_b": 57,
-          "metric": "ETH/BTC: 0.03113 (Z: +0.48σ)"
+          "metric": "ETH/BTC: 0.03113 (Z: +0.49σ)"
         },
         {
           "time": "10:01",
@@ -83961,10 +83961,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:05",
           "label": "10:05",
-          "score": 92,
+          "score": 53,
           "score_a": 0,
-          "score_b": 92,
-          "metric": "ETH/BTC: 0.03117 (Z: +0.78σ)"
+          "score_b": 53,
+          "metric": "ETH/BTC: 0.03112 (Z: +0.45σ)"
         },
         {
           "time": "10:07",
@@ -83980,7 +83980,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "ETH/BTC: 0.03118 (Z: +0.91σ)"
+          "metric": "ETH/BTC: 0.03118 (Z: +0.92σ)"
         },
         {
           "time": "10:11",
@@ -84017,10 +84017,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:19",
           "label": "10:19",
-          "score": 28,
+          "score": 100,
           "score_a": 0,
-          "score_b": 28,
-          "metric": "ETH/BTC: 0.03109 (Z: +0.24σ)"
+          "score_b": 100,
+          "metric": "ETH/BTC: 0.03119 (Z: +1.01σ)"
         },
         {
           "time": "10:21",
@@ -84081,10 +84081,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:35",
           "label": "10:35",
-          "score": 6,
-          "score_a": 6,
-          "score_b": 0,
-          "metric": "ETH/BTC: 0.03105 (Z: -0.06σ)"
+          "score": 34,
+          "score_a": 0,
+          "score_b": 34,
+          "metric": "ETH/BTC: 0.03110 (Z: +0.29σ)"
         },
         {
           "time": "10:37",
@@ -84137,10 +84137,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:49",
           "label": "10:49",
-          "score": 53,
-          "score_a": 53,
-          "score_b": 0,
-          "metric": "ETH/BTC: 0.03099 (Z: -0.53σ)"
+          "score": 13,
+          "score_a": 0,
+          "score_b": 13,
+          "metric": "ETH/BTC: 0.03107 (Z: +0.11σ)"
         },
         {
           "time": "10:51",
@@ -84169,18 +84169,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:57",
           "label": "10:57",
-          "score": 23,
-          "score_a": 23,
-          "score_b": 0,
-          "metric": "ETH/BTC: 0.03103 (Z: -0.23σ)"
+          "score": 40,
+          "score_a": 0,
+          "score_b": 40,
+          "metric": "ETH/BTC: 0.03110 (Z: +0.34σ)"
         },
         {
           "time": "10:59",
           "label": "10:59",
-          "score": 4,
-          "score_a": 0,
-          "score_b": 4,
-          "metric": "ETH/BTC: 0.03106 (Z: +0.03σ)"
+          "score": 22,
+          "score_a": 22,
+          "score_b": 0,
+          "metric": "ETH/BTC: 0.03103 (Z: -0.22σ)"
         },
         {
           "time": "11:01",
@@ -84201,10 +84201,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:05",
           "label": "11:05",
-          "score": 3,
-          "score_a": 3,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "ETH/BTC: 0.03105 (Z: -0.03σ)"
+          "metric": "ETH/BTC: 0.03102 (Z: -0.27σ)"
         },
         {
           "time": "11:07",
@@ -84225,18 +84225,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:11",
           "label": "11:11",
-          "score": 16,
-          "score_a": 16,
+          "score": 38,
+          "score_a": 38,
           "score_b": 0,
-          "metric": "ETH/BTC: 0.03103 (Z: -0.16σ)"
+          "metric": "ETH/BTC: 0.03101 (Z: -0.38σ)"
         },
         {
           "time": "11:13",
           "label": "11:13",
-          "score": 3,
-          "score_a": 0,
-          "score_b": 3,
-          "metric": "ETH/BTC: 0.03106 (Z: +0.02σ)"
+          "score": 9,
+          "score_a": 9,
+          "score_b": 0,
+          "metric": "ETH/BTC: 0.03104 (Z: -0.09σ)"
         },
         {
           "time": "11:15",
@@ -84313,10 +84313,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:33",
           "label": "11:33",
-          "score": 15,
+          "score": 86,
           "score_a": 0,
-          "score_b": 15,
-          "metric": "ETH/BTC: 0.03107 (Z: +0.12σ)"
+          "score_b": 86,
+          "metric": "ETH/BTC: 0.03114 (Z: +0.73σ)"
         },
         {
           "time": "11:35",
@@ -84324,7 +84324,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "ETH/BTC: 0.03117 (Z: +0.92σ)"
+          "metric": "ETH/BTC: 0.03117 (Z: +0.91σ)"
         },
         {
           "time": "11:37",
@@ -84369,10 +84369,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:47",
           "label": "11:47",
-          "score": 78,
+          "score": 100,
           "score_a": 0,
-          "score_b": 78,
-          "metric": "ETH/BTC: 0.03113 (Z: +0.67σ)"
+          "score_b": 100,
+          "metric": "ETH/BTC: 0.03123 (Z: +1.45σ)"
         },
         {
           "time": "11:49",
@@ -84401,10 +84401,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:55",
           "label": "11:55",
-          "score": 47,
+          "score": 100,
           "score_a": 0,
-          "score_b": 47,
-          "metric": "ETH/BTC: 0.03110 (Z: +0.40σ)"
+          "score_b": 100,
+          "metric": "ETH/BTC: 0.03128 (Z: +1.83σ)"
         },
         {
           "time": "11:57",
@@ -84468,7 +84468,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 76,
           "score_a": 0,
           "score_b": 76,
-          "metric": "ETH/BTC: 0.03113 (Z: +0.64σ)"
+          "metric": "ETH/BTC: 0.03113 (Z: +0.65σ)"
         },
         {
           "time": "12:13",
@@ -87043,10 +87043,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22/08 20:00",
           "label": "22/08 20:00",
-          "score": 90,
-          "score_a": 90,
+          "score": 89,
+          "score_a": 89,
           "score_b": 0,
-          "metric": "ETH/BTC: 0.03134 (Z: -0.90σ)"
+          "metric": "ETH/BTC: 0.03134 (Z: -0.89σ)"
         },
         {
           "time": "22/08 20:00",
@@ -87147,10 +87147,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22/08 23:00",
           "label": "22/08 23:00",
-          "score": 77,
-          "score_a": 77,
+          "score": 76,
+          "score_a": 76,
           "score_b": 0,
-          "metric": "ETH/BTC: 0.03134 (Z: -0.77σ)"
+          "metric": "ETH/BTC: 0.03134 (Z: -0.76σ)"
         },
         {
           "time": "22/08 23:00",
@@ -87246,7 +87246,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "ETH/BTC: 0.03115 (Z: -1.42σ)"
+          "metric": "ETH/BTC: 0.03115 (Z: -1.41σ)"
         },
         {
           "time": "23/08 02:00",
@@ -87262,7 +87262,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "ETH/BTC: 0.03121 (Z: -1.14σ)"
+          "metric": "ETH/BTC: 0.03121 (Z: -1.13σ)"
         },
         {
           "time": "23/08 03:00",
@@ -87283,10 +87283,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23/08 03:00",
           "label": "23/08 03:00",
-          "score": 68,
-          "score_a": 68,
+          "score": 67,
+          "score_a": 67,
           "score_b": 0,
-          "metric": "ETH/BTC: 0.03130 (Z: -0.68σ)"
+          "metric": "ETH/BTC: 0.03130 (Z: -0.67σ)"
         },
         {
           "time": "23/08 03:00",
@@ -87299,10 +87299,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23/08 04:00",
           "label": "23/08 04:00",
-          "score": 16,
-          "score_a": 16,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "ETH/BTC: 0.03139 (Z: -0.16σ)"
+          "metric": "ETH/BTC: 0.03139 (Z: -0.15σ)"
         },
         {
           "time": "23/08 04:00",
@@ -87350,7 +87350,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "ETH/BTC: 0.03158 (Z: +2.30σ)"
+          "metric": "ETH/BTC: 0.03158 (Z: +2.31σ)"
         },
         {
           "time": "23/08 05:00",
@@ -87382,7 +87382,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "ETH/BTC: 0.03149 (Z: +1.16σ)"
+          "metric": "ETH/BTC: 0.03149 (Z: +1.17σ)"
         },
         {
           "time": "23/08 06:00",
@@ -87390,7 +87390,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "ETH/BTC: 0.03151 (Z: +1.36σ)"
+          "metric": "ETH/BTC: 0.03151 (Z: +1.37σ)"
         },
         {
           "time": "23/08 07:00",
@@ -87398,7 +87398,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "ETH/BTC: 0.03149 (Z: +1.18σ)"
+          "metric": "ETH/BTC: 0.03149 (Z: +1.19σ)"
         },
         {
           "time": "23/08 07:00",
@@ -87427,10 +87427,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23/08 08:00",
           "label": "23/08 08:00",
-          "score": 86,
+          "score": 87,
           "score_a": 0,
-          "score_b": 86,
-          "metric": "ETH/BTC: 0.03145 (Z: +0.73σ)"
+          "score_b": 87,
+          "metric": "ETH/BTC: 0.03145 (Z: +0.74σ)"
         },
         {
           "time": "23/08 08:00",
@@ -87467,17 +87467,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23/08 09:00",
           "label": "23/08 09:00",
-          "score": 45,
+          "score": 46,
           "score_a": 0,
-          "score_b": 45,
+          "score_b": 46,
           "metric": "ETH/BTC: 0.03143 (Z: +0.39σ)"
         },
         {
           "time": "23/08 09:00",
           "label": "23/08 09:00",
-          "score": 45,
+          "score": 46,
           "score_a": 0,
-          "score_b": 45,
+          "score_b": 46,
           "metric": "ETH/BTC: 0.03143 (Z: +0.39σ)"
         },
         {
@@ -87491,10 +87491,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23/08 10:00",
           "label": "23/08 10:00",
-          "score": 53,
+          "score": 54,
           "score_a": 0,
-          "score_b": 53,
-          "metric": "ETH/BTC: 0.03143 (Z: +0.45σ)"
+          "score_b": 54,
+          "metric": "ETH/BTC: 0.03143 (Z: +0.46σ)"
         },
         {
           "time": "23/08 10:00",
@@ -87598,7 +87598,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "ETH/BTC: 0.03161 (Z: +1.50σ)"
+          "metric": "ETH/BTC: 0.03161 (Z: +1.51σ)"
         },
         {
           "time": "23/08 13:00",
@@ -89771,18 +89771,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 65,
+          "score": 5,
           "score_a": 0,
-          "score_b": 65,
-          "metric": "ETH/BTC: 0.03115 (Z: +0.55σ)"
+          "score_b": 5,
+          "metric": "ETH/BTC: 0.03107 (Z: +0.04σ)"
         },
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 51,
+          "score": 27,
           "score_a": 0,
-          "score_b": 51,
-          "metric": "ETH/BTC: 0.03113 (Z: +0.43σ)"
+          "score_b": 27,
+          "metric": "ETH/BTC: 0.03110 (Z: +0.23σ)"
         },
         {
           "time": "26/08 09:00",
@@ -89854,7 +89854,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "ETH/BTC: 0.03122 (Z: +1.39σ)"
+          "metric": "ETH/BTC: 0.03122 (Z: +1.40σ)"
         },
         {
           "time": "26/08 12:00",
@@ -90533,10 +90533,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22/08 23:00",
           "label": "22/08 23:00",
-          "score": 77,
-          "score_a": 77,
+          "score": 76,
+          "score_a": 76,
           "score_b": 0,
-          "metric": "ETH/BTC: 0.03134 (Z: -0.77σ)"
+          "metric": "ETH/BTC: 0.03134 (Z: -0.76σ)"
         },
         {
           "time": "23/08 00:00",
@@ -90560,7 +90560,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "ETH/BTC: 0.03115 (Z: -1.42σ)"
+          "metric": "ETH/BTC: 0.03115 (Z: -1.41σ)"
         },
         {
           "time": "23/08 03:00",
@@ -90613,9 +90613,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23/08 09:00",
           "label": "23/08 09:00",
-          "score": 45,
+          "score": 46,
           "score_a": 0,
-          "score_b": 45,
+          "score_b": 46,
           "metric": "ETH/BTC: 0.03143 (Z: +0.39σ)"
         },
         {
@@ -90648,7 +90648,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "ETH/BTC: 0.03161 (Z: +1.50σ)"
+          "metric": "ETH/BTC: 0.03161 (Z: +1.51σ)"
         },
         {
           "time": "23/08 14:00",
@@ -91189,10 +91189,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 65,
+          "score": 5,
           "score_a": 0,
-          "score_b": 65,
-          "metric": "ETH/BTC: 0.03115 (Z: +0.55σ)"
+          "score_b": 5,
+          "metric": "ETH/BTC: 0.03107 (Z: +0.04σ)"
         },
         {
           "time": "26/08 10:00",
@@ -91250,10 +91250,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:16",
           "label": "11:16",
-          "score": 3,
-          "score_a": 0,
-          "score_b": 3,
-          "metric": "Retorno 5m: +0.01%"
+          "score": 23,
+          "score_a": 23,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.08%"
         },
         {
           "time": "11:17",
@@ -91266,10 +91266,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:18",
           "label": "11:18",
-          "score": 26,
+          "score": 13,
           "score_a": 0,
-          "score_b": 26,
-          "metric": "Retorno 5m: +0.09%"
+          "score_b": 13,
+          "metric": "Retorno 5m: +0.04%"
         },
         {
           "time": "11:19",
@@ -91330,10 +91330,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:26",
           "label": "11:26",
-          "score": 3,
-          "score_a": 3,
+          "score": 58,
+          "score_a": 58,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.01%"
+          "metric": "Retorno 5m: -0.20%"
         },
         {
           "time": "11:27",
@@ -91346,10 +91346,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:28",
           "label": "11:28",
-          "score": 95,
-          "score_a": 95,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.33%"
+          "metric": "Retorno 5m: -0.07%"
         },
         {
           "time": "11:29",
@@ -91370,10 +91370,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:31",
           "label": "11:31",
-          "score": 57,
-          "score_a": 57,
+          "score": 2,
+          "score_a": 2,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.20%"
+          "metric": "Retorno 5m: -0.01%"
         },
         {
           "time": "11:32",
@@ -91386,18 +91386,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:33",
           "label": "11:33",
-          "score": 63,
-          "score_a": 0,
-          "score_b": 63,
-          "metric": "Retorno 5m: +0.22%"
+          "score": 83,
+          "score_a": 83,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.29%"
         },
         {
           "time": "11:34",
           "label": "11:34",
-          "score": 8,
-          "score_a": 8,
-          "score_b": 0,
-          "metric": "Retorno 5m: -0.03%"
+          "score": 56,
+          "score_a": 0,
+          "score_b": 56,
+          "metric": "Retorno 5m: +0.20%"
         },
         {
           "time": "11:35",
@@ -91426,26 +91426,26 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:38",
           "label": "11:38",
-          "score": 85,
-          "score_a": 85,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.30%"
+          "metric": "Retorno 5m: -0.05%"
         },
         {
           "time": "11:39",
           "label": "11:39",
-          "score": 19,
-          "score_a": 19,
+          "score": 84,
+          "score_a": 84,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.07%"
+          "metric": "Retorno 5m: -0.29%"
         },
         {
           "time": "11:40",
           "label": "11:40",
-          "score": 27,
+          "score": 10,
           "score_a": 0,
-          "score_b": 27,
-          "metric": "Retorno 5m: +0.10%"
+          "score_b": 10,
+          "metric": "Retorno 5m: +0.04%"
         },
         {
           "time": "11:41",
@@ -91458,10 +91458,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:42",
           "label": "11:42",
-          "score": 76,
-          "score_a": 76,
-          "score_b": 0,
-          "metric": "Retorno 5m: -0.27%"
+          "score": 11,
+          "score_a": 0,
+          "score_b": 11,
+          "metric": "Retorno 5m: +0.04%"
         },
         {
           "time": "11:43",
@@ -91482,10 +91482,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:45",
           "label": "11:45",
-          "score": 92,
-          "score_a": 92,
+          "score": 75,
+          "score_a": 75,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.32%"
+          "metric": "Retorno 5m: -0.26%"
         },
         {
           "time": "11:46",
@@ -91498,18 +91498,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:47",
           "label": "11:47",
-          "score": 69,
-          "score_a": 0,
-          "score_b": 69,
-          "metric": "Retorno 5m: +0.24%"
+          "score": 100,
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.37%"
         },
         {
           "time": "11:48",
           "label": "11:48",
-          "score": 23,
-          "score_a": 23,
-          "score_b": 0,
-          "metric": "Retorno 5m: -0.08%"
+          "score": 63,
+          "score_a": 0,
+          "score_b": 63,
+          "metric": "Retorno 5m: +0.22%"
         },
         {
           "time": "11:49",
@@ -91538,18 +91538,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:52",
           "label": "11:52",
-          "score": 86,
-          "score_a": 86,
-          "score_b": 0,
-          "metric": "Retorno 5m: -0.30%"
+          "score": 2,
+          "score_a": 0,
+          "score_b": 2,
+          "metric": "Retorno 5m: +0.01%"
         },
         {
           "time": "11:53",
           "label": "11:53",
-          "score": 9,
-          "score_a": 9,
+          "score": 96,
+          "score_a": 96,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.03%"
+          "metric": "Retorno 5m: -0.33%"
         },
         {
           "time": "11:54",
@@ -91562,18 +91562,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:55",
           "label": "11:55",
-          "score": 100,
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Retorno 5m: +0.40%"
+          "score": 48,
+          "score_a": 48,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.17%"
         },
         {
           "time": "11:56",
           "label": "11:56",
-          "score": 66,
-          "score_a": 66,
-          "score_b": 0,
-          "metric": "Retorno 5m: -0.23%"
+          "score": 100,
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Retorno 5m: +0.42%"
         },
         {
           "time": "11:57",
@@ -91602,18 +91602,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "12:00",
           "label": "12:00",
-          "score": 100,
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Retorno 5m: -0.51%"
+          "score": 17,
+          "score_a": 0,
+          "score_b": 17,
+          "metric": "Retorno 5m: +0.06%"
         },
         {
           "time": "12:01",
           "label": "12:01",
-          "score": 23,
-          "score_a": 0,
-          "score_b": 23,
-          "metric": "Retorno 5m: +0.08%"
+          "score": 100,
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.57%"
         },
         {
           "time": "12:02",
@@ -96797,9 +96797,9 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:21",
           "label": "09:21",
           "score": 38,
-          "score_a": 0,
-          "score_b": 38,
-          "metric": "Retorno 5m: +0.13%"
+          "score_a": 38,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.13%"
         },
         {
           "time": "09:23",
@@ -96820,10 +96820,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:27",
           "label": "09:27",
-          "score": 34,
+          "score": 92,
           "score_a": 0,
-          "score_b": 34,
-          "metric": "Retorno 5m: +0.12%"
+          "score_b": 92,
+          "metric": "Retorno 5m: +0.32%"
         },
         {
           "time": "09:29",
@@ -96836,10 +96836,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:31",
           "label": "09:31",
-          "score": 60,
-          "score_a": 60,
+          "score": 34,
+          "score_a": 34,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.21%"
+          "metric": "Retorno 5m: -0.12%"
         },
         {
           "time": "09:33",
@@ -96852,18 +96852,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:35",
           "label": "09:35",
-          "score": 3,
-          "score_a": 3,
-          "score_b": 0,
-          "metric": "Retorno 5m: -0.01%"
+          "score": 61,
+          "score_a": 0,
+          "score_b": 61,
+          "metric": "Retorno 5m: +0.21%"
         },
         {
           "time": "09:37",
           "label": "09:37",
-          "score": 74,
-          "score_a": 74,
+          "score": 4,
+          "score_a": 4,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.26%"
+          "metric": "Retorno 5m: -0.02%"
         },
         {
           "time": "09:39",
@@ -96876,26 +96876,26 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:41",
           "label": "09:41",
-          "score": 42,
-          "score_a": 42,
+          "score": 31,
+          "score_a": 31,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.15%"
+          "metric": "Retorno 5m: -0.11%"
         },
         {
           "time": "09:43",
           "label": "09:43",
-          "score": 21,
+          "score": 60,
           "score_a": 0,
-          "score_b": 21,
-          "metric": "Retorno 5m: +0.07%"
+          "score_b": 60,
+          "metric": "Retorno 5m: +0.21%"
         },
         {
           "time": "09:45",
           "label": "09:45",
-          "score": 39,
+          "score": 6,
           "score_a": 0,
-          "score_b": 39,
-          "metric": "Retorno 5m: +0.14%"
+          "score_b": 6,
+          "metric": "Retorno 5m: +0.02%"
         },
         {
           "time": "09:47",
@@ -96916,10 +96916,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:51",
           "label": "09:51",
-          "score": 46,
+          "score": 27,
           "score_a": 0,
-          "score_b": 46,
-          "metric": "Retorno 5m: +0.16%"
+          "score_b": 27,
+          "metric": "Retorno 5m: +0.09%"
         },
         {
           "time": "09:53",
@@ -96932,10 +96932,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:55",
           "label": "09:55",
-          "score": 44,
-          "score_a": 0,
-          "score_b": 44,
-          "metric": "Retorno 5m: +0.15%"
+          "score": 9,
+          "score_a": 9,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.03%"
         },
         {
           "time": "09:57",
@@ -96964,18 +96964,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:03",
           "label": "10:03",
-          "score": 30,
-          "score_a": 0,
-          "score_b": 30,
-          "metric": "Retorno 5m: +0.10%"
+          "score": 18,
+          "score_a": 18,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.06%"
         },
         {
           "time": "10:05",
           "label": "10:05",
-          "score": 99,
-          "score_a": 99,
-          "score_b": 0,
-          "metric": "Retorno 5m: -0.35%"
+          "score": 21,
+          "score_a": 0,
+          "score_b": 21,
+          "metric": "Retorno 5m: +0.07%"
         },
         {
           "time": "10:07",
@@ -96996,10 +96996,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:11",
           "label": "10:11",
-          "score": 58,
-          "score_a": 58,
+          "score": 43,
+          "score_a": 43,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.20%"
+          "metric": "Retorno 5m: -0.15%"
         },
         {
           "time": "10:13",
@@ -97020,18 +97020,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:17",
           "label": "10:17",
-          "score": 44,
-          "score_a": 44,
-          "score_b": 0,
-          "metric": "Retorno 5m: -0.15%"
+          "score": 10,
+          "score_a": 0,
+          "score_b": 10,
+          "metric": "Retorno 5m: +0.03%"
         },
         {
           "time": "10:19",
           "label": "10:19",
-          "score": 82,
-          "score_a": 0,
-          "score_b": 82,
-          "metric": "Retorno 5m: +0.29%"
+          "score": 65,
+          "score_a": 65,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.23%"
         },
         {
           "time": "10:21",
@@ -97052,10 +97052,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:25",
           "label": "10:25",
-          "score": 34,
-          "score_a": 34,
+          "score": 100,
+          "score_a": 100,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.12%"
+          "metric": "Retorno 5m: -0.42%"
         },
         {
           "time": "10:27",
@@ -97084,18 +97084,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:33",
           "label": "10:33",
-          "score": 64,
-          "score_a": 64,
-          "score_b": 0,
-          "metric": "Retorno 5m: -0.22%"
+          "score": 73,
+          "score_a": 0,
+          "score_b": 73,
+          "metric": "Retorno 5m: +0.25%"
         },
         {
           "time": "10:35",
           "label": "10:35",
-          "score": 98,
-          "score_a": 0,
-          "score_b": 98,
-          "metric": "Retorno 5m: +0.34%"
+          "score": 30,
+          "score_a": 30,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.11%"
         },
         {
           "time": "10:37",
@@ -97116,10 +97116,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:41",
           "label": "10:41",
-          "score": 3,
-          "score_a": 0,
-          "score_b": 3,
-          "metric": "Retorno 5m: +0.01%"
+          "score": 10,
+          "score_a": 10,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.03%"
         },
         {
           "time": "10:43",
@@ -97140,18 +97140,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:47",
           "label": "10:47",
-          "score": 14,
-          "score_a": 14,
+          "score": 9,
+          "score_a": 9,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.05%"
+          "metric": "Retorno 5m: -0.03%"
         },
         {
           "time": "10:49",
           "label": "10:49",
-          "score": 32,
-          "score_a": 0,
-          "score_b": 32,
-          "metric": "Retorno 5m: +0.11%"
+          "score": 40,
+          "score_a": 40,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.14%"
         },
         {
           "time": "10:51",
@@ -97172,26 +97172,26 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:55",
           "label": "10:55",
-          "score": 3,
-          "score_a": 3,
+          "score": 100,
+          "score_a": 100,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.01%"
+          "metric": "Retorno 5m: -0.41%"
         },
         {
           "time": "10:57",
           "label": "10:57",
-          "score": 100,
+          "score": 74,
           "score_a": 0,
-          "score_b": 100,
-          "metric": "Retorno 5m: +0.50%"
+          "score_b": 74,
+          "metric": "Retorno 5m: +0.26%"
         },
         {
           "time": "10:59",
           "label": "10:59",
-          "score": 79,
+          "score": 100,
           "score_a": 0,
-          "score_b": 79,
-          "metric": "Retorno 5m: +0.28%"
+          "score_b": 100,
+          "metric": "Retorno 5m: +0.38%"
         },
         {
           "time": "11:01",
@@ -97212,10 +97212,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:05",
           "label": "11:05",
-          "score": 18,
+          "score": 45,
           "score_a": 0,
-          "score_b": 18,
-          "metric": "Retorno 5m: +0.06%"
+          "score_b": 45,
+          "metric": "Retorno 5m: +0.16%"
         },
         {
           "time": "11:07",
@@ -97228,26 +97228,26 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:09",
           "label": "11:09",
-          "score": 5,
-          "score_a": 5,
-          "score_b": 0,
-          "metric": "Retorno 5m: -0.02%"
+          "score": 21,
+          "score_a": 0,
+          "score_b": 21,
+          "metric": "Retorno 5m: +0.07%"
         },
         {
           "time": "11:11",
           "label": "11:11",
-          "score": 0,
+          "score": 26,
           "score_a": 0,
-          "score_b": 0,
-          "metric": "Retorno 5m: +0.00%"
+          "score_b": 26,
+          "metric": "Retorno 5m: +0.09%"
         },
         {
           "time": "11:13",
           "label": "11:13",
-          "score": 52,
-          "score_a": 52,
+          "score": 38,
+          "score_a": 38,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.18%"
+          "metric": "Retorno 5m: -0.13%"
         },
         {
           "time": "11:15",
@@ -97316,18 +97316,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:31",
           "label": "11:31",
-          "score": 57,
-          "score_a": 57,
+          "score": 2,
+          "score_a": 2,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.20%"
+          "metric": "Retorno 5m: -0.01%"
         },
         {
           "time": "11:33",
           "label": "11:33",
-          "score": 63,
-          "score_a": 0,
-          "score_b": 63,
-          "metric": "Retorno 5m: +0.22%"
+          "score": 83,
+          "score_a": 83,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.29%"
         },
         {
           "time": "11:35",
@@ -97348,10 +97348,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:39",
           "label": "11:39",
-          "score": 19,
-          "score_a": 19,
+          "score": 84,
+          "score_a": 84,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.07%"
+          "metric": "Retorno 5m: -0.29%"
         },
         {
           "time": "11:41",
@@ -97372,18 +97372,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:45",
           "label": "11:45",
-          "score": 92,
-          "score_a": 92,
+          "score": 75,
+          "score_a": 75,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.32%"
+          "metric": "Retorno 5m: -0.26%"
         },
         {
           "time": "11:47",
           "label": "11:47",
-          "score": 69,
-          "score_a": 0,
-          "score_b": 69,
-          "metric": "Retorno 5m: +0.24%"
+          "score": 100,
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.37%"
         },
         {
           "time": "11:49",
@@ -97404,18 +97404,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:53",
           "label": "11:53",
-          "score": 9,
-          "score_a": 9,
+          "score": 96,
+          "score_a": 96,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.03%"
+          "metric": "Retorno 5m: -0.33%"
         },
         {
           "time": "11:55",
           "label": "11:55",
-          "score": 100,
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Retorno 5m: +0.40%"
+          "score": 48,
+          "score_a": 48,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.17%"
         },
         {
           "time": "11:57",
@@ -97436,10 +97436,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "12:01",
           "label": "12:01",
-          "score": 23,
-          "score_a": 0,
-          "score_b": 23,
-          "metric": "Retorno 5m: +0.08%"
+          "score": 100,
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.57%"
         },
         {
           "time": "12:03",
@@ -102782,18 +102782,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 100,
-          "score_a": 100,
+          "score": 79,
+          "score_a": 79,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.51%"
+          "metric": "Retorno 5m: -0.28%"
         },
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 60,
-          "score_a": 60,
+          "score": 34,
+          "score_a": 34,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.21%"
+          "metric": "Retorno 5m: -0.12%"
         },
         {
           "time": "26/08 09:00",
@@ -102846,18 +102846,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 11:00",
           "label": "26/08 11:00",
-          "score": 3,
-          "score_a": 0,
-          "score_b": 3,
-          "metric": "Retorno 5m: +0.01%"
+          "score": 23,
+          "score_a": 23,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.08%"
         },
         {
           "time": "26/08 11:00",
           "label": "26/08 11:00",
-          "score": 57,
-          "score_a": 57,
+          "score": 2,
+          "score_a": 2,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.20%"
+          "metric": "Retorno 5m: -0.01%"
         },
         {
           "time": "26/08 11:00",
@@ -102870,10 +102870,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 12:00",
           "label": "26/08 12:00",
-          "score": 23,
-          "score_a": 0,
-          "score_b": 23,
-          "metric": "Retorno 5m: +0.08%"
+          "score": 100,
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.57%"
         }
       ],
       "30d": [
@@ -104200,10 +104200,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 100,
-          "score_a": 100,
+          "score": 79,
+          "score_a": 79,
           "score_b": 0,
-          "metric": "Retorno 5m: -0.51%"
+          "metric": "Retorno 5m: -0.28%"
         },
         {
           "time": "26/08 10:00",
@@ -104216,10 +104216,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 11:00",
           "label": "26/08 11:00",
-          "score": 3,
-          "score_a": 0,
-          "score_b": 3,
-          "metric": "Retorno 5m: +0.01%"
+          "score": 23,
+          "score_a": 23,
+          "score_b": 0,
+          "metric": "Retorno 5m: -0.08%"
         }
       ]
     }
@@ -125892,10 +125892,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22/08 14:00",
           "label": "22/08 14:00",
-          "score": 4,
-          "score_a": 4,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "BNB 15m: R$ 3575.00 (Z: -0.06σ)"
+          "metric": "BNB 15m: R$ 3575.00 (Z: -0.19σ)"
         },
         {
           "time": "22/08 14:00",
@@ -125940,18 +125940,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22/08 15:00",
           "label": "22/08 15:00",
-          "score": 10,
-          "score_a": 10,
+          "score": 0,
+          "score_a": 0,
           "score_b": 0,
-          "metric": "BNB 15m: R$ 3565.00 (Z: -0.14σ)"
+          "metric": "BNB 15m: R$ 3565.00 (Z: +0.46σ)"
         },
         {
           "time": "22/08 16:00",
           "label": "22/08 16:00",
-          "score": 39,
-          "score_a": 39,
+          "score": 62,
+          "score_a": 62,
           "score_b": 0,
-          "metric": "BNB 15m: R$ 3556.00 (Z: -0.53σ)"
+          "metric": "BNB 15m: R$ 3556.00 (Z: -0.84σ)"
         },
         {
           "time": "22/08 16:00",
@@ -129494,10 +129494,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22/08 14:00",
           "label": "22/08 14:00",
-          "score": 4,
-          "score_a": 4,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "BNB 15m: R$ 3575.00 (Z: -0.06σ)"
+          "metric": "BNB 15m: R$ 3575.00 (Z: -0.19σ)"
         },
         {
           "time": "22/08 15:00",
@@ -138903,18 +138903,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22/08 14:00",
           "label": "22/08 14:00",
-          "score": 65,
-          "score_a": 65,
+          "score": 67,
+          "score_a": 67,
           "score_b": 0,
-          "metric": "ADA 30m: R$ 1.16 (Z: -0.87σ)"
+          "metric": "ADA 30m: R$ 1.16 (Z: -0.91σ)"
         },
         {
           "time": "22/08 14:00",
           "label": "22/08 14:00",
-          "score": 91,
-          "score_a": 91,
+          "score": 85,
+          "score_a": 85,
           "score_b": 0,
-          "metric": "ADA 30m: R$ 1.16 (Z: -1.23σ)"
+          "metric": "ADA 30m: R$ 1.16 (Z: -1.15σ)"
         },
         {
           "time": "22/08 14:00",
@@ -138954,15 +138954,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "ADA 30m: R$ 1.16 (Z: +0.61σ)"
+          "metric": "ADA 30m: R$ 1.16 (Z: +0.99σ)"
         },
         {
           "time": "22/08 16:00",
           "label": "22/08 16:00",
-          "score": 91,
-          "score_a": 91,
+          "score": 100,
+          "score_a": 100,
           "score_b": 0,
-          "metric": "ADA 30m: R$ 1.15 (Z: -1.23σ)"
+          "metric": "ADA 30m: R$ 1.15 (Z: -1.79σ)"
         },
         {
           "time": "22/08 16:00",
@@ -138970,7 +138970,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "ADA 30m: R$ 1.16 (Z: +0.90σ)"
+          "metric": "ADA 30m: R$ 1.16 (Z: +1.64σ)"
         },
         {
           "time": "22/08 16:00",
@@ -142505,10 +142505,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22/08 14:00",
           "label": "22/08 14:00",
-          "score": 65,
-          "score_a": 65,
+          "score": 67,
+          "score_a": 67,
           "score_b": 0,
-          "metric": "ADA 30m: R$ 1.16 (Z: -0.87σ)"
+          "metric": "ADA 30m: R$ 1.16 (Z: -0.91σ)"
         },
         {
           "time": "22/08 15:00",
@@ -142524,7 +142524,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "ADA 30m: R$ 1.16 (Z: +0.90σ)"
+          "metric": "ADA 30m: R$ 1.16 (Z: +1.64σ)"
         },
         {
           "time": "22/08 17:00",
@@ -149546,10 +149546,10 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "19/08 12:00",
           "label": "19/08 12:00",
-          "score": 0,
-          "score_a": 0,
+          "score": 54,
+          "score_a": 54,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.44 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 8.44 (Z: -0.72σ)"
         },
         {
           "time": "19/08 12:00",
@@ -149557,31 +149557,23 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.49 (Z: +1.25σ)"
+          "metric": "NEAR 24m: R$ 8.49 (Z: +0.65σ)"
         },
         {
           "time": "19/08 12:00",
           "label": "19/08 12:00",
-          "score": 24,
-          "score_a": 24,
+          "score": 100,
+          "score_a": 100,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.47 (Z: -0.32σ)"
+          "metric": "NEAR 24m: R$ 8.47 (Z: -1.45σ)"
         },
         {
           "time": "19/08 13:00",
           "label": "19/08 13:00",
-          "score": 66,
-          "score_a": 66,
+          "score": 72,
+          "score_a": 72,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.43 (Z: -0.89σ)"
-        },
-        {
-          "time": "19/08 13:00",
-          "label": "19/08 13:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.43 (Z: +0.63σ)"
+          "metric": "NEAR 24m: R$ 8.43 (Z: -0.97σ)"
         },
         {
           "time": "19/08 13:00",
@@ -149589,15 +149581,23 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.39 (Z: -2.40σ)"
+          "metric": "NEAR 24m: R$ 8.40 (Z: -1.44σ)"
         },
         {
           "time": "19/08 13:00",
           "label": "19/08 13:00",
-          "score": 51,
-          "score_a": 51,
+          "score": 90,
+          "score_a": 90,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.39 (Z: -0.69σ)"
+          "metric": "NEAR 24m: R$ 8.39 (Z: -1.21σ)"
+        },
+        {
+          "time": "19/08 13:00",
+          "label": "19/08 13:00",
+          "score": 22,
+          "score_a": 22,
+          "score_b": 0,
+          "metric": "NEAR 24m: R$ 8.39 (Z: -0.30σ)"
         },
         {
           "time": "19/08 14:00",
@@ -149613,15 +149613,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.45 (Z: +1.23σ)"
+          "metric": "NEAR 24m: R$ 8.45 (Z: +1.32σ)"
         },
         {
           "time": "19/08 14:00",
           "label": "19/08 14:00",
-          "score": 27,
-          "score_a": 27,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.44 (Z: -0.37σ)"
+          "metric": "NEAR 24m: R$ 8.44 (Z: -0.20σ)"
         },
         {
           "time": "19/08 14:00",
@@ -149629,7 +149629,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.45 (Z: +4.69σ)"
+          "metric": "NEAR 24m: R$ 8.44 (Z: +0.00σ)"
         },
         {
           "time": "19/08 15:00",
@@ -149637,7 +149637,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.50 (Z: +2.34σ)"
+          "metric": "NEAR 24m: R$ 8.50 (Z: +1.94σ)"
         },
         {
           "time": "19/08 15:00",
@@ -149645,7 +149645,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.55 (Z: +1.59σ)"
+          "metric": "NEAR 24m: R$ 8.55 (Z: +2.12σ)"
         },
         {
           "time": "19/08 15:00",
@@ -149653,7 +149653,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.75 (Z: +2.31σ)"
+          "metric": "NEAR 24m: R$ 8.75 (Z: +2.54σ)"
         },
         {
           "time": "19/08 15:00",
@@ -149661,7 +149661,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.77 (Z: +0.81σ)"
+          "metric": "NEAR 24m: R$ 8.77 (Z: +0.85σ)"
         },
         {
           "time": "19/08 16:00",
@@ -149669,55 +149669,31 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.61 (Z: -2.13σ)"
+          "metric": "NEAR 24m: R$ 8.61 (Z: -2.50σ)"
         },
         {
           "time": "19/08 16:00",
           "label": "19/08 16:00",
-          "score": 17,
-          "score_a": 17,
-          "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.65 (Z: -0.23σ)"
-        },
-        {
-          "time": "19/08 16:00",
-          "label": "19/08 16:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.65 (Z: +0.00σ)"
-        },
-        {
-          "time": "19/08 16:00",
-          "label": "19/08 16:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.65 (Z: +0.00σ)"
-        },
-        {
-          "time": "19/08 17:00",
-          "label": "19/08 17:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.74 (Z: +1.02σ)"
-        },
-        {
-          "time": "19/08 17:00",
-          "label": "19/08 17:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.75 (Z: +0.91σ)"
-        },
-        {
-          "time": "19/08 17:00",
-          "label": "19/08 17:00",
           "score": 22,
           "score_a": 22,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.72 (Z: -0.29σ)"
+          "metric": "NEAR 24m: R$ 8.65 (Z: -0.29σ)"
+        },
+        {
+          "time": "19/08 16:00",
+          "label": "19/08 16:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NEAR 24m: R$ 8.65 (Z: +0.00σ)"
+        },
+        {
+          "time": "19/08 16:00",
+          "label": "19/08 16:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NEAR 24m: R$ 8.65 (Z: +0.00σ)"
         },
         {
           "time": "19/08 17:00",
@@ -149725,7 +149701,31 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.78 (Z: +2.07σ)"
+          "metric": "NEAR 24m: R$ 8.74 (Z: +1.11σ)"
+        },
+        {
+          "time": "19/08 17:00",
+          "label": "19/08 17:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NEAR 24m: R$ 8.75 (Z: +1.22σ)"
+        },
+        {
+          "time": "19/08 17:00",
+          "label": "19/08 17:00",
+          "score": 62,
+          "score_a": 62,
+          "score_b": 0,
+          "metric": "NEAR 24m: R$ 8.72 (Z: -0.84σ)"
+        },
+        {
+          "time": "19/08 17:00",
+          "label": "19/08 17:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NEAR 24m: R$ 8.78 (Z: +2.62σ)"
         },
         {
           "time": "19/08 18:00",
@@ -149733,7 +149733,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.82 (Z: +0.74σ)"
+          "metric": "NEAR 24m: R$ 8.82 (Z: +0.68σ)"
         },
         {
           "time": "19/08 18:00",
@@ -149741,7 +149741,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.79 (Z: -1.64σ)"
+          "metric": "NEAR 24m: R$ 8.79 (Z: -1.97σ)"
         },
         {
           "time": "19/08 18:00",
@@ -149749,7 +149749,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.86 (Z: +1.35σ)"
+          "metric": "NEAR 24m: R$ 8.86 (Z: +1.45σ)"
         },
         {
           "time": "19/08 18:00",
@@ -149757,23 +149757,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.86 (Z: +0.30σ)"
-        },
-        {
-          "time": "19/08 19:00",
-          "label": "19/08 19:00",
-          "score": 100,
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.78 (Z: -4.69σ)"
-        },
-        {
-          "time": "19/08 19:00",
-          "label": "19/08 19:00",
-          "score": 51,
-          "score_a": 51,
-          "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.78 (Z: -0.69σ)"
+          "metric": "NEAR 24m: R$ 8.86 (Z: +0.37σ)"
         },
         {
           "time": "19/08 19:00",
@@ -149781,7 +149765,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.80 (Z: +1.26σ)"
+          "metric": "NEAR 24m: R$ 8.86 (Z: +0.00σ)"
+        },
+        {
+          "time": "19/08 19:00",
+          "label": "19/08 19:00",
+          "score": 56,
+          "score_a": 56,
+          "score_b": 0,
+          "metric": "NEAR 24m: R$ 8.78 (Z: -0.76σ)"
         },
         {
           "time": "19/08 19:00",
@@ -149789,7 +149781,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.80 (Z: +0.57σ)"
+          "metric": "NEAR 24m: R$ 8.80 (Z: +1.38σ)"
+        },
+        {
+          "time": "19/08 19:00",
+          "label": "19/08 19:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NEAR 24m: R$ 8.80 (Z: +0.20σ)"
         },
         {
           "time": "19/08 20:00",
@@ -149797,7 +149797,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.80 (Z: +0.57σ)"
+          "metric": "NEAR 24m: R$ 8.80 (Z: +0.00σ)"
         },
         {
           "time": "19/08 20:00",
@@ -149805,7 +149805,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.82 (Z: +1.26σ)"
+          "metric": "NEAR 24m: R$ 8.82 (Z: +1.38σ)"
         },
         {
           "time": "19/08 20:00",
@@ -149813,7 +149813,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.83 (Z: +1.06σ)"
+          "metric": "NEAR 24m: R$ 8.83 (Z: +0.95σ)"
         },
         {
           "time": "19/08 20:00",
@@ -149829,7 +149829,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.96 (Z: +1.02σ)"
+          "metric": "NEAR 24m: R$ 8.96 (Z: +1.06σ)"
         },
         {
           "time": "19/08 21:00",
@@ -149837,7 +149837,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.05 (Z: +1.17σ)"
+          "metric": "NEAR 24m: R$ 9.05 (Z: +1.21σ)"
         },
         {
           "time": "19/08 21:00",
@@ -149845,7 +149845,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.11 (Z: +1.67σ)"
+          "metric": "NEAR 24m: R$ 9.11 (Z: +1.89σ)"
         },
         {
           "time": "19/08 21:00",
@@ -149853,7 +149853,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.12 (Z: +0.75σ)"
+          "metric": "NEAR 24m: R$ 9.12 (Z: +0.65σ)"
         },
         {
           "time": "19/08 22:00",
@@ -149861,79 +149861,79 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.19 (Z: +0.97σ)"
+          "metric": "NEAR 24m: R$ 9.19 (Z: +1.06σ)"
         },
         {
           "time": "19/08 22:00",
           "label": "19/08 22:00",
-          "score": 73,
-          "score_a": 73,
+          "score": 79,
+          "score_a": 79,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.17 (Z: -0.98σ)"
+          "metric": "NEAR 24m: R$ 9.17 (Z: -1.06σ)"
         },
         {
           "time": "19/08 22:00",
           "label": "19/08 22:00",
-          "score": 61,
-          "score_a": 61,
+          "score": 67,
+          "score_a": 67,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.01 (Z: -0.83σ)"
+          "metric": "NEAR 24m: R$ 9.01 (Z: -0.90σ)"
         },
         {
           "time": "19/08 22:00",
           "label": "19/08 22:00",
-          "score": 19,
-          "score_a": 19,
+          "score": 0,
+          "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.99 (Z: -0.25σ)"
+          "metric": "NEAR 24m: R$ 8.99 (Z: +0.15σ)"
         },
         {
           "time": "19/08 23:00",
           "label": "19/08 23:00",
-          "score": 56,
-          "score_a": 56,
+          "score": 0,
+          "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.98 (Z: -0.76σ)"
+          "metric": "NEAR 24m: R$ 8.98 (Z: +0.02σ)"
         },
         {
           "time": "19/08 23:00",
           "label": "19/08 23:00",
+          "score": 22,
+          "score_a": 22,
+          "score_b": 0,
+          "metric": "NEAR 24m: R$ 8.98 (Z: -0.30σ)"
+        },
+        {
+          "time": "19/08 23:00",
+          "label": "19/08 23:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NEAR 24m: R$ 8.98 (Z: +0.00σ)"
+        },
+        {
+          "time": "19/08 23:00",
+          "label": "19/08 23:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NEAR 24m: R$ 8.98 (Z: +0.00σ)"
+        },
+        {
+          "time": "20/08 00:00",
+          "label": "20/08 00:00",
+          "score": 100,
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "NEAR 24m: R$ 8.94 (Z: -1.38σ)"
+        },
+        {
+          "time": "20/08 00:00",
+          "label": "20/08 00:00",
           "score": 15,
           "score_a": 15,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.98 (Z: -0.20σ)"
-        },
-        {
-          "time": "19/08 23:00",
-          "label": "19/08 23:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.98 (Z: +0.00σ)"
-        },
-        {
-          "time": "19/08 23:00",
-          "label": "19/08 23:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.98 (Z: +0.00σ)"
-        },
-        {
-          "time": "20/08 00:00",
-          "label": "20/08 00:00",
-          "score": 94,
-          "score_a": 94,
-          "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.94 (Z: -1.26σ)"
-        },
-        {
-          "time": "20/08 00:00",
-          "label": "20/08 00:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.94 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 8.94 (Z: -0.20σ)"
         },
         {
           "time": "20/08 00:00",
@@ -151917,7 +151917,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.94 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +2.19σ)"
         },
         {
           "time": "22/08 14:00",
@@ -151925,7 +151925,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.94 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +0.50σ)"
         },
         {
           "time": "22/08 14:00",
@@ -151933,7 +151933,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.94 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +0.00σ)"
         },
         {
           "time": "22/08 15:00",
@@ -151941,7 +151941,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.94 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +0.00σ)"
         },
         {
           "time": "22/08 15:00",
@@ -151949,7 +151949,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.94 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +0.00σ)"
         },
         {
           "time": "22/08 15:00",
@@ -151957,7 +151957,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.94 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +0.00σ)"
         },
         {
           "time": "22/08 15:00",
@@ -151965,7 +151965,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.95 (Z: +0.83σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +0.00σ)"
         },
         {
           "time": "22/08 16:00",
@@ -151973,7 +151973,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.96 (Z: +1.26σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +0.00σ)"
         },
         {
           "time": "22/08 16:00",
@@ -151981,7 +151981,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.96 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +0.00σ)"
         },
         {
           "time": "22/08 16:00",
@@ -151989,7 +151989,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.96 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +0.00σ)"
         },
         {
           "time": "22/08 16:00",
@@ -151997,7 +151997,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.96 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +0.00σ)"
         },
         {
           "time": "22/08 17:00",
@@ -152005,7 +152005,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.96 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +0.00σ)"
         },
         {
           "time": "22/08 17:00",
@@ -152013,7 +152013,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.96 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +0.00σ)"
         },
         {
           "time": "22/08 17:00",
@@ -154924,18 +154924,18 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "19/08 12:00",
           "label": "19/08 12:00",
-          "score": 0,
-          "score_a": 0,
+          "score": 54,
+          "score_a": 54,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.44 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 8.44 (Z: -0.72σ)"
         },
         {
           "time": "19/08 13:00",
           "label": "19/08 13:00",
-          "score": 0,
-          "score_a": 0,
+          "score": 100,
+          "score_a": 100,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.43 (Z: +0.63σ)"
+          "metric": "NEAR 24m: R$ 8.40 (Z: -1.44σ)"
         },
         {
           "time": "19/08 14:00",
@@ -154943,7 +154943,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.45 (Z: +1.23σ)"
+          "metric": "NEAR 24m: R$ 8.45 (Z: +1.32σ)"
         },
         {
           "time": "19/08 15:00",
@@ -154951,15 +154951,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.55 (Z: +1.59σ)"
+          "metric": "NEAR 24m: R$ 8.55 (Z: +2.12σ)"
         },
         {
           "time": "19/08 16:00",
           "label": "19/08 16:00",
-          "score": 17,
-          "score_a": 17,
+          "score": 22,
+          "score_a": 22,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.65 (Z: -0.23σ)"
+          "metric": "NEAR 24m: R$ 8.65 (Z: -0.29σ)"
         },
         {
           "time": "19/08 17:00",
@@ -154967,7 +154967,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.75 (Z: +0.91σ)"
+          "metric": "NEAR 24m: R$ 8.75 (Z: +1.22σ)"
         },
         {
           "time": "19/08 18:00",
@@ -154975,15 +154975,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.79 (Z: -1.64σ)"
+          "metric": "NEAR 24m: R$ 8.79 (Z: -1.97σ)"
         },
         {
           "time": "19/08 19:00",
           "label": "19/08 19:00",
-          "score": 51,
-          "score_a": 51,
+          "score": 56,
+          "score_a": 56,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.78 (Z: -0.69σ)"
+          "metric": "NEAR 24m: R$ 8.78 (Z: -0.76σ)"
         },
         {
           "time": "19/08 20:00",
@@ -154991,7 +154991,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.82 (Z: +1.26σ)"
+          "metric": "NEAR 24m: R$ 8.82 (Z: +1.38σ)"
         },
         {
           "time": "19/08 21:00",
@@ -154999,31 +154999,31 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.05 (Z: +1.17σ)"
+          "metric": "NEAR 24m: R$ 9.05 (Z: +1.21σ)"
         },
         {
           "time": "19/08 22:00",
           "label": "19/08 22:00",
-          "score": 73,
-          "score_a": 73,
+          "score": 79,
+          "score_a": 79,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.17 (Z: -0.98σ)"
+          "metric": "NEAR 24m: R$ 9.17 (Z: -1.06σ)"
         },
         {
           "time": "19/08 23:00",
           "label": "19/08 23:00",
-          "score": 15,
-          "score_a": 15,
+          "score": 22,
+          "score_a": 22,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.98 (Z: -0.20σ)"
+          "metric": "NEAR 24m: R$ 8.98 (Z: -0.30σ)"
         },
         {
           "time": "20/08 00:00",
           "label": "20/08 00:00",
-          "score": 0,
-          "score_a": 0,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.94 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 8.94 (Z: -0.20σ)"
         },
         {
           "time": "20/08 01:00",
@@ -155519,7 +155519,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.94 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +2.19σ)"
         },
         {
           "time": "22/08 15:00",
@@ -155527,7 +155527,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 8.94 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +0.00σ)"
         },
         {
           "time": "22/08 16:00",
@@ -155535,7 +155535,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.96 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +0.00σ)"
         },
         {
           "time": "22/08 17:00",
@@ -155543,7 +155543,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NEAR 24m: R$ 9.96 (Z: +0.00σ)"
+          "metric": "NEAR 24m: R$ 9.79 (Z: +0.00σ)"
         },
         {
           "time": "22/08 18:00",
