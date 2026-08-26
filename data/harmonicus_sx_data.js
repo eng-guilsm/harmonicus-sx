@@ -1,29 +1,29 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-25 21:40:06)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-25 21:41:20)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-25 21:40:06",
-  "total_brl": 1562.97,
+  "timestamp_str": "2026-08-25 21:41:20",
+  "total_brl": 1562.67,
   "aportado_brl": 1712.91,
-  "lucro_liquido_real_brl": -149.94,
-  "caixa_brl": 110.48,
-  "caixa_pct": 7.07,
+  "lucro_liquido_real_brl": -150.24,
+  "caixa_brl": 375.01,
+  "caixa_pct": 24.0,
   "btc_brl": 48.47,
   "btc_qtd": 0.0001195,
   "btc_pct": 3.1,
   "link_brl": 326.53,
   "link_qtd": 5.59889,
-  "link_pct": 20.89,
+  "link_pct": 20.9,
   "sol_brl": 271.15,
   "sol_qtd": 0.545355,
   "sol_pct": 17.35,
   "paxg_brl": 525.61,
   "paxg_qtd": 0.02174618,
-  "paxg_pct": 33.63,
+  "paxg_pct": 33.64,
   "usdt_brl": 3.49,
   "usdt_qtd": 0.6764,
   "usdt_pct": 0.22,
-  "eth_brl": 277.24,
-  "eth_qtd": 0.021984,
-  "eth_pct": 17.74,
+  "eth_brl": 12.41,
+  "eth_qtd": 0.000984,
+  "eth_pct": 0.79,
   "bnb_brl": 0.0,
   "bnb_qtd": 0.0,
   "bnb_pct": 0.0,
@@ -35,8 +35,8 @@ window.PORTFOLIO_STATE = {
       "asset": "BRL",
       "nome": "Caixa Livre BRL",
       "qtd": null,
-      "valor_brl": 110.48,
-      "pct": 7.07,
+      "valor_brl": 375.01,
+      "pct": 24.0,
       "cor": "#10B981",
       "icone": "💵"
     },
@@ -45,7 +45,7 @@ window.PORTFOLIO_STATE = {
       "nome": "Ouro PAXG (Simple Earn)",
       "qtd": 0.02174618,
       "valor_brl": 525.61,
-      "pct": 33.63,
+      "pct": 33.64,
       "cor": "#EAB308",
       "icone": "🥇"
     },
@@ -70,9 +70,9 @@ window.PORTFOLIO_STATE = {
     {
       "asset": "ETH",
       "nome": "Ethereum Spot (Duelo de Titãs)",
-      "qtd": 0.022,
-      "valor_brl": 277.24,
-      "pct": 17.74,
+      "qtd": 0.001,
+      "valor_brl": 12.41,
+      "pct": 0.79,
       "cor": "#3B82F6",
       "icone": "⚔️"
     },
@@ -81,7 +81,7 @@ window.PORTFOLIO_STATE = {
       "nome": "Chainlink Spot (Caboclo)",
       "qtd": 5.6,
       "valor_brl": 326.53,
-      "pct": 20.89,
+      "pct": 20.9,
       "cor": "#6366F1",
       "icone": "🌐"
     },
@@ -78205,21 +78205,21 @@ window.PLANOS_TACTICAL_DATA = [
   {
     "id": 7,
     "nome": "Plano Duelo de Titãs",
-    "badge": "⚔️ Paridade ETH/BTC 24h",
+    "badge": "⚔️ SuperSmoother 10h Maximizer 10x",
     "categoria": "baixo_risco",
-    "par": "BTC -> ETH ➔ BRL/Ouro",
-    "lote_brl": 150.0,
-    "lucro_min_pct": 1.1,
-    "gatilho_desc": "Ratio Z <= -1.00σ (Trade BTC ➔ ETH 24h) / Z >= +0.85σ (Trade ETH ➔ BRL)",
-    "trava_ruptura": "Grid Multi-Tranche (2 slots de R$ 150 | Teto R$ 300)",
-    "cooldown_horas": 0.5,
-    "ponta_a_label": "Trade BTC ➔ ETH",
+    "par": "BTC -> ETH ➔ BRL (Dual-Route)",
+    "lote_brl": 200.0,
+    "lucro_min_pct": 0.58,
+    "gatilho_desc": "Z <= -0.95σ (Trade BTC/BRL ➔ ETH) / Z >= +0.20σ ou Topo de Fase (Trade ETH ➔ BRL)",
+    "trava_ruptura": "Grid Multi-Tranche (5 slots de R$ 200 | Teto R$ 450)",
+    "cooldown_horas": 0.16,
+    "ponta_a_label": "Trade BTC/BRL ➔ ETH",
     "ponta_a_score": 80,
     "ponta_b_label": "Trade ETH ➔ BRL",
     "ponta_b_score": 0,
     "proximidade_score": 80,
     "valor_atual_str": "ETH/BTC 0.03109 (Z: -0.80σ)",
-    "distancia_display": "Z = -0.80σ (Meta: ±1.00σ)",
+    "distancia_display": "Z = -0.80σ (Meta: -0.95σ / +0.20σ)",
     "status": "SENTINELA_QUENTE",
     "icone": "⚔️",
     "cor": "#3B82F6",
@@ -104236,11 +104236,11 @@ window.PLANOS_TACTICAL_DATA = [
     "trava_ruptura": "Exige Caixa Livre >= R$ 150 para preservar liquidez dos outros 8 robôs",
     "cooldown_horas": 48.0,
     "ponta_a_label": "Aporte DCA 48h",
-    "ponta_a_score": 0,
+    "ponta_a_score": 100,
     "ponta_b_label": "Simple Earn Flexible (3.5% a.a.)",
     "ponta_b_score": 100,
-    "proximidade_score": 0,
-    "valor_atual_str": "Ouro PAXG: R$ 24170.15 (Caixa R$ 110.48)",
+    "proximidade_score": 100,
+    "valor_atual_str": "Ouro PAXG: R$ 24170.15 (Caixa R$ 375.01)",
     "distancia_display": "DCA Ativo (1 compra a cada 48h)",
     "status": "ACUMULADOR_PERPETUO_ATIVO",
     "icone": "🥇",
@@ -104254,7 +104254,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:24",
           "label": "20:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -104262,7 +104262,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:25",
           "label": "20:25",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -104270,7 +104270,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:26",
           "label": "20:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -104278,7 +104278,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:27",
           "label": "20:27",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -104286,7 +104286,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:28",
           "label": "20:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -104294,7 +104294,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:29",
           "label": "20:29",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -104302,7 +104302,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:30",
           "label": "20:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -104310,7 +104310,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:31",
           "label": "20:31",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -104318,7 +104318,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:32",
           "label": "20:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -104326,7 +104326,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:33",
           "label": "20:33",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -104334,7 +104334,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:34",
           "label": "20:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -104342,7 +104342,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:35",
           "label": "20:35",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -104350,7 +104350,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:36",
           "label": "20:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -104358,7 +104358,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:37",
           "label": "20:37",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -104366,7 +104366,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:38",
           "label": "20:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -104374,7 +104374,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:39",
           "label": "20:39",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -104382,7 +104382,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:40",
           "label": "20:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -104390,7 +104390,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:41",
           "label": "20:41",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -104398,7 +104398,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:42",
           "label": "20:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -104406,7 +104406,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:43",
           "label": "20:43",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -104414,7 +104414,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:44",
           "label": "20:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -104422,7 +104422,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:45",
           "label": "20:45",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -104430,7 +104430,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:46",
           "label": "20:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -104438,7 +104438,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:47",
           "label": "20:47",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -104446,7 +104446,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:48",
           "label": "20:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -104454,7 +104454,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:49",
           "label": "20:49",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -104462,7 +104462,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:50",
           "label": "20:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -104470,7 +104470,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:51",
           "label": "20:51",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -104478,7 +104478,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:52",
           "label": "20:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -104486,7 +104486,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:53",
           "label": "20:53",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -104494,7 +104494,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:54",
           "label": "20:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -104502,7 +104502,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:55",
           "label": "20:55",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -104510,7 +104510,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:56",
           "label": "20:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -104518,7 +104518,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:57",
           "label": "20:57",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -104526,7 +104526,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:58",
           "label": "20:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -104534,7 +104534,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:59",
           "label": "20:59",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -104542,7 +104542,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:00",
           "label": "21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -104550,7 +104550,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:01",
           "label": "21:01",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -104558,7 +104558,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:02",
           "label": "21:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -104566,7 +104566,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:03",
           "label": "21:03",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -104574,7 +104574,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:04",
           "label": "21:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.68 (Earn: 3.5% a.a.)"
         },
@@ -104582,7 +104582,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:05",
           "label": "21:05",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -104590,7 +104590,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:06",
           "label": "21:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -104598,7 +104598,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:07",
           "label": "21:07",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.68 (Earn: 3.5% a.a.)"
         },
@@ -104606,7 +104606,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:08",
           "label": "21:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -104614,7 +104614,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:09",
           "label": "21:09",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.68 (Earn: 3.5% a.a.)"
         },
@@ -104622,7 +104622,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:10",
           "label": "21:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.68 (Earn: 3.5% a.a.)"
         },
@@ -104630,7 +104630,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:11",
           "label": "21:11",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.68 (Earn: 3.5% a.a.)"
         },
@@ -104638,7 +104638,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:12",
           "label": "21:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.68 (Earn: 3.5% a.a.)"
         },
@@ -104646,7 +104646,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:13",
           "label": "21:13",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.68 (Earn: 3.5% a.a.)"
         },
@@ -104654,7 +104654,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:14",
           "label": "21:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.68 (Earn: 3.5% a.a.)"
         },
@@ -104662,7 +104662,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:15",
           "label": "21:15",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.68 (Earn: 3.5% a.a.)"
         },
@@ -104670,7 +104670,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:16",
           "label": "21:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -104678,7 +104678,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:17",
           "label": "21:17",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -104686,7 +104686,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:18",
           "label": "21:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -104694,7 +104694,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:19",
           "label": "21:19",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.68 (Earn: 3.5% a.a.)"
         },
@@ -104702,7 +104702,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:20",
           "label": "21:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -104710,7 +104710,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:21",
           "label": "21:21",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -104718,7 +104718,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:22",
           "label": "21:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -104726,7 +104726,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:23",
           "label": "21:23",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -104734,7 +104734,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:24",
           "label": "21:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         }
@@ -104744,7 +104744,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:24",
           "label": "21:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24199.64 (Earn: 3.5% a.a.)"
         },
@@ -104752,7 +104752,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:26",
           "label": "21:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24199.17 (Earn: 3.5% a.a.)"
         },
@@ -104760,7 +104760,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:28",
           "label": "21:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24199.64 (Earn: 3.5% a.a.)"
         },
@@ -104768,7 +104768,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:30",
           "label": "21:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24196.36 (Earn: 3.5% a.a.)"
         },
@@ -104776,7 +104776,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:32",
           "label": "21:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24195.89 (Earn: 3.5% a.a.)"
         },
@@ -104784,7 +104784,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:34",
           "label": "21:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24196.36 (Earn: 3.5% a.a.)"
         },
@@ -104792,7 +104792,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:36",
           "label": "21:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24196.36 (Earn: 3.5% a.a.)"
         },
@@ -104800,7 +104800,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:38",
           "label": "21:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24196.36 (Earn: 3.5% a.a.)"
         },
@@ -104808,7 +104808,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:40",
           "label": "21:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24195.89 (Earn: 3.5% a.a.)"
         },
@@ -104816,7 +104816,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:42",
           "label": "21:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24196.36 (Earn: 3.5% a.a.)"
         },
@@ -104824,7 +104824,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:44",
           "label": "21:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24189.81 (Earn: 3.5% a.a.)"
         },
@@ -104832,7 +104832,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:46",
           "label": "21:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24189.81 (Earn: 3.5% a.a.)"
         },
@@ -104840,7 +104840,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:48",
           "label": "21:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.32 (Earn: 3.5% a.a.)"
         },
@@ -104848,7 +104848,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:50",
           "label": "21:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24181.85 (Earn: 3.5% a.a.)"
         },
@@ -104856,7 +104856,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:52",
           "label": "21:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24181.85 (Earn: 3.5% a.a.)"
         },
@@ -104864,7 +104864,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:54",
           "label": "21:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24174.36 (Earn: 3.5% a.a.)"
         },
@@ -104872,7 +104872,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:56",
           "label": "21:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -104880,7 +104880,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:58",
           "label": "21:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -104888,7 +104888,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:00",
           "label": "22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -104896,7 +104896,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:02",
           "label": "22:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -104904,7 +104904,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:04",
           "label": "22:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -104912,7 +104912,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:06",
           "label": "22:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -104920,7 +104920,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:08",
           "label": "22:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -104928,7 +104928,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:10",
           "label": "22:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -104936,7 +104936,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:12",
           "label": "22:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -104944,7 +104944,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:14",
           "label": "22:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -104952,7 +104952,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:16",
           "label": "22:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -104960,7 +104960,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:18",
           "label": "22:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -104968,7 +104968,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:20",
           "label": "22:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -104976,7 +104976,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:22",
           "label": "22:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -104984,7 +104984,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:24",
           "label": "22:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -104992,7 +104992,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:26",
           "label": "22:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -105000,7 +105000,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:28",
           "label": "22:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -105008,7 +105008,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:30",
           "label": "22:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -105016,7 +105016,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:32",
           "label": "22:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -105024,7 +105024,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:34",
           "label": "22:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -105032,7 +105032,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:36",
           "label": "22:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -105040,7 +105040,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:38",
           "label": "22:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -105048,7 +105048,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:40",
           "label": "22:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -105056,7 +105056,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:42",
           "label": "22:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -105064,7 +105064,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:44",
           "label": "22:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -105072,7 +105072,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:46",
           "label": "22:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -105080,7 +105080,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:48",
           "label": "22:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -105088,7 +105088,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:50",
           "label": "22:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -105096,7 +105096,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:52",
           "label": "22:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24181.85 (Earn: 3.5% a.a.)"
         },
@@ -105104,7 +105104,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:54",
           "label": "22:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24190.28 (Earn: 3.5% a.a.)"
         },
@@ -105112,7 +105112,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:56",
           "label": "22:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24190.28 (Earn: 3.5% a.a.)"
         },
@@ -105120,7 +105120,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22:58",
           "label": "22:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24189.81 (Earn: 3.5% a.a.)"
         },
@@ -105128,7 +105128,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:00",
           "label": "23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24189.81 (Earn: 3.5% a.a.)"
         },
@@ -105136,7 +105136,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:02",
           "label": "23:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24189.81 (Earn: 3.5% a.a.)"
         },
@@ -105144,7 +105144,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:04",
           "label": "23:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24190.28 (Earn: 3.5% a.a.)"
         },
@@ -105152,7 +105152,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:06",
           "label": "23:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24190.28 (Earn: 3.5% a.a.)"
         },
@@ -105160,7 +105160,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:08",
           "label": "23:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24189.81 (Earn: 3.5% a.a.)"
         },
@@ -105168,7 +105168,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:10",
           "label": "23:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105176,7 +105176,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:12",
           "label": "23:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -105184,7 +105184,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:14",
           "label": "23:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105192,7 +105192,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:16",
           "label": "23:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105200,7 +105200,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:18",
           "label": "23:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105208,7 +105208,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:20",
           "label": "23:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24183.72 (Earn: 3.5% a.a.)"
         },
@@ -105216,7 +105216,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:22",
           "label": "23:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -105224,7 +105224,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:24",
           "label": "23:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -105232,7 +105232,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:26",
           "label": "23:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -105240,7 +105240,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:28",
           "label": "23:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -105248,7 +105248,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:30",
           "label": "23:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -105256,7 +105256,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:32",
           "label": "23:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -105264,7 +105264,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:34",
           "label": "23:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -105272,7 +105272,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:36",
           "label": "23:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -105280,7 +105280,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:38",
           "label": "23:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -105288,7 +105288,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:40",
           "label": "23:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -105296,7 +105296,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:42",
           "label": "23:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -105304,7 +105304,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:44",
           "label": "23:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -105312,7 +105312,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:46",
           "label": "23:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -105320,7 +105320,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:48",
           "label": "23:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -105328,7 +105328,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:50",
           "label": "23:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -105336,7 +105336,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:52",
           "label": "23:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -105344,7 +105344,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:54",
           "label": "23:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -105352,7 +105352,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:56",
           "label": "23:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -105360,7 +105360,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23:58",
           "label": "23:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -105368,7 +105368,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:00",
           "label": "00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -105376,7 +105376,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:02",
           "label": "00:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -105384,7 +105384,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:04",
           "label": "00:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -105392,7 +105392,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:06",
           "label": "00:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -105400,7 +105400,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:08",
           "label": "00:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -105408,7 +105408,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:10",
           "label": "00:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -105416,7 +105416,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:12",
           "label": "00:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -105424,7 +105424,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:14",
           "label": "00:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -105432,7 +105432,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:16",
           "label": "00:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -105440,7 +105440,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:18",
           "label": "00:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -105448,7 +105448,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:20",
           "label": "00:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -105456,7 +105456,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:22",
           "label": "00:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105464,7 +105464,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:24",
           "label": "00:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.64 (Earn: 3.5% a.a.)"
         },
@@ -105472,7 +105472,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:26",
           "label": "00:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.64 (Earn: 3.5% a.a.)"
         },
@@ -105480,7 +105480,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:28",
           "label": "00:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.64 (Earn: 3.5% a.a.)"
         },
@@ -105488,7 +105488,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:30",
           "label": "00:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105496,7 +105496,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:32",
           "label": "00:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105504,7 +105504,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:34",
           "label": "00:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105512,7 +105512,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:36",
           "label": "00:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.64 (Earn: 3.5% a.a.)"
         },
@@ -105520,7 +105520,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:38",
           "label": "00:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105528,7 +105528,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:40",
           "label": "00:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.64 (Earn: 3.5% a.a.)"
         },
@@ -105536,7 +105536,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:42",
           "label": "00:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.64 (Earn: 3.5% a.a.)"
         },
@@ -105544,7 +105544,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:44",
           "label": "00:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105552,7 +105552,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:46",
           "label": "00:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105560,7 +105560,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:48",
           "label": "00:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105568,7 +105568,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:50",
           "label": "00:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105576,7 +105576,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:52",
           "label": "00:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105584,7 +105584,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:54",
           "label": "00:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105592,7 +105592,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:56",
           "label": "00:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -105600,7 +105600,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "00:58",
           "label": "00:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105608,7 +105608,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:00",
           "label": "01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105616,7 +105616,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:02",
           "label": "01:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105624,7 +105624,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:04",
           "label": "01:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105632,7 +105632,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:06",
           "label": "01:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -105640,7 +105640,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:08",
           "label": "01:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105648,7 +105648,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:10",
           "label": "01:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105656,7 +105656,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:12",
           "label": "01:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105664,7 +105664,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:14",
           "label": "01:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -105672,7 +105672,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:16",
           "label": "01:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -105680,7 +105680,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:18",
           "label": "01:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -105688,7 +105688,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:20",
           "label": "01:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105696,7 +105696,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:22",
           "label": "01:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -105704,7 +105704,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:24",
           "label": "01:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -105712,7 +105712,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:26",
           "label": "01:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -105720,7 +105720,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:28",
           "label": "01:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -105728,7 +105728,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:30",
           "label": "01:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -105736,7 +105736,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:32",
           "label": "01:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -105744,7 +105744,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:34",
           "label": "01:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105752,7 +105752,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:36",
           "label": "01:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -105760,7 +105760,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:38",
           "label": "01:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105768,7 +105768,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:40",
           "label": "01:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105776,7 +105776,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:42",
           "label": "01:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -105784,7 +105784,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:44",
           "label": "01:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105792,7 +105792,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:46",
           "label": "01:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105800,7 +105800,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:48",
           "label": "01:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105808,7 +105808,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:50",
           "label": "01:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -105816,7 +105816,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:52",
           "label": "01:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -105824,7 +105824,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:54",
           "label": "01:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105832,7 +105832,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:56",
           "label": "01:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -105840,7 +105840,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "01:58",
           "label": "01:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -105848,7 +105848,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:00",
           "label": "02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105856,7 +105856,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:02",
           "label": "02:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -105864,7 +105864,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:04",
           "label": "02:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105872,7 +105872,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:06",
           "label": "02:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -105880,7 +105880,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:08",
           "label": "02:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -105888,7 +105888,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:10",
           "label": "02:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105896,7 +105896,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:12",
           "label": "02:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105904,7 +105904,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:14",
           "label": "02:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105912,7 +105912,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:16",
           "label": "02:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105920,7 +105920,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:18",
           "label": "02:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105928,7 +105928,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:20",
           "label": "02:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105936,7 +105936,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:22",
           "label": "02:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -105944,7 +105944,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:24",
           "label": "02:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -105952,7 +105952,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:26",
           "label": "02:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -105960,7 +105960,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:28",
           "label": "02:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105968,7 +105968,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:30",
           "label": "02:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105976,7 +105976,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:32",
           "label": "02:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -105984,7 +105984,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:34",
           "label": "02:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -105992,7 +105992,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:36",
           "label": "02:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -106000,7 +106000,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:38",
           "label": "02:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -106008,7 +106008,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:40",
           "label": "02:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -106016,7 +106016,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:42",
           "label": "02:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -106024,7 +106024,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:44",
           "label": "02:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -106032,7 +106032,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:46",
           "label": "02:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -106040,7 +106040,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:48",
           "label": "02:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -106048,7 +106048,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:50",
           "label": "02:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -106056,7 +106056,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:52",
           "label": "02:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -106064,7 +106064,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:54",
           "label": "02:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106072,7 +106072,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:56",
           "label": "02:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106080,7 +106080,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "02:58",
           "label": "02:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106088,7 +106088,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:00",
           "label": "03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106096,7 +106096,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:02",
           "label": "03:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106104,7 +106104,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:04",
           "label": "03:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106112,7 +106112,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:06",
           "label": "03:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106120,7 +106120,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:08",
           "label": "03:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106128,7 +106128,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:10",
           "label": "03:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106136,7 +106136,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:12",
           "label": "03:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106144,7 +106144,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:14",
           "label": "03:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106152,7 +106152,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:16",
           "label": "03:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106160,7 +106160,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:18",
           "label": "03:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106168,7 +106168,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:20",
           "label": "03:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106176,7 +106176,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:22",
           "label": "03:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106184,7 +106184,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:24",
           "label": "03:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106192,7 +106192,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:26",
           "label": "03:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106200,7 +106200,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:28",
           "label": "03:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106208,7 +106208,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:30",
           "label": "03:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106216,7 +106216,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:32",
           "label": "03:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106224,7 +106224,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:34",
           "label": "03:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106232,7 +106232,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:36",
           "label": "03:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106240,7 +106240,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:38",
           "label": "03:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106248,7 +106248,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:40",
           "label": "03:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106256,7 +106256,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:42",
           "label": "03:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106264,7 +106264,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:44",
           "label": "03:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106272,7 +106272,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:46",
           "label": "03:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106280,7 +106280,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:48",
           "label": "03:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106288,7 +106288,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:50",
           "label": "03:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106296,7 +106296,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:52",
           "label": "03:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106304,7 +106304,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:54",
           "label": "03:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106312,7 +106312,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:56",
           "label": "03:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106320,7 +106320,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "03:58",
           "label": "03:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106328,7 +106328,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:00",
           "label": "04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106336,7 +106336,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:02",
           "label": "04:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106344,7 +106344,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:04",
           "label": "04:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106352,7 +106352,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:06",
           "label": "04:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106360,7 +106360,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:08",
           "label": "04:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106368,7 +106368,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:10",
           "label": "04:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106376,7 +106376,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:12",
           "label": "04:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106384,7 +106384,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:14",
           "label": "04:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106392,7 +106392,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:16",
           "label": "04:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106400,7 +106400,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:18",
           "label": "04:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106408,7 +106408,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:20",
           "label": "04:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106416,7 +106416,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:22",
           "label": "04:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106424,7 +106424,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:24",
           "label": "04:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106432,7 +106432,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:26",
           "label": "04:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106440,7 +106440,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:28",
           "label": "04:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106448,7 +106448,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:30",
           "label": "04:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106456,7 +106456,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:32",
           "label": "04:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106464,7 +106464,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:34",
           "label": "04:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106472,7 +106472,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:36",
           "label": "04:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106480,7 +106480,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:38",
           "label": "04:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106488,7 +106488,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:40",
           "label": "04:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106496,7 +106496,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:42",
           "label": "04:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106504,7 +106504,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:44",
           "label": "04:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106512,7 +106512,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:46",
           "label": "04:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -106520,7 +106520,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:48",
           "label": "04:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106528,7 +106528,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:50",
           "label": "04:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -106536,7 +106536,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:52",
           "label": "04:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.62 (Earn: 3.5% a.a.)"
         },
@@ -106544,7 +106544,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:54",
           "label": "04:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -106552,7 +106552,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:56",
           "label": "04:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -106560,7 +106560,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "04:58",
           "label": "04:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -106568,7 +106568,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:00",
           "label": "05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.62 (Earn: 3.5% a.a.)"
         },
@@ -106576,7 +106576,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:02",
           "label": "05:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -106584,7 +106584,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:04",
           "label": "05:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -106592,7 +106592,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:06",
           "label": "05:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.62 (Earn: 3.5% a.a.)"
         },
@@ -106600,7 +106600,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:08",
           "label": "05:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.62 (Earn: 3.5% a.a.)"
         },
@@ -106608,7 +106608,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:10",
           "label": "05:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -106616,7 +106616,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:12",
           "label": "05:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.62 (Earn: 3.5% a.a.)"
         },
@@ -106624,7 +106624,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:14",
           "label": "05:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.62 (Earn: 3.5% a.a.)"
         },
@@ -106632,7 +106632,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:16",
           "label": "05:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -106640,7 +106640,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:18",
           "label": "05:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -106648,7 +106648,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:20",
           "label": "05:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.62 (Earn: 3.5% a.a.)"
         },
@@ -106656,7 +106656,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:22",
           "label": "05:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -106664,7 +106664,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:24",
           "label": "05:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -106672,7 +106672,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:26",
           "label": "05:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24179.51 (Earn: 3.5% a.a.)"
         },
@@ -106680,7 +106680,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:28",
           "label": "05:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.30 (Earn: 3.5% a.a.)"
         },
@@ -106688,7 +106688,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:30",
           "label": "05:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24174.83 (Earn: 3.5% a.a.)"
         },
@@ -106696,7 +106696,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:32",
           "label": "05:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24174.83 (Earn: 3.5% a.a.)"
         },
@@ -106704,7 +106704,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:34",
           "label": "05:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24174.83 (Earn: 3.5% a.a.)"
         },
@@ -106712,7 +106712,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:36",
           "label": "05:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24174.83 (Earn: 3.5% a.a.)"
         },
@@ -106720,7 +106720,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:38",
           "label": "05:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24174.83 (Earn: 3.5% a.a.)"
         },
@@ -106728,7 +106728,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:40",
           "label": "05:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.30 (Earn: 3.5% a.a.)"
         },
@@ -106736,7 +106736,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:42",
           "label": "05:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.30 (Earn: 3.5% a.a.)"
         },
@@ -106744,7 +106744,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:44",
           "label": "05:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.30 (Earn: 3.5% a.a.)"
         },
@@ -106752,7 +106752,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:46",
           "label": "05:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.30 (Earn: 3.5% a.a.)"
         },
@@ -106760,7 +106760,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:48",
           "label": "05:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.30 (Earn: 3.5% a.a.)"
         },
@@ -106768,7 +106768,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:50",
           "label": "05:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.30 (Earn: 3.5% a.a.)"
         },
@@ -106776,7 +106776,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:52",
           "label": "05:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24174.83 (Earn: 3.5% a.a.)"
         },
@@ -106784,7 +106784,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:54",
           "label": "05:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.30 (Earn: 3.5% a.a.)"
         },
@@ -106792,7 +106792,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:56",
           "label": "05:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.30 (Earn: 3.5% a.a.)"
         },
@@ -106800,7 +106800,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "05:58",
           "label": "05:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24174.83 (Earn: 3.5% a.a.)"
         },
@@ -106808,7 +106808,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:00",
           "label": "06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.30 (Earn: 3.5% a.a.)"
         },
@@ -106816,7 +106816,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:02",
           "label": "06:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -106824,7 +106824,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:04",
           "label": "06:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -106832,7 +106832,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:06",
           "label": "06:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -106840,7 +106840,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:08",
           "label": "06:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -106848,7 +106848,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:10",
           "label": "06:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -106856,7 +106856,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:12",
           "label": "06:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -106864,7 +106864,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:14",
           "label": "06:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -106872,7 +106872,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:16",
           "label": "06:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -106880,7 +106880,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:18",
           "label": "06:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -106888,7 +106888,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:20",
           "label": "06:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -106896,7 +106896,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:22",
           "label": "06:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -106904,7 +106904,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:24",
           "label": "06:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -106912,7 +106912,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:26",
           "label": "06:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -106920,7 +106920,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:28",
           "label": "06:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -106928,7 +106928,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:30",
           "label": "06:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -106936,7 +106936,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:32",
           "label": "06:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -106944,7 +106944,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:34",
           "label": "06:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -106952,7 +106952,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:36",
           "label": "06:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.94 (Earn: 3.5% a.a.)"
         },
@@ -106960,7 +106960,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:38",
           "label": "06:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.47 (Earn: 3.5% a.a.)"
         },
@@ -106968,7 +106968,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:40",
           "label": "06:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.94 (Earn: 3.5% a.a.)"
         },
@@ -106976,7 +106976,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:42",
           "label": "06:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.94 (Earn: 3.5% a.a.)"
         },
@@ -106984,7 +106984,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:44",
           "label": "06:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24155.64 (Earn: 3.5% a.a.)"
         },
@@ -106992,7 +106992,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:46",
           "label": "06:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24156.11 (Earn: 3.5% a.a.)"
         },
@@ -107000,7 +107000,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:48",
           "label": "06:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24156.11 (Earn: 3.5% a.a.)"
         },
@@ -107008,7 +107008,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:50",
           "label": "06:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24156.11 (Earn: 3.5% a.a.)"
         },
@@ -107016,7 +107016,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:52",
           "label": "06:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24155.64 (Earn: 3.5% a.a.)"
         },
@@ -107024,7 +107024,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:54",
           "label": "06:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24155.64 (Earn: 3.5% a.a.)"
         },
@@ -107032,7 +107032,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:56",
           "label": "06:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24155.64 (Earn: 3.5% a.a.)"
         },
@@ -107040,7 +107040,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "06:58",
           "label": "06:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24155.64 (Earn: 3.5% a.a.)"
         },
@@ -107048,7 +107048,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:00",
           "label": "07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -107056,7 +107056,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:02",
           "label": "07:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -107064,7 +107064,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:04",
           "label": "07:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24160.79 (Earn: 3.5% a.a.)"
         },
@@ -107072,7 +107072,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:06",
           "label": "07:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -107080,7 +107080,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:08",
           "label": "07:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24160.79 (Earn: 3.5% a.a.)"
         },
@@ -107088,7 +107088,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:10",
           "label": "07:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -107096,7 +107096,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:12",
           "label": "07:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -107104,7 +107104,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:14",
           "label": "07:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -107112,7 +107112,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:16",
           "label": "07:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -107120,7 +107120,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:18",
           "label": "07:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -107128,7 +107128,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:20",
           "label": "07:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -107136,7 +107136,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:22",
           "label": "07:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -107144,7 +107144,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:24",
           "label": "07:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -107152,7 +107152,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:26",
           "label": "07:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -107160,7 +107160,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:28",
           "label": "07:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -107168,7 +107168,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:30",
           "label": "07:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -107176,7 +107176,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:32",
           "label": "07:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -107184,7 +107184,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:34",
           "label": "07:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -107192,7 +107192,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:36",
           "label": "07:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -107200,7 +107200,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:38",
           "label": "07:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -107208,7 +107208,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:40",
           "label": "07:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -107216,7 +107216,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:42",
           "label": "07:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107224,7 +107224,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:44",
           "label": "07:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -107232,7 +107232,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:46",
           "label": "07:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -107240,7 +107240,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:48",
           "label": "07:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107248,7 +107248,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:50",
           "label": "07:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -107256,7 +107256,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:52",
           "label": "07:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107264,7 +107264,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:54",
           "label": "07:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -107272,7 +107272,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:56",
           "label": "07:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -107280,7 +107280,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "07:58",
           "label": "07:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -107288,7 +107288,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:00",
           "label": "08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107296,7 +107296,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:02",
           "label": "08:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -107304,7 +107304,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:04",
           "label": "08:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107312,7 +107312,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:06",
           "label": "08:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -107320,7 +107320,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:08",
           "label": "08:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107328,7 +107328,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:10",
           "label": "08:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107336,7 +107336,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:12",
           "label": "08:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -107344,7 +107344,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:14",
           "label": "08:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107352,7 +107352,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:16",
           "label": "08:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107360,7 +107360,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:18",
           "label": "08:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -107368,7 +107368,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:20",
           "label": "08:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -107376,7 +107376,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:22",
           "label": "08:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107384,7 +107384,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:24",
           "label": "08:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107392,7 +107392,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:26",
           "label": "08:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107400,7 +107400,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:28",
           "label": "08:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107408,7 +107408,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:30",
           "label": "08:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -107416,7 +107416,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:32",
           "label": "08:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107424,7 +107424,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:34",
           "label": "08:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -107432,7 +107432,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:36",
           "label": "08:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107440,7 +107440,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:38",
           "label": "08:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107448,7 +107448,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:40",
           "label": "08:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -107456,7 +107456,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:42",
           "label": "08:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -107464,7 +107464,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:44",
           "label": "08:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -107472,7 +107472,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:46",
           "label": "08:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107480,7 +107480,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:48",
           "label": "08:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -107488,7 +107488,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:50",
           "label": "08:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -107496,7 +107496,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:52",
           "label": "08:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -107504,7 +107504,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:54",
           "label": "08:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -107512,7 +107512,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:56",
           "label": "08:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -107520,7 +107520,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "08:58",
           "label": "08:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -107528,7 +107528,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:00",
           "label": "09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -107536,7 +107536,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:02",
           "label": "09:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24183.26 (Earn: 3.5% a.a.)"
         },
@@ -107544,7 +107544,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:04",
           "label": "09:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -107552,7 +107552,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:06",
           "label": "09:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24205.72 (Earn: 3.5% a.a.)"
         },
@@ -107560,7 +107560,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:08",
           "label": "09:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24206.19 (Earn: 3.5% a.a.)"
         },
@@ -107568,7 +107568,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:10",
           "label": "09:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24213.21 (Earn: 3.5% a.a.)"
         },
@@ -107576,7 +107576,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:12",
           "label": "09:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24219.77 (Earn: 3.5% a.a.)"
         },
@@ -107584,7 +107584,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:14",
           "label": "09:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24219.77 (Earn: 3.5% a.a.)"
         },
@@ -107592,7 +107592,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:16",
           "label": "09:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24219.30 (Earn: 3.5% a.a.)"
         },
@@ -107600,7 +107600,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:18",
           "label": "09:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24215.55 (Earn: 3.5% a.a.)"
         },
@@ -107608,7 +107608,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:20",
           "label": "09:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24211.34 (Earn: 3.5% a.a.)"
         },
@@ -107616,7 +107616,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:22",
           "label": "09:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24217.42 (Earn: 3.5% a.a.)"
         },
@@ -107624,7 +107624,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:24",
           "label": "09:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24217.42 (Earn: 3.5% a.a.)"
         },
@@ -107632,7 +107632,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:26",
           "label": "09:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24237.08 (Earn: 3.5% a.a.)"
         },
@@ -107640,7 +107640,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:28",
           "label": "09:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24233.34 (Earn: 3.5% a.a.)"
         },
@@ -107648,7 +107648,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:30",
           "label": "09:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24228.19 (Earn: 3.5% a.a.)"
         },
@@ -107656,7 +107656,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:32",
           "label": "09:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24228.19 (Earn: 3.5% a.a.)"
         },
@@ -107664,7 +107664,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:34",
           "label": "09:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24228.66 (Earn: 3.5% a.a.)"
         },
@@ -107672,7 +107672,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:36",
           "label": "09:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24232.87 (Earn: 3.5% a.a.)"
         },
@@ -107680,7 +107680,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:38",
           "label": "09:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24237.08 (Earn: 3.5% a.a.)"
         },
@@ -107688,7 +107688,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:40",
           "label": "09:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24237.08 (Earn: 3.5% a.a.)"
         },
@@ -107696,7 +107696,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:42",
           "label": "09:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24229.13 (Earn: 3.5% a.a.)"
         },
@@ -107704,7 +107704,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:44",
           "label": "09:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24215.55 (Earn: 3.5% a.a.)"
         },
@@ -107712,7 +107712,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:46",
           "label": "09:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24201.98 (Earn: 3.5% a.a.)"
         },
@@ -107720,7 +107720,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:48",
           "label": "09:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24194.02 (Earn: 3.5% a.a.)"
         },
@@ -107728,7 +107728,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:50",
           "label": "09:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24202.92 (Earn: 3.5% a.a.)"
         },
@@ -107736,7 +107736,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:52",
           "label": "09:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24198.23 (Earn: 3.5% a.a.)"
         },
@@ -107744,7 +107744,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:54",
           "label": "09:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24200.57 (Earn: 3.5% a.a.)"
         },
@@ -107752,7 +107752,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:56",
           "label": "09:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.21 (Earn: 3.5% a.a.)"
         },
@@ -107760,7 +107760,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "09:58",
           "label": "09:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24184.66 (Earn: 3.5% a.a.)"
         },
@@ -107768,7 +107768,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:00",
           "label": "10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24187.94 (Earn: 3.5% a.a.)"
         },
@@ -107776,7 +107776,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:02",
           "label": "10:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -107784,7 +107784,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:04",
           "label": "10:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -107792,7 +107792,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:06",
           "label": "10:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24184.66 (Earn: 3.5% a.a.)"
         },
@@ -107800,7 +107800,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:08",
           "label": "10:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24184.19 (Earn: 3.5% a.a.)"
         },
@@ -107808,7 +107808,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:10",
           "label": "10:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -107816,7 +107816,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:12",
           "label": "10:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -107824,7 +107824,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:14",
           "label": "10:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.68 (Earn: 3.5% a.a.)"
         },
@@ -107832,7 +107832,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:16",
           "label": "10:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24148.15 (Earn: 3.5% a.a.)"
         },
@@ -107840,7 +107840,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:18",
           "label": "10:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24150.02 (Earn: 3.5% a.a.)"
         },
@@ -107848,7 +107848,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:20",
           "label": "10:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.68 (Earn: 3.5% a.a.)"
         },
@@ -107856,7 +107856,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:22",
           "label": "10:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.68 (Earn: 3.5% a.a.)"
         },
@@ -107864,7 +107864,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:24",
           "label": "10:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.68 (Earn: 3.5% a.a.)"
         },
@@ -107872,7 +107872,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:26",
           "label": "10:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.68 (Earn: 3.5% a.a.)"
         },
@@ -107880,7 +107880,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:28",
           "label": "10:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24144.41 (Earn: 3.5% a.a.)"
         },
@@ -107888,7 +107888,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:30",
           "label": "10:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.94 (Earn: 3.5% a.a.)"
         },
@@ -107896,7 +107896,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:32",
           "label": "10:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24136.92 (Earn: 3.5% a.a.)"
         },
@@ -107904,7 +107904,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:34",
           "label": "10:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24149.56 (Earn: 3.5% a.a.)"
         },
@@ -107912,7 +107912,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:36",
           "label": "10:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24149.56 (Earn: 3.5% a.a.)"
         },
@@ -107920,7 +107920,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:38",
           "label": "10:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24148.62 (Earn: 3.5% a.a.)"
         },
@@ -107928,7 +107928,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:40",
           "label": "10:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24149.09 (Earn: 3.5% a.a.)"
         },
@@ -107936,7 +107936,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:42",
           "label": "10:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24155.64 (Earn: 3.5% a.a.)"
         },
@@ -107944,7 +107944,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:44",
           "label": "10:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -107952,7 +107952,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:46",
           "label": "10:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -107960,7 +107960,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:48",
           "label": "10:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.30 (Earn: 3.5% a.a.)"
         },
@@ -107968,7 +107968,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:50",
           "label": "10:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.77 (Earn: 3.5% a.a.)"
         },
@@ -107976,7 +107976,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:52",
           "label": "10:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.77 (Earn: 3.5% a.a.)"
         },
@@ -107984,7 +107984,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:54",
           "label": "10:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.77 (Earn: 3.5% a.a.)"
         },
@@ -107992,7 +107992,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:56",
           "label": "10:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -108000,7 +108000,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "10:58",
           "label": "10:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -108008,7 +108008,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:00",
           "label": "11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -108016,7 +108016,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:02",
           "label": "11:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.19 (Earn: 3.5% a.a.)"
         },
@@ -108024,7 +108024,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:04",
           "label": "11:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -108032,7 +108032,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:06",
           "label": "11:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.81 (Earn: 3.5% a.a.)"
         },
@@ -108040,7 +108040,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:08",
           "label": "11:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -108048,7 +108048,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:10",
           "label": "11:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -108056,7 +108056,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:12",
           "label": "11:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -108064,7 +108064,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:14",
           "label": "11:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -108072,7 +108072,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:16",
           "label": "11:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -108080,7 +108080,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:18",
           "label": "11:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -108088,7 +108088,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:20",
           "label": "11:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -108096,7 +108096,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:22",
           "label": "11:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -108104,7 +108104,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:24",
           "label": "11:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -108112,7 +108112,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:26",
           "label": "11:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.24 (Earn: 3.5% a.a.)"
         },
@@ -108120,7 +108120,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:28",
           "label": "11:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.22 (Earn: 3.5% a.a.)"
         },
@@ -108128,7 +108128,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:30",
           "label": "11:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24142.07 (Earn: 3.5% a.a.)"
         },
@@ -108136,7 +108136,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:32",
           "label": "11:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24152.36 (Earn: 3.5% a.a.)"
         },
@@ -108144,7 +108144,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:34",
           "label": "11:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24152.36 (Earn: 3.5% a.a.)"
         },
@@ -108152,7 +108152,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:36",
           "label": "11:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24152.36 (Earn: 3.5% a.a.)"
         },
@@ -108160,7 +108160,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:38",
           "label": "11:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.51 (Earn: 3.5% a.a.)"
         },
@@ -108168,7 +108168,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:40",
           "label": "11:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -108176,7 +108176,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:42",
           "label": "11:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -108184,7 +108184,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:44",
           "label": "11:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -108192,7 +108192,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:46",
           "label": "11:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24139.26 (Earn: 3.5% a.a.)"
         },
@@ -108200,7 +108200,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:48",
           "label": "11:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24139.26 (Earn: 3.5% a.a.)"
         },
@@ -108208,7 +108208,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:50",
           "label": "11:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24138.79 (Earn: 3.5% a.a.)"
         },
@@ -108216,7 +108216,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:52",
           "label": "11:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24152.83 (Earn: 3.5% a.a.)"
         },
@@ -108224,7 +108224,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:54",
           "label": "11:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -108232,7 +108232,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:56",
           "label": "11:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -108240,7 +108240,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "11:58",
           "label": "11:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -108248,7 +108248,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:00",
           "label": "12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -108256,7 +108256,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:02",
           "label": "12:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -108264,7 +108264,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:04",
           "label": "12:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -108272,7 +108272,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:06",
           "label": "12:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.51 (Earn: 3.5% a.a.)"
         },
@@ -108280,7 +108280,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:08",
           "label": "12:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.19 (Earn: 3.5% a.a.)"
         },
@@ -108288,7 +108288,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:10",
           "label": "12:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.73 (Earn: 3.5% a.a.)"
         },
@@ -108296,7 +108296,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:12",
           "label": "12:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.73 (Earn: 3.5% a.a.)"
         },
@@ -108304,7 +108304,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:14",
           "label": "12:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -108312,7 +108312,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:16",
           "label": "12:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -108320,7 +108320,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:18",
           "label": "12:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -108328,7 +108328,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:20",
           "label": "12:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -108336,7 +108336,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:22",
           "label": "12:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -108344,7 +108344,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:24",
           "label": "12:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -108352,7 +108352,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:26",
           "label": "12:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.92 (Earn: 3.5% a.a.)"
         },
@@ -108360,7 +108360,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:28",
           "label": "12:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -108368,7 +108368,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:30",
           "label": "12:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -108376,7 +108376,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:32",
           "label": "12:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.94 (Earn: 3.5% a.a.)"
         },
@@ -108384,7 +108384,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:34",
           "label": "12:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.94 (Earn: 3.5% a.a.)"
         },
@@ -108392,7 +108392,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:36",
           "label": "12:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24156.11 (Earn: 3.5% a.a.)"
         },
@@ -108400,7 +108400,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:38",
           "label": "12:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24152.36 (Earn: 3.5% a.a.)"
         },
@@ -108408,7 +108408,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:40",
           "label": "12:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.00 (Earn: 3.5% a.a.)"
         },
@@ -108416,7 +108416,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:42",
           "label": "12:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -108424,7 +108424,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:44",
           "label": "12:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24160.79 (Earn: 3.5% a.a.)"
         },
@@ -108432,7 +108432,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:46",
           "label": "12:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24160.79 (Earn: 3.5% a.a.)"
         },
@@ -108440,7 +108440,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:48",
           "label": "12:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -108448,7 +108448,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:50",
           "label": "12:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24160.79 (Earn: 3.5% a.a.)"
         },
@@ -108456,7 +108456,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:52",
           "label": "12:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -108464,7 +108464,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:54",
           "label": "12:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.92 (Earn: 3.5% a.a.)"
         },
@@ -108472,7 +108472,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:56",
           "label": "12:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -108480,7 +108480,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "12:58",
           "label": "12:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -108488,7 +108488,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:00",
           "label": "13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.22 (Earn: 3.5% a.a.)"
         },
@@ -108496,7 +108496,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:02",
           "label": "13:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.22 (Earn: 3.5% a.a.)"
         },
@@ -108504,7 +108504,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:04",
           "label": "13:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24150.96 (Earn: 3.5% a.a.)"
         },
@@ -108512,7 +108512,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:06",
           "label": "13:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24150.96 (Earn: 3.5% a.a.)"
         },
@@ -108520,7 +108520,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:08",
           "label": "13:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24152.36 (Earn: 3.5% a.a.)"
         },
@@ -108528,7 +108528,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:10",
           "label": "13:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24159.85 (Earn: 3.5% a.a.)"
         },
@@ -108536,7 +108536,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:12",
           "label": "13:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24160.32 (Earn: 3.5% a.a.)"
         },
@@ -108544,7 +108544,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:14",
           "label": "13:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24159.39 (Earn: 3.5% a.a.)"
         },
@@ -108552,7 +108552,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:16",
           "label": "13:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24159.39 (Earn: 3.5% a.a.)"
         },
@@ -108560,7 +108560,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:18",
           "label": "13:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24159.39 (Earn: 3.5% a.a.)"
         },
@@ -108568,7 +108568,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:20",
           "label": "13:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24159.85 (Earn: 3.5% a.a.)"
         },
@@ -108576,7 +108576,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:22",
           "label": "13:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -108584,7 +108584,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:24",
           "label": "13:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.92 (Earn: 3.5% a.a.)"
         },
@@ -108592,7 +108592,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:26",
           "label": "13:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.92 (Earn: 3.5% a.a.)"
         },
@@ -108600,7 +108600,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:28",
           "label": "13:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.92 (Earn: 3.5% a.a.)"
         },
@@ -108608,7 +108608,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:30",
           "label": "13:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -108616,7 +108616,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:32",
           "label": "13:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.92 (Earn: 3.5% a.a.)"
         },
@@ -108624,7 +108624,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:34",
           "label": "13:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24159.85 (Earn: 3.5% a.a.)"
         },
@@ -108632,7 +108632,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:36",
           "label": "13:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.73 (Earn: 3.5% a.a.)"
         },
@@ -108640,7 +108640,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:38",
           "label": "13:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.73 (Earn: 3.5% a.a.)"
         },
@@ -108648,7 +108648,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:40",
           "label": "13:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -108656,7 +108656,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:42",
           "label": "13:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.73 (Earn: 3.5% a.a.)"
         },
@@ -108664,7 +108664,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:44",
           "label": "13:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -108672,7 +108672,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:46",
           "label": "13:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -108680,7 +108680,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:48",
           "label": "13:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -108688,7 +108688,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:50",
           "label": "13:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.68 (Earn: 3.5% a.a.)"
         },
@@ -108696,7 +108696,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:52",
           "label": "13:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -108704,7 +108704,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:54",
           "label": "13:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -108712,7 +108712,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:56",
           "label": "13:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -108720,7 +108720,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "13:58",
           "label": "13:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -108728,7 +108728,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:00",
           "label": "14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -108736,7 +108736,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:02",
           "label": "14:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.81 (Earn: 3.5% a.a.)"
         },
@@ -108744,7 +108744,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:04",
           "label": "14:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.81 (Earn: 3.5% a.a.)"
         },
@@ -108752,7 +108752,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:06",
           "label": "14:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.47 (Earn: 3.5% a.a.)"
         },
@@ -108760,7 +108760,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:08",
           "label": "14:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.47 (Earn: 3.5% a.a.)"
         },
@@ -108768,7 +108768,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:10",
           "label": "14:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.47 (Earn: 3.5% a.a.)"
         },
@@ -108776,7 +108776,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:12",
           "label": "14:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -108784,7 +108784,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:14",
           "label": "14:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.77 (Earn: 3.5% a.a.)"
         },
@@ -108792,7 +108792,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:16",
           "label": "14:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24174.83 (Earn: 3.5% a.a.)"
         },
@@ -108800,7 +108800,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:18",
           "label": "14:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -108808,7 +108808,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:20",
           "label": "14:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -108816,7 +108816,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:22",
           "label": "14:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24172.96 (Earn: 3.5% a.a.)"
         },
@@ -108824,7 +108824,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:24",
           "label": "14:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24172.96 (Earn: 3.5% a.a.)"
         },
@@ -108832,7 +108832,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:26",
           "label": "14:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -108840,7 +108840,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:28",
           "label": "14:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -108848,7 +108848,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:30",
           "label": "14:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24179.04 (Earn: 3.5% a.a.)"
         },
@@ -108856,7 +108856,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:32",
           "label": "14:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24179.51 (Earn: 3.5% a.a.)"
         },
@@ -108864,7 +108864,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:34",
           "label": "14:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.24 (Earn: 3.5% a.a.)"
         },
@@ -108872,7 +108872,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:36",
           "label": "14:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -108880,7 +108880,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:38",
           "label": "14:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -108888,7 +108888,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:40",
           "label": "14:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.24 (Earn: 3.5% a.a.)"
         },
@@ -108896,7 +108896,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:42",
           "label": "14:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -108904,7 +108904,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:44",
           "label": "14:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.30 (Earn: 3.5% a.a.)"
         },
@@ -108912,7 +108912,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:46",
           "label": "14:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24172.49 (Earn: 3.5% a.a.)"
         },
@@ -108920,7 +108920,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:48",
           "label": "14:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24172.49 (Earn: 3.5% a.a.)"
         },
@@ -108928,7 +108928,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:50",
           "label": "14:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -108936,7 +108936,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:52",
           "label": "14:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -108944,7 +108944,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:54",
           "label": "14:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -108952,7 +108952,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:56",
           "label": "14:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -108960,7 +108960,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "14:58",
           "label": "14:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -108968,7 +108968,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:00",
           "label": "15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -108976,7 +108976,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:02",
           "label": "15:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -108984,7 +108984,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:04",
           "label": "15:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -108992,7 +108992,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:06",
           "label": "15:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -109000,7 +109000,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:08",
           "label": "15:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -109008,7 +109008,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:10",
           "label": "15:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -109016,7 +109016,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:12",
           "label": "15:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -109024,7 +109024,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:14",
           "label": "15:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -109032,7 +109032,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:16",
           "label": "15:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -109040,7 +109040,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:18",
           "label": "15:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -109048,7 +109048,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:20",
           "label": "15:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -109056,7 +109056,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:22",
           "label": "15:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -109064,7 +109064,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:24",
           "label": "15:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -109072,7 +109072,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:26",
           "label": "15:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -109080,7 +109080,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:28",
           "label": "15:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -109088,7 +109088,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:30",
           "label": "15:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -109096,7 +109096,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:32",
           "label": "15:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -109104,7 +109104,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:34",
           "label": "15:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.92 (Earn: 3.5% a.a.)"
         },
@@ -109112,7 +109112,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:36",
           "label": "15:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.24 (Earn: 3.5% a.a.)"
         },
@@ -109120,7 +109120,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:38",
           "label": "15:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.24 (Earn: 3.5% a.a.)"
         },
@@ -109128,7 +109128,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:40",
           "label": "15:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -109136,7 +109136,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:42",
           "label": "15:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -109144,7 +109144,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:44",
           "label": "15:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.24 (Earn: 3.5% a.a.)"
         },
@@ -109152,7 +109152,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:46",
           "label": "15:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -109160,7 +109160,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:48",
           "label": "15:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24150.49 (Earn: 3.5% a.a.)"
         },
@@ -109168,7 +109168,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:50",
           "label": "15:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24150.49 (Earn: 3.5% a.a.)"
         },
@@ -109176,7 +109176,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:52",
           "label": "15:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24150.49 (Earn: 3.5% a.a.)"
         },
@@ -109184,7 +109184,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:54",
           "label": "15:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24150.02 (Earn: 3.5% a.a.)"
         },
@@ -109192,7 +109192,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:56",
           "label": "15:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24150.02 (Earn: 3.5% a.a.)"
         },
@@ -109200,7 +109200,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "15:58",
           "label": "15:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24150.02 (Earn: 3.5% a.a.)"
         },
@@ -109208,7 +109208,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:00",
           "label": "16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.24 (Earn: 3.5% a.a.)"
         },
@@ -109216,7 +109216,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:02",
           "label": "16:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.24 (Earn: 3.5% a.a.)"
         },
@@ -109224,7 +109224,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:04",
           "label": "16:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -109232,7 +109232,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:06",
           "label": "16:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.24 (Earn: 3.5% a.a.)"
         },
@@ -109240,7 +109240,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:08",
           "label": "16:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.24 (Earn: 3.5% a.a.)"
         },
@@ -109248,7 +109248,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:10",
           "label": "16:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.24 (Earn: 3.5% a.a.)"
         },
@@ -109256,7 +109256,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:12",
           "label": "16:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.24 (Earn: 3.5% a.a.)"
         },
@@ -109264,7 +109264,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:14",
           "label": "16:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.24 (Earn: 3.5% a.a.)"
         },
@@ -109272,7 +109272,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:16",
           "label": "16:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.24 (Earn: 3.5% a.a.)"
         },
@@ -109280,7 +109280,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:18",
           "label": "16:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -109288,7 +109288,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:20",
           "label": "16:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -109296,7 +109296,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:22",
           "label": "16:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -109304,7 +109304,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:24",
           "label": "16:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -109312,7 +109312,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:26",
           "label": "16:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -109320,7 +109320,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:28",
           "label": "16:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -109328,7 +109328,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:30",
           "label": "16:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24151.90 (Earn: 3.5% a.a.)"
         },
@@ -109336,7 +109336,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:32",
           "label": "16:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24151.90 (Earn: 3.5% a.a.)"
         },
@@ -109344,7 +109344,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:34",
           "label": "16:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.05 (Earn: 3.5% a.a.)"
         },
@@ -109352,7 +109352,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:36",
           "label": "16:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.19 (Earn: 3.5% a.a.)"
         },
@@ -109360,7 +109360,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:38",
           "label": "16:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.19 (Earn: 3.5% a.a.)"
         },
@@ -109368,7 +109368,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:40",
           "label": "16:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.19 (Earn: 3.5% a.a.)"
         },
@@ -109376,7 +109376,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:42",
           "label": "16:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24159.39 (Earn: 3.5% a.a.)"
         },
@@ -109384,7 +109384,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:44",
           "label": "16:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -109392,7 +109392,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:46",
           "label": "16:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -109400,7 +109400,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:48",
           "label": "16:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -109408,7 +109408,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:50",
           "label": "16:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24151.90 (Earn: 3.5% a.a.)"
         },
@@ -109416,7 +109416,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:52",
           "label": "16:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24151.90 (Earn: 3.5% a.a.)"
         },
@@ -109424,7 +109424,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:54",
           "label": "16:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24139.73 (Earn: 3.5% a.a.)"
         },
@@ -109432,7 +109432,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:56",
           "label": "16:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24138.79 (Earn: 3.5% a.a.)"
         },
@@ -109440,7 +109440,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "16:58",
           "label": "16:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24139.26 (Earn: 3.5% a.a.)"
         },
@@ -109448,7 +109448,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:00",
           "label": "17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24129.90 (Earn: 3.5% a.a.)"
         },
@@ -109456,7 +109456,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:02",
           "label": "17:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24129.43 (Earn: 3.5% a.a.)"
         },
@@ -109464,7 +109464,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:04",
           "label": "17:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24128.96 (Earn: 3.5% a.a.)"
         },
@@ -109472,7 +109472,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:06",
           "label": "17:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24128.96 (Earn: 3.5% a.a.)"
         },
@@ -109480,7 +109480,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:08",
           "label": "17:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24129.43 (Earn: 3.5% a.a.)"
         },
@@ -109488,7 +109488,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:10",
           "label": "17:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24129.43 (Earn: 3.5% a.a.)"
         },
@@ -109496,7 +109496,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:12",
           "label": "17:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24128.96 (Earn: 3.5% a.a.)"
         },
@@ -109504,7 +109504,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:14",
           "label": "17:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.24 (Earn: 3.5% a.a.)"
         },
@@ -109512,7 +109512,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:16",
           "label": "17:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24131.77 (Earn: 3.5% a.a.)"
         },
@@ -109520,7 +109520,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:18",
           "label": "17:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24131.77 (Earn: 3.5% a.a.)"
         },
@@ -109528,7 +109528,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:20",
           "label": "17:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.24 (Earn: 3.5% a.a.)"
         },
@@ -109536,7 +109536,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:22",
           "label": "17:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24131.77 (Earn: 3.5% a.a.)"
         },
@@ -109544,7 +109544,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:24",
           "label": "17:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.24 (Earn: 3.5% a.a.)"
         },
@@ -109552,7 +109552,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:26",
           "label": "17:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.24 (Earn: 3.5% a.a.)"
         },
@@ -109560,7 +109560,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:28",
           "label": "17:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24136.45 (Earn: 3.5% a.a.)"
         },
@@ -109568,7 +109568,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:30",
           "label": "17:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24135.98 (Earn: 3.5% a.a.)"
         },
@@ -109576,7 +109576,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:32",
           "label": "17:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24136.45 (Earn: 3.5% a.a.)"
         },
@@ -109584,7 +109584,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:34",
           "label": "17:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24140.20 (Earn: 3.5% a.a.)"
         },
@@ -109592,7 +109592,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:36",
           "label": "17:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24141.60 (Earn: 3.5% a.a.)"
         },
@@ -109600,7 +109600,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:38",
           "label": "17:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.22 (Earn: 3.5% a.a.)"
         },
@@ -109608,7 +109608,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:40",
           "label": "17:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.22 (Earn: 3.5% a.a.)"
         },
@@ -109616,7 +109616,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:42",
           "label": "17:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24146.75 (Earn: 3.5% a.a.)"
         },
@@ -109624,7 +109624,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:44",
           "label": "17:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24146.75 (Earn: 3.5% a.a.)"
         },
@@ -109632,7 +109632,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:46",
           "label": "17:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.22 (Earn: 3.5% a.a.)"
         },
@@ -109640,7 +109640,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:48",
           "label": "17:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -109648,7 +109648,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:50",
           "label": "17:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -109656,7 +109656,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:52",
           "label": "17:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -109664,7 +109664,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:54",
           "label": "17:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -109672,7 +109672,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:56",
           "label": "17:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -109680,7 +109680,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "17:58",
           "label": "17:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24160.79 (Earn: 3.5% a.a.)"
         },
@@ -109688,7 +109688,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:00",
           "label": "18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -109696,7 +109696,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:02",
           "label": "18:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -109704,7 +109704,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:04",
           "label": "18:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -109712,7 +109712,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:06",
           "label": "18:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -109720,7 +109720,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:08",
           "label": "18:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -109728,7 +109728,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:10",
           "label": "18:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.19 (Earn: 3.5% a.a.)"
         },
@@ -109736,7 +109736,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:12",
           "label": "18:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.19 (Earn: 3.5% a.a.)"
         },
@@ -109744,7 +109744,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:14",
           "label": "18:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -109752,7 +109752,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:16",
           "label": "18:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.47 (Earn: 3.5% a.a.)"
         },
@@ -109760,7 +109760,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:18",
           "label": "18:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.47 (Earn: 3.5% a.a.)"
         },
@@ -109768,7 +109768,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:20",
           "label": "18:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -109776,7 +109776,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:22",
           "label": "18:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.41 (Earn: 3.5% a.a.)"
         },
@@ -109784,7 +109784,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:24",
           "label": "18:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.19 (Earn: 3.5% a.a.)"
         },
@@ -109792,7 +109792,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:26",
           "label": "18:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -109800,7 +109800,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:28",
           "label": "18:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -109808,7 +109808,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:30",
           "label": "18:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -109816,7 +109816,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:32",
           "label": "18:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -109824,7 +109824,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:34",
           "label": "18:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -109832,7 +109832,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:36",
           "label": "18:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.19 (Earn: 3.5% a.a.)"
         },
@@ -109840,7 +109840,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:38",
           "label": "18:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.19 (Earn: 3.5% a.a.)"
         },
@@ -109848,7 +109848,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:40",
           "label": "18:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -109856,7 +109856,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:42",
           "label": "18:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24164.53 (Earn: 3.5% a.a.)"
         },
@@ -109864,7 +109864,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:44",
           "label": "18:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24164.07 (Earn: 3.5% a.a.)"
         },
@@ -109872,7 +109872,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:46",
           "label": "18:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24164.07 (Earn: 3.5% a.a.)"
         },
@@ -109880,7 +109880,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:48",
           "label": "18:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24164.53 (Earn: 3.5% a.a.)"
         },
@@ -109888,7 +109888,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:50",
           "label": "18:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24164.07 (Earn: 3.5% a.a.)"
         },
@@ -109896,7 +109896,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:52",
           "label": "18:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24164.53 (Earn: 3.5% a.a.)"
         },
@@ -109904,7 +109904,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:54",
           "label": "18:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24164.07 (Earn: 3.5% a.a.)"
         },
@@ -109912,7 +109912,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:56",
           "label": "18:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -109920,7 +109920,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18:58",
           "label": "18:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -109928,7 +109928,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:00",
           "label": "19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -109936,7 +109936,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:02",
           "label": "19:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -109944,7 +109944,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:04",
           "label": "19:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -109952,7 +109952,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:06",
           "label": "19:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -109960,7 +109960,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:08",
           "label": "19:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -109968,7 +109968,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:10",
           "label": "19:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -109976,7 +109976,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:12",
           "label": "19:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -109984,7 +109984,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:14",
           "label": "19:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -109992,7 +109992,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:16",
           "label": "19:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -110000,7 +110000,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:18",
           "label": "19:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110008,7 +110008,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:20",
           "label": "19:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110016,7 +110016,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:22",
           "label": "19:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110024,7 +110024,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:24",
           "label": "19:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -110032,7 +110032,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:26",
           "label": "19:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110040,7 +110040,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:28",
           "label": "19:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -110048,7 +110048,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:30",
           "label": "19:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -110056,7 +110056,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:32",
           "label": "19:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110064,7 +110064,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:34",
           "label": "19:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110072,7 +110072,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:36",
           "label": "19:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110080,7 +110080,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:38",
           "label": "19:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -110088,7 +110088,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:40",
           "label": "19:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110096,7 +110096,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:42",
           "label": "19:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110104,7 +110104,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:44",
           "label": "19:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110112,7 +110112,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:46",
           "label": "19:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -110120,7 +110120,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:48",
           "label": "19:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110128,7 +110128,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:50",
           "label": "19:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -110136,7 +110136,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:52",
           "label": "19:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110144,7 +110144,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:54",
           "label": "19:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -110152,7 +110152,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:56",
           "label": "19:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110160,7 +110160,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19:58",
           "label": "19:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -110168,7 +110168,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:00",
           "label": "20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -110176,7 +110176,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:02",
           "label": "20:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110184,7 +110184,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:04",
           "label": "20:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -110192,7 +110192,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:06",
           "label": "20:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110200,7 +110200,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:08",
           "label": "20:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110208,7 +110208,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:10",
           "label": "20:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110216,7 +110216,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:12",
           "label": "20:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110224,7 +110224,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:14",
           "label": "20:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110232,7 +110232,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:16",
           "label": "20:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110240,7 +110240,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:18",
           "label": "20:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -110248,7 +110248,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:20",
           "label": "20:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -110256,7 +110256,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:22",
           "label": "20:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -110264,7 +110264,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:24",
           "label": "20:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -110272,7 +110272,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:26",
           "label": "20:26",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -110280,7 +110280,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:28",
           "label": "20:28",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -110288,7 +110288,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:30",
           "label": "20:30",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -110296,7 +110296,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:32",
           "label": "20:32",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -110304,7 +110304,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:34",
           "label": "20:34",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -110312,7 +110312,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:36",
           "label": "20:36",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -110320,7 +110320,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:38",
           "label": "20:38",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -110328,7 +110328,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:40",
           "label": "20:40",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -110336,7 +110336,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:42",
           "label": "20:42",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -110344,7 +110344,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:44",
           "label": "20:44",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -110352,7 +110352,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:46",
           "label": "20:46",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -110360,7 +110360,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:48",
           "label": "20:48",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -110368,7 +110368,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:50",
           "label": "20:50",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -110376,7 +110376,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:52",
           "label": "20:52",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -110384,7 +110384,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:54",
           "label": "20:54",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -110392,7 +110392,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:56",
           "label": "20:56",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -110400,7 +110400,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20:58",
           "label": "20:58",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -110408,7 +110408,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:00",
           "label": "21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -110416,7 +110416,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:02",
           "label": "21:02",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -110424,7 +110424,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:04",
           "label": "21:04",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.68 (Earn: 3.5% a.a.)"
         },
@@ -110432,7 +110432,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:06",
           "label": "21:06",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -110440,7 +110440,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:08",
           "label": "21:08",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -110448,7 +110448,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:10",
           "label": "21:10",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.68 (Earn: 3.5% a.a.)"
         },
@@ -110456,7 +110456,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:12",
           "label": "21:12",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.68 (Earn: 3.5% a.a.)"
         },
@@ -110464,7 +110464,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:14",
           "label": "21:14",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.68 (Earn: 3.5% a.a.)"
         },
@@ -110472,7 +110472,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:16",
           "label": "21:16",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -110480,7 +110480,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:18",
           "label": "21:18",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -110488,7 +110488,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:20",
           "label": "21:20",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -110496,7 +110496,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:22",
           "label": "21:22",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -110504,7 +110504,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21:24",
           "label": "21:24",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         }
@@ -110514,7 +110514,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18/08 21:00",
           "label": "18/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24475.33 (Earn: 3.5% a.a.)"
         },
@@ -110522,7 +110522,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18/08 21:00",
           "label": "18/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24492.18 (Earn: 3.5% a.a.)"
         },
@@ -110530,7 +110530,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18/08 21:00",
           "label": "18/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24512.77 (Earn: 3.5% a.a.)"
         },
@@ -110538,7 +110538,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18/08 22:00",
           "label": "18/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24516.05 (Earn: 3.5% a.a.)"
         },
@@ -110546,7 +110546,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18/08 22:00",
           "label": "18/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24520.73 (Earn: 3.5% a.a.)"
         },
@@ -110554,7 +110554,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18/08 22:00",
           "label": "18/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24520.73 (Earn: 3.5% a.a.)"
         },
@@ -110562,7 +110562,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18/08 22:00",
           "label": "18/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24520.73 (Earn: 3.5% a.a.)"
         },
@@ -110570,7 +110570,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18/08 23:00",
           "label": "18/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24520.73 (Earn: 3.5% a.a.)"
         },
@@ -110578,7 +110578,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18/08 23:00",
           "label": "18/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24520.73 (Earn: 3.5% a.a.)"
         },
@@ -110586,7 +110586,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18/08 23:00",
           "label": "18/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24520.73 (Earn: 3.5% a.a.)"
         },
@@ -110594,7 +110594,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18/08 23:00",
           "label": "18/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24520.73 (Earn: 3.5% a.a.)"
         },
@@ -110602,7 +110602,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 00:00",
           "label": "19/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24537.11 (Earn: 3.5% a.a.)"
         },
@@ -110610,7 +110610,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 00:00",
           "label": "19/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24537.11 (Earn: 3.5% a.a.)"
         },
@@ -110618,7 +110618,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 00:00",
           "label": "19/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24536.64 (Earn: 3.5% a.a.)"
         },
@@ -110626,7 +110626,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 00:00",
           "label": "19/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24536.64 (Earn: 3.5% a.a.)"
         },
@@ -110634,7 +110634,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 01:00",
           "label": "19/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23534.78 (Earn: 3.5% a.a.)"
         },
@@ -110642,7 +110642,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 01:00",
           "label": "19/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23527.60 (Earn: 3.5% a.a.)"
         },
@@ -110650,7 +110650,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 01:00",
           "label": "19/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23527.60 (Earn: 3.5% a.a.)"
         },
@@ -110658,7 +110658,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 01:00",
           "label": "19/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23524.01 (Earn: 3.5% a.a.)"
         },
@@ -110666,7 +110666,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 02:00",
           "label": "19/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23524.01 (Earn: 3.5% a.a.)"
         },
@@ -110674,7 +110674,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 02:00",
           "label": "19/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23524.01 (Earn: 3.5% a.a.)"
         },
@@ -110682,7 +110682,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 02:00",
           "label": "19/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23524.01 (Earn: 3.5% a.a.)"
         },
@@ -110690,7 +110690,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 02:00",
           "label": "19/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23523.56 (Earn: 3.5% a.a.)"
         },
@@ -110698,7 +110698,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 03:00",
           "label": "19/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23523.56 (Earn: 3.5% a.a.)"
         },
@@ -110706,7 +110706,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 03:00",
           "label": "19/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23524.01 (Earn: 3.5% a.a.)"
         },
@@ -110714,7 +110714,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 03:00",
           "label": "19/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23523.56 (Earn: 3.5% a.a.)"
         },
@@ -110722,7 +110722,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 03:00",
           "label": "19/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23524.01 (Earn: 3.5% a.a.)"
         },
@@ -110730,7 +110730,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 04:00",
           "label": "19/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23522.66 (Earn: 3.5% a.a.)"
         },
@@ -110738,7 +110738,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 04:00",
           "label": "19/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23522.66 (Earn: 3.5% a.a.)"
         },
@@ -110746,7 +110746,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 04:00",
           "label": "19/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23522.66 (Earn: 3.5% a.a.)"
         },
@@ -110754,7 +110754,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 04:00",
           "label": "19/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23522.66 (Earn: 3.5% a.a.)"
         },
@@ -110762,7 +110762,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 05:00",
           "label": "19/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24522.60 (Earn: 3.5% a.a.)"
         },
@@ -110770,7 +110770,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 05:00",
           "label": "19/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24511.83 (Earn: 3.5% a.a.)"
         },
@@ -110778,7 +110778,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 05:00",
           "label": "19/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24511.83 (Earn: 3.5% a.a.)"
         },
@@ -110786,7 +110786,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 05:00",
           "label": "19/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24511.83 (Earn: 3.5% a.a.)"
         },
@@ -110794,7 +110794,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 06:00",
           "label": "19/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24511.37 (Earn: 3.5% a.a.)"
         },
@@ -110802,7 +110802,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 06:00",
           "label": "19/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24506.69 (Earn: 3.5% a.a.)"
         },
@@ -110810,7 +110810,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 06:00",
           "label": "19/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24506.22 (Earn: 3.5% a.a.)"
         },
@@ -110818,7 +110818,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 06:00",
           "label": "19/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24506.22 (Earn: 3.5% a.a.)"
         },
@@ -110826,7 +110826,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 07:00",
           "label": "19/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24501.07 (Earn: 3.5% a.a.)"
         },
@@ -110834,7 +110834,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 07:00",
           "label": "19/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24501.54 (Earn: 3.5% a.a.)"
         },
@@ -110842,7 +110842,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 07:00",
           "label": "19/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24501.07 (Earn: 3.5% a.a.)"
         },
@@ -110850,7 +110850,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 07:00",
           "label": "19/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24500.13 (Earn: 3.5% a.a.)"
         },
@@ -110858,7 +110858,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 08:00",
           "label": "19/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24500.60 (Earn: 3.5% a.a.)"
         },
@@ -110866,7 +110866,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 08:00",
           "label": "19/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24500.60 (Earn: 3.5% a.a.)"
         },
@@ -110874,7 +110874,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 08:00",
           "label": "19/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24500.13 (Earn: 3.5% a.a.)"
         },
@@ -110882,7 +110882,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 08:00",
           "label": "19/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24500.13 (Earn: 3.5% a.a.)"
         },
@@ -110890,7 +110890,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 09:00",
           "label": "19/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24500.60 (Earn: 3.5% a.a.)"
         },
@@ -110898,7 +110898,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 09:00",
           "label": "19/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23499.31 (Earn: 3.5% a.a.)"
         },
@@ -110906,7 +110906,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 09:00",
           "label": "19/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23498.87 (Earn: 3.5% a.a.)"
         },
@@ -110914,7 +110914,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 09:00",
           "label": "19/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23498.87 (Earn: 3.5% a.a.)"
         },
@@ -110922,7 +110922,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 10:00",
           "label": "19/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24499.20 (Earn: 3.5% a.a.)"
         },
@@ -110930,7 +110930,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 10:00",
           "label": "19/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24498.73 (Earn: 3.5% a.a.)"
         },
@@ -110938,7 +110938,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 10:00",
           "label": "19/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24488.90 (Earn: 3.5% a.a.)"
         },
@@ -110946,7 +110946,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 10:00",
           "label": "19/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24488.90 (Earn: 3.5% a.a.)"
         },
@@ -110954,7 +110954,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 11:00",
           "label": "19/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24483.75 (Earn: 3.5% a.a.)"
         },
@@ -110962,7 +110962,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 11:00",
           "label": "19/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24480.94 (Earn: 3.5% a.a.)"
         },
@@ -110970,7 +110970,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 11:00",
           "label": "19/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24480.94 (Earn: 3.5% a.a.)"
         },
@@ -110978,7 +110978,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 11:00",
           "label": "19/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24480.47 (Earn: 3.5% a.a.)"
         },
@@ -110986,7 +110986,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 12:00",
           "label": "19/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24427.58 (Earn: 3.5% a.a.)"
         },
@@ -110994,7 +110994,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 12:00",
           "label": "19/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24406.52 (Earn: 3.5% a.a.)"
         },
@@ -111002,7 +111002,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 12:00",
           "label": "19/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24321.33 (Earn: 3.5% a.a.)"
         },
@@ -111010,7 +111010,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 12:00",
           "label": "19/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24303.55 (Earn: 3.5% a.a.)"
         },
@@ -111018,7 +111018,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 13:00",
           "label": "19/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24242.23 (Earn: 3.5% a.a.)"
         },
@@ -111026,7 +111026,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 13:00",
           "label": "19/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24247.85 (Earn: 3.5% a.a.)"
         },
@@ -111034,7 +111034,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 13:00",
           "label": "19/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24238.02 (Earn: 3.5% a.a.)"
         },
@@ -111042,7 +111042,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 13:00",
           "label": "19/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24263.76 (Earn: 3.5% a.a.)"
         },
@@ -111050,7 +111050,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 14:00",
           "label": "19/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24281.55 (Earn: 3.5% a.a.)"
         },
@@ -111058,7 +111058,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 14:00",
           "label": "19/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24277.80 (Earn: 3.5% a.a.)"
         },
@@ -111066,7 +111066,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 14:00",
           "label": "19/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24264.70 (Earn: 3.5% a.a.)"
         },
@@ -111074,7 +111074,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 14:00",
           "label": "19/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24295.59 (Earn: 3.5% a.a.)"
         },
@@ -111082,7 +111082,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 15:00",
           "label": "19/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24280.14 (Earn: 3.5% a.a.)"
         },
@@ -111090,7 +111090,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 15:00",
           "label": "19/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24301.68 (Earn: 3.5% a.a.)"
         },
@@ -111098,7 +111098,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 15:00",
           "label": "19/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24280.14 (Earn: 3.5% a.a.)"
         },
@@ -111106,7 +111106,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 15:00",
           "label": "19/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24266.10 (Earn: 3.5% a.a.)"
         },
@@ -111114,7 +111114,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 16:00",
           "label": "19/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24263.29 (Earn: 3.5% a.a.)"
         },
@@ -111122,7 +111122,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 16:00",
           "label": "19/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24265.64 (Earn: 3.5% a.a.)"
         },
@@ -111130,7 +111130,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 16:00",
           "label": "19/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24266.10 (Earn: 3.5% a.a.)"
         },
@@ -111138,7 +111138,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 16:00",
           "label": "19/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24262.36 (Earn: 3.5% a.a.)"
         },
@@ -111146,7 +111146,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 17:00",
           "label": "19/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24271.72 (Earn: 3.5% a.a.)"
         },
@@ -111154,7 +111154,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 17:00",
           "label": "19/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24276.40 (Earn: 3.5% a.a.)"
         },
@@ -111162,7 +111162,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 17:00",
           "label": "19/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24273.12 (Earn: 3.5% a.a.)"
         },
@@ -111170,7 +111170,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 17:00",
           "label": "19/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24275.46 (Earn: 3.5% a.a.)"
         },
@@ -111178,7 +111178,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 18:00",
           "label": "19/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24261.89 (Earn: 3.5% a.a.)"
         },
@@ -111186,7 +111186,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 18:00",
           "label": "19/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24266.57 (Earn: 3.5% a.a.)"
         },
@@ -111194,7 +111194,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 18:00",
           "label": "19/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24259.55 (Earn: 3.5% a.a.)"
         },
@@ -111202,7 +111202,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 18:00",
           "label": "19/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24260.02 (Earn: 3.5% a.a.)"
         },
@@ -111210,7 +111210,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 19:00",
           "label": "19/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24270.78 (Earn: 3.5% a.a.)"
         },
@@ -111218,7 +111218,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 19:00",
           "label": "19/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24269.85 (Earn: 3.5% a.a.)"
         },
@@ -111226,7 +111226,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 19:00",
           "label": "19/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24263.76 (Earn: 3.5% a.a.)"
         },
@@ -111234,7 +111234,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 19:00",
           "label": "19/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24264.23 (Earn: 3.5% a.a.)"
         },
@@ -111242,7 +111242,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 20:00",
           "label": "19/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24283.89 (Earn: 3.5% a.a.)"
         },
@@ -111250,7 +111250,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 20:00",
           "label": "19/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24290.44 (Earn: 3.5% a.a.)"
         },
@@ -111258,7 +111258,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 20:00",
           "label": "19/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24289.97 (Earn: 3.5% a.a.)"
         },
@@ -111266,7 +111266,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 20:00",
           "label": "19/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24297.46 (Earn: 3.5% a.a.)"
         },
@@ -111274,7 +111274,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 21:00",
           "label": "19/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24294.19 (Earn: 3.5% a.a.)"
         },
@@ -111282,7 +111282,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 21:00",
           "label": "19/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24316.65 (Earn: 3.5% a.a.)"
         },
@@ -111290,7 +111290,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 21:00",
           "label": "19/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24302.61 (Earn: 3.5% a.a.)"
         },
@@ -111298,7 +111298,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 21:00",
           "label": "19/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24302.61 (Earn: 3.5% a.a.)"
         },
@@ -111306,7 +111306,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 22:00",
           "label": "19/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24302.14 (Earn: 3.5% a.a.)"
         },
@@ -111314,7 +111314,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 22:00",
           "label": "19/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24302.61 (Earn: 3.5% a.a.)"
         },
@@ -111322,7 +111322,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 22:00",
           "label": "19/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24302.14 (Earn: 3.5% a.a.)"
         },
@@ -111330,7 +111330,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 22:00",
           "label": "19/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24297.00 (Earn: 3.5% a.a.)"
         },
@@ -111338,7 +111338,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 23:00",
           "label": "19/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24302.61 (Earn: 3.5% a.a.)"
         },
@@ -111346,7 +111346,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 23:00",
           "label": "19/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24296.53 (Earn: 3.5% a.a.)"
         },
@@ -111354,7 +111354,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 23:00",
           "label": "19/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24296.06 (Earn: 3.5% a.a.)"
         },
@@ -111362,7 +111362,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 23:00",
           "label": "19/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24282.02 (Earn: 3.5% a.a.)"
         },
@@ -111370,7 +111370,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 00:00",
           "label": "20/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24274.06 (Earn: 3.5% a.a.)"
         },
@@ -111378,7 +111378,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 00:00",
           "label": "20/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24249.72 (Earn: 3.5% a.a.)"
         },
@@ -111386,7 +111386,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 00:00",
           "label": "20/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24251.13 (Earn: 3.5% a.a.)"
         },
@@ -111394,7 +111394,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 00:00",
           "label": "20/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24250.66 (Earn: 3.5% a.a.)"
         },
@@ -111402,7 +111402,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 01:00",
           "label": "20/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23399.85 (Earn: 3.5% a.a.)"
         },
@@ -111410,7 +111410,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 01:00",
           "label": "20/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23399.40 (Earn: 3.5% a.a.)"
         },
@@ -111418,7 +111418,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 01:00",
           "label": "20/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23412.05 (Earn: 3.5% a.a.)"
         },
@@ -111426,7 +111426,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 01:00",
           "label": "20/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23430.11 (Earn: 3.5% a.a.)"
         },
@@ -111434,7 +111434,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 02:00",
           "label": "20/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23413.40 (Earn: 3.5% a.a.)"
         },
@@ -111442,7 +111442,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 02:00",
           "label": "20/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23429.66 (Earn: 3.5% a.a.)"
         },
@@ -111450,7 +111450,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 02:00",
           "label": "20/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23429.66 (Earn: 3.5% a.a.)"
         },
@@ -111458,7 +111458,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 02:00",
           "label": "20/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23445.02 (Earn: 3.5% a.a.)"
         },
@@ -111466,7 +111466,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 03:00",
           "label": "20/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23447.73 (Earn: 3.5% a.a.)"
         },
@@ -111474,7 +111474,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 03:00",
           "label": "20/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23449.08 (Earn: 3.5% a.a.)"
         },
@@ -111482,7 +111482,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 03:00",
           "label": "20/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23449.08 (Earn: 3.5% a.a.)"
         },
@@ -111490,7 +111490,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 03:00",
           "label": "20/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23445.02 (Earn: 3.5% a.a.)"
         },
@@ -111498,7 +111498,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 04:00",
           "label": "20/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23452.24 (Earn: 3.5% a.a.)"
         },
@@ -111506,7 +111506,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 04:00",
           "label": "20/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23452.69 (Earn: 3.5% a.a.)"
         },
@@ -111514,7 +111514,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 04:00",
           "label": "20/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23452.24 (Earn: 3.5% a.a.)"
         },
@@ -111522,7 +111522,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 04:00",
           "label": "20/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23452.24 (Earn: 3.5% a.a.)"
         },
@@ -111530,7 +111530,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 05:00",
           "label": "20/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24302.14 (Earn: 3.5% a.a.)"
         },
@@ -111538,7 +111538,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 05:00",
           "label": "20/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24302.14 (Earn: 3.5% a.a.)"
         },
@@ -111546,7 +111546,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 05:00",
           "label": "20/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24301.68 (Earn: 3.5% a.a.)"
         },
@@ -111554,7 +111554,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 05:00",
           "label": "20/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24307.29 (Earn: 3.5% a.a.)"
         },
@@ -111562,7 +111562,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 06:00",
           "label": "20/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24307.29 (Earn: 3.5% a.a.)"
         },
@@ -111570,7 +111570,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 06:00",
           "label": "20/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24307.29 (Earn: 3.5% a.a.)"
         },
@@ -111578,7 +111578,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 06:00",
           "label": "20/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24307.29 (Earn: 3.5% a.a.)"
         },
@@ -111586,7 +111586,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 06:00",
           "label": "20/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24306.82 (Earn: 3.5% a.a.)"
         },
@@ -111594,7 +111594,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 07:00",
           "label": "20/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24306.82 (Earn: 3.5% a.a.)"
         },
@@ -111602,7 +111602,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 07:00",
           "label": "20/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24306.82 (Earn: 3.5% a.a.)"
         },
@@ -111610,7 +111610,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 07:00",
           "label": "20/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24295.12 (Earn: 3.5% a.a.)"
         },
@@ -111618,7 +111618,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 07:00",
           "label": "20/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24295.12 (Earn: 3.5% a.a.)"
         },
@@ -111626,7 +111626,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 08:00",
           "label": "20/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24277.34 (Earn: 3.5% a.a.)"
         },
@@ -111634,7 +111634,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 08:00",
           "label": "20/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24272.19 (Earn: 3.5% a.a.)"
         },
@@ -111642,7 +111642,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 08:00",
           "label": "20/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24272.66 (Earn: 3.5% a.a.)"
         },
@@ -111650,7 +111650,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 08:00",
           "label": "20/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24272.19 (Earn: 3.5% a.a.)"
         },
@@ -111658,7 +111658,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 09:00",
           "label": "20/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24276.87 (Earn: 3.5% a.a.)"
         },
@@ -111666,7 +111666,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 09:00",
           "label": "20/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23424.69 (Earn: 3.5% a.a.)"
         },
@@ -111674,7 +111674,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 09:00",
           "label": "20/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23424.69 (Earn: 3.5% a.a.)"
         },
@@ -111682,7 +111682,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 09:00",
           "label": "20/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23424.24 (Earn: 3.5% a.a.)"
         },
@@ -111690,7 +111690,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 10:00",
           "label": "20/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24276.40 (Earn: 3.5% a.a.)"
         },
@@ -111698,7 +111698,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 10:00",
           "label": "20/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24276.40 (Earn: 3.5% a.a.)"
         },
@@ -111706,7 +111706,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 10:00",
           "label": "20/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24273.12 (Earn: 3.5% a.a.)"
         },
@@ -111714,7 +111714,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 10:00",
           "label": "20/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24279.21 (Earn: 3.5% a.a.)"
         },
@@ -111722,7 +111722,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 11:00",
           "label": "20/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24279.68 (Earn: 3.5% a.a.)"
         },
@@ -111730,7 +111730,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 11:00",
           "label": "20/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24284.83 (Earn: 3.5% a.a.)"
         },
@@ -111738,7 +111738,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 11:00",
           "label": "20/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24291.85 (Earn: 3.5% a.a.)"
         },
@@ -111746,7 +111746,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 11:00",
           "label": "20/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24309.16 (Earn: 3.5% a.a.)"
         },
@@ -111754,7 +111754,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 12:00",
           "label": "20/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24380.78 (Earn: 3.5% a.a.)"
         },
@@ -111762,7 +111762,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 12:00",
           "label": "20/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24348.01 (Earn: 3.5% a.a.)"
         },
@@ -111770,7 +111770,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 12:00",
           "label": "20/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24358.31 (Earn: 3.5% a.a.)"
         },
@@ -111778,7 +111778,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 12:00",
           "label": "20/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24327.42 (Earn: 3.5% a.a.)"
         },
@@ -111786,7 +111786,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 13:00",
           "label": "20/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24334.91 (Earn: 3.5% a.a.)"
         },
@@ -111794,7 +111794,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 13:00",
           "label": "20/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24372.82 (Earn: 3.5% a.a.)"
         },
@@ -111802,7 +111802,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 13:00",
           "label": "20/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24355.50 (Earn: 3.5% a.a.)"
         },
@@ -111810,7 +111810,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 13:00",
           "label": "20/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24347.08 (Earn: 3.5% a.a.)"
         },
@@ -111818,7 +111818,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 14:00",
           "label": "20/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24368.61 (Earn: 3.5% a.a.)"
         },
@@ -111826,7 +111826,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 14:00",
           "label": "20/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24398.10 (Earn: 3.5% a.a.)"
         },
@@ -111834,7 +111834,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 14:00",
           "label": "20/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24365.80 (Earn: 3.5% a.a.)"
         },
@@ -111842,7 +111842,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 14:00",
           "label": "20/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24346.14 (Earn: 3.5% a.a.)"
         },
@@ -111850,7 +111850,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 15:00",
           "label": "20/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24339.12 (Earn: 3.5% a.a.)"
         },
@@ -111858,7 +111858,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 15:00",
           "label": "20/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24334.44 (Earn: 3.5% a.a.)"
         },
@@ -111866,7 +111866,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 15:00",
           "label": "20/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24344.27 (Earn: 3.5% a.a.)"
         },
@@ -111874,7 +111874,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 15:00",
           "label": "20/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24338.18 (Earn: 3.5% a.a.)"
         },
@@ -111882,7 +111882,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 16:00",
           "label": "20/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24331.63 (Earn: 3.5% a.a.)"
         },
@@ -111890,7 +111890,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 16:00",
           "label": "20/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24337.25 (Earn: 3.5% a.a.)"
         },
@@ -111898,7 +111898,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 16:00",
           "label": "20/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24343.33 (Earn: 3.5% a.a.)"
         },
@@ -111906,7 +111906,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 16:00",
           "label": "20/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24355.97 (Earn: 3.5% a.a.)"
         },
@@ -111914,7 +111914,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 17:00",
           "label": "20/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24361.12 (Earn: 3.5% a.a.)"
         },
@@ -111922,7 +111922,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 17:00",
           "label": "20/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24360.65 (Earn: 3.5% a.a.)"
         },
@@ -111930,7 +111930,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 17:00",
           "label": "20/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24362.06 (Earn: 3.5% a.a.)"
         },
@@ -111938,7 +111938,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 17:00",
           "label": "20/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24357.37 (Earn: 3.5% a.a.)"
         },
@@ -111946,7 +111946,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 18:00",
           "label": "20/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24364.40 (Earn: 3.5% a.a.)"
         },
@@ -111954,7 +111954,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 18:00",
           "label": "20/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24364.86 (Earn: 3.5% a.a.)"
         },
@@ -111962,7 +111962,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 18:00",
           "label": "20/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24372.35 (Earn: 3.5% a.a.)"
         },
@@ -111970,7 +111970,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 18:00",
           "label": "20/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24367.20 (Earn: 3.5% a.a.)"
         },
@@ -111978,7 +111978,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 19:00",
           "label": "20/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24374.23 (Earn: 3.5% a.a.)"
         },
@@ -111986,7 +111986,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 19:00",
           "label": "20/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24374.23 (Earn: 3.5% a.a.)"
         },
@@ -111994,7 +111994,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 19:00",
           "label": "20/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24365.33 (Earn: 3.5% a.a.)"
         },
@@ -112002,7 +112002,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 19:00",
           "label": "20/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24378.91 (Earn: 3.5% a.a.)"
         },
@@ -112010,7 +112010,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 20:00",
           "label": "20/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24377.97 (Earn: 3.5% a.a.)"
         },
@@ -112018,7 +112018,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 20:00",
           "label": "20/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24377.97 (Earn: 3.5% a.a.)"
         },
@@ -112026,7 +112026,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 20:00",
           "label": "20/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24376.57 (Earn: 3.5% a.a.)"
         },
@@ -112034,7 +112034,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 20:00",
           "label": "20/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24376.57 (Earn: 3.5% a.a.)"
         },
@@ -112042,7 +112042,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 21:00",
           "label": "20/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24382.65 (Earn: 3.5% a.a.)"
         },
@@ -112050,7 +112050,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 21:00",
           "label": "20/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24385.46 (Earn: 3.5% a.a.)"
         },
@@ -112058,7 +112058,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 21:00",
           "label": "20/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24384.99 (Earn: 3.5% a.a.)"
         },
@@ -112066,7 +112066,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 21:00",
           "label": "20/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24379.84 (Earn: 3.5% a.a.)"
         },
@@ -112074,7 +112074,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 22:00",
           "label": "20/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24379.84 (Earn: 3.5% a.a.)"
         },
@@ -112082,7 +112082,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 22:00",
           "label": "20/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24385.46 (Earn: 3.5% a.a.)"
         },
@@ -112090,7 +112090,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 22:00",
           "label": "20/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24386.39 (Earn: 3.5% a.a.)"
         },
@@ -112098,7 +112098,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 22:00",
           "label": "20/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24387.33 (Earn: 3.5% a.a.)"
         },
@@ -112106,7 +112106,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 23:00",
           "label": "20/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24387.33 (Earn: 3.5% a.a.)"
         },
@@ -112114,7 +112114,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 23:00",
           "label": "20/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24387.80 (Earn: 3.5% a.a.)"
         },
@@ -112122,7 +112122,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 23:00",
           "label": "20/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24387.80 (Earn: 3.5% a.a.)"
         },
@@ -112130,7 +112130,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 23:00",
           "label": "20/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24398.10 (Earn: 3.5% a.a.)"
         },
@@ -112138,7 +112138,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 00:00",
           "label": "21/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24399.50 (Earn: 3.5% a.a.)"
         },
@@ -112146,7 +112146,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 00:00",
           "label": "21/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24399.50 (Earn: 3.5% a.a.)"
         },
@@ -112154,7 +112154,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 00:00",
           "label": "21/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24400.90 (Earn: 3.5% a.a.)"
         },
@@ -112162,7 +112162,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 00:00",
           "label": "21/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24399.03 (Earn: 3.5% a.a.)"
         },
@@ -112170,7 +112170,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 01:00",
           "label": "21/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24397.63 (Earn: 3.5% a.a.)"
         },
@@ -112178,7 +112178,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 01:00",
           "label": "21/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24385.46 (Earn: 3.5% a.a.)"
         },
@@ -112186,7 +112186,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 01:00",
           "label": "21/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24389.20 (Earn: 3.5% a.a.)"
         },
@@ -112194,7 +112194,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 01:00",
           "label": "21/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24375.63 (Earn: 3.5% a.a.)"
         },
@@ -112202,7 +112202,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 02:00",
           "label": "21/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24386.86 (Earn: 3.5% a.a.)"
         },
@@ -112210,7 +112210,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 02:00",
           "label": "21/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24386.86 (Earn: 3.5% a.a.)"
         },
@@ -112218,7 +112218,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 02:00",
           "label": "21/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24389.20 (Earn: 3.5% a.a.)"
         },
@@ -112226,7 +112226,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 02:00",
           "label": "21/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24393.42 (Earn: 3.5% a.a.)"
         },
@@ -112234,7 +112234,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 03:00",
           "label": "21/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24385.46 (Earn: 3.5% a.a.)"
         },
@@ -112242,7 +112242,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 03:00",
           "label": "21/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24384.99 (Earn: 3.5% a.a.)"
         },
@@ -112250,7 +112250,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 03:00",
           "label": "21/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24381.71 (Earn: 3.5% a.a.)"
         },
@@ -112258,7 +112258,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 03:00",
           "label": "21/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24381.25 (Earn: 3.5% a.a.)"
         },
@@ -112266,7 +112266,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 04:00",
           "label": "21/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24381.25 (Earn: 3.5% a.a.)"
         },
@@ -112274,7 +112274,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 04:00",
           "label": "21/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24381.25 (Earn: 3.5% a.a.)"
         },
@@ -112282,7 +112282,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 04:00",
           "label": "21/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24381.71 (Earn: 3.5% a.a.)"
         },
@@ -112290,7 +112290,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 04:00",
           "label": "21/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24381.71 (Earn: 3.5% a.a.)"
         },
@@ -112298,7 +112298,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 05:00",
           "label": "21/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24381.25 (Earn: 3.5% a.a.)"
         },
@@ -112306,7 +112306,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 05:00",
           "label": "21/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24355.50 (Earn: 3.5% a.a.)"
         },
@@ -112314,7 +112314,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 05:00",
           "label": "21/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24381.25 (Earn: 3.5% a.a.)"
         },
@@ -112322,7 +112322,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 05:00",
           "label": "21/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24370.95 (Earn: 3.5% a.a.)"
         },
@@ -112330,7 +112330,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 06:00",
           "label": "21/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24354.57 (Earn: 3.5% a.a.)"
         },
@@ -112338,7 +112338,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 06:00",
           "label": "21/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24354.10 (Earn: 3.5% a.a.)"
         },
@@ -112346,7 +112346,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 06:00",
           "label": "21/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24354.10 (Earn: 3.5% a.a.)"
         },
@@ -112354,7 +112354,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 06:00",
           "label": "21/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24354.57 (Earn: 3.5% a.a.)"
         },
@@ -112362,7 +112362,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 07:00",
           "label": "21/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24354.10 (Earn: 3.5% a.a.)"
         },
@@ -112370,7 +112370,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 07:00",
           "label": "21/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24348.95 (Earn: 3.5% a.a.)"
         },
@@ -112378,7 +112378,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 07:00",
           "label": "21/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24348.01 (Earn: 3.5% a.a.)"
         },
@@ -112386,7 +112386,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 07:00",
           "label": "21/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24348.48 (Earn: 3.5% a.a.)"
         },
@@ -112394,7 +112394,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 08:00",
           "label": "21/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24348.01 (Earn: 3.5% a.a.)"
         },
@@ -112402,7 +112402,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 08:00",
           "label": "21/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24341.93 (Earn: 3.5% a.a.)"
         },
@@ -112410,7 +112410,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 08:00",
           "label": "21/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24332.10 (Earn: 3.5% a.a.)"
         },
@@ -112418,7 +112418,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 08:00",
           "label": "21/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24329.76 (Earn: 3.5% a.a.)"
         },
@@ -112426,7 +112426,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 09:00",
           "label": "21/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24323.21 (Earn: 3.5% a.a.)"
         },
@@ -112434,7 +112434,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 09:00",
           "label": "21/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24320.87 (Earn: 3.5% a.a.)"
         },
@@ -112442,7 +112442,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 09:00",
           "label": "21/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24304.95 (Earn: 3.5% a.a.)"
         },
@@ -112450,7 +112450,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 09:00",
           "label": "21/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24301.21 (Earn: 3.5% a.a.)"
         },
@@ -112458,7 +112458,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 10:00",
           "label": "21/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24301.68 (Earn: 3.5% a.a.)"
         },
@@ -112466,7 +112466,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 10:00",
           "label": "21/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24302.14 (Earn: 3.5% a.a.)"
         },
@@ -112474,7 +112474,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 10:00",
           "label": "21/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24276.40 (Earn: 3.5% a.a.)"
         },
@@ -112482,7 +112482,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 10:00",
           "label": "21/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24290.44 (Earn: 3.5% a.a.)"
         },
@@ -112490,7 +112490,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 11:00",
           "label": "21/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24308.23 (Earn: 3.5% a.a.)"
         },
@@ -112498,7 +112498,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 11:00",
           "label": "21/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24308.70 (Earn: 3.5% a.a.)"
         },
@@ -112506,7 +112506,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 11:00",
           "label": "21/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24308.23 (Earn: 3.5% a.a.)"
         },
@@ -112514,7 +112514,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 11:00",
           "label": "21/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24308.23 (Earn: 3.5% a.a.)"
         },
@@ -112522,7 +112522,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 12:00",
           "label": "21/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24286.70 (Earn: 3.5% a.a.)"
         },
@@ -112530,7 +112530,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 12:00",
           "label": "21/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24296.53 (Earn: 3.5% a.a.)"
         },
@@ -112538,7 +112538,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 12:00",
           "label": "21/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24316.65 (Earn: 3.5% a.a.)"
         },
@@ -112546,7 +112546,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 12:00",
           "label": "21/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24302.14 (Earn: 3.5% a.a.)"
         },
@@ -112554,7 +112554,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 13:00",
           "label": "21/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24317.59 (Earn: 3.5% a.a.)"
         },
@@ -112562,7 +112562,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 13:00",
           "label": "21/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24327.89 (Earn: 3.5% a.a.)"
         },
@@ -112570,7 +112570,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 13:00",
           "label": "21/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24276.87 (Earn: 3.5% a.a.)"
         },
@@ -112578,7 +112578,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 13:00",
           "label": "21/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24259.55 (Earn: 3.5% a.a.)"
         },
@@ -112586,7 +112586,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 14:00",
           "label": "21/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24254.87 (Earn: 3.5% a.a.)"
         },
@@ -112594,7 +112594,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 14:00",
           "label": "21/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24230.06 (Earn: 3.5% a.a.)"
         },
@@ -112602,7 +112602,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 14:00",
           "label": "21/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24245.04 (Earn: 3.5% a.a.)"
         },
@@ -112610,7 +112610,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 14:00",
           "label": "21/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24238.02 (Earn: 3.5% a.a.)"
         },
@@ -112618,7 +112618,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 15:00",
           "label": "21/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24225.38 (Earn: 3.5% a.a.)"
         },
@@ -112626,7 +112626,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 15:00",
           "label": "21/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24229.59 (Earn: 3.5% a.a.)"
         },
@@ -112634,7 +112634,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 15:00",
           "label": "21/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24213.21 (Earn: 3.5% a.a.)"
         },
@@ -112642,7 +112642,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 15:00",
           "label": "21/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -112650,7 +112650,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 16:00",
           "label": "21/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.47 (Earn: 3.5% a.a.)"
         },
@@ -112658,7 +112658,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 16:00",
           "label": "21/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -112666,7 +112666,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 16:00",
           "label": "21/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -112674,7 +112674,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 16:00",
           "label": "21/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24160.32 (Earn: 3.5% a.a.)"
         },
@@ -112682,7 +112682,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 17:00",
           "label": "21/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24159.85 (Earn: 3.5% a.a.)"
         },
@@ -112690,7 +112690,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 17:00",
           "label": "21/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24160.79 (Earn: 3.5% a.a.)"
         },
@@ -112698,7 +112698,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 17:00",
           "label": "21/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.51 (Earn: 3.5% a.a.)"
         },
@@ -112706,7 +112706,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 17:00",
           "label": "21/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24160.32 (Earn: 3.5% a.a.)"
         },
@@ -112714,7 +112714,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 18:00",
           "label": "21/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.24 (Earn: 3.5% a.a.)"
         },
@@ -112722,7 +112722,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 18:00",
           "label": "21/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24133.64 (Earn: 3.5% a.a.)"
         },
@@ -112730,7 +112730,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 18:00",
           "label": "21/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24092.92 (Earn: 3.5% a.a.)"
         },
@@ -112738,7 +112738,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 18:00",
           "label": "21/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24113.52 (Earn: 3.5% a.a.)"
         },
@@ -112746,7 +112746,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 19:00",
           "label": "21/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24117.73 (Earn: 3.5% a.a.)"
         },
@@ -112754,7 +112754,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 19:00",
           "label": "21/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24119.60 (Earn: 3.5% a.a.)"
         },
@@ -112762,7 +112762,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 19:00",
           "label": "21/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24118.20 (Earn: 3.5% a.a.)"
         },
@@ -112770,7 +112770,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 19:00",
           "label": "21/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24118.66 (Earn: 3.5% a.a.)"
         },
@@ -112778,7 +112778,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 20:00",
           "label": "21/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24125.69 (Earn: 3.5% a.a.)"
         },
@@ -112786,7 +112786,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 20:00",
           "label": "21/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24148.15 (Earn: 3.5% a.a.)"
         },
@@ -112794,7 +112794,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 20:00",
           "label": "21/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.00 (Earn: 3.5% a.a.)"
         },
@@ -112802,7 +112802,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 20:00",
           "label": "21/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24141.60 (Earn: 3.5% a.a.)"
         },
@@ -112810,7 +112810,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 21:00",
           "label": "21/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24134.11 (Earn: 3.5% a.a.)"
         },
@@ -112818,7 +112818,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 21:00",
           "label": "21/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24159.85 (Earn: 3.5% a.a.)"
         },
@@ -112826,7 +112826,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 21:00",
           "label": "21/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24180.92 (Earn: 3.5% a.a.)"
         },
@@ -112834,7 +112834,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 21:00",
           "label": "21/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24181.38 (Earn: 3.5% a.a.)"
         },
@@ -112842,7 +112842,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 22:00",
           "label": "21/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24198.70 (Earn: 3.5% a.a.)"
         },
@@ -112850,7 +112850,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 22:00",
           "label": "21/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24199.64 (Earn: 3.5% a.a.)"
         },
@@ -112858,7 +112858,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 22:00",
           "label": "21/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24199.17 (Earn: 3.5% a.a.)"
         },
@@ -112866,7 +112866,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 22:00",
           "label": "21/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -112874,7 +112874,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 23:00",
           "label": "21/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24198.23 (Earn: 3.5% a.a.)"
         },
@@ -112882,7 +112882,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 23:00",
           "label": "21/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24197.30 (Earn: 3.5% a.a.)"
         },
@@ -112890,7 +112890,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 23:00",
           "label": "21/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24197.30 (Earn: 3.5% a.a.)"
         },
@@ -112898,7 +112898,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 23:00",
           "label": "21/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24180.92 (Earn: 3.5% a.a.)"
         },
@@ -112906,7 +112906,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 00:00",
           "label": "22/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24180.92 (Earn: 3.5% a.a.)"
         },
@@ -112914,7 +112914,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 00:00",
           "label": "22/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.79 (Earn: 3.5% a.a.)"
         },
@@ -112922,7 +112922,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 00:00",
           "label": "22/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24190.75 (Earn: 3.5% a.a.)"
         },
@@ -112930,7 +112930,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 00:00",
           "label": "22/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24190.75 (Earn: 3.5% a.a.)"
         },
@@ -112938,7 +112938,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 01:00",
           "label": "22/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24190.28 (Earn: 3.5% a.a.)"
         },
@@ -112946,7 +112946,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 01:00",
           "label": "22/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24187.47 (Earn: 3.5% a.a.)"
         },
@@ -112954,7 +112954,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 01:00",
           "label": "22/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24187.47 (Earn: 3.5% a.a.)"
         },
@@ -112962,7 +112962,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 01:00",
           "label": "22/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24189.34 (Earn: 3.5% a.a.)"
         },
@@ -112970,7 +112970,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 02:00",
           "label": "22/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24189.34 (Earn: 3.5% a.a.)"
         },
@@ -112978,7 +112978,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 02:00",
           "label": "22/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.79 (Earn: 3.5% a.a.)"
         },
@@ -112986,7 +112986,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 02:00",
           "label": "22/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24180.45 (Earn: 3.5% a.a.)"
         },
@@ -112994,7 +112994,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 02:00",
           "label": "22/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24180.45 (Earn: 3.5% a.a.)"
         },
@@ -113002,7 +113002,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 03:00",
           "label": "22/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.32 (Earn: 3.5% a.a.)"
         },
@@ -113010,7 +113010,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 03:00",
           "label": "22/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24188.41 (Earn: 3.5% a.a.)"
         },
@@ -113018,7 +113018,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 03:00",
           "label": "22/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24187.94 (Earn: 3.5% a.a.)"
         },
@@ -113026,7 +113026,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 03:00",
           "label": "22/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24187.94 (Earn: 3.5% a.a.)"
         },
@@ -113034,7 +113034,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 04:00",
           "label": "22/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24187.47 (Earn: 3.5% a.a.)"
         },
@@ -113042,7 +113042,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 04:00",
           "label": "22/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -113050,7 +113050,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 04:00",
           "label": "22/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -113058,7 +113058,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 04:00",
           "label": "22/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -113066,7 +113066,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 05:00",
           "label": "22/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24187.94 (Earn: 3.5% a.a.)"
         },
@@ -113074,7 +113074,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 05:00",
           "label": "22/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24183.72 (Earn: 3.5% a.a.)"
         },
@@ -113082,7 +113082,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 05:00",
           "label": "22/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24183.72 (Earn: 3.5% a.a.)"
         },
@@ -113090,7 +113090,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 05:00",
           "label": "22/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24184.19 (Earn: 3.5% a.a.)"
         },
@@ -113098,7 +113098,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 06:00",
           "label": "22/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24184.66 (Earn: 3.5% a.a.)"
         },
@@ -113106,7 +113106,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 06:00",
           "label": "22/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24186.06 (Earn: 3.5% a.a.)"
         },
@@ -113114,7 +113114,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 06:00",
           "label": "22/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24186.06 (Earn: 3.5% a.a.)"
         },
@@ -113122,7 +113122,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 06:00",
           "label": "22/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24189.34 (Earn: 3.5% a.a.)"
         },
@@ -113130,7 +113130,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 07:00",
           "label": "22/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24189.34 (Earn: 3.5% a.a.)"
         },
@@ -113138,7 +113138,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 07:00",
           "label": "22/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24188.87 (Earn: 3.5% a.a.)"
         },
@@ -113146,7 +113146,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 07:00",
           "label": "22/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24189.34 (Earn: 3.5% a.a.)"
         },
@@ -113154,7 +113154,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 07:00",
           "label": "22/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24187.47 (Earn: 3.5% a.a.)"
         },
@@ -113162,7 +113162,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 08:00",
           "label": "22/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24187.47 (Earn: 3.5% a.a.)"
         },
@@ -113170,7 +113170,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 08:00",
           "label": "22/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24179.51 (Earn: 3.5% a.a.)"
         },
@@ -113178,7 +113178,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 08:00",
           "label": "22/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.77 (Earn: 3.5% a.a.)"
         },
@@ -113186,7 +113186,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 08:00",
           "label": "22/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.77 (Earn: 3.5% a.a.)"
         },
@@ -113194,7 +113194,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 09:00",
           "label": "22/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.24 (Earn: 3.5% a.a.)"
         },
@@ -113202,7 +113202,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 09:00",
           "label": "22/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.24 (Earn: 3.5% a.a.)"
         },
@@ -113210,7 +113210,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 09:00",
           "label": "22/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.77 (Earn: 3.5% a.a.)"
         },
@@ -113218,7 +113218,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 09:00",
           "label": "22/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.79 (Earn: 3.5% a.a.)"
         },
@@ -113226,7 +113226,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 10:00",
           "label": "22/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.32 (Earn: 3.5% a.a.)"
         },
@@ -113234,7 +113234,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 10:00",
           "label": "22/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.32 (Earn: 3.5% a.a.)"
         },
@@ -113242,7 +113242,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 10:00",
           "label": "22/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.32 (Earn: 3.5% a.a.)"
         },
@@ -113250,7 +113250,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 10:00",
           "label": "22/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.79 (Earn: 3.5% a.a.)"
         },
@@ -113258,7 +113258,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 11:00",
           "label": "22/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.79 (Earn: 3.5% a.a.)"
         },
@@ -113266,7 +113266,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 11:00",
           "label": "22/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.79 (Earn: 3.5% a.a.)"
         },
@@ -113274,7 +113274,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 11:00",
           "label": "22/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.32 (Earn: 3.5% a.a.)"
         },
@@ -113282,7 +113282,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 11:00",
           "label": "22/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24180.92 (Earn: 3.5% a.a.)"
         },
@@ -113290,7 +113290,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 12:00",
           "label": "22/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.64 (Earn: 3.5% a.a.)"
         },
@@ -113298,7 +113298,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 12:00",
           "label": "22/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24178.11 (Earn: 3.5% a.a.)"
         },
@@ -113306,7 +113306,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 12:00",
           "label": "22/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.64 (Earn: 3.5% a.a.)"
         },
@@ -113314,7 +113314,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 12:00",
           "label": "22/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.64 (Earn: 3.5% a.a.)"
         },
@@ -113322,7 +113322,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 13:00",
           "label": "22/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.64 (Earn: 3.5% a.a.)"
         },
@@ -113330,7 +113330,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 13:00",
           "label": "22/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24178.11 (Earn: 3.5% a.a.)"
         },
@@ -113338,7 +113338,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 13:00",
           "label": "22/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24160.79 (Earn: 3.5% a.a.)"
         },
@@ -113346,7 +113346,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 13:00",
           "label": "22/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24160.79 (Earn: 3.5% a.a.)"
         },
@@ -113354,7 +113354,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 14:00",
           "label": "22/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.00 (Earn: 3.5% a.a.)"
         },
@@ -113362,7 +113362,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 14:00",
           "label": "22/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24164.53 (Earn: 3.5% a.a.)"
         },
@@ -113370,7 +113370,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 14:00",
           "label": "22/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.98 (Earn: 3.5% a.a.)"
         },
@@ -113378,7 +113378,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 14:00",
           "label": "22/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.98 (Earn: 3.5% a.a.)"
         },
@@ -113386,7 +113386,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 15:00",
           "label": "22/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.98 (Earn: 3.5% a.a.)"
         },
@@ -113394,7 +113394,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 15:00",
           "label": "22/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -113402,7 +113402,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 15:00",
           "label": "22/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -113410,7 +113410,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 15:00",
           "label": "22/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -113418,7 +113418,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 16:00",
           "label": "22/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.92 (Earn: 3.5% a.a.)"
         },
@@ -113426,7 +113426,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 16:00",
           "label": "22/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.94 (Earn: 3.5% a.a.)"
         },
@@ -113434,7 +113434,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 16:00",
           "label": "22/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24133.17 (Earn: 3.5% a.a.)"
         },
@@ -113442,7 +113442,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 16:00",
           "label": "22/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24159.85 (Earn: 3.5% a.a.)"
         },
@@ -113450,7 +113450,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 17:00",
           "label": "22/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24160.79 (Earn: 3.5% a.a.)"
         },
@@ -113458,7 +113458,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 17:00",
           "label": "22/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24164.07 (Earn: 3.5% a.a.)"
         },
@@ -113466,7 +113466,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 17:00",
           "label": "22/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24151.90 (Earn: 3.5% a.a.)"
         },
@@ -113474,7 +113474,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 17:00",
           "label": "22/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24164.07 (Earn: 3.5% a.a.)"
         },
@@ -113482,7 +113482,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 18:00",
           "label": "22/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -113490,7 +113490,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 18:00",
           "label": "22/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -113498,7 +113498,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 18:00",
           "label": "22/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -113506,7 +113506,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 18:00",
           "label": "22/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -113514,7 +113514,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 19:00",
           "label": "22/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24159.85 (Earn: 3.5% a.a.)"
         },
@@ -113522,7 +113522,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 19:00",
           "label": "22/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24155.64 (Earn: 3.5% a.a.)"
         },
@@ -113530,7 +113530,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 19:00",
           "label": "22/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24150.02 (Earn: 3.5% a.a.)"
         },
@@ -113538,7 +113538,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 19:00",
           "label": "22/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.94 (Earn: 3.5% a.a.)"
         },
@@ -113546,7 +113546,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 20:00",
           "label": "22/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.47 (Earn: 3.5% a.a.)"
         },
@@ -113554,7 +113554,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 20:00",
           "label": "22/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.47 (Earn: 3.5% a.a.)"
         },
@@ -113562,7 +113562,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 20:00",
           "label": "22/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.94 (Earn: 3.5% a.a.)"
         },
@@ -113570,7 +113570,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 20:00",
           "label": "22/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.47 (Earn: 3.5% a.a.)"
         },
@@ -113578,7 +113578,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 21:00",
           "label": "22/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.94 (Earn: 3.5% a.a.)"
         },
@@ -113586,7 +113586,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 21:00",
           "label": "22/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.47 (Earn: 3.5% a.a.)"
         },
@@ -113594,7 +113594,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 21:00",
           "label": "22/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.94 (Earn: 3.5% a.a.)"
         },
@@ -113602,7 +113602,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 21:00",
           "label": "22/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.47 (Earn: 3.5% a.a.)"
         },
@@ -113610,7 +113610,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 22:00",
           "label": "22/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.47 (Earn: 3.5% a.a.)"
         },
@@ -113618,7 +113618,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 22:00",
           "label": "22/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.47 (Earn: 3.5% a.a.)"
         },
@@ -113626,7 +113626,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 22:00",
           "label": "22/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24139.73 (Earn: 3.5% a.a.)"
         },
@@ -113634,7 +113634,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 22:00",
           "label": "22/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24140.20 (Earn: 3.5% a.a.)"
         },
@@ -113642,7 +113642,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 23:00",
           "label": "22/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24144.41 (Earn: 3.5% a.a.)"
         },
@@ -113650,7 +113650,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 23:00",
           "label": "22/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24144.41 (Earn: 3.5% a.a.)"
         },
@@ -113658,7 +113658,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 23:00",
           "label": "22/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24136.45 (Earn: 3.5% a.a.)"
         },
@@ -113666,7 +113666,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 23:00",
           "label": "22/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24135.98 (Earn: 3.5% a.a.)"
         },
@@ -113674,7 +113674,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 00:00",
           "label": "23/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24136.45 (Earn: 3.5% a.a.)"
         },
@@ -113682,7 +113682,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 00:00",
           "label": "23/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24142.07 (Earn: 3.5% a.a.)"
         },
@@ -113690,7 +113690,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 00:00",
           "label": "23/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24142.07 (Earn: 3.5% a.a.)"
         },
@@ -113698,7 +113698,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 00:00",
           "label": "23/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24142.54 (Earn: 3.5% a.a.)"
         },
@@ -113706,7 +113706,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 01:00",
           "label": "23/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24142.07 (Earn: 3.5% a.a.)"
         },
@@ -113714,7 +113714,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 01:00",
           "label": "23/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24142.54 (Earn: 3.5% a.a.)"
         },
@@ -113722,7 +113722,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 01:00",
           "label": "23/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24142.07 (Earn: 3.5% a.a.)"
         },
@@ -113730,7 +113730,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 01:00",
           "label": "23/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24142.07 (Earn: 3.5% a.a.)"
         },
@@ -113738,7 +113738,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 02:00",
           "label": "23/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24141.60 (Earn: 3.5% a.a.)"
         },
@@ -113746,7 +113746,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 02:00",
           "label": "23/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24142.07 (Earn: 3.5% a.a.)"
         },
@@ -113754,7 +113754,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 02:00",
           "label": "23/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24142.07 (Earn: 3.5% a.a.)"
         },
@@ -113762,7 +113762,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 02:00",
           "label": "23/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24141.60 (Earn: 3.5% a.a.)"
         },
@@ -113770,7 +113770,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 03:00",
           "label": "23/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24141.60 (Earn: 3.5% a.a.)"
         },
@@ -113778,7 +113778,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 03:00",
           "label": "23/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24141.60 (Earn: 3.5% a.a.)"
         },
@@ -113786,7 +113786,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 03:00",
           "label": "23/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24141.13 (Earn: 3.5% a.a.)"
         },
@@ -113794,7 +113794,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 03:00",
           "label": "23/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24137.39 (Earn: 3.5% a.a.)"
         },
@@ -113802,7 +113802,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 04:00",
           "label": "23/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24137.39 (Earn: 3.5% a.a.)"
         },
@@ -113810,7 +113810,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 04:00",
           "label": "23/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24136.92 (Earn: 3.5% a.a.)"
         },
@@ -113818,7 +113818,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 04:00",
           "label": "23/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24136.92 (Earn: 3.5% a.a.)"
         },
@@ -113826,7 +113826,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 04:00",
           "label": "23/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24136.92 (Earn: 3.5% a.a.)"
         },
@@ -113834,7 +113834,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 05:00",
           "label": "23/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.24 (Earn: 3.5% a.a.)"
         },
@@ -113842,7 +113842,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 05:00",
           "label": "23/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.71 (Earn: 3.5% a.a.)"
         },
@@ -113850,7 +113850,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 05:00",
           "label": "23/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.71 (Earn: 3.5% a.a.)"
         },
@@ -113858,7 +113858,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 05:00",
           "label": "23/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.71 (Earn: 3.5% a.a.)"
         },
@@ -113866,7 +113866,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 06:00",
           "label": "23/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.71 (Earn: 3.5% a.a.)"
         },
@@ -113874,7 +113874,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 06:00",
           "label": "23/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.71 (Earn: 3.5% a.a.)"
         },
@@ -113882,7 +113882,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 06:00",
           "label": "23/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.71 (Earn: 3.5% a.a.)"
         },
@@ -113890,7 +113890,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 06:00",
           "label": "23/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24121.47 (Earn: 3.5% a.a.)"
         },
@@ -113898,7 +113898,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 07:00",
           "label": "23/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24121.00 (Earn: 3.5% a.a.)"
         },
@@ -113906,7 +113906,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 07:00",
           "label": "23/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24121.47 (Earn: 3.5% a.a.)"
         },
@@ -113914,7 +113914,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 07:00",
           "label": "23/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24121.47 (Earn: 3.5% a.a.)"
         },
@@ -113922,7 +113922,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 07:00",
           "label": "23/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24121.47 (Earn: 3.5% a.a.)"
         },
@@ -113930,7 +113930,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 08:00",
           "label": "23/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24119.13 (Earn: 3.5% a.a.)"
         },
@@ -113938,7 +113938,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 08:00",
           "label": "23/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24103.69 (Earn: 3.5% a.a.)"
         },
@@ -113946,7 +113946,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 08:00",
           "label": "23/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24103.69 (Earn: 3.5% a.a.)"
         },
@@ -113954,7 +113954,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 08:00",
           "label": "23/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24118.20 (Earn: 3.5% a.a.)"
         },
@@ -113962,7 +113962,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 09:00",
           "label": "23/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24103.22 (Earn: 3.5% a.a.)"
         },
@@ -113970,7 +113970,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 09:00",
           "label": "23/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24102.75 (Earn: 3.5% a.a.)"
         },
@@ -113978,7 +113978,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 09:00",
           "label": "23/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24102.28 (Earn: 3.5% a.a.)"
         },
@@ -113986,7 +113986,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 09:00",
           "label": "23/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24076.54 (Earn: 3.5% a.a.)"
         },
@@ -113994,7 +113994,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 10:00",
           "label": "23/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24091.52 (Earn: 3.5% a.a.)"
         },
@@ -114002,7 +114002,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 10:00",
           "label": "23/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24093.39 (Earn: 3.5% a.a.)"
         },
@@ -114010,7 +114010,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 10:00",
           "label": "23/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24114.92 (Earn: 3.5% a.a.)"
         },
@@ -114018,7 +114018,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 10:00",
           "label": "23/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24114.92 (Earn: 3.5% a.a.)"
         },
@@ -114026,7 +114026,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 11:00",
           "label": "23/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24115.86 (Earn: 3.5% a.a.)"
         },
@@ -114034,7 +114034,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 11:00",
           "label": "23/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24115.86 (Earn: 3.5% a.a.)"
         },
@@ -114042,7 +114042,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 11:00",
           "label": "23/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24115.86 (Earn: 3.5% a.a.)"
         },
@@ -114050,7 +114050,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 11:00",
           "label": "23/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24113.98 (Earn: 3.5% a.a.)"
         },
@@ -114058,7 +114058,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 12:00",
           "label": "23/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24114.45 (Earn: 3.5% a.a.)"
         },
@@ -114066,7 +114066,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 12:00",
           "label": "23/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24113.98 (Earn: 3.5% a.a.)"
         },
@@ -114074,7 +114074,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 12:00",
           "label": "23/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24113.98 (Earn: 3.5% a.a.)"
         },
@@ -114082,7 +114082,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 12:00",
           "label": "23/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24113.98 (Earn: 3.5% a.a.)"
         },
@@ -114090,7 +114090,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 13:00",
           "label": "23/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24113.52 (Earn: 3.5% a.a.)"
         },
@@ -114098,7 +114098,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 13:00",
           "label": "23/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24113.98 (Earn: 3.5% a.a.)"
         },
@@ -114106,7 +114106,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 13:00",
           "label": "23/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24113.98 (Earn: 3.5% a.a.)"
         },
@@ -114114,7 +114114,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 13:00",
           "label": "23/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24113.98 (Earn: 3.5% a.a.)"
         },
@@ -114122,7 +114122,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 14:00",
           "label": "23/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24113.52 (Earn: 3.5% a.a.)"
         },
@@ -114130,7 +114130,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 14:00",
           "label": "23/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24113.52 (Earn: 3.5% a.a.)"
         },
@@ -114138,7 +114138,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 14:00",
           "label": "23/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24113.52 (Earn: 3.5% a.a.)"
         },
@@ -114146,7 +114146,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 14:00",
           "label": "23/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24113.05 (Earn: 3.5% a.a.)"
         },
@@ -114154,7 +114154,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 15:00",
           "label": "23/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24125.22 (Earn: 3.5% a.a.)"
         },
@@ -114162,7 +114162,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 15:00",
           "label": "23/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24125.22 (Earn: 3.5% a.a.)"
         },
@@ -114170,7 +114170,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 15:00",
           "label": "23/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24125.69 (Earn: 3.5% a.a.)"
         },
@@ -114178,7 +114178,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 15:00",
           "label": "23/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24130.83 (Earn: 3.5% a.a.)"
         },
@@ -114186,7 +114186,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 16:00",
           "label": "23/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24135.98 (Earn: 3.5% a.a.)"
         },
@@ -114194,7 +114194,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 16:00",
           "label": "23/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24138.32 (Earn: 3.5% a.a.)"
         },
@@ -114202,7 +114202,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 16:00",
           "label": "23/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24142.54 (Earn: 3.5% a.a.)"
         },
@@ -114210,7 +114210,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 16:00",
           "label": "23/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24144.41 (Earn: 3.5% a.a.)"
         },
@@ -114218,7 +114218,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 17:00",
           "label": "23/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24150.02 (Earn: 3.5% a.a.)"
         },
@@ -114226,7 +114226,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 17:00",
           "label": "23/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24150.02 (Earn: 3.5% a.a.)"
         },
@@ -114234,7 +114234,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 17:00",
           "label": "23/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24151.43 (Earn: 3.5% a.a.)"
         },
@@ -114242,7 +114242,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 17:00",
           "label": "23/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24151.43 (Earn: 3.5% a.a.)"
         },
@@ -114250,7 +114250,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 18:00",
           "label": "23/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24151.43 (Earn: 3.5% a.a.)"
         },
@@ -114258,7 +114258,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 18:00",
           "label": "23/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -114266,7 +114266,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 18:00",
           "label": "23/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -114274,7 +114274,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 18:00",
           "label": "23/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -114282,7 +114282,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 19:00",
           "label": "23/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.51 (Earn: 3.5% a.a.)"
         },
@@ -114290,7 +114290,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 19:00",
           "label": "23/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.51 (Earn: 3.5% a.a.)"
         },
@@ -114298,7 +114298,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 19:00",
           "label": "23/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.98 (Earn: 3.5% a.a.)"
         },
@@ -114306,7 +114306,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 19:00",
           "label": "23/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.98 (Earn: 3.5% a.a.)"
         },
@@ -114314,7 +114314,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 20:00",
           "label": "23/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.51 (Earn: 3.5% a.a.)"
         },
@@ -114322,7 +114322,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 20:00",
           "label": "23/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.98 (Earn: 3.5% a.a.)"
         },
@@ -114330,7 +114330,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 20:00",
           "label": "23/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.51 (Earn: 3.5% a.a.)"
         },
@@ -114338,7 +114338,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 20:00",
           "label": "23/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.98 (Earn: 3.5% a.a.)"
         },
@@ -114346,7 +114346,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 21:00",
           "label": "23/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.51 (Earn: 3.5% a.a.)"
         },
@@ -114354,7 +114354,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 21:00",
           "label": "23/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.51 (Earn: 3.5% a.a.)"
         },
@@ -114362,7 +114362,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 21:00",
           "label": "23/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.51 (Earn: 3.5% a.a.)"
         },
@@ -114370,7 +114370,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 21:00",
           "label": "23/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.51 (Earn: 3.5% a.a.)"
         },
@@ -114378,7 +114378,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 22:00",
           "label": "23/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.22 (Earn: 3.5% a.a.)"
         },
@@ -114386,7 +114386,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 22:00",
           "label": "23/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24144.41 (Earn: 3.5% a.a.)"
         },
@@ -114394,7 +114394,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 22:00",
           "label": "23/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24144.41 (Earn: 3.5% a.a.)"
         },
@@ -114402,7 +114402,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 22:00",
           "label": "23/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24138.32 (Earn: 3.5% a.a.)"
         },
@@ -114410,7 +114410,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 23:00",
           "label": "23/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24138.32 (Earn: 3.5% a.a.)"
         },
@@ -114418,7 +114418,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 23:00",
           "label": "23/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24137.39 (Earn: 3.5% a.a.)"
         },
@@ -114426,7 +114426,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 23:00",
           "label": "23/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24137.85 (Earn: 3.5% a.a.)"
         },
@@ -114434,7 +114434,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 23:00",
           "label": "23/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24137.39 (Earn: 3.5% a.a.)"
         },
@@ -114442,7 +114442,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 00:00",
           "label": "24/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24127.09 (Earn: 3.5% a.a.)"
         },
@@ -114450,7 +114450,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 00:00",
           "label": "24/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24134.58 (Earn: 3.5% a.a.)"
         },
@@ -114458,7 +114458,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 00:00",
           "label": "24/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24135.51 (Earn: 3.5% a.a.)"
         },
@@ -114466,7 +114466,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 00:00",
           "label": "24/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24135.51 (Earn: 3.5% a.a.)"
         },
@@ -114474,7 +114474,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 01:00",
           "label": "24/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24135.51 (Earn: 3.5% a.a.)"
         },
@@ -114482,7 +114482,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 01:00",
           "label": "24/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24140.20 (Earn: 3.5% a.a.)"
         },
@@ -114490,7 +114490,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 01:00",
           "label": "24/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24140.20 (Earn: 3.5% a.a.)"
         },
@@ -114498,7 +114498,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 01:00",
           "label": "24/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24140.20 (Earn: 3.5% a.a.)"
         },
@@ -114506,7 +114506,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 02:00",
           "label": "24/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24140.20 (Earn: 3.5% a.a.)"
         },
@@ -114514,7 +114514,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 02:00",
           "label": "24/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24139.73 (Earn: 3.5% a.a.)"
         },
@@ -114522,7 +114522,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 02:00",
           "label": "24/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24137.39 (Earn: 3.5% a.a.)"
         },
@@ -114530,7 +114530,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 02:00",
           "label": "24/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24136.92 (Earn: 3.5% a.a.)"
         },
@@ -114538,7 +114538,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 03:00",
           "label": "24/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24136.92 (Earn: 3.5% a.a.)"
         },
@@ -114546,7 +114546,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 03:00",
           "label": "24/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24137.39 (Earn: 3.5% a.a.)"
         },
@@ -114554,7 +114554,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 03:00",
           "label": "24/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24136.92 (Earn: 3.5% a.a.)"
         },
@@ -114562,7 +114562,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 03:00",
           "label": "24/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24136.92 (Earn: 3.5% a.a.)"
         },
@@ -114570,7 +114570,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 04:00",
           "label": "24/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24137.39 (Earn: 3.5% a.a.)"
         },
@@ -114578,7 +114578,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 04:00",
           "label": "24/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24136.92 (Earn: 3.5% a.a.)"
         },
@@ -114586,7 +114586,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 04:00",
           "label": "24/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.24 (Earn: 3.5% a.a.)"
         },
@@ -114594,7 +114594,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 04:00",
           "label": "24/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.71 (Earn: 3.5% a.a.)"
         },
@@ -114602,7 +114602,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 05:00",
           "label": "24/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24131.77 (Earn: 3.5% a.a.)"
         },
@@ -114610,7 +114610,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 05:00",
           "label": "24/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24131.77 (Earn: 3.5% a.a.)"
         },
@@ -114618,7 +114618,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 05:00",
           "label": "24/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.24 (Earn: 3.5% a.a.)"
         },
@@ -114626,7 +114626,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 05:00",
           "label": "24/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.24 (Earn: 3.5% a.a.)"
         },
@@ -114634,7 +114634,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 06:00",
           "label": "24/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24140.20 (Earn: 3.5% a.a.)"
         },
@@ -114642,7 +114642,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 06:00",
           "label": "24/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24139.73 (Earn: 3.5% a.a.)"
         },
@@ -114650,7 +114650,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 06:00",
           "label": "24/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24139.73 (Earn: 3.5% a.a.)"
         },
@@ -114658,7 +114658,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 06:00",
           "label": "24/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24139.73 (Earn: 3.5% a.a.)"
         },
@@ -114666,7 +114666,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 07:00",
           "label": "24/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24139.73 (Earn: 3.5% a.a.)"
         },
@@ -114674,7 +114674,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 07:00",
           "label": "24/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24137.39 (Earn: 3.5% a.a.)"
         },
@@ -114682,7 +114682,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 07:00",
           "label": "24/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24129.43 (Earn: 3.5% a.a.)"
         },
@@ -114690,7 +114690,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 07:00",
           "label": "24/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24129.43 (Earn: 3.5% a.a.)"
         },
@@ -114698,7 +114698,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 08:00",
           "label": "24/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.47 (Earn: 3.5% a.a.)"
         },
@@ -114706,7 +114706,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 08:00",
           "label": "24/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.47 (Earn: 3.5% a.a.)"
         },
@@ -114714,7 +114714,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 08:00",
           "label": "24/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.47 (Earn: 3.5% a.a.)"
         },
@@ -114722,7 +114722,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 08:00",
           "label": "24/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24133.64 (Earn: 3.5% a.a.)"
         },
@@ -114730,7 +114730,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 09:00",
           "label": "24/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24178.58 (Earn: 3.5% a.a.)"
         },
@@ -114738,7 +114738,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 09:00",
           "label": "24/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24160.32 (Earn: 3.5% a.a.)"
         },
@@ -114746,7 +114746,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 09:00",
           "label": "24/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24155.64 (Earn: 3.5% a.a.)"
         },
@@ -114754,7 +114754,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 09:00",
           "label": "24/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -114762,7 +114762,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 10:00",
           "label": "24/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24201.04 (Earn: 3.5% a.a.)"
         },
@@ -114770,7 +114770,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 10:00",
           "label": "24/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24214.15 (Earn: 3.5% a.a.)"
         },
@@ -114778,7 +114778,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 10:00",
           "label": "24/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24210.87 (Earn: 3.5% a.a.)"
         },
@@ -114786,7 +114786,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 10:00",
           "label": "24/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24174.36 (Earn: 3.5% a.a.)"
         },
@@ -114794,7 +114794,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 11:00",
           "label": "24/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24187.00 (Earn: 3.5% a.a.)"
         },
@@ -114802,7 +114802,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 11:00",
           "label": "24/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24179.04 (Earn: 3.5% a.a.)"
         },
@@ -114810,7 +114810,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 11:00",
           "label": "24/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24159.39 (Earn: 3.5% a.a.)"
         },
@@ -114818,7 +114818,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 11:00",
           "label": "24/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24174.36 (Earn: 3.5% a.a.)"
         },
@@ -114826,7 +114826,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 12:00",
           "label": "24/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.47 (Earn: 3.5% a.a.)"
         },
@@ -114834,7 +114834,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 12:00",
           "label": "24/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24164.53 (Earn: 3.5% a.a.)"
         },
@@ -114842,7 +114842,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 12:00",
           "label": "24/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.05 (Earn: 3.5% a.a.)"
         },
@@ -114850,7 +114850,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 12:00",
           "label": "24/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24164.07 (Earn: 3.5% a.a.)"
         },
@@ -114858,7 +114858,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 13:00",
           "label": "24/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -114866,7 +114866,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 13:00",
           "label": "24/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.22 (Earn: 3.5% a.a.)"
         },
@@ -114874,7 +114874,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 13:00",
           "label": "24/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24142.07 (Earn: 3.5% a.a.)"
         },
@@ -114882,7 +114882,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 13:00",
           "label": "24/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24146.28 (Earn: 3.5% a.a.)"
         },
@@ -114890,7 +114890,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 14:00",
           "label": "24/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24127.56 (Earn: 3.5% a.a.)"
         },
@@ -114898,7 +114898,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 14:00",
           "label": "24/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24150.49 (Earn: 3.5% a.a.)"
         },
@@ -114906,7 +114906,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 14:00",
           "label": "24/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -114914,7 +114914,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 14:00",
           "label": "24/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.64 (Earn: 3.5% a.a.)"
         },
@@ -114922,7 +114922,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 15:00",
           "label": "24/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.64 (Earn: 3.5% a.a.)"
         },
@@ -114930,7 +114930,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 15:00",
           "label": "24/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -114938,7 +114938,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 15:00",
           "label": "24/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.30 (Earn: 3.5% a.a.)"
         },
@@ -114946,7 +114946,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 15:00",
           "label": "24/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.79 (Earn: 3.5% a.a.)"
         },
@@ -114954,7 +114954,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 16:00",
           "label": "24/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24184.19 (Earn: 3.5% a.a.)"
         },
@@ -114962,7 +114962,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 16:00",
           "label": "24/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24180.45 (Earn: 3.5% a.a.)"
         },
@@ -114970,7 +114970,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 16:00",
           "label": "24/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.77 (Earn: 3.5% a.a.)"
         },
@@ -114978,7 +114978,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 16:00",
           "label": "24/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.30 (Earn: 3.5% a.a.)"
         },
@@ -114986,7 +114986,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 17:00",
           "label": "24/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24180.92 (Earn: 3.5% a.a.)"
         },
@@ -114994,7 +114994,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 17:00",
           "label": "24/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24179.51 (Earn: 3.5% a.a.)"
         },
@@ -115002,7 +115002,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 17:00",
           "label": "24/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24179.04 (Earn: 3.5% a.a.)"
         },
@@ -115010,7 +115010,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 17:00",
           "label": "24/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24179.51 (Earn: 3.5% a.a.)"
         },
@@ -115018,7 +115018,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 18:00",
           "label": "24/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24180.92 (Earn: 3.5% a.a.)"
         },
@@ -115026,7 +115026,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 18:00",
           "label": "24/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24214.15 (Earn: 3.5% a.a.)"
         },
@@ -115034,7 +115034,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 18:00",
           "label": "24/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24216.96 (Earn: 3.5% a.a.)"
         },
@@ -115042,7 +115042,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 18:00",
           "label": "24/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24217.42 (Earn: 3.5% a.a.)"
         },
@@ -115050,7 +115050,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 19:00",
           "label": "24/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24224.91 (Earn: 3.5% a.a.)"
         },
@@ -115058,7 +115058,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 19:00",
           "label": "24/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24224.91 (Earn: 3.5% a.a.)"
         },
@@ -115066,7 +115066,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 19:00",
           "label": "24/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24224.45 (Earn: 3.5% a.a.)"
         },
@@ -115074,7 +115074,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 19:00",
           "label": "24/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24220.23 (Earn: 3.5% a.a.)"
         },
@@ -115082,7 +115082,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 20:00",
           "label": "24/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24220.23 (Earn: 3.5% a.a.)"
         },
@@ -115090,7 +115090,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 20:00",
           "label": "24/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24220.23 (Earn: 3.5% a.a.)"
         },
@@ -115098,7 +115098,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 20:00",
           "label": "24/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24217.89 (Earn: 3.5% a.a.)"
         },
@@ -115106,7 +115106,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 20:00",
           "label": "24/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24210.87 (Earn: 3.5% a.a.)"
         },
@@ -115114,7 +115114,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 21:00",
           "label": "24/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24201.04 (Earn: 3.5% a.a.)"
         },
@@ -115122,7 +115122,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 21:00",
           "label": "24/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24199.17 (Earn: 3.5% a.a.)"
         },
@@ -115130,7 +115130,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 21:00",
           "label": "24/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24195.89 (Earn: 3.5% a.a.)"
         },
@@ -115138,7 +115138,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 21:00",
           "label": "24/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -115146,7 +115146,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 22:00",
           "label": "24/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -115154,7 +115154,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 22:00",
           "label": "24/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -115162,7 +115162,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 22:00",
           "label": "24/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -115170,7 +115170,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 22:00",
           "label": "24/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24189.81 (Earn: 3.5% a.a.)"
         },
@@ -115178,7 +115178,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 23:00",
           "label": "24/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -115186,7 +115186,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 23:00",
           "label": "24/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -115194,7 +115194,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 23:00",
           "label": "24/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -115202,7 +115202,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 23:00",
           "label": "24/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -115210,7 +115210,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 00:00",
           "label": "25/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -115218,7 +115218,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 00:00",
           "label": "25/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -115226,7 +115226,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 00:00",
           "label": "25/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.64 (Earn: 3.5% a.a.)"
         },
@@ -115234,7 +115234,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 00:00",
           "label": "25/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.70 (Earn: 3.5% a.a.)"
         },
@@ -115242,7 +115242,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 01:00",
           "label": "25/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -115250,7 +115250,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 01:00",
           "label": "25/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -115258,7 +115258,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 01:00",
           "label": "25/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -115266,7 +115266,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 01:00",
           "label": "25/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -115274,7 +115274,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 02:00",
           "label": "25/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -115282,7 +115282,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 02:00",
           "label": "25/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -115290,7 +115290,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 02:00",
           "label": "25/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -115298,7 +115298,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 02:00",
           "label": "25/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -115306,7 +115306,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 03:00",
           "label": "25/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -115314,7 +115314,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 03:00",
           "label": "25/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -115322,7 +115322,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 03:00",
           "label": "25/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -115330,7 +115330,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 03:00",
           "label": "25/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -115338,7 +115338,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 04:00",
           "label": "25/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.09 (Earn: 3.5% a.a.)"
         },
@@ -115346,7 +115346,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 04:00",
           "label": "25/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -115354,7 +115354,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 04:00",
           "label": "25/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -115362,15 +115362,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 04:00",
           "label": "25/08 04:00",
           "score": 100,
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
-        },
-        {
-          "time": "25/08 05:00",
-          "label": "25/08 05:00",
-          "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
         },
@@ -115378,7 +115370,15 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 05:00",
           "label": "25/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
+          "score_b": 100,
+          "metric": "PAXG: R$ 24192.15 (Earn: 3.5% a.a.)"
+        },
+        {
+          "time": "25/08 05:00",
+          "label": "25/08 05:00",
+          "score": 100,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24179.98 (Earn: 3.5% a.a.)"
         },
@@ -115386,7 +115386,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 05:00",
           "label": "25/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.30 (Earn: 3.5% a.a.)"
         },
@@ -115394,7 +115394,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 05:00",
           "label": "25/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24175.30 (Earn: 3.5% a.a.)"
         },
@@ -115402,7 +115402,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 06:00",
           "label": "25/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -115410,7 +115410,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 06:00",
           "label": "25/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -115418,7 +115418,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 06:00",
           "label": "25/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.94 (Earn: 3.5% a.a.)"
         },
@@ -115426,7 +115426,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 06:00",
           "label": "25/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24155.64 (Earn: 3.5% a.a.)"
         },
@@ -115434,7 +115434,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 07:00",
           "label": "25/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -115442,7 +115442,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 07:00",
           "label": "25/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -115450,7 +115450,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 07:00",
           "label": "25/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -115458,7 +115458,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 07:00",
           "label": "25/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -115466,7 +115466,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 08:00",
           "label": "25/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -115474,7 +115474,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 08:00",
           "label": "25/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -115482,7 +115482,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 08:00",
           "label": "25/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24166.87 (Earn: 3.5% a.a.)"
         },
@@ -115490,7 +115490,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 08:00",
           "label": "25/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -115498,7 +115498,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 09:00",
           "label": "25/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24213.21 (Earn: 3.5% a.a.)"
         },
@@ -115506,7 +115506,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 09:00",
           "label": "25/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24217.42 (Earn: 3.5% a.a.)"
         },
@@ -115514,7 +115514,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 09:00",
           "label": "25/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24237.08 (Earn: 3.5% a.a.)"
         },
@@ -115522,7 +115522,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 09:00",
           "label": "25/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24201.04 (Earn: 3.5% a.a.)"
         },
@@ -115530,7 +115530,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 10:00",
           "label": "25/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -115538,7 +115538,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 10:00",
           "label": "25/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.68 (Earn: 3.5% a.a.)"
         },
@@ -115546,7 +115546,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 10:00",
           "label": "25/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24149.09 (Earn: 3.5% a.a.)"
         },
@@ -115554,7 +115554,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 10:00",
           "label": "25/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -115562,7 +115562,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 11:00",
           "label": "25/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -115570,7 +115570,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 11:00",
           "label": "25/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -115578,7 +115578,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 11:00",
           "label": "25/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -115586,7 +115586,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 11:00",
           "label": "25/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -115594,7 +115594,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 12:00",
           "label": "25/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.73 (Earn: 3.5% a.a.)"
         },
@@ -115602,7 +115602,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 12:00",
           "label": "25/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -115610,7 +115610,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 12:00",
           "label": "25/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.00 (Earn: 3.5% a.a.)"
         },
@@ -115618,7 +115618,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 12:00",
           "label": "25/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -115626,7 +115626,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 13:00",
           "label": "25/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24159.85 (Earn: 3.5% a.a.)"
         },
@@ -115634,7 +115634,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 13:00",
           "label": "25/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.92 (Earn: 3.5% a.a.)"
         },
@@ -115642,7 +115642,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 13:00",
           "label": "25/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24161.26 (Earn: 3.5% a.a.)"
         },
@@ -115650,7 +115650,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 13:00",
           "label": "25/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -115658,7 +115658,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 14:00",
           "label": "25/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24165.47 (Earn: 3.5% a.a.)"
         },
@@ -115666,7 +115666,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 14:00",
           "label": "25/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -115674,7 +115674,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 14:00",
           "label": "25/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.24 (Earn: 3.5% a.a.)"
         },
@@ -115682,7 +115682,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 14:00",
           "label": "25/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.21 (Earn: 3.5% a.a.)"
         },
@@ -115690,7 +115690,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 15:00",
           "label": "25/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -115698,7 +115698,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 15:00",
           "label": "25/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -115706,7 +115706,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 15:00",
           "label": "25/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -115714,7 +115714,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 15:00",
           "label": "25/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24150.02 (Earn: 3.5% a.a.)"
         },
@@ -115722,7 +115722,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 16:00",
           "label": "25/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.24 (Earn: 3.5% a.a.)"
         },
@@ -115730,7 +115730,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 16:00",
           "label": "25/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -115738,7 +115738,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 16:00",
           "label": "25/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.19 (Earn: 3.5% a.a.)"
         },
@@ -115746,7 +115746,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 16:00",
           "label": "25/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24138.79 (Earn: 3.5% a.a.)"
         },
@@ -115754,7 +115754,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 17:00",
           "label": "25/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24129.43 (Earn: 3.5% a.a.)"
         },
@@ -115762,7 +115762,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 17:00",
           "label": "25/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24131.77 (Earn: 3.5% a.a.)"
         },
@@ -115770,7 +115770,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 17:00",
           "label": "25/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.22 (Earn: 3.5% a.a.)"
         },
@@ -115778,7 +115778,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 17:00",
           "label": "25/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -115786,7 +115786,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 18:00",
           "label": "25/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.19 (Earn: 3.5% a.a.)"
         },
@@ -115794,7 +115794,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 18:00",
           "label": "25/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -115802,7 +115802,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 18:00",
           "label": "25/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -115810,7 +115810,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 18:00",
           "label": "25/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -115818,7 +115818,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 19:00",
           "label": "25/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -115826,7 +115826,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 19:00",
           "label": "25/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -115834,7 +115834,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 19:00",
           "label": "25/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -115842,7 +115842,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 19:00",
           "label": "25/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -115850,7 +115850,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 20:00",
           "label": "25/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -115858,7 +115858,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 20:00",
           "label": "25/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -115866,7 +115866,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 20:00",
           "label": "25/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -115874,7 +115874,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 20:00",
           "label": "25/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.13 (Earn: 3.5% a.a.)"
         },
@@ -115882,7 +115882,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 21:00",
           "label": "25/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24169.68 (Earn: 3.5% a.a.)"
         }
@@ -115892,7 +115892,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18/08 21:00",
           "label": "18/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24475.33 (Earn: 3.5% a.a.)"
         },
@@ -115900,7 +115900,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18/08 22:00",
           "label": "18/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24520.73 (Earn: 3.5% a.a.)"
         },
@@ -115908,7 +115908,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "18/08 23:00",
           "label": "18/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24520.73 (Earn: 3.5% a.a.)"
         },
@@ -115916,7 +115916,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 00:00",
           "label": "19/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24537.11 (Earn: 3.5% a.a.)"
         },
@@ -115924,7 +115924,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 01:00",
           "label": "19/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23527.60 (Earn: 3.5% a.a.)"
         },
@@ -115932,7 +115932,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 02:00",
           "label": "19/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23524.01 (Earn: 3.5% a.a.)"
         },
@@ -115940,7 +115940,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 03:00",
           "label": "19/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23524.01 (Earn: 3.5% a.a.)"
         },
@@ -115948,7 +115948,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 04:00",
           "label": "19/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23522.66 (Earn: 3.5% a.a.)"
         },
@@ -115956,7 +115956,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 05:00",
           "label": "19/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24511.83 (Earn: 3.5% a.a.)"
         },
@@ -115964,7 +115964,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 06:00",
           "label": "19/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24506.69 (Earn: 3.5% a.a.)"
         },
@@ -115972,7 +115972,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 07:00",
           "label": "19/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24501.54 (Earn: 3.5% a.a.)"
         },
@@ -115980,7 +115980,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 08:00",
           "label": "19/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24500.60 (Earn: 3.5% a.a.)"
         },
@@ -115988,7 +115988,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 09:00",
           "label": "19/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23499.31 (Earn: 3.5% a.a.)"
         },
@@ -115996,7 +115996,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 10:00",
           "label": "19/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24498.73 (Earn: 3.5% a.a.)"
         },
@@ -116004,7 +116004,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 11:00",
           "label": "19/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24480.94 (Earn: 3.5% a.a.)"
         },
@@ -116012,7 +116012,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 12:00",
           "label": "19/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24406.52 (Earn: 3.5% a.a.)"
         },
@@ -116020,7 +116020,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 13:00",
           "label": "19/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24247.85 (Earn: 3.5% a.a.)"
         },
@@ -116028,7 +116028,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 14:00",
           "label": "19/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24277.80 (Earn: 3.5% a.a.)"
         },
@@ -116036,7 +116036,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 15:00",
           "label": "19/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24301.68 (Earn: 3.5% a.a.)"
         },
@@ -116044,7 +116044,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 16:00",
           "label": "19/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24265.64 (Earn: 3.5% a.a.)"
         },
@@ -116052,7 +116052,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 17:00",
           "label": "19/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24276.40 (Earn: 3.5% a.a.)"
         },
@@ -116060,7 +116060,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 18:00",
           "label": "19/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24266.57 (Earn: 3.5% a.a.)"
         },
@@ -116068,7 +116068,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 19:00",
           "label": "19/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24269.85 (Earn: 3.5% a.a.)"
         },
@@ -116076,7 +116076,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 20:00",
           "label": "19/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24290.44 (Earn: 3.5% a.a.)"
         },
@@ -116084,7 +116084,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 21:00",
           "label": "19/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24316.65 (Earn: 3.5% a.a.)"
         },
@@ -116092,7 +116092,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 22:00",
           "label": "19/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24302.61 (Earn: 3.5% a.a.)"
         },
@@ -116100,7 +116100,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "19/08 23:00",
           "label": "19/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24296.53 (Earn: 3.5% a.a.)"
         },
@@ -116108,7 +116108,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 00:00",
           "label": "20/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24249.72 (Earn: 3.5% a.a.)"
         },
@@ -116116,7 +116116,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 01:00",
           "label": "20/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23399.40 (Earn: 3.5% a.a.)"
         },
@@ -116124,7 +116124,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 02:00",
           "label": "20/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23429.66 (Earn: 3.5% a.a.)"
         },
@@ -116132,7 +116132,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 03:00",
           "label": "20/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23449.08 (Earn: 3.5% a.a.)"
         },
@@ -116140,7 +116140,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 04:00",
           "label": "20/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23452.69 (Earn: 3.5% a.a.)"
         },
@@ -116148,7 +116148,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 05:00",
           "label": "20/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24302.14 (Earn: 3.5% a.a.)"
         },
@@ -116156,7 +116156,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 06:00",
           "label": "20/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24307.29 (Earn: 3.5% a.a.)"
         },
@@ -116164,7 +116164,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 07:00",
           "label": "20/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24306.82 (Earn: 3.5% a.a.)"
         },
@@ -116172,7 +116172,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 08:00",
           "label": "20/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24272.19 (Earn: 3.5% a.a.)"
         },
@@ -116180,7 +116180,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 09:00",
           "label": "20/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 23424.69 (Earn: 3.5% a.a.)"
         },
@@ -116188,7 +116188,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 10:00",
           "label": "20/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24276.40 (Earn: 3.5% a.a.)"
         },
@@ -116196,7 +116196,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 11:00",
           "label": "20/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24284.83 (Earn: 3.5% a.a.)"
         },
@@ -116204,7 +116204,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 12:00",
           "label": "20/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24348.01 (Earn: 3.5% a.a.)"
         },
@@ -116212,7 +116212,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 13:00",
           "label": "20/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24372.82 (Earn: 3.5% a.a.)"
         },
@@ -116220,7 +116220,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 14:00",
           "label": "20/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24398.10 (Earn: 3.5% a.a.)"
         },
@@ -116228,7 +116228,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 15:00",
           "label": "20/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24334.44 (Earn: 3.5% a.a.)"
         },
@@ -116236,7 +116236,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 16:00",
           "label": "20/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24337.25 (Earn: 3.5% a.a.)"
         },
@@ -116244,7 +116244,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 17:00",
           "label": "20/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24360.65 (Earn: 3.5% a.a.)"
         },
@@ -116252,7 +116252,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 18:00",
           "label": "20/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24364.86 (Earn: 3.5% a.a.)"
         },
@@ -116260,7 +116260,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 19:00",
           "label": "20/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24374.23 (Earn: 3.5% a.a.)"
         },
@@ -116268,7 +116268,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 20:00",
           "label": "20/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24377.97 (Earn: 3.5% a.a.)"
         },
@@ -116276,7 +116276,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 21:00",
           "label": "20/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24385.46 (Earn: 3.5% a.a.)"
         },
@@ -116284,7 +116284,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 22:00",
           "label": "20/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24385.46 (Earn: 3.5% a.a.)"
         },
@@ -116292,7 +116292,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "20/08 23:00",
           "label": "20/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24387.80 (Earn: 3.5% a.a.)"
         },
@@ -116300,7 +116300,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 00:00",
           "label": "21/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24399.50 (Earn: 3.5% a.a.)"
         },
@@ -116308,7 +116308,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 01:00",
           "label": "21/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24385.46 (Earn: 3.5% a.a.)"
         },
@@ -116316,7 +116316,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 02:00",
           "label": "21/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24386.86 (Earn: 3.5% a.a.)"
         },
@@ -116324,7 +116324,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 03:00",
           "label": "21/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24384.99 (Earn: 3.5% a.a.)"
         },
@@ -116332,7 +116332,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 04:00",
           "label": "21/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24381.25 (Earn: 3.5% a.a.)"
         },
@@ -116340,7 +116340,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 05:00",
           "label": "21/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24355.50 (Earn: 3.5% a.a.)"
         },
@@ -116348,7 +116348,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 06:00",
           "label": "21/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24354.10 (Earn: 3.5% a.a.)"
         },
@@ -116356,7 +116356,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 07:00",
           "label": "21/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24348.95 (Earn: 3.5% a.a.)"
         },
@@ -116364,7 +116364,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 08:00",
           "label": "21/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24341.93 (Earn: 3.5% a.a.)"
         },
@@ -116372,7 +116372,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 09:00",
           "label": "21/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24320.87 (Earn: 3.5% a.a.)"
         },
@@ -116380,7 +116380,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 10:00",
           "label": "21/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24302.14 (Earn: 3.5% a.a.)"
         },
@@ -116388,7 +116388,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 11:00",
           "label": "21/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24308.70 (Earn: 3.5% a.a.)"
         },
@@ -116396,7 +116396,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 12:00",
           "label": "21/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24296.53 (Earn: 3.5% a.a.)"
         },
@@ -116404,7 +116404,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 13:00",
           "label": "21/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24327.89 (Earn: 3.5% a.a.)"
         },
@@ -116412,7 +116412,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 14:00",
           "label": "21/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24230.06 (Earn: 3.5% a.a.)"
         },
@@ -116420,7 +116420,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 15:00",
           "label": "21/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24229.59 (Earn: 3.5% a.a.)"
         },
@@ -116428,7 +116428,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 16:00",
           "label": "21/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.15 (Earn: 3.5% a.a.)"
         },
@@ -116436,7 +116436,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 17:00",
           "label": "21/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24160.79 (Earn: 3.5% a.a.)"
         },
@@ -116444,7 +116444,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 18:00",
           "label": "21/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24133.64 (Earn: 3.5% a.a.)"
         },
@@ -116452,7 +116452,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 19:00",
           "label": "21/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24119.60 (Earn: 3.5% a.a.)"
         },
@@ -116460,7 +116460,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 20:00",
           "label": "21/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24148.15 (Earn: 3.5% a.a.)"
         },
@@ -116468,7 +116468,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 21:00",
           "label": "21/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24159.85 (Earn: 3.5% a.a.)"
         },
@@ -116476,7 +116476,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 22:00",
           "label": "21/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24199.64 (Earn: 3.5% a.a.)"
         },
@@ -116484,7 +116484,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "21/08 23:00",
           "label": "21/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24197.30 (Earn: 3.5% a.a.)"
         },
@@ -116492,7 +116492,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 00:00",
           "label": "22/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.79 (Earn: 3.5% a.a.)"
         },
@@ -116500,7 +116500,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 01:00",
           "label": "22/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24187.47 (Earn: 3.5% a.a.)"
         },
@@ -116508,7 +116508,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 02:00",
           "label": "22/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.79 (Earn: 3.5% a.a.)"
         },
@@ -116516,7 +116516,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 03:00",
           "label": "22/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24188.41 (Earn: 3.5% a.a.)"
         },
@@ -116524,7 +116524,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 04:00",
           "label": "22/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -116532,7 +116532,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 05:00",
           "label": "22/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24183.72 (Earn: 3.5% a.a.)"
         },
@@ -116540,7 +116540,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 06:00",
           "label": "22/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24186.06 (Earn: 3.5% a.a.)"
         },
@@ -116548,7 +116548,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 07:00",
           "label": "22/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24188.87 (Earn: 3.5% a.a.)"
         },
@@ -116556,7 +116556,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 08:00",
           "label": "22/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24179.51 (Earn: 3.5% a.a.)"
         },
@@ -116564,7 +116564,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 09:00",
           "label": "22/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24176.24 (Earn: 3.5% a.a.)"
         },
@@ -116572,7 +116572,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 10:00",
           "label": "22/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.32 (Earn: 3.5% a.a.)"
         },
@@ -116580,7 +116580,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 11:00",
           "label": "22/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24182.79 (Earn: 3.5% a.a.)"
         },
@@ -116588,7 +116588,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 12:00",
           "label": "22/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24178.11 (Earn: 3.5% a.a.)"
         },
@@ -116596,7 +116596,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 13:00",
           "label": "22/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24178.11 (Earn: 3.5% a.a.)"
         },
@@ -116604,7 +116604,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 14:00",
           "label": "22/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24164.53 (Earn: 3.5% a.a.)"
         },
@@ -116612,7 +116612,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 15:00",
           "label": "22/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -116620,7 +116620,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 16:00",
           "label": "22/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.94 (Earn: 3.5% a.a.)"
         },
@@ -116628,7 +116628,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 17:00",
           "label": "22/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24164.07 (Earn: 3.5% a.a.)"
         },
@@ -116636,7 +116636,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 18:00",
           "label": "22/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24163.60 (Earn: 3.5% a.a.)"
         },
@@ -116644,7 +116644,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 19:00",
           "label": "22/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24155.64 (Earn: 3.5% a.a.)"
         },
@@ -116652,7 +116652,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 20:00",
           "label": "22/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.47 (Earn: 3.5% a.a.)"
         },
@@ -116660,7 +116660,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 21:00",
           "label": "22/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.47 (Earn: 3.5% a.a.)"
         },
@@ -116668,7 +116668,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 22:00",
           "label": "22/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.47 (Earn: 3.5% a.a.)"
         },
@@ -116676,7 +116676,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "22/08 23:00",
           "label": "22/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24144.41 (Earn: 3.5% a.a.)"
         },
@@ -116684,7 +116684,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 00:00",
           "label": "23/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24142.07 (Earn: 3.5% a.a.)"
         },
@@ -116692,7 +116692,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 01:00",
           "label": "23/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24142.54 (Earn: 3.5% a.a.)"
         },
@@ -116700,7 +116700,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 02:00",
           "label": "23/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24142.07 (Earn: 3.5% a.a.)"
         },
@@ -116708,7 +116708,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 03:00",
           "label": "23/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24141.60 (Earn: 3.5% a.a.)"
         },
@@ -116716,7 +116716,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 04:00",
           "label": "23/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24136.92 (Earn: 3.5% a.a.)"
         },
@@ -116724,7 +116724,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 05:00",
           "label": "23/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.71 (Earn: 3.5% a.a.)"
         },
@@ -116732,7 +116732,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 06:00",
           "label": "23/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24132.71 (Earn: 3.5% a.a.)"
         },
@@ -116740,7 +116740,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 07:00",
           "label": "23/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24121.47 (Earn: 3.5% a.a.)"
         },
@@ -116748,7 +116748,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 08:00",
           "label": "23/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24103.69 (Earn: 3.5% a.a.)"
         },
@@ -116756,7 +116756,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 09:00",
           "label": "23/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24102.75 (Earn: 3.5% a.a.)"
         },
@@ -116764,7 +116764,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 10:00",
           "label": "23/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24093.39 (Earn: 3.5% a.a.)"
         },
@@ -116772,7 +116772,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 11:00",
           "label": "23/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24115.86 (Earn: 3.5% a.a.)"
         },
@@ -116780,7 +116780,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 12:00",
           "label": "23/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24113.98 (Earn: 3.5% a.a.)"
         },
@@ -116788,7 +116788,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 13:00",
           "label": "23/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24113.98 (Earn: 3.5% a.a.)"
         },
@@ -116796,7 +116796,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 14:00",
           "label": "23/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24113.52 (Earn: 3.5% a.a.)"
         },
@@ -116804,7 +116804,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 15:00",
           "label": "23/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24125.22 (Earn: 3.5% a.a.)"
         },
@@ -116812,7 +116812,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 16:00",
           "label": "23/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24138.32 (Earn: 3.5% a.a.)"
         },
@@ -116820,7 +116820,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 17:00",
           "label": "23/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24150.02 (Earn: 3.5% a.a.)"
         },
@@ -116828,7 +116828,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 18:00",
           "label": "23/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -116836,7 +116836,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 19:00",
           "label": "23/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.51 (Earn: 3.5% a.a.)"
         },
@@ -116844,7 +116844,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 20:00",
           "label": "23/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.98 (Earn: 3.5% a.a.)"
         },
@@ -116852,7 +116852,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 21:00",
           "label": "23/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24157.51 (Earn: 3.5% a.a.)"
         },
@@ -116860,7 +116860,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 22:00",
           "label": "23/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24144.41 (Earn: 3.5% a.a.)"
         },
@@ -116868,7 +116868,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "23/08 23:00",
           "label": "23/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24137.39 (Earn: 3.5% a.a.)"
         },
@@ -116876,7 +116876,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 00:00",
           "label": "24/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24134.58 (Earn: 3.5% a.a.)"
         },
@@ -116884,7 +116884,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 01:00",
           "label": "24/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24140.20 (Earn: 3.5% a.a.)"
         },
@@ -116892,7 +116892,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 02:00",
           "label": "24/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24139.73 (Earn: 3.5% a.a.)"
         },
@@ -116900,7 +116900,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 03:00",
           "label": "24/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24137.39 (Earn: 3.5% a.a.)"
         },
@@ -116908,7 +116908,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 04:00",
           "label": "24/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24136.92 (Earn: 3.5% a.a.)"
         },
@@ -116916,7 +116916,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 05:00",
           "label": "24/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24131.77 (Earn: 3.5% a.a.)"
         },
@@ -116924,7 +116924,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 06:00",
           "label": "24/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24139.73 (Earn: 3.5% a.a.)"
         },
@@ -116932,7 +116932,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 07:00",
           "label": "24/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24137.39 (Earn: 3.5% a.a.)"
         },
@@ -116940,7 +116940,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 08:00",
           "label": "24/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24143.47 (Earn: 3.5% a.a.)"
         },
@@ -116948,7 +116948,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 09:00",
           "label": "24/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24160.32 (Earn: 3.5% a.a.)"
         },
@@ -116956,7 +116956,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 10:00",
           "label": "24/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24214.15 (Earn: 3.5% a.a.)"
         },
@@ -116964,7 +116964,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 11:00",
           "label": "24/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24179.04 (Earn: 3.5% a.a.)"
         },
@@ -116972,7 +116972,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 12:00",
           "label": "24/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24164.53 (Earn: 3.5% a.a.)"
         },
@@ -116980,7 +116980,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 13:00",
           "label": "24/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.22 (Earn: 3.5% a.a.)"
         },
@@ -116988,7 +116988,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 14:00",
           "label": "24/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24150.49 (Earn: 3.5% a.a.)"
         },
@@ -116996,7 +116996,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 15:00",
           "label": "24/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -117004,7 +117004,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 16:00",
           "label": "24/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24180.45 (Earn: 3.5% a.a.)"
         },
@@ -117012,7 +117012,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 17:00",
           "label": "24/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24179.51 (Earn: 3.5% a.a.)"
         },
@@ -117020,7 +117020,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 18:00",
           "label": "24/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24214.15 (Earn: 3.5% a.a.)"
         },
@@ -117028,7 +117028,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 19:00",
           "label": "24/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24224.91 (Earn: 3.5% a.a.)"
         },
@@ -117036,7 +117036,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 20:00",
           "label": "24/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24220.23 (Earn: 3.5% a.a.)"
         },
@@ -117044,7 +117044,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 21:00",
           "label": "24/08 21:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24199.17 (Earn: 3.5% a.a.)"
         },
@@ -117052,7 +117052,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 22:00",
           "label": "24/08 22:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24171.09 (Earn: 3.5% a.a.)"
         },
@@ -117060,7 +117060,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "24/08 23:00",
           "label": "24/08 23:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -117068,7 +117068,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 00:00",
           "label": "25/08 00:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -117076,7 +117076,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 01:00",
           "label": "25/08 01:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24177.17 (Earn: 3.5% a.a.)"
         },
@@ -117084,7 +117084,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 02:00",
           "label": "25/08 02:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24191.68 (Earn: 3.5% a.a.)"
         },
@@ -117092,7 +117092,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 03:00",
           "label": "25/08 03:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -117100,7 +117100,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 04:00",
           "label": "25/08 04:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24193.55 (Earn: 3.5% a.a.)"
         },
@@ -117108,7 +117108,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 05:00",
           "label": "25/08 05:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24179.98 (Earn: 3.5% a.a.)"
         },
@@ -117116,7 +117116,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 06:00",
           "label": "25/08 06:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.90 (Earn: 3.5% a.a.)"
         },
@@ -117124,7 +117124,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 07:00",
           "label": "25/08 07:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         },
@@ -117132,7 +117132,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 08:00",
           "label": "25/08 08:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24167.34 (Earn: 3.5% a.a.)"
         },
@@ -117140,7 +117140,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 09:00",
           "label": "25/08 09:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24217.42 (Earn: 3.5% a.a.)"
         },
@@ -117148,7 +117148,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 10:00",
           "label": "25/08 10:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24147.68 (Earn: 3.5% a.a.)"
         },
@@ -117156,7 +117156,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 11:00",
           "label": "25/08 11:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -117164,7 +117164,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 12:00",
           "label": "25/08 12:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.45 (Earn: 3.5% a.a.)"
         },
@@ -117172,7 +117172,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 13:00",
           "label": "25/08 13:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24158.92 (Earn: 3.5% a.a.)"
         },
@@ -117180,7 +117180,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 14:00",
           "label": "25/08 14:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24173.43 (Earn: 3.5% a.a.)"
         },
@@ -117188,7 +117188,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 15:00",
           "label": "25/08 15:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.28 (Earn: 3.5% a.a.)"
         },
@@ -117196,7 +117196,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 16:00",
           "label": "25/08 16:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24154.70 (Earn: 3.5% a.a.)"
         },
@@ -117204,7 +117204,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 17:00",
           "label": "25/08 17:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24131.77 (Earn: 3.5% a.a.)"
         },
@@ -117212,7 +117212,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 18:00",
           "label": "25/08 18:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24162.66 (Earn: 3.5% a.a.)"
         },
@@ -117220,7 +117220,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 19:00",
           "label": "25/08 19:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24170.62 (Earn: 3.5% a.a.)"
         },
@@ -117228,7 +117228,7 @@ window.PLANOS_TACTICAL_DATA = [
           "time": "25/08 20:00",
           "label": "25/08 20:00",
           "score": 100,
-          "score_a": 0,
+          "score_a": 100,
           "score_b": 100,
           "metric": "PAXG: R$ 24168.75 (Earn: 3.5% a.a.)"
         }
