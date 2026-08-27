@@ -41,10 +41,28 @@ function renderHeroPatrimony(p) {
   const elGatekeeperBadge = document.getElementById('gatekeeperBadge');
   const elGatekeeperDetail = document.getElementById('gatekeeperDetail');
 
-  const fmt = (v) => v ? v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '--';
+  if (elPatrimonio) elPatrimonio.textContent = fmt(p.total_brl || 2221.84);
+  if (elCaixa) elCaixa.textContent = fmt(p.caixa_brl || 1494.95);
 
-  if (elPatrimonio) elPatrimonio.textContent = fmt(p.total_brl || 1709.72);
-  if (elCaixa) elCaixa.textContent = fmt(p.caixa_brl || 1150.00);
+  const elHeroTag = document.getElementById('heroTagRecuperacao');
+  const elHeroSubtext = document.getElementById('heroSubtextPatrimonio');
+  const aportado = p.aportado_brl || 1712.91;
+  const total = p.total_brl || 2221.84;
+  const lucro_real = total - aportado;
+  const ret_pct = (lucro_real / aportado) * 100;
+
+  if (elHeroTag && elHeroSubtext) {
+    if (lucro_real >= 0) {
+      elHeroTag.className = "hero-tag positive";
+      elHeroTag.textContent = `LUCRO REAL +${ret_pct.toFixed(1)}%`;
+      elHeroSubtext.innerHTML = `Total Aportado: R$ ${fmt(aportado)} | Lucro Líquido Real: <b style="color:#10B981">+R$ ${fmt(lucro_real)}</b> (+${ret_pct.toFixed(2)}%).`;
+    } else {
+      const recup_pct = (total / aportado) * 100;
+      elHeroTag.className = "hero-tag warning";
+      elHeroTag.textContent = `RECUPERAÇÃO ${recup_pct.toFixed(1)}%`;
+      elHeroSubtext.innerHTML = `Total Aportado: R$ ${fmt(aportado)} | Prejuízo residual: <b>R$ ${fmt(Math.abs(lucro_real))}</b> (${recup_pct.toFixed(1)}%).`;
+    }
+  }
 
   const c = p.cotacoes_ao_vivo || {};
   if (elBtc && c.BTCBRL) elBtc.textContent = `R$ ${Math.round(c.BTCBRL).toLocaleString('pt-BR')}`;
@@ -145,19 +163,21 @@ function renderLiveThermometer(plans, filter) {
     const badgeClass = isLow ? 'badge-low' : 'badge-mid';
     const badgeText = isLow ? '🛡️ BAIXO RISCO' : '⚡ MÉDIO RISCO';
 
-    const pA_score = plan.ponta_a_score !== undefined ? plan.ponta_a_score : plan.proximidade_score;
-    const pB_score = plan.ponta_b_score !== undefined ? plan.ponta_b_score : 0;
-    const pA_label = plan.ponta_a_label || 'Ponta A: Compra / Rotação A';
-    const pB_label = plan.ponta_b_label || 'Ponta B: Venda / Rotação B';
+    const isDual = plan.dual_resonance || [4, 5, 8].includes(plan.id);
+    const planName = isDual ? (plan.nome.includes('⭐') ? plan.nome : `⭐ ${plan.nome}`) : plan.nome;
+    const dualBadge = isDual ? `<span class="plan-badge badge-quantum" style="background: rgba(245, 158, 11, 0.18); color: #FBBF24; border: 1px solid #F59E0B; font-weight: 700; font-size: 0.62rem; margin-left: 4px;">⭐ DUAL-SCALE</span>` : '';
 
     return `
       <div class="thermo-card" data-plan-id="${plan.id}" style="border-top: 3px solid ${plan.cor};" title="Clique para abrir análise executiva e histórico">
         <div class="thermo-header">
           <span class="thermo-rank">#${idx + 1} AO VIVO</span>
-          <span class="plan-badge ${badgeClass}">${badgeText}</span>
+          <div style="display: flex; gap: 4px; align-items: center;">
+            ${dualBadge}
+            <span class="plan-badge ${badgeClass}">${badgeText}</span>
+          </div>
         </div>
         <div>
-          <div class="thermo-name">${plan.icone} ${plan.nome}</div>
+          <div class="thermo-name">${plan.icone} ${planName}</div>
           <div class="thermo-par-tag">${plan.par} • Lote: R$ ${plan.lote_brl.toFixed(2)}</div>
         </div>
         <div class="thermo-dist">${plan.valor_atual_str || ''}</div>

@@ -22,6 +22,11 @@ let kineticsDragCurrentX = 0;
 function initChartsKinetics() {
   const assetsData = window.ASSETS_KINETICS_DATA || {};
   
+  window.currentKineticsAsset = currentKineticsAsset;
+  window.currentKineticsTimeframe = currentKineticsTimeframe;
+  window.renderKineticsChart = renderKineticsChart;
+  window.renderKineticsCockpit = renderKineticsCockpit;
+  
   initAssetPills(assetsData);
   initTimeframeButtons();
   initCanvasInteractions();
@@ -29,6 +34,11 @@ function initChartsKinetics() {
   renderKineticsCockpit(currentKineticsAsset, currentKineticsTimeframe, assetsData);
   renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, assetsData);
   startLiveBinancePoller();
+
+  window.addEventListener('resize', () => {
+    const data = window.ASSETS_KINETICS_DATA || {};
+    renderKineticsChart(window.currentKineticsAsset || currentKineticsAsset, window.currentKineticsTimeframe || currentKineticsTimeframe, data);
+  });
 }
 
 function initAssetPills(assetsData) {
@@ -57,6 +67,7 @@ function initAssetPills(assetsData) {
       container.querySelectorAll('.asset-pill-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       currentKineticsAsset = btn.getAttribute('data-asset');
+      window.currentKineticsAsset = currentKineticsAsset;
       hoveredDataIndex = -1;
       kineticsZoomRange = null; // Reseta zoom ao trocar de ativo
       
@@ -77,6 +88,7 @@ function initTimeframeButtons() {
       btns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       currentKineticsTimeframe = btn.getAttribute('data-tf');
+      window.currentKineticsTimeframe = currentKineticsTimeframe;
       hoveredDataIndex = -1;
       kineticsZoomRange = null; // Reseta zoom ao trocar de escala
 
