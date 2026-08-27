@@ -167,6 +167,11 @@ function renderLiveThermometer(plans, filter) {
     const planName = isDual ? (plan.nome.includes('⭐') ? plan.nome : `⭐ ${plan.nome}`) : plan.nome;
     const dualBadge = isDual ? `<span class="plan-badge badge-quantum" style="background: rgba(245, 158, 11, 0.18); color: #FBBF24; border: 1px solid #F59E0B; font-weight: 700; font-size: 0.62rem; margin-left: 4px;">⭐ DUAL-SCALE</span>` : '';
 
+    const pA_label = plan.ponta_a_label || 'Entrada / Compra';
+    const pA_score = plan.ponta_a_score || 0;
+    const pB_label = plan.ponta_b_label || 'Saída / Realização';
+    const pB_score = plan.ponta_b_score || 0;
+
     return `
       <div class="thermo-card" data-plan-id="${plan.id}" style="border-top: 3px solid ${plan.cor};" title="Clique para abrir análise executiva e histórico">
         <div class="thermo-header">
