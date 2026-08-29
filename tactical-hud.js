@@ -1,10 +1,17 @@
 /**
  * ==============================================================================
- * HARMONICUS SX // PÁGINA 1: PORTFOLIO TACTICAL HUD CONTROLLER (v4.6)
+ * HARMONICUS SX // PÁGINA 1: PORTFOLIO TACTICAL HUD CONTROLLER (v4.7)
  * Termômetro 100% AO VIVO com Filtro de Risco, Séries Históricas (1H, 24H, 7D, 30D),
  * Tooltip Interativa com Crosshair e 3 Pilares Executivos Oficiais
  * ==============================================================================
  */
+
+// Helper de formatação de moeda brasileira garantido globalmente
+function fmt(val) {
+  if (val === null || val === undefined || isNaN(Number(val))) return '0,00';
+  return Number(val).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+window.fmt = fmt;
 
 document.addEventListener('DOMContentLoaded', () => {
   initTacticalHUD();
@@ -163,7 +170,7 @@ function renderLiveThermometer(plans, filter) {
     const badgeClass = isLow ? 'badge-low' : 'badge-mid';
     const badgeText = isLow ? '🛡️ BAIXO RISCO' : '⚡ MÉDIO RISCO';
 
-    const isDual = plan.dual_resonance || [4, 5, 8].includes(plan.id);
+    const isDual = plan.dual_resonance || [4, 5, 6, 8].includes(plan.id);
     const planName = isDual ? (plan.nome.includes('⭐') ? plan.nome : `⭐ ${plan.nome}`) : plan.nome;
     const dualBadge = isDual ? `<span class="plan-badge badge-quantum" style="background: rgba(245, 158, 11, 0.18); color: #FBBF24; border: 1px solid #F59E0B; font-weight: 700; font-size: 0.62rem; margin-left: 4px;">⭐ DUAL-SCALE</span>` : '';
 
