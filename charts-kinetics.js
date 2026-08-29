@@ -319,7 +319,7 @@ function renderKineticsChart(symbol, tfKey, data) {
     ctx.setLineDash([]);
   }
 
-  // 1.5 ENVELOPES DA BANDA ZERO-LAG (+/- 2 SIGMA - MAGENTA/ROXO NEON)
+  // 1.5 ENVELOPES DA BANDA ZERO-LAG (+/- 2 SIGMA - ROXO/LILÁS VIBRANTE)
   if (zlUpper.length === prices.length && zlLower.length === prices.length) {
     ctx.beginPath();
     for (let i = 0; i < zlUpper.length; i++) {
@@ -333,14 +333,13 @@ function renderKineticsChart(symbol, tfKey, data) {
       ctx.lineTo(x, y);
     }
     ctx.closePath();
-    ctx.fillStyle = 'rgba(192, 132, 252, 0.08)'; // Sombra Roxa / Lilás
+    ctx.fillStyle = 'rgba(192, 132, 252, 0.14)'; // Preenchimento da Banda Lilás bem visível
     ctx.fill();
 
-    // Linhas dos Envelopes Zero-Lag
-    ctx.strokeStyle = '#A855F7';
-    ctx.lineWidth = 1.4;
-    ctx.setLineDash([3, 3]);
-
+    // Linha Superior da Banda Zero-Lag
+    ctx.strokeStyle = '#C084FC';
+    ctx.lineWidth = 1.6;
+    ctx.setLineDash([4, 3]);
     ctx.beginPath();
     for (let i = 0; i < zlUpper.length; i++) {
       const x = getX(i);
@@ -349,6 +348,7 @@ function renderKineticsChart(symbol, tfKey, data) {
     }
     ctx.stroke();
 
+    // Linha Inferior da Banda Zero-Lag
     ctx.beginPath();
     for (let i = 0; i < zlLower.length; i++) {
       const x = getX(i);
@@ -359,7 +359,20 @@ function renderKineticsChart(symbol, tfKey, data) {
     ctx.setLineDash([]);
   }
 
-  // 1.8 CURVA CENTRAL LILÁS ZERO-LAG (SUPERSMOOTHER 2-POLOS DE JOHN EHLERS)
+  // 2. Linha Principal de Preço (Ouro Claro)
+  ctx.save();
+  ctx.beginPath();
+  for (let i = 0; i < prices.length; i++) {
+    const x = getX(i);
+    const y = getY(prices[i]);
+    if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+  }
+  ctx.strokeStyle = '#F59E0B';
+  ctx.lineWidth = 2.0;
+  ctx.stroke();
+  ctx.restore();
+
+  // 2.5 CURVA CENTRAL LILÁS ZERO-LAG (SUPERSMOOTHER DE JOHN EHLERS - DESENHADA POR CIMA)
   if (supersmoother.length === prices.length) {
     ctx.save();
     ctx.beginPath();
@@ -368,27 +381,13 @@ function renderKineticsChart(symbol, tfKey, data) {
       const y = getY(supersmoother[i]);
       if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
     }
-    ctx.strokeStyle = '#C084FC'; // Lilás / Roxo Neon Vibrante
+    ctx.strokeStyle = '#D8B4FE'; // Lilás Neon Luminoso
     ctx.lineWidth = 2.4;
     ctx.shadowColor = '#C084FC';
     ctx.shadowBlur = 8;
     ctx.stroke();
     ctx.restore();
   }
-
-  // 2. Linha Principal de Preço (Gradiente Ouro Neon)
-  ctx.beginPath();
-  for (let i = 0; i < prices.length; i++) {
-    const x = getX(i);
-    const y = getY(prices[i]);
-    if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
-  }
-  ctx.strokeStyle = '#F59E0B';
-  ctx.lineWidth = 2.5;
-  ctx.shadowColor = '#F59E0B';
-  ctx.shadowBlur = 8;
-  ctx.stroke();
-  ctx.shadowBlur = 0;
 
   // 3. Painel Inferior: Histograma de Velocidade Instantânea (dP/dt)
   const derivY0 = h - 35;
