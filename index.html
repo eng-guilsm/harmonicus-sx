@@ -63,6 +63,10 @@
           </div>
         </div>
 
+        <button id="btnLockGatekeeper" onclick="window.gatekeeperLockNow && window.gatekeeperLockNow()" class="hud-btn" style="background: rgba(239, 68, 68, 0.12); border: 1px solid rgba(239, 68, 68, 0.35); color: #F87171; padding: 4px 10px; border-radius: 6px; font-family: var(--font-mono); font-size: 0.70rem; cursor: pointer;" title="Bloquear Terminal Imediatamente">
+          🔒 TRAVAR
+        </button>
+
         <div class="system-status-chip" style="display: flex; flex-direction: column; align-items: flex-end; justify-content: center; line-height: 1.25; padding: 4px 10px; background: rgba(5, 8, 17, 0.90); border: 1px solid var(--border-subtle); border-radius: 6px; min-width: 90px;">
           <span class="chip-label" style="font-size: 0.60rem; color: var(--text-muted); font-family: var(--font-mono); font-weight: 700; letter-spacing: 0.08em;">AUTORUN</span>
           <span id="autorunDate" style="font-size: 0.68rem; color: #06B6D4; font-family: var(--font-mono); font-weight: 600;">Sincronizando...</span>
@@ -525,7 +529,8 @@
           </div>
           <div class="chart-legend-row" style="padding: 0 16px 10px 16px;">
             <span class="leg-item"><i style="background: #F59E0B;"></i> Preço Instantâneo</span>
-            <span class="leg-item"><i style="background: #06B6D4;"></i> Bandas Bollinger (±2σ)</span>
+            <span class="leg-item"><i style="background: #C084FC;"></i> Banda Zero-Lag (SuperSmoother ±2σ)</span>
+            <span class="leg-item"><i style="background: #06B6D4; border-top: 2px dashed #06B6D4;"></i> Bollinger Clássica (±2σ)</span>
             <span class="leg-item"><i style="background: #10B981;"></i> Vetor Velocidade (dP/dt)</span>
             <span class="leg-item" style="margin-left: auto; color: #9CA3AF; font-size: 11px;">🔍 Arraste sobre o gráfico para selecionar retângulo de zoom</span>
           </div>
@@ -554,6 +559,7 @@
     (function() {
       const ts = Date.now();
       const scripts = [
+        'gatekeeper-lock.js',
         'data/planos_data.js',
         'data/harmonicus_sx_data.js',
         'data/charts_data.js',

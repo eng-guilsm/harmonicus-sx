@@ -22,11 +22,6 @@ let kineticsDragCurrentX = 0;
 function initChartsKinetics() {
   const assetsData = window.ASSETS_KINETICS_DATA || {};
   
-  window.currentKineticsAsset = currentKineticsAsset;
-  window.currentKineticsTimeframe = currentKineticsTimeframe;
-  window.renderKineticsChart = renderKineticsChart;
-  window.renderKineticsCockpit = renderKineticsCockpit;
-  
   initAssetPills(assetsData);
   initTimeframeButtons();
   initCanvasInteractions();
@@ -34,11 +29,6 @@ function initChartsKinetics() {
   renderKineticsCockpit(currentKineticsAsset, currentKineticsTimeframe, assetsData);
   renderKineticsChart(currentKineticsAsset, currentKineticsTimeframe, assetsData);
   startLiveBinancePoller();
-
-  window.addEventListener('resize', () => {
-    const data = window.ASSETS_KINETICS_DATA || {};
-    renderKineticsChart(window.currentKineticsAsset || currentKineticsAsset, window.currentKineticsTimeframe || currentKineticsTimeframe, data);
-  });
 }
 
 function initAssetPills(assetsData) {
@@ -67,7 +57,6 @@ function initAssetPills(assetsData) {
       container.querySelectorAll('.asset-pill-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       currentKineticsAsset = btn.getAttribute('data-asset');
-      window.currentKineticsAsset = currentKineticsAsset;
       hoveredDataIndex = -1;
       kineticsZoomRange = null; // Reseta zoom ao trocar de ativo
       
@@ -88,7 +77,6 @@ function initTimeframeButtons() {
       btns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       currentKineticsTimeframe = btn.getAttribute('data-tf');
-      window.currentKineticsTimeframe = currentKineticsTimeframe;
       hoveredDataIndex = -1;
       kineticsZoomRange = null; // Reseta zoom ao trocar de escala
 
@@ -209,6 +197,8 @@ function renderKineticsChart(symbol, tfKey, data) {
   const fullPrices = series.prices || [];
   const fullUpper = series.bollinger_upper || series.bb_upper || [];
   const fullLower = series.bollinger_lower || series.bb_lower || [];
+  const fullZlUpper = series.zl_upper || [];
+  const fullZlLower = series.zl_lower || [];
   const fullVelocities = series.velocities || [];
   const fullTimestamps = series.timestamps || [];
 
@@ -221,6 +211,8 @@ function renderKineticsChart(symbol, tfKey, data) {
   const prices = fullPrices.slice(startIndex, endIndex + 1);
   const upper = fullUpper.length > 0 ? fullUpper.slice(startIndex, endIndex + 1) : prices;
   const lower = fullLower.length > 0 ? fullLower.slice(startIndex, endIndex + 1) : prices;
+  const zlUpper = fullZlUpper.length > 0 ? fullZlUpper.slice(startIndex, endIndex + 1) : [];
+  const zlLower = fullZlLower.length > 0 ? fullZlLower.slice(startIndex, endIndex + 1) : [];
   const velocities = fullVelocities.slice(startIndex, endIndex + 1);
   const timestamps = fullTimestamps.slice(startIndex, endIndex + 1);
 
@@ -323,6 +315,46 @@ function renderKineticsChart(symbol, tfKey, data) {
     ctx.setLineDash([]);
   }
 
+  // 1.5 BANDA ZERO-LAG (SUPERSMOOTHER +/- 2 SIGMA - ROXO/MAGENTA NEON)
+  if (zlUpper.length === prices.length && zlLower.length === prices.length) {
+    ctx.beginPath();
+    for (let i = 0; i < zlUpper.length; i++) {
+      const x = getX(i);
+      const y = getY(zlUpper[i]);
+      if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    }
+    for (let i = zlLower.length - 1; i >= 0; i--) {
+      const x = getX(i);
+      const y = getY(zlLower[i]);
+      ctx.lineTo(x, y);
+    }
+    ctx.closePath();
+    ctx.fillStyle = 'rgba(168, 85, 247, 0.07)'; // Sombra Roxa Neon
+    ctx.fill();
+
+    // Linha Zero-Lag Upper
+    ctx.strokeStyle = '#C084FC';
+    ctx.lineWidth = 1.6;
+    ctx.beginPath();
+    for (let i = 0; i < zlUpper.length; i++) {
+      const x = getX(i);
+      const y = getY(zlUpper[i]);
+      if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+
+    // Linha Zero-Lag Lower
+    ctx.strokeStyle = '#C084FC';
+    ctx.lineWidth = 1.6;
+    ctx.beginPath();
+    for (let i = 0; i < zlLower.length; i++) {
+      const x = getX(i);
+      const y = getY(zlLower[i]);
+      if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+  }
+
   // 2. Linha Principal de Preço (Gradiente Ouro Neon)
   ctx.beginPath();
   for (let i = 0; i < prices.length; i++) {
@@ -406,13 +438,16 @@ function renderKineticsChart(symbol, tfKey, data) {
       const pVal = isUsdt ? `R$ ${prices[i].toFixed(4)}` : `R$ ${prices[i].toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`;
       const upVal = isUsdt ? `R$ ${upper[i].toFixed(4)}` : `R$ ${upper[i].toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`;
       const lowVal = isUsdt ? `R$ ${lower[i].toFixed(4)}` : `R$ ${lower[i].toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`;
+      const zlUpVal = zlUpper && zlUpper[i] ? (isUsdt ? `R$ ${zlUpper[i].toFixed(4)}` : `R$ ${zlUpper[i].toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`) : null;
+      const zlLowVal = zlLower && zlLower[i] ? (isUsdt ? `R$ ${zlLower[i].toFixed(4)}` : `R$ ${zlLower[i].toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`) : null;
       const velVal = `${velocities[i] >= 0 ? '+' : ''}${velocities[i].toFixed(3)}%`;
 
       badge.style.display = 'block';
       badge.innerHTML = `
         <div class="ib-time">⏱️ ${timestamps[i]}</div>
         <div class="ib-price">Cotação: <b>${pVal}</b></div>
-        <div class="ib-bands">Bandas: ${lowVal} ↔ ${upVal}</div>
+        <div class="ib-bands" style="color: #C084FC;">Zero-Lag (±2σ): <b>${zlLowVal || lowVal} ↔ ${zlUpVal || upVal}</b></div>
+        <div class="ib-bands" style="color: #06B6D4; font-size: 10px;">Bollinger (SMA): ${lowVal} ↔ ${upVal}</div>
         <div class="ib-vel">Velocidade: <b style="color: ${velocities[i] >= 0 ? '#10B981' : '#EF4444'}">${velVal}</b></div>
       `;
 
