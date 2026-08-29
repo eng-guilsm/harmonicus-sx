@@ -23,53 +23,7 @@
   <div class="hud-grid-overlay"></div>
   <div class="hud-vignette"></div>
 
-  <!-- GATEKEEPER MILITARY SECURITY LOCK OVERLAY -->
-  <div id="gatekeeperLockOverlay" class="gk-lock-overlay">
-    <div class="gk-lock-box">
-      <div class="gk-lock-header">
-        <div class="gk-shield-pulse">🛡️</div>
-        <h2 class="gk-title">GATEKEEPER SECURITY PROTOCOL</h2>
-        <p class="gk-subtitle">TERMINAL QUANTITATIVO PRIVADO // NÍVEL 4</p>
-      </div>
-
-      <div class="gk-pin-display" id="gkPinDisplay">
-        <div class="pin-dot" id="dot0"></div>
-        <div class="pin-dot" id="dot1"></div>
-        <div class="pin-dot" id="dot2"></div>
-        <div class="pin-dot" id="dot3"></div>
-      </div>
-
-      <div class="gk-status-msg" id="gkStatusMsg">
-        Insira o PIN de 4 dígitos para autorizar a custódia.
-      </div>
-
-      <div class="gk-lockout-timer" id="gkLockoutTimer" style="display: none;">
-        <span class="timer-label">ACESSO SUSPENSO POR 12H:</span>
-        <span class="timer-countdown" id="gkCountdownVal">12:00:00</span>
-      </div>
-
-      <div class="gk-numpad" id="gkNumpad">
-        <button class="gk-key" data-k="1">1</button>
-        <button class="gk-key" data-k="2">2</button>
-        <button class="gk-key" data-k="3">3</button>
-        <button class="gk-key" data-k="4">4</button>
-        <button class="gk-key" data-k="5">5</button>
-        <button class="gk-key" data-k="6">6</button>
-        <button class="gk-key" data-k="7">7</button>
-        <button class="gk-key" data-k="8">8</button>
-        <button class="gk-key" data-k="9">9</button>
-        <button class="gk-key gk-key-action" id="gkKeyClear">⌫</button>
-        <button class="gk-key" data-k="0">0</button>
-        <button class="gk-key gk-key-action gk-key-enter" id="gkKeyEnter">↵</button>
-      </div>
-
-      <div class="gk-lock-footer">
-        <span>SESSÃO CRIPTOGRAFADA // AUTO-PURGE EM CASO DE FORÇA BRUTA</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="app-container" id="mainAppContainer" style="filter: blur(16px); pointer-events: none; user-select: none;">
+  <div class="app-container">
     <!-- TOP GLOBAL HEADER -->
     <header class="hud-header">
       <div class="brand-section">
@@ -109,14 +63,10 @@
           </div>
         </div>
 
-        <button id="btnLockGatekeeper" onclick="window.gatekeeperLockNow && window.gatekeeperLockNow()" class="hud-btn" style="background: rgba(239, 68, 68, 0.12); border: 1px solid rgba(239, 68, 68, 0.35); color: #F87171; padding: 4px 10px; border-radius: 6px; font-family: var(--font-mono); font-size: 0.70rem; cursor: pointer;" title="Bloquear Terminal Imediatamente">
-          🔒 TRAVAR
-        </button>
-
         <div class="system-status-chip" style="display: flex; flex-direction: column; align-items: flex-end; justify-content: center; line-height: 1.25; padding: 4px 10px; background: rgba(5, 8, 17, 0.90); border: 1px solid var(--border-subtle); border-radius: 6px; min-width: 90px;">
           <span class="chip-label" style="font-size: 0.60rem; color: var(--text-muted); font-family: var(--font-mono); font-weight: 700; letter-spacing: 0.08em;">AUTORUN</span>
-          <span id="autorunDate" style="font-size: 0.68rem; color: #06B6D4; font-family: var(--font-mono); font-weight: 600;">Sincronizando...</span>
-          <span id="autorunTime" style="font-size: 0.82rem; color: #10B981; font-family: var(--font-mono); font-weight: 700;">AO VIVO</span>
+          <span id="autorunDate" style="font-size: 0.68rem; color: #06B6D4; font-family: var(--font-mono); font-weight: 600;">22/08/2026</span>
+          <span id="autorunTime" style="font-size: 0.82rem; color: #10B981; font-family: var(--font-mono); font-weight: 700;">22:49:00</span>
         </div>
       </div>
     </header>
@@ -131,10 +81,10 @@
           <span class="card-eyebrow">PATRIMÔNIO EM CUSTÓDIA BINANCE</span>
           <div class="hero-val-row">
             <span class="hero-currency">R$</span>
-            <span class="hero-number" id="patrimonioTotal">Carregando...</span>
-            <span class="hero-tag positive" id="heroTagRecuperacao">AUDITORIA ATIVA</span>
+            <span class="hero-number" id="patrimonioTotal">1.709,72</span>
+            <span class="hero-tag positive">RECUPERAÇÃO 98,8%</span>
           </div>
-          <div class="hero-subtext" id="heroSubtextPatrimonio">Sincronizando custódia Spot e Simple Earn em tempo real...</div>
+          <div class="hero-subtext">Total Aportado: R$ 1.731,00 | Prejuízo residual reduzido para apenas <b>R$ 21,28</b>.</div>
         </div>
 
         <div class="hero-card cash-card">
@@ -576,15 +526,15 @@
           <div class="chart-legend-row" style="padding: 0 16px 10px 16px; display: flex; align-items: center; flex-wrap: wrap; gap: 14px;">
             <span class="leg-item"><i style="background: #F59E0B;"></i> Preço Instantâneo</span>
 
-            <!-- BOX TOGGLE ZERO-LAG -->
-            <label class="chart-toggle-badge" id="lblToggleZl" style="display: inline-flex; align-items: center; gap: 6px; cursor: pointer; user-select: none; background: rgba(192, 132, 252, 0.15); border: 1px solid #C084FC; padding: 4px 10px; border-radius: 6px; font-family: var(--font-mono); font-size: 0.72rem; color: #E9D5FF; transition: all 0.2s;">
-              <input type="checkbox" id="chkToggleZl" checked style="accent-color: #C084FC; width: 14px; height: 14px; cursor: pointer;">
+            <!-- BOX TOGGLE ZERO-LAG (DESLIGADA POR PADRÃO) -->
+            <label class="chart-toggle-badge" id="lblToggleZl" style="display: inline-flex; align-items: center; gap: 6px; cursor: pointer; user-select: none; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(192, 132, 252, 0.35); padding: 4px 10px; border-radius: 6px; font-family: var(--font-mono); font-size: 0.72rem; color: #9CA3AF; transition: all 0.2s;">
+              <input type="checkbox" id="chkToggleZl" style="accent-color: #C084FC; width: 14px; height: 14px; cursor: pointer;">
               <i style="background: #F0ABFC; box-shadow: 0 0 8px #C084FC; width: 10px; height: 10px; border-radius: 2px; display: inline-block;"></i>
-              <span style="font-weight: 700;">Banda & Curva Zero-Lag (Lilás)</span>
+              <span style="font-weight: 700;">+ Banda & Curva Zero-Lag (Lilás)</span>
             </label>
 
-            <!-- BOX TOGGLE BOLLINGER -->
-            <label class="chart-toggle-badge" id="lblToggleBb" style="display: inline-flex; align-items: center; gap: 6px; cursor: pointer; user-select: none; background: rgba(6, 182, 212, 0.15); border: 1px solid #06B6D4; padding: 4px 10px; border-radius: 6px; font-family: var(--font-mono); font-size: 0.72rem; color: #CFFAFE; transition: all 0.2s;">
+            <!-- BOX TOGGLE BOLLINGER (LIGADA POR PADRÃO) -->
+            <label class="chart-toggle-badge" id="lblToggleBb" style="display: inline-flex; align-items: center; gap: 6px; cursor: pointer; user-select: none; background: rgba(6, 182, 212, 0.16); border: 1px solid #06B6D4; padding: 4px 10px; border-radius: 6px; font-family: var(--font-mono); font-size: 0.72rem; color: #CFFAFE; transition: all 0.2s;">
               <input type="checkbox" id="chkToggleBb" checked style="accent-color: #06B6D4; width: 14px; height: 14px; cursor: pointer;">
               <i style="background: #06B6D4; border-top: 2px dashed #06B6D4; width: 10px; height: 10px; border-radius: 2px; display: inline-block;"></i>
               <span style="font-weight: 700;">Bandas de Bollinger (Ciano)</span>
@@ -614,13 +564,13 @@
   </div>
 
   <!-- SCRIPTS OFICIAIS HARMONICUS SX -->
-  <script src="gatekeeper-lock.js?v=20260829_v8_toggles"></script>
-  <script src="data/planos_data.js?v=20260829_v8_toggles"></script>
-  <script src="data/harmonicus_sx_data.js?v=20260829_v8_toggles"></script>
-  <script src="data/charts_data.js?v=20260829_v8_toggles"></script>
-  <script src="audio-engine.js?v=20260829_v8_toggles"></script>
-  <script src="tactical-hud.js?v=20260829_v8_toggles"></script>
-  <script src="harmonicus-sx.js?v=20260829_v8_toggles"></script>
-  <script src="charts-kinetics.js?v=20260829_v8_toggles"></script>
+  <script src="gatekeeper-lock.js?v=20260829_v9_bbdefault"></script>
+  <script src="data/planos_data.js?v=20260829_v9_bbdefault"></script>
+  <script src="data/harmonicus_sx_data.js?v=20260829_v9_bbdefault"></script>
+  <script src="data/charts_data.js?v=20260829_v9_bbdefault"></script>
+  <script src="audio-engine.js?v=20260829_v9_bbdefault"></script>
+  <script src="tactical-hud.js?v=20260829_v9_bbdefault"></script>
+  <script src="harmonicus-sx.js?v=20260829_v9_bbdefault"></script>
+  <script src="charts-kinetics.js?v=20260829_v9_bbdefault"></script>
 </body>
 </html>

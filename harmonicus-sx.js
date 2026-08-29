@@ -7,11 +7,9 @@
  * ==============================================================================
  */
 
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initHarmonicusSX);
-} else {
+document.addEventListener('DOMContentLoaded', () => {
   initHarmonicusSX();
-}
+});
 
 let activeTunerBand = 'daily';
 let focusedSpectralNodeId = null; // null = visão panorâmica
@@ -69,11 +67,19 @@ function initTabNavigation() {
         }, 60);
       }
 
-      // Se foi para a página de cinéticas, re-renderizar canvas
-      if (targetPage === 'pageKinetics' && typeof renderKineticsChart === 'function') {
+      // Se foi para a página de cinéticas, re-renderizar cockpit e canvas
+      if (targetPage === 'pageKinetics') {
         setTimeout(() => {
-          renderKineticsChart(window.currentKineticsAsset || 'BTCBRL', window.currentKineticsTimeframe || '24h', window.ASSETS_KINETICS_DATA || {});
-        }, 60);
+          const asset = window.currentKineticsAsset || 'BTCBRL';
+          const tf = window.currentKineticsTimeframe || '24h';
+          const data = window.ASSETS_KINETICS_DATA || {};
+          if (typeof renderKineticsCockpit === 'function') {
+            renderKineticsCockpit(asset, tf, data);
+          }
+          if (typeof renderKineticsChart === 'function') {
+            renderKineticsChart(asset, tf, data);
+          }
+        }, 80);
       }
     });
   });
