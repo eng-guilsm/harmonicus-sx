@@ -2370,3 +2370,194 @@ input[type="range"]::-webkit-slider-thumb {
   .tactical-bottom-grid { grid-template-columns: 1fr; }
   .synth-footer-grid { grid-template-columns: 1fr; }
 }
+
+
+/* ==============================================================================
+   GATEKEEPER SECURITY LOCK OVERLAY (CYBERPUNK GLASS-BLUR)
+   ============================================================================== */
+.gk-lock-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(5, 8, 17, 0.94);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  will-change: opacity, transform;
+}
+
+.gk-lock-box {
+  width: 360px;
+  background: rgba(10, 15, 29, 0.98);
+  border: 1px solid rgba(6, 182, 212, 0.4);
+  box-shadow: 0 0 35px rgba(6, 182, 212, 0.2);
+  border-radius: 16px;
+  padding: 30px 24px;
+  text-align: center;
+  animation: gkFadeIn 0.3s ease-out;
+}
+
+@keyframes gkFadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.gk-shield-pulse {
+  font-size: 2.4rem;
+  margin-bottom: 8px;
+  animation: gkPulse 2s infinite ease-in-out;
+}
+
+@keyframes gkPulse {
+  0%, 100% { transform: scale(1); filter: drop-shadow(0 0 10px rgba(6, 182, 212, 0.6)); }
+  50% { transform: scale(1.08); filter: drop-shadow(0 0 20px rgba(16, 185, 129, 0.8)); }
+}
+
+.gk-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: #F3F4F6;
+  margin-bottom: 4px;
+}
+
+.gk-subtitle {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: #06B6D4;
+  letter-spacing: 0.15em;
+  margin-bottom: 20px;
+}
+
+.gk-pin-display {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.pin-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  transition: background 0.05s ease, border-color 0.05s ease;
+}
+
+.pin-dot.filled {
+  background: #06B6D4;
+  border-color: #06B6D4;
+  box-shadow: 0 0 10px #06B6D4;
+}
+
+.gk-status-msg {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: #9CA3AF;
+  min-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  line-height: 1.3;
+}
+
+.gk-lockout-timer {
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 16px;
+}
+
+.timer-label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: #EF4444;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 4px;
+}
+
+.timer-countdown {
+  font-family: var(--font-mono);
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #F87171;
+  letter-spacing: 0.1em;
+}
+
+.gk-numpad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.gk-key {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  color: #F3F4F6;
+  font-family: var(--font-mono);
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 12px 0;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.gk-key:hover {
+  background: rgba(6, 182, 212, 0.15);
+  border-color: #06B6D4;
+  color: #06B6D4;
+  transform: translateY(-1px);
+}
+
+.gk-key:active {
+  transform: translateY(1px);
+  background: rgba(6, 182, 212, 0.3);
+}
+
+.gk-key-action {
+  font-size: 1.1rem;
+  color: #9CA3AF;
+}
+
+.gk-key-enter {
+  color: #10B981;
+  background: rgba(16, 185, 129, 0.08);
+  border-color: rgba(16, 185, 129, 0.2);
+}
+
+.gk-key-enter:hover {
+  background: rgba(16, 185, 129, 0.25);
+  border-color: #10B981;
+  color: #10B981;
+}
+
+.gk-lock-footer {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  color: #6B7280;
+  letter-spacing: 0.1em;
+}
+
+.shake {
+  animation: gkShake 0.4s ease-in-out;
+}
+
+@keyframes gkShake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-10px); }
+  40%, 80% { transform: translateX(10px); }
+}
+
