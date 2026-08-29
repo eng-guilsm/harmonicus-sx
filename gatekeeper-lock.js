@@ -77,41 +77,63 @@
       document.body.appendChild(overlay);
     }
 
+    if (window.__gk_events_attached) return;
+    window.__gk_events_attached = true;
+
+    const dotElements = [
+      document.getElementById('dot0'),
+      document.getElementById('dot1'),
+      document.getElementById('dot2'),
+      document.getElementById('dot3')
+    ];
+
     // Eventos do Numpad
     overlay.querySelectorAll('.gk-key[data-k]').forEach(btn => {
-      btn.addEventListener('click', () => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
         handleDigit(btn.getAttribute('data-k'));
       });
     });
 
-    document.getElementById('gkKeyClear').addEventListener('click', () => {
-      handleBackspace();
-    });
+    const clearBtn = document.getElementById('gkKeyClear');
+    if (clearBtn) {
+      clearBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        handleBackspace();
+      });
+    }
 
-    document.getElementById('gkKeyEnter').addEventListener('click', () => {
-      validatePin();
-    });
+    const enterBtn = document.getElementById('gkKeyEnter');
+    if (enterBtn) {
+      enterBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        validatePin();
+      });
+    }
 
-    // Teclado físico
+    // Teclado físico - Ultra responsivo
     window.addEventListener('keydown', (e) => {
       if (isLockedOut() || isAuthed()) return;
       if (e.key >= '0' && e.key <= '9') {
+        e.preventDefault();
         handleDigit(e.key);
       } else if (e.key === 'Backspace') {
+        e.preventDefault();
         handleBackspace();
       } else if (e.key === 'Enter') {
+        e.preventDefault();
         validatePin();
       }
-    });
+    }, { passive: false });
   }
 
   function handleDigit(d) {
-    if (isLockedOut()) return;
+    if (isLockedOut() || isAuthed()) return;
     if (enteredPin.length < 4) {
       enteredPin += d;
       updateDots();
       if (enteredPin.length === 4) {
-        setTimeout(validatePin, 200);
+        setTimeout(validatePin, 80);
       }
     }
   }
@@ -127,8 +149,11 @@
     for (let i = 0; i < 4; i++) {
       const dot = document.getElementById(`dot${i}`);
       if (dot) {
-        if (i < enteredPin.length) dot.classList.add('filled');
-        else dot.classList.remove('filled');
+        if (i < enteredPin.length) {
+          dot.classList.add('filled');
+        } else {
+          dot.classList.remove('filled');
+        }
       }
     }
   }
