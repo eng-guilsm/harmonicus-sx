@@ -573,13 +573,25 @@
               </div>
             </div>
           </div>
-          <div class="chart-legend-row" style="padding: 0 16px 10px 16px;">
+          <div class="chart-legend-row" style="padding: 0 16px 10px 16px; display: flex; align-items: center; flex-wrap: wrap; gap: 14px;">
             <span class="leg-item"><i style="background: #F59E0B;"></i> Preço Instantâneo</span>
-            <span class="leg-item"><i style="background: #C084FC; box-shadow: 0 0 8px #C084FC;"></i> Curva Lilás ZL (SuperSmoother)</span>
-            <span class="leg-item"><i style="background: #A855F7; border-top: 2px dashed #A855F7;"></i> Envelopes ZL (±2σ)</span>
-            <span class="leg-item"><i style="background: #06B6D4; border-top: 2px dashed #06B6D4;"></i> Bollinger (±2σ)</span>
+
+            <!-- BOX TOGGLE ZERO-LAG -->
+            <label class="chart-toggle-badge" id="lblToggleZl" style="display: inline-flex; align-items: center; gap: 6px; cursor: pointer; user-select: none; background: rgba(192, 132, 252, 0.15); border: 1px solid #C084FC; padding: 4px 10px; border-radius: 6px; font-family: var(--font-mono); font-size: 0.72rem; color: #E9D5FF; transition: all 0.2s;">
+              <input type="checkbox" id="chkToggleZl" checked style="accent-color: #C084FC; width: 14px; height: 14px; cursor: pointer;">
+              <i style="background: #F0ABFC; box-shadow: 0 0 8px #C084FC; width: 10px; height: 10px; border-radius: 2px; display: inline-block;"></i>
+              <span style="font-weight: 700;">Banda & Curva Zero-Lag (Lilás)</span>
+            </label>
+
+            <!-- BOX TOGGLE BOLLINGER -->
+            <label class="chart-toggle-badge" id="lblToggleBb" style="display: inline-flex; align-items: center; gap: 6px; cursor: pointer; user-select: none; background: rgba(6, 182, 212, 0.15); border: 1px solid #06B6D4; padding: 4px 10px; border-radius: 6px; font-family: var(--font-mono); font-size: 0.72rem; color: #CFFAFE; transition: all 0.2s;">
+              <input type="checkbox" id="chkToggleBb" checked style="accent-color: #06B6D4; width: 14px; height: 14px; cursor: pointer;">
+              <i style="background: #06B6D4; border-top: 2px dashed #06B6D4; width: 10px; height: 10px; border-radius: 2px; display: inline-block;"></i>
+              <span style="font-weight: 700;">Bandas de Bollinger (Ciano)</span>
+            </label>
+
             <span class="leg-item"><i style="background: #10B981;"></i> Velocidade (dP/dt)</span>
-            <span class="leg-item" style="margin-left: auto; color: #9CA3AF; font-size: 11px;">🔍 Arraste sobre o gráfico para selecionar retângulo de zoom</span>
+            <span class="leg-item" style="margin-left: auto; color: #9CA3AF; font-size: 11px;">🔍 Arraste sobre o gráfico para zoom</span>
           </div>
           <div class="kinetics-canvas-box" id="canvasWrapper">
             <canvas id="kineticsMainCanvas" width="1200" height="380"></canvas>
@@ -602,13 +614,13 @@
   </div>
 
   <!-- SCRIPTS OFICIAIS HARMONICUS SX -->
-  <script src="gatekeeper-lock.js?v=20260829_v7_lilac"></script>
-  <script src="data/planos_data.js?v=20260829_v7_lilac"></script>
-  <script src="data/harmonicus_sx_data.js?v=20260829_v7_lilac"></script>
-  <script src="data/charts_data.js?v=20260829_v7_lilac"></script>
-  <script src="audio-engine.js?v=20260829_v7_lilac"></script>
-  <script src="tactical-hud.js?v=20260829_v7_lilac"></script>
-  <script src="harmonicus-sx.js?v=20260829_v7_lilac"></script>
-  <script src="charts-kinetics.js?v=20260829_v7_lilac"></script>
+  <script src="gatekeeper-lock.js?v=20260829_v8_toggles"></script>
+  <script src="data/planos_data.js?v=20260829_v8_toggles"></script>
+  <script src="data/harmonicus_sx_data.js?v=20260829_v8_toggles"></script>
+  <script src="data/charts_data.js?v=20260829_v8_toggles"></script>
+  <script src="audio-engine.js?v=20260829_v8_toggles"></script>
+  <script src="tactical-hud.js?v=20260829_v8_toggles"></script>
+  <script src="harmonicus-sx.js?v=20260829_v8_toggles"></script>
+  <script src="charts-kinetics.js?v=20260829_v8_toggles"></script>
 </body>
 </html>
