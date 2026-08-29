@@ -13,63 +13,69 @@
   let enteredPin = "";
   let lockInterval = null;
 
-  document.addEventListener('DOMContentLoaded', () => {
+  function initGatekeeper() {
     buildLockOverlay();
     checkAuthState();
-  });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initGatekeeper);
+  } else {
+    initGatekeeper();
+  }
 
   function buildLockOverlay() {
-    if (document.getElementById('gatekeeperLockOverlay')) return;
+    let overlay = document.getElementById('gatekeeperLockOverlay');
+    if (!overlay) {
+      overlay = document.createElement('div');
+      overlay.id = 'gatekeeperLockOverlay';
+      overlay.className = 'gk-lock-overlay';
+      overlay.innerHTML = `
+        <div class="gk-lock-box">
+          <div class="gk-lock-header">
+            <div class="gk-shield-pulse">🛡️</div>
+            <h2 class="gk-title">GATEKEEPER SECURITY PROTOCOL</h2>
+            <p class="gk-subtitle">TERMINAL QUANTITATIVO PRIVADO // NÍVEL 4</p>
+          </div>
 
-    const overlay = document.createElement('div');
-    overlay.id = 'gatekeeperLockOverlay';
-    overlay.className = 'gk-lock-overlay';
-    overlay.innerHTML = `
-      <div class="gk-lock-box">
-        <div class="gk-lock-header">
-          <div class="gk-shield-pulse">🛡️</div>
-          <h2 class="gk-title">GATEKEEPER SECURITY PROTOCOL</h2>
-          <p class="gk-subtitle">TERMINAL QUANTITATIVO PRIVADO // NÍVEL 4</p>
+          <div class="gk-pin-display" id="gkPinDisplay">
+            <div class="pin-dot" id="dot0"></div>
+            <div class="pin-dot" id="dot1"></div>
+            <div class="pin-dot" id="dot2"></div>
+            <div class="pin-dot" id="dot3"></div>
+          </div>
+
+          <div class="gk-status-msg" id="gkStatusMsg">
+            Insira o PIN de 4 dígitos para autorizar a custódia.
+          </div>
+
+          <div class="gk-lockout-timer" id="gkLockoutTimer" style="display: none;">
+            <span class="timer-label">ACESSO SUSPENSO POR 12H:</span>
+            <span class="timer-countdown" id="gkCountdownVal">12:00:00</span>
+          </div>
+
+          <div class="gk-numpad" id="gkNumpad">
+            <button class="gk-key" data-k="1">1</button>
+            <button class="gk-key" data-k="2">2</button>
+            <button class="gk-key" data-k="3">3</button>
+            <button class="gk-key" data-k="4">4</button>
+            <button class="gk-key" data-k="5">5</button>
+            <button class="gk-key" data-k="6">6</button>
+            <button class="gk-key" data-k="7">7</button>
+            <button class="gk-key" data-k="8">8</button>
+            <button class="gk-key" data-k="9">9</button>
+            <button class="gk-key gk-key-action" id="gkKeyClear">⌫</button>
+            <button class="gk-key" data-k="0">0</button>
+            <button class="gk-key gk-key-action gk-key-enter" id="gkKeyEnter">↵</button>
+          </div>
+
+          <div class="gk-lock-footer">
+            <span>SESSÃO CRIPTOGRAFADA // AUTO-PURGE EM CASO DE FORÇA BRUTA</span>
+          </div>
         </div>
-
-        <div class="gk-pin-display" id="gkPinDisplay">
-          <div class="pin-dot" id="dot0"></div>
-          <div class="pin-dot" id="dot1"></div>
-          <div class="pin-dot" id="dot2"></div>
-          <div class="pin-dot" id="dot3"></div>
-        </div>
-
-        <div class="gk-status-msg" id="gkStatusMsg">
-          Insira o PIN de 4 dígitos para autorizar a custódia.
-        </div>
-
-        <div class="gk-lockout-timer" id="gkLockoutTimer" style="display: none;">
-          <span class="timer-label">ACESSO SUSPENSO POR 12H:</span>
-          <span class="timer-countdown" id="gkCountdownVal">12:00:00</span>
-        </div>
-
-        <div class="gk-numpad" id="gkNumpad">
-          <button class="gk-key" data-k="1">1</button>
-          <button class="gk-key" data-k="2">2</button>
-          <button class="gk-key" data-k="3">3</button>
-          <button class="gk-key" data-k="4">4</button>
-          <button class="gk-key" data-k="5">5</button>
-          <button class="gk-key" data-k="6">6</button>
-          <button class="gk-key" data-k="7">7</button>
-          <button class="gk-key" data-k="8">8</button>
-          <button class="gk-key" data-k="9">9</button>
-          <button class="gk-key gk-key-action" id="gkKeyClear">⌫</button>
-          <button class="gk-key" data-k="0">0</button>
-          <button class="gk-key gk-key-action gk-key-enter" id="gkKeyEnter">↵</button>
-        </div>
-
-        <div class="gk-lock-footer">
-          <span>SESSÃO CRIPTOGRAFADA // AUTO-PURGE EM CASO DE FORÇA BRUTA</span>
-        </div>
-      </div>
-    `;
-
-    document.body.appendChild(overlay);
+      `;
+      document.body.appendChild(overlay);
+    }
 
     // Eventos do Numpad
     overlay.querySelectorAll('.gk-key[data-k]').forEach(btn => {

@@ -6,9 +6,11 @@
  * ==============================================================================
  */
 
-document.addEventListener('DOMContentLoaded', () => {
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initChartsKinetics);
+} else {
   initChartsKinetics();
-});
+}
 
 let currentKineticsAsset = 'BTCBRL';
 let currentKineticsTimeframe = '24h';

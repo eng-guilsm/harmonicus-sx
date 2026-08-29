@@ -13,9 +13,11 @@ function fmt(val) {
 }
 window.fmt = fmt;
 
-document.addEventListener('DOMContentLoaded', () => {
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initTacticalHUD);
+} else {
   initTacticalHUD();
-});
+}
 
 let activePlanFilter = 'all';
 let activeModalPlanId = null;

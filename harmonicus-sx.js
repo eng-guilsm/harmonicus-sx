@@ -7,9 +7,11 @@
  * ==============================================================================
  */
 
-document.addEventListener('DOMContentLoaded', () => {
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initHarmonicusSX);
+} else {
   initHarmonicusSX();
-});
+}
 
 let activeTunerBand = 'daily';
 let focusedSpectralNodeId = null; // null = visão panorâmica
