@@ -1,9 +1,9 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-31 06:17:54)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-31 06:19:09)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-31 06:17:54",
-  "total_brl": 2204.17,
+  "timestamp_str": "2026-08-31 06:19:09",
+  "total_brl": 2204.12,
   "aportado_brl": 2220.0,
-  "lucro_liquido_real_brl": -15.83,
+  "lucro_liquido_real_brl": -15.88,
   "caixa_brl": 92.7,
   "caixa_pct": 4.21,
   "btc_brl": 227.07,
@@ -14,8 +14,8 @@ window.PORTFOLIO_STATE = {
   "link_pct": 11.48,
   "sol_brl": 365.12,
   "sol_qtd": 0.679175,
-  "sol_pct": 16.56,
-  "paxg_brl": 503.81,
+  "sol_pct": 16.57,
+  "paxg_brl": 503.76,
   "paxg_qtd": 0.02174625,
   "paxg_pct": 22.86,
   "usdt_brl": 3.53,
@@ -44,7 +44,7 @@ window.PORTFOLIO_STATE = {
       "asset": "PAXG",
       "nome": "Ouro PAXG (Simple Earn)",
       "qtd": 0.02174625,
-      "valor_brl": 503.81,
+      "valor_brl": 503.76,
       "pct": 22.86,
       "cor": "#EAB308",
       "icone": "🥇"
@@ -54,7 +54,7 @@ window.PORTFOLIO_STATE = {
       "nome": "Solana Spot (Corisco/Gravidade)",
       "qtd": 0.679,
       "valor_brl": 365.12,
-      "pct": 16.56,
+      "pct": 16.57,
       "cor": "#A855F7",
       "icone": "⚡"
     },
@@ -116,7 +116,7 @@ window.PORTFOLIO_STATE = {
   "cotacoes_ao_vivo": {
     "BTCBRL": 410112.0,
     "USDTBRL": 5.2143,
-    "PAXGBRL": 23167.760616,
+    "PAXGBRL": 23165.309895,
     "SOLBRL": 537.6,
     "ETHBRL": 12752.88,
     "LINKBRL": 58.81,
@@ -104244,7 +104244,7 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Simple Earn Flexible (3.5% a.a.)",
     "ponta_b_score": 100,
     "proximidade_score": 0,
-    "valor_atual_str": "Ouro PAXG: R$ 23167.76 (Piso Ratchet Ativo)",
+    "valor_atual_str": "Ouro PAXG: R$ 23165.31 (Piso Ratchet Ativo)",
     "distancia_display": "DCA Ativo (R$ 50 a cada 5 dias)",
     "status": "ACUMULADOR_PERPETUO_ATIVO",
     "icone": "🥇",
