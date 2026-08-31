@@ -1,6 +1,6 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-31 20:40:04)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-31 20:41:07)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-31 20:40:04",
+  "timestamp_str": "2026-08-31 20:41:07",
   "total_brl": 2204.95,
   "aportado_brl": 2220.0,
   "lucro_liquido_real_brl": -15.05,
@@ -126,9 +126,9 @@ window.PORTFOLIO_STATE = {
     "USDBRL_COMERCIAL": 5.1837
   },
   "harmonicus_sensores": {
-    "pc1": 0.4049,
-    "entropia": 1.7257,
-    "energia_wavelet_morlet": 0.0247,
+    "pc1": 0.4072,
+    "entropia": 1.7145,
+    "energia_wavelet_morlet": 0.0251,
     "fluxo_ste": 0.0301,
     "regime": "CALIBRAÇÃO_QUANT_ATIVA",
     "fator_lote": 1.0
