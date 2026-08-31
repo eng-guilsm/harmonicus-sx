@@ -1,23 +1,14 @@
 /**
  * ==============================================================================
- * HARMONICUS SX // PÁGINA 1: PORTFOLIO TACTICAL HUD CONTROLLER (v4.7)
+ * HARMONICUS SX // PÁGINA 1: PORTFOLIO TACTICAL HUD CONTROLLER (v4.6)
  * Termômetro 100% AO VIVO com Filtro de Risco, Séries Históricas (1H, 24H, 7D, 30D),
  * Tooltip Interativa com Crosshair e 3 Pilares Executivos Oficiais
  * ==============================================================================
  */
 
-// Helper de formatação de moeda brasileira garantido globalmente
-function fmt(val) {
-  if (val === null || val === undefined || isNaN(Number(val))) return '0,00';
-  return Number(val).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-}
-window.fmt = fmt;
-
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initTacticalHUD);
-} else {
+document.addEventListener('DOMContentLoaded', () => {
   initTacticalHUD();
-}
+});
 
 let activePlanFilter = 'all';
 let activeModalPlanId = null;
@@ -50,28 +41,10 @@ function renderHeroPatrimony(p) {
   const elGatekeeperBadge = document.getElementById('gatekeeperBadge');
   const elGatekeeperDetail = document.getElementById('gatekeeperDetail');
 
-  if (elPatrimonio) elPatrimonio.textContent = fmt(p.total_brl || 2221.84);
-  if (elCaixa) elCaixa.textContent = fmt(p.caixa_brl || 1494.95);
+  const fmt = (v) => v ? v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '--';
 
-  const elHeroTag = document.getElementById('heroTagRecuperacao');
-  const elHeroSubtext = document.getElementById('heroSubtextPatrimonio');
-  const aportado = p.aportado_brl || 1712.91;
-  const total = p.total_brl || 2221.84;
-  const lucro_real = total - aportado;
-  const ret_pct = (lucro_real / aportado) * 100;
-
-  if (elHeroTag && elHeroSubtext) {
-    if (lucro_real >= 0) {
-      elHeroTag.className = "hero-tag positive";
-      elHeroTag.textContent = `LUCRO REAL +${ret_pct.toFixed(1)}%`;
-      elHeroSubtext.innerHTML = `Total Aportado: R$ ${fmt(aportado)} | Lucro Líquido Real: <b style="color:#10B981">+R$ ${fmt(lucro_real)}</b> (+${ret_pct.toFixed(2)}%).`;
-    } else {
-      const recup_pct = (total / aportado) * 100;
-      elHeroTag.className = "hero-tag warning";
-      elHeroTag.textContent = `RECUPERAÇÃO ${recup_pct.toFixed(1)}%`;
-      elHeroSubtext.innerHTML = `Total Aportado: R$ ${fmt(aportado)} | Prejuízo residual: <b>R$ ${fmt(Math.abs(lucro_real))}</b> (${recup_pct.toFixed(1)}%).`;
-    }
-  }
+  if (elPatrimonio) elPatrimonio.textContent = fmt(p.total_brl || 1709.72);
+  if (elCaixa) elCaixa.textContent = fmt(p.caixa_brl || 1150.00);
 
   const c = p.cotacoes_ao_vivo || {};
   if (elBtc && c.BTCBRL) elBtc.textContent = `R$ ${Math.round(c.BTCBRL).toLocaleString('pt-BR')}`;
@@ -172,26 +145,19 @@ function renderLiveThermometer(plans, filter) {
     const badgeClass = isLow ? 'badge-low' : 'badge-mid';
     const badgeText = isLow ? '🛡️ BAIXO RISCO' : '⚡ MÉDIO RISCO';
 
-    const isDual = plan.dual_resonance || [4, 5, 6, 8].includes(plan.id);
-    const planName = isDual ? (plan.nome.includes('⭐') ? plan.nome : `⭐ ${plan.nome}`) : plan.nome;
-    const dualBadge = isDual ? `<span class="plan-badge badge-quantum" style="background: rgba(245, 158, 11, 0.18); color: #FBBF24; border: 1px solid #F59E0B; font-weight: 700; font-size: 0.62rem; margin-left: 4px;">⭐ DUAL-SCALE</span>` : '';
-
-    const pA_label = plan.ponta_a_label || 'Entrada / Compra';
-    const pA_score = plan.ponta_a_score || 0;
-    const pB_label = plan.ponta_b_label || 'Saída / Realização';
-    const pB_score = plan.ponta_b_score || 0;
+    const pA_score = plan.ponta_a_score !== undefined ? plan.ponta_a_score : plan.proximidade_score;
+    const pB_score = plan.ponta_b_score !== undefined ? plan.ponta_b_score : 0;
+    const pA_label = plan.ponta_a_label || 'Ponta A: Compra / Rotação A';
+    const pB_label = plan.ponta_b_label || 'Ponta B: Venda / Rotação B';
 
     return `
       <div class="thermo-card" data-plan-id="${plan.id}" style="border-top: 3px solid ${plan.cor};" title="Clique para abrir análise executiva e histórico">
         <div class="thermo-header">
           <span class="thermo-rank">#${idx + 1} AO VIVO</span>
-          <div style="display: flex; gap: 4px; align-items: center;">
-            ${dualBadge}
-            <span class="plan-badge ${badgeClass}">${badgeText}</span>
-          </div>
+          <span class="plan-badge ${badgeClass}">${badgeText}</span>
         </div>
         <div>
-          <div class="thermo-name">${plan.icone} ${planName}</div>
+          <div class="thermo-name">${plan.icone} ${plan.nome}</div>
           <div class="thermo-par-tag">${plan.par} • Lote: R$ ${plan.lote_brl.toFixed(2)}</div>
         </div>
         <div class="thermo-dist">${plan.valor_atual_str || ''}</div>
@@ -238,6 +204,18 @@ function renderLiveThermometer(plans, filter) {
 }
 
 function initFilterButtons(plans) {
+  const allCount = plans.length;
+  const lowCount = plans.filter(p => p.categoria === 'baixo_risco').length;
+  const midCount = plans.filter(p => p.categoria === 'medio_risco').length;
+
+  const btnAll = document.querySelector('.filter-btn[data-filter="all"]');
+  const btnLow = document.querySelector('.filter-btn[data-filter="baixo_risco"]');
+  const btnMid = document.querySelector('.filter-btn[data-filter="medio_risco"]');
+
+  if (btnAll) btnAll.textContent = `TODOS (${allCount})`;
+  if (btnLow) btnLow.textContent = `🛡️ BAIXO RISCO (${lowCount})`;
+  if (btnMid) btnMid.textContent = `⚡ MÉDIO RISCO (${midCount})`;
+
   const buttons = document.querySelectorAll('.filter-btn');
   buttons.forEach(btn => {
     btn.addEventListener('click', () => {
