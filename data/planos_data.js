@@ -1,6 +1,6 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-01 01:17:01)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-01 01:17:35)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-09-01 01:17:01",
+  "timestamp_str": "2026-09-01 01:17:35",
   "total_brl": 2210.13,
   "aportado_brl": 2220.0,
   "lucro_liquido_real_brl": -9.87,
@@ -116,7 +116,7 @@ window.PORTFOLIO_STATE = {
   "cotacoes_ao_vivo": {
     "BTCBRL": 409296.0,
     "USDTBRL": 5.2004,
-    "PAXGBRL": 23057.585524000002,
+    "PAXGBRL": 23057.53352,
     "SOLBRL": 539.2,
     "ETHBRL": 12868.78,
     "LINKBRL": 59.56,
@@ -104244,7 +104244,7 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Simple Earn Flexible (3.5% a.a.)",
     "ponta_b_score": 100,
     "proximidade_score": 0,
-    "valor_atual_str": "Ouro PAXG: R$ 23057.59 (Piso Ratchet Ativo)",
+    "valor_atual_str": "Ouro PAXG: R$ 23057.53 (Piso Ratchet Ativo)",
     "distancia_display": "DCA Ativo (R$ 50 a cada 5 dias)",
     "status": "ACUMULADOR_PERPETUO_ATIVO",
     "icone": "🥇",
