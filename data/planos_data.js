@@ -1,21 +1,21 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-31 21:06:39)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-08-31 21:07:40)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-08-31 21:06:39",
-  "total_brl": 2207.04,
+  "timestamp_str": "2026-08-31 21:07:40",
+  "total_brl": 2206.8,
   "aportado_brl": 2220.0,
-  "lucro_liquido_real_brl": -12.96,
+  "lucro_liquido_real_brl": -13.2,
   "caixa_brl": 92.7,
   "caixa_pct": 4.2,
-  "btc_brl": 226.57,
-  "btc_qtd": 0.00055368,
-  "btc_pct": 10.27,
+  "btc_brl": 586.01,
+  "btc_qtd": 0.00143205,
+  "btc_pct": 26.55,
   "link_brl": 253.45,
   "link_qtd": 4.30302442,
   "link_pct": 11.48,
-  "sol_brl": 364.38,
-  "sol_qtd": 0.679175,
-  "sol_pct": 16.51,
-  "paxg_brl": 503.55,
+  "sol_brl": 4.92,
+  "sol_qtd": 0.009175,
+  "sol_pct": 0.22,
+  "paxg_brl": 503.6,
   "paxg_qtd": 0.02174625,
   "paxg_pct": 22.82,
   "usdt_brl": 3.52,
@@ -23,10 +23,10 @@ window.PORTFOLIO_STATE = {
   "usdt_pct": 0.16,
   "eth_brl": 388.53,
   "eth_qtd": 0.0302688,
-  "eth_pct": 17.6,
-  "bnb_brl": 250.74,
+  "eth_pct": 17.61,
+  "bnb_brl": 250.47,
   "bnb_qtd": 0.0697,
-  "bnb_pct": 11.36,
+  "bnb_pct": 11.35,
   "ada_brl": 123.6,
   "ada_qtd": 120.0,
   "ada_pct": 5.6,
@@ -44,7 +44,7 @@ window.PORTFOLIO_STATE = {
       "asset": "PAXG",
       "nome": "Ouro PAXG (Simple Earn)",
       "qtd": 0.02174625,
-      "valor_brl": 503.55,
+      "valor_brl": 503.6,
       "pct": 22.82,
       "cor": "#EAB308",
       "icone": "🥇"
@@ -52,18 +52,18 @@ window.PORTFOLIO_STATE = {
     {
       "asset": "SOL",
       "nome": "Solana Spot (Corisco/Gravidade)",
-      "qtd": 0.679,
-      "valor_brl": 364.38,
-      "pct": 16.51,
+      "qtd": 0.009,
+      "valor_brl": 4.92,
+      "pct": 0.22,
       "cor": "#A855F7",
       "icone": "⚡"
     },
     {
       "asset": "BTC",
       "nome": "Bitcoin Spot (Reserva/Sagarana)",
-      "qtd": 0.00055368,
-      "valor_brl": 226.57,
-      "pct": 10.27,
+      "qtd": 0.00143205,
+      "valor_brl": 586.01,
+      "pct": 26.55,
       "cor": "#F59E0B",
       "icone": "🪙"
     },
@@ -72,7 +72,7 @@ window.PORTFOLIO_STATE = {
       "nome": "Ethereum Spot (Duelo de Titãs)",
       "qtd": 0.0303,
       "valor_brl": 388.53,
-      "pct": 17.6,
+      "pct": 17.61,
       "cor": "#3B82F6",
       "icone": "⚔️"
     },
@@ -89,8 +89,8 @@ window.PORTFOLIO_STATE = {
       "asset": "BNB",
       "nome": "Binance Coin (Sentinela)",
       "qtd": 0.0697,
-      "valor_brl": 250.74,
-      "pct": 11.36,
+      "valor_brl": 250.47,
+      "pct": 11.35,
       "cor": "#F59E0B",
       "icone": "🛡️"
     },
@@ -116,7 +116,7 @@ window.PORTFOLIO_STATE = {
   "cotacoes_ao_vivo": {
     "BTCBRL": 409214.0,
     "USDTBRL": 5.2014,
-    "PAXGBRL": 23155.696547999996,
+    "PAXGBRL": 23158.037178,
     "SOLBRL": 536.5,
     "ETHBRL": 12835.89,
     "LINKBRL": 58.9,
@@ -52259,17 +52259,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "20:12",
           "label": "20:12",
-          "score": 4,
+          "score": 0,
           "score_a": 0,
-          "score_b": 4,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.01σ)"
         },
         {
           "time": "20:13",
           "label": "20:13",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.40σ)"
         },
         {
@@ -52403,25 +52403,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "20:30",
           "label": "20:30",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.97σ)"
         },
         {
           "time": "20:31",
           "label": "20:31",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.75σ)"
         },
         {
           "time": "20:32",
           "label": "20:32",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +1.01σ)"
         },
         {
@@ -52435,9 +52435,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "20:34",
           "label": "20:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.54σ)"
         },
         {
@@ -52603,49 +52603,49 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "20:55",
           "label": "20:55",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.37σ)"
         },
         {
           "time": "20:56",
           "label": "20:56",
-          "score": 68,
+          "score": 0,
           "score_a": 0,
-          "score_b": 68,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.24σ)"
         },
         {
           "time": "20:57",
           "label": "20:57",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.36σ)"
         },
         {
           "time": "20:58",
           "label": "20:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.35σ)"
         },
         {
           "time": "20:59",
           "label": "20:59",
-          "score": 73,
+          "score": 0,
           "score_a": 0,
-          "score_b": 73,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.26σ)"
         },
         {
           "time": "21:00",
           "label": "21:00",
-          "score": 30,
+          "score": 0,
           "score_a": 0,
-          "score_b": 30,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.11σ)"
         },
         {
@@ -52659,9 +52659,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "21:02",
           "label": "21:02",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.53σ)"
         },
         {
@@ -52765,9 +52765,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "21:22",
           "label": "21:22",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.60σ)"
         },
         {
@@ -52829,9 +52829,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "21:38",
           "label": "21:38",
-          "score": 30,
+          "score": 0,
           "score_a": 0,
-          "score_b": 30,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.10σ)"
         },
         {
@@ -52853,9 +52853,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "21:44",
           "label": "21:44",
-          "score": 26,
+          "score": 0,
           "score_a": 0,
-          "score_b": 26,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.09σ)"
         },
         {
@@ -53005,9 +53005,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22:22",
           "label": "22:22",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +1.10σ)"
         },
         {
@@ -53189,25 +53189,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23:08",
           "label": "23:08",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001310 (Z_comp: +0.56σ)"
         },
         {
           "time": "23:10",
           "label": "23:10",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001310 (Z_comp: +0.47σ)"
         },
         {
           "time": "23:12",
           "label": "23:12",
-          "score": 27,
+          "score": 0,
           "score_a": 0,
-          "score_b": 27,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001310 (Z_comp: +0.09σ)"
         },
         {
@@ -53221,17 +53221,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23:16",
           "label": "23:16",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.56σ)"
         },
         {
           "time": "23:18",
           "label": "23:18",
-          "score": 90,
+          "score": 0,
           "score_a": 0,
-          "score_b": 90,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.31σ)"
         },
         {
@@ -53261,9 +53261,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23:26",
           "label": "23:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.40σ)"
         },
         {
@@ -53325,9 +53325,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23:42",
           "label": "23:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.93σ)"
         },
         {
@@ -53349,9 +53349,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23:48",
           "label": "23:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.86σ)"
         },
         {
@@ -53413,17 +53413,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "00:04",
           "label": "00:04",
-          "score": 72,
+          "score": 0,
           "score_a": 0,
-          "score_b": 72,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.25σ)"
         },
         {
           "time": "00:06",
           "label": "00:06",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.37σ)"
         },
         {
@@ -53437,17 +53437,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "00:10",
           "label": "00:10",
-          "score": 72,
+          "score": 0,
           "score_a": 0,
-          "score_b": 72,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.25σ)"
         },
         {
           "time": "00:12",
           "label": "00:12",
-          "score": 67,
+          "score": 0,
           "score_a": 0,
-          "score_b": 67,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.24σ)"
         },
         {
@@ -53549,9 +53549,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "00:38",
           "label": "00:38",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.77σ)"
         },
         {
@@ -53565,17 +53565,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "00:42",
           "label": "00:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +1.46σ)"
         },
         {
           "time": "00:44",
           "label": "00:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.39σ)"
         },
         {
@@ -53597,33 +53597,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "00:50",
           "label": "00:50",
-          "score": 52,
+          "score": 0,
           "score_a": 0,
-          "score_b": 52,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.18σ)"
         },
         {
           "time": "00:52",
           "label": "00:52",
-          "score": 86,
+          "score": 0,
           "score_a": 0,
-          "score_b": 86,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.30σ)"
         },
         {
           "time": "00:54",
           "label": "00:54",
-          "score": 64,
+          "score": 0,
           "score_a": 0,
-          "score_b": 64,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.23σ)"
         },
         {
           "time": "00:56",
           "label": "00:56",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.48σ)"
         },
         {
@@ -53781,9 +53781,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "01:36",
           "label": "01:36",
-          "score": 21,
+          "score": 0,
           "score_a": 0,
-          "score_b": 21,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001306 (Z_comp: +0.07σ)"
         },
         {
@@ -53797,33 +53797,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "01:40",
           "label": "01:40",
-          "score": 70,
+          "score": 0,
           "score_a": 0,
-          "score_b": 70,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001306 (Z_comp: +0.24σ)"
         },
         {
           "time": "01:42",
           "label": "01:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001308 (Z_comp: +0.90σ)"
         },
         {
           "time": "01:44",
           "label": "01:44",
-          "score": 44,
+          "score": 0,
           "score_a": 0,
-          "score_b": 44,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001307 (Z_comp: +0.15σ)"
         },
         {
           "time": "01:46",
           "label": "01:46",
-          "score": 70,
+          "score": 0,
           "score_a": 0,
-          "score_b": 70,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001308 (Z_comp: +0.24σ)"
         },
         {
@@ -53885,9 +53885,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "02:02",
           "label": "02:02",
-          "score": 53,
+          "score": 0,
           "score_a": 0,
-          "score_b": 53,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001307 (Z_comp: +0.19σ)"
         },
         {
@@ -53909,9 +53909,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "02:08",
           "label": "02:08",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001309 (Z_comp: +0.43σ)"
         },
         {
@@ -53949,57 +53949,57 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "02:18",
           "label": "02:18",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001309 (Z_comp: +0.54σ)"
         },
         {
           "time": "02:20",
           "label": "02:20",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +1.03σ)"
         },
         {
           "time": "02:22",
           "label": "02:22",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +1.81σ)"
         },
         {
           "time": "02:24",
           "label": "02:24",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.73σ)"
         },
         {
           "time": "02:26",
           "label": "02:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001318 (Z_comp: +1.07σ)"
         },
         {
           "time": "02:28",
           "label": "02:28",
-          "score": 47,
+          "score": 0,
           "score_a": 0,
-          "score_b": 47,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +0.16σ)"
         },
         {
           "time": "02:30",
           "label": "02:30",
-          "score": 51,
+          "score": 0,
           "score_a": 0,
-          "score_b": 51,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.18σ)"
         },
         {
@@ -54069,17 +54069,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "02:48",
           "label": "02:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.36σ)"
         },
         {
           "time": "02:50",
           "label": "02:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.53σ)"
         },
         {
@@ -54101,9 +54101,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "02:56",
           "label": "02:56",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.54σ)"
         },
         {
@@ -54133,9 +54133,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "03:04",
           "label": "03:04",
-          "score": 44,
+          "score": 0,
           "score_a": 0,
-          "score_b": 44,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.15σ)"
         },
         {
@@ -54189,17 +54189,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "03:18",
           "label": "03:18",
-          "score": 35,
+          "score": 0,
           "score_a": 0,
-          "score_b": 35,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.12σ)"
         },
         {
           "time": "03:20",
           "label": "03:20",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +1.33σ)"
         },
         {
@@ -54253,33 +54253,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "03:34",
           "label": "03:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.48σ)"
         },
         {
           "time": "03:36",
           "label": "03:36",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.55σ)"
         },
         {
           "time": "03:38",
           "label": "03:38",
-          "score": 15,
+          "score": 0,
           "score_a": 0,
-          "score_b": 15,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.05σ)"
         },
         {
           "time": "03:40",
           "label": "03:40",
-          "score": 19,
+          "score": 0,
           "score_a": 0,
-          "score_b": 19,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.07σ)"
         },
         {
@@ -54293,9 +54293,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "03:44",
           "label": "03:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.36σ)"
         },
         {
@@ -54309,9 +54309,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "03:48",
           "label": "03:48",
-          "score": 11,
+          "score": 0,
           "score_a": 0,
-          "score_b": 11,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.04σ)"
         },
         {
@@ -54341,17 +54341,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "03:56",
           "label": "03:56",
-          "score": 71,
+          "score": 0,
           "score_a": 0,
-          "score_b": 71,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.25σ)"
         },
         {
           "time": "03:58",
           "label": "03:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.75σ)"
         },
         {
@@ -54365,9 +54365,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "04:02",
           "label": "04:02",
-          "score": 20,
+          "score": 0,
           "score_a": 0,
-          "score_b": 20,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.07σ)"
         },
         {
@@ -54381,17 +54381,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "04:06",
           "label": "04:06",
-          "score": 61,
+          "score": 0,
           "score_a": 0,
-          "score_b": 61,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.21σ)"
         },
         {
           "time": "04:08",
           "label": "04:08",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.69σ)"
         },
         {
@@ -54437,17 +54437,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "04:20",
           "label": "04:20",
-          "score": 16,
+          "score": 0,
           "score_a": 0,
-          "score_b": 16,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.06σ)"
         },
         {
           "time": "04:22",
           "label": "04:22",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.02σ)"
         },
         {
@@ -54461,9 +54461,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "04:26",
           "label": "04:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001319 (Z_comp: +1.81σ)"
         },
         {
@@ -54485,9 +54485,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "04:32",
           "label": "04:32",
-          "score": 24,
+          "score": 0,
           "score_a": 0,
-          "score_b": 24,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.08σ)"
         },
         {
@@ -54541,9 +54541,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "04:46",
           "label": "04:46",
-          "score": 4,
+          "score": 0,
           "score_a": 0,
-          "score_b": 4,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.01σ)"
         },
         {
@@ -54557,9 +54557,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "04:50",
           "label": "04:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.67σ)"
         },
         {
@@ -54573,41 +54573,41 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "04:54",
           "label": "04:54",
-          "score": 21,
+          "score": 0,
           "score_a": 0,
-          "score_b": 21,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.08σ)"
         },
         {
           "time": "04:56",
           "label": "04:56",
-          "score": 74,
+          "score": 0,
           "score_a": 0,
-          "score_b": 74,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.26σ)"
         },
         {
           "time": "04:58",
           "label": "04:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.48σ)"
         },
         {
           "time": "05:00",
           "label": "05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.89σ)"
         },
         {
           "time": "05:02",
           "label": "05:02",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.46σ)"
         },
         {
@@ -54701,9 +54701,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "05:26",
           "label": "05:26",
-          "score": 72,
+          "score": 0,
           "score_a": 0,
-          "score_b": 72,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.25σ)"
         },
         {
@@ -54717,9 +54717,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "05:30",
           "label": "05:30",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.71σ)"
         },
         {
@@ -54733,17 +54733,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "05:34",
           "label": "05:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.55σ)"
         },
         {
           "time": "05:36",
           "label": "05:36",
-          "score": 8,
+          "score": 0,
           "score_a": 0,
-          "score_b": 8,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.03σ)"
         },
         {
@@ -54765,25 +54765,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "05:42",
           "label": "05:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +1.18σ)"
         },
         {
           "time": "05:44",
           "label": "05:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001319 (Z_comp: +1.84σ)"
         },
         {
           "time": "05:46",
           "label": "05:46",
-          "score": 73,
+          "score": 0,
           "score_a": 0,
-          "score_b": 73,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.25σ)"
         },
         {
@@ -54853,9 +54853,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "06:04",
           "label": "06:04",
-          "score": 33,
+          "score": 0,
           "score_a": 0,
-          "score_b": 33,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.12σ)"
         },
         {
@@ -54957,33 +54957,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "06:30",
           "label": "06:30",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.42σ)"
         },
         {
           "time": "06:32",
           "label": "06:32",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.43σ)"
         },
         {
           "time": "06:34",
           "label": "06:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +1.34σ)"
         },
         {
           "time": "06:36",
           "label": "06:36",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.56σ)"
         },
         {
@@ -55005,9 +55005,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "06:42",
           "label": "06:42",
-          "score": 44,
+          "score": 0,
           "score_a": 0,
-          "score_b": 44,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.16σ)"
         },
         {
@@ -55037,25 +55037,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "06:50",
           "label": "06:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +1.23σ)"
         },
         {
           "time": "06:52",
           "label": "06:52",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.55σ)"
         },
         {
           "time": "06:54",
           "label": "06:54",
-          "score": 94,
+          "score": 0,
           "score_a": 0,
-          "score_b": 94,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.33σ)"
         },
         {
@@ -55133,9 +55133,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "07:14",
           "label": "07:14",
-          "score": 35,
+          "score": 0,
           "score_a": 0,
-          "score_b": 35,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.12σ)"
         },
         {
@@ -55221,17 +55221,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "07:36",
           "label": "07:36",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +1.07σ)"
         },
         {
           "time": "07:38",
           "label": "07:38",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.88σ)"
         },
         {
@@ -55245,73 +55245,73 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "07:42",
           "label": "07:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.76σ)"
         },
         {
           "time": "07:44",
           "label": "07:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.81σ)"
         },
         {
           "time": "07:46",
           "label": "07:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +0.59σ)"
         },
         {
           "time": "07:48",
           "label": "07:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +0.38σ)"
         },
         {
           "time": "07:50",
           "label": "07:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.92σ)"
         },
         {
           "time": "07:52",
           "label": "07:52",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.55σ)"
         },
         {
           "time": "07:54",
           "label": "07:54",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001322 (Z_comp: +1.73σ)"
         },
         {
           "time": "07:56",
           "label": "07:56",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001321 (Z_comp: +0.91σ)"
         },
         {
           "time": "07:58",
           "label": "07:58",
-          "score": 57,
+          "score": 0,
           "score_a": 0,
-          "score_b": 57,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001319 (Z_comp: +0.20σ)"
         },
         {
@@ -55349,89 +55349,89 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "08:08",
           "label": "08:08",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001320 (Z_comp: +0.37σ)"
         },
         {
           "time": "08:10",
           "label": "08:10",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001320 (Z_comp: +0.85σ)"
         },
         {
           "time": "08:12",
           "label": "08:12",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001321 (Z_comp: +0.93σ)"
         },
         {
           "time": "08:14",
           "label": "08:14",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001322 (Z_comp: +1.16σ)"
         },
         {
           "time": "08:16",
           "label": "08:16",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001322 (Z_comp: +0.69σ)"
         },
         {
           "time": "08:18",
           "label": "08:18",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001322 (Z_comp: +0.41σ)"
         },
         {
           "time": "08:20",
           "label": "08:20",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001325 (Z_comp: +1.45σ)"
         },
         {
           "time": "08:22",
           "label": "08:22",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001324 (Z_comp: +0.79σ)"
         },
         {
           "time": "08:24",
           "label": "08:24",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001325 (Z_comp: +0.78σ)"
         },
         {
           "time": "08:26",
           "label": "08:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001325 (Z_comp: +0.62σ)"
         },
         {
           "time": "08:28",
           "label": "08:28",
-          "score": 17,
+          "score": 0,
           "score_a": 0,
-          "score_b": 17,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001324 (Z_comp: +0.06σ)"
         },
         {
@@ -55477,17 +55477,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "08:40",
           "label": "08:40",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001324 (Z_comp: +0.72σ)"
         },
         {
           "time": "08:42",
           "label": "08:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001324 (Z_comp: +0.70σ)"
         },
         {
@@ -55589,9 +55589,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:08",
           "label": "09:08",
-          "score": 6,
+          "score": 0,
           "score_a": 0,
-          "score_b": 6,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001320 (Z_comp: +0.02σ)"
         },
         {
@@ -55621,9 +55621,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:16",
           "label": "09:16",
-          "score": 53,
+          "score": 0,
           "score_a": 0,
-          "score_b": 53,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001321 (Z_comp: +0.19σ)"
         },
         {
@@ -55669,17 +55669,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:28",
           "label": "09:28",
-          "score": 56,
+          "score": 0,
           "score_a": 0,
-          "score_b": 56,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001321 (Z_comp: +0.20σ)"
         },
         {
           "time": "09:30",
           "label": "09:30",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001321 (Z_comp: +0.67σ)"
         },
         {
@@ -55693,17 +55693,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "09:34",
           "label": "09:34",
-          "score": 30,
+          "score": 0,
           "score_a": 0,
-          "score_b": 30,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001321 (Z_comp: +0.10σ)"
         },
         {
           "time": "09:36",
           "label": "09:36",
-          "score": 45,
+          "score": 0,
           "score_a": 0,
-          "score_b": 45,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001321 (Z_comp: +0.16σ)"
         },
         {
@@ -55909,9 +55909,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:28",
           "label": "10:28",
-          "score": 23,
+          "score": 0,
           "score_a": 0,
-          "score_b": 23,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.08σ)"
         },
         {
@@ -55933,9 +55933,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:34",
           "label": "10:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001318 (Z_comp: +0.84σ)"
         },
         {
@@ -55997,9 +55997,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:50",
           "label": "10:50",
-          "score": 6,
+          "score": 0,
           "score_a": 0,
-          "score_b": 6,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.02σ)"
         },
         {
@@ -56013,25 +56013,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:54",
           "label": "10:54",
-          "score": 88,
+          "score": 0,
           "score_a": 0,
-          "score_b": 88,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.31σ)"
         },
         {
           "time": "10:56",
           "label": "10:56",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.36σ)"
         },
         {
           "time": "10:58",
           "label": "10:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +1.11σ)"
         },
         {
@@ -56045,9 +56045,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:02",
           "label": "11:02",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.40σ)"
         },
         {
@@ -56061,9 +56061,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:06",
           "label": "11:06",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.67σ)"
         },
         {
@@ -56077,9 +56077,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:10",
           "label": "11:10",
-          "score": 9,
+          "score": 0,
           "score_a": 0,
-          "score_b": 9,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.03σ)"
         },
         {
@@ -56101,9 +56101,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:16",
           "label": "11:16",
-          "score": 90,
+          "score": 0,
           "score_a": 0,
-          "score_b": 90,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.31σ)"
         },
         {
@@ -56125,17 +56125,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:22",
           "label": "11:22",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +1.01σ)"
         },
         {
           "time": "11:24",
           "label": "11:24",
-          "score": 81,
+          "score": 0,
           "score_a": 0,
-          "score_b": 81,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.29σ)"
         },
         {
@@ -56197,49 +56197,49 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:40",
           "label": "11:40",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +0.62σ)"
         },
         {
           "time": "11:42",
           "label": "11:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001319 (Z_comp: +2.09σ)"
         },
         {
           "time": "11:44",
           "label": "11:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.61σ)"
         },
         {
           "time": "11:46",
           "label": "11:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001319 (Z_comp: +1.09σ)"
         },
         {
           "time": "11:48",
           "label": "11:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001319 (Z_comp: +0.62σ)"
         },
         {
           "time": "11:50",
           "label": "11:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001323 (Z_comp: +1.35σ)"
         },
         {
@@ -56309,9 +56309,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "12:08",
           "label": "12:08",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001319 (Z_comp: +0.93σ)"
         },
         {
@@ -56373,33 +56373,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "12:24",
           "label": "12:24",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.56σ)"
         },
         {
           "time": "12:26",
           "label": "12:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +1.08σ)"
         },
         {
           "time": "12:28",
           "label": "12:28",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.40σ)"
         },
         {
           "time": "12:30",
           "label": "12:30",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001318 (Z_comp: +1.11σ)"
         },
         {
@@ -56621,9 +56621,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "13:26",
           "label": "13:26",
-          "score": 6,
+          "score": 0,
           "score_a": 0,
-          "score_b": 6,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001306 (Z_comp: +0.02σ)"
         },
         {
@@ -56669,57 +56669,57 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "13:38",
           "label": "13:38",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001307 (Z_comp: +1.06σ)"
         },
         {
           "time": "13:40",
           "label": "13:40",
-          "score": 91,
+          "score": 0,
           "score_a": 0,
-          "score_b": 91,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001306 (Z_comp: +0.32σ)"
         },
         {
           "time": "13:42",
           "label": "13:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001307 (Z_comp: +0.40σ)"
         },
         {
           "time": "13:44",
           "label": "13:44",
-          "score": 63,
+          "score": 0,
           "score_a": 0,
-          "score_b": 63,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001307 (Z_comp: +0.22σ)"
         },
         {
           "time": "13:46",
           "label": "13:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001309 (Z_comp: +0.79σ)"
         },
         {
           "time": "13:48",
           "label": "13:48",
-          "score": 83,
+          "score": 0,
           "score_a": 0,
-          "score_b": 83,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001308 (Z_comp: +0.29σ)"
         },
         {
           "time": "13:50",
           "label": "13:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001309 (Z_comp: +0.41σ)"
         },
         {
@@ -56741,9 +56741,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "13:56",
           "label": "13:56",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001309 (Z_comp: +0.89σ)"
         },
         {
@@ -56813,25 +56813,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "14:14",
           "label": "14:14",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001309 (Z_comp: +0.88σ)"
         },
         {
           "time": "14:16",
           "label": "14:16",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001310 (Z_comp: +0.90σ)"
         },
         {
           "time": "14:18",
           "label": "14:18",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001309 (Z_comp: +0.38σ)"
         },
         {
@@ -56853,17 +56853,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "14:24",
           "label": "14:24",
-          "score": 26,
+          "score": 0,
           "score_a": 0,
-          "score_b": 26,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001309 (Z_comp: +0.09σ)"
         },
         {
           "time": "14:26",
           "label": "14:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001310 (Z_comp: +0.37σ)"
         },
         {
@@ -56885,25 +56885,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "14:32",
           "label": "14:32",
-          "score": 69,
+          "score": 0,
           "score_a": 0,
-          "score_b": 69,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001309 (Z_comp: +0.24σ)"
         },
         {
           "time": "14:34",
           "label": "14:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001310 (Z_comp: +0.73σ)"
         },
         {
           "time": "14:36",
           "label": "14:36",
-          "score": 83,
+          "score": 0,
           "score_a": 0,
-          "score_b": 83,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001309 (Z_comp: +0.29σ)"
         },
         {
@@ -56925,49 +56925,49 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "14:42",
           "label": "14:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +1.50σ)"
         },
         {
           "time": "14:44",
           "label": "14:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.63σ)"
         },
         {
           "time": "14:46",
           "label": "14:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +1.18σ)"
         },
         {
           "time": "14:48",
           "label": "14:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.70σ)"
         },
         {
           "time": "14:50",
           "label": "14:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.83σ)"
         },
         {
           "time": "14:52",
           "label": "14:52",
-          "score": 27,
+          "score": 0,
           "score_a": 0,
-          "score_b": 27,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.09σ)"
         },
         {
@@ -56989,25 +56989,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "14:58",
           "label": "14:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +0.47σ)"
         },
         {
           "time": "15:00",
           "label": "15:00",
-          "score": 96,
+          "score": 0,
           "score_a": 0,
-          "score_b": 96,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +0.34σ)"
         },
         {
           "time": "15:02",
           "label": "15:02",
-          "score": 19,
+          "score": 0,
           "score_a": 0,
-          "score_b": 19,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.06σ)"
         },
         {
@@ -57061,41 +57061,41 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "15:16",
           "label": "15:16",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.69σ)"
         },
         {
           "time": "15:18",
           "label": "15:18",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +1.11σ)"
         },
         {
           "time": "15:20",
           "label": "15:20",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +0.57σ)"
         },
         {
           "time": "15:22",
           "label": "15:22",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +1.00σ)"
         },
         {
           "time": "15:24",
           "label": "15:24",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +1.05σ)"
         },
         {
@@ -57109,9 +57109,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "15:28",
           "label": "15:28",
-          "score": 19,
+          "score": 0,
           "score_a": 0,
-          "score_b": 19,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +0.07σ)"
         },
         {
@@ -57125,9 +57125,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "15:32",
           "label": "15:32",
-          "score": 45,
+          "score": 0,
           "score_a": 0,
-          "score_b": 45,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.16σ)"
         },
         {
@@ -57141,57 +57141,57 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "15:36",
           "label": "15:36",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001318 (Z_comp: +1.10σ)"
         },
         {
           "time": "15:38",
           "label": "15:38",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001320 (Z_comp: +1.50σ)"
         },
         {
           "time": "15:40",
           "label": "15:40",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001323 (Z_comp: +1.50σ)"
         },
         {
           "time": "15:42",
           "label": "15:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001322 (Z_comp: +0.99σ)"
         },
         {
           "time": "15:44",
           "label": "15:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001326 (Z_comp: +1.44σ)"
         },
         {
           "time": "15:46",
           "label": "15:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001324 (Z_comp: +0.58σ)"
         },
         {
           "time": "15:48",
           "label": "15:48",
-          "score": 51,
+          "score": 0,
           "score_a": 0,
-          "score_b": 51,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001322 (Z_comp: +0.18σ)"
         },
         {
@@ -57229,17 +57229,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "15:58",
           "label": "15:58",
-          "score": 51,
+          "score": 0,
           "score_a": 0,
-          "score_b": 51,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001323 (Z_comp: +0.18σ)"
         },
         {
           "time": "16:00",
           "label": "16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001323 (Z_comp: +0.40σ)"
         },
         {
@@ -57253,9 +57253,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "16:04",
           "label": "16:04",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001323 (Z_comp: +0.75σ)"
         },
         {
@@ -57301,9 +57301,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "16:16",
           "label": "16:16",
-          "score": 98,
+          "score": 0,
           "score_a": 0,
-          "score_b": 98,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001322 (Z_comp: +0.34σ)"
         },
         {
@@ -57453,9 +57453,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "16:54",
           "label": "16:54",
-          "score": 50,
+          "score": 0,
           "score_a": 0,
-          "score_b": 50,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.18σ)"
         },
         {
@@ -57477,33 +57477,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "17:00",
           "label": "17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.83σ)"
         },
         {
           "time": "17:02",
           "label": "17:02",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.53σ)"
         },
         {
           "time": "17:04",
           "label": "17:04",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +1.02σ)"
         },
         {
           "time": "17:06",
           "label": "17:06",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +0.92σ)"
         },
         {
@@ -57541,73 +57541,73 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "17:16",
           "label": "17:16",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +0.52σ)"
         },
         {
           "time": "17:18",
           "label": "17:18",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +0.99σ)"
         },
         {
           "time": "17:20",
           "label": "17:20",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +1.29σ)"
         },
         {
           "time": "17:22",
           "label": "17:22",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +1.10σ)"
         },
         {
           "time": "17:24",
           "label": "17:24",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001319 (Z_comp: +1.25σ)"
         },
         {
           "time": "17:26",
           "label": "17:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001318 (Z_comp: +0.74σ)"
         },
         {
           "time": "17:28",
           "label": "17:28",
-          "score": 59,
+          "score": 0,
           "score_a": 0,
-          "score_b": 59,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001318 (Z_comp: +0.21σ)"
         },
         {
           "time": "17:30",
           "label": "17:30",
-          "score": 96,
+          "score": 0,
           "score_a": 0,
-          "score_b": 96,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001318 (Z_comp: +0.34σ)"
         },
         {
           "time": "17:32",
           "label": "17:32",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001319 (Z_comp: +0.72σ)"
         },
         {
@@ -57629,9 +57629,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "17:38",
           "label": "17:38",
-          "score": 4,
+          "score": 0,
           "score_a": 0,
-          "score_b": 4,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001318 (Z_comp: +0.02σ)"
         },
         {
@@ -57693,9 +57693,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "17:54",
           "label": "17:54",
-          "score": 65,
+          "score": 0,
           "score_a": 0,
-          "score_b": 65,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +0.23σ)"
         },
         {
@@ -57829,65 +57829,65 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "18:28",
           "label": "18:28",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.50σ)"
         },
         {
           "time": "18:30",
           "label": "18:30",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.47σ)"
         },
         {
           "time": "18:32",
           "label": "18:32",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +1.24σ)"
         },
         {
           "time": "18:34",
           "label": "18:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +1.10σ)"
         },
         {
           "time": "18:36",
           "label": "18:36",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.53σ)"
         },
         {
           "time": "18:38",
           "label": "18:38",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.64σ)"
         },
         {
           "time": "18:40",
           "label": "18:40",
-          "score": 26,
+          "score": 0,
           "score_a": 0,
-          "score_b": 26,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.09σ)"
         },
         {
           "time": "18:42",
           "label": "18:42",
-          "score": 87,
+          "score": 0,
           "score_a": 0,
-          "score_b": 87,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.31σ)"
         },
         {
@@ -57901,33 +57901,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "18:46",
           "label": "18:46",
-          "score": 92,
+          "score": 0,
           "score_a": 0,
-          "score_b": 92,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.32σ)"
         },
         {
           "time": "18:48",
           "label": "18:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.49σ)"
         },
         {
           "time": "18:50",
           "label": "18:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.63σ)"
         },
         {
           "time": "18:52",
           "label": "18:52",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +0.96σ)"
         },
         {
@@ -58029,25 +58029,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "19:18",
           "label": "19:18",
-          "score": 82,
+          "score": 0,
           "score_a": 0,
-          "score_b": 82,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.29σ)"
         },
         {
           "time": "19:20",
           "label": "19:20",
-          "score": 32,
+          "score": 0,
           "score_a": 0,
-          "score_b": 32,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.11σ)"
         },
         {
           "time": "19:22",
           "label": "19:22",
-          "score": 29,
+          "score": 0,
           "score_a": 0,
-          "score_b": 29,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.10σ)"
         },
         {
@@ -58077,57 +58077,57 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "19:30",
           "label": "19:30",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +1.46σ)"
         },
         {
           "time": "19:32",
           "label": "19:32",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.77σ)"
         },
         {
           "time": "19:34",
           "label": "19:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.53σ)"
         },
         {
           "time": "19:36",
           "label": "19:36",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +1.51σ)"
         },
         {
           "time": "19:38",
           "label": "19:38",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.90σ)"
         },
         {
           "time": "19:40",
           "label": "19:40",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.60σ)"
         },
         {
           "time": "19:42",
           "label": "19:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.67σ)"
         },
         {
@@ -58141,9 +58141,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "19:46",
           "label": "19:46",
-          "score": 82,
+          "score": 0,
           "score_a": 0,
-          "score_b": 82,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.29σ)"
         },
         {
@@ -58165,9 +58165,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "19:52",
           "label": "19:52",
-          "score": 50,
+          "score": 0,
           "score_a": 0,
-          "score_b": 50,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.17σ)"
         },
         {
@@ -58181,41 +58181,41 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "19:56",
           "label": "19:56",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +1.21σ)"
         },
         {
           "time": "19:58",
           "label": "19:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +1.24σ)"
         },
         {
           "time": "20:00",
           "label": "20:00",
-          "score": 35,
+          "score": 0,
           "score_a": 0,
-          "score_b": 35,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.12σ)"
         },
         {
           "time": "20:02",
           "label": "20:02",
-          "score": 47,
+          "score": 0,
           "score_a": 0,
-          "score_b": 47,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.17σ)"
         },
         {
           "time": "20:04",
           "label": "20:04",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +1.34σ)"
         },
         {
@@ -58245,9 +58245,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "20:12",
           "label": "20:12",
-          "score": 4,
+          "score": 0,
           "score_a": 0,
-          "score_b": 4,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.01σ)"
         },
         {
@@ -58317,25 +58317,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "20:30",
           "label": "20:30",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.97σ)"
         },
         {
           "time": "20:32",
           "label": "20:32",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +1.01σ)"
         },
         {
           "time": "20:34",
           "label": "20:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.54σ)"
         },
         {
@@ -58421,33 +58421,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "20:56",
           "label": "20:56",
-          "score": 68,
+          "score": 0,
           "score_a": 0,
-          "score_b": 68,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.24σ)"
         },
         {
           "time": "20:58",
           "label": "20:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.35σ)"
         },
         {
           "time": "21:00",
           "label": "21:00",
-          "score": 30,
+          "score": 0,
           "score_a": 0,
-          "score_b": 30,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.11σ)"
         },
         {
           "time": "21:02",
           "label": "21:02",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.53σ)"
         },
         {
@@ -58487,9 +58487,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "24/08 21:00",
           "label": "24/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001276 (Z_comp: +1.70σ)"
         },
         {
@@ -58511,9 +58511,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "24/08 22:00",
           "label": "24/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001278 (Z_comp: +0.53σ)"
         },
         {
@@ -58543,9 +58543,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "24/08 23:00",
           "label": "24/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001259 (Z_comp: +0.46σ)"
         },
         {
@@ -58567,33 +58567,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 00:00",
           "label": "25/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001253 (Z_comp: +0.66σ)"
         },
         {
           "time": "25/08 00:00",
           "label": "25/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001258 (Z_comp: +1.04σ)"
         },
         {
           "time": "25/08 00:00",
           "label": "25/08 00:00",
-          "score": 63,
+          "score": 0,
           "score_a": 0,
-          "score_b": 63,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001260 (Z_comp: +0.22σ)"
         },
         {
           "time": "25/08 00:00",
           "label": "25/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001261 (Z_comp: +0.43σ)"
         },
         {
@@ -58607,9 +58607,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 01:00",
           "label": "25/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001263 (Z_comp: +1.36σ)"
         },
         {
@@ -58631,25 +58631,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 02:00",
           "label": "25/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001266 (Z_comp: +1.73σ)"
         },
         {
           "time": "25/08 02:00",
           "label": "25/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001267 (Z_comp: +1.44σ)"
         },
         {
           "time": "25/08 02:00",
           "label": "25/08 02:00",
-          "score": 25,
+          "score": 0,
           "score_a": 0,
-          "score_b": 25,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001267 (Z_comp: +0.09σ)"
         },
         {
@@ -58671,9 +58671,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 03:00",
           "label": "25/08 03:00",
-          "score": 70,
+          "score": 0,
           "score_a": 0,
-          "score_b": 70,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001259 (Z_comp: +0.24σ)"
         },
         {
@@ -58695,9 +58695,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 04:00",
           "label": "25/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001258 (Z_comp: +1.10σ)"
         },
         {
@@ -58735,9 +58735,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 05:00",
           "label": "25/08 05:00",
-          "score": 60,
+          "score": 0,
           "score_a": 0,
-          "score_b": 60,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001256 (Z_comp: +0.21σ)"
         },
         {
@@ -58751,9 +58751,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 05:00",
           "label": "25/08 05:00",
-          "score": 19,
+          "score": 0,
           "score_a": 0,
-          "score_b": 19,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001257 (Z_comp: +0.07σ)"
         },
         {
@@ -58767,25 +58767,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 06:00",
           "label": "25/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001258 (Z_comp: +1.35σ)"
         },
         {
           "time": "25/08 06:00",
           "label": "25/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001258 (Z_comp: +0.54σ)"
         },
         {
           "time": "25/08 06:00",
           "label": "25/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001261 (Z_comp: +0.65σ)"
         },
         {
@@ -58879,17 +58879,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 09:00",
           "label": "25/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001247 (Z_comp: +0.78σ)"
         },
         {
           "time": "25/08 10:00",
           "label": "25/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001249 (Z_comp: +0.43σ)"
         },
         {
@@ -58919,9 +58919,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 11:00",
           "label": "25/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001237 (Z_comp: +0.92σ)"
         },
         {
@@ -58935,9 +58935,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 11:00",
           "label": "25/08 11:00",
-          "score": 45,
+          "score": 0,
           "score_a": 0,
-          "score_b": 45,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001239 (Z_comp: +0.16σ)"
         },
         {
@@ -58967,9 +58967,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 12:00",
           "label": "25/08 12:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001241 (Z_comp: +1.88σ)"
         },
         {
@@ -58983,9 +58983,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 13:00",
           "label": "25/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001239 (Z_comp: +0.71σ)"
         },
         {
@@ -58999,17 +58999,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 13:00",
           "label": "25/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001241 (Z_comp: +0.97σ)"
         },
         {
           "time": "25/08 13:00",
           "label": "25/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001243 (Z_comp: +0.72σ)"
         },
         {
@@ -59023,9 +59023,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 14:00",
           "label": "25/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001240 (Z_comp: +1.22σ)"
         },
         {
@@ -59039,9 +59039,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 14:00",
           "label": "25/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001239 (Z_comp: +0.55σ)"
         },
         {
@@ -59055,9 +59055,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 15:00",
           "label": "25/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001246 (Z_comp: +1.67σ)"
         },
         {
@@ -59143,9 +59143,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 18:00",
           "label": "25/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001238 (Z_comp: +0.77σ)"
         },
         {
@@ -59159,9 +59159,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 18:00",
           "label": "25/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001235 (Z_comp: +1.08σ)"
         },
         {
@@ -59175,9 +59175,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 19:00",
           "label": "25/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001237 (Z_comp: +0.54σ)"
         },
         {
@@ -59239,9 +59239,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 21:00",
           "label": "25/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001230 (Z_comp: +0.48σ)"
         },
         {
@@ -59263,17 +59263,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 21:00",
           "label": "25/08 21:00",
-          "score": 12,
+          "score": 0,
           "score_a": 0,
-          "score_b": 12,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001230 (Z_comp: +0.04σ)"
         },
         {
           "time": "25/08 22:00",
           "label": "25/08 22:00",
-          "score": 72,
+          "score": 0,
           "score_a": 0,
-          "score_b": 72,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001232 (Z_comp: +0.25σ)"
         },
         {
@@ -59311,9 +59311,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 23:00",
           "label": "25/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001231 (Z_comp: +0.73σ)"
         },
         {
@@ -59351,9 +59351,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 00:00",
           "label": "26/08 00:00",
-          "score": 7,
+          "score": 0,
           "score_a": 0,
-          "score_b": 7,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001229 (Z_comp: +0.03σ)"
         },
         {
@@ -59375,17 +59375,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 01:00",
           "label": "26/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001228 (Z_comp: +0.48σ)"
         },
         {
           "time": "26/08 01:00",
           "label": "26/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001232 (Z_comp: +2.10σ)"
         },
         {
@@ -59407,17 +59407,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 02:00",
           "label": "26/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001225 (Z_comp: +0.58σ)"
         },
         {
           "time": "26/08 02:00",
           "label": "26/08 02:00",
-          "score": 78,
+          "score": 0,
           "score_a": 0,
-          "score_b": 78,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001227 (Z_comp: +0.27σ)"
         },
         {
@@ -59431,9 +59431,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 03:00",
           "label": "26/08 03:00",
-          "score": 22,
+          "score": 0,
           "score_a": 0,
-          "score_b": 22,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001228 (Z_comp: +0.08σ)"
         },
         {
@@ -59447,25 +59447,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 03:00",
           "label": "26/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001227 (Z_comp: +0.54σ)"
         },
         {
           "time": "26/08 03:00",
           "label": "26/08 03:00",
-          "score": 75,
+          "score": 0,
           "score_a": 0,
-          "score_b": 75,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001226 (Z_comp: +0.26σ)"
         },
         {
           "time": "26/08 04:00",
           "label": "26/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001228 (Z_comp: +1.33σ)"
         },
         {
@@ -59495,33 +59495,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 05:00",
           "label": "26/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001230 (Z_comp: +0.73σ)"
         },
         {
           "time": "26/08 05:00",
           "label": "26/08 05:00",
-          "score": 55,
+          "score": 0,
           "score_a": 0,
-          "score_b": 55,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001231 (Z_comp: +0.19σ)"
         },
         {
           "time": "26/08 05:00",
           "label": "26/08 05:00",
-          "score": 94,
+          "score": 0,
           "score_a": 0,
-          "score_b": 94,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001231 (Z_comp: +0.33σ)"
         },
         {
           "time": "26/08 05:00",
           "label": "26/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001232 (Z_comp: +1.77σ)"
         },
         {
@@ -59551,41 +59551,41 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 06:00",
           "label": "26/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001227 (Z_comp: +0.81σ)"
         },
         {
           "time": "26/08 07:00",
           "label": "26/08 07:00",
-          "score": 11,
+          "score": 0,
           "score_a": 0,
-          "score_b": 11,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001226 (Z_comp: +0.04σ)"
         },
         {
           "time": "26/08 07:00",
           "label": "26/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001229 (Z_comp: +0.51σ)"
         },
         {
           "time": "26/08 07:00",
           "label": "26/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001232 (Z_comp: +1.37σ)"
         },
         {
           "time": "26/08 07:00",
           "label": "26/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001241 (Z_comp: +0.60σ)"
         },
         {
@@ -59599,9 +59599,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 08:00",
           "label": "26/08 08:00",
-          "score": 80,
+          "score": 0,
           "score_a": 0,
-          "score_b": 80,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001239 (Z_comp: +0.28σ)"
         },
         {
@@ -59615,9 +59615,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 08:00",
           "label": "26/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001236 (Z_comp: +1.03σ)"
         },
         {
@@ -59631,33 +59631,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001237 (Z_comp: +0.89σ)"
         },
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001239 (Z_comp: +0.38σ)"
         },
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001239 (Z_comp: +0.43σ)"
         },
         {
           "time": "26/08 10:00",
           "label": "26/08 10:00",
-          "score": 46,
+          "score": 0,
           "score_a": 0,
-          "score_b": 46,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001239 (Z_comp: +0.16σ)"
         },
         {
@@ -59671,9 +59671,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 10:00",
           "label": "26/08 10:00",
-          "score": 15,
+          "score": 0,
           "score_a": 0,
-          "score_b": 15,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001231 (Z_comp: +0.05σ)"
         },
         {
@@ -59687,9 +59687,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 11:00",
           "label": "26/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001234 (Z_comp: +1.01σ)"
         },
         {
@@ -59711,9 +59711,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 11:00",
           "label": "26/08 11:00",
-          "score": 99,
+          "score": 0,
           "score_a": 0,
-          "score_b": 99,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001228 (Z_comp: +0.35σ)"
         },
         {
@@ -59727,9 +59727,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 12:00",
           "label": "26/08 12:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001229 (Z_comp: +1.35σ)"
         },
         {
@@ -59743,9 +59743,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 12:00",
           "label": "26/08 12:00",
-          "score": 23,
+          "score": 0,
           "score_a": 0,
-          "score_b": 23,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001231 (Z_comp: +0.08σ)"
         },
         {
@@ -59759,57 +59759,57 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 13:00",
           "label": "26/08 13:00",
-          "score": 13,
+          "score": 0,
           "score_a": 0,
-          "score_b": 13,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001229 (Z_comp: +0.04σ)"
         },
         {
           "time": "26/08 13:00",
           "label": "26/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001229 (Z_comp: +1.02σ)"
         },
         {
           "time": "26/08 13:00",
           "label": "26/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001229 (Z_comp: +0.65σ)"
         },
         {
           "time": "26/08 14:00",
           "label": "26/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001230 (Z_comp: +0.72σ)"
         },
         {
           "time": "26/08 14:00",
           "label": "26/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001234 (Z_comp: +0.83σ)"
         },
         {
           "time": "26/08 14:00",
           "label": "26/08 14:00",
-          "score": 55,
+          "score": 0,
           "score_a": 0,
-          "score_b": 55,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001235 (Z_comp: +0.19σ)"
         },
         {
           "time": "26/08 14:00",
           "label": "26/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001239 (Z_comp: +0.70σ)"
         },
         {
@@ -59831,9 +59831,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 15:00",
           "label": "26/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001234 (Z_comp: +0.39σ)"
         },
         {
@@ -59879,9 +59879,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 17:00",
           "label": "26/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001235 (Z_comp: +1.31σ)"
         },
         {
@@ -59903,25 +59903,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 17:00",
           "label": "26/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001234 (Z_comp: +0.90σ)"
         },
         {
           "time": "26/08 18:00",
           "label": "26/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001237 (Z_comp: +0.82σ)"
         },
         {
           "time": "26/08 18:00",
           "label": "26/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001240 (Z_comp: +0.42σ)"
         },
         {
@@ -59935,57 +59935,57 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 18:00",
           "label": "26/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001244 (Z_comp: +1.53σ)"
         },
         {
           "time": "26/08 19:00",
           "label": "26/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001248 (Z_comp: +0.44σ)"
         },
         {
           "time": "26/08 19:00",
           "label": "26/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001278 (Z_comp: +2.15σ)"
         },
         {
           "time": "26/08 19:00",
           "label": "26/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001270 (Z_comp: +0.50σ)"
         },
         {
           "time": "26/08 19:00",
           "label": "26/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001270 (Z_comp: +0.45σ)"
         },
         {
           "time": "26/08 20:00",
           "label": "26/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001271 (Z_comp: +1.08σ)"
         },
         {
           "time": "26/08 20:00",
           "label": "26/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001279 (Z_comp: +1.72σ)"
         },
         {
@@ -59999,25 +59999,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 20:00",
           "label": "26/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001288 (Z_comp: +2.08σ)"
         },
         {
           "time": "26/08 21:00",
           "label": "26/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001289 (Z_comp: +0.48σ)"
         },
         {
           "time": "26/08 21:00",
           "label": "26/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001288 (Z_comp: +1.70σ)"
         },
         {
@@ -60031,89 +60031,89 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 21:00",
           "label": "26/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001283 (Z_comp: +1.98σ)"
         },
         {
           "time": "26/08 22:00",
           "label": "26/08 22:00",
-          "score": 1,
+          "score": 0,
           "score_a": 0,
-          "score_b": 1,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001279 (Z_comp: +0.00σ)"
         },
         {
           "time": "26/08 22:00",
           "label": "26/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001283 (Z_comp: +2.13σ)"
         },
         {
           "time": "26/08 22:00",
           "label": "26/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001291 (Z_comp: +1.72σ)"
         },
         {
           "time": "26/08 22:00",
           "label": "26/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001288 (Z_comp: +0.73σ)"
         },
         {
           "time": "26/08 23:00",
           "label": "26/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001289 (Z_comp: +1.40σ)"
         },
         {
           "time": "26/08 23:00",
           "label": "26/08 23:00",
-          "score": 72,
+          "score": 0,
           "score_a": 0,
-          "score_b": 72,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001289 (Z_comp: +0.25σ)"
         },
         {
           "time": "26/08 23:00",
           "label": "26/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001286 (Z_comp: +0.75σ)"
         },
         {
           "time": "26/08 23:00",
           "label": "26/08 23:00",
-          "score": 1,
+          "score": 0,
           "score_a": 0,
-          "score_b": 1,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001283 (Z_comp: +0.01σ)"
         },
         {
           "time": "27/08 00:00",
           "label": "27/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001285 (Z_comp: +0.81σ)"
         },
         {
           "time": "27/08 00:00",
           "label": "27/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001287 (Z_comp: +1.93σ)"
         },
         {
@@ -60135,9 +60135,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 01:00",
           "label": "27/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001283 (Z_comp: +1.97σ)"
         },
         {
@@ -60159,49 +60159,49 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 01:00",
           "label": "27/08 01:00",
-          "score": 78,
+          "score": 0,
           "score_a": 0,
-          "score_b": 78,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001283 (Z_comp: +0.27σ)"
         },
         {
           "time": "27/08 02:00",
           "label": "27/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001284 (Z_comp: +0.72σ)"
         },
         {
           "time": "27/08 02:00",
           "label": "27/08 02:00",
-          "score": 99,
+          "score": 0,
           "score_a": 0,
-          "score_b": 99,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001284 (Z_comp: +0.35σ)"
         },
         {
           "time": "27/08 02:00",
           "label": "27/08 02:00",
-          "score": 11,
+          "score": 0,
           "score_a": 0,
-          "score_b": 11,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001283 (Z_comp: +0.04σ)"
         },
         {
           "time": "27/08 02:00",
           "label": "27/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001290 (Z_comp: +1.59σ)"
         },
         {
           "time": "27/08 03:00",
           "label": "27/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001291 (Z_comp: +0.37σ)"
         },
         {
@@ -60215,25 +60215,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 03:00",
           "label": "27/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001285 (Z_comp: +1.31σ)"
         },
         {
           "time": "27/08 03:00",
           "label": "27/08 03:00",
-          "score": 27,
+          "score": 0,
           "score_a": 0,
-          "score_b": 27,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001284 (Z_comp: +0.09σ)"
         },
         {
           "time": "27/08 04:00",
           "label": "27/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001285 (Z_comp: +0.48σ)"
         },
         {
@@ -60247,49 +60247,49 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 04:00",
           "label": "27/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001285 (Z_comp: +1.73σ)"
         },
         {
           "time": "27/08 04:00",
           "label": "27/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001287 (Z_comp: +1.09σ)"
         },
         {
           "time": "27/08 05:00",
           "label": "27/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001292 (Z_comp: +2.09σ)"
         },
         {
           "time": "27/08 05:00",
           "label": "27/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001298 (Z_comp: +1.21σ)"
         },
         {
           "time": "27/08 05:00",
           "label": "27/08 05:00",
-          "score": 63,
+          "score": 0,
           "score_a": 0,
-          "score_b": 63,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001304 (Z_comp: +0.22σ)"
         },
         {
           "time": "27/08 05:00",
           "label": "27/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001310 (Z_comp: +1.26σ)"
         },
         {
@@ -60303,9 +60303,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 06:00",
           "label": "27/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001318 (Z_comp: +2.17σ)"
         },
         {
@@ -60319,17 +60319,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 06:00",
           "label": "27/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001307 (Z_comp: +0.56σ)"
         },
         {
           "time": "27/08 07:00",
           "label": "27/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001306 (Z_comp: +1.36σ)"
         },
         {
@@ -60343,33 +60343,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 07:00",
           "label": "27/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001308 (Z_comp: +1.49σ)"
         },
         {
           "time": "27/08 07:00",
           "label": "27/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001307 (Z_comp: +0.74σ)"
         },
         {
           "time": "27/08 08:00",
           "label": "27/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +1.95σ)"
         },
         {
           "time": "27/08 08:00",
           "label": "27/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +2.07σ)"
         },
         {
@@ -60391,105 +60391,105 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 09:00",
           "label": "27/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +2.04σ)"
         },
         {
           "time": "27/08 09:00",
           "label": "27/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.92σ)"
         },
         {
           "time": "27/08 09:00",
           "label": "27/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.40σ)"
         },
         {
           "time": "27/08 09:00",
           "label": "27/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001319 (Z_comp: +2.04σ)"
         },
         {
           "time": "27/08 10:00",
           "label": "27/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001318 (Z_comp: +0.75σ)"
         },
         {
           "time": "27/08 10:00",
           "label": "27/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001319 (Z_comp: +1.03σ)"
         },
         {
           "time": "27/08 10:00",
           "label": "27/08 10:00",
-          "score": 22,
+          "score": 0,
           "score_a": 0,
-          "score_b": 22,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001318 (Z_comp: +0.08σ)"
         },
         {
           "time": "27/08 10:00",
           "label": "27/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001325 (Z_comp: +1.84σ)"
         },
         {
           "time": "27/08 11:00",
           "label": "27/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001329 (Z_comp: +0.44σ)"
         },
         {
           "time": "27/08 11:00",
           "label": "27/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001330 (Z_comp: +1.83σ)"
         },
         {
           "time": "27/08 11:00",
           "label": "27/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001330 (Z_comp: +1.23σ)"
         },
         {
           "time": "27/08 11:00",
           "label": "27/08 11:00",
-          "score": 44,
+          "score": 0,
           "score_a": 0,
-          "score_b": 44,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001334 (Z_comp: +0.16σ)"
         },
         {
           "time": "27/08 12:00",
           "label": "27/08 12:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001337 (Z_comp: +2.04σ)"
         },
         {
@@ -60511,49 +60511,49 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 12:00",
           "label": "27/08 12:00",
-          "score": 24,
+          "score": 0,
           "score_a": 0,
-          "score_b": 24,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001331 (Z_comp: +0.08σ)"
         },
         {
           "time": "27/08 13:00",
           "label": "27/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001333 (Z_comp: +0.44σ)"
         },
         {
           "time": "27/08 13:00",
           "label": "27/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001338 (Z_comp: +1.53σ)"
         },
         {
           "time": "27/08 13:00",
           "label": "27/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001345 (Z_comp: +0.95σ)"
         },
         {
           "time": "27/08 13:00",
           "label": "27/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001351 (Z_comp: +1.28σ)"
         },
         {
           "time": "27/08 14:00",
           "label": "27/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001356 (Z_comp: +1.02σ)"
         },
         {
@@ -60567,17 +60567,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 14:00",
           "label": "27/08 14:00",
-          "score": 24,
+          "score": 0,
           "score_a": 0,
-          "score_b": 24,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001341 (Z_comp: +0.08σ)"
         },
         {
           "time": "27/08 14:00",
           "label": "27/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001345 (Z_comp: +2.17σ)"
         },
         {
@@ -60599,65 +60599,65 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 15:00",
           "label": "27/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001343 (Z_comp: +1.02σ)"
         },
         {
           "time": "27/08 15:00",
           "label": "27/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001346 (Z_comp: +1.84σ)"
         },
         {
           "time": "27/08 16:00",
           "label": "27/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001358 (Z_comp: +1.95σ)"
         },
         {
           "time": "27/08 16:00",
           "label": "27/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001360 (Z_comp: +1.39σ)"
         },
         {
           "time": "27/08 16:00",
           "label": "27/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001361 (Z_comp: +1.54σ)"
         },
         {
           "time": "27/08 16:00",
           "label": "27/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001365 (Z_comp: +0.58σ)"
         },
         {
           "time": "27/08 17:00",
           "label": "27/08 17:00",
-          "score": 59,
+          "score": 0,
           "score_a": 0,
-          "score_b": 59,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001364 (Z_comp: +0.21σ)"
         },
         {
           "time": "27/08 17:00",
           "label": "27/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001368 (Z_comp: +2.44σ)"
         },
         {
@@ -60671,17 +60671,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 17:00",
           "label": "27/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001363 (Z_comp: +1.08σ)"
         },
         {
           "time": "27/08 18:00",
           "label": "27/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001360 (Z_comp: +0.81σ)"
         },
         {
@@ -60695,49 +60695,49 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 18:00",
           "label": "27/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001357 (Z_comp: +0.64σ)"
         },
         {
           "time": "27/08 18:00",
           "label": "27/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001354 (Z_comp: +0.62σ)"
         },
         {
           "time": "27/08 19:00",
           "label": "27/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001368 (Z_comp: +2.00σ)"
         },
         {
           "time": "27/08 19:00",
           "label": "27/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001367 (Z_comp: +1.04σ)"
         },
         {
           "time": "27/08 19:00",
           "label": "27/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001363 (Z_comp: +0.71σ)"
         },
         {
           "time": "27/08 19:00",
           "label": "27/08 19:00",
-          "score": 53,
+          "score": 0,
           "score_a": 0,
-          "score_b": 53,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001361 (Z_comp: +0.18σ)"
         },
         {
@@ -60751,25 +60751,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 20:00",
           "label": "27/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001361 (Z_comp: +1.40σ)"
         },
         {
           "time": "27/08 20:00",
           "label": "27/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001367 (Z_comp: +0.66σ)"
         },
         {
           "time": "27/08 20:00",
           "label": "27/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001362 (Z_comp: +0.59σ)"
         },
         {
@@ -60783,25 +60783,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 21:00",
           "label": "27/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001363 (Z_comp: +1.73σ)"
         },
         {
           "time": "27/08 21:00",
           "label": "27/08 21:00",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001362 (Z_comp: +0.02σ)"
         },
         {
           "time": "27/08 21:00",
           "label": "27/08 21:00",
-          "score": 86,
+          "score": 0,
           "score_a": 0,
-          "score_b": 86,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001361 (Z_comp: +0.30σ)"
         },
         {
@@ -60815,9 +60815,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 22:00",
           "label": "27/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001351 (Z_comp: +0.63σ)"
         },
         {
@@ -60831,9 +60831,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 22:00",
           "label": "27/08 22:00",
-          "score": 50,
+          "score": 0,
           "score_a": 0,
-          "score_b": 50,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001343 (Z_comp: +0.18σ)"
         },
         {
@@ -60855,9 +60855,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 23:00",
           "label": "27/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001339 (Z_comp: +0.56σ)"
         },
         {
@@ -60879,41 +60879,41 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 00:00",
           "label": "28/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001339 (Z_comp: +2.14σ)"
         },
         {
           "time": "28/08 00:00",
           "label": "28/08 00:00",
-          "score": 68,
+          "score": 0,
           "score_a": 0,
-          "score_b": 68,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001339 (Z_comp: +0.24σ)"
         },
         {
           "time": "28/08 00:00",
           "label": "28/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001340 (Z_comp: +0.90σ)"
         },
         {
           "time": "28/08 01:00",
           "label": "28/08 01:00",
-          "score": 85,
+          "score": 0,
           "score_a": 0,
-          "score_b": 85,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001339 (Z_comp: +0.30σ)"
         },
         {
           "time": "28/08 01:00",
           "label": "28/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001343 (Z_comp: +0.79σ)"
         },
         {
@@ -60927,9 +60927,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 01:00",
           "label": "28/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001341 (Z_comp: +2.30σ)"
         },
         {
@@ -60943,33 +60943,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 02:00",
           "label": "28/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001343 (Z_comp: +0.94σ)"
         },
         {
           "time": "28/08 02:00",
           "label": "28/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001344 (Z_comp: +1.03σ)"
         },
         {
           "time": "28/08 02:00",
           "label": "28/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001346 (Z_comp: +1.72σ)"
         },
         {
           "time": "28/08 03:00",
           "label": "28/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001346 (Z_comp: +1.49σ)"
         },
         {
@@ -60983,17 +60983,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 03:00",
           "label": "28/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001344 (Z_comp: +0.75σ)"
         },
         {
           "time": "28/08 03:00",
           "label": "28/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001348 (Z_comp: +0.95σ)"
         },
         {
@@ -61047,9 +61047,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 05:00",
           "label": "28/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001336 (Z_comp: +1.25σ)"
         },
         {
@@ -61063,17 +61063,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 06:00",
           "label": "28/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001338 (Z_comp: +1.84σ)"
         },
         {
           "time": "28/08 06:00",
           "label": "28/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001341 (Z_comp: +0.61σ)"
         },
         {
@@ -61103,33 +61103,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 07:00",
           "label": "28/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001329 (Z_comp: +0.90σ)"
         },
         {
           "time": "28/08 07:00",
           "label": "28/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001334 (Z_comp: +1.51σ)"
         },
         {
           "time": "28/08 07:00",
           "label": "28/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001334 (Z_comp: +0.93σ)"
         },
         {
           "time": "28/08 08:00",
           "label": "28/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001338 (Z_comp: +1.26σ)"
         },
         {
@@ -61159,9 +61159,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 09:00",
           "label": "28/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001330 (Z_comp: +1.43σ)"
         },
         {
@@ -61191,17 +61191,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 10:00",
           "label": "28/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001322 (Z_comp: +1.09σ)"
         },
         {
           "time": "28/08 10:00",
           "label": "28/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001324 (Z_comp: +1.80σ)"
         },
         {
@@ -61231,25 +61231,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 11:00",
           "label": "28/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001324 (Z_comp: +0.79σ)"
         },
         {
           "time": "28/08 11:00",
           "label": "28/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001328 (Z_comp: +0.99σ)"
         },
         {
           "time": "28/08 11:00",
           "label": "28/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001336 (Z_comp: +0.72σ)"
         },
         {
@@ -61263,9 +61263,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 12:00",
           "label": "28/08 12:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001353 (Z_comp: +2.21σ)"
         },
         {
@@ -61303,17 +61303,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 13:00",
           "label": "28/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001346 (Z_comp: +0.36σ)"
         },
         {
           "time": "28/08 13:00",
           "label": "28/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001353 (Z_comp: +0.60σ)"
         },
         {
@@ -61335,17 +61335,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 14:00",
           "label": "28/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001345 (Z_comp: +1.31σ)"
         },
         {
           "time": "28/08 14:00",
           "label": "28/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001345 (Z_comp: +0.63σ)"
         },
         {
@@ -61383,9 +61383,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 16:00",
           "label": "28/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001330 (Z_comp: +0.64σ)"
         },
         {
@@ -61399,9 +61399,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 16:00",
           "label": "28/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001333 (Z_comp: +1.36σ)"
         },
         {
@@ -61423,25 +61423,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 17:00",
           "label": "28/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001335 (Z_comp: +0.85σ)"
         },
         {
           "time": "28/08 17:00",
           "label": "28/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001338 (Z_comp: +1.72σ)"
         },
         {
           "time": "28/08 17:00",
           "label": "28/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001343 (Z_comp: +0.83σ)"
         },
         {
@@ -61463,9 +61463,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 18:00",
           "label": "28/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001342 (Z_comp: +1.20σ)"
         },
         {
@@ -61479,9 +61479,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 19:00",
           "label": "28/08 19:00",
-          "score": 20,
+          "score": 0,
           "score_a": 0,
-          "score_b": 20,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001336 (Z_comp: +0.07σ)"
         },
         {
@@ -61503,17 +61503,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 19:00",
           "label": "28/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001339 (Z_comp: +0.56σ)"
         },
         {
           "time": "28/08 20:00",
           "label": "28/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001340 (Z_comp: +0.57σ)"
         },
         {
@@ -61535,17 +61535,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 20:00",
           "label": "28/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001339 (Z_comp: +0.76σ)"
         },
         {
           "time": "28/08 21:00",
           "label": "28/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001340 (Z_comp: +1.04σ)"
         },
         {
@@ -61575,41 +61575,41 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 22:00",
           "label": "28/08 22:00",
-          "score": 12,
+          "score": 0,
           "score_a": 0,
-          "score_b": 12,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001337 (Z_comp: +0.04σ)"
         },
         {
           "time": "28/08 22:00",
           "label": "28/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001338 (Z_comp: +0.87σ)"
         },
         {
           "time": "28/08 22:00",
           "label": "28/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001339 (Z_comp: +2.08σ)"
         },
         {
           "time": "28/08 22:00",
           "label": "28/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001339 (Z_comp: +0.94σ)"
         },
         {
           "time": "28/08 23:00",
           "label": "28/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001340 (Z_comp: +1.54σ)"
         },
         {
@@ -61631,9 +61631,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 23:00",
           "label": "28/08 23:00",
-          "score": 9,
+          "score": 0,
           "score_a": 0,
-          "score_b": 9,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001338 (Z_comp: +0.03σ)"
         },
         {
@@ -61655,17 +61655,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 00:00",
           "label": "29/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001340 (Z_comp: +0.52σ)"
         },
         {
           "time": "29/08 00:00",
           "label": "29/08 00:00",
-          "score": 79,
+          "score": 0,
           "score_a": 0,
-          "score_b": 79,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001340 (Z_comp: +0.28σ)"
         },
         {
@@ -61687,33 +61687,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 01:00",
           "label": "29/08 01:00",
-          "score": 37,
+          "score": 0,
           "score_a": 0,
-          "score_b": 37,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001335 (Z_comp: +0.13σ)"
         },
         {
           "time": "29/08 01:00",
           "label": "29/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001338 (Z_comp: +1.02σ)"
         },
         {
           "time": "29/08 02:00",
           "label": "29/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001339 (Z_comp: +0.90σ)"
         },
         {
           "time": "29/08 02:00",
           "label": "29/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001341 (Z_comp: +1.28σ)"
         },
         {
@@ -61727,9 +61727,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 02:00",
           "label": "29/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001339 (Z_comp: +0.74σ)"
         },
         {
@@ -61743,9 +61743,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 03:00",
           "label": "29/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001337 (Z_comp: +1.08σ)"
         },
         {
@@ -61759,25 +61759,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 03:00",
           "label": "29/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001337 (Z_comp: +0.64σ)"
         },
         {
           "time": "29/08 04:00",
           "label": "29/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001339 (Z_comp: +1.33σ)"
         },
         {
           "time": "29/08 04:00",
           "label": "29/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001340 (Z_comp: +1.01σ)"
         },
         {
@@ -61791,9 +61791,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 04:00",
           "label": "29/08 04:00",
-          "score": 32,
+          "score": 0,
           "score_a": 0,
-          "score_b": 32,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001337 (Z_comp: +0.11σ)"
         },
         {
@@ -61807,9 +61807,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 05:00",
           "label": "29/08 05:00",
-          "score": 74,
+          "score": 0,
           "score_a": 0,
-          "score_b": 74,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001334 (Z_comp: +0.26σ)"
         },
         {
@@ -61823,33 +61823,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 05:00",
           "label": "29/08 05:00",
-          "score": 46,
+          "score": 0,
           "score_a": 0,
-          "score_b": 46,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001331 (Z_comp: +0.16σ)"
         },
         {
           "time": "29/08 06:00",
           "label": "29/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001333 (Z_comp: +1.75σ)"
         },
         {
           "time": "29/08 06:00",
           "label": "29/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001332 (Z_comp: +0.37σ)"
         },
         {
           "time": "29/08 06:00",
           "label": "29/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001332 (Z_comp: +0.57σ)"
         },
         {
@@ -61871,9 +61871,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 07:00",
           "label": "29/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001332 (Z_comp: +1.32σ)"
         },
         {
@@ -61895,9 +61895,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 08:00",
           "label": "29/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001333 (Z_comp: +0.98σ)"
         },
         {
@@ -61911,17 +61911,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 08:00",
           "label": "29/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001334 (Z_comp: +1.16σ)"
         },
         {
           "time": "29/08 08:00",
           "label": "29/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001335 (Z_comp: +1.85σ)"
         },
         {
@@ -61935,9 +61935,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 09:00",
           "label": "29/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001339 (Z_comp: +1.12σ)"
         },
         {
@@ -61951,65 +61951,65 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 09:00",
           "label": "29/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001337 (Z_comp: +1.42σ)"
         },
         {
           "time": "29/08 10:00",
           "label": "29/08 10:00",
-          "score": 1,
+          "score": 0,
           "score_a": 0,
-          "score_b": 1,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001335 (Z_comp: +0.00σ)"
         },
         {
           "time": "29/08 10:00",
           "label": "29/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001335 (Z_comp: +0.70σ)"
         },
         {
           "time": "29/08 10:00",
           "label": "29/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001337 (Z_comp: +1.87σ)"
         },
         {
           "time": "29/08 10:00",
           "label": "29/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001336 (Z_comp: +0.75σ)"
         },
         {
           "time": "29/08 11:00",
           "label": "29/08 11:00",
-          "score": 2,
+          "score": 0,
           "score_a": 0,
-          "score_b": 2,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001337 (Z_comp: +0.01σ)"
         },
         {
           "time": "29/08 11:00",
           "label": "29/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001341 (Z_comp: +1.34σ)"
         },
         {
           "time": "29/08 11:00",
           "label": "29/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001347 (Z_comp: +2.25σ)"
         },
         {
@@ -62031,33 +62031,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 12:00",
           "label": "29/08 12:00",
-          "score": 21,
+          "score": 0,
           "score_a": 0,
-          "score_b": 21,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001348 (Z_comp: +0.07σ)"
         },
         {
           "time": "29/08 12:00",
           "label": "29/08 12:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001349 (Z_comp: +0.41σ)"
         },
         {
           "time": "29/08 12:00",
           "label": "29/08 12:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001350 (Z_comp: +1.55σ)"
         },
         {
           "time": "29/08 13:00",
           "label": "29/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001349 (Z_comp: +0.65σ)"
         },
         {
@@ -62071,25 +62071,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 13:00",
           "label": "29/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001348 (Z_comp: +0.82σ)"
         },
         {
           "time": "29/08 13:00",
           "label": "29/08 13:00",
-          "score": 8,
+          "score": 0,
           "score_a": 0,
-          "score_b": 8,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001346 (Z_comp: +0.03σ)"
         },
         {
           "time": "29/08 14:00",
           "label": "29/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001346 (Z_comp: +0.97σ)"
         },
         {
@@ -62111,9 +62111,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 14:00",
           "label": "29/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001343 (Z_comp: +1.20σ)"
         },
         {
@@ -62127,9 +62127,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 15:00",
           "label": "29/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001345 (Z_comp: +1.62σ)"
         },
         {
@@ -62143,9 +62143,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 15:00",
           "label": "29/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001345 (Z_comp: +0.97σ)"
         },
         {
@@ -62159,17 +62159,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 16:00",
           "label": "29/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001350 (Z_comp: +0.76σ)"
         },
         {
           "time": "29/08 16:00",
           "label": "29/08 16:00",
-          "score": 8,
+          "score": 0,
           "score_a": 0,
-          "score_b": 8,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001351 (Z_comp: +0.03σ)"
         },
         {
@@ -62183,33 +62183,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 17:00",
           "label": "29/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001348 (Z_comp: +0.88σ)"
         },
         {
           "time": "29/08 17:00",
           "label": "29/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001347 (Z_comp: +0.38σ)"
         },
         {
           "time": "29/08 17:00",
           "label": "29/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001347 (Z_comp: +1.50σ)"
         },
         {
           "time": "29/08 17:00",
           "label": "29/08 17:00",
-          "score": 84,
+          "score": 0,
           "score_a": 0,
-          "score_b": 84,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001347 (Z_comp: +0.29σ)"
         },
         {
@@ -62223,9 +62223,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 18:00",
           "label": "29/08 18:00",
-          "score": 92,
+          "score": 0,
           "score_a": 0,
-          "score_b": 92,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001347 (Z_comp: +0.32σ)"
         },
         {
@@ -62239,9 +62239,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 18:00",
           "label": "29/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001344 (Z_comp: +0.69σ)"
         },
         {
@@ -62255,41 +62255,41 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 19:00",
           "label": "29/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001344 (Z_comp: +1.08σ)"
         },
         {
           "time": "29/08 19:00",
           "label": "29/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001346 (Z_comp: +1.32σ)"
         },
         {
           "time": "29/08 19:00",
           "label": "29/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001348 (Z_comp: +1.49σ)"
         },
         {
           "time": "29/08 20:00",
           "label": "29/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001350 (Z_comp: +1.03σ)"
         },
         {
           "time": "29/08 20:00",
           "label": "29/08 20:00",
-          "score": 37,
+          "score": 0,
           "score_a": 0,
-          "score_b": 37,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001351 (Z_comp: +0.13σ)"
         },
         {
@@ -62303,9 +62303,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 20:00",
           "label": "29/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001351 (Z_comp: +1.58σ)"
         },
         {
@@ -62319,9 +62319,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 21:00",
           "label": "29/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001349 (Z_comp: +0.85σ)"
         },
         {
@@ -62335,17 +62335,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 21:00",
           "label": "29/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001347 (Z_comp: +1.34σ)"
         },
         {
           "time": "29/08 22:00",
           "label": "29/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001347 (Z_comp: +0.77σ)"
         },
         {
@@ -62359,17 +62359,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 22:00",
           "label": "29/08 22:00",
-          "score": 38,
+          "score": 0,
           "score_a": 0,
-          "score_b": 38,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001348 (Z_comp: +0.13σ)"
         },
         {
           "time": "29/08 22:00",
           "label": "29/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001348 (Z_comp: +0.65σ)"
         },
         {
@@ -62383,9 +62383,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 23:00",
           "label": "29/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001350 (Z_comp: +1.66σ)"
         },
         {
@@ -62399,9 +62399,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 23:00",
           "label": "29/08 23:00",
-          "score": 60,
+          "score": 0,
           "score_a": 0,
-          "score_b": 60,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001348 (Z_comp: +0.21σ)"
         },
         {
@@ -62415,17 +62415,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 00:00",
           "label": "30/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001347 (Z_comp: +0.94σ)"
         },
         {
           "time": "30/08 00:00",
           "label": "30/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001347 (Z_comp: +0.55σ)"
         },
         {
@@ -62455,9 +62455,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 01:00",
           "label": "30/08 01:00",
-          "score": 59,
+          "score": 0,
           "score_a": 0,
-          "score_b": 59,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001344 (Z_comp: +0.21σ)"
         },
         {
@@ -62471,17 +62471,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 02:00",
           "label": "30/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001345 (Z_comp: +0.36σ)"
         },
         {
           "time": "30/08 02:00",
           "label": "30/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001345 (Z_comp: +1.15σ)"
         },
         {
@@ -62503,9 +62503,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 03:00",
           "label": "30/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001344 (Z_comp: +1.03σ)"
         },
         {
@@ -62527,17 +62527,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 03:00",
           "label": "30/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001343 (Z_comp: +0.94σ)"
         },
         {
           "time": "30/08 04:00",
           "label": "30/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001346 (Z_comp: +0.77σ)"
         },
         {
@@ -62551,9 +62551,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 04:00",
           "label": "30/08 04:00",
-          "score": 71,
+          "score": 0,
           "score_a": 0,
-          "score_b": 71,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001345 (Z_comp: +0.25σ)"
         },
         {
@@ -62575,17 +62575,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 05:00",
           "label": "30/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001342 (Z_comp: +0.79σ)"
         },
         {
           "time": "30/08 05:00",
           "label": "30/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001344 (Z_comp: +1.57σ)"
         },
         {
@@ -62599,17 +62599,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 06:00",
           "label": "30/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001343 (Z_comp: +1.15σ)"
         },
         {
           "time": "30/08 06:00",
           "label": "30/08 06:00",
-          "score": 51,
+          "score": 0,
           "score_a": 0,
-          "score_b": 51,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001343 (Z_comp: +0.18σ)"
         },
         {
@@ -62623,9 +62623,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 06:00",
           "label": "30/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001342 (Z_comp: +1.26σ)"
         },
         {
@@ -62639,33 +62639,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 07:00",
           "label": "30/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001341 (Z_comp: +1.45σ)"
         },
         {
           "time": "30/08 07:00",
           "label": "30/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001344 (Z_comp: +1.09σ)"
         },
         {
           "time": "30/08 07:00",
           "label": "30/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001346 (Z_comp: +0.80σ)"
         },
         {
           "time": "30/08 08:00",
           "label": "30/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001347 (Z_comp: +1.43σ)"
         },
         {
@@ -62687,17 +62687,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 08:00",
           "label": "30/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001344 (Z_comp: +0.96σ)"
         },
         {
           "time": "30/08 09:00",
           "label": "30/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001344 (Z_comp: +0.44σ)"
         },
         {
@@ -62719,41 +62719,41 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 09:00",
           "label": "30/08 09:00",
-          "score": 85,
+          "score": 0,
           "score_a": 0,
-          "score_b": 85,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001342 (Z_comp: +0.30σ)"
         },
         {
           "time": "30/08 10:00",
           "label": "30/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001347 (Z_comp: +0.67σ)"
         },
         {
           "time": "30/08 10:00",
           "label": "30/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001349 (Z_comp: +0.73σ)"
         },
         {
           "time": "30/08 10:00",
           "label": "30/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001353 (Z_comp: +0.91σ)"
         },
         {
           "time": "30/08 10:00",
           "label": "30/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001359 (Z_comp: +0.69σ)"
         },
         {
@@ -62783,33 +62783,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 11:00",
           "label": "30/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001356 (Z_comp: +0.50σ)"
         },
         {
           "time": "30/08 12:00",
           "label": "30/08 12:00",
-          "score": 4,
+          "score": 0,
           "score_a": 0,
-          "score_b": 4,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001354 (Z_comp: +0.01σ)"
         },
         {
           "time": "30/08 12:00",
           "label": "30/08 12:00",
-          "score": 61,
+          "score": 0,
           "score_a": 0,
-          "score_b": 61,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001351 (Z_comp: +0.21σ)"
         },
         {
           "time": "30/08 12:00",
           "label": "30/08 12:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001352 (Z_comp: +1.92σ)"
         },
         {
@@ -62823,9 +62823,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 13:00",
           "label": "30/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001352 (Z_comp: +2.64σ)"
         },
         {
@@ -62839,9 +62839,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 13:00",
           "label": "30/08 13:00",
-          "score": 83,
+          "score": 0,
           "score_a": 0,
-          "score_b": 83,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001349 (Z_comp: +0.29σ)"
         },
         {
@@ -62879,25 +62879,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 14:00",
           "label": "30/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001343 (Z_comp: +0.75σ)"
         },
         {
           "time": "30/08 15:00",
           "label": "30/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001348 (Z_comp: +1.16σ)"
         },
         {
           "time": "30/08 15:00",
           "label": "30/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001349 (Z_comp: +1.44σ)"
         },
         {
@@ -62911,9 +62911,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 15:00",
           "label": "30/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001349 (Z_comp: +0.50σ)"
         },
         {
@@ -62951,9 +62951,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 17:00",
           "label": "30/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001341 (Z_comp: +0.57σ)"
         },
         {
@@ -62999,9 +62999,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 18:00",
           "label": "30/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001327 (Z_comp: +0.46σ)"
         },
         {
@@ -63087,9 +63087,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 21:00",
           "label": "30/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.60σ)"
         },
         {
@@ -63119,9 +63119,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 22:00",
           "label": "30/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +1.10σ)"
         },
         {
@@ -63143,9 +63143,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 23:00",
           "label": "30/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001309 (Z_comp: +0.41σ)"
         },
         {
@@ -63175,9 +63175,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 00:00",
           "label": "31/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.47σ)"
         },
         {
@@ -63199,9 +63199,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 00:00",
           "label": "31/08 00:00",
-          "score": 86,
+          "score": 0,
           "score_a": 0,
-          "score_b": 86,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +0.30σ)"
         },
         {
@@ -63239,17 +63239,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 02:00",
           "label": "31/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001309 (Z_comp: +0.61σ)"
         },
         {
           "time": "31/08 02:00",
           "label": "31/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +1.81σ)"
         },
         {
@@ -63303,17 +63303,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 04:00",
           "label": "31/08 04:00",
-          "score": 37,
+          "score": 0,
           "score_a": 0,
-          "score_b": 37,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.13σ)"
         },
         {
           "time": "31/08 04:00",
           "label": "31/08 04:00",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.02σ)"
         },
         {
@@ -63383,25 +63383,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 06:00",
           "label": "31/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.42σ)"
         },
         {
           "time": "31/08 06:00",
           "label": "31/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.55σ)"
         },
         {
           "time": "31/08 07:00",
           "label": "31/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.43σ)"
         },
         {
@@ -63415,17 +63415,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 07:00",
           "label": "31/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +1.13σ)"
         },
         {
           "time": "31/08 07:00",
           "label": "31/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +0.55σ)"
         },
         {
@@ -63439,9 +63439,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 08:00",
           "label": "31/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001324 (Z_comp: +0.79σ)"
         },
         {
@@ -63463,9 +63463,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 09:00",
           "label": "31/08 09:00",
-          "score": 26,
+          "score": 0,
           "score_a": 0,
-          "score_b": 26,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001320 (Z_comp: +0.09σ)"
         },
         {
@@ -63535,9 +63535,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 11:00",
           "label": "31/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +1.01σ)"
         },
         {
@@ -63607,9 +63607,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 13:00",
           "label": "31/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001307 (Z_comp: +1.23σ)"
         },
         {
@@ -63647,9 +63647,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 14:00",
           "label": "31/08 14:00",
-          "score": 27,
+          "score": 0,
           "score_a": 0,
-          "score_b": 27,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.09σ)"
         },
         {
@@ -63663,17 +63663,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 15:00",
           "label": "31/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +1.00σ)"
         },
         {
           "time": "31/08 15:00",
           "label": "31/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.68σ)"
         },
         {
@@ -63727,9 +63727,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 17:00",
           "label": "31/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +1.10σ)"
         },
         {
@@ -63767,17 +63767,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 18:00",
           "label": "31/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001314 (Z_comp: +0.78σ)"
         },
         {
           "time": "31/08 18:00",
           "label": "31/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001315 (Z_comp: +0.96σ)"
         },
         {
@@ -63791,25 +63791,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 19:00",
           "label": "31/08 19:00",
-          "score": 29,
+          "score": 0,
           "score_a": 0,
-          "score_b": 29,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.10σ)"
         },
         {
           "time": "31/08 19:00",
           "label": "31/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.99σ)"
         },
         {
           "time": "31/08 19:00",
           "label": "31/08 19:00",
-          "score": 50,
+          "score": 0,
           "score_a": 0,
-          "score_b": 50,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.17σ)"
         },
         {
@@ -63873,9 +63873,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 00:00",
           "label": "25/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001253 (Z_comp: +0.66σ)"
         },
         {
@@ -63889,9 +63889,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 02:00",
           "label": "25/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001266 (Z_comp: +1.73σ)"
         },
         {
@@ -63905,9 +63905,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 04:00",
           "label": "25/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001258 (Z_comp: +1.10σ)"
         },
         {
@@ -63953,17 +63953,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 10:00",
           "label": "25/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001249 (Z_comp: +0.43σ)"
         },
         {
           "time": "25/08 11:00",
           "label": "25/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001237 (Z_comp: +0.92σ)"
         },
         {
@@ -63977,9 +63977,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 13:00",
           "label": "25/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001239 (Z_comp: +0.71σ)"
         },
         {
@@ -64017,17 +64017,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 18:00",
           "label": "25/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001238 (Z_comp: +0.77σ)"
         },
         {
           "time": "25/08 19:00",
           "label": "25/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001237 (Z_comp: +0.54σ)"
         },
         {
@@ -64041,17 +64041,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 21:00",
           "label": "25/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001230 (Z_comp: +0.48σ)"
         },
         {
           "time": "25/08 22:00",
           "label": "25/08 22:00",
-          "score": 72,
+          "score": 0,
           "score_a": 0,
-          "score_b": 72,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001232 (Z_comp: +0.25σ)"
         },
         {
@@ -64089,25 +64089,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 03:00",
           "label": "26/08 03:00",
-          "score": 22,
+          "score": 0,
           "score_a": 0,
-          "score_b": 22,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001228 (Z_comp: +0.08σ)"
         },
         {
           "time": "26/08 04:00",
           "label": "26/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001228 (Z_comp: +1.33σ)"
         },
         {
           "time": "26/08 05:00",
           "label": "26/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001230 (Z_comp: +0.73σ)"
         },
         {
@@ -64121,9 +64121,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 07:00",
           "label": "26/08 07:00",
-          "score": 11,
+          "score": 0,
           "score_a": 0,
-          "score_b": 11,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001226 (Z_comp: +0.04σ)"
         },
         {
@@ -64145,17 +64145,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 10:00",
           "label": "26/08 10:00",
-          "score": 46,
+          "score": 0,
           "score_a": 0,
-          "score_b": 46,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001239 (Z_comp: +0.16σ)"
         },
         {
           "time": "26/08 11:00",
           "label": "26/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001234 (Z_comp: +1.01σ)"
         },
         {
@@ -64177,9 +64177,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 14:00",
           "label": "26/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001230 (Z_comp: +0.72σ)"
         },
         {
@@ -64201,105 +64201,105 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 17:00",
           "label": "26/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001235 (Z_comp: +1.31σ)"
         },
         {
           "time": "26/08 18:00",
           "label": "26/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001237 (Z_comp: +0.82σ)"
         },
         {
           "time": "26/08 19:00",
           "label": "26/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001248 (Z_comp: +0.44σ)"
         },
         {
           "time": "26/08 20:00",
           "label": "26/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001271 (Z_comp: +1.08σ)"
         },
         {
           "time": "26/08 21:00",
           "label": "26/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001289 (Z_comp: +0.48σ)"
         },
         {
           "time": "26/08 22:00",
           "label": "26/08 22:00",
-          "score": 1,
+          "score": 0,
           "score_a": 0,
-          "score_b": 1,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001279 (Z_comp: +0.00σ)"
         },
         {
           "time": "26/08 23:00",
           "label": "26/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001289 (Z_comp: +1.40σ)"
         },
         {
           "time": "27/08 00:00",
           "label": "27/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001285 (Z_comp: +0.81σ)"
         },
         {
           "time": "27/08 01:00",
           "label": "27/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001283 (Z_comp: +1.97σ)"
         },
         {
           "time": "27/08 02:00",
           "label": "27/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001284 (Z_comp: +0.72σ)"
         },
         {
           "time": "27/08 03:00",
           "label": "27/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001291 (Z_comp: +0.37σ)"
         },
         {
           "time": "27/08 04:00",
           "label": "27/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001285 (Z_comp: +0.48σ)"
         },
         {
           "time": "27/08 05:00",
           "label": "27/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001292 (Z_comp: +2.09σ)"
         },
         {
@@ -64313,65 +64313,65 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 07:00",
           "label": "27/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001306 (Z_comp: +1.36σ)"
         },
         {
           "time": "27/08 08:00",
           "label": "27/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001312 (Z_comp: +1.95σ)"
         },
         {
           "time": "27/08 09:00",
           "label": "27/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001316 (Z_comp: +2.04σ)"
         },
         {
           "time": "27/08 10:00",
           "label": "27/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001318 (Z_comp: +0.75σ)"
         },
         {
           "time": "27/08 11:00",
           "label": "27/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001329 (Z_comp: +0.44σ)"
         },
         {
           "time": "27/08 12:00",
           "label": "27/08 12:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001337 (Z_comp: +2.04σ)"
         },
         {
           "time": "27/08 13:00",
           "label": "27/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001333 (Z_comp: +0.44σ)"
         },
         {
           "time": "27/08 14:00",
           "label": "27/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001356 (Z_comp: +1.02σ)"
         },
         {
@@ -64385,33 +64385,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 16:00",
           "label": "27/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001358 (Z_comp: +1.95σ)"
         },
         {
           "time": "27/08 17:00",
           "label": "27/08 17:00",
-          "score": 59,
+          "score": 0,
           "score_a": 0,
-          "score_b": 59,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001364 (Z_comp: +0.21σ)"
         },
         {
           "time": "27/08 18:00",
           "label": "27/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001360 (Z_comp: +0.81σ)"
         },
         {
           "time": "27/08 19:00",
           "label": "27/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001368 (Z_comp: +2.00σ)"
         },
         {
@@ -64457,9 +64457,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 01:00",
           "label": "28/08 01:00",
-          "score": 85,
+          "score": 0,
           "score_a": 0,
-          "score_b": 85,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001339 (Z_comp: +0.30σ)"
         },
         {
@@ -64473,9 +64473,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 03:00",
           "label": "28/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001346 (Z_comp: +1.49σ)"
         },
         {
@@ -64497,9 +64497,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 06:00",
           "label": "28/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001338 (Z_comp: +1.84σ)"
         },
         {
@@ -64513,25 +64513,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 08:00",
           "label": "28/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001338 (Z_comp: +1.26σ)"
         },
         {
           "time": "28/08 09:00",
           "label": "28/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001330 (Z_comp: +1.43σ)"
         },
         {
           "time": "28/08 10:00",
           "label": "28/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001322 (Z_comp: +1.09σ)"
         },
         {
@@ -64577,9 +64577,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 16:00",
           "label": "28/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001330 (Z_comp: +0.64σ)"
         },
         {
@@ -64601,41 +64601,41 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 19:00",
           "label": "28/08 19:00",
-          "score": 20,
+          "score": 0,
           "score_a": 0,
-          "score_b": 20,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001336 (Z_comp: +0.07σ)"
         },
         {
           "time": "28/08 20:00",
           "label": "28/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001340 (Z_comp: +0.57σ)"
         },
         {
           "time": "28/08 21:00",
           "label": "28/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001340 (Z_comp: +1.04σ)"
         },
         {
           "time": "28/08 22:00",
           "label": "28/08 22:00",
-          "score": 12,
+          "score": 0,
           "score_a": 0,
-          "score_b": 12,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001337 (Z_comp: +0.04σ)"
         },
         {
           "time": "28/08 23:00",
           "label": "28/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001340 (Z_comp: +1.54σ)"
         },
         {
@@ -64657,9 +64657,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 02:00",
           "label": "29/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001339 (Z_comp: +0.90σ)"
         },
         {
@@ -64673,9 +64673,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 04:00",
           "label": "29/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001339 (Z_comp: +1.33σ)"
         },
         {
@@ -64689,9 +64689,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 06:00",
           "label": "29/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001333 (Z_comp: +1.75σ)"
         },
         {
@@ -64705,9 +64705,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 08:00",
           "label": "29/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001333 (Z_comp: +0.98σ)"
         },
         {
@@ -64721,17 +64721,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 10:00",
           "label": "29/08 10:00",
-          "score": 1,
+          "score": 0,
           "score_a": 0,
-          "score_b": 1,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001335 (Z_comp: +0.00σ)"
         },
         {
           "time": "29/08 11:00",
           "label": "29/08 11:00",
-          "score": 2,
+          "score": 0,
           "score_a": 0,
-          "score_b": 2,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001337 (Z_comp: +0.01σ)"
         },
         {
@@ -64745,17 +64745,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 13:00",
           "label": "29/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001349 (Z_comp: +0.65σ)"
         },
         {
           "time": "29/08 14:00",
           "label": "29/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001346 (Z_comp: +0.97σ)"
         },
         {
@@ -64777,9 +64777,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 17:00",
           "label": "29/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001348 (Z_comp: +0.88σ)"
         },
         {
@@ -64801,9 +64801,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 20:00",
           "label": "29/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001350 (Z_comp: +1.03σ)"
         },
         {
@@ -64817,9 +64817,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 22:00",
           "label": "29/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001347 (Z_comp: +0.77σ)"
         },
         {
@@ -64849,25 +64849,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 02:00",
           "label": "30/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001345 (Z_comp: +0.36σ)"
         },
         {
           "time": "30/08 03:00",
           "label": "30/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001344 (Z_comp: +1.03σ)"
         },
         {
           "time": "30/08 04:00",
           "label": "30/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001346 (Z_comp: +0.77σ)"
         },
         {
@@ -64881,9 +64881,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 06:00",
           "label": "30/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001343 (Z_comp: +1.15σ)"
         },
         {
@@ -64897,25 +64897,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 08:00",
           "label": "30/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001347 (Z_comp: +1.43σ)"
         },
         {
           "time": "30/08 09:00",
           "label": "30/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001344 (Z_comp: +0.44σ)"
         },
         {
           "time": "30/08 10:00",
           "label": "30/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001347 (Z_comp: +0.67σ)"
         },
         {
@@ -64929,17 +64929,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 12:00",
           "label": "30/08 12:00",
-          "score": 4,
+          "score": 0,
           "score_a": 0,
-          "score_b": 4,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001354 (Z_comp: +0.01σ)"
         },
         {
           "time": "30/08 13:00",
           "label": "30/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001352 (Z_comp: +2.64σ)"
         },
         {
@@ -64953,9 +64953,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 15:00",
           "label": "30/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001348 (Z_comp: +1.16σ)"
         },
         {
@@ -64969,9 +64969,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 17:00",
           "label": "30/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001341 (Z_comp: +0.57σ)"
         },
         {
@@ -65017,17 +65017,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 23:00",
           "label": "30/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001309 (Z_comp: +0.41σ)"
         },
         {
           "time": "31/08 00:00",
           "label": "31/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001311 (Z_comp: +0.47σ)"
         },
         {
@@ -65041,9 +65041,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 02:00",
           "label": "31/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001309 (Z_comp: +0.61σ)"
         },
         {
@@ -65057,9 +65057,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 04:00",
           "label": "31/08 04:00",
-          "score": 37,
+          "score": 0,
           "score_a": 0,
-          "score_b": 37,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001317 (Z_comp: +0.13σ)"
         },
         {
@@ -65081,9 +65081,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 07:00",
           "label": "31/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001313 (Z_comp: +0.43σ)"
         },
         {
@@ -65097,9 +65097,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 09:00",
           "label": "31/08 09:00",
-          "score": 26,
+          "score": 0,
           "score_a": 0,
-          "score_b": 26,
+          "score_b": 0,
           "metric": "SOL/BTC: 0.001320 (Z_comp: +0.09σ)"
         },
         {
@@ -65208,8 +65208,8 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_a_label": "Trade BRL ➔ SOL (Z_comp <= -0.65σ)",
     "ponta_a_score": 0,
     "ponta_b_label": "Trade SOL ➔ BRL (Z_comp >= +0.35σ)",
-    "ponta_b_score": 100,
-    "proximidade_score": 100,
+    "ponta_b_score": 0,
+    "proximidade_score": 0,
     "valor_atual_str": "SOL: R$ 536.50 (Z_comp: +1.96σ | Z_4h: -0.99σ)",
     "distancia_display": "Z_comp = +1.96σ (Meta: -0.65σ / +0.35σ)",
     "status": "SENTINELA_QUENTE",
@@ -65335,17 +65335,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "20:20",
           "label": "20:20",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.60 (Z_comp: +0.55σ)"
         },
         {
           "time": "20:21",
           "label": "20:21",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.60 (Z_comp: +0.44σ)"
         },
         {
@@ -65359,9 +65359,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "20:23",
           "label": "20:23",
-          "score": 18,
+          "score": 0,
           "score_a": 0,
-          "score_b": 18,
+          "score_b": 0,
           "metric": "SOL: R$ 536.50 (Z_comp: +0.06σ)"
         },
         {
@@ -65383,57 +65383,57 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "20:26",
           "label": "20:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.70 (Z_comp: +1.00σ)"
         },
         {
           "time": "20:27",
           "label": "20:27",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.70 (Z_comp: +0.84σ)"
         },
         {
           "time": "20:28",
           "label": "20:28",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.70 (Z_comp: +0.71σ)"
         },
         {
           "time": "20:29",
           "label": "20:29",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.70 (Z_comp: +0.57σ)"
         },
         {
           "time": "20:30",
           "label": "20:30",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.00 (Z_comp: +1.27σ)"
         },
         {
           "time": "20:31",
           "label": "20:31",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.00 (Z_comp: +1.02σ)"
         },
         {
           "time": "20:32",
           "label": "20:32",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.10 (Z_comp: +1.07σ)"
         },
         {
@@ -65655,25 +65655,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "21:00",
           "label": "21:00",
-          "score": 23,
+          "score": 0,
           "score_a": 0,
-          "score_b": 23,
+          "score_b": 0,
           "metric": "SOL: R$ 535.90 (Z_comp: +0.08σ)"
         },
         {
           "time": "21:01",
           "label": "21:01",
-          "score": 24,
+          "score": 0,
           "score_a": 0,
-          "score_b": 24,
+          "score_b": 0,
           "metric": "SOL: R$ 535.90 (Z_comp: +0.08σ)"
         },
         {
           "time": "21:02",
           "label": "21:02",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.00 (Z_comp: +0.49σ)"
         },
         {
@@ -65703,9 +65703,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "21:06",
           "label": "21:06",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.50 (Z_comp: +1.96σ)"
         }
       ],
@@ -65713,9 +65713,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "21:06",
           "label": "21:06",
-          "score": 41,
+          "score": 0,
           "score_a": 0,
-          "score_b": 41,
+          "score_b": 0,
           "metric": "SOL: R$ 531.20 (Z_comp: +0.14σ)"
         },
         {
@@ -65745,65 +65745,65 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "21:14",
           "label": "21:14",
-          "score": 52,
+          "score": 0,
           "score_a": 0,
-          "score_b": 52,
+          "score_b": 0,
           "metric": "SOL: R$ 530.60 (Z_comp: +0.18σ)"
         },
         {
           "time": "21:16",
           "label": "21:16",
-          "score": 4,
+          "score": 0,
           "score_a": 0,
-          "score_b": 4,
+          "score_b": 0,
           "metric": "SOL: R$ 530.30 (Z_comp: +0.01σ)"
         },
         {
           "time": "21:18",
           "label": "21:18",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.10 (Z_comp: +0.91σ)"
         },
         {
           "time": "21:20",
           "label": "21:20",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.40 (Z_comp: +0.72σ)"
         },
         {
           "time": "21:22",
           "label": "21:22",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 533.80 (Z_comp: +1.04σ)"
         },
         {
           "time": "21:24",
           "label": "21:24",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 533.30 (Z_comp: +0.53σ)"
         },
         {
           "time": "21:26",
           "label": "21:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 533.70 (Z_comp: +0.57σ)"
         },
         {
           "time": "21:28",
           "label": "21:28",
-          "score": 17,
+          "score": 0,
           "score_a": 0,
-          "score_b": 17,
+          "score_b": 0,
           "metric": "SOL: R$ 533.00 (Z_comp: +0.06σ)"
         },
         {
@@ -65833,49 +65833,49 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "21:36",
           "label": "21:36",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.70 (Z_comp: +1.68σ)"
         },
         {
           "time": "21:38",
           "label": "21:38",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.30 (Z_comp: +0.85σ)"
         },
         {
           "time": "21:40",
           "label": "21:40",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.10 (Z_comp: +0.48σ)"
         },
         {
           "time": "21:42",
           "label": "21:42",
-          "score": 60,
+          "score": 0,
           "score_a": 0,
-          "score_b": 60,
+          "score_b": 0,
           "metric": "SOL: R$ 533.90 (Z_comp: +0.21σ)"
         },
         {
           "time": "21:44",
           "label": "21:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.40 (Z_comp: +0.54σ)"
         },
         {
           "time": "21:46",
           "label": "21:46",
-          "score": 30,
+          "score": 0,
           "score_a": 0,
-          "score_b": 30,
+          "score_b": 0,
           "metric": "SOL: R$ 534.10 (Z_comp: +0.10σ)"
         },
         {
@@ -66017,41 +66017,41 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22:22",
           "label": "22:22",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.40 (Z_comp: +1.53σ)"
         },
         {
           "time": "22:24",
           "label": "22:24",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 531.90 (Z_comp: +0.70σ)"
         },
         {
           "time": "22:26",
           "label": "22:26",
-          "score": 87,
+          "score": 0,
           "score_a": 0,
-          "score_b": 87,
+          "score_b": 0,
           "metric": "SOL: R$ 531.60 (Z_comp: +0.31σ)"
         },
         {
           "time": "22:28",
           "label": "22:28",
-          "score": 89,
+          "score": 0,
           "score_a": 0,
-          "score_b": 89,
+          "score_b": 0,
           "metric": "SOL: R$ 531.90 (Z_comp: +0.31σ)"
         },
         {
           "time": "22:30",
           "label": "22:30",
-          "score": 9,
+          "score": 0,
           "score_a": 0,
-          "score_b": 9,
+          "score_b": 0,
           "metric": "SOL: R$ 531.70 (Z_comp: +0.03σ)"
         },
         {
@@ -66097,9 +66097,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22:42",
           "label": "22:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.20 (Z_comp: +0.84σ)"
         },
         {
@@ -66121,9 +66121,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "22:48",
           "label": "22:48",
-          "score": 16,
+          "score": 0,
           "score_a": 0,
-          "score_b": 16,
+          "score_b": 0,
           "metric": "SOL: R$ 531.40 (Z_comp: +0.06σ)"
         },
         {
@@ -66193,65 +66193,65 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23:06",
           "label": "23:06",
-          "score": 72,
+          "score": 0,
           "score_a": 0,
-          "score_b": 72,
+          "score_b": 0,
           "metric": "SOL: R$ 530.10 (Z_comp: +0.25σ)"
         },
         {
           "time": "23:08",
           "label": "23:08",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 530.80 (Z_comp: +0.98σ)"
         },
         {
           "time": "23:10",
           "label": "23:10",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 531.00 (Z_comp: +0.90σ)"
         },
         {
           "time": "23:12",
           "label": "23:12",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 531.40 (Z_comp: +0.90σ)"
         },
         {
           "time": "23:14",
           "label": "23:14",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 531.40 (Z_comp: +0.67σ)"
         },
         {
           "time": "23:16",
           "label": "23:16",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 533.00 (Z_comp: +1.23σ)"
         },
         {
           "time": "23:18",
           "label": "23:18",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 533.10 (Z_comp: +1.03σ)"
         },
         {
           "time": "23:20",
           "label": "23:20",
-          "score": 86,
+          "score": 0,
           "score_a": 0,
-          "score_b": 86,
+          "score_b": 0,
           "metric": "SOL: R$ 532.20 (Z_comp: +0.30σ)"
         },
         {
@@ -66273,9 +66273,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23:26",
           "label": "23:26",
-          "score": 94,
+          "score": 0,
           "score_a": 0,
-          "score_b": 94,
+          "score_b": 0,
           "metric": "SOL: R$ 532.50 (Z_comp: +0.33σ)"
         },
         {
@@ -66305,9 +66305,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23:34",
           "label": "23:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.30 (Z_comp: +0.52σ)"
         },
         {
@@ -66361,9 +66361,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "23:48",
           "label": "23:48",
-          "score": 29,
+          "score": 0,
           "score_a": 0,
-          "score_b": 29,
+          "score_b": 0,
           "metric": "SOL: R$ 531.70 (Z_comp: +0.10σ)"
         },
         {
@@ -66425,57 +66425,57 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "00:04",
           "label": "00:04",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 530.20 (Z_comp: +1.05σ)"
         },
         {
           "time": "00:06",
           "label": "00:06",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 530.10 (Z_comp: +1.10σ)"
         },
         {
           "time": "00:08",
           "label": "00:08",
-          "score": 39,
+          "score": 0,
           "score_a": 0,
-          "score_b": 39,
+          "score_b": 0,
           "metric": "SOL: R$ 529.40 (Z_comp: +0.14σ)"
         },
         {
           "time": "00:10",
           "label": "00:10",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 530.50 (Z_comp: +0.99σ)"
         },
         {
           "time": "00:12",
           "label": "00:12",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 530.80 (Z_comp: +0.94σ)"
         },
         {
           "time": "00:14",
           "label": "00:14",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 530.60 (Z_comp: +0.57σ)"
         },
         {
           "time": "00:16",
           "label": "00:16",
-          "score": 97,
+          "score": 0,
           "score_a": 0,
-          "score_b": 97,
+          "score_b": 0,
           "metric": "SOL: R$ 530.50 (Z_comp: +0.34σ)"
         },
         {
@@ -66505,41 +66505,41 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "00:24",
           "label": "00:24",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 530.80 (Z_comp: +0.83σ)"
         },
         {
           "time": "00:26",
           "label": "00:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 531.00 (Z_comp: +0.95σ)"
         },
         {
           "time": "00:28",
           "label": "00:28",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 531.00 (Z_comp: +0.86σ)"
         },
         {
           "time": "00:30",
           "label": "00:30",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 530.80 (Z_comp: +0.47σ)"
         },
         {
           "time": "00:32",
           "label": "00:32",
-          "score": 29,
+          "score": 0,
           "score_a": 0,
-          "score_b": 29,
+          "score_b": 0,
           "metric": "SOL: R$ 530.60 (Z_comp: +0.10σ)"
         },
         {
@@ -66561,81 +66561,81 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "00:38",
           "label": "00:38",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 531.40 (Z_comp: +1.68σ)"
         },
         {
           "time": "00:40",
           "label": "00:40",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 531.20 (Z_comp: +0.88σ)"
         },
         {
           "time": "00:42",
           "label": "00:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 531.80 (Z_comp: +1.79σ)"
         },
         {
           "time": "00:44",
           "label": "00:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.30 (Z_comp: +1.70σ)"
         },
         {
           "time": "00:46",
           "label": "00:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.30 (Z_comp: +1.23σ)"
         },
         {
           "time": "00:48",
           "label": "00:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.50 (Z_comp: +1.16σ)"
         },
         {
           "time": "00:50",
           "label": "00:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.50 (Z_comp: +0.97σ)"
         },
         {
           "time": "00:52",
           "label": "00:52",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.50 (Z_comp: +0.82σ)"
         },
         {
           "time": "00:54",
           "label": "00:54",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.50 (Z_comp: +0.62σ)"
         },
         {
           "time": "00:56",
           "label": "00:56",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.50 (Z_comp: +0.50σ)"
         },
         {
@@ -66793,49 +66793,49 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "01:36",
           "label": "01:36",
-          "score": 3,
+          "score": 0,
           "score_a": 0,
-          "score_b": 3,
+          "score_b": 0,
           "metric": "SOL: R$ 527.70 (Z_comp: +0.01σ)"
         },
         {
           "time": "01:38",
           "label": "01:38",
-          "score": 67,
+          "score": 0,
           "score_a": 0,
-          "score_b": 67,
+          "score_b": 0,
           "metric": "SOL: R$ 527.70 (Z_comp: +0.23σ)"
         },
         {
           "time": "01:40",
           "label": "01:40",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 528.10 (Z_comp: +0.93σ)"
         },
         {
           "time": "01:42",
           "label": "01:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 528.60 (Z_comp: +1.10σ)"
         },
         {
           "time": "01:44",
           "label": "01:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 528.60 (Z_comp: +0.74σ)"
         },
         {
           "time": "01:46",
           "label": "01:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 529.00 (Z_comp: +0.99σ)"
         },
         {
@@ -66881,161 +66881,161 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "01:58",
           "label": "01:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 528.80 (Z_comp: +0.57σ)"
         },
         {
           "time": "02:00",
           "label": "02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 528.80 (Z_comp: +0.52σ)"
         },
         {
           "time": "02:02",
           "label": "02:02",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 528.80 (Z_comp: +0.68σ)"
         },
         {
           "time": "02:04",
           "label": "02:04",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 528.80 (Z_comp: +0.53σ)"
         },
         {
           "time": "02:06",
           "label": "02:06",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 529.30 (Z_comp: +1.04σ)"
         },
         {
           "time": "02:08",
           "label": "02:08",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 529.80 (Z_comp: +1.19σ)"
         },
         {
           "time": "02:10",
           "label": "02:10",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 529.80 (Z_comp: +0.89σ)"
         },
         {
           "time": "02:12",
           "label": "02:12",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 529.70 (Z_comp: +0.60σ)"
         },
         {
           "time": "02:14",
           "label": "02:14",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 530.60 (Z_comp: +1.61σ)"
         },
         {
           "time": "02:16",
           "label": "02:16",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 530.10 (Z_comp: +0.55σ)"
         },
         {
           "time": "02:18",
           "label": "02:18",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 531.30 (Z_comp: +1.57σ)"
         },
         {
           "time": "02:20",
           "label": "02:20",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.70 (Z_comp: +2.28σ)"
         },
         {
           "time": "02:22",
           "label": "02:22",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.60 (Z_comp: +2.60σ)"
         },
         {
           "time": "02:24",
           "label": "02:24",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.40 (Z_comp: +1.80σ)"
         },
         {
           "time": "02:26",
           "label": "02:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.80 (Z_comp: +2.44σ)"
         },
         {
           "time": "02:28",
           "label": "02:28",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.60 (Z_comp: +1.13σ)"
         },
         {
           "time": "02:30",
           "label": "02:30",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.30 (Z_comp: +1.28σ)"
         },
         {
           "time": "02:32",
           "label": "02:32",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.30 (Z_comp: +1.12σ)"
         },
         {
           "time": "02:34",
           "label": "02:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.30 (Z_comp: +0.96σ)"
         },
         {
           "time": "02:36",
           "label": "02:36",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.20 (Z_comp: +0.62σ)"
         },
         {
@@ -67057,65 +67057,65 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "02:42",
           "label": "02:42",
-          "score": 75,
+          "score": 0,
           "score_a": 0,
-          "score_b": 75,
+          "score_b": 0,
           "metric": "SOL: R$ 534.60 (Z_comp: +0.26σ)"
         },
         {
           "time": "02:44",
           "label": "02:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.70 (Z_comp: +0.42σ)"
         },
         {
           "time": "02:46",
           "label": "02:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.60 (Z_comp: +0.38σ)"
         },
         {
           "time": "02:48",
           "label": "02:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.30 (Z_comp: +1.43σ)"
         },
         {
           "time": "02:50",
           "label": "02:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.30 (Z_comp: +1.39σ)"
         },
         {
           "time": "02:52",
           "label": "02:52",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.00 (Z_comp: +0.87σ)"
         },
         {
           "time": "02:54",
           "label": "02:54",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.30 (Z_comp: +1.19σ)"
         },
         {
           "time": "02:56",
           "label": "02:56",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.50 (Z_comp: +1.46σ)"
         },
         {
@@ -67129,33 +67129,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "03:00",
           "label": "03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.60 (Z_comp: +1.46σ)"
         },
         {
           "time": "03:02",
           "label": "03:02",
-          "score": 79,
+          "score": 0,
           "score_a": 0,
-          "score_b": 79,
+          "score_b": 0,
           "metric": "SOL: R$ 535.20 (Z_comp: +0.28σ)"
         },
         {
           "time": "03:04",
           "label": "03:04",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.90 (Z_comp: +2.02σ)"
         },
         {
           "time": "03:06",
           "label": "03:06",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.30 (Z_comp: +0.37σ)"
         },
         {
@@ -67185,41 +67185,41 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "03:14",
           "label": "03:14",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.10 (Z_comp: +0.44σ)"
         },
         {
           "time": "03:16",
           "label": "03:16",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.20 (Z_comp: +0.63σ)"
         },
         {
           "time": "03:18",
           "label": "03:18",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.70 (Z_comp: +1.33σ)"
         },
         {
           "time": "03:20",
           "label": "03:20",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.50 (Z_comp: +2.27σ)"
         },
         {
           "time": "03:22",
           "label": "03:22",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.40 (Z_comp: +0.67σ)"
         },
         {
@@ -67249,9 +67249,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "03:30",
           "label": "03:30",
-          "score": 28,
+          "score": 0,
           "score_a": 0,
-          "score_b": 28,
+          "score_b": 0,
           "metric": "SOL: R$ 535.10 (Z_comp: +0.10σ)"
         },
         {
@@ -67265,73 +67265,73 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "03:34",
           "label": "03:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.20 (Z_comp: +0.43σ)"
         },
         {
           "time": "03:36",
           "label": "03:36",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.10 (Z_comp: +0.57σ)"
         },
         {
           "time": "03:38",
           "label": "03:38",
-          "score": 82,
+          "score": 0,
           "score_a": 0,
-          "score_b": 82,
+          "score_b": 0,
           "metric": "SOL: R$ 534.90 (Z_comp: +0.29σ)"
         },
         {
           "time": "03:40",
           "label": "03:40",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.80 (Z_comp: +1.73σ)"
         },
         {
           "time": "03:42",
           "label": "03:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.80 (Z_comp: +1.36σ)"
         },
         {
           "time": "03:44",
           "label": "03:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.20 (Z_comp: +1.59σ)"
         },
         {
           "time": "03:46",
           "label": "03:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.70 (Z_comp: +0.69σ)"
         },
         {
           "time": "03:48",
           "label": "03:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.70 (Z_comp: +0.54σ)"
         },
         {
           "time": "03:50",
           "label": "03:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.80 (Z_comp: +0.57σ)"
         },
         {
@@ -67345,161 +67345,161 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "03:54",
           "label": "03:54",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.00 (Z_comp: +0.90σ)"
         },
         {
           "time": "03:56",
           "label": "03:56",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.20 (Z_comp: +1.17σ)"
         },
         {
           "time": "03:58",
           "label": "03:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.20 (Z_comp: +1.09σ)"
         },
         {
           "time": "04:00",
           "label": "04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.80 (Z_comp: +0.37σ)"
         },
         {
           "time": "04:02",
           "label": "04:02",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.00 (Z_comp: +0.73σ)"
         },
         {
           "time": "04:04",
           "label": "04:04",
-          "score": 30,
+          "score": 0,
           "score_a": 0,
-          "score_b": 30,
+          "score_b": 0,
           "metric": "SOL: R$ 535.70 (Z_comp: +0.10σ)"
         },
         {
           "time": "04:06",
           "label": "04:06",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.10 (Z_comp: +0.85σ)"
         },
         {
           "time": "04:08",
           "label": "04:08",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.10 (Z_comp: +0.80σ)"
         },
         {
           "time": "04:10",
           "label": "04:10",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.10 (Z_comp: +0.83σ)"
         },
         {
           "time": "04:12",
           "label": "04:12",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.10 (Z_comp: +0.91σ)"
         },
         {
           "time": "04:14",
           "label": "04:14",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.30 (Z_comp: +1.17σ)"
         },
         {
           "time": "04:16",
           "label": "04:16",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.30 (Z_comp: +0.97σ)"
         },
         {
           "time": "04:18",
           "label": "04:18",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.30 (Z_comp: +0.83σ)"
         },
         {
           "time": "04:20",
           "label": "04:20",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.00 (Z_comp: +1.85σ)"
         },
         {
           "time": "04:22",
           "label": "04:22",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.10 (Z_comp: +1.54σ)"
         },
         {
           "time": "04:24",
           "label": "04:24",
-          "score": 66,
+          "score": 0,
           "score_a": 0,
-          "score_b": 66,
+          "score_b": 0,
           "metric": "SOL: R$ 536.50 (Z_comp: +0.23σ)"
         },
         {
           "time": "04:26",
           "label": "04:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.40 (Z_comp: +2.55σ)"
         },
         {
           "time": "04:28",
           "label": "04:28",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.10 (Z_comp: +0.66σ)"
         },
         {
           "time": "04:30",
           "label": "04:30",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.10 (Z_comp: +0.53σ)"
         },
         {
           "time": "04:32",
           "label": "04:32",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.10 (Z_comp: +0.37σ)"
         },
         {
@@ -67537,9 +67537,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "04:42",
           "label": "04:42",
-          "score": 6,
+          "score": 0,
           "score_a": 0,
-          "score_b": 6,
+          "score_b": 0,
           "metric": "SOL: R$ 536.40 (Z_comp: +0.02σ)"
         },
         {
@@ -67553,73 +67553,73 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "04:46",
           "label": "04:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.00 (Z_comp: +1.59σ)"
         },
         {
           "time": "04:48",
           "label": "04:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.70 (Z_comp: +0.92σ)"
         },
         {
           "time": "04:50",
           "label": "04:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.80 (Z_comp: +0.95σ)"
         },
         {
           "time": "04:52",
           "label": "04:52",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.70 (Z_comp: +0.63σ)"
         },
         {
           "time": "04:54",
           "label": "04:54",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.70 (Z_comp: +0.52σ)"
         },
         {
           "time": "04:56",
           "label": "04:56",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.70 (Z_comp: +0.43σ)"
         },
         {
           "time": "04:58",
           "label": "04:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.90 (Z_comp: +0.77σ)"
         },
         {
           "time": "05:00",
           "label": "05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.10 (Z_comp: +1.68σ)"
         },
         {
           "time": "05:02",
           "label": "05:02",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.20 (Z_comp: +1.75σ)"
         },
         {
@@ -67665,17 +67665,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "05:14",
           "label": "05:14",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.70 (Z_comp: +0.83σ)"
         },
         {
           "time": "05:16",
           "label": "05:16",
-          "score": 40,
+          "score": 0,
           "score_a": 0,
-          "score_b": 40,
+          "score_b": 0,
           "metric": "SOL: R$ 536.00 (Z_comp: +0.14σ)"
         },
         {
@@ -67729,145 +67729,145 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "05:30",
           "label": "05:30",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.80 (Z_comp: +0.98σ)"
         },
         {
           "time": "05:32",
           "label": "05:32",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.60 (Z_comp: +0.85σ)"
         },
         {
           "time": "05:34",
           "label": "05:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.10 (Z_comp: +1.33σ)"
         },
         {
           "time": "05:36",
           "label": "05:36",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.10 (Z_comp: +1.08σ)"
         },
         {
           "time": "05:38",
           "label": "05:38",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.10 (Z_comp: +0.91σ)"
         },
         {
           "time": "05:40",
           "label": "05:40",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.10 (Z_comp: +0.80σ)"
         },
         {
           "time": "05:42",
           "label": "05:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.90 (Z_comp: +1.75σ)"
         },
         {
           "time": "05:44",
           "label": "05:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.40 (Z_comp: +2.54σ)"
         },
         {
           "time": "05:46",
           "label": "05:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.20 (Z_comp: +1.26σ)"
         },
         {
           "time": "05:48",
           "label": "05:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.80 (Z_comp: +0.79σ)"
         },
         {
           "time": "05:50",
           "label": "05:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.80 (Z_comp: +0.65σ)"
         },
         {
           "time": "05:52",
           "label": "05:52",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.10 (Z_comp: +0.73σ)"
         },
         {
           "time": "05:54",
           "label": "05:54",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.10 (Z_comp: +0.58σ)"
         },
         {
           "time": "05:56",
           "label": "05:56",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.10 (Z_comp: +0.39σ)"
         },
         {
           "time": "05:58",
           "label": "05:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.40 (Z_comp: +0.86σ)"
         },
         {
           "time": "06:00",
           "label": "06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.60 (Z_comp: +1.76σ)"
         },
         {
           "time": "06:02",
           "label": "06:02",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.20 (Z_comp: +0.50σ)"
         },
         {
           "time": "06:04",
           "label": "06:04",
-          "score": 98,
+          "score": 0,
           "score_a": 0,
-          "score_b": 98,
+          "score_b": 0,
           "metric": "SOL: R$ 538.20 (Z_comp: +0.34σ)"
         },
         {
@@ -67889,25 +67889,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "06:10",
           "label": "06:10",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.50 (Z_comp: +1.22σ)"
         },
         {
           "time": "06:12",
           "label": "06:12",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.60 (Z_comp: +1.23σ)"
         },
         {
           "time": "06:14",
           "label": "06:14",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.10 (Z_comp: +0.41σ)"
         },
         {
@@ -67921,17 +67921,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "06:18",
           "label": "06:18",
-          "score": 43,
+          "score": 0,
           "score_a": 0,
-          "score_b": 43,
+          "score_b": 0,
           "metric": "SOL: R$ 537.80 (Z_comp: +0.15σ)"
         },
         {
           "time": "06:20",
           "label": "06:20",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.00 (Z_comp: +0.54σ)"
         },
         {
@@ -67945,57 +67945,57 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "06:24",
           "label": "06:24",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.30 (Z_comp: +1.04σ)"
         },
         {
           "time": "06:26",
           "label": "06:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.30 (Z_comp: +1.17σ)"
         },
         {
           "time": "06:28",
           "label": "06:28",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.90 (Z_comp: +0.39σ)"
         },
         {
           "time": "06:30",
           "label": "06:30",
-          "score": 48,
+          "score": 0,
           "score_a": 0,
-          "score_b": 48,
+          "score_b": 0,
           "metric": "SOL: R$ 537.80 (Z_comp: +0.17σ)"
         },
         {
           "time": "06:32",
           "label": "06:32",
-          "score": 68,
+          "score": 0,
           "score_a": 0,
-          "score_b": 68,
+          "score_b": 0,
           "metric": "SOL: R$ 537.90 (Z_comp: +0.24σ)"
         },
         {
           "time": "06:34",
           "label": "06:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.70 (Z_comp: +2.23σ)"
         },
         {
           "time": "06:36",
           "label": "06:36",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.20 (Z_comp: +0.62σ)"
         },
         {
@@ -68017,57 +68017,57 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "06:42",
           "label": "06:42",
-          "score": 80,
+          "score": 0,
           "score_a": 0,
-          "score_b": 80,
+          "score_b": 0,
           "metric": "SOL: R$ 538.00 (Z_comp: +0.28σ)"
         },
         {
           "time": "06:44",
           "label": "06:44",
-          "score": 74,
+          "score": 0,
           "score_a": 0,
-          "score_b": 74,
+          "score_b": 0,
           "metric": "SOL: R$ 538.00 (Z_comp: +0.26σ)"
         },
         {
           "time": "06:46",
           "label": "06:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.20 (Z_comp: +0.64σ)"
         },
         {
           "time": "06:48",
           "label": "06:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.70 (Z_comp: +1.47σ)"
         },
         {
           "time": "06:50",
           "label": "06:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.90 (Z_comp: +1.95σ)"
         },
         {
           "time": "06:52",
           "label": "06:52",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.30 (Z_comp: +0.57σ)"
         },
         {
           "time": "06:54",
           "label": "06:54",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.30 (Z_comp: +0.42σ)"
         },
         {
@@ -68145,17 +68145,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "07:14",
           "label": "07:14",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.90 (Z_comp: +0.51σ)"
         },
         {
           "time": "07:16",
           "label": "07:16",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.80 (Z_comp: +0.56σ)"
         },
         {
@@ -68233,209 +68233,209 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "07:36",
           "label": "07:36",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.40 (Z_comp: +1.41σ)"
         },
         {
           "time": "07:38",
           "label": "07:38",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.70 (Z_comp: +1.44σ)"
         },
         {
           "time": "07:40",
           "label": "07:40",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.90 (Z_comp: +1.35σ)"
         },
         {
           "time": "07:42",
           "label": "07:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.30 (Z_comp: +1.25σ)"
         },
         {
           "time": "07:44",
           "label": "07:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.70 (Z_comp: +1.39σ)"
         },
         {
           "time": "07:46",
           "label": "07:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.90 (Z_comp: +1.23σ)"
         },
         {
           "time": "07:48",
           "label": "07:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.20 (Z_comp: +1.32σ)"
         },
         {
           "time": "07:50",
           "label": "07:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.40 (Z_comp: +1.42σ)"
         },
         {
           "time": "07:52",
           "label": "07:52",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.40 (Z_comp: +1.21σ)"
         },
         {
           "time": "07:54",
           "label": "07:54",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.70 (Z_comp: +3.13σ)"
         },
         {
           "time": "07:56",
           "label": "07:56",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.40 (Z_comp: +2.18σ)"
         },
         {
           "time": "07:58",
           "label": "07:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.60 (Z_comp: +1.39σ)"
         },
         {
           "time": "08:00",
           "label": "08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.20 (Z_comp: +0.94σ)"
         },
         {
           "time": "08:02",
           "label": "08:02",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.20 (Z_comp: +0.80σ)"
         },
         {
           "time": "08:04",
           "label": "08:04",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.00 (Z_comp: +0.46σ)"
         },
         {
           "time": "08:06",
           "label": "08:06",
-          "score": 58,
+          "score": 0,
           "score_a": 0,
-          "score_b": 58,
+          "score_b": 0,
           "metric": "SOL: R$ 540.00 (Z_comp: +0.20σ)"
         },
         {
           "time": "08:08",
           "label": "08:08",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.00 (Z_comp: +1.35σ)"
         },
         {
           "time": "08:10",
           "label": "08:10",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.70 (Z_comp: +1.17σ)"
         },
         {
           "time": "08:12",
           "label": "08:12",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.20 (Z_comp: +2.14σ)"
         },
         {
           "time": "08:14",
           "label": "08:14",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.90 (Z_comp: +2.45σ)"
         },
         {
           "time": "08:16",
           "label": "08:16",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.60 (Z_comp: +1.55σ)"
         },
         {
           "time": "08:18",
           "label": "08:18",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.40 (Z_comp: +1.16σ)"
         },
         {
           "time": "08:20",
           "label": "08:20",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 542.70 (Z_comp: +2.36σ)"
         },
         {
           "time": "08:22",
           "label": "08:22",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 542.30 (Z_comp: +1.66σ)"
         },
         {
           "time": "08:24",
           "label": "08:24",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 542.10 (Z_comp: +1.20σ)"
         },
         {
           "time": "08:26",
           "label": "08:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 542.30 (Z_comp: +1.30σ)"
         },
         {
@@ -68489,17 +68489,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "08:40",
           "label": "08:40",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.00 (Z_comp: +0.42σ)"
         },
         {
           "time": "08:42",
           "label": "08:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.00 (Z_comp: +0.65σ)"
         },
         {
@@ -68817,33 +68817,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:02",
           "label": "10:02",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.60 (Z_comp: +1.72σ)"
         },
         {
           "time": "10:04",
           "label": "10:04",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.30 (Z_comp: +0.55σ)"
         },
         {
           "time": "10:06",
           "label": "10:06",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.60 (Z_comp: +0.62σ)"
         },
         {
           "time": "10:08",
           "label": "10:08",
-          "score": 89,
+          "score": 0,
           "score_a": 0,
-          "score_b": 89,
+          "score_b": 0,
           "metric": "SOL: R$ 534.50 (Z_comp: +0.31σ)"
         },
         {
@@ -69009,9 +69009,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:50",
           "label": "10:50",
-          "score": 21,
+          "score": 0,
           "score_a": 0,
-          "score_b": 21,
+          "score_b": 0,
           "metric": "SOL: R$ 531.80 (Z_comp: +0.07σ)"
         },
         {
@@ -69033,17 +69033,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "10:56",
           "label": "10:56",
-          "score": 6,
+          "score": 0,
           "score_a": 0,
-          "score_b": 6,
+          "score_b": 0,
           "metric": "SOL: R$ 531.60 (Z_comp: +0.02σ)"
         },
         {
           "time": "10:58",
           "label": "10:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.40 (Z_comp: +1.03σ)"
         },
         {
@@ -69057,25 +69057,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:02",
           "label": "11:02",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.50 (Z_comp: +0.85σ)"
         },
         {
           "time": "11:04",
           "label": "11:04",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.50 (Z_comp: +0.62σ)"
         },
         {
           "time": "11:06",
           "label": "11:06",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 533.30 (Z_comp: +0.92σ)"
         },
         {
@@ -69089,9 +69089,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:10",
           "label": "11:10",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 533.40 (Z_comp: +0.92σ)"
         },
         {
@@ -69129,17 +69129,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:20",
           "label": "11:20",
-          "score": 42,
+          "score": 0,
           "score_a": 0,
-          "score_b": 42,
+          "score_b": 0,
           "metric": "SOL: R$ 532.90 (Z_comp: +0.15σ)"
         },
         {
           "time": "11:22",
           "label": "11:22",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 533.50 (Z_comp: +0.89σ)"
         },
         {
@@ -69177,9 +69177,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:32",
           "label": "11:32",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 533.50 (Z_comp: +0.68σ)"
         },
         {
@@ -69201,65 +69201,65 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:38",
           "label": "11:38",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.50 (Z_comp: +1.52σ)"
         },
         {
           "time": "11:40",
           "label": "11:40",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.50 (Z_comp: +1.11σ)"
         },
         {
           "time": "11:42",
           "label": "11:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.80 (Z_comp: +2.31σ)"
         },
         {
           "time": "11:44",
           "label": "11:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.40 (Z_comp: +1.67σ)"
         },
         {
           "time": "11:46",
           "label": "11:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.40 (Z_comp: +1.23σ)"
         },
         {
           "time": "11:48",
           "label": "11:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.50 (Z_comp: +0.70σ)"
         },
         {
           "time": "11:50",
           "label": "11:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.40 (Z_comp: +1.21σ)"
         },
         {
           "time": "11:52",
           "label": "11:52",
-          "score": 68,
+          "score": 0,
           "score_a": 0,
-          "score_b": 68,
+          "score_b": 0,
           "metric": "SOL: R$ 537.40 (Z_comp: +0.24σ)"
         },
         {
@@ -69281,25 +69281,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "11:58",
           "label": "11:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.60 (Z_comp: +0.96σ)"
         },
         {
           "time": "12:00",
           "label": "12:00",
-          "score": 28,
+          "score": 0,
           "score_a": 0,
-          "score_b": 28,
+          "score_b": 0,
           "metric": "SOL: R$ 537.70 (Z_comp: +0.10σ)"
         },
         {
           "time": "12:02",
           "label": "12:02",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.10 (Z_comp: +0.53σ)"
         },
         {
@@ -69321,17 +69321,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "12:08",
           "label": "12:08",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.10 (Z_comp: +0.76σ)"
         },
         {
           "time": "12:10",
           "label": "12:10",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.00 (Z_comp: +0.50σ)"
         },
         {
@@ -69385,49 +69385,49 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "12:24",
           "label": "12:24",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.00 (Z_comp: +0.42σ)"
         },
         {
           "time": "12:26",
           "label": "12:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.00 (Z_comp: +0.94σ)"
         },
         {
           "time": "12:28",
           "label": "12:28",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.00 (Z_comp: +1.02σ)"
         },
         {
           "time": "12:30",
           "label": "12:30",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.90 (Z_comp: +1.55σ)"
         },
         {
           "time": "12:32",
           "label": "12:32",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.20 (Z_comp: +0.55σ)"
         },
         {
           "time": "12:34",
           "label": "12:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.30 (Z_comp: +0.55σ)"
         },
         {
@@ -69465,25 +69465,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "12:44",
           "label": "12:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.50 (Z_comp: +0.95σ)"
         },
         {
           "time": "12:46",
           "label": "12:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.40 (Z_comp: +0.92σ)"
         },
         {
           "time": "12:48",
           "label": "12:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.10 (Z_comp: +0.46σ)"
         },
         {
@@ -69545,25 +69545,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "13:04",
           "label": "13:04",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.90 (Z_comp: +0.47σ)"
         },
         {
           "time": "13:06",
           "label": "13:06",
-          "score": 25,
+          "score": 0,
           "score_a": 0,
-          "score_b": 25,
+          "score_b": 0,
           "metric": "SOL: R$ 534.50 (Z_comp: +0.09σ)"
         },
         {
           "time": "13:08",
           "label": "13:08",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.60 (Z_comp: +0.44σ)"
         },
         {
@@ -69577,9 +69577,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "13:12",
           "label": "13:12",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.50 (Z_comp: +0.36σ)"
         },
         {
@@ -69657,9 +69657,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "13:32",
           "label": "13:32",
-          "score": 90,
+          "score": 0,
           "score_a": 0,
-          "score_b": 90,
+          "score_b": 0,
           "metric": "SOL: R$ 533.10 (Z_comp: +0.32σ)"
         },
         {
@@ -69681,89 +69681,89 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "13:38",
           "label": "13:38",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 533.70 (Z_comp: +1.16σ)"
         },
         {
           "time": "13:40",
           "label": "13:40",
-          "score": 73,
+          "score": 0,
           "score_a": 0,
-          "score_b": 73,
+          "score_b": 0,
           "metric": "SOL: R$ 533.20 (Z_comp: +0.26σ)"
         },
         {
           "time": "13:42",
           "label": "13:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 533.50 (Z_comp: +0.65σ)"
         },
         {
           "time": "13:44",
           "label": "13:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 533.70 (Z_comp: +0.70σ)"
         },
         {
           "time": "13:46",
           "label": "13:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.10 (Z_comp: +1.75σ)"
         },
         {
           "time": "13:48",
           "label": "13:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.20 (Z_comp: +0.60σ)"
         },
         {
           "time": "13:50",
           "label": "13:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.10 (Z_comp: +1.23σ)"
         },
         {
           "time": "13:52",
           "label": "13:52",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.70 (Z_comp: +0.61σ)"
         },
         {
           "time": "13:54",
           "label": "13:54",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.80 (Z_comp: +0.59σ)"
         },
         {
           "time": "13:56",
           "label": "13:56",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.20 (Z_comp: +1.99σ)"
         },
         {
           "time": "13:58",
           "label": "13:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.10 (Z_comp: +0.39σ)"
         },
         {
@@ -69809,41 +69809,41 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "14:10",
           "label": "14:10",
-          "score": 6,
+          "score": 0,
           "score_a": 0,
-          "score_b": 6,
+          "score_b": 0,
           "metric": "SOL: R$ 534.60 (Z_comp: +0.02σ)"
         },
         {
           "time": "14:12",
           "label": "14:12",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.90 (Z_comp: +1.14σ)"
         },
         {
           "time": "14:14",
           "label": "14:14",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.90 (Z_comp: +1.88σ)"
         },
         {
           "time": "14:16",
           "label": "14:16",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.10 (Z_comp: +1.48σ)"
         },
         {
           "time": "14:18",
           "label": "14:18",
-          "score": 60,
+          "score": 0,
           "score_a": 0,
-          "score_b": 60,
+          "score_b": 0,
           "metric": "SOL: R$ 535.10 (Z_comp: +0.21σ)"
         },
         {
@@ -69897,121 +69897,121 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "14:32",
           "label": "14:32",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.60 (Z_comp: +0.50σ)"
         },
         {
           "time": "14:34",
           "label": "14:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.10 (Z_comp: +1.60σ)"
         },
         {
           "time": "14:36",
           "label": "14:36",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.20 (Z_comp: +1.35σ)"
         },
         {
           "time": "14:38",
           "label": "14:38",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.00 (Z_comp: +0.80σ)"
         },
         {
           "time": "14:40",
           "label": "14:40",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.00 (Z_comp: +0.69σ)"
         },
         {
           "time": "14:42",
           "label": "14:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.50 (Z_comp: +2.63σ)"
         },
         {
           "time": "14:44",
           "label": "14:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.10 (Z_comp: +1.64σ)"
         },
         {
           "time": "14:46",
           "label": "14:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.00 (Z_comp: +1.78σ)"
         },
         {
           "time": "14:48",
           "label": "14:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.70 (Z_comp: +1.34σ)"
         },
         {
           "time": "14:50",
           "label": "14:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.40 (Z_comp: +1.50σ)"
         },
         {
           "time": "14:52",
           "label": "14:52",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.70 (Z_comp: +0.94σ)"
         },
         {
           "time": "14:54",
           "label": "14:54",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.70 (Z_comp: +0.78σ)"
         },
         {
           "time": "14:56",
           "label": "14:56",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.90 (Z_comp: +1.02σ)"
         },
         {
           "time": "14:58",
           "label": "14:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.30 (Z_comp: +1.70σ)"
         },
         {
           "time": "15:00",
           "label": "15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.30 (Z_comp: +1.57σ)"
         },
         {
@@ -70049,65 +70049,65 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "15:10",
           "label": "15:10",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.40 (Z_comp: +0.39σ)"
         },
         {
           "time": "15:12",
           "label": "15:12",
-          "score": 58,
+          "score": 0,
           "score_a": 0,
-          "score_b": 58,
+          "score_b": 0,
           "metric": "SOL: R$ 538.20 (Z_comp: +0.20σ)"
         },
         {
           "time": "15:14",
           "label": "15:14",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.50 (Z_comp: +0.83σ)"
         },
         {
           "time": "15:16",
           "label": "15:16",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.10 (Z_comp: +2.04σ)"
         },
         {
           "time": "15:18",
           "label": "15:18",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.00 (Z_comp: +2.20σ)"
         },
         {
           "time": "15:20",
           "label": "15:20",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.10 (Z_comp: +1.75σ)"
         },
         {
           "time": "15:22",
           "label": "15:22",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.50 (Z_comp: +1.68σ)"
         },
         {
           "time": "15:24",
           "label": "15:24",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.20 (Z_comp: +1.19σ)"
         },
         {
@@ -70121,105 +70121,105 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "15:28",
           "label": "15:28",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.60 (Z_comp: +0.49σ)"
         },
         {
           "time": "15:30",
           "label": "15:30",
-          "score": 64,
+          "score": 0,
           "score_a": 0,
-          "score_b": 64,
+          "score_b": 0,
           "metric": "SOL: R$ 539.50 (Z_comp: +0.22σ)"
         },
         {
           "time": "15:32",
           "label": "15:32",
-          "score": 55,
+          "score": 0,
           "score_a": 0,
-          "score_b": 55,
+          "score_b": 0,
           "metric": "SOL: R$ 539.50 (Z_comp: +0.19σ)"
         },
         {
           "time": "15:34",
           "label": "15:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.80 (Z_comp: +0.60σ)"
         },
         {
           "time": "15:36",
           "label": "15:36",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.30 (Z_comp: +1.31σ)"
         },
         {
           "time": "15:38",
           "label": "15:38",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.70 (Z_comp: +2.51σ)"
         },
         {
           "time": "15:40",
           "label": "15:40",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.10 (Z_comp: +2.37σ)"
         },
         {
           "time": "15:42",
           "label": "15:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 544.00 (Z_comp: +2.31σ)"
         },
         {
           "time": "15:44",
           "label": "15:44",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 545.40 (Z_comp: +2.37σ)"
         },
         {
           "time": "15:46",
           "label": "15:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 544.20 (Z_comp: +1.50σ)"
         },
         {
           "time": "15:48",
           "label": "15:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.20 (Z_comp: +0.88σ)"
         },
         {
           "time": "15:50",
           "label": "15:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 542.70 (Z_comp: +0.40σ)"
         },
         {
           "time": "15:52",
           "label": "15:52",
-          "score": 60,
+          "score": 0,
           "score_a": 0,
-          "score_b": 60,
+          "score_b": 0,
           "metric": "SOL: R$ 542.90 (Z_comp: +0.21σ)"
         },
         {
@@ -70241,57 +70241,57 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "15:58",
           "label": "15:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.50 (Z_comp: +0.78σ)"
         },
         {
           "time": "16:00",
           "label": "16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.30 (Z_comp: +0.84σ)"
         },
         {
           "time": "16:02",
           "label": "16:02",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.10 (Z_comp: +0.63σ)"
         },
         {
           "time": "16:04",
           "label": "16:04",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.80 (Z_comp: +1.65σ)"
         },
         {
           "time": "16:06",
           "label": "16:06",
-          "score": 78,
+          "score": 0,
           "score_a": 0,
-          "score_b": 78,
+          "score_b": 0,
           "metric": "SOL: R$ 543.00 (Z_comp: +0.27σ)"
         },
         {
           "time": "16:08",
           "label": "16:08",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.90 (Z_comp: +1.53σ)"
         },
         {
           "time": "16:10",
           "label": "16:10",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.50 (Z_comp: +0.70σ)"
         },
         {
@@ -70305,17 +70305,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "16:14",
           "label": "16:14",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.50 (Z_comp: +0.80σ)"
         },
         {
           "time": "16:16",
           "label": "16:16",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.70 (Z_comp: +1.08σ)"
         },
         {
@@ -70489,9 +70489,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "17:00",
           "label": "17:00",
-          "score": 41,
+          "score": 0,
           "score_a": 0,
-          "score_b": 41,
+          "score_b": 0,
           "metric": "SOL: R$ 538.80 (Z_comp: +0.14σ)"
         },
         {
@@ -70505,17 +70505,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "17:04",
           "label": "17:04",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.10 (Z_comp: +0.84σ)"
         },
         {
           "time": "17:06",
           "label": "17:06",
-          "score": 59,
+          "score": 0,
           "score_a": 0,
-          "score_b": 59,
+          "score_b": 0,
           "metric": "SOL: R$ 538.70 (Z_comp: +0.21σ)"
         },
         {
@@ -70537,89 +70537,89 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "17:12",
           "label": "17:12",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.70 (Z_comp: +0.36σ)"
         },
         {
           "time": "17:14",
           "label": "17:14",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.90 (Z_comp: +0.97σ)"
         },
         {
           "time": "17:16",
           "label": "17:16",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.20 (Z_comp: +1.82σ)"
         },
         {
           "time": "17:18",
           "label": "17:18",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.00 (Z_comp: +2.14σ)"
         },
         {
           "time": "17:20",
           "label": "17:20",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.50 (Z_comp: +1.84σ)"
         },
         {
           "time": "17:22",
           "label": "17:22",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.60 (Z_comp: +1.87σ)"
         },
         {
           "time": "17:24",
           "label": "17:24",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.70 (Z_comp: +1.43σ)"
         },
         {
           "time": "17:26",
           "label": "17:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.20 (Z_comp: +0.87σ)"
         },
         {
           "time": "17:28",
           "label": "17:28",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.80 (Z_comp: +0.42σ)"
         },
         {
           "time": "17:30",
           "label": "17:30",
-          "score": 68,
+          "score": 0,
           "score_a": 0,
-          "score_b": 68,
+          "score_b": 0,
           "metric": "SOL: R$ 540.80 (Z_comp: +0.24σ)"
         },
         {
           "time": "17:32",
           "label": "17:32",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.20 (Z_comp: +0.56σ)"
         },
         {
@@ -70673,17 +70673,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "17:46",
           "label": "17:46",
-          "score": 34,
+          "score": 0,
           "score_a": 0,
-          "score_b": 34,
+          "score_b": 0,
           "metric": "SOL: R$ 539.80 (Z_comp: +0.12σ)"
         },
         {
           "time": "17:48",
           "label": "17:48",
-          "score": 68,
+          "score": 0,
           "score_a": 0,
-          "score_b": 68,
+          "score_b": 0,
           "metric": "SOL: R$ 539.70 (Z_comp: +0.24σ)"
         },
         {
@@ -70705,17 +70705,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "17:54",
           "label": "17:54",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.60 (Z_comp: +0.66σ)"
         },
         {
           "time": "17:56",
           "label": "17:56",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.60 (Z_comp: +0.54σ)"
         },
         {
@@ -70841,65 +70841,65 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "18:28",
           "label": "18:28",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.40 (Z_comp: +1.84σ)"
         },
         {
           "time": "18:30",
           "label": "18:30",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.30 (Z_comp: +1.10σ)"
         },
         {
           "time": "18:32",
           "label": "18:32",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.90 (Z_comp: +1.23σ)"
         },
         {
           "time": "18:34",
           "label": "18:34",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.60 (Z_comp: +1.35σ)"
         },
         {
           "time": "18:36",
           "label": "18:36",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.60 (Z_comp: +0.98σ)"
         },
         {
           "time": "18:38",
           "label": "18:38",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.10 (Z_comp: +1.07σ)"
         },
         {
           "time": "18:40",
           "label": "18:40",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.60 (Z_comp: +0.48σ)"
         },
         {
           "time": "18:42",
           "label": "18:42",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.80 (Z_comp: +0.52σ)"
         },
         {
@@ -70913,33 +70913,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "18:46",
           "label": "18:46",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.10 (Z_comp: +0.89σ)"
         },
         {
           "time": "18:48",
           "label": "18:48",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.10 (Z_comp: +0.78σ)"
         },
         {
           "time": "18:50",
           "label": "18:50",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.10 (Z_comp: +0.60σ)"
         },
         {
           "time": "18:52",
           "label": "18:52",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.50 (Z_comp: +1.25σ)"
         },
         {
@@ -71113,25 +71113,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "19:36",
           "label": "19:36",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.70 (Z_comp: +0.67σ)"
         },
         {
           "time": "19:38",
           "label": "19:38",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.70 (Z_comp: +0.58σ)"
         },
         {
           "time": "19:40",
           "label": "19:40",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.70 (Z_comp: +0.41σ)"
         },
         {
@@ -71193,25 +71193,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "19:56",
           "label": "19:56",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.30 (Z_comp: +0.39σ)"
         },
         {
           "time": "19:58",
           "label": "19:58",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.50 (Z_comp: +0.87σ)"
         },
         {
           "time": "20:00",
           "label": "20:00",
-          "score": 28,
+          "score": 0,
           "score_a": 0,
-          "score_b": 28,
+          "score_b": 0,
           "metric": "SOL: R$ 537.20 (Z_comp: +0.10σ)"
         },
         {
@@ -71289,9 +71289,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "20:20",
           "label": "20:20",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.60 (Z_comp: +0.55σ)"
         },
         {
@@ -71313,33 +71313,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "20:26",
           "label": "20:26",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.70 (Z_comp: +1.00σ)"
         },
         {
           "time": "20:28",
           "label": "20:28",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.70 (Z_comp: +0.71σ)"
         },
         {
           "time": "20:30",
           "label": "20:30",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.00 (Z_comp: +1.27σ)"
         },
         {
           "time": "20:32",
           "label": "20:32",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.10 (Z_comp: +1.07σ)"
         },
         {
@@ -71449,17 +71449,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "21:00",
           "label": "21:00",
-          "score": 23,
+          "score": 0,
           "score_a": 0,
-          "score_b": 23,
+          "score_b": 0,
           "metric": "SOL: R$ 535.90 (Z_comp: +0.08σ)"
         },
         {
           "time": "21:02",
           "label": "21:02",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.00 (Z_comp: +0.49σ)"
         },
         {
@@ -71473,9 +71473,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "21:06",
           "label": "21:06",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.50 (Z_comp: +1.96σ)"
         }
       ],
@@ -71499,33 +71499,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "24/08 21:00",
           "label": "24/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 520.10 (Z_comp: +2.02σ)"
         },
         {
           "time": "24/08 21:00",
           "label": "24/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 525.00 (Z_comp: +0.47σ)"
         },
         {
           "time": "24/08 22:00",
           "label": "24/08 22:00",
-          "score": 77,
+          "score": 0,
           "score_a": 0,
-          "score_b": 77,
+          "score_b": 0,
           "metric": "SOL: R$ 526.50 (Z_comp: +0.27σ)"
         },
         {
           "time": "24/08 22:00",
           "label": "24/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 526.40 (Z_comp: +0.74σ)"
         },
         {
@@ -71555,9 +71555,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "24/08 23:00",
           "label": "24/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 527.20 (Z_comp: +1.94σ)"
         },
         {
@@ -71579,33 +71579,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 00:00",
           "label": "25/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 523.50 (Z_comp: +1.68σ)"
         },
         {
           "time": "25/08 00:00",
           "label": "25/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 524.40 (Z_comp: +0.70σ)"
         },
         {
           "time": "25/08 00:00",
           "label": "25/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 525.60 (Z_comp: +0.69σ)"
         },
         {
           "time": "25/08 00:00",
           "label": "25/08 00:00",
-          "score": 1,
+          "score": 0,
           "score_a": 0,
-          "score_b": 1,
+          "score_b": 0,
           "metric": "SOL: R$ 524.70 (Z_comp: +0.00σ)"
         },
         {
@@ -71619,9 +71619,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 01:00",
           "label": "25/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 524.00 (Z_comp: +0.72σ)"
         },
         {
@@ -71643,33 +71643,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 02:00",
           "label": "25/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 526.40 (Z_comp: +1.83σ)"
         },
         {
           "time": "25/08 02:00",
           "label": "25/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 527.20 (Z_comp: +1.44σ)"
         },
         {
           "time": "25/08 02:00",
           "label": "25/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 529.00 (Z_comp: +1.10σ)"
         },
         {
           "time": "25/08 02:00",
           "label": "25/08 02:00",
-          "score": 49,
+          "score": 0,
           "score_a": 0,
-          "score_b": 49,
+          "score_b": 0,
           "metric": "SOL: R$ 527.20 (Z_comp: +0.17σ)"
         },
         {
@@ -71683,9 +71683,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 03:00",
           "label": "25/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 526.00 (Z_comp: +0.53σ)"
         },
         {
@@ -71707,9 +71707,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 04:00",
           "label": "25/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 525.00 (Z_comp: +1.31σ)"
         },
         {
@@ -71747,9 +71747,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 05:00",
           "label": "25/08 05:00",
-          "score": 75,
+          "score": 0,
           "score_a": 0,
-          "score_b": 75,
+          "score_b": 0,
           "metric": "SOL: R$ 519.30 (Z_comp: +0.26σ)"
         },
         {
@@ -71779,17 +71779,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 06:00",
           "label": "25/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 519.10 (Z_comp: +1.39σ)"
         },
         {
           "time": "25/08 06:00",
           "label": "25/08 06:00",
-          "score": 23,
+          "score": 0,
           "score_a": 0,
-          "score_b": 23,
+          "score_b": 0,
           "metric": "SOL: R$ 518.60 (Z_comp: +0.08σ)"
         },
         {
@@ -71811,9 +71811,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 07:00",
           "label": "25/08 07:00",
-          "score": 80,
+          "score": 0,
           "score_a": 0,
-          "score_b": 80,
+          "score_b": 0,
           "metric": "SOL: R$ 514.40 (Z_comp: +0.28σ)"
         },
         {
@@ -71827,9 +71827,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 07:00",
           "label": "25/08 07:00",
-          "score": 30,
+          "score": 0,
           "score_a": 0,
-          "score_b": 30,
+          "score_b": 0,
           "metric": "SOL: R$ 514.60 (Z_comp: +0.10σ)"
         },
         {
@@ -71851,9 +71851,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 08:00",
           "label": "25/08 08:00",
-          "score": 81,
+          "score": 0,
           "score_a": 0,
-          "score_b": 81,
+          "score_b": 0,
           "metric": "SOL: R$ 511.30 (Z_comp: +0.28σ)"
         },
         {
@@ -71883,25 +71883,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 09:00",
           "label": "25/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 508.20 (Z_comp: +0.40σ)"
         },
         {
           "time": "25/08 09:00",
           "label": "25/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 509.70 (Z_comp: +0.95σ)"
         },
         {
           "time": "25/08 10:00",
           "label": "25/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 510.10 (Z_comp: +0.40σ)"
         },
         {
@@ -71915,9 +71915,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 10:00",
           "label": "25/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 505.80 (Z_comp: +0.78σ)"
         },
         {
@@ -71931,9 +71931,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 11:00",
           "label": "25/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 503.30 (Z_comp: +1.06σ)"
         },
         {
@@ -71947,17 +71947,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 11:00",
           "label": "25/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 506.60 (Z_comp: +0.60σ)"
         },
         {
           "time": "25/08 11:00",
           "label": "25/08 11:00",
-          "score": 61,
+          "score": 0,
           "score_a": 0,
-          "score_b": 61,
+          "score_b": 0,
           "metric": "SOL: R$ 506.40 (Z_comp: +0.21σ)"
         },
         {
@@ -71979,9 +71979,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 12:00",
           "label": "25/08 12:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 508.60 (Z_comp: +2.23σ)"
         },
         {
@@ -71995,9 +71995,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 13:00",
           "label": "25/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 507.80 (Z_comp: +0.85σ)"
         },
         {
@@ -72011,17 +72011,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 13:00",
           "label": "25/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 507.60 (Z_comp: +1.16σ)"
         },
         {
           "time": "25/08 13:00",
           "label": "25/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 508.50 (Z_comp: +0.76σ)"
         },
         {
@@ -72035,41 +72035,41 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 14:00",
           "label": "25/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 505.90 (Z_comp: +1.55σ)"
         },
         {
           "time": "25/08 14:00",
           "label": "25/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 505.50 (Z_comp: +0.55σ)"
         },
         {
           "time": "25/08 14:00",
           "label": "25/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 506.40 (Z_comp: +0.60σ)"
         },
         {
           "time": "25/08 15:00",
           "label": "25/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 506.90 (Z_comp: +0.45σ)"
         },
         {
           "time": "25/08 15:00",
           "label": "25/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 510.00 (Z_comp: +2.27σ)"
         },
         {
@@ -72099,9 +72099,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 16:00",
           "label": "25/08 16:00",
-          "score": 64,
+          "score": 0,
           "score_a": 0,
-          "score_b": 64,
+          "score_b": 0,
           "metric": "SOL: R$ 508.20 (Z_comp: +0.22σ)"
         },
         {
@@ -72131,9 +72131,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 17:00",
           "label": "25/08 17:00",
-          "score": 26,
+          "score": 0,
           "score_a": 0,
-          "score_b": 26,
+          "score_b": 0,
           "metric": "SOL: R$ 504.20 (Z_comp: +0.09σ)"
         },
         {
@@ -72155,9 +72155,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 18:00",
           "label": "25/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 500.30 (Z_comp: +0.86σ)"
         },
         {
@@ -72171,9 +72171,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 18:00",
           "label": "25/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 500.80 (Z_comp: +1.29σ)"
         },
         {
@@ -72187,9 +72187,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 19:00",
           "label": "25/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 503.10 (Z_comp: +1.17σ)"
         },
         {
@@ -72251,9 +72251,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 21:00",
           "label": "25/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 498.80 (Z_comp: +0.41σ)"
         },
         {
@@ -72275,33 +72275,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 21:00",
           "label": "25/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 499.80 (Z_comp: +1.16σ)"
         },
         {
           "time": "25/08 22:00",
           "label": "25/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.40 (Z_comp: +0.98σ)"
         },
         {
           "time": "25/08 22:00",
           "label": "25/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.10 (Z_comp: +0.36σ)"
         },
         {
           "time": "25/08 22:00",
           "label": "25/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.30 (Z_comp: +0.71σ)"
         },
         {
@@ -72323,9 +72323,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 23:00",
           "label": "25/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.70 (Z_comp: +1.19σ)"
         },
         {
@@ -72347,33 +72347,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 00:00",
           "label": "26/08 00:00",
-          "score": 23,
+          "score": 0,
           "score_a": 0,
-          "score_b": 23,
+          "score_b": 0,
           "metric": "SOL: R$ 502.00 (Z_comp: +0.08σ)"
         },
         {
           "time": "26/08 00:00",
           "label": "26/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.80 (Z_comp: +0.91σ)"
         },
         {
           "time": "26/08 00:00",
           "label": "26/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.50 (Z_comp: +0.41σ)"
         },
         {
           "time": "26/08 00:00",
           "label": "26/08 00:00",
-          "score": 25,
+          "score": 0,
           "score_a": 0,
-          "score_b": 25,
+          "score_b": 0,
           "metric": "SOL: R$ 501.00 (Z_comp: +0.09σ)"
         },
         {
@@ -72387,17 +72387,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 01:00",
           "label": "26/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.20 (Z_comp: +0.50σ)"
         },
         {
           "time": "26/08 01:00",
           "label": "26/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 502.20 (Z_comp: +1.76σ)"
         },
         {
@@ -72419,17 +72419,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 02:00",
           "label": "26/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 498.90 (Z_comp: +0.36σ)"
         },
         {
           "time": "26/08 02:00",
           "label": "26/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.10 (Z_comp: +0.89σ)"
         },
         {
@@ -72443,9 +72443,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 03:00",
           "label": "26/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 502.20 (Z_comp: +1.50σ)"
         },
         {
@@ -72467,17 +72467,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 03:00",
           "label": "26/08 03:00",
-          "score": 10,
+          "score": 0,
           "score_a": 0,
-          "score_b": 10,
+          "score_b": 0,
           "metric": "SOL: R$ 499.20 (Z_comp: +0.03σ)"
         },
         {
           "time": "26/08 04:00",
           "label": "26/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 500.90 (Z_comp: +1.80σ)"
         },
         {
@@ -72491,25 +72491,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 04:00",
           "label": "26/08 04:00",
-          "score": 16,
+          "score": 0,
           "score_a": 0,
-          "score_b": 16,
+          "score_b": 0,
           "metric": "SOL: R$ 500.50 (Z_comp: +0.06σ)"
         },
         {
           "time": "26/08 04:00",
           "label": "26/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 500.70 (Z_comp: +0.42σ)"
         },
         {
           "time": "26/08 05:00",
           "label": "26/08 05:00",
-          "score": 55,
+          "score": 0,
           "score_a": 0,
-          "score_b": 55,
+          "score_b": 0,
           "metric": "SOL: R$ 500.40 (Z_comp: +0.19σ)"
         },
         {
@@ -72531,17 +72531,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 05:00",
           "label": "26/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.00 (Z_comp: +0.39σ)"
         },
         {
           "time": "26/08 06:00",
           "label": "26/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 500.10 (Z_comp: +0.70σ)"
         },
         {
@@ -72563,9 +72563,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 06:00",
           "label": "26/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 496.30 (Z_comp: +0.48σ)"
         },
         {
@@ -72579,25 +72579,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 07:00",
           "label": "26/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 497.90 (Z_comp: +0.65σ)"
         },
         {
           "time": "26/08 07:00",
           "label": "26/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 499.70 (Z_comp: +1.60σ)"
         },
         {
           "time": "26/08 07:00",
           "label": "26/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 504.20 (Z_comp: +1.24σ)"
         },
         {
@@ -72611,9 +72611,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 08:00",
           "label": "26/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 502.80 (Z_comp: +0.49σ)"
         },
         {
@@ -72627,9 +72627,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 08:00",
           "label": "26/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 500.40 (Z_comp: +1.17σ)"
         },
         {
@@ -72643,9 +72643,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.30 (Z_comp: +1.81σ)"
         },
         {
@@ -72659,9 +72659,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 09:00",
           "label": "26/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.70 (Z_comp: +0.78σ)"
         },
         {
@@ -72683,9 +72683,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 10:00",
           "label": "26/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 499.40 (Z_comp: +1.21σ)"
         },
         {
@@ -72699,9 +72699,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 11:00",
           "label": "26/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.10 (Z_comp: +1.36σ)"
         },
         {
@@ -72739,9 +72739,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 12:00",
           "label": "26/08 12:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 495.30 (Z_comp: +0.79σ)"
         },
         {
@@ -72755,73 +72755,73 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 12:00",
           "label": "26/08 12:00",
-          "score": 19,
+          "score": 0,
           "score_a": 0,
-          "score_b": 19,
+          "score_b": 0,
           "metric": "SOL: R$ 497.40 (Z_comp: +0.07σ)"
         },
         {
           "time": "26/08 13:00",
           "label": "26/08 13:00",
-          "score": 92,
+          "score": 0,
           "score_a": 0,
-          "score_b": 92,
+          "score_b": 0,
           "metric": "SOL: R$ 497.20 (Z_comp: +0.32σ)"
         },
         {
           "time": "26/08 13:00",
           "label": "26/08 13:00",
-          "score": 62,
+          "score": 0,
           "score_a": 0,
-          "score_b": 62,
+          "score_b": 0,
           "metric": "SOL: R$ 496.60 (Z_comp: +0.22σ)"
         },
         {
           "time": "26/08 13:00",
           "label": "26/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 496.50 (Z_comp: +1.55σ)"
         },
         {
           "time": "26/08 13:00",
           "label": "26/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 496.60 (Z_comp: +0.91σ)"
         },
         {
           "time": "26/08 14:00",
           "label": "26/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 496.80 (Z_comp: +1.16σ)"
         },
         {
           "time": "26/08 14:00",
           "label": "26/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 499.40 (Z_comp: +1.54σ)"
         },
         {
           "time": "26/08 14:00",
           "label": "26/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.40 (Z_comp: +1.05σ)"
         },
         {
           "time": "26/08 14:00",
           "label": "26/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 502.40 (Z_comp: +1.17σ)"
         },
         {
@@ -72835,9 +72835,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 15:00",
           "label": "26/08 15:00",
-          "score": 77,
+          "score": 0,
           "score_a": 0,
-          "score_b": 77,
+          "score_b": 0,
           "metric": "SOL: R$ 500.90 (Z_comp: +0.27σ)"
         },
         {
@@ -72851,9 +72851,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 15:00",
           "label": "26/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 500.10 (Z_comp: +1.56σ)"
         },
         {
@@ -72875,25 +72875,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 16:00",
           "label": "26/08 16:00",
-          "score": 64,
+          "score": 0,
           "score_a": 0,
-          "score_b": 64,
+          "score_b": 0,
           "metric": "SOL: R$ 500.00 (Z_comp: +0.22σ)"
         },
         {
           "time": "26/08 16:00",
           "label": "26/08 16:00",
-          "score": 76,
+          "score": 0,
           "score_a": 0,
-          "score_b": 76,
+          "score_b": 0,
           "metric": "SOL: R$ 499.50 (Z_comp: +0.27σ)"
         },
         {
           "time": "26/08 17:00",
           "label": "26/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.10 (Z_comp: +2.08σ)"
         },
         {
@@ -72915,57 +72915,57 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 17:00",
           "label": "26/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 499.40 (Z_comp: +0.69σ)"
         },
         {
           "time": "26/08 18:00",
           "label": "26/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.30 (Z_comp: +1.41σ)"
         },
         {
           "time": "26/08 18:00",
           "label": "26/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 504.00 (Z_comp: +1.54σ)"
         },
         {
           "time": "26/08 18:00",
           "label": "26/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 504.10 (Z_comp: +1.32σ)"
         },
         {
           "time": "26/08 18:00",
           "label": "26/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 505.50 (Z_comp: +2.13σ)"
         },
         {
           "time": "26/08 19:00",
           "label": "26/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 508.20 (Z_comp: +1.73σ)"
         },
         {
           "time": "26/08 19:00",
           "label": "26/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 521.30 (Z_comp: +2.81σ)"
         },
         {
@@ -72987,17 +72987,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 20:00",
           "label": "26/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 516.80 (Z_comp: +1.09σ)"
         },
         {
           "time": "26/08 20:00",
           "label": "26/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 519.70 (Z_comp: +1.43σ)"
         },
         {
@@ -73011,9 +73011,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 20:00",
           "label": "26/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 525.70 (Z_comp: +1.63σ)"
         },
         {
@@ -73027,9 +73027,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 21:00",
           "label": "26/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 524.90 (Z_comp: +1.21σ)"
         },
         {
@@ -73043,9 +73043,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 21:00",
           "label": "26/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 522.40 (Z_comp: +1.98σ)"
         },
         {
@@ -73059,33 +73059,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 22:00",
           "label": "26/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 521.30 (Z_comp: +2.02σ)"
         },
         {
           "time": "26/08 22:00",
           "label": "26/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 525.20 (Z_comp: +1.02σ)"
         },
         {
           "time": "26/08 22:00",
           "label": "26/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 525.30 (Z_comp: +1.34σ)"
         },
         {
           "time": "26/08 23:00",
           "label": "26/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 525.10 (Z_comp: +0.59σ)"
         },
         {
@@ -73099,9 +73099,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 23:00",
           "label": "26/08 23:00",
-          "score": 85,
+          "score": 0,
           "score_a": 0,
-          "score_b": 85,
+          "score_b": 0,
           "metric": "SOL: R$ 523.00 (Z_comp: +0.30σ)"
         },
         {
@@ -73115,17 +73115,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 00:00",
           "label": "27/08 00:00",
-          "score": 47,
+          "score": 0,
           "score_a": 0,
-          "score_b": 47,
+          "score_b": 0,
           "metric": "SOL: R$ 522.30 (Z_comp: +0.16σ)"
         },
         {
           "time": "27/08 00:00",
           "label": "27/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 523.10 (Z_comp: +1.06σ)"
         },
         {
@@ -73147,9 +73147,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 01:00",
           "label": "27/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 522.30 (Z_comp: +1.20σ)"
         },
         {
@@ -73203,9 +73203,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 02:00",
           "label": "27/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 525.20 (Z_comp: +1.62σ)"
         },
         {
@@ -73227,17 +73227,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 03:00",
           "label": "27/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 522.30 (Z_comp: +1.81σ)"
         },
         {
           "time": "27/08 03:00",
           "label": "27/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 522.60 (Z_comp: +0.60σ)"
         },
         {
@@ -73251,57 +73251,57 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 04:00",
           "label": "27/08 04:00",
-          "score": 2,
+          "score": 0,
           "score_a": 0,
-          "score_b": 2,
+          "score_b": 0,
           "metric": "SOL: R$ 522.50 (Z_comp: +0.01σ)"
         },
         {
           "time": "27/08 04:00",
           "label": "27/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 523.20 (Z_comp: +1.41σ)"
         },
         {
           "time": "27/08 04:00",
           "label": "27/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 524.30 (Z_comp: +1.73σ)"
         },
         {
           "time": "27/08 05:00",
           "label": "27/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 528.90 (Z_comp: +2.27σ)"
         },
         {
           "time": "27/08 05:00",
           "label": "27/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.30 (Z_comp: +1.04σ)"
         },
         {
           "time": "27/08 05:00",
           "label": "27/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.80 (Z_comp: +0.62σ)"
         },
         {
           "time": "27/08 05:00",
           "label": "27/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.70 (Z_comp: +1.11σ)"
         },
         {
@@ -73315,9 +73315,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 06:00",
           "label": "27/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 544.60 (Z_comp: +2.10σ)"
         },
         {
@@ -73339,9 +73339,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 07:00",
           "label": "27/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.80 (Z_comp: +1.09σ)"
         },
         {
@@ -73355,33 +73355,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 07:00",
           "label": "27/08 07:00",
-          "score": 75,
+          "score": 0,
           "score_a": 0,
-          "score_b": 75,
+          "score_b": 0,
           "metric": "SOL: R$ 537.00 (Z_comp: +0.26σ)"
         },
         {
           "time": "27/08 07:00",
           "label": "27/08 07:00",
-          "score": 65,
+          "score": 0,
           "score_a": 0,
-          "score_b": 65,
+          "score_b": 0,
           "metric": "SOL: R$ 536.70 (Z_comp: +0.23σ)"
         },
         {
           "time": "27/08 08:00",
           "label": "27/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.50 (Z_comp: +1.36σ)"
         },
         {
           "time": "27/08 08:00",
           "label": "27/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.40 (Z_comp: +1.85σ)"
         },
         {
@@ -73403,17 +73403,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 09:00",
           "label": "27/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.50 (Z_comp: +1.21σ)"
         },
         {
           "time": "27/08 09:00",
           "label": "27/08 09:00",
-          "score": 88,
+          "score": 0,
           "score_a": 0,
-          "score_b": 88,
+          "score_b": 0,
           "metric": "SOL: R$ 538.10 (Z_comp: +0.31σ)"
         },
         {
@@ -73427,25 +73427,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 09:00",
           "label": "27/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.80 (Z_comp: +1.75σ)"
         },
         {
           "time": "27/08 10:00",
           "label": "27/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.40 (Z_comp: +0.40σ)"
         },
         {
           "time": "27/08 10:00",
           "label": "27/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.90 (Z_comp: +0.85σ)"
         },
         {
@@ -73459,49 +73459,49 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 10:00",
           "label": "27/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 542.50 (Z_comp: +1.96σ)"
         },
         {
           "time": "27/08 11:00",
           "label": "27/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 547.70 (Z_comp: +1.04σ)"
         },
         {
           "time": "27/08 11:00",
           "label": "27/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 549.10 (Z_comp: +2.48σ)"
         },
         {
           "time": "27/08 11:00",
           "label": "27/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 551.90 (Z_comp: +2.07σ)"
         },
         {
           "time": "27/08 11:00",
           "label": "27/08 11:00",
-          "score": 9,
+          "score": 0,
           "score_a": 0,
-          "score_b": 9,
+          "score_b": 0,
           "metric": "SOL: R$ 553.70 (Z_comp: +0.03σ)"
         },
         {
           "time": "27/08 12:00",
           "label": "27/08 12:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 556.60 (Z_comp: +2.17σ)"
         },
         {
@@ -73531,17 +73531,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 13:00",
           "label": "27/08 13:00",
-          "score": 7,
+          "score": 0,
           "score_a": 0,
-          "score_b": 7,
+          "score_b": 0,
           "metric": "SOL: R$ 555.50 (Z_comp: +0.03σ)"
         },
         {
           "time": "27/08 13:00",
           "label": "27/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 558.50 (Z_comp: +1.35σ)"
         },
         {
@@ -73555,25 +73555,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 13:00",
           "label": "27/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 563.80 (Z_comp: +0.77σ)"
         },
         {
           "time": "27/08 14:00",
           "label": "27/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 565.30 (Z_comp: +0.74σ)"
         },
         {
           "time": "27/08 14:00",
           "label": "27/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 566.80 (Z_comp: +0.51σ)"
         },
         {
@@ -73587,9 +73587,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 14:00",
           "label": "27/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 561.00 (Z_comp: +1.85σ)"
         },
         {
@@ -73611,65 +73611,65 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 15:00",
           "label": "27/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 555.80 (Z_comp: +0.40σ)"
         },
         {
           "time": "27/08 15:00",
           "label": "27/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 557.20 (Z_comp: +0.53σ)"
         },
         {
           "time": "27/08 16:00",
           "label": "27/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 563.90 (Z_comp: +1.55σ)"
         },
         {
           "time": "27/08 16:00",
           "label": "27/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 564.30 (Z_comp: +0.91σ)"
         },
         {
           "time": "27/08 16:00",
           "label": "27/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 564.50 (Z_comp: +0.51σ)"
         },
         {
           "time": "27/08 16:00",
           "label": "27/08 16:00",
-          "score": 77,
+          "score": 0,
           "score_a": 0,
-          "score_b": 77,
+          "score_b": 0,
           "metric": "SOL: R$ 565.60 (Z_comp: +0.27σ)"
         },
         {
           "time": "27/08 17:00",
           "label": "27/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 565.30 (Z_comp: +0.42σ)"
         },
         {
           "time": "27/08 17:00",
           "label": "27/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 567.20 (Z_comp: +2.27σ)"
         },
         {
@@ -73683,17 +73683,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 17:00",
           "label": "27/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 565.00 (Z_comp: +0.54σ)"
         },
         {
           "time": "27/08 18:00",
           "label": "27/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 563.90 (Z_comp: +0.38σ)"
         },
         {
@@ -73707,41 +73707,41 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 18:00",
           "label": "27/08 18:00",
-          "score": 98,
+          "score": 0,
           "score_a": 0,
-          "score_b": 98,
+          "score_b": 0,
           "metric": "SOL: R$ 562.70 (Z_comp: +0.34σ)"
         },
         {
           "time": "27/08 18:00",
           "label": "27/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 561.80 (Z_comp: +0.54σ)"
         },
         {
           "time": "27/08 19:00",
           "label": "27/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 568.70 (Z_comp: +1.76σ)"
         },
         {
           "time": "27/08 19:00",
           "label": "27/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 569.20 (Z_comp: +1.35σ)"
         },
         {
           "time": "27/08 19:00",
           "label": "27/08 19:00",
-          "score": 45,
+          "score": 0,
           "score_a": 0,
-          "score_b": 45,
+          "score_b": 0,
           "metric": "SOL: R$ 566.30 (Z_comp: +0.16σ)"
         },
         {
@@ -73763,25 +73763,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 20:00",
           "label": "27/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 566.30 (Z_comp: +1.22σ)"
         },
         {
           "time": "27/08 20:00",
           "label": "27/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 568.40 (Z_comp: +0.35σ)"
         },
         {
           "time": "27/08 20:00",
           "label": "27/08 20:00",
-          "score": 89,
+          "score": 0,
           "score_a": 0,
-          "score_b": 89,
+          "score_b": 0,
           "metric": "SOL: R$ 566.40 (Z_comp: +0.31σ)"
         },
         {
@@ -73795,9 +73795,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 21:00",
           "label": "27/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 567.80 (Z_comp: +1.47σ)"
         },
         {
@@ -73811,9 +73811,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 21:00",
           "label": "27/08 21:00",
-          "score": 1,
+          "score": 0,
           "score_a": 0,
-          "score_b": 1,
+          "score_b": 0,
           "metric": "SOL: R$ 567.00 (Z_comp: +0.00σ)"
         },
         {
@@ -73827,9 +73827,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 22:00",
           "label": "27/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 567.00 (Z_comp: +1.55σ)"
         },
         {
@@ -73867,9 +73867,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 23:00",
           "label": "27/08 23:00",
-          "score": 26,
+          "score": 0,
           "score_a": 0,
-          "score_b": 26,
+          "score_b": 0,
           "metric": "SOL: R$ 555.80 (Z_comp: +0.09σ)"
         },
         {
@@ -73891,9 +73891,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 00:00",
           "label": "28/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 554.90 (Z_comp: +1.38σ)"
         },
         {
@@ -73923,9 +73923,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 01:00",
           "label": "28/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 556.40 (Z_comp: +0.48σ)"
         },
         {
@@ -73939,9 +73939,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 01:00",
           "label": "28/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 553.60 (Z_comp: +1.98σ)"
         },
         {
@@ -73955,33 +73955,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 02:00",
           "label": "28/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 554.00 (Z_comp: +0.41σ)"
         },
         {
           "time": "28/08 02:00",
           "label": "28/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 555.70 (Z_comp: +1.19σ)"
         },
         {
           "time": "28/08 02:00",
           "label": "28/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 556.60 (Z_comp: +1.59σ)"
         },
         {
           "time": "28/08 03:00",
           "label": "28/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 556.40 (Z_comp: +1.69σ)"
         },
         {
@@ -73995,17 +73995,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 03:00",
           "label": "28/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 556.10 (Z_comp: +1.21σ)"
         },
         {
           "time": "28/08 03:00",
           "label": "28/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 558.20 (Z_comp: +1.47σ)"
         },
         {
@@ -74051,17 +74051,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 05:00",
           "label": "28/08 05:00",
-          "score": 42,
+          "score": 0,
           "score_a": 0,
-          "score_b": 42,
+          "score_b": 0,
           "metric": "SOL: R$ 551.90 (Z_comp: +0.15σ)"
         },
         {
           "time": "28/08 05:00",
           "label": "28/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 552.50 (Z_comp: +0.88σ)"
         },
         {
@@ -74075,17 +74075,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 06:00",
           "label": "28/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 550.10 (Z_comp: +0.68σ)"
         },
         {
           "time": "28/08 06:00",
           "label": "28/08 06:00",
-          "score": 78,
+          "score": 0,
           "score_a": 0,
-          "score_b": 78,
+          "score_b": 0,
           "metric": "SOL: R$ 551.90 (Z_comp: +0.27σ)"
         },
         {
@@ -74123,33 +74123,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 07:00",
           "label": "28/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.40 (Z_comp: +0.80σ)"
         },
         {
           "time": "28/08 07:00",
           "label": "28/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.80 (Z_comp: +0.55σ)"
         },
         {
           "time": "28/08 08:00",
           "label": "28/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 552.40 (Z_comp: +1.11σ)"
         },
         {
           "time": "28/08 08:00",
           "label": "28/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 552.00 (Z_comp: +0.46σ)"
         },
         {
@@ -74171,9 +74171,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 09:00",
           "label": "28/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.90 (Z_comp: +1.44σ)"
         },
         {
@@ -74203,25 +74203,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 10:00",
           "label": "28/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 544.60 (Z_comp: +0.62σ)"
         },
         {
           "time": "28/08 10:00",
           "label": "28/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 545.70 (Z_comp: +1.33σ)"
         },
         {
           "time": "28/08 10:00",
           "label": "28/08 10:00",
-          "score": 19,
+          "score": 0,
           "score_a": 0,
-          "score_b": 19,
+          "score_b": 0,
           "metric": "SOL: R$ 546.30 (Z_comp: +0.07σ)"
         },
         {
@@ -74243,25 +74243,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 11:00",
           "label": "28/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 544.50 (Z_comp: +0.93σ)"
         },
         {
           "time": "28/08 11:00",
           "label": "28/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 549.50 (Z_comp: +1.43σ)"
         },
         {
           "time": "28/08 11:00",
           "label": "28/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 553.30 (Z_comp: +0.85σ)"
         },
         {
@@ -74275,9 +74275,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 12:00",
           "label": "28/08 12:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 561.20 (Z_comp: +2.73σ)"
         },
         {
@@ -74315,9 +74315,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 13:00",
           "label": "28/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 547.50 (Z_comp: +0.37σ)"
         },
         {
@@ -74355,9 +74355,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 14:00",
           "label": "28/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.30 (Z_comp: +0.66σ)"
         },
         {
@@ -74395,9 +74395,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 16:00",
           "label": "28/08 16:00",
-          "score": 41,
+          "score": 0,
           "score_a": 0,
-          "score_b": 41,
+          "score_b": 0,
           "metric": "SOL: R$ 538.40 (Z_comp: +0.14σ)"
         },
         {
@@ -74411,9 +74411,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 16:00",
           "label": "28/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.00 (Z_comp: +0.68σ)"
         },
         {
@@ -74435,9 +74435,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 17:00",
           "label": "28/08 17:00",
-          "score": 65,
+          "score": 0,
           "score_a": 0,
-          "score_b": 65,
+          "score_b": 0,
           "metric": "SOL: R$ 539.20 (Z_comp: +0.23σ)"
         },
         {
@@ -74451,9 +74451,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 17:00",
           "label": "28/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 542.00 (Z_comp: +0.46σ)"
         },
         {
@@ -74475,9 +74475,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 18:00",
           "label": "28/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 542.20 (Z_comp: +1.15σ)"
         },
         {
@@ -74507,17 +74507,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 19:00",
           "label": "28/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.80 (Z_comp: +0.41σ)"
         },
         {
           "time": "28/08 19:00",
           "label": "28/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 542.40 (Z_comp: +0.82σ)"
         },
         {
@@ -74539,33 +74539,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 20:00",
           "label": "28/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 542.20 (Z_comp: +0.86σ)"
         },
         {
           "time": "28/08 20:00",
           "label": "28/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 542.90 (Z_comp: +2.33σ)"
         },
         {
           "time": "28/08 21:00",
           "label": "28/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.70 (Z_comp: +1.63σ)"
         },
         {
           "time": "28/08 21:00",
           "label": "28/08 21:00",
-          "score": 66,
+          "score": 0,
           "score_a": 0,
-          "score_b": 66,
+          "score_b": 0,
           "metric": "SOL: R$ 544.30 (Z_comp: +0.23σ)"
         },
         {
@@ -74595,33 +74595,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 22:00",
           "label": "28/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 542.60 (Z_comp: +1.50σ)"
         },
         {
           "time": "28/08 22:00",
           "label": "28/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.70 (Z_comp: +1.74σ)"
         },
         {
           "time": "28/08 22:00",
           "label": "28/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.60 (Z_comp: +1.42σ)"
         },
         {
           "time": "28/08 23:00",
           "label": "28/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.50 (Z_comp: +0.63σ)"
         },
         {
@@ -74707,9 +74707,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 01:00",
           "label": "29/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.60 (Z_comp: +0.75σ)"
         },
         {
@@ -74723,25 +74723,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 02:00",
           "label": "29/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 542.20 (Z_comp: +0.94σ)"
         },
         {
           "time": "29/08 02:00",
           "label": "29/08 02:00",
-          "score": 73,
+          "score": 0,
           "score_a": 0,
-          "score_b": 73,
+          "score_b": 0,
           "metric": "SOL: R$ 541.90 (Z_comp: +0.26σ)"
         },
         {
           "time": "29/08 02:00",
           "label": "29/08 02:00",
-          "score": 88,
+          "score": 0,
           "score_a": 0,
-          "score_b": 88,
+          "score_b": 0,
           "metric": "SOL: R$ 542.10 (Z_comp: +0.31σ)"
         },
         {
@@ -74771,25 +74771,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 03:00",
           "label": "29/08 03:00",
-          "score": 84,
+          "score": 0,
           "score_a": 0,
-          "score_b": 84,
+          "score_b": 0,
           "metric": "SOL: R$ 539.50 (Z_comp: +0.30σ)"
         },
         {
           "time": "29/08 04:00",
           "label": "29/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.70 (Z_comp: +1.20σ)"
         },
         {
           "time": "29/08 04:00",
           "label": "29/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.80 (Z_comp: +1.30σ)"
         },
         {
@@ -74819,9 +74819,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 05:00",
           "label": "29/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.70 (Z_comp: +0.40σ)"
         },
         {
@@ -74843,25 +74843,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 06:00",
           "label": "29/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.70 (Z_comp: +1.12σ)"
         },
         {
           "time": "29/08 06:00",
           "label": "29/08 06:00",
-          "score": 75,
+          "score": 0,
           "score_a": 0,
-          "score_b": 75,
+          "score_b": 0,
           "metric": "SOL: R$ 538.60 (Z_comp: +0.26σ)"
         },
         {
           "time": "29/08 06:00",
           "label": "29/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.80 (Z_comp: +0.99σ)"
         },
         {
@@ -74883,33 +74883,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 07:00",
           "label": "29/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.20 (Z_comp: +1.39σ)"
         },
         {
           "time": "29/08 07:00",
           "label": "29/08 07:00",
-          "score": 16,
+          "score": 0,
           "score_a": 0,
-          "score_b": 16,
+          "score_b": 0,
           "metric": "SOL: R$ 538.60 (Z_comp: +0.06σ)"
         },
         {
           "time": "29/08 07:00",
           "label": "29/08 07:00",
-          "score": 67,
+          "score": 0,
           "score_a": 0,
-          "score_b": 67,
+          "score_b": 0,
           "metric": "SOL: R$ 538.50 (Z_comp: +0.23σ)"
         },
         {
           "time": "29/08 08:00",
           "label": "29/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.20 (Z_comp: +0.70σ)"
         },
         {
@@ -74923,17 +74923,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 08:00",
           "label": "29/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.50 (Z_comp: +1.31σ)"
         },
         {
           "time": "29/08 08:00",
           "label": "29/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.80 (Z_comp: +2.11σ)"
         },
         {
@@ -74947,9 +74947,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 09:00",
           "label": "29/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 542.30 (Z_comp: +2.13σ)"
         },
         {
@@ -74963,73 +74963,73 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 09:00",
           "label": "29/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.00 (Z_comp: +1.71σ)"
         },
         {
           "time": "29/08 10:00",
           "label": "29/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.50 (Z_comp: +0.49σ)"
         },
         {
           "time": "29/08 10:00",
           "label": "29/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.80 (Z_comp: +1.09σ)"
         },
         {
           "time": "29/08 10:00",
           "label": "29/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.10 (Z_comp: +2.14σ)"
         },
         {
           "time": "29/08 10:00",
           "label": "29/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.00 (Z_comp: +1.56σ)"
         },
         {
           "time": "29/08 11:00",
           "label": "29/08 11:00",
-          "score": 58,
+          "score": 0,
           "score_a": 0,
-          "score_b": 58,
+          "score_b": 0,
           "metric": "SOL: R$ 541.20 (Z_comp: +0.20σ)"
         },
         {
           "time": "29/08 11:00",
           "label": "29/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.10 (Z_comp: +2.06σ)"
         },
         {
           "time": "29/08 11:00",
           "label": "29/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 545.20 (Z_comp: +2.94σ)"
         },
         {
           "time": "29/08 11:00",
           "label": "29/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 547.40 (Z_comp: +1.00σ)"
         },
         {
@@ -75043,33 +75043,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 12:00",
           "label": "29/08 12:00",
-          "score": 98,
+          "score": 0,
           "score_a": 0,
-          "score_b": 98,
+          "score_b": 0,
           "metric": "SOL: R$ 547.40 (Z_comp: +0.34σ)"
         },
         {
           "time": "29/08 12:00",
           "label": "29/08 12:00",
-          "score": 30,
+          "score": 0,
           "score_a": 0,
-          "score_b": 30,
+          "score_b": 0,
           "metric": "SOL: R$ 547.10 (Z_comp: +0.10σ)"
         },
         {
           "time": "29/08 12:00",
           "label": "29/08 12:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.20 (Z_comp: +2.01σ)"
         },
         {
           "time": "29/08 13:00",
           "label": "29/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.10 (Z_comp: +1.23σ)"
         },
         {
@@ -75083,25 +75083,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 13:00",
           "label": "29/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 547.60 (Z_comp: +0.63σ)"
         },
         {
           "time": "29/08 13:00",
           "label": "29/08 13:00",
-          "score": 94,
+          "score": 0,
           "score_a": 0,
-          "score_b": 94,
+          "score_b": 0,
           "metric": "SOL: R$ 547.60 (Z_comp: +0.33σ)"
         },
         {
           "time": "29/08 14:00",
           "label": "29/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 547.60 (Z_comp: +0.88σ)"
         },
         {
@@ -75123,9 +75123,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 14:00",
           "label": "29/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 546.20 (Z_comp: +1.16σ)"
         },
         {
@@ -75139,9 +75139,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 15:00",
           "label": "29/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 546.80 (Z_comp: +0.90σ)"
         },
         {
@@ -75155,9 +75155,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 15:00",
           "label": "29/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.00 (Z_comp: +1.52σ)"
         },
         {
@@ -75171,9 +75171,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 16:00",
           "label": "29/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 550.20 (Z_comp: +1.27σ)"
         },
         {
@@ -75195,33 +75195,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 17:00",
           "label": "29/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 549.40 (Z_comp: +2.67σ)"
         },
         {
           "time": "29/08 17:00",
           "label": "29/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.80 (Z_comp: +0.62σ)"
         },
         {
           "time": "29/08 17:00",
           "label": "29/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.20 (Z_comp: +0.76σ)"
         },
         {
           "time": "29/08 17:00",
           "label": "29/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.30 (Z_comp: +0.55σ)"
         },
         {
@@ -75235,9 +75235,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 18:00",
           "label": "29/08 18:00",
-          "score": 99,
+          "score": 0,
           "score_a": 0,
-          "score_b": 99,
+          "score_b": 0,
           "metric": "SOL: R$ 548.40 (Z_comp: +0.35σ)"
         },
         {
@@ -75251,9 +75251,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 18:00",
           "label": "29/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 547.30 (Z_comp: +0.80σ)"
         },
         {
@@ -75267,57 +75267,57 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 19:00",
           "label": "29/08 19:00",
-          "score": 90,
+          "score": 0,
           "score_a": 0,
-          "score_b": 90,
+          "score_b": 0,
           "metric": "SOL: R$ 546.90 (Z_comp: +0.32σ)"
         },
         {
           "time": "29/08 19:00",
           "label": "29/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.00 (Z_comp: +0.97σ)"
         },
         {
           "time": "29/08 19:00",
           "label": "29/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 549.00 (Z_comp: +1.43σ)"
         },
         {
           "time": "29/08 20:00",
           "label": "29/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 550.00 (Z_comp: +1.28σ)"
         },
         {
           "time": "29/08 20:00",
           "label": "29/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 550.40 (Z_comp: +0.57σ)"
         },
         {
           "time": "29/08 20:00",
           "label": "29/08 20:00",
-          "score": 3,
+          "score": 0,
           "score_a": 0,
-          "score_b": 3,
+          "score_b": 0,
           "metric": "SOL: R$ 549.90 (Z_comp: +0.01σ)"
         },
         {
           "time": "29/08 20:00",
           "label": "29/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 550.60 (Z_comp: +1.58σ)"
         },
         {
@@ -75331,33 +75331,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 21:00",
           "label": "29/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 549.90 (Z_comp: +0.99σ)"
         },
         {
           "time": "29/08 21:00",
           "label": "29/08 21:00",
-          "score": 61,
+          "score": 0,
           "score_a": 0,
-          "score_b": 61,
+          "score_b": 0,
           "metric": "SOL: R$ 549.20 (Z_comp: +0.22σ)"
         },
         {
           "time": "29/08 21:00",
           "label": "29/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 549.40 (Z_comp: +0.93σ)"
         },
         {
           "time": "29/08 22:00",
           "label": "29/08 22:00",
-          "score": 9,
+          "score": 0,
           "score_a": 0,
-          "score_b": 9,
+          "score_b": 0,
           "metric": "SOL: R$ 548.80 (Z_comp: +0.03σ)"
         },
         {
@@ -75379,25 +75379,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 22:00",
           "label": "29/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.80 (Z_comp: +1.84σ)"
         },
         {
           "time": "29/08 23:00",
           "label": "29/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.70 (Z_comp: +0.46σ)"
         },
         {
           "time": "29/08 23:00",
           "label": "29/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 549.40 (Z_comp: +1.50σ)"
         },
         {
@@ -75411,9 +75411,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 23:00",
           "label": "29/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 549.10 (Z_comp: +1.12σ)"
         },
         {
@@ -75427,17 +75427,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 00:00",
           "label": "30/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.00 (Z_comp: +0.43σ)"
         },
         {
           "time": "30/08 00:00",
           "label": "30/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.90 (Z_comp: +0.90σ)"
         },
         {
@@ -75451,9 +75451,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 01:00",
           "label": "30/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.00 (Z_comp: +1.50σ)"
         },
         {
@@ -75483,9 +75483,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 02:00",
           "label": "30/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.20 (Z_comp: +0.78σ)"
         },
         {
@@ -75515,9 +75515,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 03:00",
           "label": "30/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 547.60 (Z_comp: +0.95σ)"
         },
         {
@@ -75539,17 +75539,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 03:00",
           "label": "30/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 547.60 (Z_comp: +0.60σ)"
         },
         {
           "time": "30/08 04:00",
           "label": "30/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 549.00 (Z_comp: +1.19σ)"
         },
         {
@@ -75587,17 +75587,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 05:00",
           "label": "30/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 547.20 (Z_comp: +1.19σ)"
         },
         {
           "time": "30/08 05:00",
           "label": "30/08 05:00",
-          "score": 91,
+          "score": 0,
           "score_a": 0,
-          "score_b": 91,
+          "score_b": 0,
           "metric": "SOL: R$ 547.30 (Z_comp: +0.32σ)"
         },
         {
@@ -75611,9 +75611,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 06:00",
           "label": "30/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 546.70 (Z_comp: +0.88σ)"
         },
         {
@@ -75635,9 +75635,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 06:00",
           "label": "30/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 545.80 (Z_comp: +0.45σ)"
         },
         {
@@ -75651,33 +75651,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 07:00",
           "label": "30/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 545.50 (Z_comp: +0.79σ)"
         },
         {
           "time": "30/08 07:00",
           "label": "30/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 546.80 (Z_comp: +1.08σ)"
         },
         {
           "time": "30/08 07:00",
           "label": "30/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.10 (Z_comp: +1.05σ)"
         },
         {
           "time": "30/08 08:00",
           "label": "30/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.70 (Z_comp: +2.19σ)"
         },
         {
@@ -75699,17 +75699,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 08:00",
           "label": "30/08 08:00",
-          "score": 26,
+          "score": 0,
           "score_a": 0,
-          "score_b": 26,
+          "score_b": 0,
           "metric": "SOL: R$ 547.50 (Z_comp: +0.09σ)"
         },
         {
           "time": "30/08 09:00",
           "label": "30/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 549.80 (Z_comp: +2.48σ)"
         },
         {
@@ -75731,41 +75731,41 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 09:00",
           "label": "30/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 549.60 (Z_comp: +0.37σ)"
         },
         {
           "time": "30/08 10:00",
           "label": "30/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 552.60 (Z_comp: +1.11σ)"
         },
         {
           "time": "30/08 10:00",
           "label": "30/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 553.20 (Z_comp: +1.22σ)"
         },
         {
           "time": "30/08 10:00",
           "label": "30/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 555.10 (Z_comp: +0.97σ)"
         },
         {
           "time": "30/08 10:00",
           "label": "30/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 559.10 (Z_comp: +1.36σ)"
         },
         {
@@ -75795,9 +75795,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 11:00",
           "label": "30/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 556.70 (Z_comp: +0.66σ)"
         },
         {
@@ -75819,9 +75819,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 12:00",
           "label": "30/08 12:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 555.50 (Z_comp: +1.26σ)"
         },
         {
@@ -75835,25 +75835,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 13:00",
           "label": "30/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 556.00 (Z_comp: +2.10σ)"
         },
         {
           "time": "30/08 13:00",
           "label": "30/08 13:00",
-          "score": 46,
+          "score": 0,
           "score_a": 0,
-          "score_b": 46,
+          "score_b": 0,
           "metric": "SOL: R$ 556.30 (Z_comp: +0.16σ)"
         },
         {
           "time": "30/08 13:00",
           "label": "30/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 556.60 (Z_comp: +1.00σ)"
         },
         {
@@ -75891,33 +75891,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 14:00",
           "label": "30/08 14:00",
-          "score": 45,
+          "score": 0,
           "score_a": 0,
-          "score_b": 45,
+          "score_b": 0,
           "metric": "SOL: R$ 553.00 (Z_comp: +0.16σ)"
         },
         {
           "time": "30/08 15:00",
           "label": "30/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 554.60 (Z_comp: +0.57σ)"
         },
         {
           "time": "30/08 15:00",
           "label": "30/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 554.70 (Z_comp: +0.99σ)"
         },
         {
           "time": "30/08 15:00",
           "label": "30/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 556.20 (Z_comp: +0.79σ)"
         },
         {
@@ -76011,9 +76011,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 18:00",
           "label": "30/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 544.10 (Z_comp: +0.62σ)"
         },
         {
@@ -76027,9 +76027,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 19:00",
           "label": "30/08 19:00",
-          "score": 9,
+          "score": 0,
           "score_a": 0,
-          "score_b": 9,
+          "score_b": 0,
           "metric": "SOL: R$ 544.40 (Z_comp: +0.03σ)"
         },
         {
@@ -76091,25 +76091,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 21:00",
           "label": "30/08 21:00",
-          "score": 21,
+          "score": 0,
           "score_a": 0,
-          "score_b": 21,
+          "score_b": 0,
           "metric": "SOL: R$ 531.20 (Z_comp: +0.07σ)"
         },
         {
           "time": "30/08 21:00",
           "label": "30/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 533.80 (Z_comp: +1.04σ)"
         },
         {
           "time": "30/08 21:00",
           "label": "30/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.50 (Z_comp: +1.20σ)"
         },
         {
@@ -76131,9 +76131,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 22:00",
           "label": "30/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.40 (Z_comp: +1.53σ)"
         },
         {
@@ -76155,9 +76155,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 23:00",
           "label": "30/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 530.80 (Z_comp: +1.03σ)"
         },
         {
@@ -76187,9 +76187,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 00:00",
           "label": "31/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 530.10 (Z_comp: +0.91σ)"
         },
         {
@@ -76203,17 +76203,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 00:00",
           "label": "31/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 531.00 (Z_comp: +0.63σ)"
         },
         {
           "time": "31/08 00:00",
           "label": "31/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 532.50 (Z_comp: +0.82σ)"
         },
         {
@@ -76235,9 +76235,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 01:00",
           "label": "31/08 01:00",
-          "score": 74,
+          "score": 0,
           "score_a": 0,
-          "score_b": 74,
+          "score_b": 0,
           "metric": "SOL: R$ 527.70 (Z_comp: +0.26σ)"
         },
         {
@@ -76251,17 +76251,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 02:00",
           "label": "31/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 529.90 (Z_comp: +1.60σ)"
         },
         {
           "time": "31/08 02:00",
           "label": "31/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.60 (Z_comp: +2.60σ)"
         },
         {
@@ -76275,25 +76275,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 02:00",
           "label": "31/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.00 (Z_comp: +0.87σ)"
         },
         {
           "time": "31/08 03:00",
           "label": "31/08 03:00",
-          "score": 88,
+          "score": 0,
           "score_a": 0,
-          "score_b": 88,
+          "score_b": 0,
           "metric": "SOL: R$ 535.30 (Z_comp: +0.31σ)"
         },
         {
           "time": "31/08 03:00",
           "label": "31/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.40 (Z_comp: +0.67σ)"
         },
         {
@@ -76315,17 +76315,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 04:00",
           "label": "31/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.10 (Z_comp: +0.79σ)"
         },
         {
           "time": "31/08 04:00",
           "label": "31/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 537.10 (Z_comp: +1.54σ)"
         },
         {
@@ -76339,9 +76339,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 04:00",
           "label": "31/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.70 (Z_comp: +0.63σ)"
         },
         {
@@ -76363,17 +76363,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 05:00",
           "label": "31/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.10 (Z_comp: +0.98σ)"
         },
         {
           "time": "31/08 05:00",
           "label": "31/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.10 (Z_comp: +0.73σ)"
         },
         {
@@ -76395,17 +76395,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 06:00",
           "label": "31/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.20 (Z_comp: +0.55σ)"
         },
         {
           "time": "31/08 06:00",
           "label": "31/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.30 (Z_comp: +0.57σ)"
         },
         {
@@ -76427,17 +76427,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 07:00",
           "label": "31/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.70 (Z_comp: +1.82σ)"
         },
         {
           "time": "31/08 07:00",
           "label": "31/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.40 (Z_comp: +1.21σ)"
         },
         {
@@ -76451,9 +76451,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 08:00",
           "label": "31/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 542.30 (Z_comp: +1.66σ)"
         },
         {
@@ -76507,9 +76507,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 10:00",
           "label": "31/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.60 (Z_comp: +0.50σ)"
         },
         {
@@ -76539,33 +76539,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 11:00",
           "label": "31/08 11:00",
-          "score": 77,
+          "score": 0,
           "score_a": 0,
-          "score_b": 77,
+          "score_b": 0,
           "metric": "SOL: R$ 532.70 (Z_comp: +0.27σ)"
         },
         {
           "time": "31/08 11:00",
           "label": "31/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 533.50 (Z_comp: +0.89σ)"
         },
         {
           "time": "31/08 11:00",
           "label": "31/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 533.60 (Z_comp: +0.89σ)"
         },
         {
           "time": "31/08 11:00",
           "label": "31/08 11:00",
-          "score": 68,
+          "score": 0,
           "score_a": 0,
-          "score_b": 68,
+          "score_b": 0,
           "metric": "SOL: R$ 537.40 (Z_comp: +0.24σ)"
         },
         {
@@ -76603,9 +76603,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 13:00",
           "label": "31/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.60 (Z_comp: +0.38σ)"
         },
         {
@@ -76619,17 +76619,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 13:00",
           "label": "31/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 533.70 (Z_comp: +1.40σ)"
         },
         {
           "time": "31/08 13:00",
           "label": "31/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.70 (Z_comp: +0.61σ)"
         },
         {
@@ -76651,17 +76651,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 14:00",
           "label": "31/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 535.00 (Z_comp: +0.88σ)"
         },
         {
           "time": "31/08 14:00",
           "label": "31/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.70 (Z_comp: +0.94σ)"
         },
         {
@@ -76675,33 +76675,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 15:00",
           "label": "31/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.50 (Z_comp: +1.68σ)"
         },
         {
           "time": "31/08 15:00",
           "label": "31/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.50 (Z_comp: +1.57σ)"
         },
         {
           "time": "31/08 15:00",
           "label": "31/08 15:00",
-          "score": 60,
+          "score": 0,
           "score_a": 0,
-          "score_b": 60,
+          "score_b": 0,
           "metric": "SOL: R$ 542.90 (Z_comp: +0.21σ)"
         },
         {
           "time": "31/08 16:00",
           "label": "31/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.30 (Z_comp: +0.71σ)"
         },
         {
@@ -76739,9 +76739,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 17:00",
           "label": "31/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 541.60 (Z_comp: +1.87σ)"
         },
         {
@@ -76779,17 +76779,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 18:00",
           "label": "31/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.00 (Z_comp: +1.15σ)"
         },
         {
           "time": "31/08 18:00",
           "label": "31/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.50 (Z_comp: +1.25σ)"
         },
         {
@@ -76869,9 +76869,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "24/08 22:00",
           "label": "24/08 22:00",
-          "score": 77,
+          "score": 0,
           "score_a": 0,
-          "score_b": 77,
+          "score_b": 0,
           "metric": "SOL: R$ 526.50 (Z_comp: +0.27σ)"
         },
         {
@@ -76885,9 +76885,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 00:00",
           "label": "25/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 523.50 (Z_comp: +1.68σ)"
         },
         {
@@ -76901,9 +76901,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 02:00",
           "label": "25/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 526.40 (Z_comp: +1.83σ)"
         },
         {
@@ -76917,9 +76917,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 04:00",
           "label": "25/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 525.00 (Z_comp: +1.31σ)"
         },
         {
@@ -76965,17 +76965,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 10:00",
           "label": "25/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 510.10 (Z_comp: +0.40σ)"
         },
         {
           "time": "25/08 11:00",
           "label": "25/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 503.30 (Z_comp: +1.06σ)"
         },
         {
@@ -76989,9 +76989,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 13:00",
           "label": "25/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 507.80 (Z_comp: +0.85σ)"
         },
         {
@@ -77005,9 +77005,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 15:00",
           "label": "25/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 506.90 (Z_comp: +0.45σ)"
         },
         {
@@ -77029,17 +77029,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 18:00",
           "label": "25/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 500.30 (Z_comp: +0.86σ)"
         },
         {
           "time": "25/08 19:00",
           "label": "25/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 503.10 (Z_comp: +1.17σ)"
         },
         {
@@ -77053,17 +77053,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "25/08 21:00",
           "label": "25/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 498.80 (Z_comp: +0.41σ)"
         },
         {
           "time": "25/08 22:00",
           "label": "25/08 22:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.40 (Z_comp: +0.98σ)"
         },
         {
@@ -77077,9 +77077,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 00:00",
           "label": "26/08 00:00",
-          "score": 23,
+          "score": 0,
           "score_a": 0,
-          "score_b": 23,
+          "score_b": 0,
           "metric": "SOL: R$ 502.00 (Z_comp: +0.08σ)"
         },
         {
@@ -77101,33 +77101,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 03:00",
           "label": "26/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 502.20 (Z_comp: +1.50σ)"
         },
         {
           "time": "26/08 04:00",
           "label": "26/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 500.90 (Z_comp: +1.80σ)"
         },
         {
           "time": "26/08 05:00",
           "label": "26/08 05:00",
-          "score": 55,
+          "score": 0,
           "score_a": 0,
-          "score_b": 55,
+          "score_b": 0,
           "metric": "SOL: R$ 500.40 (Z_comp: +0.19σ)"
         },
         {
           "time": "26/08 06:00",
           "label": "26/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 500.10 (Z_comp: +0.70σ)"
         },
         {
@@ -77165,9 +77165,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 11:00",
           "label": "26/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.10 (Z_comp: +1.36σ)"
         },
         {
@@ -77181,17 +77181,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 13:00",
           "label": "26/08 13:00",
-          "score": 92,
+          "score": 0,
           "score_a": 0,
-          "score_b": 92,
+          "score_b": 0,
           "metric": "SOL: R$ 497.20 (Z_comp: +0.32σ)"
         },
         {
           "time": "26/08 14:00",
           "label": "26/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 496.80 (Z_comp: +1.16σ)"
         },
         {
@@ -77213,33 +77213,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 17:00",
           "label": "26/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.10 (Z_comp: +2.08σ)"
         },
         {
           "time": "26/08 18:00",
           "label": "26/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 501.30 (Z_comp: +1.41σ)"
         },
         {
           "time": "26/08 19:00",
           "label": "26/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 508.20 (Z_comp: +1.73σ)"
         },
         {
           "time": "26/08 20:00",
           "label": "26/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 516.80 (Z_comp: +1.09σ)"
         },
         {
@@ -77261,25 +77261,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "26/08 23:00",
           "label": "26/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 525.10 (Z_comp: +0.59σ)"
         },
         {
           "time": "27/08 00:00",
           "label": "27/08 00:00",
-          "score": 47,
+          "score": 0,
           "score_a": 0,
-          "score_b": 47,
+          "score_b": 0,
           "metric": "SOL: R$ 522.30 (Z_comp: +0.16σ)"
         },
         {
           "time": "27/08 01:00",
           "label": "27/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 522.30 (Z_comp: +1.20σ)"
         },
         {
@@ -77309,9 +77309,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 05:00",
           "label": "27/08 05:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 528.90 (Z_comp: +2.27σ)"
         },
         {
@@ -77325,65 +77325,65 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 07:00",
           "label": "27/08 07:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.80 (Z_comp: +1.09σ)"
         },
         {
           "time": "27/08 08:00",
           "label": "27/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.50 (Z_comp: +1.36σ)"
         },
         {
           "time": "27/08 09:00",
           "label": "27/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.50 (Z_comp: +1.21σ)"
         },
         {
           "time": "27/08 10:00",
           "label": "27/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.40 (Z_comp: +0.40σ)"
         },
         {
           "time": "27/08 11:00",
           "label": "27/08 11:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 547.70 (Z_comp: +1.04σ)"
         },
         {
           "time": "27/08 12:00",
           "label": "27/08 12:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 556.60 (Z_comp: +2.17σ)"
         },
         {
           "time": "27/08 13:00",
           "label": "27/08 13:00",
-          "score": 7,
+          "score": 0,
           "score_a": 0,
-          "score_b": 7,
+          "score_b": 0,
           "metric": "SOL: R$ 555.50 (Z_comp: +0.03σ)"
         },
         {
           "time": "27/08 14:00",
           "label": "27/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 565.30 (Z_comp: +0.74σ)"
         },
         {
@@ -77397,33 +77397,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "27/08 16:00",
           "label": "27/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 563.90 (Z_comp: +1.55σ)"
         },
         {
           "time": "27/08 17:00",
           "label": "27/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 565.30 (Z_comp: +0.42σ)"
         },
         {
           "time": "27/08 18:00",
           "label": "27/08 18:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 563.90 (Z_comp: +0.38σ)"
         },
         {
           "time": "27/08 19:00",
           "label": "27/08 19:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 568.70 (Z_comp: +1.76σ)"
         },
         {
@@ -77485,9 +77485,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 03:00",
           "label": "28/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 556.40 (Z_comp: +1.69σ)"
         },
         {
@@ -77509,9 +77509,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 06:00",
           "label": "28/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 550.10 (Z_comp: +0.68σ)"
         },
         {
@@ -77525,25 +77525,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 08:00",
           "label": "28/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 552.40 (Z_comp: +1.11σ)"
         },
         {
           "time": "28/08 09:00",
           "label": "28/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.90 (Z_comp: +1.44σ)"
         },
         {
           "time": "28/08 10:00",
           "label": "28/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 544.60 (Z_comp: +0.62σ)"
         },
         {
@@ -77589,9 +77589,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 16:00",
           "label": "28/08 16:00",
-          "score": 41,
+          "score": 0,
           "score_a": 0,
-          "score_b": 41,
+          "score_b": 0,
           "metric": "SOL: R$ 538.40 (Z_comp: +0.14σ)"
         },
         {
@@ -77629,9 +77629,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 21:00",
           "label": "28/08 21:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.70 (Z_comp: +1.63σ)"
         },
         {
@@ -77645,9 +77645,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "28/08 23:00",
           "label": "28/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.50 (Z_comp: +0.63σ)"
         },
         {
@@ -77685,9 +77685,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 04:00",
           "label": "29/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.70 (Z_comp: +1.20σ)"
         },
         {
@@ -77701,9 +77701,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 06:00",
           "label": "29/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 538.70 (Z_comp: +1.12σ)"
         },
         {
@@ -77717,9 +77717,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 08:00",
           "label": "29/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 539.20 (Z_comp: +0.70σ)"
         },
         {
@@ -77733,17 +77733,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 10:00",
           "label": "29/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 540.50 (Z_comp: +0.49σ)"
         },
         {
           "time": "29/08 11:00",
           "label": "29/08 11:00",
-          "score": 58,
+          "score": 0,
           "score_a": 0,
-          "score_b": 58,
+          "score_b": 0,
           "metric": "SOL: R$ 541.20 (Z_comp: +0.20σ)"
         },
         {
@@ -77757,17 +77757,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 13:00",
           "label": "29/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.10 (Z_comp: +1.23σ)"
         },
         {
           "time": "29/08 14:00",
           "label": "29/08 14:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 547.60 (Z_comp: +0.88σ)"
         },
         {
@@ -77789,9 +77789,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 17:00",
           "label": "29/08 17:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 549.40 (Z_comp: +2.67σ)"
         },
         {
@@ -77813,9 +77813,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 20:00",
           "label": "29/08 20:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 550.00 (Z_comp: +1.28σ)"
         },
         {
@@ -77829,17 +77829,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "29/08 22:00",
           "label": "29/08 22:00",
-          "score": 9,
+          "score": 0,
           "score_a": 0,
-          "score_b": 9,
+          "score_b": 0,
           "metric": "SOL: R$ 548.80 (Z_comp: +0.03σ)"
         },
         {
           "time": "29/08 23:00",
           "label": "29/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.70 (Z_comp: +0.46σ)"
         },
         {
@@ -77853,33 +77853,33 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 01:00",
           "label": "30/08 01:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.00 (Z_comp: +1.50σ)"
         },
         {
           "time": "30/08 02:00",
           "label": "30/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.20 (Z_comp: +0.78σ)"
         },
         {
           "time": "30/08 03:00",
           "label": "30/08 03:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 547.60 (Z_comp: +0.95σ)"
         },
         {
           "time": "30/08 04:00",
           "label": "30/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 549.00 (Z_comp: +1.19σ)"
         },
         {
@@ -77893,9 +77893,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 06:00",
           "label": "30/08 06:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 546.70 (Z_comp: +0.88σ)"
         },
         {
@@ -77909,25 +77909,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 08:00",
           "label": "30/08 08:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 548.70 (Z_comp: +2.19σ)"
         },
         {
           "time": "30/08 09:00",
           "label": "30/08 09:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 549.80 (Z_comp: +2.48σ)"
         },
         {
           "time": "30/08 10:00",
           "label": "30/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 552.60 (Z_comp: +1.11σ)"
         },
         {
@@ -77949,9 +77949,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 13:00",
           "label": "30/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 556.00 (Z_comp: +2.10σ)"
         },
         {
@@ -77965,9 +77965,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 15:00",
           "label": "30/08 15:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 554.60 (Z_comp: +0.57σ)"
         },
         {
@@ -77997,9 +77997,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 19:00",
           "label": "30/08 19:00",
-          "score": 9,
+          "score": 0,
           "score_a": 0,
-          "score_b": 9,
+          "score_b": 0,
           "metric": "SOL: R$ 544.40 (Z_comp: +0.03σ)"
         },
         {
@@ -78013,9 +78013,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 21:00",
           "label": "30/08 21:00",
-          "score": 21,
+          "score": 0,
           "score_a": 0,
-          "score_b": 21,
+          "score_b": 0,
           "metric": "SOL: R$ 531.20 (Z_comp: +0.07σ)"
         },
         {
@@ -78029,17 +78029,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "30/08 23:00",
           "label": "30/08 23:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 530.80 (Z_comp: +1.03σ)"
         },
         {
           "time": "31/08 00:00",
           "label": "31/08 00:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 530.10 (Z_comp: +0.91σ)"
         },
         {
@@ -78053,25 +78053,25 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 02:00",
           "label": "31/08 02:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 529.90 (Z_comp: +1.60σ)"
         },
         {
           "time": "31/08 03:00",
           "label": "31/08 03:00",
-          "score": 88,
+          "score": 0,
           "score_a": 0,
-          "score_b": 88,
+          "score_b": 0,
           "metric": "SOL: R$ 535.30 (Z_comp: +0.31σ)"
         },
         {
           "time": "31/08 04:00",
           "label": "31/08 04:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 536.10 (Z_comp: +0.79σ)"
         },
         {
@@ -78117,17 +78117,17 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 10:00",
           "label": "31/08 10:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.60 (Z_comp: +0.50σ)"
         },
         {
           "time": "31/08 11:00",
           "label": "31/08 11:00",
-          "score": 77,
+          "score": 0,
           "score_a": 0,
-          "score_b": 77,
+          "score_b": 0,
           "metric": "SOL: R$ 532.70 (Z_comp: +0.27σ)"
         },
         {
@@ -78141,9 +78141,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 13:00",
           "label": "31/08 13:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 534.60 (Z_comp: +0.38σ)"
         },
         {
@@ -78165,9 +78165,9 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "31/08 16:00",
           "label": "31/08 16:00",
-          "score": 100,
+          "score": 0,
           "score_a": 0,
-          "score_b": 100,
+          "score_b": 0,
           "metric": "SOL: R$ 543.30 (Z_comp: +0.71σ)"
         },
         {
@@ -104244,7 +104244,7 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Simple Earn Flexible (3.5% a.a.)",
     "ponta_b_score": 100,
     "proximidade_score": 0,
-    "valor_atual_str": "Ouro PAXG: R$ 23155.70 (Piso Ratchet Ativo)",
+    "valor_atual_str": "Ouro PAXG: R$ 23158.04 (Piso Ratchet Ativo)",
     "distancia_display": "DCA Ativo (R$ 50 a cada 5 dias)",
     "status": "ACUMULADOR_PERPETUO_ATIVO",
     "icone": "🥇",
