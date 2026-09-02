@@ -1,9 +1,9 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-02 18:55:50)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-02 18:56:09)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-09-02 18:55:50",
-  "total_brl": 2157.45,
+  "timestamp_str": "2026-09-02 18:56:09",
+  "total_brl": 2157.6,
   "aportado_brl": 2220.0,
-  "lucro_liquido_real_brl": -62.55,
+  "lucro_liquido_real_brl": -62.4,
   "caixa_brl": 305.89,
   "caixa_pct": 14.18,
   "btc_brl": 20.16,
@@ -15,9 +15,9 @@ window.PORTFOLIO_STATE = {
   "sol_brl": 42.95,
   "sol_qtd": 0.084175,
   "sol_pct": 1.99,
-  "paxg_brl": 489.56,
+  "paxg_brl": 489.71,
   "paxg_qtd": 0.02174628,
-  "paxg_pct": 22.69,
+  "paxg_pct": 22.7,
   "usdt_brl": 888.19,
   "usdt_qtd": 173.4877,
   "usdt_pct": 41.17,
@@ -44,8 +44,8 @@ window.PORTFOLIO_STATE = {
       "asset": "PAXG",
       "nome": "Ouro PAXG (Simple Earn)",
       "qtd": 0.02174628,
-      "valor_brl": 489.56,
-      "pct": 22.69,
+      "valor_brl": 489.71,
+      "pct": 22.7,
       "cor": "#EAB308",
       "icone": "🥇"
     },
@@ -116,7 +116,7 @@ window.PORTFOLIO_STATE = {
   "cotacoes_ao_vivo": {
     "BTCBRL": 395701.0,
     "USDTBRL": 5.1196,
-    "PAXGBRL": 22512.519472,
+    "PAXGBRL": 22519.32854,
     "SOLBRL": 510.3,
     "ETHBRL": 12246.26,
     "LINKBRL": 56.93,
@@ -126,9 +126,9 @@ window.PORTFOLIO_STATE = {
     "USDBRL_COMERCIAL": 5.0951
   },
   "harmonicus_sensores": {
-    "pc1": 0.4258,
-    "entropia": 1.6855,
-    "energia_wavelet_morlet": 0.0494,
+    "pc1": 0.4248,
+    "entropia": 1.6839,
+    "energia_wavelet_morlet": 0.0496,
     "fluxo_ste": 0.006,
     "regime": "CALIBRAÇÃO_QUANT_ATIVA",
     "fator_lote": 1.0
@@ -104244,7 +104244,7 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Simple Earn Flexible (3.5% a.a.)",
     "ponta_b_score": 100,
     "proximidade_score": 100,
-    "valor_atual_str": "Ouro PAXG: R$ 22512.52 (Piso Ratchet Ativo)",
+    "valor_atual_str": "Ouro PAXG: R$ 22519.33 (Piso Ratchet Ativo)",
     "distancia_display": "DCA Ativo (R$ 50 a cada 5 dias)",
     "status": "ACUMULADOR_PERPETUO_ATIVO",
     "icone": "🥇",
