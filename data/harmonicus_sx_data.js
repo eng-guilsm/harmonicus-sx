@@ -1,6 +1,6 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-02 18:58:25)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-02 18:58:40)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-09-02 18:58:25",
+  "timestamp_str": "2026-09-02 18:58:40",
   "total_brl": 2157.5,
   "aportado_brl": 2220.0,
   "lucro_liquido_real_brl": -62.5,
