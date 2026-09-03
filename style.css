@@ -2371,6 +2371,7 @@ input[type="range"]::-webkit-slider-thumb {
   .synth-footer-grid { grid-template-columns: 1fr; }
 }
 
+
 /* ==============================================================================
    GATEKEEPER SECURITY LOCK OVERLAY (CYBERPUNK GLASS-BLUR)
    ============================================================================== */
@@ -2560,6 +2561,26 @@ input[type="range"]::-webkit-slider-thumb {
   40%, 80% { transform: translateX(10px); }
 }
 
+/* ==============================================================================
+   PLANOS DESATIVADOS TEMPORARIAMENTE (ACINZENTADOS & TRANSPARÊNCIA DEFENSIVA)
+   ============================================================================== */
+.plan-card-desativado {
+  opacity: 0.52 !important;
+  filter: grayscale(85%) !important;
+  background: rgba(30, 41, 59, 0.45) !important;
+  border-color: rgba(107, 114, 128, 0.30) !important;
+  transition: all 0.25s ease;
+}
 
-/* Chart Toggle Badges */
-.chart-toggle-badge:hover { filter: brightness(1.2); transform: translateY(-1px); }
+.plan-card-desativado:hover {
+  opacity: 0.82 !important;
+  filter: grayscale(35%) !important;
+}
+
+.badge-paused {
+  background: rgba(107, 114, 128, 0.22) !important;
+  color: #9CA3AF !important;
+  border: 1px solid rgba(156, 163, 175, 0.40) !important;
+}
+
+
