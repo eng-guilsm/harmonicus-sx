@@ -1,9 +1,9 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-04 16:22:36)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-04 16:22:56)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-09-04 16:22:36",
-  "total_brl": 2202.88,
+  "timestamp_str": "2026-09-04 16:22:56",
+  "total_brl": 2202.81,
   "aportado_brl": 2230.0,
-  "lucro_liquido_real_brl": -27.12,
+  "lucro_liquido_real_brl": -27.19,
   "caixa_brl": 154.03,
   "caixa_pct": 6.99,
   "btc_brl": 179.06,
@@ -15,7 +15,7 @@ window.PORTFOLIO_STATE = {
   "sol_brl": 0.09,
   "sol_qtd": 0.000175,
   "sol_pct": 0.0,
-  "paxg_brl": 630.02,
+  "paxg_brl": 629.95,
   "paxg_qtd": 0.02764631,
   "paxg_pct": 28.6,
   "usdt_brl": 1013.54,
@@ -44,7 +44,7 @@ window.PORTFOLIO_STATE = {
       "asset": "PAXG",
       "nome": "Ouro PAXG (Simple Earn)",
       "qtd": 0.02764631,
-      "valor_brl": 630.02,
+      "valor_brl": 629.95,
       "pct": 28.6,
       "cor": "#EAB308",
       "icone": "🥇"
@@ -116,7 +116,7 @@ window.PORTFOLIO_STATE = {
   "cotacoes_ao_vivo": {
     "BTCBRL": 410425.0,
     "USDTBRL": 5.1439,
-    "PAXGBRL": 22788.557219000002,
+    "PAXGBRL": 22786.191025,
     "SOLBRL": 524.2,
     "ETHBRL": 12633.76,
     "BNBBRL": 3707.0,
@@ -124,7 +124,7 @@ window.PORTFOLIO_STATE = {
     "SPYBUSDT": 769.68,
     "SQQQBUSDT": 38.45,
     "VIX": 15.130000114440918,
-    "USDBRL_COMERCIAL": 5.1282
+    "USDBRL_COMERCIAL": 5.1292
   },
   "harmonicus_sensores": {
     "pc1": 0.414,
@@ -26173,7 +26173,7 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_a_label": "Subscrição Simple Earn",
     "ponta_a_score": 100,
     "ponta_b_label": "Desova Escalonada USDT ➔ BRL",
-    "ponta_b_score": 79,
+    "ponta_b_score": 74,
     "proximidade_score": 100,
     "valor_atual_str": "USDT: R$ 5.144 (Rendimento 6.88% a.a.)",
     "distancia_display": "Gestão Passiva & Colchão Defensivo Ativo",
@@ -26188,4772 +26188,4772 @@ window.PLANOS_TACTICAL_DATA = [
         {
           "time": "15:22",
           "label": "15:22",
-          "score": 49,
+          "score": 44,
           "score_a": 0,
-          "score_b": 49,
-          "metric": "Spread: +0.0098 (USDT R$ 5.138)"
+          "score_b": 44,
+          "metric": "Spread: +0.0088 (USDT R$ 5.138)"
         },
         {
           "time": "15:23",
           "label": "15:23",
-          "score": 53,
+          "score": 48,
           "score_a": 0,
-          "score_b": 53,
-          "metric": "Spread: +0.0106 (USDT R$ 5.139)"
+          "score_b": 48,
+          "metric": "Spread: +0.0096 (USDT R$ 5.139)"
         },
         {
           "time": "15:24",
           "label": "15:24",
-          "score": 55,
+          "score": 50,
           "score_a": 0,
-          "score_b": 55,
-          "metric": "Spread: +0.0109 (USDT R$ 5.139)"
+          "score_b": 50,
+          "metric": "Spread: +0.0099 (USDT R$ 5.139)"
         },
         {
           "time": "15:25",
           "label": "15:25",
-          "score": 61,
+          "score": 56,
           "score_a": 0,
-          "score_b": 61,
-          "metric": "Spread: +0.0122 (USDT R$ 5.140)"
+          "score_b": 56,
+          "metric": "Spread: +0.0112 (USDT R$ 5.140)"
         },
         {
           "time": "15:26",
           "label": "15:26",
-          "score": 56,
+          "score": 51,
           "score_a": 0,
-          "score_b": 56,
-          "metric": "Spread: +0.0112 (USDT R$ 5.139)"
+          "score_b": 51,
+          "metric": "Spread: +0.0102 (USDT R$ 5.139)"
         },
         {
           "time": "15:27",
           "label": "15:27",
-          "score": 57,
+          "score": 51,
           "score_a": 0,
-          "score_b": 57,
-          "metric": "Spread: +0.0113 (USDT R$ 5.139)"
+          "score_b": 51,
+          "metric": "Spread: +0.0103 (USDT R$ 5.139)"
         },
         {
           "time": "15:28",
           "label": "15:28",
-          "score": 56,
+          "score": 51,
           "score_a": 0,
-          "score_b": 56,
-          "metric": "Spread: +0.0112 (USDT R$ 5.139)"
+          "score_b": 51,
+          "metric": "Spread: +0.0102 (USDT R$ 5.139)"
         },
         {
           "time": "15:29",
           "label": "15:29",
-          "score": 56,
+          "score": 51,
           "score_a": 0,
-          "score_b": 56,
-          "metric": "Spread: +0.0112 (USDT R$ 5.139)"
+          "score_b": 51,
+          "metric": "Spread: +0.0102 (USDT R$ 5.139)"
         },
         {
           "time": "15:30",
           "label": "15:30",
-          "score": 56,
+          "score": 51,
           "score_a": 0,
-          "score_b": 56,
-          "metric": "Spread: +0.0112 (USDT R$ 5.139)"
+          "score_b": 51,
+          "metric": "Spread: +0.0102 (USDT R$ 5.139)"
         },
         {
           "time": "15:31",
           "label": "15:31",
-          "score": 57,
+          "score": 51,
           "score_a": 0,
-          "score_b": 57,
-          "metric": "Spread: +0.0113 (USDT R$ 5.139)"
+          "score_b": 51,
+          "metric": "Spread: +0.0103 (USDT R$ 5.139)"
         },
         {
           "time": "15:32",
           "label": "15:32",
-          "score": 57,
+          "score": 51,
           "score_a": 0,
-          "score_b": 57,
-          "metric": "Spread: +0.0113 (USDT R$ 5.139)"
+          "score_b": 51,
+          "metric": "Spread: +0.0103 (USDT R$ 5.139)"
         },
         {
           "time": "15:33",
           "label": "15:33",
-          "score": 58,
+          "score": 53,
           "score_a": 0,
-          "score_b": 58,
-          "metric": "Spread: +0.0115 (USDT R$ 5.140)"
+          "score_b": 53,
+          "metric": "Spread: +0.0105 (USDT R$ 5.140)"
         },
         {
           "time": "15:34",
           "label": "15:34",
-          "score": 61,
+          "score": 55,
           "score_a": 0,
-          "score_b": 61,
-          "metric": "Spread: +0.0121 (USDT R$ 5.140)"
+          "score_b": 55,
+          "metric": "Spread: +0.0111 (USDT R$ 5.140)"
         },
         {
           "time": "15:35",
           "label": "15:35",
-          "score": 66,
+          "score": 61,
           "score_a": 0,
-          "score_b": 66,
-          "metric": "Spread: +0.0132 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0122 (USDT R$ 5.141)"
         },
         {
           "time": "15:36",
           "label": "15:36",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "15:37",
           "label": "15:37",
-          "score": 66,
+          "score": 61,
           "score_a": 0,
-          "score_b": 66,
-          "metric": "Spread: +0.0132 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0122 (USDT R$ 5.141)"
         },
         {
           "time": "15:38",
           "label": "15:38",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "15:39",
           "label": "15:39",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "15:40",
           "label": "15:40",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "15:41",
           "label": "15:41",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "15:42",
           "label": "15:42",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "15:43",
           "label": "15:43",
-          "score": 67,
+          "score": 62,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0134 (USDT R$ 5.142)"
+          "score_b": 62,
+          "metric": "Spread: +0.0124 (USDT R$ 5.142)"
         },
         {
           "time": "15:44",
           "label": "15:44",
-          "score": 68,
+          "score": 63,
           "score_a": 0,
-          "score_b": 68,
-          "metric": "Spread: +0.0135 (USDT R$ 5.142)"
+          "score_b": 63,
+          "metric": "Spread: +0.0125 (USDT R$ 5.142)"
         },
         {
           "time": "15:45",
           "label": "15:45",
-          "score": 67,
+          "score": 62,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0134 (USDT R$ 5.142)"
+          "score_b": 62,
+          "metric": "Spread: +0.0124 (USDT R$ 5.142)"
         },
         {
           "time": "15:46",
           "label": "15:46",
-          "score": 67,
+          "score": 62,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0134 (USDT R$ 5.142)"
+          "score_b": 62,
+          "metric": "Spread: +0.0124 (USDT R$ 5.142)"
         },
         {
           "time": "15:47",
           "label": "15:47",
-          "score": 67,
+          "score": 62,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0134 (USDT R$ 5.142)"
+          "score_b": 62,
+          "metric": "Spread: +0.0124 (USDT R$ 5.142)"
         },
         {
           "time": "15:48",
           "label": "15:48",
-          "score": 68,
+          "score": 63,
           "score_a": 0,
-          "score_b": 68,
-          "metric": "Spread: +0.0135 (USDT R$ 5.142)"
+          "score_b": 63,
+          "metric": "Spread: +0.0125 (USDT R$ 5.142)"
         },
         {
           "time": "15:49",
           "label": "15:49",
-          "score": 68,
+          "score": 63,
           "score_a": 0,
-          "score_b": 68,
-          "metric": "Spread: +0.0135 (USDT R$ 5.142)"
+          "score_b": 63,
+          "metric": "Spread: +0.0125 (USDT R$ 5.142)"
         },
         {
           "time": "15:50",
           "label": "15:50",
-          "score": 88,
+          "score": 82,
           "score_a": 0,
-          "score_b": 88,
-          "metric": "Spread: +0.0175 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0165 (USDT R$ 5.146)"
         },
         {
           "time": "15:51",
           "label": "15:51",
-          "score": 88,
+          "score": 83,
           "score_a": 0,
-          "score_b": 88,
-          "metric": "Spread: +0.0176 (USDT R$ 5.146)"
+          "score_b": 83,
+          "metric": "Spread: +0.0166 (USDT R$ 5.146)"
         },
         {
           "time": "15:52",
           "label": "15:52",
-          "score": 88,
+          "score": 83,
           "score_a": 0,
-          "score_b": 88,
-          "metric": "Spread: +0.0176 (USDT R$ 5.146)"
+          "score_b": 83,
+          "metric": "Spread: +0.0166 (USDT R$ 5.146)"
         },
         {
           "time": "15:53",
           "label": "15:53",
-          "score": 88,
+          "score": 83,
           "score_a": 0,
-          "score_b": 88,
-          "metric": "Spread: +0.0176 (USDT R$ 5.146)"
+          "score_b": 83,
+          "metric": "Spread: +0.0166 (USDT R$ 5.146)"
         },
         {
           "time": "15:54",
           "label": "15:54",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0183 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
         },
         {
           "time": "15:55",
           "label": "15:55",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0182 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0172 (USDT R$ 5.146)"
         },
         {
           "time": "15:56",
           "label": "15:56",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0183 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
         },
         {
           "time": "15:57",
           "label": "15:57",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0183 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
         },
         {
           "time": "15:58",
           "label": "15:58",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0182 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0172 (USDT R$ 5.146)"
         },
         {
           "time": "15:59",
           "label": "15:59",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0183 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
         },
         {
           "time": "16:00",
           "label": "16:00",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0183 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
         },
         {
           "time": "16:01",
           "label": "16:01",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0182 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0172 (USDT R$ 5.146)"
         },
         {
           "time": "16:02",
           "label": "16:02",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0182 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0172 (USDT R$ 5.146)"
         },
         {
           "time": "16:03",
           "label": "16:03",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0183 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
         },
         {
           "time": "16:04",
           "label": "16:04",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0183 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
         },
         {
           "time": "16:05",
           "label": "16:05",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0183 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
         },
         {
           "time": "16:06",
           "label": "16:06",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0182 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0172 (USDT R$ 5.146)"
         },
         {
           "time": "16:07",
           "label": "16:07",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0182 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0172 (USDT R$ 5.146)"
         },
         {
           "time": "16:08",
           "label": "16:08",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0174 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0164 (USDT R$ 5.146)"
         },
         {
           "time": "16:09",
           "label": "16:09",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0174 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0164 (USDT R$ 5.146)"
         },
         {
           "time": "16:10",
           "label": "16:10",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0163 (USDT R$ 5.146)"
         },
         {
           "time": "16:11",
           "label": "16:11",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0174 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0164 (USDT R$ 5.146)"
         },
         {
           "time": "16:12",
           "label": "16:12",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0163 (USDT R$ 5.146)"
         },
         {
           "time": "16:13",
           "label": "16:13",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0163 (USDT R$ 5.146)"
         },
         {
           "time": "16:14",
           "label": "16:14",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0163 (USDT R$ 5.146)"
         },
         {
           "time": "16:15",
           "label": "16:15",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0163 (USDT R$ 5.146)"
         },
         {
           "time": "16:16",
           "label": "16:16",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0163 (USDT R$ 5.146)"
         },
         {
           "time": "16:17",
           "label": "16:17",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0174 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0164 (USDT R$ 5.146)"
         },
         {
           "time": "16:18",
           "label": "16:18",
-          "score": 84,
+          "score": 79,
           "score_a": 0,
-          "score_b": 84,
-          "metric": "Spread: +0.0168 (USDT R$ 5.145)"
+          "score_b": 79,
+          "metric": "Spread: +0.0158 (USDT R$ 5.145)"
         },
         {
           "time": "16:19",
           "label": "16:19",
-          "score": 79,
+          "score": 74,
           "score_a": 0,
-          "score_b": 79,
-          "metric": "Spread: +0.0157 (USDT R$ 5.144)"
+          "score_b": 74,
+          "metric": "Spread: +0.0147 (USDT R$ 5.144)"
         },
         {
           "time": "16:20",
           "label": "16:20",
-          "score": 79,
+          "score": 74,
           "score_a": 0,
-          "score_b": 79,
-          "metric": "Spread: +0.0157 (USDT R$ 5.144)"
+          "score_b": 74,
+          "metric": "Spread: +0.0147 (USDT R$ 5.144)"
         },
         {
           "time": "16:21",
           "label": "16:21",
-          "score": 78,
+          "score": 73,
           "score_a": 0,
-          "score_b": 78,
-          "metric": "Spread: +0.0156 (USDT R$ 5.144)"
+          "score_b": 73,
+          "metric": "Spread: +0.0146 (USDT R$ 5.144)"
         },
         {
           "time": "16:22",
           "label": "16:22",
-          "score": 79,
+          "score": 74,
           "score_a": 0,
-          "score_b": 79,
-          "metric": "Spread: +0.0157 (USDT R$ 5.144)"
+          "score_b": 74,
+          "metric": "Spread: +0.0147 (USDT R$ 5.144)"
         }
       ],
       "24h": [
         {
           "time": "16:22",
           "label": "16:22",
-          "score": 66,
-          "score_a": 66,
+          "score": 71,
+          "score_a": 71,
           "score_b": 0,
-          "metric": "Spread: -0.0132 (USDT R$ 5.115)"
+          "metric": "Spread: -0.0142 (USDT R$ 5.115)"
         },
         {
           "time": "16:24",
           "label": "16:24",
-          "score": 63,
-          "score_a": 63,
+          "score": 69,
+          "score_a": 69,
           "score_b": 0,
-          "metric": "Spread: -0.0127 (USDT R$ 5.115)"
+          "metric": "Spread: -0.0137 (USDT R$ 5.115)"
         },
         {
           "time": "16:26",
           "label": "16:26",
-          "score": 58,
-          "score_a": 58,
+          "score": 63,
+          "score_a": 63,
           "score_b": 0,
-          "metric": "Spread: -0.0117 (USDT R$ 5.117)"
+          "metric": "Spread: -0.0127 (USDT R$ 5.117)"
         },
         {
           "time": "16:28",
           "label": "16:28",
-          "score": 51,
-          "score_a": 51,
+          "score": 56,
+          "score_a": 56,
           "score_b": 0,
-          "metric": "Spread: -0.0102 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0112 (USDT R$ 5.118)"
         },
         {
           "time": "16:30",
           "label": "16:30",
-          "score": 57,
-          "score_a": 57,
+          "score": 62,
+          "score_a": 62,
           "score_b": 0,
-          "metric": "Spread: -0.0114 (USDT R$ 5.117)"
+          "metric": "Spread: -0.0124 (USDT R$ 5.117)"
         },
         {
           "time": "16:32",
           "label": "16:32",
-          "score": 57,
-          "score_a": 57,
+          "score": 62,
+          "score_a": 62,
           "score_b": 0,
-          "metric": "Spread: -0.0114 (USDT R$ 5.117)"
+          "metric": "Spread: -0.0124 (USDT R$ 5.117)"
         },
         {
           "time": "16:34",
           "label": "16:34",
-          "score": 55,
-          "score_a": 55,
+          "score": 61,
+          "score_a": 61,
           "score_b": 0,
-          "metric": "Spread: -0.0111 (USDT R$ 5.117)"
+          "metric": "Spread: -0.0121 (USDT R$ 5.117)"
         },
         {
           "time": "16:36",
           "label": "16:36",
-          "score": 55,
-          "score_a": 55,
+          "score": 60,
+          "score_a": 60,
           "score_b": 0,
-          "metric": "Spread: -0.0110 (USDT R$ 5.117)"
+          "metric": "Spread: -0.0120 (USDT R$ 5.117)"
         },
         {
           "time": "16:38",
           "label": "16:38",
-          "score": 58,
-          "score_a": 58,
+          "score": 63,
+          "score_a": 63,
           "score_b": 0,
-          "metric": "Spread: -0.0116 (USDT R$ 5.117)"
+          "metric": "Spread: -0.0126 (USDT R$ 5.117)"
         },
         {
           "time": "16:40",
           "label": "16:40",
-          "score": 63,
-          "score_a": 63,
+          "score": 68,
+          "score_a": 68,
           "score_b": 0,
-          "metric": "Spread: -0.0126 (USDT R$ 5.116)"
+          "metric": "Spread: -0.0136 (USDT R$ 5.116)"
         },
         {
           "time": "16:42",
           "label": "16:42",
-          "score": 63,
-          "score_a": 63,
+          "score": 68,
+          "score_a": 68,
           "score_b": 0,
-          "metric": "Spread: -0.0126 (USDT R$ 5.116)"
+          "metric": "Spread: -0.0136 (USDT R$ 5.116)"
         },
         {
           "time": "16:44",
           "label": "16:44",
-          "score": 65,
-          "score_a": 65,
+          "score": 70,
+          "score_a": 70,
           "score_b": 0,
-          "metric": "Spread: -0.0131 (USDT R$ 5.115)"
+          "metric": "Spread: -0.0141 (USDT R$ 5.115)"
         },
         {
           "time": "16:46",
           "label": "16:46",
-          "score": 66,
-          "score_a": 66,
+          "score": 71,
+          "score_a": 71,
           "score_b": 0,
-          "metric": "Spread: -0.0132 (USDT R$ 5.115)"
+          "metric": "Spread: -0.0142 (USDT R$ 5.115)"
         },
         {
           "time": "16:48",
           "label": "16:48",
-          "score": 58,
-          "score_a": 58,
+          "score": 63,
+          "score_a": 63,
           "score_b": 0,
-          "metric": "Spread: -0.0116 (USDT R$ 5.117)"
+          "metric": "Spread: -0.0126 (USDT R$ 5.117)"
         },
         {
           "time": "16:50",
           "label": "16:50",
-          "score": 65,
-          "score_a": 65,
+          "score": 70,
+          "score_a": 70,
           "score_b": 0,
-          "metric": "Spread: -0.0131 (USDT R$ 5.115)"
+          "metric": "Spread: -0.0141 (USDT R$ 5.115)"
         },
         {
           "time": "16:52",
           "label": "16:52",
-          "score": 67,
-          "score_a": 67,
+          "score": 72,
+          "score_a": 72,
           "score_b": 0,
-          "metric": "Spread: -0.0133 (USDT R$ 5.115)"
+          "metric": "Spread: -0.0143 (USDT R$ 5.115)"
         },
         {
           "time": "16:54",
           "label": "16:54",
-          "score": 57,
-          "score_a": 57,
+          "score": 63,
+          "score_a": 63,
           "score_b": 0,
-          "metric": "Spread: -0.0115 (USDT R$ 5.117)"
+          "metric": "Spread: -0.0125 (USDT R$ 5.117)"
         },
         {
           "time": "16:56",
           "label": "16:56",
-          "score": 57,
-          "score_a": 57,
+          "score": 63,
+          "score_a": 63,
           "score_b": 0,
-          "metric": "Spread: -0.0115 (USDT R$ 5.117)"
+          "metric": "Spread: -0.0125 (USDT R$ 5.117)"
         },
         {
           "time": "16:58",
           "label": "16:58",
-          "score": 57,
-          "score_a": 57,
+          "score": 63,
+          "score_a": 63,
           "score_b": 0,
-          "metric": "Spread: -0.0115 (USDT R$ 5.117)"
+          "metric": "Spread: -0.0125 (USDT R$ 5.117)"
         },
         {
           "time": "17:00",
           "label": "17:00",
-          "score": 58,
-          "score_a": 58,
+          "score": 63,
+          "score_a": 63,
           "score_b": 0,
-          "metric": "Spread: -0.0116 (USDT R$ 5.117)"
+          "metric": "Spread: -0.0126 (USDT R$ 5.117)"
         },
         {
           "time": "17:02",
           "label": "17:02",
-          "score": 58,
-          "score_a": 58,
+          "score": 63,
+          "score_a": 63,
           "score_b": 0,
-          "metric": "Spread: -0.0117 (USDT R$ 5.117)"
+          "metric": "Spread: -0.0127 (USDT R$ 5.117)"
         },
         {
           "time": "17:04",
           "label": "17:04",
-          "score": 57,
-          "score_a": 57,
+          "score": 63,
+          "score_a": 63,
           "score_b": 0,
-          "metric": "Spread: -0.0115 (USDT R$ 5.117)"
+          "metric": "Spread: -0.0125 (USDT R$ 5.117)"
         },
         {
           "time": "17:06",
           "label": "17:06",
-          "score": 45,
-          "score_a": 45,
+          "score": 50,
+          "score_a": 50,
           "score_b": 0,
-          "metric": "Spread: -0.0091 (USDT R$ 5.119)"
+          "metric": "Spread: -0.0101 (USDT R$ 5.119)"
         },
         {
           "time": "17:08",
           "label": "17:08",
-          "score": 46,
-          "score_a": 46,
+          "score": 51,
+          "score_a": 51,
           "score_b": 0,
-          "metric": "Spread: -0.0092 (USDT R$ 5.119)"
+          "metric": "Spread: -0.0102 (USDT R$ 5.119)"
         },
         {
           "time": "17:10",
           "label": "17:10",
-          "score": 45,
-          "score_a": 45,
+          "score": 50,
+          "score_a": 50,
           "score_b": 0,
-          "metric": "Spread: -0.0091 (USDT R$ 5.119)"
+          "metric": "Spread: -0.0101 (USDT R$ 5.119)"
         },
         {
           "time": "17:12",
           "label": "17:12",
-          "score": 41,
-          "score_a": 41,
+          "score": 46,
+          "score_a": 46,
           "score_b": 0,
-          "metric": "Spread: -0.0083 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0093 (USDT R$ 5.120)"
         },
         {
           "time": "17:14",
           "label": "17:14",
-          "score": 31,
-          "score_a": 31,
+          "score": 36,
+          "score_a": 36,
           "score_b": 0,
-          "metric": "Spread: -0.0063 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0073 (USDT R$ 5.122)"
         },
         {
           "time": "17:16",
           "label": "17:16",
-          "score": 31,
-          "score_a": 31,
+          "score": 36,
+          "score_a": 36,
           "score_b": 0,
-          "metric": "Spread: -0.0063 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0073 (USDT R$ 5.122)"
         },
         {
           "time": "17:18",
           "label": "17:18",
-          "score": 32,
-          "score_a": 32,
+          "score": 37,
+          "score_a": 37,
           "score_b": 0,
-          "metric": "Spread: -0.0064 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0074 (USDT R$ 5.122)"
         },
         {
           "time": "17:20",
           "label": "17:20",
-          "score": 31,
-          "score_a": 31,
+          "score": 36,
+          "score_a": 36,
           "score_b": 0,
-          "metric": "Spread: -0.0063 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0073 (USDT R$ 5.122)"
         },
         {
           "time": "17:22",
           "label": "17:22",
-          "score": 31,
-          "score_a": 31,
+          "score": 36,
+          "score_a": 36,
           "score_b": 0,
-          "metric": "Spread: -0.0063 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0073 (USDT R$ 5.122)"
         },
         {
           "time": "17:24",
           "label": "17:24",
-          "score": 31,
-          "score_a": 31,
+          "score": 36,
+          "score_a": 36,
           "score_b": 0,
-          "metric": "Spread: -0.0063 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0073 (USDT R$ 5.122)"
         },
         {
           "time": "17:26",
           "label": "17:26",
-          "score": 31,
-          "score_a": 31,
+          "score": 36,
+          "score_a": 36,
           "score_b": 0,
-          "metric": "Spread: -0.0063 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0073 (USDT R$ 5.122)"
         },
         {
           "time": "17:28",
           "label": "17:28",
-          "score": 31,
-          "score_a": 31,
+          "score": 36,
+          "score_a": 36,
           "score_b": 0,
-          "metric": "Spread: -0.0063 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0073 (USDT R$ 5.122)"
         },
         {
           "time": "17:30",
           "label": "17:30",
-          "score": 32,
-          "score_a": 32,
+          "score": 37,
+          "score_a": 37,
           "score_b": 0,
-          "metric": "Spread: -0.0064 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0074 (USDT R$ 5.122)"
         },
         {
           "time": "17:32",
           "label": "17:32",
-          "score": 31,
-          "score_a": 31,
+          "score": 36,
+          "score_a": 36,
           "score_b": 0,
-          "metric": "Spread: -0.0063 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0073 (USDT R$ 5.122)"
         },
         {
           "time": "17:34",
           "label": "17:34",
-          "score": 31,
-          "score_a": 31,
+          "score": 36,
+          "score_a": 36,
           "score_b": 0,
-          "metric": "Spread: -0.0063 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0073 (USDT R$ 5.122)"
         },
         {
           "time": "17:36",
           "label": "17:36",
-          "score": 32,
-          "score_a": 32,
+          "score": 37,
+          "score_a": 37,
           "score_b": 0,
-          "metric": "Spread: -0.0064 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0074 (USDT R$ 5.122)"
         },
         {
           "time": "17:38",
           "label": "17:38",
-          "score": 32,
-          "score_a": 32,
+          "score": 37,
+          "score_a": 37,
           "score_b": 0,
-          "metric": "Spread: -0.0064 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0074 (USDT R$ 5.122)"
         },
         {
           "time": "17:40",
           "label": "17:40",
-          "score": 32,
-          "score_a": 32,
+          "score": 37,
+          "score_a": 37,
           "score_b": 0,
-          "metric": "Spread: -0.0064 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0074 (USDT R$ 5.122)"
         },
         {
           "time": "17:42",
           "label": "17:42",
-          "score": 30,
-          "score_a": 30,
+          "score": 36,
+          "score_a": 36,
           "score_b": 0,
-          "metric": "Spread: -0.0061 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0071 (USDT R$ 5.122)"
         },
         {
           "time": "17:44",
           "label": "17:44",
-          "score": 31,
-          "score_a": 31,
+          "score": 36,
+          "score_a": 36,
           "score_b": 0,
-          "metric": "Spread: -0.0062 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0072 (USDT R$ 5.122)"
         },
         {
           "time": "17:46",
           "label": "17:46",
-          "score": 31,
-          "score_a": 31,
+          "score": 36,
+          "score_a": 36,
           "score_b": 0,
-          "metric": "Spread: -0.0062 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0072 (USDT R$ 5.122)"
         },
         {
           "time": "17:48",
           "label": "17:48",
-          "score": 30,
-          "score_a": 30,
+          "score": 36,
+          "score_a": 36,
           "score_b": 0,
-          "metric": "Spread: -0.0061 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0071 (USDT R$ 5.122)"
         },
         {
           "time": "17:50",
           "label": "17:50",
-          "score": 30,
-          "score_a": 30,
+          "score": 36,
+          "score_a": 36,
           "score_b": 0,
-          "metric": "Spread: -0.0061 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0071 (USDT R$ 5.122)"
         },
         {
           "time": "17:52",
           "label": "17:52",
-          "score": 40,
-          "score_a": 40,
+          "score": 46,
+          "score_a": 46,
           "score_b": 0,
-          "metric": "Spread: -0.0081 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0091 (USDT R$ 5.120)"
         },
         {
           "time": "17:54",
           "label": "17:54",
-          "score": 34,
-          "score_a": 34,
+          "score": 40,
+          "score_a": 40,
           "score_b": 0,
-          "metric": "Spread: -0.0069 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0079 (USDT R$ 5.121)"
         },
         {
           "time": "17:56",
           "label": "17:56",
-          "score": 35,
-          "score_a": 35,
+          "score": 40,
+          "score_a": 40,
           "score_b": 0,
-          "metric": "Spread: -0.0071 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0081 (USDT R$ 5.121)"
         },
         {
           "time": "17:58",
           "label": "17:58",
-          "score": 35,
-          "score_a": 35,
+          "score": 40,
+          "score_a": 40,
           "score_b": 0,
-          "metric": "Spread: -0.0070 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0080 (USDT R$ 5.121)"
         },
         {
           "time": "18:00",
           "label": "18:00",
-          "score": 35,
-          "score_a": 35,
+          "score": 40,
+          "score_a": 40,
           "score_b": 0,
-          "metric": "Spread: -0.0071 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0081 (USDT R$ 5.121)"
         },
         {
           "time": "18:02",
           "label": "18:02",
-          "score": 35,
-          "score_a": 35,
+          "score": 40,
+          "score_a": 40,
           "score_b": 0,
-          "metric": "Spread: -0.0070 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0080 (USDT R$ 5.121)"
         },
         {
           "time": "18:04",
           "label": "18:04",
-          "score": 40,
-          "score_a": 40,
+          "score": 46,
+          "score_a": 46,
           "score_b": 0,
-          "metric": "Spread: -0.0081 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0091 (USDT R$ 5.120)"
         },
         {
           "time": "18:06",
           "label": "18:06",
-          "score": 40,
-          "score_a": 40,
+          "score": 46,
+          "score_a": 46,
           "score_b": 0,
-          "metric": "Spread: -0.0081 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0091 (USDT R$ 5.120)"
         },
         {
           "time": "18:08",
           "label": "18:08",
-          "score": 40,
-          "score_a": 40,
+          "score": 45,
+          "score_a": 45,
           "score_b": 0,
-          "metric": "Spread: -0.0080 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0090 (USDT R$ 5.120)"
         },
         {
           "time": "18:10",
           "label": "18:10",
-          "score": 40,
-          "score_a": 40,
+          "score": 46,
+          "score_a": 46,
           "score_b": 0,
-          "metric": "Spread: -0.0081 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0091 (USDT R$ 5.120)"
         },
         {
           "time": "18:12",
           "label": "18:12",
-          "score": 47,
-          "score_a": 47,
+          "score": 52,
+          "score_a": 52,
           "score_b": 0,
-          "metric": "Spread: -0.0094 (USDT R$ 5.119)"
+          "metric": "Spread: -0.0104 (USDT R$ 5.119)"
         },
         {
           "time": "18:14",
           "label": "18:14",
-          "score": 45,
-          "score_a": 45,
+          "score": 50,
+          "score_a": 50,
           "score_b": 0,
-          "metric": "Spread: -0.0090 (USDT R$ 5.119)"
+          "metric": "Spread: -0.0100 (USDT R$ 5.119)"
         },
         {
           "time": "18:16",
           "label": "18:16",
-          "score": 46,
-          "score_a": 46,
+          "score": 51,
+          "score_a": 51,
           "score_b": 0,
-          "metric": "Spread: -0.0092 (USDT R$ 5.119)"
+          "metric": "Spread: -0.0102 (USDT R$ 5.119)"
         },
         {
           "time": "18:18",
           "label": "18:18",
-          "score": 46,
-          "score_a": 46,
+          "score": 51,
+          "score_a": 51,
           "score_b": 0,
-          "metric": "Spread: -0.0092 (USDT R$ 5.119)"
+          "metric": "Spread: -0.0102 (USDT R$ 5.119)"
         },
         {
           "time": "18:20",
           "label": "18:20",
-          "score": 52,
-          "score_a": 52,
+          "score": 57,
+          "score_a": 57,
           "score_b": 0,
-          "metric": "Spread: -0.0104 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0114 (USDT R$ 5.118)"
         },
         {
           "time": "18:22",
           "label": "18:22",
-          "score": 52,
-          "score_a": 52,
+          "score": 57,
+          "score_a": 57,
           "score_b": 0,
-          "metric": "Spread: -0.0104 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0114 (USDT R$ 5.118)"
         },
         {
           "time": "18:24",
           "label": "18:24",
-          "score": 51,
-          "score_a": 51,
+          "score": 57,
+          "score_a": 57,
           "score_b": 0,
-          "metric": "Spread: -0.0103 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0113 (USDT R$ 5.118)"
         },
         {
           "time": "18:26",
           "label": "18:26",
-          "score": 51,
-          "score_a": 51,
+          "score": 57,
+          "score_a": 57,
           "score_b": 0,
-          "metric": "Spread: -0.0103 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0113 (USDT R$ 5.118)"
         },
         {
           "time": "18:28",
           "label": "18:28",
-          "score": 50,
-          "score_a": 50,
+          "score": 55,
+          "score_a": 55,
           "score_b": 0,
-          "metric": "Spread: -0.0100 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0110 (USDT R$ 5.118)"
         },
         {
           "time": "18:30",
           "label": "18:30",
-          "score": 50,
-          "score_a": 50,
+          "score": 55,
+          "score_a": 55,
           "score_b": 0,
-          "metric": "Spread: -0.0100 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0110 (USDT R$ 5.118)"
         },
         {
           "time": "18:32",
           "label": "18:32",
-          "score": 50,
-          "score_a": 50,
+          "score": 55,
+          "score_a": 55,
           "score_b": 0,
-          "metric": "Spread: -0.0101 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0111 (USDT R$ 5.118)"
         },
         {
           "time": "18:34",
           "label": "18:34",
-          "score": 50,
-          "score_a": 50,
+          "score": 55,
+          "score_a": 55,
           "score_b": 0,
-          "metric": "Spread: -0.0100 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0110 (USDT R$ 5.118)"
         },
         {
           "time": "18:36",
           "label": "18:36",
-          "score": 52,
-          "score_a": 52,
+          "score": 57,
+          "score_a": 57,
           "score_b": 0,
-          "metric": "Spread: -0.0104 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0114 (USDT R$ 5.118)"
         },
         {
           "time": "18:38",
           "label": "18:38",
-          "score": 52,
-          "score_a": 52,
+          "score": 57,
+          "score_a": 57,
           "score_b": 0,
-          "metric": "Spread: -0.0104 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0114 (USDT R$ 5.118)"
         },
         {
           "time": "18:40",
           "label": "18:40",
-          "score": 51,
-          "score_a": 51,
+          "score": 57,
+          "score_a": 57,
           "score_b": 0,
-          "metric": "Spread: -0.0103 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0113 (USDT R$ 5.118)"
         },
         {
           "time": "18:42",
           "label": "18:42",
-          "score": 40,
-          "score_a": 40,
+          "score": 45,
+          "score_a": 45,
           "score_b": 0,
-          "metric": "Spread: -0.0080 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0090 (USDT R$ 5.120)"
         },
         {
           "time": "18:44",
           "label": "18:44",
-          "score": 31,
-          "score_a": 31,
+          "score": 36,
+          "score_a": 36,
           "score_b": 0,
-          "metric": "Spread: -0.0062 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0072 (USDT R$ 5.122)"
         },
         {
           "time": "18:46",
           "label": "18:46",
-          "score": 27,
-          "score_a": 27,
+          "score": 32,
+          "score_a": 32,
           "score_b": 0,
-          "metric": "Spread: -0.0054 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0064 (USDT R$ 5.123)"
         },
         {
           "time": "18:48",
           "label": "18:48",
-          "score": 27,
-          "score_a": 27,
+          "score": 32,
+          "score_a": 32,
           "score_b": 0,
-          "metric": "Spread: -0.0054 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0064 (USDT R$ 5.123)"
         },
         {
           "time": "18:50",
           "label": "18:50",
-          "score": 27,
-          "score_a": 27,
+          "score": 32,
+          "score_a": 32,
           "score_b": 0,
-          "metric": "Spread: -0.0053 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0063 (USDT R$ 5.123)"
         },
         {
           "time": "18:52",
           "label": "18:52",
-          "score": 27,
-          "score_a": 27,
+          "score": 32,
+          "score_a": 32,
           "score_b": 0,
-          "metric": "Spread: -0.0054 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0064 (USDT R$ 5.123)"
         },
         {
           "time": "18:54",
           "label": "18:54",
-          "score": 27,
-          "score_a": 27,
+          "score": 32,
+          "score_a": 32,
           "score_b": 0,
-          "metric": "Spread: -0.0053 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0063 (USDT R$ 5.123)"
         },
         {
           "time": "18:56",
           "label": "18:56",
-          "score": 27,
-          "score_a": 27,
+          "score": 32,
+          "score_a": 32,
           "score_b": 0,
-          "metric": "Spread: -0.0054 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0064 (USDT R$ 5.123)"
         },
         {
           "time": "18:58",
           "label": "18:58",
-          "score": 27,
-          "score_a": 27,
+          "score": 32,
+          "score_a": 32,
           "score_b": 0,
-          "metric": "Spread: -0.0053 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0063 (USDT R$ 5.123)"
         },
         {
           "time": "19:00",
           "label": "19:00",
-          "score": 27,
-          "score_a": 27,
+          "score": 32,
+          "score_a": 32,
           "score_b": 0,
-          "metric": "Spread: -0.0053 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0063 (USDT R$ 5.123)"
         },
         {
           "time": "19:02",
           "label": "19:02",
-          "score": 27,
-          "score_a": 27,
+          "score": 32,
+          "score_a": 32,
           "score_b": 0,
-          "metric": "Spread: -0.0054 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0064 (USDT R$ 5.123)"
         },
         {
           "time": "19:04",
           "label": "19:04",
-          "score": 11,
-          "score_a": 11,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0023 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0033 (USDT R$ 5.126)"
         },
         {
           "time": "19:06",
           "label": "19:06",
-          "score": 11,
-          "score_a": 11,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0023 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0033 (USDT R$ 5.126)"
         },
         {
           "time": "19:08",
           "label": "19:08",
-          "score": 11,
-          "score_a": 11,
+          "score": 16,
+          "score_a": 16,
           "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
         },
         {
           "time": "19:10",
           "label": "19:10",
-          "score": 11,
-          "score_a": 11,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0023 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0033 (USDT R$ 5.126)"
         },
         {
           "time": "19:12",
           "label": "19:12",
-          "score": 11,
-          "score_a": 11,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0023 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0033 (USDT R$ 5.126)"
         },
         {
           "time": "19:14",
           "label": "19:14",
-          "score": 11,
-          "score_a": 11,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0023 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0033 (USDT R$ 5.126)"
         },
         {
           "time": "19:16",
           "label": "19:16",
-          "score": 11,
-          "score_a": 11,
+          "score": 16,
+          "score_a": 16,
           "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
         },
         {
           "time": "19:18",
           "label": "19:18",
-          "score": 11,
-          "score_a": 11,
+          "score": 16,
+          "score_a": 16,
           "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
         },
         {
           "time": "19:20",
           "label": "19:20",
-          "score": 11,
-          "score_a": 11,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0023 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0033 (USDT R$ 5.126)"
         },
         {
           "time": "19:22",
           "label": "19:22",
-          "score": 11,
-          "score_a": 11,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0023 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0033 (USDT R$ 5.126)"
         },
         {
           "time": "19:24",
           "label": "19:24",
-          "score": 11,
-          "score_a": 11,
+          "score": 16,
+          "score_a": 16,
           "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
         },
         {
           "time": "19:26",
           "label": "19:26",
-          "score": 11,
-          "score_a": 11,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0023 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0033 (USDT R$ 5.126)"
         },
         {
           "time": "19:28",
           "label": "19:28",
-          "score": 11,
-          "score_a": 11,
+          "score": 16,
+          "score_a": 16,
           "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
         },
         {
           "time": "19:30",
           "label": "19:30",
-          "score": 11,
-          "score_a": 11,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0023 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0033 (USDT R$ 5.126)"
         },
         {
           "time": "19:32",
           "label": "19:32",
-          "score": 11,
-          "score_a": 11,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0023 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0033 (USDT R$ 5.126)"
         },
         {
           "time": "19:34",
           "label": "19:34",
-          "score": 11,
-          "score_a": 11,
+          "score": 16,
+          "score_a": 16,
           "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
         },
         {
           "time": "19:36",
           "label": "19:36",
-          "score": 11,
-          "score_a": 11,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0023 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0033 (USDT R$ 5.126)"
         },
         {
           "time": "19:38",
           "label": "19:38",
-          "score": 11,
-          "score_a": 11,
+          "score": 16,
+          "score_a": 16,
           "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
         },
         {
           "time": "19:40",
           "label": "19:40",
-          "score": 11,
-          "score_a": 11,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0023 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0033 (USDT R$ 5.126)"
         },
         {
           "time": "19:42",
           "label": "19:42",
-          "score": 11,
-          "score_a": 11,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0023 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0033 (USDT R$ 5.126)"
         },
         {
           "time": "19:44",
           "label": "19:44",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0032 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0042 (USDT R$ 5.125)"
         },
         {
           "time": "19:46",
           "label": "19:46",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "19:48",
           "label": "19:48",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "19:50",
           "label": "19:50",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "19:52",
           "label": "19:52",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0032 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0042 (USDT R$ 5.125)"
         },
         {
           "time": "19:54",
           "label": "19:54",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "19:56",
           "label": "19:56",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "19:58",
           "label": "19:58",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0032 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0042 (USDT R$ 5.125)"
         },
         {
           "time": "20:00",
           "label": "20:00",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:02",
           "label": "20:02",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:04",
           "label": "20:04",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:06",
           "label": "20:06",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:08",
           "label": "20:08",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0032 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0042 (USDT R$ 5.125)"
         },
         {
           "time": "20:10",
           "label": "20:10",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:12",
           "label": "20:12",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0032 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0042 (USDT R$ 5.125)"
         },
         {
           "time": "20:14",
           "label": "20:14",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:16",
           "label": "20:16",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:18",
           "label": "20:18",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0032 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0042 (USDT R$ 5.125)"
         },
         {
           "time": "20:20",
           "label": "20:20",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0032 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0042 (USDT R$ 5.125)"
         },
         {
           "time": "20:22",
           "label": "20:22",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:24",
           "label": "20:24",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:26",
           "label": "20:26",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:28",
           "label": "20:28",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:30",
           "label": "20:30",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:32",
           "label": "20:32",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0032 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0042 (USDT R$ 5.125)"
         },
         {
           "time": "20:34",
           "label": "20:34",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:36",
           "label": "20:36",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:38",
           "label": "20:38",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:40",
           "label": "20:40",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:42",
           "label": "20:42",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:44",
           "label": "20:44",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0032 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0042 (USDT R$ 5.125)"
         },
         {
           "time": "20:46",
           "label": "20:46",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0032 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0042 (USDT R$ 5.125)"
         },
         {
           "time": "20:48",
           "label": "20:48",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:50",
           "label": "20:50",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:52",
           "label": "20:52",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0032 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0042 (USDT R$ 5.125)"
         },
         {
           "time": "20:54",
           "label": "20:54",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:56",
           "label": "20:56",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "20:58",
           "label": "20:58",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "21:00",
           "label": "21:00",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "21:02",
           "label": "21:02",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0032 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0042 (USDT R$ 5.125)"
         },
         {
           "time": "21:04",
           "label": "21:04",
-          "score": 17,
-          "score_a": 17,
+          "score": 22,
+          "score_a": 22,
           "score_b": 0,
-          "metric": "Spread: -0.0034 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0044 (USDT R$ 5.125)"
         },
         {
           "time": "21:06",
           "label": "21:06",
-          "score": 19,
-          "score_a": 19,
+          "score": 25,
+          "score_a": 25,
           "score_b": 0,
-          "metric": "Spread: -0.0039 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0049 (USDT R$ 5.124)"
         },
         {
           "time": "21:08",
           "label": "21:08",
-          "score": 21,
-          "score_a": 21,
+          "score": 26,
+          "score_a": 26,
           "score_b": 0,
-          "metric": "Spread: -0.0042 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0052 (USDT R$ 5.124)"
         },
         {
           "time": "21:10",
           "label": "21:10",
-          "score": 21,
-          "score_a": 21,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0043 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0053 (USDT R$ 5.124)"
         },
         {
           "time": "21:12",
           "label": "21:12",
-          "score": 21,
-          "score_a": 21,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0043 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0053 (USDT R$ 5.124)"
         },
         {
           "time": "21:14",
           "label": "21:14",
-          "score": 21,
-          "score_a": 21,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0043 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0053 (USDT R$ 5.124)"
         },
         {
           "time": "21:16",
           "label": "21:16",
-          "score": 21,
-          "score_a": 21,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0043 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0053 (USDT R$ 5.124)"
         },
         {
           "time": "21:18",
           "label": "21:18",
-          "score": 21,
-          "score_a": 21,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0043 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0053 (USDT R$ 5.124)"
         },
         {
           "time": "21:20",
           "label": "21:20",
-          "score": 21,
-          "score_a": 21,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0043 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0053 (USDT R$ 5.124)"
         },
         {
           "time": "21:22",
           "label": "21:22",
-          "score": 21,
-          "score_a": 21,
+          "score": 26,
+          "score_a": 26,
           "score_b": 0,
-          "metric": "Spread: -0.0042 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0052 (USDT R$ 5.124)"
         },
         {
           "time": "21:24",
           "label": "21:24",
-          "score": 21,
-          "score_a": 21,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0043 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0053 (USDT R$ 5.124)"
         },
         {
           "time": "21:26",
           "label": "21:26",
-          "score": 21,
-          "score_a": 21,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0043 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0053 (USDT R$ 5.124)"
         },
         {
           "time": "21:28",
           "label": "21:28",
-          "score": 21,
-          "score_a": 21,
+          "score": 26,
+          "score_a": 26,
           "score_b": 0,
-          "metric": "Spread: -0.0042 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0052 (USDT R$ 5.124)"
         },
         {
           "time": "21:30",
           "label": "21:30",
-          "score": 21,
-          "score_a": 21,
+          "score": 26,
+          "score_a": 26,
           "score_b": 0,
-          "metric": "Spread: -0.0042 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0052 (USDT R$ 5.124)"
         },
         {
           "time": "21:32",
           "label": "21:32",
-          "score": 21,
-          "score_a": 21,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0043 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0053 (USDT R$ 5.124)"
         },
         {
           "time": "21:34",
           "label": "21:34",
-          "score": 21,
-          "score_a": 21,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0043 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0053 (USDT R$ 5.124)"
         },
         {
           "time": "21:36",
           "label": "21:36",
-          "score": 21,
-          "score_a": 21,
+          "score": 26,
+          "score_a": 26,
           "score_b": 0,
-          "metric": "Spread: -0.0042 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0052 (USDT R$ 5.124)"
         },
         {
           "time": "21:38",
           "label": "21:38",
-          "score": 21,
-          "score_a": 21,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0043 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0053 (USDT R$ 5.124)"
         },
         {
           "time": "21:40",
           "label": "21:40",
-          "score": 24,
-          "score_a": 24,
+          "score": 29,
+          "score_a": 29,
           "score_b": 0,
-          "metric": "Spread: -0.0049 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0059 (USDT R$ 5.123)"
         },
         {
           "time": "21:42",
           "label": "21:42",
-          "score": 24,
-          "score_a": 24,
+          "score": 29,
+          "score_a": 29,
           "score_b": 0,
-          "metric": "Spread: -0.0049 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0059 (USDT R$ 5.123)"
         },
         {
           "time": "21:44",
           "label": "21:44",
-          "score": 24,
-          "score_a": 24,
+          "score": 29,
+          "score_a": 29,
           "score_b": 0,
-          "metric": "Spread: -0.0049 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0059 (USDT R$ 5.123)"
         },
         {
           "time": "21:46",
           "label": "21:46",
-          "score": 24,
-          "score_a": 24,
+          "score": 29,
+          "score_a": 29,
           "score_b": 0,
-          "metric": "Spread: -0.0049 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0059 (USDT R$ 5.123)"
         },
         {
           "time": "21:48",
           "label": "21:48",
-          "score": 25,
-          "score_a": 25,
+          "score": 30,
+          "score_a": 30,
           "score_b": 0,
-          "metric": "Spread: -0.0050 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0060 (USDT R$ 5.123)"
         },
         {
           "time": "21:50",
           "label": "21:50",
-          "score": 40,
-          "score_a": 40,
+          "score": 46,
+          "score_a": 46,
           "score_b": 0,
-          "metric": "Spread: -0.0081 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0091 (USDT R$ 5.120)"
         },
         {
           "time": "21:52",
           "label": "21:52",
-          "score": 38,
-          "score_a": 38,
+          "score": 44,
+          "score_a": 44,
           "score_b": 0,
-          "metric": "Spread: -0.0077 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0087 (USDT R$ 5.120)"
         },
         {
           "time": "21:54",
           "label": "21:54",
-          "score": 39,
-          "score_a": 39,
+          "score": 44,
+          "score_a": 44,
           "score_b": 0,
-          "metric": "Spread: -0.0078 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0088 (USDT R$ 5.120)"
         },
         {
           "time": "21:56",
           "label": "21:56",
-          "score": 37,
-          "score_a": 37,
+          "score": 42,
+          "score_a": 42,
           "score_b": 0,
-          "metric": "Spread: -0.0075 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0085 (USDT R$ 5.121)"
         },
         {
           "time": "21:58",
           "label": "21:58",
-          "score": 37,
-          "score_a": 37,
+          "score": 42,
+          "score_a": 42,
           "score_b": 0,
-          "metric": "Spread: -0.0075 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0085 (USDT R$ 5.121)"
         },
         {
           "time": "22:00",
           "label": "22:00",
-          "score": 37,
-          "score_a": 37,
+          "score": 42,
+          "score_a": 42,
           "score_b": 0,
-          "metric": "Spread: -0.0075 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0085 (USDT R$ 5.121)"
         },
         {
           "time": "22:02",
           "label": "22:02",
-          "score": 38,
-          "score_a": 38,
+          "score": 43,
+          "score_a": 43,
           "score_b": 0,
-          "metric": "Spread: -0.0076 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0086 (USDT R$ 5.121)"
         },
         {
           "time": "22:04",
           "label": "22:04",
-          "score": 37,
-          "score_a": 37,
+          "score": 42,
+          "score_a": 42,
           "score_b": 0,
-          "metric": "Spread: -0.0075 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0085 (USDT R$ 5.121)"
         },
         {
           "time": "22:06",
           "label": "22:06",
-          "score": 37,
-          "score_a": 37,
+          "score": 42,
+          "score_a": 42,
           "score_b": 0,
-          "metric": "Spread: -0.0075 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0085 (USDT R$ 5.121)"
         },
         {
           "time": "22:08",
           "label": "22:08",
-          "score": 37,
-          "score_a": 37,
+          "score": 42,
+          "score_a": 42,
           "score_b": 0,
-          "metric": "Spread: -0.0075 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0085 (USDT R$ 5.121)"
         },
         {
           "time": "22:10",
           "label": "22:10",
-          "score": 37,
-          "score_a": 37,
+          "score": 42,
+          "score_a": 42,
           "score_b": 0,
-          "metric": "Spread: -0.0075 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0085 (USDT R$ 5.121)"
         },
         {
           "time": "22:12",
           "label": "22:12",
-          "score": 38,
-          "score_a": 38,
+          "score": 43,
+          "score_a": 43,
           "score_b": 0,
-          "metric": "Spread: -0.0076 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0086 (USDT R$ 5.121)"
         },
         {
           "time": "22:14",
           "label": "22:14",
-          "score": 38,
-          "score_a": 38,
+          "score": 43,
+          "score_a": 43,
           "score_b": 0,
-          "metric": "Spread: -0.0076 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0086 (USDT R$ 5.121)"
         },
         {
           "time": "22:16",
           "label": "22:16",
-          "score": 38,
-          "score_a": 38,
+          "score": 43,
+          "score_a": 43,
           "score_b": 0,
-          "metric": "Spread: -0.0076 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0086 (USDT R$ 5.121)"
         },
         {
           "time": "22:18",
           "label": "22:18",
-          "score": 38,
-          "score_a": 38,
+          "score": 44,
+          "score_a": 44,
           "score_b": 0,
-          "metric": "Spread: -0.0077 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0087 (USDT R$ 5.120)"
         },
         {
           "time": "22:20",
           "label": "22:20",
-          "score": 38,
-          "score_a": 38,
+          "score": 44,
+          "score_a": 44,
           "score_b": 0,
-          "metric": "Spread: -0.0077 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0087 (USDT R$ 5.120)"
         },
         {
           "time": "22:22",
           "label": "22:22",
-          "score": 38,
-          "score_a": 38,
+          "score": 43,
+          "score_a": 43,
           "score_b": 0,
-          "metric": "Spread: -0.0076 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0086 (USDT R$ 5.121)"
         },
         {
           "time": "22:24",
           "label": "22:24",
-          "score": 38,
-          "score_a": 38,
+          "score": 43,
+          "score_a": 43,
           "score_b": 0,
-          "metric": "Spread: -0.0076 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0086 (USDT R$ 5.121)"
         },
         {
           "time": "22:26",
           "label": "22:26",
-          "score": 37,
-          "score_a": 37,
+          "score": 42,
+          "score_a": 42,
           "score_b": 0,
-          "metric": "Spread: -0.0075 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0085 (USDT R$ 5.121)"
         },
         {
           "time": "22:28",
           "label": "22:28",
-          "score": 24,
-          "score_a": 24,
+          "score": 29,
+          "score_a": 29,
           "score_b": 0,
-          "metric": "Spread: -0.0048 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0058 (USDT R$ 5.123)"
         },
         {
           "time": "22:30",
           "label": "22:30",
-          "score": 24,
-          "score_a": 24,
+          "score": 29,
+          "score_a": 29,
           "score_b": 0,
-          "metric": "Spread: -0.0048 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0058 (USDT R$ 5.123)"
         },
         {
           "time": "22:32",
           "label": "22:32",
-          "score": 23,
-          "score_a": 23,
+          "score": 29,
+          "score_a": 29,
           "score_b": 0,
-          "metric": "Spread: -0.0047 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0057 (USDT R$ 5.123)"
         },
         {
           "time": "22:34",
           "label": "22:34",
-          "score": 24,
-          "score_a": 24,
+          "score": 29,
+          "score_a": 29,
           "score_b": 0,
-          "metric": "Spread: -0.0048 (USDT R$ 5.123)"
+          "metric": "Spread: -0.0058 (USDT R$ 5.123)"
         },
         {
           "time": "22:36",
           "label": "22:36",
-          "score": 22,
-          "score_a": 22,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0045 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0055 (USDT R$ 5.124)"
         },
         {
           "time": "22:38",
           "label": "22:38",
-          "score": 22,
-          "score_a": 22,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0045 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0055 (USDT R$ 5.124)"
         },
         {
           "time": "22:40",
           "label": "22:40",
-          "score": 23,
-          "score_a": 23,
+          "score": 28,
+          "score_a": 28,
           "score_b": 0,
-          "metric": "Spread: -0.0046 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0056 (USDT R$ 5.124)"
         },
         {
           "time": "22:42",
           "label": "22:42",
-          "score": 23,
-          "score_a": 23,
+          "score": 28,
+          "score_a": 28,
           "score_b": 0,
-          "metric": "Spread: -0.0046 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0056 (USDT R$ 5.124)"
         },
         {
           "time": "22:44",
           "label": "22:44",
-          "score": 22,
-          "score_a": 22,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0045 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0055 (USDT R$ 5.124)"
         },
         {
           "time": "22:46",
           "label": "22:46",
-          "score": 23,
-          "score_a": 23,
+          "score": 28,
+          "score_a": 28,
           "score_b": 0,
-          "metric": "Spread: -0.0046 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0056 (USDT R$ 5.124)"
         },
         {
           "time": "22:48",
           "label": "22:48",
-          "score": 23,
-          "score_a": 23,
+          "score": 28,
+          "score_a": 28,
           "score_b": 0,
-          "metric": "Spread: -0.0046 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0056 (USDT R$ 5.124)"
         },
         {
           "time": "22:50",
           "label": "22:50",
-          "score": 23,
-          "score_a": 23,
+          "score": 28,
+          "score_a": 28,
           "score_b": 0,
-          "metric": "Spread: -0.0046 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0056 (USDT R$ 5.124)"
         },
         {
           "time": "22:52",
           "label": "22:52",
-          "score": 22,
-          "score_a": 22,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0045 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0055 (USDT R$ 5.124)"
         },
         {
           "time": "22:54",
           "label": "22:54",
-          "score": 23,
-          "score_a": 23,
+          "score": 28,
+          "score_a": 28,
           "score_b": 0,
-          "metric": "Spread: -0.0046 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0056 (USDT R$ 5.124)"
         },
         {
           "time": "22:56",
           "label": "22:56",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "22:58",
           "label": "22:58",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "23:00",
           "label": "23:00",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "23:02",
           "label": "23:02",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "23:04",
           "label": "23:04",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "23:06",
           "label": "23:06",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "23:08",
           "label": "23:08",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "23:10",
           "label": "23:10",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "23:12",
           "label": "23:12",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "23:14",
           "label": "23:14",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "23:16",
           "label": "23:16",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "23:18",
           "label": "23:18",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "23:20",
           "label": "23:20",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "23:22",
           "label": "23:22",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "23:24",
           "label": "23:24",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "23:26",
           "label": "23:26",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "23:28",
           "label": "23:28",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "23:30",
           "label": "23:30",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "23:32",
           "label": "23:32",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "23:34",
           "label": "23:34",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "23:36",
           "label": "23:36",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "23:38",
           "label": "23:38",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "23:40",
           "label": "23:40",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "23:42",
           "label": "23:42",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "23:44",
           "label": "23:44",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "23:46",
           "label": "23:46",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "23:48",
           "label": "23:48",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "23:50",
           "label": "23:50",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "23:52",
           "label": "23:52",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "23:54",
           "label": "23:54",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "23:56",
           "label": "23:56",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "23:58",
           "label": "23:58",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "00:00",
           "label": "00:00",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "00:02",
           "label": "00:02",
-          "score": 3,
-          "score_a": 3,
+          "score": 8,
+          "score_a": 8,
           "score_b": 0,
-          "metric": "Spread: -0.0007 (USDT R$ 5.128)"
+          "metric": "Spread: -0.0017 (USDT R$ 5.128)"
         },
         {
           "time": "00:04",
           "label": "00:04",
-          "score": 3,
-          "score_a": 3,
+          "score": 8,
+          "score_a": 8,
           "score_b": 0,
-          "metric": "Spread: -0.0007 (USDT R$ 5.128)"
+          "metric": "Spread: -0.0017 (USDT R$ 5.128)"
         },
         {
           "time": "00:06",
           "label": "00:06",
-          "score": 3,
-          "score_a": 3,
+          "score": 8,
+          "score_a": 8,
           "score_b": 0,
-          "metric": "Spread: -0.0007 (USDT R$ 5.128)"
+          "metric": "Spread: -0.0017 (USDT R$ 5.128)"
         },
         {
           "time": "00:08",
           "label": "00:08",
-          "score": 3,
-          "score_a": 3,
+          "score": 8,
+          "score_a": 8,
           "score_b": 0,
-          "metric": "Spread: -0.0006 (USDT R$ 5.128)"
+          "metric": "Spread: -0.0016 (USDT R$ 5.128)"
         },
         {
           "time": "00:10",
           "label": "00:10",
-          "score": 3,
-          "score_a": 3,
+          "score": 8,
+          "score_a": 8,
           "score_b": 0,
-          "metric": "Spread: -0.0006 (USDT R$ 5.128)"
+          "metric": "Spread: -0.0016 (USDT R$ 5.128)"
         },
         {
           "time": "00:12",
           "label": "00:12",
-          "score": 3,
-          "score_a": 3,
+          "score": 8,
+          "score_a": 8,
           "score_b": 0,
-          "metric": "Spread: -0.0006 (USDT R$ 5.128)"
+          "metric": "Spread: -0.0016 (USDT R$ 5.128)"
         },
         {
           "time": "00:14",
           "label": "00:14",
-          "score": 5,
-          "score_a": 5,
+          "score": 10,
+          "score_a": 10,
           "score_b": 0,
-          "metric": "Spread: -0.0011 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0021 (USDT R$ 5.127)"
         },
         {
           "time": "00:16",
           "label": "00:16",
-          "score": 6,
-          "score_a": 6,
+          "score": 11,
+          "score_a": 11,
           "score_b": 0,
-          "metric": "Spread: -0.0012 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0022 (USDT R$ 5.127)"
         },
         {
           "time": "00:18",
           "label": "00:18",
-          "score": 5,
-          "score_a": 5,
+          "score": 10,
+          "score_a": 10,
           "score_b": 0,
-          "metric": "Spread: -0.0011 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0021 (USDT R$ 5.127)"
         },
         {
           "time": "00:20",
           "label": "00:20",
-          "score": 5,
-          "score_a": 5,
+          "score": 10,
+          "score_a": 10,
           "score_b": 0,
-          "metric": "Spread: -0.0011 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0021 (USDT R$ 5.127)"
         },
         {
           "time": "00:22",
           "label": "00:22",
-          "score": 1,
-          "score_a": 1,
+          "score": 6,
+          "score_a": 6,
           "score_b": 0,
-          "metric": "Spread: -0.0002 (USDT R$ 5.128)"
+          "metric": "Spread: -0.0012 (USDT R$ 5.128)"
         },
         {
           "time": "00:24",
           "label": "00:24",
-          "score": 0,
-          "score_a": 0,
+          "score": 6,
+          "score_a": 6,
           "score_b": 0,
-          "metric": "Spread: -0.0001 (USDT R$ 5.128)"
+          "metric": "Spread: -0.0011 (USDT R$ 5.128)"
         },
         {
           "time": "00:26",
           "label": "00:26",
-          "score": 0,
-          "score_a": 0,
+          "score": 6,
+          "score_a": 6,
           "score_b": 0,
-          "metric": "Spread: -0.0001 (USDT R$ 5.128)"
+          "metric": "Spread: -0.0011 (USDT R$ 5.128)"
         },
         {
           "time": "00:28",
           "label": "00:28",
-          "score": 0,
-          "score_a": 0,
+          "score": 6,
+          "score_a": 6,
           "score_b": 0,
-          "metric": "Spread: -0.0001 (USDT R$ 5.128)"
+          "metric": "Spread: -0.0011 (USDT R$ 5.128)"
         },
         {
           "time": "00:30",
           "label": "00:30",
-          "score": 0,
-          "score_a": 0,
+          "score": 6,
+          "score_a": 6,
           "score_b": 0,
-          "metric": "Spread: -0.0001 (USDT R$ 5.128)"
+          "metric": "Spread: -0.0011 (USDT R$ 5.128)"
         },
         {
           "time": "00:32",
           "label": "00:32",
-          "score": 1,
-          "score_a": 1,
+          "score": 6,
+          "score_a": 6,
           "score_b": 0,
-          "metric": "Spread: -0.0002 (USDT R$ 5.128)"
+          "metric": "Spread: -0.0012 (USDT R$ 5.128)"
         },
         {
           "time": "00:34",
           "label": "00:34",
-          "score": 4,
-          "score_a": 0,
-          "score_b": 4,
-          "metric": "Spread: +0.0007 (USDT R$ 5.129)"
+          "score": 2,
+          "score_a": 2,
+          "score_b": 0,
+          "metric": "Spread: -0.0003 (USDT R$ 5.129)"
         },
         {
           "time": "00:36",
           "label": "00:36",
-          "score": 4,
-          "score_a": 0,
-          "score_b": 4,
-          "metric": "Spread: +0.0007 (USDT R$ 5.129)"
+          "score": 2,
+          "score_a": 2,
+          "score_b": 0,
+          "metric": "Spread: -0.0003 (USDT R$ 5.129)"
         },
         {
           "time": "00:38",
           "label": "00:38",
-          "score": 4,
-          "score_a": 0,
-          "score_b": 4,
-          "metric": "Spread: +0.0007 (USDT R$ 5.129)"
+          "score": 2,
+          "score_a": 2,
+          "score_b": 0,
+          "metric": "Spread: -0.0003 (USDT R$ 5.129)"
         },
         {
           "time": "00:40",
           "label": "00:40",
-          "score": 4,
-          "score_a": 0,
-          "score_b": 4,
-          "metric": "Spread: +0.0007 (USDT R$ 5.129)"
+          "score": 2,
+          "score_a": 2,
+          "score_b": 0,
+          "metric": "Spread: -0.0003 (USDT R$ 5.129)"
         },
         {
           "time": "00:42",
           "label": "00:42",
-          "score": 4,
-          "score_a": 0,
-          "score_b": 4,
-          "metric": "Spread: +0.0007 (USDT R$ 5.129)"
+          "score": 2,
+          "score_a": 2,
+          "score_b": 0,
+          "metric": "Spread: -0.0003 (USDT R$ 5.129)"
         },
         {
           "time": "00:44",
           "label": "00:44",
-          "score": 4,
-          "score_a": 0,
-          "score_b": 4,
-          "metric": "Spread: +0.0007 (USDT R$ 5.129)"
+          "score": 2,
+          "score_a": 2,
+          "score_b": 0,
+          "metric": "Spread: -0.0003 (USDT R$ 5.129)"
         },
         {
           "time": "00:46",
           "label": "00:46",
-          "score": 4,
-          "score_a": 0,
-          "score_b": 4,
-          "metric": "Spread: +0.0007 (USDT R$ 5.129)"
+          "score": 2,
+          "score_a": 2,
+          "score_b": 0,
+          "metric": "Spread: -0.0003 (USDT R$ 5.129)"
         },
         {
           "time": "00:48",
           "label": "00:48",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "00:50",
           "label": "00:50",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "00:52",
           "label": "00:52",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "00:54",
           "label": "00:54",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "00:56",
           "label": "00:56",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "00:58",
           "label": "00:58",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "01:00",
           "label": "01:00",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "01:02",
           "label": "01:02",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "01:04",
           "label": "01:04",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "01:06",
           "label": "01:06",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "01:08",
           "label": "01:08",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "01:10",
           "label": "01:10",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "01:12",
           "label": "01:12",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "01:14",
           "label": "01:14",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "01:16",
           "label": "01:16",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "01:18",
           "label": "01:18",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "01:20",
           "label": "01:20",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "01:22",
           "label": "01:22",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "01:24",
           "label": "01:24",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "01:26",
           "label": "01:26",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "01:28",
           "label": "01:28",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "01:30",
           "label": "01:30",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "01:32",
           "label": "01:32",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "01:34",
           "label": "01:34",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "01:36",
           "label": "01:36",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "01:38",
           "label": "01:38",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "01:40",
           "label": "01:40",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "01:42",
           "label": "01:42",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "01:44",
           "label": "01:44",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "01:46",
           "label": "01:46",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "01:48",
           "label": "01:48",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "01:50",
           "label": "01:50",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "01:52",
           "label": "01:52",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "01:54",
           "label": "01:54",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "01:56",
           "label": "01:56",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "01:58",
           "label": "01:58",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0009 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: -0.0001 (USDT R$ 5.129)"
         },
         {
           "time": "02:00",
           "label": "02:00",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:02",
           "label": "02:02",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:04",
           "label": "02:04",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0009 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: -0.0001 (USDT R$ 5.129)"
         },
         {
           "time": "02:06",
           "label": "02:06",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0009 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: -0.0001 (USDT R$ 5.129)"
         },
         {
           "time": "02:08",
           "label": "02:08",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0009 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: -0.0001 (USDT R$ 5.129)"
         },
         {
           "time": "02:10",
           "label": "02:10",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0009 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: -0.0001 (USDT R$ 5.129)"
         },
         {
           "time": "02:12",
           "label": "02:12",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:14",
           "label": "02:14",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:16",
           "label": "02:16",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:18",
           "label": "02:18",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:20",
           "label": "02:20",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:22",
           "label": "02:22",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0009 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: -0.0001 (USDT R$ 5.129)"
         },
         {
           "time": "02:24",
           "label": "02:24",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:26",
           "label": "02:26",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:28",
           "label": "02:28",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0009 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: -0.0001 (USDT R$ 5.129)"
         },
         {
           "time": "02:30",
           "label": "02:30",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:32",
           "label": "02:32",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0009 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: -0.0001 (USDT R$ 5.129)"
         },
         {
           "time": "02:34",
           "label": "02:34",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:36",
           "label": "02:36",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0009 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: -0.0001 (USDT R$ 5.129)"
         },
         {
           "time": "02:38",
           "label": "02:38",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:40",
           "label": "02:40",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:42",
           "label": "02:42",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:44",
           "label": "02:44",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0009 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: -0.0001 (USDT R$ 5.129)"
         },
         {
           "time": "02:46",
           "label": "02:46",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:48",
           "label": "02:48",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:50",
           "label": "02:50",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "02:52",
           "label": "02:52",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "02:54",
           "label": "02:54",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "02:56",
           "label": "02:56",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "02:58",
           "label": "02:58",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "03:00",
           "label": "03:00",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "03:02",
           "label": "03:02",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "03:04",
           "label": "03:04",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "03:06",
           "label": "03:06",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "03:08",
           "label": "03:08",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "03:10",
           "label": "03:10",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "03:12",
           "label": "03:12",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "03:14",
           "label": "03:14",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "03:16",
           "label": "03:16",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "03:18",
           "label": "03:18",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "03:20",
           "label": "03:20",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "03:22",
           "label": "03:22",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "03:24",
           "label": "03:24",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "03:26",
           "label": "03:26",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "03:28",
           "label": "03:28",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "03:30",
           "label": "03:30",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "03:32",
           "label": "03:32",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "03:34",
           "label": "03:34",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "03:36",
           "label": "03:36",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "03:38",
           "label": "03:38",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "03:40",
           "label": "03:40",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "03:42",
           "label": "03:42",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "03:44",
           "label": "03:44",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "03:46",
           "label": "03:46",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "03:48",
           "label": "03:48",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "03:50",
           "label": "03:50",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "03:52",
           "label": "03:52",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "03:54",
           "label": "03:54",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "03:56",
           "label": "03:56",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "03:58",
           "label": "03:58",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "04:00",
           "label": "04:00",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "04:02",
           "label": "04:02",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "04:04",
           "label": "04:04",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "04:06",
           "label": "04:06",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "04:08",
           "label": "04:08",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "04:10",
           "label": "04:10",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04:12",
           "label": "04:12",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04:14",
           "label": "04:14",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04:16",
           "label": "04:16",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04:18",
           "label": "04:18",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04:20",
           "label": "04:20",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04:22",
           "label": "04:22",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04:24",
           "label": "04:24",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "04:26",
           "label": "04:26",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "04:28",
           "label": "04:28",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "04:30",
           "label": "04:30",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04:32",
           "label": "04:32",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "04:34",
           "label": "04:34",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04:36",
           "label": "04:36",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04:38",
           "label": "04:38",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "04:40",
           "label": "04:40",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04:42",
           "label": "04:42",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04:44",
           "label": "04:44",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04:46",
           "label": "04:46",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "04:48",
           "label": "04:48",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "04:50",
           "label": "04:50",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "04:52",
           "label": "04:52",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04:54",
           "label": "04:54",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04:56",
           "label": "04:56",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04:58",
           "label": "04:58",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "05:00",
           "label": "05:00",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "05:02",
           "label": "05:02",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "05:04",
           "label": "05:04",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "05:06",
           "label": "05:06",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "05:08",
           "label": "05:08",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "05:10",
           "label": "05:10",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "05:12",
           "label": "05:12",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "05:14",
           "label": "05:14",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "05:16",
           "label": "05:16",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "05:18",
           "label": "05:18",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "05:20",
           "label": "05:20",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "05:22",
           "label": "05:22",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "05:24",
           "label": "05:24",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "05:26",
           "label": "05:26",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "05:28",
           "label": "05:28",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "05:30",
           "label": "05:30",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "05:32",
           "label": "05:32",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0020 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0030 (USDT R$ 5.126)"
         },
         {
           "time": "05:34",
           "label": "05:34",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0020 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0030 (USDT R$ 5.126)"
         },
         {
           "time": "05:36",
           "label": "05:36",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0020 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0030 (USDT R$ 5.126)"
         },
         {
           "time": "05:38",
           "label": "05:38",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0021 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0031 (USDT R$ 5.126)"
         },
         {
           "time": "05:40",
           "label": "05:40",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0020 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0030 (USDT R$ 5.126)"
         },
         {
           "time": "05:42",
           "label": "05:42",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0021 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0031 (USDT R$ 5.126)"
         },
         {
           "time": "05:44",
           "label": "05:44",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0020 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0030 (USDT R$ 5.126)"
         },
         {
           "time": "05:46",
           "label": "05:46",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0020 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0030 (USDT R$ 5.126)"
         },
         {
           "time": "05:48",
           "label": "05:48",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0020 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0030 (USDT R$ 5.126)"
         },
         {
           "time": "05:50",
           "label": "05:50",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0021 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0031 (USDT R$ 5.126)"
         },
         {
           "time": "05:52",
           "label": "05:52",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0020 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0030 (USDT R$ 5.126)"
         },
         {
           "time": "05:54",
           "label": "05:54",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0021 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0031 (USDT R$ 5.126)"
         },
         {
           "time": "05:56",
           "label": "05:56",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0021 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0031 (USDT R$ 5.126)"
         },
         {
           "time": "05:58",
           "label": "05:58",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0021 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0031 (USDT R$ 5.126)"
         },
         {
           "time": "06:00",
           "label": "06:00",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0020 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0030 (USDT R$ 5.126)"
         },
         {
           "time": "06:02",
           "label": "06:02",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0021 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0031 (USDT R$ 5.126)"
         },
         {
           "time": "06:04",
           "label": "06:04",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0021 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0031 (USDT R$ 5.126)"
         },
         {
           "time": "06:06",
           "label": "06:06",
-          "score": 11,
-          "score_a": 11,
+          "score": 16,
+          "score_a": 16,
           "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
         },
         {
           "time": "06:08",
           "label": "06:08",
-          "score": 11,
-          "score_a": 11,
+          "score": 16,
+          "score_a": 16,
           "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
         },
         {
           "time": "06:10",
           "label": "06:10",
-          "score": 11,
-          "score_a": 11,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0023 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0033 (USDT R$ 5.126)"
         },
         {
           "time": "06:12",
           "label": "06:12",
-          "score": 11,
-          "score_a": 11,
+          "score": 16,
+          "score_a": 16,
           "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
         },
         {
           "time": "06:14",
           "label": "06:14",
-          "score": 11,
-          "score_a": 11,
+          "score": 16,
+          "score_a": 16,
           "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
         },
         {
           "time": "06:16",
           "label": "06:16",
-          "score": 11,
-          "score_a": 11,
+          "score": 16,
+          "score_a": 16,
           "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
         },
         {
           "time": "06:18",
           "label": "06:18",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0024 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0034 (USDT R$ 5.126)"
         },
         {
           "time": "06:20",
           "label": "06:20",
-          "score": 13,
-          "score_a": 13,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0027 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0037 (USDT R$ 5.125)"
         },
         {
           "time": "06:22",
           "label": "06:22",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0028 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0038 (USDT R$ 5.125)"
         },
         {
           "time": "06:24",
           "label": "06:24",
-          "score": 13,
-          "score_a": 13,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0027 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0037 (USDT R$ 5.125)"
         },
         {
           "time": "06:26",
           "label": "06:26",
-          "score": 13,
-          "score_a": 13,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0027 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0037 (USDT R$ 5.125)"
         },
         {
           "time": "06:28",
           "label": "06:28",
-          "score": 13,
-          "score_a": 13,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0027 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0037 (USDT R$ 5.125)"
         },
         {
           "time": "06:30",
           "label": "06:30",
-          "score": 13,
-          "score_a": 13,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0027 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0037 (USDT R$ 5.125)"
         },
         {
           "time": "06:32",
           "label": "06:32",
-          "score": 13,
-          "score_a": 13,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0027 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0037 (USDT R$ 5.125)"
         },
         {
           "time": "06:34",
           "label": "06:34",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0028 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0038 (USDT R$ 5.125)"
         },
         {
           "time": "06:36",
           "label": "06:36",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0028 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0038 (USDT R$ 5.125)"
         },
         {
           "time": "06:38",
           "label": "06:38",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0028 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0038 (USDT R$ 5.125)"
         },
         {
           "time": "06:40",
           "label": "06:40",
-          "score": 13,
-          "score_a": 13,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0027 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0037 (USDT R$ 5.125)"
         },
         {
           "time": "06:42",
           "label": "06:42",
-          "score": 13,
-          "score_a": 13,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0027 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0037 (USDT R$ 5.125)"
         },
         {
           "time": "06:44",
           "label": "06:44",
-          "score": 13,
-          "score_a": 13,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0027 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0037 (USDT R$ 5.125)"
         },
         {
           "time": "06:46",
           "label": "06:46",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0028 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0038 (USDT R$ 5.125)"
         },
         {
           "time": "06:48",
           "label": "06:48",
-          "score": 13,
-          "score_a": 13,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0027 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0037 (USDT R$ 5.125)"
         },
         {
           "time": "06:50",
           "label": "06:50",
-          "score": 13,
-          "score_a": 13,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0027 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0037 (USDT R$ 5.125)"
         },
         {
           "time": "06:52",
           "label": "06:52",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0028 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0038 (USDT R$ 5.125)"
         },
         {
           "time": "06:54",
           "label": "06:54",
-          "score": 13,
-          "score_a": 13,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0027 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0037 (USDT R$ 5.125)"
         },
         {
           "time": "06:56",
           "label": "06:56",
-          "score": 13,
-          "score_a": 13,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0027 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0037 (USDT R$ 5.125)"
         },
         {
           "time": "06:58",
           "label": "06:58",
-          "score": 13,
-          "score_a": 13,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0027 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0037 (USDT R$ 5.125)"
         },
         {
           "time": "07:00",
           "label": "07:00",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0028 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0038 (USDT R$ 5.125)"
         },
         {
           "time": "07:02",
           "label": "07:02",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0028 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0038 (USDT R$ 5.125)"
         },
         {
           "time": "07:04",
           "label": "07:04",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0028 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0038 (USDT R$ 5.125)"
         },
         {
           "time": "07:06",
           "label": "07:06",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0028 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0038 (USDT R$ 5.125)"
         },
         {
           "time": "07:08",
           "label": "07:08",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0028 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0038 (USDT R$ 5.125)"
         },
         {
           "time": "07:10",
           "label": "07:10",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0028 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0038 (USDT R$ 5.125)"
         },
         {
           "time": "07:12",
           "label": "07:12",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "07:14",
           "label": "07:14",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "07:16",
           "label": "07:16",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "07:18",
           "label": "07:18",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0028 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0038 (USDT R$ 5.125)"
         },
         {
           "time": "07:20",
           "label": "07:20",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "07:22",
           "label": "07:22",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "07:24",
           "label": "07:24",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "07:26",
           "label": "07:26",
-          "score": 15,
-          "score_a": 15,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0031 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0041 (USDT R$ 5.125)"
         },
         {
           "time": "07:28",
           "label": "07:28",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "07:30",
           "label": "07:30",
-          "score": 15,
-          "score_a": 15,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0031 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0041 (USDT R$ 5.125)"
         },
         {
           "time": "07:32",
           "label": "07:32",
-          "score": 15,
-          "score_a": 15,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0031 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0041 (USDT R$ 5.125)"
         },
         {
           "time": "07:34",
           "label": "07:34",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "07:36",
           "label": "07:36",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "07:38",
           "label": "07:38",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "07:40",
           "label": "07:40",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "07:42",
           "label": "07:42",
-          "score": 15,
-          "score_a": 15,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0031 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0041 (USDT R$ 5.125)"
         },
         {
           "time": "07:44",
           "label": "07:44",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "07:46",
           "label": "07:46",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "07:48",
           "label": "07:48",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "07:50",
           "label": "07:50",
-          "score": 15,
-          "score_a": 15,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0031 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0041 (USDT R$ 5.125)"
         },
         {
           "time": "07:52",
           "label": "07:52",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "07:54",
           "label": "07:54",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "07:56",
           "label": "07:56",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "07:58",
           "label": "07:58",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "08:00",
           "label": "08:00",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:02",
           "label": "08:02",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "08:04",
           "label": "08:04",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:06",
           "label": "08:06",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:08",
           "label": "08:08",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:10",
           "label": "08:10",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:12",
           "label": "08:12",
-          "score": 15,
-          "score_a": 15,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0031 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0041 (USDT R$ 5.125)"
         },
         {
           "time": "08:14",
           "label": "08:14",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:16",
           "label": "08:16",
-          "score": 15,
-          "score_a": 15,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0031 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0041 (USDT R$ 5.125)"
         },
         {
           "time": "08:18",
           "label": "08:18",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:20",
           "label": "08:20",
-          "score": 15,
-          "score_a": 15,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0031 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0041 (USDT R$ 5.125)"
         },
         {
           "time": "08:22",
           "label": "08:22",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:24",
           "label": "08:24",
-          "score": 15,
-          "score_a": 15,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0031 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0041 (USDT R$ 5.125)"
         },
         {
           "time": "08:26",
           "label": "08:26",
-          "score": 15,
-          "score_a": 15,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0031 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0041 (USDT R$ 5.125)"
         },
         {
           "time": "08:28",
           "label": "08:28",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:30",
           "label": "08:30",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:32",
           "label": "08:32",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "08:34",
           "label": "08:34",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:36",
           "label": "08:36",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:38",
           "label": "08:38",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "08:40",
           "label": "08:40",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "08:42",
           "label": "08:42",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:44",
           "label": "08:44",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "08:46",
           "label": "08:46",
-          "score": 15,
-          "score_a": 15,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0031 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0041 (USDT R$ 5.125)"
         },
         {
           "time": "08:48",
           "label": "08:48",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:50",
           "label": "08:50",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:52",
           "label": "08:52",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:54",
           "label": "08:54",
-          "score": 15,
-          "score_a": 15,
+          "score": 20,
+          "score_a": 20,
           "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
         },
         {
           "time": "08:56",
           "label": "08:56",
-          "score": 15,
-          "score_a": 15,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0031 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0041 (USDT R$ 5.125)"
         },
         {
           "time": "08:58",
           "label": "08:58",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0032 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0042 (USDT R$ 5.125)"
         },
         {
           "time": "09:00",
           "label": "09:00",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0032 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0042 (USDT R$ 5.125)"
         },
         {
           "time": "09:02",
           "label": "09:02",
-          "score": 20,
-          "score_a": 20,
+          "score": 25,
+          "score_a": 25,
           "score_b": 0,
-          "metric": "Spread: -0.0040 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0050 (USDT R$ 5.124)"
         },
         {
           "time": "09:04",
           "label": "09:04",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "09:06",
           "label": "09:06",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
         },
         {
           "time": "09:08",
           "label": "09:08",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "09:10",
           "label": "09:10",
-          "score": 10,
-          "score_a": 10,
+          "score": 15,
+          "score_a": 15,
           "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
         },
         {
           "time": "09:12",
           "label": "09:12",
-          "score": 6,
-          "score_a": 6,
+          "score": 11,
+          "score_a": 11,
           "score_b": 0,
-          "metric": "Spread: -0.0012 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0022 (USDT R$ 5.127)"
         },
         {
           "time": "09:14",
           "label": "09:14",
-          "score": 2,
-          "score_a": 0,
-          "score_b": 2,
-          "metric": "Spread: +0.0004 (USDT R$ 5.129)"
+          "score": 3,
+          "score_a": 3,
+          "score_b": 0,
+          "metric": "Spread: -0.0006 (USDT R$ 5.129)"
         },
         {
           "time": "09:16",
           "label": "09:16",
-          "score": 6,
-          "score_a": 6,
+          "score": 11,
+          "score_a": 11,
           "score_b": 0,
-          "metric": "Spread: -0.0012 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0022 (USDT R$ 5.127)"
         },
         {
           "time": "09:18",
           "label": "09:18",
-          "score": 2,
-          "score_a": 0,
-          "score_b": 2,
-          "metric": "Spread: +0.0003 (USDT R$ 5.128)"
+          "score": 4,
+          "score_a": 4,
+          "score_b": 0,
+          "metric": "Spread: -0.0007 (USDT R$ 5.128)"
         },
         {
           "time": "09:20",
           "label": "09:20",
-          "score": 15,
+          "score": 10,
           "score_a": 0,
-          "score_b": 15,
-          "metric": "Spread: +0.0029 (USDT R$ 5.131)"
+          "score_b": 10,
+          "metric": "Spread: +0.0019 (USDT R$ 5.131)"
         },
         {
           "time": "09:22",
           "label": "09:22",
-          "score": 15,
+          "score": 10,
           "score_a": 0,
-          "score_b": 15,
-          "metric": "Spread: +0.0030 (USDT R$ 5.131)"
+          "score_b": 10,
+          "metric": "Spread: +0.0020 (USDT R$ 5.131)"
         },
         {
           "time": "09:24",
           "label": "09:24",
-          "score": 11,
+          "score": 6,
           "score_a": 0,
-          "score_b": 11,
-          "metric": "Spread: +0.0021 (USDT R$ 5.130)"
+          "score_b": 6,
+          "metric": "Spread: +0.0011 (USDT R$ 5.130)"
         },
         {
           "time": "09:26",
           "label": "09:26",
-          "score": 6,
+          "score": 1,
           "score_a": 0,
-          "score_b": 6,
-          "metric": "Spread: +0.0012 (USDT R$ 5.129)"
+          "score_b": 1,
+          "metric": "Spread: +0.0002 (USDT R$ 5.129)"
         },
         {
           "time": "09:28",
           "label": "09:28",
-          "score": 17,
-          "score_a": 17,
+          "score": 22,
+          "score_a": 22,
           "score_b": 0,
-          "metric": "Spread: -0.0034 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0044 (USDT R$ 5.125)"
         },
         {
           "time": "09:30",
           "label": "09:30",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "09:32",
           "label": "09:32",
-          "score": 56,
+          "score": 51,
           "score_a": 0,
-          "score_b": 56,
-          "metric": "Spread: +0.0112 (USDT R$ 5.139)"
+          "score_b": 51,
+          "metric": "Spread: +0.0102 (USDT R$ 5.139)"
         },
         {
           "time": "09:34",
           "label": "09:34",
-          "score": 53,
+          "score": 48,
           "score_a": 0,
-          "score_b": 53,
-          "metric": "Spread: +0.0106 (USDT R$ 5.139)"
+          "score_b": 48,
+          "metric": "Spread: +0.0096 (USDT R$ 5.139)"
         },
         {
           "time": "09:36",
           "label": "09:36",
-          "score": 51,
+          "score": 46,
           "score_a": 0,
-          "score_b": 51,
-          "metric": "Spread: +0.0101 (USDT R$ 5.138)"
+          "score_b": 46,
+          "metric": "Spread: +0.0091 (USDT R$ 5.138)"
         },
         {
           "time": "09:38",
           "label": "09:38",
-          "score": 55,
+          "score": 50,
           "score_a": 0,
-          "score_b": 55,
-          "metric": "Spread: +0.0110 (USDT R$ 5.139)"
+          "score_b": 50,
+          "metric": "Spread: +0.0100 (USDT R$ 5.139)"
         },
         {
           "time": "09:40",
           "label": "09:40",
-          "score": 54,
+          "score": 49,
           "score_a": 0,
-          "score_b": 54,
-          "metric": "Spread: +0.0108 (USDT R$ 5.139)"
+          "score_b": 49,
+          "metric": "Spread: +0.0098 (USDT R$ 5.139)"
         },
         {
           "time": "09:42",
           "label": "09:42",
-          "score": 54,
+          "score": 49,
           "score_a": 0,
-          "score_b": 54,
-          "metric": "Spread: +0.0108 (USDT R$ 5.139)"
+          "score_b": 49,
+          "metric": "Spread: +0.0098 (USDT R$ 5.139)"
         },
         {
           "time": "09:44",
           "label": "09:44",
-          "score": 54,
+          "score": 49,
           "score_a": 0,
-          "score_b": 54,
-          "metric": "Spread: +0.0108 (USDT R$ 5.139)"
+          "score_b": 49,
+          "metric": "Spread: +0.0098 (USDT R$ 5.139)"
         },
         {
           "time": "09:46",
           "label": "09:46",
-          "score": 58,
+          "score": 53,
           "score_a": 0,
-          "score_b": 58,
-          "metric": "Spread: +0.0116 (USDT R$ 5.140)"
+          "score_b": 53,
+          "metric": "Spread: +0.0106 (USDT R$ 5.140)"
         },
         {
           "time": "09:48",
           "label": "09:48",
-          "score": 96,
+          "score": 91,
           "score_a": 0,
-          "score_b": 96,
-          "metric": "Spread: +0.0191 (USDT R$ 5.147)"
+          "score_b": 91,
+          "metric": "Spread: +0.0181 (USDT R$ 5.147)"
         },
         {
           "time": "09:50",
           "label": "09:50",
-          "score": 61,
+          "score": 55,
           "score_a": 0,
-          "score_b": 61,
-          "metric": "Spread: +0.0121 (USDT R$ 5.140)"
+          "score_b": 55,
+          "metric": "Spread: +0.0111 (USDT R$ 5.140)"
         },
         {
           "time": "09:52",
           "label": "09:52",
-          "score": 47,
+          "score": 42,
           "score_a": 0,
-          "score_b": 47,
-          "metric": "Spread: +0.0094 (USDT R$ 5.138)"
+          "score_b": 42,
+          "metric": "Spread: +0.0084 (USDT R$ 5.138)"
         },
         {
           "time": "09:54",
           "label": "09:54",
-          "score": 37,
+          "score": 32,
           "score_a": 0,
-          "score_b": 37,
-          "metric": "Spread: +0.0073 (USDT R$ 5.136)"
+          "score_b": 32,
+          "metric": "Spread: +0.0063 (USDT R$ 5.136)"
         },
         {
           "time": "09:56",
           "label": "09:56",
-          "score": 38,
+          "score": 33,
           "score_a": 0,
-          "score_b": 38,
-          "metric": "Spread: +0.0076 (USDT R$ 5.136)"
+          "score_b": 33,
+          "metric": "Spread: +0.0066 (USDT R$ 5.136)"
         },
         {
           "time": "09:58",
           "label": "09:58",
-          "score": 54,
+          "score": 49,
           "score_a": 0,
-          "score_b": 54,
-          "metric": "Spread: +0.0108 (USDT R$ 5.139)"
+          "score_b": 49,
+          "metric": "Spread: +0.0098 (USDT R$ 5.139)"
         },
         {
           "time": "10:00",
           "label": "10:00",
-          "score": 48,
+          "score": 43,
           "score_a": 0,
-          "score_b": 48,
-          "metric": "Spread: +0.0096 (USDT R$ 5.138)"
+          "score_b": 43,
+          "metric": "Spread: +0.0086 (USDT R$ 5.138)"
         },
         {
           "time": "10:02",
           "label": "10:02",
-          "score": 58,
+          "score": 53,
           "score_a": 0,
-          "score_b": 58,
-          "metric": "Spread: +0.0116 (USDT R$ 5.140)"
+          "score_b": 53,
+          "metric": "Spread: +0.0106 (USDT R$ 5.140)"
         },
         {
           "time": "10:04",
           "label": "10:04",
-          "score": 59,
+          "score": 53,
           "score_a": 0,
-          "score_b": 59,
-          "metric": "Spread: +0.0117 (USDT R$ 5.140)"
+          "score_b": 53,
+          "metric": "Spread: +0.0107 (USDT R$ 5.140)"
         },
         {
           "time": "10:06",
           "label": "10:06",
-          "score": 96,
+          "score": 91,
           "score_a": 0,
-          "score_b": 96,
-          "metric": "Spread: +0.0191 (USDT R$ 5.147)"
+          "score_b": 91,
+          "metric": "Spread: +0.0181 (USDT R$ 5.147)"
         },
         {
           "time": "10:08",
           "label": "10:08",
-          "score": 94,
+          "score": 89,
           "score_a": 0,
-          "score_b": 94,
-          "metric": "Spread: +0.0188 (USDT R$ 5.147)"
+          "score_b": 89,
+          "metric": "Spread: +0.0178 (USDT R$ 5.147)"
         },
         {
           "time": "10:10",
           "label": "10:10",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0181 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0171 (USDT R$ 5.146)"
         },
         {
           "time": "10:12",
@@ -30961,1487 +30961,1487 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0217 (USDT R$ 5.150)"
+          "metric": "Spread: +0.0207 (USDT R$ 5.150)"
         },
         {
           "time": "10:14",
           "label": "10:14",
-          "score": 88,
+          "score": 82,
           "score_a": 0,
-          "score_b": 88,
-          "metric": "Spread: +0.0175 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0165 (USDT R$ 5.146)"
         },
         {
           "time": "10:16",
           "label": "10:16",
-          "score": 78,
+          "score": 72,
           "score_a": 0,
-          "score_b": 78,
-          "metric": "Spread: +0.0155 (USDT R$ 5.144)"
+          "score_b": 72,
+          "metric": "Spread: +0.0145 (USDT R$ 5.144)"
         },
         {
           "time": "10:18",
           "label": "10:18",
-          "score": 66,
+          "score": 61,
           "score_a": 0,
-          "score_b": 66,
-          "metric": "Spread: +0.0132 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0122 (USDT R$ 5.141)"
         },
         {
           "time": "10:20",
           "label": "10:20",
-          "score": 66,
+          "score": 61,
           "score_a": 0,
-          "score_b": 66,
-          "metric": "Spread: +0.0132 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0122 (USDT R$ 5.141)"
         },
         {
           "time": "10:22",
           "label": "10:22",
-          "score": 61,
+          "score": 56,
           "score_a": 0,
-          "score_b": 61,
-          "metric": "Spread: +0.0122 (USDT R$ 5.140)"
+          "score_b": 56,
+          "metric": "Spread: +0.0112 (USDT R$ 5.140)"
         },
         {
           "time": "10:24",
           "label": "10:24",
-          "score": 59,
+          "score": 54,
           "score_a": 0,
-          "score_b": 59,
-          "metric": "Spread: +0.0118 (USDT R$ 5.140)"
+          "score_b": 54,
+          "metric": "Spread: +0.0108 (USDT R$ 5.140)"
         },
         {
           "time": "10:26",
           "label": "10:26",
-          "score": 55,
+          "score": 50,
           "score_a": 0,
-          "score_b": 55,
-          "metric": "Spread: +0.0110 (USDT R$ 5.139)"
+          "score_b": 50,
+          "metric": "Spread: +0.0100 (USDT R$ 5.139)"
         },
         {
           "time": "10:28",
           "label": "10:28",
-          "score": 56,
+          "score": 51,
           "score_a": 0,
-          "score_b": 56,
-          "metric": "Spread: +0.0111 (USDT R$ 5.139)"
+          "score_b": 51,
+          "metric": "Spread: +0.0101 (USDT R$ 5.139)"
         },
         {
           "time": "10:30",
           "label": "10:30",
-          "score": 55,
+          "score": 50,
           "score_a": 0,
-          "score_b": 55,
-          "metric": "Spread: +0.0110 (USDT R$ 5.139)"
+          "score_b": 50,
+          "metric": "Spread: +0.0100 (USDT R$ 5.139)"
         },
         {
           "time": "10:32",
           "label": "10:32",
-          "score": 50,
+          "score": 45,
           "score_a": 0,
-          "score_b": 50,
-          "metric": "Spread: +0.0100 (USDT R$ 5.138)"
+          "score_b": 45,
+          "metric": "Spread: +0.0090 (USDT R$ 5.138)"
         },
         {
           "time": "10:34",
           "label": "10:34",
-          "score": 47,
+          "score": 42,
           "score_a": 0,
-          "score_b": 47,
-          "metric": "Spread: +0.0094 (USDT R$ 5.138)"
+          "score_b": 42,
+          "metric": "Spread: +0.0084 (USDT R$ 5.138)"
         },
         {
           "time": "10:36",
           "label": "10:36",
-          "score": 37,
+          "score": 32,
           "score_a": 0,
-          "score_b": 37,
-          "metric": "Spread: +0.0073 (USDT R$ 5.136)"
+          "score_b": 32,
+          "metric": "Spread: +0.0063 (USDT R$ 5.136)"
         },
         {
           "time": "10:38",
           "label": "10:38",
-          "score": 37,
+          "score": 32,
           "score_a": 0,
-          "score_b": 37,
-          "metric": "Spread: +0.0073 (USDT R$ 5.136)"
+          "score_b": 32,
+          "metric": "Spread: +0.0063 (USDT R$ 5.136)"
         },
         {
           "time": "10:40",
           "label": "10:40",
-          "score": 37,
+          "score": 32,
           "score_a": 0,
-          "score_b": 37,
-          "metric": "Spread: +0.0073 (USDT R$ 5.136)"
+          "score_b": 32,
+          "metric": "Spread: +0.0063 (USDT R$ 5.136)"
         },
         {
           "time": "10:42",
           "label": "10:42",
-          "score": 31,
+          "score": 26,
           "score_a": 0,
-          "score_b": 31,
-          "metric": "Spread: +0.0062 (USDT R$ 5.134)"
+          "score_b": 26,
+          "metric": "Spread: +0.0052 (USDT R$ 5.134)"
         },
         {
           "time": "10:44",
           "label": "10:44",
-          "score": 32,
+          "score": 27,
           "score_a": 0,
-          "score_b": 32,
-          "metric": "Spread: +0.0063 (USDT R$ 5.135)"
+          "score_b": 27,
+          "metric": "Spread: +0.0053 (USDT R$ 5.135)"
         },
         {
           "time": "10:46",
           "label": "10:46",
-          "score": 44,
+          "score": 39,
           "score_a": 0,
-          "score_b": 44,
-          "metric": "Spread: +0.0088 (USDT R$ 5.137)"
+          "score_b": 39,
+          "metric": "Spread: +0.0078 (USDT R$ 5.137)"
         },
         {
           "time": "10:48",
           "label": "10:48",
-          "score": 25,
+          "score": 20,
           "score_a": 0,
-          "score_b": 25,
-          "metric": "Spread: +0.0050 (USDT R$ 5.133)"
+          "score_b": 20,
+          "metric": "Spread: +0.0040 (USDT R$ 5.133)"
         },
         {
           "time": "10:50",
           "label": "10:50",
-          "score": 25,
+          "score": 20,
           "score_a": 0,
-          "score_b": 25,
-          "metric": "Spread: +0.0050 (USDT R$ 5.133)"
+          "score_b": 20,
+          "metric": "Spread: +0.0040 (USDT R$ 5.133)"
         },
         {
           "time": "10:52",
           "label": "10:52",
-          "score": 55,
+          "score": 50,
           "score_a": 0,
-          "score_b": 55,
-          "metric": "Spread: +0.0109 (USDT R$ 5.139)"
+          "score_b": 50,
+          "metric": "Spread: +0.0099 (USDT R$ 5.139)"
         },
         {
           "time": "10:54",
           "label": "10:54",
-          "score": 71,
+          "score": 66,
           "score_a": 0,
-          "score_b": 71,
-          "metric": "Spread: +0.0142 (USDT R$ 5.142)"
+          "score_b": 66,
+          "metric": "Spread: +0.0132 (USDT R$ 5.142)"
         },
         {
           "time": "10:56",
           "label": "10:56",
-          "score": 72,
+          "score": 67,
           "score_a": 0,
-          "score_b": 72,
-          "metric": "Spread: +0.0143 (USDT R$ 5.143)"
+          "score_b": 67,
+          "metric": "Spread: +0.0133 (USDT R$ 5.143)"
         },
         {
           "time": "10:58",
           "label": "10:58",
-          "score": 81,
+          "score": 76,
           "score_a": 0,
-          "score_b": 81,
-          "metric": "Spread: +0.0161 (USDT R$ 5.144)"
+          "score_b": 76,
+          "metric": "Spread: +0.0151 (USDT R$ 5.144)"
         },
         {
           "time": "11:00",
           "label": "11:00",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0174 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0164 (USDT R$ 5.146)"
         },
         {
           "time": "11:02",
           "label": "11:02",
-          "score": 85,
+          "score": 80,
           "score_a": 0,
-          "score_b": 85,
-          "metric": "Spread: +0.0169 (USDT R$ 5.145)"
+          "score_b": 80,
+          "metric": "Spread: +0.0159 (USDT R$ 5.145)"
         },
         {
           "time": "11:04",
           "label": "11:04",
-          "score": 72,
+          "score": 67,
           "score_a": 0,
-          "score_b": 72,
-          "metric": "Spread: +0.0145 (USDT R$ 5.143)"
+          "score_b": 67,
+          "metric": "Spread: +0.0135 (USDT R$ 5.143)"
         },
         {
           "time": "11:06",
           "label": "11:06",
-          "score": 73,
+          "score": 68,
           "score_a": 0,
-          "score_b": 73,
-          "metric": "Spread: +0.0146 (USDT R$ 5.143)"
+          "score_b": 68,
+          "metric": "Spread: +0.0136 (USDT R$ 5.143)"
         },
         {
           "time": "11:08",
           "label": "11:08",
-          "score": 70,
+          "score": 65,
           "score_a": 0,
-          "score_b": 70,
-          "metric": "Spread: +0.0141 (USDT R$ 5.142)"
+          "score_b": 65,
+          "metric": "Spread: +0.0131 (USDT R$ 5.142)"
         },
         {
           "time": "11:10",
           "label": "11:10",
-          "score": 70,
+          "score": 65,
           "score_a": 0,
-          "score_b": 70,
-          "metric": "Spread: +0.0139 (USDT R$ 5.142)"
+          "score_b": 65,
+          "metric": "Spread: +0.0129 (USDT R$ 5.142)"
         },
         {
           "time": "11:12",
           "label": "11:12",
-          "score": 64,
+          "score": 59,
           "score_a": 0,
-          "score_b": 64,
-          "metric": "Spread: +0.0128 (USDT R$ 5.141)"
+          "score_b": 59,
+          "metric": "Spread: +0.0118 (USDT R$ 5.141)"
         },
         {
           "time": "11:14",
           "label": "11:14",
-          "score": 64,
+          "score": 59,
           "score_a": 0,
-          "score_b": 64,
-          "metric": "Spread: +0.0127 (USDT R$ 5.141)"
+          "score_b": 59,
+          "metric": "Spread: +0.0117 (USDT R$ 5.141)"
         },
         {
           "time": "11:16",
           "label": "11:16",
-          "score": 55,
+          "score": 50,
           "score_a": 0,
-          "score_b": 55,
-          "metric": "Spread: +0.0109 (USDT R$ 5.139)"
+          "score_b": 50,
+          "metric": "Spread: +0.0099 (USDT R$ 5.139)"
         },
         {
           "time": "11:18",
           "label": "11:18",
-          "score": 55,
+          "score": 50,
           "score_a": 0,
-          "score_b": 55,
-          "metric": "Spread: +0.0109 (USDT R$ 5.139)"
+          "score_b": 50,
+          "metric": "Spread: +0.0099 (USDT R$ 5.139)"
         },
         {
           "time": "11:20",
           "label": "11:20",
-          "score": 51,
+          "score": 46,
           "score_a": 0,
-          "score_b": 51,
-          "metric": "Spread: +0.0101 (USDT R$ 5.138)"
+          "score_b": 46,
+          "metric": "Spread: +0.0091 (USDT R$ 5.138)"
         },
         {
           "time": "11:22",
           "label": "11:22",
-          "score": 50,
+          "score": 45,
           "score_a": 0,
-          "score_b": 50,
-          "metric": "Spread: +0.0100 (USDT R$ 5.138)"
+          "score_b": 45,
+          "metric": "Spread: +0.0090 (USDT R$ 5.138)"
         },
         {
           "time": "11:24",
           "label": "11:24",
-          "score": 34,
+          "score": 29,
           "score_a": 0,
-          "score_b": 34,
-          "metric": "Spread: +0.0067 (USDT R$ 5.135)"
+          "score_b": 29,
+          "metric": "Spread: +0.0057 (USDT R$ 5.135)"
         },
         {
           "time": "11:26",
           "label": "11:26",
-          "score": 38,
+          "score": 33,
           "score_a": 0,
-          "score_b": 38,
-          "metric": "Spread: +0.0076 (USDT R$ 5.136)"
+          "score_b": 33,
+          "metric": "Spread: +0.0066 (USDT R$ 5.136)"
         },
         {
           "time": "11:28",
           "label": "11:28",
-          "score": 41,
+          "score": 36,
           "score_a": 0,
-          "score_b": 41,
-          "metric": "Spread: +0.0082 (USDT R$ 5.136)"
+          "score_b": 36,
+          "metric": "Spread: +0.0072 (USDT R$ 5.136)"
         },
         {
           "time": "11:30",
           "label": "11:30",
-          "score": 42,
+          "score": 36,
           "score_a": 0,
-          "score_b": 42,
-          "metric": "Spread: +0.0083 (USDT R$ 5.136)"
+          "score_b": 36,
+          "metric": "Spread: +0.0073 (USDT R$ 5.136)"
         },
         {
           "time": "11:32",
           "label": "11:32",
-          "score": 42,
+          "score": 36,
           "score_a": 0,
-          "score_b": 42,
-          "metric": "Spread: +0.0083 (USDT R$ 5.136)"
+          "score_b": 36,
+          "metric": "Spread: +0.0073 (USDT R$ 5.136)"
         },
         {
           "time": "11:34",
           "label": "11:34",
-          "score": 28,
+          "score": 23,
           "score_a": 0,
-          "score_b": 28,
-          "metric": "Spread: +0.0055 (USDT R$ 5.134)"
+          "score_b": 23,
+          "metric": "Spread: +0.0045 (USDT R$ 5.134)"
         },
         {
           "time": "11:36",
           "label": "11:36",
-          "score": 28,
+          "score": 23,
           "score_a": 0,
-          "score_b": 28,
-          "metric": "Spread: +0.0056 (USDT R$ 5.134)"
+          "score_b": 23,
+          "metric": "Spread: +0.0046 (USDT R$ 5.134)"
         },
         {
           "time": "11:38",
           "label": "11:38",
-          "score": 28,
+          "score": 23,
           "score_a": 0,
-          "score_b": 28,
-          "metric": "Spread: +0.0055 (USDT R$ 5.134)"
+          "score_b": 23,
+          "metric": "Spread: +0.0045 (USDT R$ 5.134)"
         },
         {
           "time": "11:40",
           "label": "11:40",
-          "score": 28,
+          "score": 23,
           "score_a": 0,
-          "score_b": 28,
-          "metric": "Spread: +0.0055 (USDT R$ 5.134)"
+          "score_b": 23,
+          "metric": "Spread: +0.0045 (USDT R$ 5.134)"
         },
         {
           "time": "11:42",
           "label": "11:42",
-          "score": 28,
+          "score": 23,
           "score_a": 0,
-          "score_b": 28,
-          "metric": "Spread: +0.0056 (USDT R$ 5.134)"
+          "score_b": 23,
+          "metric": "Spread: +0.0046 (USDT R$ 5.134)"
         },
         {
           "time": "11:44",
           "label": "11:44",
-          "score": 28,
+          "score": 23,
           "score_a": 0,
-          "score_b": 28,
-          "metric": "Spread: +0.0055 (USDT R$ 5.134)"
+          "score_b": 23,
+          "metric": "Spread: +0.0045 (USDT R$ 5.134)"
         },
         {
           "time": "11:46",
           "label": "11:46",
-          "score": 20,
+          "score": 15,
           "score_a": 0,
-          "score_b": 20,
-          "metric": "Spread: +0.0039 (USDT R$ 5.132)"
+          "score_b": 15,
+          "metric": "Spread: +0.0029 (USDT R$ 5.132)"
         },
         {
           "time": "11:48",
           "label": "11:48",
-          "score": 19,
+          "score": 14,
           "score_a": 0,
-          "score_b": 19,
-          "metric": "Spread: +0.0038 (USDT R$ 5.132)"
+          "score_b": 14,
+          "metric": "Spread: +0.0028 (USDT R$ 5.132)"
         },
         {
           "time": "11:50",
           "label": "11:50",
-          "score": 28,
+          "score": 23,
           "score_a": 0,
-          "score_b": 28,
-          "metric": "Spread: +0.0055 (USDT R$ 5.134)"
+          "score_b": 23,
+          "metric": "Spread: +0.0045 (USDT R$ 5.134)"
         },
         {
           "time": "11:52",
           "label": "11:52",
-          "score": 28,
+          "score": 23,
           "score_a": 0,
-          "score_b": 28,
-          "metric": "Spread: +0.0055 (USDT R$ 5.134)"
+          "score_b": 23,
+          "metric": "Spread: +0.0045 (USDT R$ 5.134)"
         },
         {
           "time": "11:54",
           "label": "11:54",
-          "score": 29,
+          "score": 23,
           "score_a": 0,
-          "score_b": 29,
-          "metric": "Spread: +0.0057 (USDT R$ 5.134)"
+          "score_b": 23,
+          "metric": "Spread: +0.0047 (USDT R$ 5.134)"
         },
         {
           "time": "11:56",
           "label": "11:56",
-          "score": 29,
+          "score": 23,
           "score_a": 0,
-          "score_b": 29,
-          "metric": "Spread: +0.0057 (USDT R$ 5.134)"
+          "score_b": 23,
+          "metric": "Spread: +0.0047 (USDT R$ 5.134)"
         },
         {
           "time": "11:58",
           "label": "11:58",
-          "score": 28,
+          "score": 23,
           "score_a": 0,
-          "score_b": 28,
-          "metric": "Spread: +0.0056 (USDT R$ 5.134)"
+          "score_b": 23,
+          "metric": "Spread: +0.0046 (USDT R$ 5.134)"
         },
         {
           "time": "12:00",
           "label": "12:00",
-          "score": 22,
+          "score": 17,
           "score_a": 0,
-          "score_b": 22,
-          "metric": "Spread: +0.0043 (USDT R$ 5.133)"
+          "score_b": 17,
+          "metric": "Spread: +0.0033 (USDT R$ 5.133)"
         },
         {
           "time": "12:02",
           "label": "12:02",
-          "score": 21,
+          "score": 16,
           "score_a": 0,
-          "score_b": 21,
-          "metric": "Spread: +0.0042 (USDT R$ 5.132)"
+          "score_b": 16,
+          "metric": "Spread: +0.0032 (USDT R$ 5.132)"
         },
         {
           "time": "12:04",
           "label": "12:04",
-          "score": 25,
+          "score": 20,
           "score_a": 0,
-          "score_b": 25,
-          "metric": "Spread: +0.0050 (USDT R$ 5.133)"
+          "score_b": 20,
+          "metric": "Spread: +0.0040 (USDT R$ 5.133)"
         },
         {
           "time": "12:06",
           "label": "12:06",
-          "score": 21,
+          "score": 15,
           "score_a": 0,
-          "score_b": 21,
-          "metric": "Spread: +0.0041 (USDT R$ 5.132)"
+          "score_b": 15,
+          "metric": "Spread: +0.0031 (USDT R$ 5.132)"
         },
         {
           "time": "12:08",
           "label": "12:08",
-          "score": 10,
+          "score": 5,
           "score_a": 0,
-          "score_b": 10,
-          "metric": "Spread: +0.0020 (USDT R$ 5.130)"
+          "score_b": 5,
+          "metric": "Spread: +0.0010 (USDT R$ 5.130)"
         },
         {
           "time": "12:10",
           "label": "12:10",
-          "score": 8,
+          "score": 3,
           "score_a": 0,
-          "score_b": 8,
-          "metric": "Spread: +0.0016 (USDT R$ 5.130)"
+          "score_b": 3,
+          "metric": "Spread: +0.0006 (USDT R$ 5.130)"
         },
         {
           "time": "12:12",
           "label": "12:12",
-          "score": 19,
+          "score": 13,
           "score_a": 0,
-          "score_b": 19,
-          "metric": "Spread: +0.0037 (USDT R$ 5.132)"
+          "score_b": 13,
+          "metric": "Spread: +0.0027 (USDT R$ 5.132)"
         },
         {
           "time": "12:14",
           "label": "12:14",
-          "score": 24,
+          "score": 19,
           "score_a": 0,
-          "score_b": 24,
-          "metric": "Spread: +0.0047 (USDT R$ 5.133)"
+          "score_b": 19,
+          "metric": "Spread: +0.0037 (USDT R$ 5.133)"
         },
         {
           "time": "12:16",
           "label": "12:16",
-          "score": 27,
+          "score": 21,
           "score_a": 0,
-          "score_b": 27,
-          "metric": "Spread: +0.0053 (USDT R$ 5.133)"
+          "score_b": 21,
+          "metric": "Spread: +0.0043 (USDT R$ 5.133)"
         },
         {
           "time": "12:18",
           "label": "12:18",
-          "score": 30,
+          "score": 25,
           "score_a": 0,
-          "score_b": 30,
-          "metric": "Spread: +0.0060 (USDT R$ 5.134)"
+          "score_b": 25,
+          "metric": "Spread: +0.0050 (USDT R$ 5.134)"
         },
         {
           "time": "12:20",
           "label": "12:20",
-          "score": 30,
+          "score": 25,
           "score_a": 0,
-          "score_b": 30,
-          "metric": "Spread: +0.0059 (USDT R$ 5.134)"
+          "score_b": 25,
+          "metric": "Spread: +0.0049 (USDT R$ 5.134)"
         },
         {
           "time": "12:22",
           "label": "12:22",
-          "score": 32,
+          "score": 27,
           "score_a": 0,
-          "score_b": 32,
-          "metric": "Spread: +0.0065 (USDT R$ 5.135)"
+          "score_b": 27,
+          "metric": "Spread: +0.0055 (USDT R$ 5.135)"
         },
         {
           "time": "12:24",
           "label": "12:24",
-          "score": 34,
+          "score": 29,
           "score_a": 0,
-          "score_b": 34,
-          "metric": "Spread: +0.0068 (USDT R$ 5.135)"
+          "score_b": 29,
+          "metric": "Spread: +0.0058 (USDT R$ 5.135)"
         },
         {
           "time": "12:26",
           "label": "12:26",
-          "score": 42,
+          "score": 36,
           "score_a": 0,
-          "score_b": 42,
-          "metric": "Spread: +0.0083 (USDT R$ 5.136)"
+          "score_b": 36,
+          "metric": "Spread: +0.0073 (USDT R$ 5.136)"
         },
         {
           "time": "12:28",
           "label": "12:28",
-          "score": 42,
+          "score": 36,
           "score_a": 0,
-          "score_b": 42,
-          "metric": "Spread: +0.0083 (USDT R$ 5.136)"
+          "score_b": 36,
+          "metric": "Spread: +0.0073 (USDT R$ 5.136)"
         },
         {
           "time": "12:30",
           "label": "12:30",
-          "score": 44,
+          "score": 39,
           "score_a": 0,
-          "score_b": 44,
-          "metric": "Spread: +0.0088 (USDT R$ 5.137)"
+          "score_b": 39,
+          "metric": "Spread: +0.0078 (USDT R$ 5.137)"
         },
         {
           "time": "12:32",
           "label": "12:32",
-          "score": 49,
+          "score": 44,
           "score_a": 0,
-          "score_b": 49,
-          "metric": "Spread: +0.0097 (USDT R$ 5.138)"
+          "score_b": 44,
+          "metric": "Spread: +0.0087 (USDT R$ 5.138)"
         },
         {
           "time": "12:34",
           "label": "12:34",
-          "score": 51,
+          "score": 46,
           "score_a": 0,
-          "score_b": 51,
-          "metric": "Spread: +0.0101 (USDT R$ 5.138)"
+          "score_b": 46,
+          "metric": "Spread: +0.0091 (USDT R$ 5.138)"
         },
         {
           "time": "12:36",
           "label": "12:36",
-          "score": 50,
+          "score": 44,
           "score_a": 0,
-          "score_b": 50,
-          "metric": "Spread: +0.0099 (USDT R$ 5.138)"
+          "score_b": 44,
+          "metric": "Spread: +0.0089 (USDT R$ 5.138)"
         },
         {
           "time": "12:38",
           "label": "12:38",
-          "score": 50,
+          "score": 44,
           "score_a": 0,
-          "score_b": 50,
-          "metric": "Spread: +0.0099 (USDT R$ 5.138)"
+          "score_b": 44,
+          "metric": "Spread: +0.0089 (USDT R$ 5.138)"
         },
         {
           "time": "12:40",
           "label": "12:40",
-          "score": 50,
+          "score": 44,
           "score_a": 0,
-          "score_b": 50,
-          "metric": "Spread: +0.0099 (USDT R$ 5.138)"
+          "score_b": 44,
+          "metric": "Spread: +0.0089 (USDT R$ 5.138)"
         },
         {
           "time": "12:42",
           "label": "12:42",
-          "score": 49,
+          "score": 44,
           "score_a": 0,
-          "score_b": 49,
-          "metric": "Spread: +0.0098 (USDT R$ 5.138)"
+          "score_b": 44,
+          "metric": "Spread: +0.0088 (USDT R$ 5.138)"
         },
         {
           "time": "12:44",
           "label": "12:44",
-          "score": 49,
+          "score": 44,
           "score_a": 0,
-          "score_b": 49,
-          "metric": "Spread: +0.0098 (USDT R$ 5.138)"
+          "score_b": 44,
+          "metric": "Spread: +0.0088 (USDT R$ 5.138)"
         },
         {
           "time": "12:46",
           "label": "12:46",
-          "score": 49,
+          "score": 44,
           "score_a": 0,
-          "score_b": 49,
-          "metric": "Spread: +0.0097 (USDT R$ 5.138)"
+          "score_b": 44,
+          "metric": "Spread: +0.0087 (USDT R$ 5.138)"
         },
         {
           "time": "12:48",
           "label": "12:48",
-          "score": 49,
+          "score": 44,
           "score_a": 0,
-          "score_b": 49,
-          "metric": "Spread: +0.0097 (USDT R$ 5.138)"
+          "score_b": 44,
+          "metric": "Spread: +0.0087 (USDT R$ 5.138)"
         },
         {
           "time": "12:50",
           "label": "12:50",
-          "score": 48,
+          "score": 43,
           "score_a": 0,
-          "score_b": 48,
-          "metric": "Spread: +0.0096 (USDT R$ 5.138)"
+          "score_b": 43,
+          "metric": "Spread: +0.0086 (USDT R$ 5.138)"
         },
         {
           "time": "12:52",
           "label": "12:52",
-          "score": 49,
+          "score": 44,
           "score_a": 0,
-          "score_b": 49,
-          "metric": "Spread: +0.0097 (USDT R$ 5.138)"
+          "score_b": 44,
+          "metric": "Spread: +0.0087 (USDT R$ 5.138)"
         },
         {
           "time": "12:54",
           "label": "12:54",
-          "score": 48,
+          "score": 42,
           "score_a": 0,
-          "score_b": 48,
-          "metric": "Spread: +0.0095 (USDT R$ 5.138)"
+          "score_b": 42,
+          "metric": "Spread: +0.0085 (USDT R$ 5.138)"
         },
         {
           "time": "12:56",
           "label": "12:56",
-          "score": 46,
+          "score": 40,
           "score_a": 0,
-          "score_b": 46,
-          "metric": "Spread: +0.0091 (USDT R$ 5.137)"
+          "score_b": 40,
+          "metric": "Spread: +0.0081 (USDT R$ 5.137)"
         },
         {
           "time": "12:58",
           "label": "12:58",
-          "score": 40,
+          "score": 35,
           "score_a": 0,
-          "score_b": 40,
-          "metric": "Spread: +0.0080 (USDT R$ 5.136)"
+          "score_b": 35,
+          "metric": "Spread: +0.0070 (USDT R$ 5.136)"
         },
         {
           "time": "13:00",
           "label": "13:00",
-          "score": 34,
+          "score": 29,
           "score_a": 0,
-          "score_b": 34,
-          "metric": "Spread: +0.0067 (USDT R$ 5.135)"
+          "score_b": 29,
+          "metric": "Spread: +0.0057 (USDT R$ 5.135)"
         },
         {
           "time": "13:02",
           "label": "13:02",
-          "score": 39,
+          "score": 34,
           "score_a": 0,
-          "score_b": 39,
-          "metric": "Spread: +0.0077 (USDT R$ 5.136)"
+          "score_b": 34,
+          "metric": "Spread: +0.0067 (USDT R$ 5.136)"
         },
         {
           "time": "13:04",
           "label": "13:04",
-          "score": 32,
+          "score": 27,
           "score_a": 0,
-          "score_b": 32,
-          "metric": "Spread: +0.0064 (USDT R$ 5.135)"
+          "score_b": 27,
+          "metric": "Spread: +0.0054 (USDT R$ 5.135)"
         },
         {
           "time": "13:06",
           "label": "13:06",
-          "score": 34,
+          "score": 29,
           "score_a": 0,
-          "score_b": 34,
-          "metric": "Spread: +0.0067 (USDT R$ 5.135)"
+          "score_b": 29,
+          "metric": "Spread: +0.0057 (USDT R$ 5.135)"
         },
         {
           "time": "13:08",
           "label": "13:08",
-          "score": 42,
+          "score": 36,
           "score_a": 0,
-          "score_b": 42,
-          "metric": "Spread: +0.0083 (USDT R$ 5.136)"
+          "score_b": 36,
+          "metric": "Spread: +0.0073 (USDT R$ 5.136)"
         },
         {
           "time": "13:10",
           "label": "13:10",
-          "score": 39,
+          "score": 34,
           "score_a": 0,
-          "score_b": 39,
-          "metric": "Spread: +0.0077 (USDT R$ 5.136)"
+          "score_b": 34,
+          "metric": "Spread: +0.0067 (USDT R$ 5.136)"
         },
         {
           "time": "13:12",
           "label": "13:12",
-          "score": 25,
+          "score": 20,
           "score_a": 0,
-          "score_b": 25,
-          "metric": "Spread: +0.0050 (USDT R$ 5.133)"
+          "score_b": 20,
+          "metric": "Spread: +0.0040 (USDT R$ 5.133)"
         },
         {
           "time": "13:14",
           "label": "13:14",
-          "score": 20,
+          "score": 15,
           "score_a": 0,
-          "score_b": 20,
-          "metric": "Spread: +0.0040 (USDT R$ 5.132)"
+          "score_b": 15,
+          "metric": "Spread: +0.0030 (USDT R$ 5.132)"
         },
         {
           "time": "13:16",
           "label": "13:16",
-          "score": 6,
+          "score": 0,
           "score_a": 0,
-          "score_b": 6,
-          "metric": "Spread: +0.0011 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0001 (USDT R$ 5.129)"
         },
         {
           "time": "13:18",
           "label": "13:18",
-          "score": 2,
-          "score_a": 2,
+          "score": 7,
+          "score_a": 7,
           "score_b": 0,
-          "metric": "Spread: -0.0004 (USDT R$ 5.128)"
+          "metric": "Spread: -0.0014 (USDT R$ 5.128)"
         },
         {
           "time": "13:20",
           "label": "13:20",
-          "score": 3,
-          "score_a": 0,
-          "score_b": 3,
-          "metric": "Spread: +0.0005 (USDT R$ 5.129)"
+          "score": 2,
+          "score_a": 2,
+          "score_b": 0,
+          "metric": "Spread: -0.0005 (USDT R$ 5.129)"
         },
         {
           "time": "13:22",
           "label": "13:22",
-          "score": 3,
-          "score_a": 0,
-          "score_b": 3,
-          "metric": "Spread: +0.0006 (USDT R$ 5.129)"
+          "score": 2,
+          "score_a": 2,
+          "score_b": 0,
+          "metric": "Spread: -0.0004 (USDT R$ 5.129)"
         },
         {
           "time": "13:24",
           "label": "13:24",
-          "score": 3,
-          "score_a": 0,
-          "score_b": 3,
-          "metric": "Spread: +0.0006 (USDT R$ 5.129)"
+          "score": 2,
+          "score_a": 2,
+          "score_b": 0,
+          "metric": "Spread: -0.0004 (USDT R$ 5.129)"
         },
         {
           "time": "13:26",
           "label": "13:26",
-          "score": 7,
+          "score": 2,
           "score_a": 0,
-          "score_b": 7,
-          "metric": "Spread: +0.0014 (USDT R$ 5.130)"
+          "score_b": 2,
+          "metric": "Spread: +0.0004 (USDT R$ 5.130)"
         },
         {
           "time": "13:28",
           "label": "13:28",
-          "score": 11,
+          "score": 6,
           "score_a": 0,
-          "score_b": 11,
-          "metric": "Spread: +0.0022 (USDT R$ 5.130)"
+          "score_b": 6,
+          "metric": "Spread: +0.0012 (USDT R$ 5.130)"
         },
         {
           "time": "13:30",
           "label": "13:30",
-          "score": 11,
+          "score": 6,
           "score_a": 0,
-          "score_b": 11,
-          "metric": "Spread: +0.0023 (USDT R$ 5.130)"
+          "score_b": 6,
+          "metric": "Spread: +0.0013 (USDT R$ 5.130)"
         },
         {
           "time": "13:32",
           "label": "13:32",
-          "score": 13,
+          "score": 8,
           "score_a": 0,
-          "score_b": 13,
-          "metric": "Spread: +0.0025 (USDT R$ 5.131)"
+          "score_b": 8,
+          "metric": "Spread: +0.0015 (USDT R$ 5.131)"
         },
         {
           "time": "13:34",
           "label": "13:34",
-          "score": 14,
+          "score": 9,
           "score_a": 0,
-          "score_b": 14,
-          "metric": "Spread: +0.0028 (USDT R$ 5.131)"
+          "score_b": 9,
+          "metric": "Spread: +0.0018 (USDT R$ 5.131)"
         },
         {
           "time": "13:36",
           "label": "13:36",
-          "score": 14,
+          "score": 9,
           "score_a": 0,
-          "score_b": 14,
-          "metric": "Spread: +0.0028 (USDT R$ 5.131)"
+          "score_b": 9,
+          "metric": "Spread: +0.0018 (USDT R$ 5.131)"
         },
         {
           "time": "13:38",
           "label": "13:38",
-          "score": 14,
+          "score": 9,
           "score_a": 0,
-          "score_b": 14,
-          "metric": "Spread: +0.0028 (USDT R$ 5.131)"
+          "score_b": 9,
+          "metric": "Spread: +0.0018 (USDT R$ 5.131)"
         },
         {
           "time": "13:40",
           "label": "13:40",
-          "score": 14,
+          "score": 9,
           "score_a": 0,
-          "score_b": 14,
-          "metric": "Spread: +0.0028 (USDT R$ 5.131)"
+          "score_b": 9,
+          "metric": "Spread: +0.0018 (USDT R$ 5.131)"
         },
         {
           "time": "13:42",
           "label": "13:42",
-          "score": 18,
+          "score": 13,
           "score_a": 0,
-          "score_b": 18,
-          "metric": "Spread: +0.0035 (USDT R$ 5.132)"
+          "score_b": 13,
+          "metric": "Spread: +0.0025 (USDT R$ 5.132)"
         },
         {
           "time": "13:44",
           "label": "13:44",
-          "score": 18,
+          "score": 13,
           "score_a": 0,
-          "score_b": 18,
-          "metric": "Spread: +0.0035 (USDT R$ 5.132)"
+          "score_b": 13,
+          "metric": "Spread: +0.0025 (USDT R$ 5.132)"
         },
         {
           "time": "13:46",
           "label": "13:46",
-          "score": 18,
+          "score": 13,
           "score_a": 0,
-          "score_b": 18,
-          "metric": "Spread: +0.0036 (USDT R$ 5.132)"
+          "score_b": 13,
+          "metric": "Spread: +0.0026 (USDT R$ 5.132)"
         },
         {
           "time": "13:48",
           "label": "13:48",
-          "score": 20,
+          "score": 15,
           "score_a": 0,
-          "score_b": 20,
-          "metric": "Spread: +0.0040 (USDT R$ 5.132)"
+          "score_b": 15,
+          "metric": "Spread: +0.0030 (USDT R$ 5.132)"
         },
         {
           "time": "13:50",
           "label": "13:50",
-          "score": 21,
+          "score": 16,
           "score_a": 0,
-          "score_b": 21,
-          "metric": "Spread: +0.0042 (USDT R$ 5.132)"
+          "score_b": 16,
+          "metric": "Spread: +0.0032 (USDT R$ 5.132)"
         },
         {
           "time": "13:52",
           "label": "13:52",
-          "score": 23,
+          "score": 18,
           "score_a": 0,
-          "score_b": 23,
-          "metric": "Spread: +0.0046 (USDT R$ 5.133)"
+          "score_b": 18,
+          "metric": "Spread: +0.0036 (USDT R$ 5.133)"
         },
         {
           "time": "13:54",
           "label": "13:54",
-          "score": 23,
+          "score": 18,
           "score_a": 0,
-          "score_b": 23,
-          "metric": "Spread: +0.0046 (USDT R$ 5.133)"
+          "score_b": 18,
+          "metric": "Spread: +0.0036 (USDT R$ 5.133)"
         },
         {
           "time": "13:56",
           "label": "13:56",
-          "score": 25,
+          "score": 19,
           "score_a": 0,
-          "score_b": 25,
-          "metric": "Spread: +0.0049 (USDT R$ 5.133)"
+          "score_b": 19,
+          "metric": "Spread: +0.0039 (USDT R$ 5.133)"
         },
         {
           "time": "13:58",
           "label": "13:58",
-          "score": 26,
+          "score": 21,
           "score_a": 0,
-          "score_b": 26,
-          "metric": "Spread: +0.0051 (USDT R$ 5.133)"
+          "score_b": 21,
+          "metric": "Spread: +0.0041 (USDT R$ 5.133)"
         },
         {
           "time": "14:00",
           "label": "14:00",
-          "score": 26,
+          "score": 21,
           "score_a": 0,
-          "score_b": 26,
-          "metric": "Spread: +0.0051 (USDT R$ 5.133)"
+          "score_b": 21,
+          "metric": "Spread: +0.0041 (USDT R$ 5.133)"
         },
         {
           "time": "14:02",
           "label": "14:02",
-          "score": 34,
+          "score": 29,
           "score_a": 0,
-          "score_b": 34,
-          "metric": "Spread: +0.0067 (USDT R$ 5.135)"
+          "score_b": 29,
+          "metric": "Spread: +0.0057 (USDT R$ 5.135)"
         },
         {
           "time": "14:04",
           "label": "14:04",
-          "score": 38,
+          "score": 32,
           "score_a": 0,
-          "score_b": 38,
-          "metric": "Spread: +0.0075 (USDT R$ 5.136)"
+          "score_b": 32,
+          "metric": "Spread: +0.0065 (USDT R$ 5.136)"
         },
         {
           "time": "14:06",
           "label": "14:06",
-          "score": 42,
+          "score": 37,
           "score_a": 0,
-          "score_b": 42,
-          "metric": "Spread: +0.0084 (USDT R$ 5.137)"
+          "score_b": 37,
+          "metric": "Spread: +0.0074 (USDT R$ 5.137)"
         },
         {
           "time": "14:08",
           "label": "14:08",
-          "score": 42,
+          "score": 37,
           "score_a": 0,
-          "score_b": 42,
-          "metric": "Spread: +0.0084 (USDT R$ 5.137)"
+          "score_b": 37,
+          "metric": "Spread: +0.0074 (USDT R$ 5.137)"
         },
         {
           "time": "14:10",
           "label": "14:10",
-          "score": 43,
+          "score": 38,
           "score_a": 0,
-          "score_b": 43,
-          "metric": "Spread: +0.0085 (USDT R$ 5.137)"
+          "score_b": 38,
+          "metric": "Spread: +0.0075 (USDT R$ 5.137)"
         },
         {
           "time": "14:12",
           "label": "14:12",
-          "score": 47,
+          "score": 42,
           "score_a": 0,
-          "score_b": 47,
-          "metric": "Spread: +0.0094 (USDT R$ 5.138)"
+          "score_b": 42,
+          "metric": "Spread: +0.0084 (USDT R$ 5.138)"
         },
         {
           "time": "14:14",
           "label": "14:14",
-          "score": 51,
+          "score": 46,
           "score_a": 0,
-          "score_b": 51,
-          "metric": "Spread: +0.0101 (USDT R$ 5.138)"
+          "score_b": 46,
+          "metric": "Spread: +0.0091 (USDT R$ 5.138)"
         },
         {
           "time": "14:16",
           "label": "14:16",
-          "score": 47,
+          "score": 42,
           "score_a": 0,
-          "score_b": 47,
-          "metric": "Spread: +0.0093 (USDT R$ 5.138)"
+          "score_b": 42,
+          "metric": "Spread: +0.0083 (USDT R$ 5.138)"
         },
         {
           "time": "14:18",
           "label": "14:18",
-          "score": 48,
+          "score": 43,
           "score_a": 0,
-          "score_b": 48,
-          "metric": "Spread: +0.0096 (USDT R$ 5.138)"
+          "score_b": 43,
+          "metric": "Spread: +0.0086 (USDT R$ 5.138)"
         },
         {
           "time": "14:20",
           "label": "14:20",
-          "score": 49,
+          "score": 44,
           "score_a": 0,
-          "score_b": 49,
-          "metric": "Spread: +0.0097 (USDT R$ 5.138)"
+          "score_b": 44,
+          "metric": "Spread: +0.0087 (USDT R$ 5.138)"
         },
         {
           "time": "14:22",
           "label": "14:22",
-          "score": 50,
+          "score": 45,
           "score_a": 0,
-          "score_b": 50,
-          "metric": "Spread: +0.0100 (USDT R$ 5.138)"
+          "score_b": 45,
+          "metric": "Spread: +0.0090 (USDT R$ 5.138)"
         },
         {
           "time": "14:24",
           "label": "14:24",
-          "score": 55,
+          "score": 50,
           "score_a": 0,
-          "score_b": 55,
-          "metric": "Spread: +0.0110 (USDT R$ 5.139)"
+          "score_b": 50,
+          "metric": "Spread: +0.0100 (USDT R$ 5.139)"
         },
         {
           "time": "14:26",
           "label": "14:26",
-          "score": 58,
+          "score": 53,
           "score_a": 0,
-          "score_b": 58,
-          "metric": "Spread: +0.0115 (USDT R$ 5.140)"
+          "score_b": 53,
+          "metric": "Spread: +0.0105 (USDT R$ 5.140)"
         },
         {
           "time": "14:28",
           "label": "14:28",
-          "score": 58,
+          "score": 53,
           "score_a": 0,
-          "score_b": 58,
-          "metric": "Spread: +0.0116 (USDT R$ 5.140)"
+          "score_b": 53,
+          "metric": "Spread: +0.0106 (USDT R$ 5.140)"
         },
         {
           "time": "14:30",
           "label": "14:30",
-          "score": 59,
+          "score": 54,
           "score_a": 0,
-          "score_b": 59,
-          "metric": "Spread: +0.0118 (USDT R$ 5.140)"
+          "score_b": 54,
+          "metric": "Spread: +0.0108 (USDT R$ 5.140)"
         },
         {
           "time": "14:32",
           "label": "14:32",
-          "score": 59,
+          "score": 54,
           "score_a": 0,
-          "score_b": 59,
-          "metric": "Spread: +0.0118 (USDT R$ 5.140)"
+          "score_b": 54,
+          "metric": "Spread: +0.0108 (USDT R$ 5.140)"
         },
         {
           "time": "14:34",
           "label": "14:34",
-          "score": 61,
+          "score": 56,
           "score_a": 0,
-          "score_b": 61,
-          "metric": "Spread: +0.0122 (USDT R$ 5.140)"
+          "score_b": 56,
+          "metric": "Spread: +0.0112 (USDT R$ 5.140)"
         },
         {
           "time": "14:36",
           "label": "14:36",
-          "score": 63,
+          "score": 58,
           "score_a": 0,
-          "score_b": 63,
-          "metric": "Spread: +0.0126 (USDT R$ 5.141)"
+          "score_b": 58,
+          "metric": "Spread: +0.0116 (USDT R$ 5.141)"
         },
         {
           "time": "14:38",
           "label": "14:38",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "14:40",
           "label": "14:40",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "14:42",
           "label": "14:42",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "14:44",
           "label": "14:44",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "14:46",
           "label": "14:46",
-          "score": 67,
+          "score": 62,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0134 (USDT R$ 5.142)"
+          "score_b": 62,
+          "metric": "Spread: +0.0124 (USDT R$ 5.142)"
         },
         {
           "time": "14:48",
           "label": "14:48",
-          "score": 67,
+          "score": 62,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0134 (USDT R$ 5.142)"
+          "score_b": 62,
+          "metric": "Spread: +0.0124 (USDT R$ 5.142)"
         },
         {
           "time": "14:50",
           "label": "14:50",
-          "score": 67,
+          "score": 62,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0134 (USDT R$ 5.142)"
+          "score_b": 62,
+          "metric": "Spread: +0.0124 (USDT R$ 5.142)"
         },
         {
           "time": "14:52",
           "label": "14:52",
-          "score": 67,
+          "score": 62,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0134 (USDT R$ 5.142)"
+          "score_b": 62,
+          "metric": "Spread: +0.0124 (USDT R$ 5.142)"
         },
         {
           "time": "14:54",
           "label": "14:54",
-          "score": 67,
+          "score": 62,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0134 (USDT R$ 5.142)"
+          "score_b": 62,
+          "metric": "Spread: +0.0124 (USDT R$ 5.142)"
         },
         {
           "time": "14:56",
           "label": "14:56",
-          "score": 67,
+          "score": 62,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0134 (USDT R$ 5.142)"
+          "score_b": 62,
+          "metric": "Spread: +0.0124 (USDT R$ 5.142)"
         },
         {
           "time": "14:58",
           "label": "14:58",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "15:00",
           "label": "15:00",
-          "score": 67,
+          "score": 62,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0134 (USDT R$ 5.142)"
+          "score_b": 62,
+          "metric": "Spread: +0.0124 (USDT R$ 5.142)"
         },
         {
           "time": "15:02",
           "label": "15:02",
-          "score": 67,
+          "score": 62,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0134 (USDT R$ 5.142)"
+          "score_b": 62,
+          "metric": "Spread: +0.0124 (USDT R$ 5.142)"
         },
         {
           "time": "15:04",
           "label": "15:04",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "15:06",
           "label": "15:06",
-          "score": 67,
+          "score": 62,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0134 (USDT R$ 5.142)"
+          "score_b": 62,
+          "metric": "Spread: +0.0124 (USDT R$ 5.142)"
         },
         {
           "time": "15:08",
           "label": "15:08",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "15:10",
           "label": "15:10",
-          "score": 66,
+          "score": 61,
           "score_a": 0,
-          "score_b": 66,
-          "metric": "Spread: +0.0132 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0122 (USDT R$ 5.141)"
         },
         {
           "time": "15:12",
           "label": "15:12",
-          "score": 47,
+          "score": 42,
           "score_a": 0,
-          "score_b": 47,
-          "metric": "Spread: +0.0094 (USDT R$ 5.138)"
+          "score_b": 42,
+          "metric": "Spread: +0.0084 (USDT R$ 5.138)"
         },
         {
           "time": "15:14",
           "label": "15:14",
-          "score": 37,
+          "score": 32,
           "score_a": 0,
-          "score_b": 37,
-          "metric": "Spread: +0.0073 (USDT R$ 5.136)"
+          "score_b": 32,
+          "metric": "Spread: +0.0063 (USDT R$ 5.136)"
         },
         {
           "time": "15:16",
           "label": "15:16",
-          "score": 46,
+          "score": 41,
           "score_a": 0,
-          "score_b": 46,
-          "metric": "Spread: +0.0092 (USDT R$ 5.137)"
+          "score_b": 41,
+          "metric": "Spread: +0.0082 (USDT R$ 5.137)"
         },
         {
           "time": "15:18",
           "label": "15:18",
-          "score": 47,
+          "score": 42,
           "score_a": 0,
-          "score_b": 47,
-          "metric": "Spread: +0.0094 (USDT R$ 5.138)"
+          "score_b": 42,
+          "metric": "Spread: +0.0084 (USDT R$ 5.138)"
         },
         {
           "time": "15:20",
           "label": "15:20",
-          "score": 50,
+          "score": 44,
           "score_a": 0,
-          "score_b": 50,
-          "metric": "Spread: +0.0099 (USDT R$ 5.138)"
+          "score_b": 44,
+          "metric": "Spread: +0.0089 (USDT R$ 5.138)"
         },
         {
           "time": "15:22",
           "label": "15:22",
-          "score": 49,
+          "score": 44,
           "score_a": 0,
-          "score_b": 49,
-          "metric": "Spread: +0.0098 (USDT R$ 5.138)"
+          "score_b": 44,
+          "metric": "Spread: +0.0088 (USDT R$ 5.138)"
         },
         {
           "time": "15:24",
           "label": "15:24",
-          "score": 55,
+          "score": 50,
           "score_a": 0,
-          "score_b": 55,
-          "metric": "Spread: +0.0109 (USDT R$ 5.139)"
+          "score_b": 50,
+          "metric": "Spread: +0.0099 (USDT R$ 5.139)"
         },
         {
           "time": "15:26",
           "label": "15:26",
-          "score": 56,
+          "score": 51,
           "score_a": 0,
-          "score_b": 56,
-          "metric": "Spread: +0.0112 (USDT R$ 5.139)"
+          "score_b": 51,
+          "metric": "Spread: +0.0102 (USDT R$ 5.139)"
         },
         {
           "time": "15:28",
           "label": "15:28",
-          "score": 56,
+          "score": 51,
           "score_a": 0,
-          "score_b": 56,
-          "metric": "Spread: +0.0112 (USDT R$ 5.139)"
+          "score_b": 51,
+          "metric": "Spread: +0.0102 (USDT R$ 5.139)"
         },
         {
           "time": "15:30",
           "label": "15:30",
-          "score": 56,
+          "score": 51,
           "score_a": 0,
-          "score_b": 56,
-          "metric": "Spread: +0.0112 (USDT R$ 5.139)"
+          "score_b": 51,
+          "metric": "Spread: +0.0102 (USDT R$ 5.139)"
         },
         {
           "time": "15:32",
           "label": "15:32",
-          "score": 57,
+          "score": 51,
           "score_a": 0,
-          "score_b": 57,
-          "metric": "Spread: +0.0113 (USDT R$ 5.139)"
+          "score_b": 51,
+          "metric": "Spread: +0.0103 (USDT R$ 5.139)"
         },
         {
           "time": "15:34",
           "label": "15:34",
-          "score": 61,
+          "score": 55,
           "score_a": 0,
-          "score_b": 61,
-          "metric": "Spread: +0.0121 (USDT R$ 5.140)"
+          "score_b": 55,
+          "metric": "Spread: +0.0111 (USDT R$ 5.140)"
         },
         {
           "time": "15:36",
           "label": "15:36",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "15:38",
           "label": "15:38",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "15:40",
           "label": "15:40",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "15:42",
           "label": "15:42",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "15:44",
           "label": "15:44",
-          "score": 68,
+          "score": 63,
           "score_a": 0,
-          "score_b": 68,
-          "metric": "Spread: +0.0135 (USDT R$ 5.142)"
+          "score_b": 63,
+          "metric": "Spread: +0.0125 (USDT R$ 5.142)"
         },
         {
           "time": "15:46",
           "label": "15:46",
-          "score": 67,
+          "score": 62,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0134 (USDT R$ 5.142)"
+          "score_b": 62,
+          "metric": "Spread: +0.0124 (USDT R$ 5.142)"
         },
         {
           "time": "15:48",
           "label": "15:48",
-          "score": 68,
+          "score": 63,
           "score_a": 0,
-          "score_b": 68,
-          "metric": "Spread: +0.0135 (USDT R$ 5.142)"
+          "score_b": 63,
+          "metric": "Spread: +0.0125 (USDT R$ 5.142)"
         },
         {
           "time": "15:50",
           "label": "15:50",
-          "score": 88,
+          "score": 82,
           "score_a": 0,
-          "score_b": 88,
-          "metric": "Spread: +0.0175 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0165 (USDT R$ 5.146)"
         },
         {
           "time": "15:52",
           "label": "15:52",
-          "score": 88,
+          "score": 83,
           "score_a": 0,
-          "score_b": 88,
-          "metric": "Spread: +0.0176 (USDT R$ 5.146)"
+          "score_b": 83,
+          "metric": "Spread: +0.0166 (USDT R$ 5.146)"
         },
         {
           "time": "15:54",
           "label": "15:54",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0183 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
         },
         {
           "time": "15:56",
           "label": "15:56",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0183 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
         },
         {
           "time": "15:58",
           "label": "15:58",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0182 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0172 (USDT R$ 5.146)"
         },
         {
           "time": "16:00",
           "label": "16:00",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0183 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
         },
         {
           "time": "16:02",
           "label": "16:02",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0182 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0172 (USDT R$ 5.146)"
         },
         {
           "time": "16:04",
           "label": "16:04",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0183 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
         },
         {
           "time": "16:06",
           "label": "16:06",
-          "score": 91,
+          "score": 86,
           "score_a": 0,
-          "score_b": 91,
-          "metric": "Spread: +0.0182 (USDT R$ 5.146)"
+          "score_b": 86,
+          "metric": "Spread: +0.0172 (USDT R$ 5.146)"
         },
         {
           "time": "16:08",
           "label": "16:08",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0174 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0164 (USDT R$ 5.146)"
         },
         {
           "time": "16:10",
           "label": "16:10",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0163 (USDT R$ 5.146)"
         },
         {
           "time": "16:12",
           "label": "16:12",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0163 (USDT R$ 5.146)"
         },
         {
           "time": "16:14",
           "label": "16:14",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0163 (USDT R$ 5.146)"
         },
         {
           "time": "16:16",
           "label": "16:16",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0173 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0163 (USDT R$ 5.146)"
         },
         {
           "time": "16:18",
           "label": "16:18",
-          "score": 84,
+          "score": 79,
           "score_a": 0,
-          "score_b": 84,
-          "metric": "Spread: +0.0168 (USDT R$ 5.145)"
+          "score_b": 79,
+          "metric": "Spread: +0.0158 (USDT R$ 5.145)"
         },
         {
           "time": "16:20",
           "label": "16:20",
-          "score": 79,
+          "score": 74,
           "score_a": 0,
-          "score_b": 79,
-          "metric": "Spread: +0.0157 (USDT R$ 5.144)"
+          "score_b": 74,
+          "metric": "Spread: +0.0147 (USDT R$ 5.144)"
         },
         {
           "time": "16:22",
           "label": "16:22",
-          "score": 79,
+          "score": 74,
           "score_a": 0,
-          "score_b": 79,
-          "metric": "Spread: +0.0157 (USDT R$ 5.144)"
+          "score_b": 74,
+          "metric": "Spread: +0.0147 (USDT R$ 5.144)"
         }
       ],
       "7d": [
@@ -32451,7 +32451,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0899 (USDT R$ 5.218)"
+          "metric": "Spread: +0.0889 (USDT R$ 5.218)"
         },
         {
           "time": "28/08 16:00",
@@ -32459,7 +32459,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0880 (USDT R$ 5.216)"
+          "metric": "Spread: +0.0870 (USDT R$ 5.216)"
         },
         {
           "time": "28/08 16:00",
@@ -32467,7 +32467,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0831 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0821 (USDT R$ 5.211)"
         },
         {
           "time": "28/08 17:00",
@@ -32475,7 +32475,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0843 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0833 (USDT R$ 5.213)"
         },
         {
           "time": "28/08 17:00",
@@ -32483,7 +32483,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0844 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0834 (USDT R$ 5.213)"
         },
         {
           "time": "28/08 17:00",
@@ -32491,7 +32491,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0857 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0847 (USDT R$ 5.214)"
         },
         {
           "time": "28/08 17:00",
@@ -32499,7 +32499,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0856 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0846 (USDT R$ 5.214)"
         },
         {
           "time": "28/08 18:00",
@@ -32507,7 +32507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0856 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0846 (USDT R$ 5.214)"
         },
         {
           "time": "28/08 18:00",
@@ -32515,7 +32515,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0827 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0817 (USDT R$ 5.211)"
         },
         {
           "time": "28/08 18:00",
@@ -32523,7 +32523,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0838 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0828 (USDT R$ 5.212)"
         },
         {
           "time": "28/08 18:00",
@@ -32531,7 +32531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0839 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0829 (USDT R$ 5.212)"
         },
         {
           "time": "28/08 19:00",
@@ -32539,7 +32539,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0765 (USDT R$ 5.205)"
+          "metric": "Spread: +0.0755 (USDT R$ 5.205)"
         },
         {
           "time": "28/08 19:00",
@@ -32547,7 +32547,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0755 (USDT R$ 5.204)"
+          "metric": "Spread: +0.0745 (USDT R$ 5.204)"
         },
         {
           "time": "28/08 19:00",
@@ -32555,7 +32555,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "28/08 19:00",
@@ -32563,7 +32563,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0837 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0827 (USDT R$ 5.212)"
         },
         {
           "time": "28/08 20:00",
@@ -32571,7 +32571,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0805 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0795 (USDT R$ 5.209)"
         },
         {
           "time": "28/08 20:00",
@@ -32579,7 +32579,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0768 (USDT R$ 5.205)"
+          "metric": "Spread: +0.0758 (USDT R$ 5.205)"
         },
         {
           "time": "28/08 20:00",
@@ -32587,7 +32587,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "28/08 20:00",
@@ -32595,7 +32595,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0880 (USDT R$ 5.216)"
+          "metric": "Spread: +0.0870 (USDT R$ 5.216)"
         },
         {
           "time": "28/08 21:00",
@@ -32603,7 +32603,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0882 (USDT R$ 5.216)"
+          "metric": "Spread: +0.0872 (USDT R$ 5.216)"
         },
         {
           "time": "28/08 21:00",
@@ -32611,7 +32611,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0883 (USDT R$ 5.216)"
+          "metric": "Spread: +0.0873 (USDT R$ 5.216)"
         },
         {
           "time": "28/08 21:00",
@@ -32619,7 +32619,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0889 (USDT R$ 5.217)"
+          "metric": "Spread: +0.0879 (USDT R$ 5.217)"
         },
         {
           "time": "28/08 21:00",
@@ -32627,7 +32627,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0888 (USDT R$ 5.217)"
+          "metric": "Spread: +0.0878 (USDT R$ 5.217)"
         },
         {
           "time": "28/08 22:00",
@@ -32635,7 +32635,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0888 (USDT R$ 5.217)"
+          "metric": "Spread: +0.0878 (USDT R$ 5.217)"
         },
         {
           "time": "28/08 22:00",
@@ -32643,7 +32643,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0889 (USDT R$ 5.217)"
+          "metric": "Spread: +0.0879 (USDT R$ 5.217)"
         },
         {
           "time": "28/08 22:00",
@@ -32651,7 +32651,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0889 (USDT R$ 5.217)"
+          "metric": "Spread: +0.0879 (USDT R$ 5.217)"
         },
         {
           "time": "28/08 22:00",
@@ -32659,7 +32659,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0889 (USDT R$ 5.217)"
+          "metric": "Spread: +0.0879 (USDT R$ 5.217)"
         },
         {
           "time": "28/08 23:00",
@@ -32667,7 +32667,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0829 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0819 (USDT R$ 5.211)"
         },
         {
           "time": "28/08 23:00",
@@ -32675,7 +32675,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0829 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0819 (USDT R$ 5.211)"
         },
         {
           "time": "28/08 23:00",
@@ -32683,7 +32683,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0863 (USDT R$ 5.215)"
+          "metric": "Spread: +0.0853 (USDT R$ 5.215)"
         },
         {
           "time": "28/08 23:00",
@@ -32691,7 +32691,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0862 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0852 (USDT R$ 5.214)"
         },
         {
           "time": "29/08 00:00",
@@ -32699,7 +32699,23 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0862 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0852 (USDT R$ 5.214)"
+        },
+        {
+          "time": "29/08 00:00",
+          "label": "29/08 00:00",
+          "score": 100,
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Spread: +0.0853 (USDT R$ 5.215)"
+        },
+        {
+          "time": "29/08 00:00",
+          "label": "29/08 00:00",
+          "score": 100,
+          "score_a": 0,
+          "score_b": 100,
+          "metric": "Spread: +0.0864 (USDT R$ 5.216)"
         },
         {
           "time": "29/08 00:00",
@@ -32710,20 +32726,12 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "Spread: +0.0863 (USDT R$ 5.215)"
         },
         {
-          "time": "29/08 00:00",
-          "label": "29/08 00:00",
+          "time": "29/08 01:00",
+          "label": "29/08 01:00",
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0874 (USDT R$ 5.216)"
-        },
-        {
-          "time": "29/08 00:00",
-          "label": "29/08 00:00",
-          "score": 100,
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0873 (USDT R$ 5.215)"
+          "metric": "Spread: +0.0863 (USDT R$ 5.215)"
         },
         {
           "time": "29/08 01:00",
@@ -32731,7 +32739,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0873 (USDT R$ 5.215)"
+          "metric": "Spread: +0.0863 (USDT R$ 5.215)"
         },
         {
           "time": "29/08 01:00",
@@ -32739,7 +32747,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0873 (USDT R$ 5.215)"
+          "metric": "Spread: +0.0863 (USDT R$ 5.215)"
         },
         {
           "time": "29/08 01:00",
@@ -32747,15 +32755,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0873 (USDT R$ 5.215)"
-        },
-        {
-          "time": "29/08 01:00",
-          "label": "29/08 01:00",
-          "score": 100,
-          "score_a": 0,
-          "score_b": 100,
-          "metric": "Spread: +0.0852 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0842 (USDT R$ 5.213)"
         },
         {
           "time": "29/08 02:00",
@@ -32763,7 +32763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0715 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0705 (USDT R$ 5.200)"
         },
         {
           "time": "29/08 02:00",
@@ -32771,7 +32771,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0775 (USDT R$ 5.206)"
+          "metric": "Spread: +0.0765 (USDT R$ 5.206)"
         },
         {
           "time": "29/08 02:00",
@@ -32779,7 +32779,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0820 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0810 (USDT R$ 5.210)"
         },
         {
           "time": "29/08 02:00",
@@ -32787,7 +32787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0821 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0811 (USDT R$ 5.210)"
         },
         {
           "time": "29/08 03:00",
@@ -32795,7 +32795,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0821 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0811 (USDT R$ 5.210)"
         },
         {
           "time": "29/08 03:00",
@@ -32803,7 +32803,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0792 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0782 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 03:00",
@@ -32811,7 +32811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0790 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0780 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 03:00",
@@ -32819,7 +32819,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 04:00",
@@ -32827,7 +32827,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0790 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0780 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 04:00",
@@ -32835,7 +32835,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0790 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0780 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 04:00",
@@ -32843,7 +32843,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 04:00",
@@ -32851,7 +32851,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0790 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0780 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 05:00",
@@ -32859,7 +32859,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 05:00",
@@ -32867,7 +32867,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 05:00",
@@ -32875,7 +32875,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0790 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0780 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 05:00",
@@ -32883,7 +32883,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0790 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0780 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 06:00",
@@ -32891,7 +32891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 06:00",
@@ -32899,7 +32899,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 06:00",
@@ -32907,7 +32907,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 06:00",
@@ -32915,7 +32915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0790 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0780 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 07:00",
@@ -32923,7 +32923,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 07:00",
@@ -32931,7 +32931,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 07:00",
@@ -32939,7 +32939,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0790 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0780 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 07:00",
@@ -32947,7 +32947,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 08:00",
@@ -32955,7 +32955,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 08:00",
@@ -32963,7 +32963,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 08:00",
@@ -32971,7 +32971,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 08:00",
@@ -32979,7 +32979,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 09:00",
@@ -32987,7 +32987,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0820 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0810 (USDT R$ 5.210)"
         },
         {
           "time": "29/08 09:00",
@@ -32995,7 +32995,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0876 (USDT R$ 5.216)"
+          "metric": "Spread: +0.0866 (USDT R$ 5.216)"
         },
         {
           "time": "29/08 09:00",
@@ -33003,7 +33003,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0897 (USDT R$ 5.218)"
+          "metric": "Spread: +0.0887 (USDT R$ 5.218)"
         },
         {
           "time": "29/08 09:00",
@@ -33011,7 +33011,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0897 (USDT R$ 5.218)"
+          "metric": "Spread: +0.0887 (USDT R$ 5.218)"
         },
         {
           "time": "29/08 10:00",
@@ -33019,7 +33019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0897 (USDT R$ 5.218)"
+          "metric": "Spread: +0.0887 (USDT R$ 5.218)"
         },
         {
           "time": "29/08 10:00",
@@ -33027,7 +33027,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0875 (USDT R$ 5.216)"
+          "metric": "Spread: +0.0865 (USDT R$ 5.216)"
         },
         {
           "time": "29/08 10:00",
@@ -33035,7 +33035,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0818 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0808 (USDT R$ 5.210)"
         },
         {
           "time": "29/08 10:00",
@@ -33043,7 +33043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0840 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0830 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 11:00",
@@ -33051,7 +33051,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0825 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0815 (USDT R$ 5.211)"
         },
         {
           "time": "29/08 11:00",
@@ -33059,7 +33059,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0825 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0815 (USDT R$ 5.211)"
         },
         {
           "time": "29/08 11:00",
@@ -33067,7 +33067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0825 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0815 (USDT R$ 5.211)"
         },
         {
           "time": "29/08 11:00",
@@ -33075,7 +33075,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0826 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0816 (USDT R$ 5.211)"
         },
         {
           "time": "29/08 12:00",
@@ -33083,7 +33083,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0824 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0814 (USDT R$ 5.211)"
         },
         {
           "time": "29/08 12:00",
@@ -33091,7 +33091,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0824 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0814 (USDT R$ 5.211)"
         },
         {
           "time": "29/08 12:00",
@@ -33099,7 +33099,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0825 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0815 (USDT R$ 5.211)"
         },
         {
           "time": "29/08 12:00",
@@ -33107,7 +33107,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0837 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0827 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 13:00",
@@ -33115,7 +33115,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0848 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0838 (USDT R$ 5.213)"
         },
         {
           "time": "29/08 13:00",
@@ -33123,7 +33123,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0842 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0832 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 13:00",
@@ -33131,7 +33131,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0839 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0829 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 13:00",
@@ -33139,7 +33139,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0840 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0830 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 14:00",
@@ -33147,7 +33147,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0840 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0830 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 14:00",
@@ -33155,7 +33155,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0840 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0830 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 14:00",
@@ -33163,7 +33163,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0839 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0829 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 14:00",
@@ -33171,7 +33171,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0828 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0818 (USDT R$ 5.211)"
         },
         {
           "time": "29/08 15:00",
@@ -33179,7 +33179,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0827 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0817 (USDT R$ 5.211)"
         },
         {
           "time": "29/08 15:00",
@@ -33187,7 +33187,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0828 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0818 (USDT R$ 5.211)"
         },
         {
           "time": "29/08 15:00",
@@ -33195,7 +33195,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0822 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0812 (USDT R$ 5.210)"
         },
         {
           "time": "29/08 15:00",
@@ -33203,7 +33203,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0805 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0795 (USDT R$ 5.209)"
         },
         {
           "time": "29/08 16:00",
@@ -33211,7 +33211,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0806 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0796 (USDT R$ 5.209)"
         },
         {
           "time": "29/08 16:00",
@@ -33219,7 +33219,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0790 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0780 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 16:00",
@@ -33227,7 +33227,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0796 (USDT R$ 5.208)"
+          "metric": "Spread: +0.0786 (USDT R$ 5.208)"
         },
         {
           "time": "29/08 16:00",
@@ -33235,7 +33235,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0805 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0795 (USDT R$ 5.209)"
         },
         {
           "time": "29/08 17:00",
@@ -33243,7 +33243,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0805 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0795 (USDT R$ 5.209)"
         },
         {
           "time": "29/08 17:00",
@@ -33251,7 +33251,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0797 (USDT R$ 5.208)"
+          "metric": "Spread: +0.0787 (USDT R$ 5.208)"
         },
         {
           "time": "29/08 17:00",
@@ -33259,7 +33259,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0796 (USDT R$ 5.208)"
+          "metric": "Spread: +0.0786 (USDT R$ 5.208)"
         },
         {
           "time": "29/08 17:00",
@@ -33267,7 +33267,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0797 (USDT R$ 5.208)"
+          "metric": "Spread: +0.0787 (USDT R$ 5.208)"
         },
         {
           "time": "29/08 18:00",
@@ -33275,7 +33275,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0805 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0795 (USDT R$ 5.209)"
         },
         {
           "time": "29/08 18:00",
@@ -33283,7 +33283,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0798 (USDT R$ 5.208)"
+          "metric": "Spread: +0.0788 (USDT R$ 5.208)"
         },
         {
           "time": "29/08 18:00",
@@ -33291,7 +33291,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0797 (USDT R$ 5.208)"
+          "metric": "Spread: +0.0787 (USDT R$ 5.208)"
         },
         {
           "time": "29/08 18:00",
@@ -33299,7 +33299,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0797 (USDT R$ 5.208)"
+          "metric": "Spread: +0.0787 (USDT R$ 5.208)"
         },
         {
           "time": "29/08 19:00",
@@ -33307,7 +33307,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0798 (USDT R$ 5.208)"
+          "metric": "Spread: +0.0788 (USDT R$ 5.208)"
         },
         {
           "time": "29/08 19:00",
@@ -33315,7 +33315,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0805 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0795 (USDT R$ 5.209)"
         },
         {
           "time": "29/08 19:00",
@@ -33323,7 +33323,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0805 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0795 (USDT R$ 5.209)"
         },
         {
           "time": "29/08 19:00",
@@ -33331,7 +33331,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0804 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0794 (USDT R$ 5.209)"
         },
         {
           "time": "29/08 20:00",
@@ -33339,7 +33339,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0806 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0796 (USDT R$ 5.209)"
         },
         {
           "time": "29/08 20:00",
@@ -33347,7 +33347,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0806 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0796 (USDT R$ 5.209)"
         },
         {
           "time": "29/08 20:00",
@@ -33355,7 +33355,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0808 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0798 (USDT R$ 5.209)"
         },
         {
           "time": "29/08 20:00",
@@ -33363,7 +33363,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0808 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0798 (USDT R$ 5.209)"
         },
         {
           "time": "29/08 21:00",
@@ -33371,7 +33371,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0807 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0797 (USDT R$ 5.209)"
         },
         {
           "time": "29/08 21:00",
@@ -33379,7 +33379,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 21:00",
@@ -33387,7 +33387,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 21:00",
@@ -33395,7 +33395,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0834 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0824 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 22:00",
@@ -33403,7 +33403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 22:00",
@@ -33411,7 +33411,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0834 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0824 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 22:00",
@@ -33419,7 +33419,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0834 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0824 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 22:00",
@@ -33427,7 +33427,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0834 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0824 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 23:00",
@@ -33435,7 +33435,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0834 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0824 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 23:00",
@@ -33443,7 +33443,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 23:00",
@@ -33451,7 +33451,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 23:00",
@@ -33459,7 +33459,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 00:00",
@@ -33467,7 +33467,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0849 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0839 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 00:00",
@@ -33475,7 +33475,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 00:00",
@@ -33483,7 +33483,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 00:00",
@@ -33491,7 +33491,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 01:00",
@@ -33499,7 +33499,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 01:00",
@@ -33507,7 +33507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 01:00",
@@ -33515,7 +33515,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 01:00",
@@ -33523,7 +33523,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 02:00",
@@ -33531,7 +33531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 02:00",
@@ -33539,7 +33539,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 02:00",
@@ -33547,7 +33547,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 02:00",
@@ -33555,7 +33555,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 03:00",
@@ -33563,7 +33563,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 03:00",
@@ -33571,7 +33571,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 03:00",
@@ -33579,7 +33579,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 03:00",
@@ -33587,7 +33587,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 04:00",
@@ -33595,7 +33595,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 04:00",
@@ -33603,7 +33603,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 04:00",
@@ -33611,7 +33611,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 04:00",
@@ -33619,7 +33619,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 05:00",
@@ -33627,7 +33627,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 05:00",
@@ -33635,7 +33635,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 05:00",
@@ -33643,7 +33643,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 05:00",
@@ -33651,7 +33651,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 06:00",
@@ -33659,7 +33659,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 06:00",
@@ -33667,7 +33667,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 06:00",
@@ -33675,7 +33675,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 06:00",
@@ -33683,7 +33683,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 07:00",
@@ -33691,7 +33691,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 07:00",
@@ -33699,7 +33699,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 07:00",
@@ -33707,7 +33707,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 07:00",
@@ -33715,7 +33715,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 08:00",
@@ -33723,7 +33723,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0849 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0839 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 08:00",
@@ -33731,7 +33731,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 08:00",
@@ -33739,7 +33739,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 08:00",
@@ -33747,7 +33747,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0838 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0828 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 09:00",
@@ -33755,7 +33755,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0839 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0829 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 09:00",
@@ -33763,7 +33763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0834 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0824 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 09:00",
@@ -33771,7 +33771,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 09:00",
@@ -33779,7 +33779,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 10:00",
@@ -33787,7 +33787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0848 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0838 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 10:00",
@@ -33795,7 +33795,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0847 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0837 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 10:00",
@@ -33803,7 +33803,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0849 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0839 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 10:00",
@@ -33811,7 +33811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0847 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0837 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 11:00",
@@ -33819,7 +33819,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0840 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0830 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 11:00",
@@ -33827,7 +33827,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0836 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0826 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 11:00",
@@ -33835,7 +33835,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 11:00",
@@ -33843,7 +33843,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0836 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0826 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 12:00",
@@ -33851,7 +33851,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0836 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0826 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 12:00",
@@ -33859,7 +33859,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 12:00",
@@ -33867,7 +33867,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0838 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0828 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 12:00",
@@ -33875,7 +33875,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0834 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0824 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 13:00",
@@ -33883,7 +33883,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0834 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0824 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 13:00",
@@ -33891,7 +33891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 13:00",
@@ -33899,7 +33899,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0834 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0824 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 13:00",
@@ -33907,7 +33907,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 14:00",
@@ -33915,7 +33915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0834 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0824 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 14:00",
@@ -33923,7 +33923,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 14:00",
@@ -33931,7 +33931,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 14:00",
@@ -33939,7 +33939,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 15:00",
@@ -33947,7 +33947,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 15:00",
@@ -33955,7 +33955,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 15:00",
@@ -33963,7 +33963,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0820 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0810 (USDT R$ 5.210)"
         },
         {
           "time": "30/08 15:00",
@@ -33971,7 +33971,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0820 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0810 (USDT R$ 5.210)"
         },
         {
           "time": "30/08 16:00",
@@ -33979,7 +33979,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0820 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0810 (USDT R$ 5.210)"
         },
         {
           "time": "30/08 16:00",
@@ -33987,7 +33987,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0821 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0811 (USDT R$ 5.210)"
         },
         {
           "time": "30/08 16:00",
@@ -33995,7 +33995,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0802 (USDT R$ 5.208)"
+          "metric": "Spread: +0.0792 (USDT R$ 5.208)"
         },
         {
           "time": "30/08 16:00",
@@ -34003,7 +34003,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0815 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0805 (USDT R$ 5.210)"
         },
         {
           "time": "30/08 17:00",
@@ -34011,7 +34011,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0823 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0813 (USDT R$ 5.210)"
         },
         {
           "time": "30/08 17:00",
@@ -34019,7 +34019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0824 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0814 (USDT R$ 5.211)"
         },
         {
           "time": "30/08 17:00",
@@ -34027,7 +34027,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0824 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0814 (USDT R$ 5.211)"
         },
         {
           "time": "30/08 17:00",
@@ -34035,7 +34035,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0823 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0813 (USDT R$ 5.210)"
         },
         {
           "time": "30/08 18:00",
@@ -34043,7 +34043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0824 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0814 (USDT R$ 5.211)"
         },
         {
           "time": "30/08 18:00",
@@ -34051,7 +34051,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0823 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0813 (USDT R$ 5.210)"
         },
         {
           "time": "30/08 18:00",
@@ -34059,7 +34059,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0823 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0813 (USDT R$ 5.210)"
         },
         {
           "time": "30/08 18:00",
@@ -34067,7 +34067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0824 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0814 (USDT R$ 5.211)"
         },
         {
           "time": "30/08 19:00",
@@ -34075,7 +34075,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0823 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0813 (USDT R$ 5.210)"
         },
         {
           "time": "30/08 19:00",
@@ -34083,7 +34083,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0823 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0813 (USDT R$ 5.210)"
         },
         {
           "time": "30/08 19:00",
@@ -34091,7 +34091,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0824 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0814 (USDT R$ 5.211)"
         },
         {
           "time": "30/08 19:00",
@@ -34099,7 +34099,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0841 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0831 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 20:00",
@@ -34107,7 +34107,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0856 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0846 (USDT R$ 5.214)"
         },
         {
           "time": "30/08 20:00",
@@ -34115,7 +34115,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0857 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0847 (USDT R$ 5.214)"
         },
         {
           "time": "30/08 20:00",
@@ -34123,7 +34123,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0888 (USDT R$ 5.217)"
+          "metric": "Spread: +0.0878 (USDT R$ 5.217)"
         },
         {
           "time": "30/08 20:00",
@@ -34131,7 +34131,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0890 (USDT R$ 5.217)"
+          "metric": "Spread: +0.0880 (USDT R$ 5.217)"
         },
         {
           "time": "30/08 21:00",
@@ -34139,7 +34139,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0865 (USDT R$ 5.215)"
+          "metric": "Spread: +0.0855 (USDT R$ 5.215)"
         },
         {
           "time": "30/08 21:00",
@@ -34147,7 +34147,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0878 (USDT R$ 5.216)"
+          "metric": "Spread: +0.0868 (USDT R$ 5.216)"
         },
         {
           "time": "30/08 21:00",
@@ -34155,7 +34155,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0878 (USDT R$ 5.216)"
+          "metric": "Spread: +0.0868 (USDT R$ 5.216)"
         },
         {
           "time": "30/08 21:00",
@@ -34163,7 +34163,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0863 (USDT R$ 5.215)"
+          "metric": "Spread: +0.0853 (USDT R$ 5.215)"
         },
         {
           "time": "30/08 22:00",
@@ -34171,7 +34171,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0863 (USDT R$ 5.215)"
+          "metric": "Spread: +0.0853 (USDT R$ 5.215)"
         },
         {
           "time": "30/08 22:00",
@@ -34179,7 +34179,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0862 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0852 (USDT R$ 5.214)"
         },
         {
           "time": "30/08 22:00",
@@ -34187,7 +34187,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0863 (USDT R$ 5.215)"
+          "metric": "Spread: +0.0853 (USDT R$ 5.215)"
         },
         {
           "time": "30/08 22:00",
@@ -34195,7 +34195,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0863 (USDT R$ 5.215)"
+          "metric": "Spread: +0.0853 (USDT R$ 5.215)"
         },
         {
           "time": "30/08 23:00",
@@ -34203,7 +34203,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0862 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0852 (USDT R$ 5.214)"
         },
         {
           "time": "30/08 23:00",
@@ -34211,7 +34211,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0862 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0852 (USDT R$ 5.214)"
         },
         {
           "time": "30/08 23:00",
@@ -34219,7 +34219,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0863 (USDT R$ 5.215)"
+          "metric": "Spread: +0.0853 (USDT R$ 5.215)"
         },
         {
           "time": "30/08 23:00",
@@ -34227,7 +34227,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0863 (USDT R$ 5.215)"
+          "metric": "Spread: +0.0853 (USDT R$ 5.215)"
         },
         {
           "time": "31/08 00:00",
@@ -34235,7 +34235,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0862 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0852 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 00:00",
@@ -34243,7 +34243,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0863 (USDT R$ 5.215)"
+          "metric": "Spread: +0.0853 (USDT R$ 5.215)"
         },
         {
           "time": "31/08 00:00",
@@ -34251,7 +34251,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0862 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0852 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 00:00",
@@ -34259,7 +34259,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0860 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0850 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 01:00",
@@ -34267,7 +34267,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0860 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0850 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 01:00",
@@ -34275,7 +34275,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0861 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0851 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 01:00",
@@ -34283,7 +34283,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0861 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0851 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 01:00",
@@ -34291,7 +34291,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0860 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0850 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 02:00",
@@ -34299,7 +34299,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0860 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0850 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 02:00",
@@ -34307,7 +34307,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0859 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0849 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 02:00",
@@ -34315,7 +34315,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0860 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0850 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 02:00",
@@ -34323,7 +34323,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0859 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0849 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 03:00",
@@ -34331,7 +34331,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0859 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0849 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 03:00",
@@ -34339,7 +34339,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0859 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0849 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 03:00",
@@ -34347,7 +34347,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0859 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0849 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 03:00",
@@ -34355,7 +34355,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0859 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0849 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 04:00",
@@ -34363,7 +34363,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0859 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0849 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 04:00",
@@ -34371,7 +34371,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0859 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0849 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 04:00",
@@ -34379,7 +34379,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0859 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0849 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 04:00",
@@ -34387,7 +34387,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0859 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0849 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 05:00",
@@ -34395,7 +34395,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0859 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0849 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 05:00",
@@ -34403,7 +34403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0862 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0852 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 05:00",
@@ -34411,7 +34411,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0862 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0852 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 05:00",
@@ -34419,7 +34419,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0861 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0851 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 06:00",
@@ -34427,7 +34427,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0862 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0852 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 06:00",
@@ -34435,7 +34435,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0861 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0851 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 06:00",
@@ -34443,7 +34443,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0861 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0851 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 06:00",
@@ -34451,7 +34451,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0860 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0850 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 07:00",
@@ -34459,7 +34459,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0860 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0850 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 07:00",
@@ -34467,7 +34467,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "31/08 07:00",
@@ -34475,7 +34475,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "31/08 07:00",
@@ -34483,7 +34483,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0836 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0826 (USDT R$ 5.212)"
         },
         {
           "time": "31/08 08:00",
@@ -34491,7 +34491,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0822 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0812 (USDT R$ 5.210)"
         },
         {
           "time": "31/08 08:00",
@@ -34499,7 +34499,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0806 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0796 (USDT R$ 5.209)"
         },
         {
           "time": "31/08 08:00",
@@ -34507,7 +34507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0807 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0797 (USDT R$ 5.209)"
         },
         {
           "time": "31/08 08:00",
@@ -34515,7 +34515,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0826 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0816 (USDT R$ 5.211)"
         },
         {
           "time": "31/08 09:00",
@@ -34523,7 +34523,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0625 (USDT R$ 5.191)"
+          "metric": "Spread: +0.0615 (USDT R$ 5.191)"
         },
         {
           "time": "31/08 09:00",
@@ -34531,7 +34531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0565 (USDT R$ 5.185)"
+          "metric": "Spread: +0.0555 (USDT R$ 5.185)"
         },
         {
           "time": "31/08 09:00",
@@ -34539,7 +34539,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0595 (USDT R$ 5.188)"
+          "metric": "Spread: +0.0585 (USDT R$ 5.188)"
         },
         {
           "time": "31/08 09:00",
@@ -34547,7 +34547,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0646 (USDT R$ 5.193)"
+          "metric": "Spread: +0.0636 (USDT R$ 5.193)"
         },
         {
           "time": "31/08 10:00",
@@ -34555,7 +34555,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0669 (USDT R$ 5.195)"
+          "metric": "Spread: +0.0659 (USDT R$ 5.195)"
         },
         {
           "time": "31/08 10:00",
@@ -34563,7 +34563,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0617 (USDT R$ 5.190)"
+          "metric": "Spread: +0.0607 (USDT R$ 5.190)"
         },
         {
           "time": "31/08 10:00",
@@ -34571,7 +34571,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0520 (USDT R$ 5.180)"
+          "metric": "Spread: +0.0510 (USDT R$ 5.180)"
         },
         {
           "time": "31/08 10:00",
@@ -34579,7 +34579,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0602 (USDT R$ 5.188)"
+          "metric": "Spread: +0.0592 (USDT R$ 5.188)"
         },
         {
           "time": "31/08 11:00",
@@ -34587,7 +34587,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0683 (USDT R$ 5.197)"
+          "metric": "Spread: +0.0673 (USDT R$ 5.197)"
         },
         {
           "time": "31/08 11:00",
@@ -34595,7 +34595,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0698 (USDT R$ 5.198)"
+          "metric": "Spread: +0.0688 (USDT R$ 5.198)"
         },
         {
           "time": "31/08 11:00",
@@ -34603,7 +34603,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0715 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0705 (USDT R$ 5.200)"
         },
         {
           "time": "31/08 11:00",
@@ -34611,7 +34611,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0676 (USDT R$ 5.196)"
+          "metric": "Spread: +0.0666 (USDT R$ 5.196)"
         },
         {
           "time": "31/08 12:00",
@@ -34619,7 +34619,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0700 (USDT R$ 5.198)"
+          "metric": "Spread: +0.0690 (USDT R$ 5.198)"
         },
         {
           "time": "31/08 12:00",
@@ -34627,7 +34627,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0670 (USDT R$ 5.195)"
+          "metric": "Spread: +0.0660 (USDT R$ 5.195)"
         },
         {
           "time": "31/08 12:00",
@@ -34635,7 +34635,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0646 (USDT R$ 5.193)"
+          "metric": "Spread: +0.0636 (USDT R$ 5.193)"
         },
         {
           "time": "31/08 12:00",
@@ -34643,7 +34643,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0634 (USDT R$ 5.192)"
+          "metric": "Spread: +0.0624 (USDT R$ 5.192)"
         },
         {
           "time": "31/08 13:00",
@@ -34651,7 +34651,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0669 (USDT R$ 5.195)"
+          "metric": "Spread: +0.0659 (USDT R$ 5.195)"
         },
         {
           "time": "31/08 13:00",
@@ -34659,7 +34659,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0650 (USDT R$ 5.193)"
+          "metric": "Spread: +0.0640 (USDT R$ 5.193)"
         },
         {
           "time": "31/08 13:00",
@@ -34667,7 +34667,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0641 (USDT R$ 5.192)"
+          "metric": "Spread: +0.0631 (USDT R$ 5.192)"
         },
         {
           "time": "31/08 13:00",
@@ -34675,7 +34675,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0661 (USDT R$ 5.194)"
+          "metric": "Spread: +0.0651 (USDT R$ 5.194)"
         },
         {
           "time": "31/08 14:00",
@@ -34683,7 +34683,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0687 (USDT R$ 5.197)"
+          "metric": "Spread: +0.0677 (USDT R$ 5.197)"
         },
         {
           "time": "31/08 14:00",
@@ -34691,7 +34691,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0675 (USDT R$ 5.196)"
+          "metric": "Spread: +0.0665 (USDT R$ 5.196)"
         },
         {
           "time": "31/08 14:00",
@@ -34699,7 +34699,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0707 (USDT R$ 5.199)"
+          "metric": "Spread: +0.0697 (USDT R$ 5.199)"
         },
         {
           "time": "31/08 14:00",
@@ -34707,7 +34707,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0699 (USDT R$ 5.198)"
+          "metric": "Spread: +0.0689 (USDT R$ 5.198)"
         },
         {
           "time": "31/08 15:00",
@@ -34715,7 +34715,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0699 (USDT R$ 5.198)"
+          "metric": "Spread: +0.0689 (USDT R$ 5.198)"
         },
         {
           "time": "31/08 15:00",
@@ -34723,7 +34723,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0703 (USDT R$ 5.199)"
+          "metric": "Spread: +0.0693 (USDT R$ 5.199)"
         },
         {
           "time": "31/08 15:00",
@@ -34731,7 +34731,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0698 (USDT R$ 5.198)"
+          "metric": "Spread: +0.0688 (USDT R$ 5.198)"
         },
         {
           "time": "31/08 15:00",
@@ -34739,7 +34739,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0703 (USDT R$ 5.199)"
+          "metric": "Spread: +0.0693 (USDT R$ 5.199)"
         },
         {
           "time": "31/08 16:00",
@@ -34747,7 +34747,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0698 (USDT R$ 5.198)"
+          "metric": "Spread: +0.0688 (USDT R$ 5.198)"
         },
         {
           "time": "31/08 16:00",
@@ -34755,7 +34755,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0689 (USDT R$ 5.197)"
+          "metric": "Spread: +0.0679 (USDT R$ 5.197)"
         },
         {
           "time": "31/08 16:00",
@@ -34763,7 +34763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0692 (USDT R$ 5.197)"
+          "metric": "Spread: +0.0682 (USDT R$ 5.197)"
         },
         {
           "time": "31/08 16:00",
@@ -34771,7 +34771,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0667 (USDT R$ 5.195)"
+          "metric": "Spread: +0.0657 (USDT R$ 5.195)"
         },
         {
           "time": "31/08 17:00",
@@ -34779,7 +34779,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0656 (USDT R$ 5.194)"
+          "metric": "Spread: +0.0646 (USDT R$ 5.194)"
         },
         {
           "time": "31/08 17:00",
@@ -34787,7 +34787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0692 (USDT R$ 5.197)"
+          "metric": "Spread: +0.0682 (USDT R$ 5.197)"
         },
         {
           "time": "31/08 17:00",
@@ -34795,7 +34795,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0711 (USDT R$ 5.199)"
+          "metric": "Spread: +0.0701 (USDT R$ 5.199)"
         },
         {
           "time": "31/08 17:00",
@@ -34803,7 +34803,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0727 (USDT R$ 5.201)"
+          "metric": "Spread: +0.0717 (USDT R$ 5.201)"
         },
         {
           "time": "31/08 18:00",
@@ -34811,7 +34811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0727 (USDT R$ 5.201)"
+          "metric": "Spread: +0.0717 (USDT R$ 5.201)"
         },
         {
           "time": "31/08 18:00",
@@ -34819,7 +34819,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0728 (USDT R$ 5.201)"
+          "metric": "Spread: +0.0718 (USDT R$ 5.201)"
         },
         {
           "time": "31/08 18:00",
@@ -34827,7 +34827,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0724 (USDT R$ 5.201)"
+          "metric": "Spread: +0.0714 (USDT R$ 5.201)"
         },
         {
           "time": "31/08 18:00",
@@ -34835,7 +34835,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0732 (USDT R$ 5.201)"
+          "metric": "Spread: +0.0722 (USDT R$ 5.201)"
         },
         {
           "time": "31/08 19:00",
@@ -34843,7 +34843,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0755 (USDT R$ 5.204)"
+          "metric": "Spread: +0.0745 (USDT R$ 5.204)"
         },
         {
           "time": "31/08 19:00",
@@ -34851,7 +34851,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0755 (USDT R$ 5.204)"
+          "metric": "Spread: +0.0745 (USDT R$ 5.204)"
         },
         {
           "time": "31/08 19:00",
@@ -34859,7 +34859,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0755 (USDT R$ 5.204)"
+          "metric": "Spread: +0.0745 (USDT R$ 5.204)"
         },
         {
           "time": "31/08 19:00",
@@ -34867,7 +34867,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0762 (USDT R$ 5.204)"
+          "metric": "Spread: +0.0752 (USDT R$ 5.204)"
         },
         {
           "time": "31/08 20:00",
@@ -34875,7 +34875,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0762 (USDT R$ 5.204)"
+          "metric": "Spread: +0.0752 (USDT R$ 5.204)"
         },
         {
           "time": "31/08 20:00",
@@ -34883,7 +34883,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0763 (USDT R$ 5.205)"
+          "metric": "Spread: +0.0753 (USDT R$ 5.205)"
         },
         {
           "time": "31/08 20:00",
@@ -34891,7 +34891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0749 (USDT R$ 5.203)"
+          "metric": "Spread: +0.0739 (USDT R$ 5.203)"
         },
         {
           "time": "31/08 20:00",
@@ -34899,7 +34899,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0749 (USDT R$ 5.203)"
+          "metric": "Spread: +0.0739 (USDT R$ 5.203)"
         },
         {
           "time": "31/08 21:00",
@@ -34907,7 +34907,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0731 (USDT R$ 5.201)"
+          "metric": "Spread: +0.0721 (USDT R$ 5.201)"
         },
         {
           "time": "31/08 21:00",
@@ -34915,7 +34915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0737 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0727 (USDT R$ 5.202)"
         },
         {
           "time": "31/08 21:00",
@@ -34923,7 +34923,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0738 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0728 (USDT R$ 5.202)"
         },
         {
           "time": "31/08 21:00",
@@ -34931,7 +34931,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0741 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0731 (USDT R$ 5.202)"
         },
         {
           "time": "31/08 22:00",
@@ -34939,7 +34939,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0746 (USDT R$ 5.203)"
+          "metric": "Spread: +0.0736 (USDT R$ 5.203)"
         },
         {
           "time": "31/08 22:00",
@@ -34947,7 +34947,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0746 (USDT R$ 5.203)"
+          "metric": "Spread: +0.0736 (USDT R$ 5.203)"
         },
         {
           "time": "31/08 22:00",
@@ -34955,7 +34955,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0746 (USDT R$ 5.203)"
+          "metric": "Spread: +0.0736 (USDT R$ 5.203)"
         },
         {
           "time": "31/08 22:00",
@@ -34963,7 +34963,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0741 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0731 (USDT R$ 5.202)"
         },
         {
           "time": "31/08 23:00",
@@ -34971,7 +34971,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0741 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0731 (USDT R$ 5.202)"
         },
         {
           "time": "31/08 23:00",
@@ -34979,7 +34979,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0742 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0732 (USDT R$ 5.202)"
         },
         {
           "time": "31/08 23:00",
@@ -34987,7 +34987,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0739 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0729 (USDT R$ 5.202)"
         },
         {
           "time": "31/08 23:00",
@@ -34995,7 +34995,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0739 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0729 (USDT R$ 5.202)"
         },
         {
           "time": "01/09 00:00",
@@ -35003,7 +35003,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0738 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0728 (USDT R$ 5.202)"
         },
         {
           "time": "01/09 00:00",
@@ -35011,7 +35011,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0738 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0728 (USDT R$ 5.202)"
         },
         {
           "time": "01/09 00:00",
@@ -35019,7 +35019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0729 (USDT R$ 5.201)"
+          "metric": "Spread: +0.0719 (USDT R$ 5.201)"
         },
         {
           "time": "01/09 00:00",
@@ -35027,7 +35027,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0722 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0712 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 01:00",
@@ -35035,7 +35035,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 01:00",
@@ -35043,7 +35043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 01:00",
@@ -35051,7 +35051,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0722 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0712 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 01:00",
@@ -35059,7 +35059,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 02:00",
@@ -35067,7 +35067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0722 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0712 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 02:00",
@@ -35075,7 +35075,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 02:00",
@@ -35083,7 +35083,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0722 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0712 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 02:00",
@@ -35091,7 +35091,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0722 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0712 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 03:00",
@@ -35099,7 +35099,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 03:00",
@@ -35107,7 +35107,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 03:00",
@@ -35115,7 +35115,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0722 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0712 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 03:00",
@@ -35123,7 +35123,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 04:00",
@@ -35131,7 +35131,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0722 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0712 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 04:00",
@@ -35139,7 +35139,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0722 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0712 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 04:00",
@@ -35147,7 +35147,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0722 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0712 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 04:00",
@@ -35155,7 +35155,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0722 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0712 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 05:00",
@@ -35163,7 +35163,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 05:00",
@@ -35171,7 +35171,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 05:00",
@@ -35179,7 +35179,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 05:00",
@@ -35187,7 +35187,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 06:00",
@@ -35195,7 +35195,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 06:00",
@@ -35203,7 +35203,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 06:00",
@@ -35211,7 +35211,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 06:00",
@@ -35219,7 +35219,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0745 (USDT R$ 5.203)"
+          "metric": "Spread: +0.0735 (USDT R$ 5.203)"
         },
         {
           "time": "01/09 07:00",
@@ -35227,7 +35227,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0745 (USDT R$ 5.203)"
+          "metric": "Spread: +0.0735 (USDT R$ 5.203)"
         },
         {
           "time": "01/09 07:00",
@@ -35235,7 +35235,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0733 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0723 (USDT R$ 5.202)"
         },
         {
           "time": "01/09 07:00",
@@ -35243,7 +35243,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0733 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0723 (USDT R$ 5.202)"
         },
         {
           "time": "01/09 07:00",
@@ -35251,7 +35251,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0732 (USDT R$ 5.201)"
+          "metric": "Spread: +0.0722 (USDT R$ 5.201)"
         },
         {
           "time": "01/09 08:00",
@@ -35259,7 +35259,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0732 (USDT R$ 5.201)"
+          "metric": "Spread: +0.0722 (USDT R$ 5.201)"
         },
         {
           "time": "01/09 08:00",
@@ -35267,7 +35267,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0733 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0723 (USDT R$ 5.202)"
         },
         {
           "time": "01/09 08:00",
@@ -35275,7 +35275,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0741 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0731 (USDT R$ 5.202)"
         },
         {
           "time": "01/09 08:00",
@@ -35283,7 +35283,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0749 (USDT R$ 5.203)"
+          "metric": "Spread: +0.0739 (USDT R$ 5.203)"
         },
         {
           "time": "01/09 09:00",
@@ -35291,7 +35291,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0785 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0775 (USDT R$ 5.207)"
         },
         {
           "time": "01/09 09:00",
@@ -35299,7 +35299,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0820 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0810 (USDT R$ 5.210)"
         },
         {
           "time": "01/09 09:00",
@@ -35307,7 +35307,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0803 (USDT R$ 5.208)"
+          "metric": "Spread: +0.0793 (USDT R$ 5.208)"
         },
         {
           "time": "01/09 09:00",
@@ -35315,7 +35315,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0756 (USDT R$ 5.204)"
+          "metric": "Spread: +0.0746 (USDT R$ 5.204)"
         },
         {
           "time": "01/09 10:00",
@@ -35323,7 +35323,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0685 (USDT R$ 5.197)"
+          "metric": "Spread: +0.0675 (USDT R$ 5.197)"
         },
         {
           "time": "01/09 10:00",
@@ -35331,7 +35331,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0635 (USDT R$ 5.192)"
+          "metric": "Spread: +0.0625 (USDT R$ 5.192)"
         },
         {
           "time": "01/09 10:00",
@@ -35339,7 +35339,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0527 (USDT R$ 5.181)"
+          "metric": "Spread: +0.0517 (USDT R$ 5.181)"
         },
         {
           "time": "01/09 10:00",
@@ -35347,7 +35347,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0472 (USDT R$ 5.175)"
+          "metric": "Spread: +0.0462 (USDT R$ 5.175)"
         },
         {
           "time": "01/09 11:00",
@@ -35355,7 +35355,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0365 (USDT R$ 5.165)"
+          "metric": "Spread: +0.0355 (USDT R$ 5.165)"
         },
         {
           "time": "01/09 11:00",
@@ -35363,7 +35363,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0366 (USDT R$ 5.165)"
+          "metric": "Spread: +0.0356 (USDT R$ 5.165)"
         },
         {
           "time": "01/09 11:00",
@@ -35371,7 +35371,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0319 (USDT R$ 5.160)"
+          "metric": "Spread: +0.0309 (USDT R$ 5.160)"
         },
         {
           "time": "01/09 11:00",
@@ -35379,7 +35379,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0300 (USDT R$ 5.158)"
+          "metric": "Spread: +0.0290 (USDT R$ 5.158)"
         },
         {
           "time": "01/09 12:00",
@@ -35387,7 +35387,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0336 (USDT R$ 5.162)"
+          "metric": "Spread: +0.0326 (USDT R$ 5.162)"
         },
         {
           "time": "01/09 12:00",
@@ -35395,7 +35395,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0331 (USDT R$ 5.161)"
+          "metric": "Spread: +0.0321 (USDT R$ 5.161)"
         },
         {
           "time": "01/09 12:00",
@@ -35403,7 +35403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0326 (USDT R$ 5.161)"
+          "metric": "Spread: +0.0316 (USDT R$ 5.161)"
         },
         {
           "time": "01/09 12:00",
@@ -35411,7 +35411,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0296 (USDT R$ 5.158)"
+          "metric": "Spread: +0.0286 (USDT R$ 5.158)"
         },
         {
           "time": "01/09 13:00",
@@ -35419,7 +35419,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0317 (USDT R$ 5.160)"
+          "metric": "Spread: +0.0307 (USDT R$ 5.160)"
         },
         {
           "time": "01/09 13:00",
@@ -35427,7 +35427,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0345 (USDT R$ 5.163)"
+          "metric": "Spread: +0.0335 (USDT R$ 5.163)"
         },
         {
           "time": "01/09 13:00",
@@ -35435,7 +35435,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0381 (USDT R$ 5.166)"
+          "metric": "Spread: +0.0371 (USDT R$ 5.166)"
         },
         {
           "time": "01/09 13:00",
@@ -35443,7 +35443,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0337 (USDT R$ 5.162)"
+          "metric": "Spread: +0.0327 (USDT R$ 5.162)"
         },
         {
           "time": "01/09 14:00",
@@ -35451,7 +35451,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0320 (USDT R$ 5.160)"
+          "metric": "Spread: +0.0310 (USDT R$ 5.160)"
         },
         {
           "time": "01/09 14:00",
@@ -35459,7 +35459,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0273 (USDT R$ 5.155)"
+          "metric": "Spread: +0.0263 (USDT R$ 5.155)"
         },
         {
           "time": "01/09 14:00",
@@ -35467,7 +35467,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0254 (USDT R$ 5.154)"
+          "metric": "Spread: +0.0244 (USDT R$ 5.154)"
         },
         {
           "time": "01/09 14:00",
@@ -35475,7 +35475,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0280 (USDT R$ 5.156)"
+          "metric": "Spread: +0.0270 (USDT R$ 5.156)"
         },
         {
           "time": "01/09 15:00",
@@ -35483,7 +35483,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0291 (USDT R$ 5.157)"
+          "metric": "Spread: +0.0281 (USDT R$ 5.157)"
         },
         {
           "time": "01/09 15:00",
@@ -35491,7 +35491,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0269 (USDT R$ 5.155)"
+          "metric": "Spread: +0.0259 (USDT R$ 5.155)"
         },
         {
           "time": "01/09 15:00",
@@ -35499,7 +35499,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0328 (USDT R$ 5.161)"
+          "metric": "Spread: +0.0318 (USDT R$ 5.161)"
         },
         {
           "time": "01/09 15:00",
@@ -35507,7 +35507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0356 (USDT R$ 5.164)"
+          "metric": "Spread: +0.0346 (USDT R$ 5.164)"
         },
         {
           "time": "01/09 16:00",
@@ -35515,7 +35515,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0332 (USDT R$ 5.161)"
+          "metric": "Spread: +0.0322 (USDT R$ 5.161)"
         },
         {
           "time": "01/09 16:00",
@@ -35523,7 +35523,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0348 (USDT R$ 5.163)"
+          "metric": "Spread: +0.0338 (USDT R$ 5.163)"
         },
         {
           "time": "01/09 16:00",
@@ -35531,7 +35531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0338 (USDT R$ 5.162)"
+          "metric": "Spread: +0.0328 (USDT R$ 5.162)"
         },
         {
           "time": "01/09 16:00",
@@ -35539,7 +35539,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0337 (USDT R$ 5.162)"
+          "metric": "Spread: +0.0327 (USDT R$ 5.162)"
         },
         {
           "time": "01/09 17:00",
@@ -35547,7 +35547,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0377 (USDT R$ 5.166)"
+          "metric": "Spread: +0.0367 (USDT R$ 5.166)"
         },
         {
           "time": "01/09 17:00",
@@ -35555,7 +35555,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0388 (USDT R$ 5.167)"
+          "metric": "Spread: +0.0378 (USDT R$ 5.167)"
         },
         {
           "time": "01/09 17:00",
@@ -35563,7 +35563,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0404 (USDT R$ 5.169)"
+          "metric": "Spread: +0.0394 (USDT R$ 5.169)"
         },
         {
           "time": "01/09 17:00",
@@ -35571,7 +35571,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0403 (USDT R$ 5.168)"
+          "metric": "Spread: +0.0393 (USDT R$ 5.168)"
         },
         {
           "time": "01/09 18:00",
@@ -35579,7 +35579,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0398 (USDT R$ 5.168)"
+          "metric": "Spread: +0.0388 (USDT R$ 5.168)"
         },
         {
           "time": "01/09 18:00",
@@ -35587,7 +35587,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0339 (USDT R$ 5.162)"
+          "metric": "Spread: +0.0329 (USDT R$ 5.162)"
         },
         {
           "time": "01/09 18:00",
@@ -35595,7 +35595,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0340 (USDT R$ 5.162)"
+          "metric": "Spread: +0.0330 (USDT R$ 5.162)"
         },
         {
           "time": "01/09 18:00",
@@ -35603,7 +35603,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0340 (USDT R$ 5.162)"
+          "metric": "Spread: +0.0330 (USDT R$ 5.162)"
         },
         {
           "time": "01/09 19:00",
@@ -35611,7 +35611,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0395 (USDT R$ 5.168)"
+          "metric": "Spread: +0.0385 (USDT R$ 5.168)"
         },
         {
           "time": "01/09 19:00",
@@ -35619,7 +35619,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0440 (USDT R$ 5.172)"
+          "metric": "Spread: +0.0430 (USDT R$ 5.172)"
         },
         {
           "time": "01/09 19:00",
@@ -35627,7 +35627,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0464 (USDT R$ 5.175)"
+          "metric": "Spread: +0.0454 (USDT R$ 5.175)"
         },
         {
           "time": "01/09 19:00",
@@ -35635,7 +35635,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0465 (USDT R$ 5.175)"
+          "metric": "Spread: +0.0455 (USDT R$ 5.175)"
         },
         {
           "time": "01/09 20:00",
@@ -35643,7 +35643,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0460 (USDT R$ 5.174)"
+          "metric": "Spread: +0.0450 (USDT R$ 5.174)"
         },
         {
           "time": "01/09 20:00",
@@ -35651,7 +35651,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0418 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0408 (USDT R$ 5.170)"
         },
         {
           "time": "01/09 20:00",
@@ -35659,7 +35659,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0416 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0406 (USDT R$ 5.170)"
         },
         {
           "time": "01/09 20:00",
@@ -35667,7 +35667,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0372 (USDT R$ 5.165)"
+          "metric": "Spread: +0.0362 (USDT R$ 5.165)"
         },
         {
           "time": "01/09 21:00",
@@ -35675,7 +35675,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0394 (USDT R$ 5.168)"
+          "metric": "Spread: +0.0384 (USDT R$ 5.168)"
         },
         {
           "time": "01/09 21:00",
@@ -35683,7 +35683,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0397 (USDT R$ 5.168)"
+          "metric": "Spread: +0.0387 (USDT R$ 5.168)"
         },
         {
           "time": "01/09 21:00",
@@ -35691,7 +35691,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0400 (USDT R$ 5.168)"
+          "metric": "Spread: +0.0390 (USDT R$ 5.168)"
         },
         {
           "time": "01/09 21:00",
@@ -35699,7 +35699,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0400 (USDT R$ 5.168)"
+          "metric": "Spread: +0.0390 (USDT R$ 5.168)"
         },
         {
           "time": "01/09 22:00",
@@ -35707,7 +35707,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0400 (USDT R$ 5.168)"
+          "metric": "Spread: +0.0390 (USDT R$ 5.168)"
         },
         {
           "time": "01/09 22:00",
@@ -35715,7 +35715,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0408 (USDT R$ 5.169)"
+          "metric": "Spread: +0.0398 (USDT R$ 5.169)"
         },
         {
           "time": "01/09 22:00",
@@ -35723,7 +35723,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0418 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0408 (USDT R$ 5.170)"
         },
         {
           "time": "01/09 22:00",
@@ -35731,7 +35731,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0417 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0407 (USDT R$ 5.170)"
         },
         {
           "time": "01/09 23:00",
@@ -35739,7 +35739,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0418 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0408 (USDT R$ 5.170)"
         },
         {
           "time": "01/09 23:00",
@@ -35747,7 +35747,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0460 (USDT R$ 5.174)"
+          "metric": "Spread: +0.0450 (USDT R$ 5.174)"
         },
         {
           "time": "01/09 23:00",
@@ -35755,7 +35755,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0459 (USDT R$ 5.174)"
+          "metric": "Spread: +0.0449 (USDT R$ 5.174)"
         },
         {
           "time": "01/09 23:00",
@@ -35763,7 +35763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0460 (USDT R$ 5.174)"
+          "metric": "Spread: +0.0450 (USDT R$ 5.174)"
         },
         {
           "time": "02/09 00:00",
@@ -35771,7 +35771,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0459 (USDT R$ 5.174)"
+          "metric": "Spread: +0.0449 (USDT R$ 5.174)"
         },
         {
           "time": "02/09 00:00",
@@ -35779,7 +35779,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0439 (USDT R$ 5.172)"
+          "metric": "Spread: +0.0429 (USDT R$ 5.172)"
         },
         {
           "time": "02/09 00:00",
@@ -35787,7 +35787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0443 (USDT R$ 5.173)"
+          "metric": "Spread: +0.0433 (USDT R$ 5.173)"
         },
         {
           "time": "02/09 00:00",
@@ -35795,7 +35795,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0444 (USDT R$ 5.173)"
+          "metric": "Spread: +0.0434 (USDT R$ 5.173)"
         },
         {
           "time": "02/09 01:00",
@@ -35803,7 +35803,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0444 (USDT R$ 5.173)"
+          "metric": "Spread: +0.0434 (USDT R$ 5.173)"
         },
         {
           "time": "02/09 01:00",
@@ -35811,7 +35811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0445 (USDT R$ 5.173)"
+          "metric": "Spread: +0.0435 (USDT R$ 5.173)"
         },
         {
           "time": "02/09 01:00",
@@ -35819,7 +35819,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0444 (USDT R$ 5.173)"
+          "metric": "Spread: +0.0434 (USDT R$ 5.173)"
         },
         {
           "time": "02/09 01:00",
@@ -35827,7 +35827,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0445 (USDT R$ 5.173)"
+          "metric": "Spread: +0.0435 (USDT R$ 5.173)"
         },
         {
           "time": "02/09 02:00",
@@ -35835,7 +35835,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0445 (USDT R$ 5.173)"
+          "metric": "Spread: +0.0435 (USDT R$ 5.173)"
         },
         {
           "time": "02/09 02:00",
@@ -35843,7 +35843,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0437 (USDT R$ 5.172)"
+          "metric": "Spread: +0.0427 (USDT R$ 5.172)"
         },
         {
           "time": "02/09 02:00",
@@ -35851,7 +35851,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0429 (USDT R$ 5.171)"
+          "metric": "Spread: +0.0419 (USDT R$ 5.171)"
         },
         {
           "time": "02/09 02:00",
@@ -35859,7 +35859,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0421 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0411 (USDT R$ 5.170)"
         },
         {
           "time": "02/09 03:00",
@@ -35867,7 +35867,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0422 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0412 (USDT R$ 5.170)"
         },
         {
           "time": "02/09 03:00",
@@ -35875,7 +35875,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0422 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0412 (USDT R$ 5.170)"
         },
         {
           "time": "02/09 03:00",
@@ -35883,7 +35883,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0421 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0411 (USDT R$ 5.170)"
         },
         {
           "time": "02/09 03:00",
@@ -35891,7 +35891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0421 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0411 (USDT R$ 5.170)"
         },
         {
           "time": "02/09 04:00",
@@ -35899,7 +35899,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0420 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0410 (USDT R$ 5.170)"
         },
         {
           "time": "02/09 04:00",
@@ -35907,7 +35907,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0416 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0406 (USDT R$ 5.170)"
         },
         {
           "time": "02/09 04:00",
@@ -35915,7 +35915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0381 (USDT R$ 5.166)"
+          "metric": "Spread: +0.0371 (USDT R$ 5.166)"
         },
         {
           "time": "02/09 04:00",
@@ -35923,7 +35923,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0381 (USDT R$ 5.166)"
+          "metric": "Spread: +0.0371 (USDT R$ 5.166)"
         },
         {
           "time": "02/09 05:00",
@@ -35931,7 +35931,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0381 (USDT R$ 5.166)"
+          "metric": "Spread: +0.0371 (USDT R$ 5.166)"
         },
         {
           "time": "02/09 05:00",
@@ -35939,7 +35939,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0380 (USDT R$ 5.166)"
+          "metric": "Spread: +0.0370 (USDT R$ 5.166)"
         },
         {
           "time": "02/09 05:00",
@@ -35947,7 +35947,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0381 (USDT R$ 5.166)"
+          "metric": "Spread: +0.0371 (USDT R$ 5.166)"
         },
         {
           "time": "02/09 05:00",
@@ -35955,7 +35955,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0380 (USDT R$ 5.166)"
+          "metric": "Spread: +0.0370 (USDT R$ 5.166)"
         },
         {
           "time": "02/09 06:00",
@@ -35963,7 +35963,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0381 (USDT R$ 5.166)"
+          "metric": "Spread: +0.0371 (USDT R$ 5.166)"
         },
         {
           "time": "02/09 06:00",
@@ -35971,7 +35971,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0381 (USDT R$ 5.166)"
+          "metric": "Spread: +0.0371 (USDT R$ 5.166)"
         },
         {
           "time": "02/09 06:00",
@@ -35979,7 +35979,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0439 (USDT R$ 5.172)"
+          "metric": "Spread: +0.0429 (USDT R$ 5.172)"
         },
         {
           "time": "02/09 06:00",
@@ -35987,7 +35987,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0442 (USDT R$ 5.172)"
+          "metric": "Spread: +0.0432 (USDT R$ 5.172)"
         },
         {
           "time": "02/09 07:00",
@@ -35995,7 +35995,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0445 (USDT R$ 5.173)"
+          "metric": "Spread: +0.0435 (USDT R$ 5.173)"
         },
         {
           "time": "02/09 07:00",
@@ -36003,7 +36003,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0445 (USDT R$ 5.173)"
+          "metric": "Spread: +0.0435 (USDT R$ 5.173)"
         },
         {
           "time": "02/09 07:00",
@@ -36011,7 +36011,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0445 (USDT R$ 5.173)"
+          "metric": "Spread: +0.0435 (USDT R$ 5.173)"
         },
         {
           "time": "02/09 07:00",
@@ -36019,7 +36019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0445 (USDT R$ 5.173)"
+          "metric": "Spread: +0.0435 (USDT R$ 5.173)"
         },
         {
           "time": "02/09 08:00",
@@ -36027,7 +36027,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0444 (USDT R$ 5.173)"
+          "metric": "Spread: +0.0434 (USDT R$ 5.173)"
         },
         {
           "time": "02/09 08:00",
@@ -36035,7 +36035,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0416 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0406 (USDT R$ 5.170)"
         },
         {
           "time": "02/09 08:00",
@@ -36043,7 +36043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0403 (USDT R$ 5.168)"
+          "metric": "Spread: +0.0393 (USDT R$ 5.168)"
         },
         {
           "time": "02/09 08:00",
@@ -36051,7 +36051,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0405 (USDT R$ 5.169)"
+          "metric": "Spread: +0.0395 (USDT R$ 5.169)"
         },
         {
           "time": "02/09 09:00",
@@ -36059,7 +36059,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0369 (USDT R$ 5.165)"
+          "metric": "Spread: +0.0359 (USDT R$ 5.165)"
         },
         {
           "time": "02/09 09:00",
@@ -36067,7 +36067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0411 (USDT R$ 5.169)"
+          "metric": "Spread: +0.0401 (USDT R$ 5.169)"
         },
         {
           "time": "02/09 09:00",
@@ -36075,7 +36075,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0427 (USDT R$ 5.171)"
+          "metric": "Spread: +0.0417 (USDT R$ 5.171)"
         },
         {
           "time": "02/09 09:00",
@@ -36083,7 +36083,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0414 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0404 (USDT R$ 5.170)"
         },
         {
           "time": "02/09 10:00",
@@ -36091,7 +36091,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0446 (USDT R$ 5.173)"
+          "metric": "Spread: +0.0436 (USDT R$ 5.173)"
         },
         {
           "time": "02/09 10:00",
@@ -36099,7 +36099,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0414 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0404 (USDT R$ 5.170)"
         },
         {
           "time": "02/09 10:00",
@@ -36107,623 +36107,623 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0293 (USDT R$ 5.157)"
+          "metric": "Spread: +0.0283 (USDT R$ 5.157)"
         },
         {
           "time": "02/09 10:00",
           "label": "02/09 10:00",
-          "score": 80,
-          "score_a": 0,
-          "score_b": 80,
-          "metric": "Spread: +0.0160 (USDT R$ 5.144)"
-        },
-        {
-          "time": "02/09 11:00",
-          "label": "02/09 11:00",
-          "score": 72,
-          "score_a": 0,
-          "score_b": 72,
-          "metric": "Spread: +0.0144 (USDT R$ 5.143)"
-        },
-        {
-          "time": "02/09 11:00",
-          "label": "02/09 11:00",
-          "score": 32,
-          "score_a": 0,
-          "score_b": 32,
-          "metric": "Spread: +0.0063 (USDT R$ 5.135)"
-        },
-        {
-          "time": "02/09 11:00",
-          "label": "02/09 11:00",
-          "score": 50,
-          "score_a": 50,
-          "score_b": 0,
-          "metric": "Spread: -0.0101 (USDT R$ 5.118)"
-        },
-        {
-          "time": "02/09 11:00",
-          "label": "02/09 11:00",
-          "score": 45,
-          "score_a": 45,
-          "score_b": 0,
-          "metric": "Spread: -0.0091 (USDT R$ 5.119)"
-        },
-        {
-          "time": "02/09 12:00",
-          "label": "02/09 12:00",
-          "score": 51,
-          "score_a": 51,
-          "score_b": 0,
-          "metric": "Spread: -0.0102 (USDT R$ 5.118)"
-        },
-        {
-          "time": "02/09 12:00",
-          "label": "02/09 12:00",
-          "score": 43,
-          "score_a": 43,
-          "score_b": 0,
-          "metric": "Spread: -0.0086 (USDT R$ 5.120)"
-        },
-        {
-          "time": "02/09 12:00",
-          "label": "02/09 12:00",
-          "score": 38,
-          "score_a": 38,
-          "score_b": 0,
-          "metric": "Spread: -0.0076 (USDT R$ 5.121)"
-        },
-        {
-          "time": "02/09 12:00",
-          "label": "02/09 12:00",
-          "score": 64,
-          "score_a": 64,
-          "score_b": 0,
-          "metric": "Spread: -0.0128 (USDT R$ 5.115)"
-        },
-        {
-          "time": "02/09 13:00",
-          "label": "02/09 13:00",
-          "score": 50,
-          "score_a": 50,
-          "score_b": 0,
-          "metric": "Spread: -0.0101 (USDT R$ 5.118)"
-        },
-        {
-          "time": "02/09 13:00",
-          "label": "02/09 13:00",
-          "score": 79,
-          "score_a": 79,
-          "score_b": 0,
-          "metric": "Spread: -0.0158 (USDT R$ 5.112)"
-        },
-        {
-          "time": "02/09 13:00",
-          "label": "02/09 13:00",
-          "score": 85,
-          "score_a": 85,
-          "score_b": 0,
-          "metric": "Spread: -0.0171 (USDT R$ 5.111)"
-        },
-        {
-          "time": "02/09 13:00",
-          "label": "02/09 13:00",
           "score": 75,
-          "score_a": 75,
-          "score_b": 0,
-          "metric": "Spread: -0.0151 (USDT R$ 5.113)"
+          "score_a": 0,
+          "score_b": 75,
+          "metric": "Spread: +0.0150 (USDT R$ 5.144)"
         },
         {
-          "time": "02/09 14:00",
-          "label": "02/09 14:00",
+          "time": "02/09 11:00",
+          "label": "02/09 11:00",
           "score": 67,
-          "score_a": 67,
-          "score_b": 0,
-          "metric": "Spread: -0.0134 (USDT R$ 5.115)"
+          "score_a": 0,
+          "score_b": 67,
+          "metric": "Spread: +0.0134 (USDT R$ 5.143)"
         },
         {
-          "time": "02/09 14:00",
-          "label": "02/09 14:00",
+          "time": "02/09 11:00",
+          "label": "02/09 11:00",
+          "score": 27,
+          "score_a": 0,
+          "score_b": 27,
+          "metric": "Spread: +0.0053 (USDT R$ 5.135)"
+        },
+        {
+          "time": "02/09 11:00",
+          "label": "02/09 11:00",
+          "score": 55,
+          "score_a": 55,
+          "score_b": 0,
+          "metric": "Spread: -0.0111 (USDT R$ 5.118)"
+        },
+        {
+          "time": "02/09 11:00",
+          "label": "02/09 11:00",
           "score": 50,
           "score_a": 50,
           "score_b": 0,
-          "metric": "Spread: -0.0101 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0101 (USDT R$ 5.119)"
         },
         {
-          "time": "02/09 14:00",
-          "label": "02/09 14:00",
+          "time": "02/09 12:00",
+          "label": "02/09 12:00",
+          "score": 56,
+          "score_a": 56,
+          "score_b": 0,
+          "metric": "Spread: -0.0112 (USDT R$ 5.118)"
+        },
+        {
+          "time": "02/09 12:00",
+          "label": "02/09 12:00",
           "score": 48,
           "score_a": 48,
           "score_b": 0,
-          "metric": "Spread: -0.0097 (USDT R$ 5.119)"
+          "metric": "Spread: -0.0096 (USDT R$ 5.120)"
+        },
+        {
+          "time": "02/09 12:00",
+          "label": "02/09 12:00",
+          "score": 43,
+          "score_a": 43,
+          "score_b": 0,
+          "metric": "Spread: -0.0086 (USDT R$ 5.121)"
+        },
+        {
+          "time": "02/09 12:00",
+          "label": "02/09 12:00",
+          "score": 69,
+          "score_a": 69,
+          "score_b": 0,
+          "metric": "Spread: -0.0138 (USDT R$ 5.115)"
+        },
+        {
+          "time": "02/09 13:00",
+          "label": "02/09 13:00",
+          "score": 55,
+          "score_a": 55,
+          "score_b": 0,
+          "metric": "Spread: -0.0111 (USDT R$ 5.118)"
+        },
+        {
+          "time": "02/09 13:00",
+          "label": "02/09 13:00",
+          "score": 84,
+          "score_a": 84,
+          "score_b": 0,
+          "metric": "Spread: -0.0168 (USDT R$ 5.112)"
+        },
+        {
+          "time": "02/09 13:00",
+          "label": "02/09 13:00",
+          "score": 90,
+          "score_a": 90,
+          "score_b": 0,
+          "metric": "Spread: -0.0181 (USDT R$ 5.111)"
+        },
+        {
+          "time": "02/09 13:00",
+          "label": "02/09 13:00",
+          "score": 80,
+          "score_a": 80,
+          "score_b": 0,
+          "metric": "Spread: -0.0161 (USDT R$ 5.113)"
         },
         {
           "time": "02/09 14:00",
           "label": "02/09 14:00",
-          "score": 57,
-          "score_a": 57,
+          "score": 72,
+          "score_a": 72,
           "score_b": 0,
-          "metric": "Spread: -0.0114 (USDT R$ 5.117)"
+          "metric": "Spread: -0.0144 (USDT R$ 5.115)"
         },
         {
-          "time": "02/09 15:00",
-          "label": "02/09 15:00",
-          "score": 57,
-          "score_a": 57,
+          "time": "02/09 14:00",
+          "label": "02/09 14:00",
+          "score": 55,
+          "score_a": 55,
           "score_b": 0,
-          "metric": "Spread: -0.0114 (USDT R$ 5.117)"
+          "metric": "Spread: -0.0111 (USDT R$ 5.118)"
         },
         {
-          "time": "02/09 15:00",
-          "label": "02/09 15:00",
-          "score": 52,
-          "score_a": 52,
+          "time": "02/09 14:00",
+          "label": "02/09 14:00",
+          "score": 53,
+          "score_a": 53,
           "score_b": 0,
-          "metric": "Spread: -0.0104 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0107 (USDT R$ 5.119)"
         },
         {
-          "time": "02/09 15:00",
-          "label": "02/09 15:00",
-          "score": 41,
-          "score_a": 41,
-          "score_b": 0,
-          "metric": "Spread: -0.0083 (USDT R$ 5.120)"
-        },
-        {
-          "time": "02/09 15:00",
-          "label": "02/09 15:00",
-          "score": 33,
-          "score_a": 33,
-          "score_b": 0,
-          "metric": "Spread: -0.0067 (USDT R$ 5.122)"
-        },
-        {
-          "time": "02/09 16:00",
-          "label": "02/09 16:00",
-          "score": 33,
-          "score_a": 33,
-          "score_b": 0,
-          "metric": "Spread: -0.0067 (USDT R$ 5.122)"
-        },
-        {
-          "time": "02/09 16:00",
-          "label": "02/09 16:00",
-          "score": 43,
-          "score_a": 43,
-          "score_b": 0,
-          "metric": "Spread: -0.0087 (USDT R$ 5.120)"
-        },
-        {
-          "time": "02/09 16:00",
-          "label": "02/09 16:00",
-          "score": 45,
-          "score_a": 45,
-          "score_b": 0,
-          "metric": "Spread: -0.0090 (USDT R$ 5.119)"
-        },
-        {
-          "time": "02/09 16:00",
-          "label": "02/09 16:00",
-          "score": 43,
-          "score_a": 43,
-          "score_b": 0,
-          "metric": "Spread: -0.0087 (USDT R$ 5.120)"
-        },
-        {
-          "time": "02/09 17:00",
-          "label": "02/09 17:00",
-          "score": 46,
-          "score_a": 46,
-          "score_b": 0,
-          "metric": "Spread: -0.0093 (USDT R$ 5.119)"
-        },
-        {
-          "time": "02/09 17:00",
-          "label": "02/09 17:00",
-          "score": 86,
-          "score_a": 86,
-          "score_b": 0,
-          "metric": "Spread: -0.0172 (USDT R$ 5.111)"
-        },
-        {
-          "time": "02/09 17:00",
-          "label": "02/09 17:00",
-          "score": 100,
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Spread: -0.0258 (USDT R$ 5.102)"
-        },
-        {
-          "time": "02/09 17:00",
-          "label": "02/09 17:00",
-          "score": 100,
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Spread: -0.0259 (USDT R$ 5.102)"
-        },
-        {
-          "time": "02/09 18:00",
-          "label": "02/09 18:00",
-          "score": 100,
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Spread: -0.0255 (USDT R$ 5.103)"
-        },
-        {
-          "time": "02/09 18:00",
-          "label": "02/09 18:00",
-          "score": 100,
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Spread: -0.0222 (USDT R$ 5.106)"
-        },
-        {
-          "time": "02/09 18:00",
-          "label": "02/09 18:00",
-          "score": 100,
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "Spread: -0.0222 (USDT R$ 5.106)"
-        },
-        {
-          "time": "02/09 18:00",
-          "label": "02/09 18:00",
-          "score": 44,
-          "score_a": 44,
-          "score_b": 0,
-          "metric": "Spread: -0.0088 (USDT R$ 5.119)"
-        },
-        {
-          "time": "02/09 19:00",
-          "label": "02/09 19:00",
-          "score": 50,
-          "score_a": 50,
-          "score_b": 0,
-          "metric": "Spread: -0.0099 (USDT R$ 5.118)"
-        },
-        {
-          "time": "02/09 19:00",
-          "label": "02/09 19:00",
+          "time": "02/09 14:00",
+          "label": "02/09 14:00",
           "score": 62,
           "score_a": 62,
           "score_b": 0,
-          "metric": "Spread: -0.0125 (USDT R$ 5.116)"
+          "metric": "Spread: -0.0124 (USDT R$ 5.117)"
+        },
+        {
+          "time": "02/09 15:00",
+          "label": "02/09 15:00",
+          "score": 62,
+          "score_a": 62,
+          "score_b": 0,
+          "metric": "Spread: -0.0124 (USDT R$ 5.117)"
+        },
+        {
+          "time": "02/09 15:00",
+          "label": "02/09 15:00",
+          "score": 57,
+          "score_a": 57,
+          "score_b": 0,
+          "metric": "Spread: -0.0114 (USDT R$ 5.118)"
+        },
+        {
+          "time": "02/09 15:00",
+          "label": "02/09 15:00",
+          "score": 46,
+          "score_a": 46,
+          "score_b": 0,
+          "metric": "Spread: -0.0093 (USDT R$ 5.120)"
+        },
+        {
+          "time": "02/09 15:00",
+          "label": "02/09 15:00",
+          "score": 38,
+          "score_a": 38,
+          "score_b": 0,
+          "metric": "Spread: -0.0077 (USDT R$ 5.122)"
+        },
+        {
+          "time": "02/09 16:00",
+          "label": "02/09 16:00",
+          "score": 38,
+          "score_a": 38,
+          "score_b": 0,
+          "metric": "Spread: -0.0077 (USDT R$ 5.122)"
+        },
+        {
+          "time": "02/09 16:00",
+          "label": "02/09 16:00",
+          "score": 48,
+          "score_a": 48,
+          "score_b": 0,
+          "metric": "Spread: -0.0097 (USDT R$ 5.120)"
+        },
+        {
+          "time": "02/09 16:00",
+          "label": "02/09 16:00",
+          "score": 50,
+          "score_a": 50,
+          "score_b": 0,
+          "metric": "Spread: -0.0100 (USDT R$ 5.119)"
+        },
+        {
+          "time": "02/09 16:00",
+          "label": "02/09 16:00",
+          "score": 48,
+          "score_a": 48,
+          "score_b": 0,
+          "metric": "Spread: -0.0097 (USDT R$ 5.120)"
+        },
+        {
+          "time": "02/09 17:00",
+          "label": "02/09 17:00",
+          "score": 51,
+          "score_a": 51,
+          "score_b": 0,
+          "metric": "Spread: -0.0103 (USDT R$ 5.119)"
+        },
+        {
+          "time": "02/09 17:00",
+          "label": "02/09 17:00",
+          "score": 91,
+          "score_a": 91,
+          "score_b": 0,
+          "metric": "Spread: -0.0182 (USDT R$ 5.111)"
+        },
+        {
+          "time": "02/09 17:00",
+          "label": "02/09 17:00",
+          "score": 100,
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Spread: -0.0268 (USDT R$ 5.102)"
+        },
+        {
+          "time": "02/09 17:00",
+          "label": "02/09 17:00",
+          "score": 100,
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Spread: -0.0269 (USDT R$ 5.102)"
+        },
+        {
+          "time": "02/09 18:00",
+          "label": "02/09 18:00",
+          "score": 100,
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Spread: -0.0265 (USDT R$ 5.103)"
+        },
+        {
+          "time": "02/09 18:00",
+          "label": "02/09 18:00",
+          "score": 100,
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Spread: -0.0232 (USDT R$ 5.106)"
+        },
+        {
+          "time": "02/09 18:00",
+          "label": "02/09 18:00",
+          "score": 100,
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Spread: -0.0232 (USDT R$ 5.106)"
+        },
+        {
+          "time": "02/09 18:00",
+          "label": "02/09 18:00",
+          "score": 49,
+          "score_a": 49,
+          "score_b": 0,
+          "metric": "Spread: -0.0098 (USDT R$ 5.119)"
         },
         {
           "time": "02/09 19:00",
           "label": "02/09 19:00",
-          "score": 70,
-          "score_a": 70,
+          "score": 55,
+          "score_a": 55,
           "score_b": 0,
-          "metric": "Spread: -0.0141 (USDT R$ 5.114)"
+          "metric": "Spread: -0.0109 (USDT R$ 5.118)"
         },
         {
           "time": "02/09 19:00",
           "label": "02/09 19:00",
-          "score": 64,
-          "score_a": 64,
+          "score": 67,
+          "score_a": 67,
           "score_b": 0,
-          "metric": "Spread: -0.0129 (USDT R$ 5.115)"
+          "metric": "Spread: -0.0135 (USDT R$ 5.116)"
         },
         {
-          "time": "02/09 20:00",
-          "label": "02/09 20:00",
-          "score": 70,
-          "score_a": 70,
-          "score_b": 0,
-          "metric": "Spread: -0.0141 (USDT R$ 5.114)"
-        },
-        {
-          "time": "02/09 20:00",
-          "label": "02/09 20:00",
-          "score": 64,
-          "score_a": 64,
-          "score_b": 0,
-          "metric": "Spread: -0.0128 (USDT R$ 5.115)"
-        },
-        {
-          "time": "02/09 20:00",
-          "label": "02/09 20:00",
-          "score": 70,
-          "score_a": 70,
-          "score_b": 0,
-          "metric": "Spread: -0.0140 (USDT R$ 5.114)"
-        },
-        {
-          "time": "02/09 20:00",
-          "label": "02/09 20:00",
-          "score": 70,
-          "score_a": 70,
-          "score_b": 0,
-          "metric": "Spread: -0.0140 (USDT R$ 5.114)"
-        },
-        {
-          "time": "02/09 21:00",
-          "label": "02/09 21:00",
-          "score": 64,
-          "score_a": 64,
-          "score_b": 0,
-          "metric": "Spread: -0.0129 (USDT R$ 5.115)"
-        },
-        {
-          "time": "02/09 21:00",
-          "label": "02/09 21:00",
-          "score": 59,
-          "score_a": 59,
-          "score_b": 0,
-          "metric": "Spread: -0.0119 (USDT R$ 5.116)"
-        },
-        {
-          "time": "02/09 21:00",
-          "label": "02/09 21:00",
-          "score": 60,
-          "score_a": 60,
-          "score_b": 0,
-          "metric": "Spread: -0.0120 (USDT R$ 5.116)"
-        },
-        {
-          "time": "02/09 21:00",
-          "label": "02/09 21:00",
-          "score": 64,
-          "score_a": 64,
-          "score_b": 0,
-          "metric": "Spread: -0.0129 (USDT R$ 5.115)"
-        },
-        {
-          "time": "02/09 22:00",
-          "label": "02/09 22:00",
-          "score": 72,
-          "score_a": 72,
-          "score_b": 0,
-          "metric": "Spread: -0.0145 (USDT R$ 5.114)"
-        },
-        {
-          "time": "02/09 22:00",
-          "label": "02/09 22:00",
-          "score": 73,
-          "score_a": 73,
-          "score_b": 0,
-          "metric": "Spread: -0.0146 (USDT R$ 5.114)"
-        },
-        {
-          "time": "02/09 22:00",
-          "label": "02/09 22:00",
-          "score": 90,
-          "score_a": 90,
-          "score_b": 0,
-          "metric": "Spread: -0.0181 (USDT R$ 5.110)"
-        },
-        {
-          "time": "02/09 22:00",
-          "label": "02/09 22:00",
+          "time": "02/09 19:00",
+          "label": "02/09 19:00",
           "score": 76,
           "score_a": 76,
           "score_b": 0,
-          "metric": "Spread: -0.0153 (USDT R$ 5.113)"
+          "metric": "Spread: -0.0151 (USDT R$ 5.114)"
         },
         {
-          "time": "02/09 23:00",
-          "label": "02/09 23:00",
+          "time": "02/09 19:00",
+          "label": "02/09 19:00",
+          "score": 69,
+          "score_a": 69,
+          "score_b": 0,
+          "metric": "Spread: -0.0139 (USDT R$ 5.115)"
+        },
+        {
+          "time": "02/09 20:00",
+          "label": "02/09 20:00",
+          "score": 76,
+          "score_a": 76,
+          "score_b": 0,
+          "metric": "Spread: -0.0151 (USDT R$ 5.114)"
+        },
+        {
+          "time": "02/09 20:00",
+          "label": "02/09 20:00",
+          "score": 69,
+          "score_a": 69,
+          "score_b": 0,
+          "metric": "Spread: -0.0138 (USDT R$ 5.115)"
+        },
+        {
+          "time": "02/09 20:00",
+          "label": "02/09 20:00",
           "score": 75,
           "score_a": 75,
           "score_b": 0,
-          "metric": "Spread: -0.0151 (USDT R$ 5.113)"
+          "metric": "Spread: -0.0150 (USDT R$ 5.114)"
         },
         {
-          "time": "02/09 23:00",
-          "label": "02/09 23:00",
-          "score": 67,
-          "score_a": 67,
+          "time": "02/09 20:00",
+          "label": "02/09 20:00",
+          "score": 75,
+          "score_a": 75,
           "score_b": 0,
-          "metric": "Spread: -0.0133 (USDT R$ 5.115)"
+          "metric": "Spread: -0.0150 (USDT R$ 5.114)"
+        },
+        {
+          "time": "02/09 21:00",
+          "label": "02/09 21:00",
+          "score": 69,
+          "score_a": 69,
+          "score_b": 0,
+          "metric": "Spread: -0.0139 (USDT R$ 5.115)"
+        },
+        {
+          "time": "02/09 21:00",
+          "label": "02/09 21:00",
+          "score": 65,
+          "score_a": 65,
+          "score_b": 0,
+          "metric": "Spread: -0.0129 (USDT R$ 5.116)"
+        },
+        {
+          "time": "02/09 21:00",
+          "label": "02/09 21:00",
+          "score": 65,
+          "score_a": 65,
+          "score_b": 0,
+          "metric": "Spread: -0.0130 (USDT R$ 5.116)"
+        },
+        {
+          "time": "02/09 21:00",
+          "label": "02/09 21:00",
+          "score": 69,
+          "score_a": 69,
+          "score_b": 0,
+          "metric": "Spread: -0.0139 (USDT R$ 5.115)"
+        },
+        {
+          "time": "02/09 22:00",
+          "label": "02/09 22:00",
+          "score": 78,
+          "score_a": 78,
+          "score_b": 0,
+          "metric": "Spread: -0.0155 (USDT R$ 5.114)"
+        },
+        {
+          "time": "02/09 22:00",
+          "label": "02/09 22:00",
+          "score": 78,
+          "score_a": 78,
+          "score_b": 0,
+          "metric": "Spread: -0.0156 (USDT R$ 5.114)"
+        },
+        {
+          "time": "02/09 22:00",
+          "label": "02/09 22:00",
+          "score": 95,
+          "score_a": 95,
+          "score_b": 0,
+          "metric": "Spread: -0.0191 (USDT R$ 5.110)"
+        },
+        {
+          "time": "02/09 22:00",
+          "label": "02/09 22:00",
+          "score": 82,
+          "score_a": 82,
+          "score_b": 0,
+          "metric": "Spread: -0.0163 (USDT R$ 5.113)"
         },
         {
           "time": "02/09 23:00",
           "label": "02/09 23:00",
+          "score": 80,
+          "score_a": 80,
+          "score_b": 0,
+          "metric": "Spread: -0.0161 (USDT R$ 5.113)"
+        },
+        {
+          "time": "02/09 23:00",
+          "label": "02/09 23:00",
+          "score": 72,
+          "score_a": 72,
+          "score_b": 0,
+          "metric": "Spread: -0.0143 (USDT R$ 5.115)"
+        },
+        {
+          "time": "02/09 23:00",
+          "label": "02/09 23:00",
+          "score": 100,
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "Spread: -0.0208 (USDT R$ 5.108)"
+        },
+        {
+          "time": "02/09 23:00",
+          "label": "02/09 23:00",
+          "score": 77,
+          "score_a": 77,
+          "score_b": 0,
+          "metric": "Spread: -0.0154 (USDT R$ 5.114)"
+        },
+        {
+          "time": "03/09 00:00",
+          "label": "03/09 00:00",
+          "score": 77,
+          "score_a": 77,
+          "score_b": 0,
+          "metric": "Spread: -0.0154 (USDT R$ 5.114)"
+        },
+        {
+          "time": "03/09 00:00",
+          "label": "03/09 00:00",
+          "score": 78,
+          "score_a": 78,
+          "score_b": 0,
+          "metric": "Spread: -0.0155 (USDT R$ 5.114)"
+        },
+        {
+          "time": "03/09 00:00",
+          "label": "03/09 00:00",
+          "score": 78,
+          "score_a": 78,
+          "score_b": 0,
+          "metric": "Spread: -0.0155 (USDT R$ 5.114)"
+        },
+        {
+          "time": "03/09 00:00",
+          "label": "03/09 00:00",
+          "score": 77,
+          "score_a": 77,
+          "score_b": 0,
+          "metric": "Spread: -0.0154 (USDT R$ 5.114)"
+        },
+        {
+          "time": "03/09 01:00",
+          "label": "03/09 01:00",
+          "score": 73,
+          "score_a": 73,
+          "score_b": 0,
+          "metric": "Spread: -0.0146 (USDT R$ 5.115)"
+        },
+        {
+          "time": "03/09 01:00",
+          "label": "03/09 01:00",
+          "score": 83,
+          "score_a": 83,
+          "score_b": 0,
+          "metric": "Spread: -0.0166 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 01:00",
+          "label": "03/09 01:00",
+          "score": 82,
+          "score_a": 82,
+          "score_b": 0,
+          "metric": "Spread: -0.0165 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 01:00",
+          "label": "03/09 01:00",
+          "score": 83,
+          "score_a": 83,
+          "score_b": 0,
+          "metric": "Spread: -0.0166 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 02:00",
+          "label": "03/09 02:00",
+          "score": 83,
+          "score_a": 83,
+          "score_b": 0,
+          "metric": "Spread: -0.0166 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 02:00",
+          "label": "03/09 02:00",
+          "score": 83,
+          "score_a": 83,
+          "score_b": 0,
+          "metric": "Spread: -0.0166 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 02:00",
+          "label": "03/09 02:00",
+          "score": 83,
+          "score_a": 83,
+          "score_b": 0,
+          "metric": "Spread: -0.0166 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 02:00",
+          "label": "03/09 02:00",
+          "score": 83,
+          "score_a": 83,
+          "score_b": 0,
+          "metric": "Spread: -0.0166 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 03:00",
+          "label": "03/09 03:00",
+          "score": 83,
+          "score_a": 83,
+          "score_b": 0,
+          "metric": "Spread: -0.0166 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 03:00",
+          "label": "03/09 03:00",
+          "score": 83,
+          "score_a": 83,
+          "score_b": 0,
+          "metric": "Spread: -0.0166 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 03:00",
+          "label": "03/09 03:00",
+          "score": 83,
+          "score_a": 83,
+          "score_b": 0,
+          "metric": "Spread: -0.0166 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 03:00",
+          "label": "03/09 03:00",
+          "score": 82,
+          "score_a": 82,
+          "score_b": 0,
+          "metric": "Spread: -0.0165 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 04:00",
+          "label": "03/09 04:00",
+          "score": 82,
+          "score_a": 82,
+          "score_b": 0,
+          "metric": "Spread: -0.0165 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 04:00",
+          "label": "03/09 04:00",
+          "score": 83,
+          "score_a": 83,
+          "score_b": 0,
+          "metric": "Spread: -0.0166 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 04:00",
+          "label": "03/09 04:00",
+          "score": 79,
+          "score_a": 79,
+          "score_b": 0,
+          "metric": "Spread: -0.0158 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 04:00",
+          "label": "03/09 04:00",
+          "score": 79,
+          "score_a": 79,
+          "score_b": 0,
+          "metric": "Spread: -0.0158 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 05:00",
+          "label": "03/09 05:00",
+          "score": 79,
+          "score_a": 79,
+          "score_b": 0,
+          "metric": "Spread: -0.0158 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 05:00",
+          "label": "03/09 05:00",
+          "score": 93,
+          "score_a": 93,
+          "score_b": 0,
+          "metric": "Spread: -0.0185 (USDT R$ 5.111)"
+        },
+        {
+          "time": "03/09 05:00",
+          "label": "03/09 05:00",
           "score": 99,
           "score_a": 99,
           "score_b": 0,
-          "metric": "Spread: -0.0198 (USDT R$ 5.108)"
-        },
-        {
-          "time": "02/09 23:00",
-          "label": "02/09 23:00",
-          "score": 72,
-          "score_a": 72,
-          "score_b": 0,
-          "metric": "Spread: -0.0144 (USDT R$ 5.114)"
-        },
-        {
-          "time": "03/09 00:00",
-          "label": "03/09 00:00",
-          "score": 72,
-          "score_a": 72,
-          "score_b": 0,
-          "metric": "Spread: -0.0144 (USDT R$ 5.114)"
-        },
-        {
-          "time": "03/09 00:00",
-          "label": "03/09 00:00",
-          "score": 72,
-          "score_a": 72,
-          "score_b": 0,
-          "metric": "Spread: -0.0145 (USDT R$ 5.114)"
-        },
-        {
-          "time": "03/09 00:00",
-          "label": "03/09 00:00",
-          "score": 72,
-          "score_a": 72,
-          "score_b": 0,
-          "metric": "Spread: -0.0145 (USDT R$ 5.114)"
-        },
-        {
-          "time": "03/09 00:00",
-          "label": "03/09 00:00",
-          "score": 72,
-          "score_a": 72,
-          "score_b": 0,
-          "metric": "Spread: -0.0144 (USDT R$ 5.114)"
-        },
-        {
-          "time": "03/09 01:00",
-          "label": "03/09 01:00",
-          "score": 68,
-          "score_a": 68,
-          "score_b": 0,
-          "metric": "Spread: -0.0136 (USDT R$ 5.115)"
-        },
-        {
-          "time": "03/09 01:00",
-          "label": "03/09 01:00",
-          "score": 78,
-          "score_a": 78,
-          "score_b": 0,
-          "metric": "Spread: -0.0156 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 01:00",
-          "label": "03/09 01:00",
-          "score": 77,
-          "score_a": 77,
-          "score_b": 0,
-          "metric": "Spread: -0.0155 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 01:00",
-          "label": "03/09 01:00",
-          "score": 78,
-          "score_a": 78,
-          "score_b": 0,
-          "metric": "Spread: -0.0156 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 02:00",
-          "label": "03/09 02:00",
-          "score": 78,
-          "score_a": 78,
-          "score_b": 0,
-          "metric": "Spread: -0.0156 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 02:00",
-          "label": "03/09 02:00",
-          "score": 78,
-          "score_a": 78,
-          "score_b": 0,
-          "metric": "Spread: -0.0156 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 02:00",
-          "label": "03/09 02:00",
-          "score": 78,
-          "score_a": 78,
-          "score_b": 0,
-          "metric": "Spread: -0.0156 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 02:00",
-          "label": "03/09 02:00",
-          "score": 78,
-          "score_a": 78,
-          "score_b": 0,
-          "metric": "Spread: -0.0156 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 03:00",
-          "label": "03/09 03:00",
-          "score": 78,
-          "score_a": 78,
-          "score_b": 0,
-          "metric": "Spread: -0.0156 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 03:00",
-          "label": "03/09 03:00",
-          "score": 78,
-          "score_a": 78,
-          "score_b": 0,
-          "metric": "Spread: -0.0156 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 03:00",
-          "label": "03/09 03:00",
-          "score": 78,
-          "score_a": 78,
-          "score_b": 0,
-          "metric": "Spread: -0.0156 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 03:00",
-          "label": "03/09 03:00",
-          "score": 77,
-          "score_a": 77,
-          "score_b": 0,
-          "metric": "Spread: -0.0155 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 04:00",
-          "label": "03/09 04:00",
-          "score": 77,
-          "score_a": 77,
-          "score_b": 0,
-          "metric": "Spread: -0.0155 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 04:00",
-          "label": "03/09 04:00",
-          "score": 78,
-          "score_a": 78,
-          "score_b": 0,
-          "metric": "Spread: -0.0156 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 04:00",
-          "label": "03/09 04:00",
-          "score": 74,
-          "score_a": 74,
-          "score_b": 0,
-          "metric": "Spread: -0.0148 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 04:00",
-          "label": "03/09 04:00",
-          "score": 74,
-          "score_a": 74,
-          "score_b": 0,
-          "metric": "Spread: -0.0148 (USDT R$ 5.113)"
+          "metric": "Spread: -0.0197 (USDT R$ 5.109)"
         },
         {
           "time": "03/09 05:00",
           "label": "03/09 05:00",
-          "score": 74,
-          "score_a": 74,
+          "score": 99,
+          "score_a": 99,
           "score_b": 0,
-          "metric": "Spread: -0.0148 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 05:00",
-          "label": "03/09 05:00",
-          "score": 88,
-          "score_a": 88,
-          "score_b": 0,
-          "metric": "Spread: -0.0175 (USDT R$ 5.111)"
-        },
-        {
-          "time": "03/09 05:00",
-          "label": "03/09 05:00",
-          "score": 93,
-          "score_a": 93,
-          "score_b": 0,
-          "metric": "Spread: -0.0187 (USDT R$ 5.109)"
-        },
-        {
-          "time": "03/09 05:00",
-          "label": "03/09 05:00",
-          "score": 93,
-          "score_a": 93,
-          "score_b": 0,
-          "metric": "Spread: -0.0187 (USDT R$ 5.109)"
+          "metric": "Spread: -0.0197 (USDT R$ 5.109)"
         },
         {
           "time": "03/09 06:00",
@@ -36731,7 +36731,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0211 (USDT R$ 5.107)"
+          "metric": "Spread: -0.0221 (USDT R$ 5.107)"
         },
         {
           "time": "03/09 06:00",
@@ -36739,7 +36739,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0211 (USDT R$ 5.107)"
+          "metric": "Spread: -0.0221 (USDT R$ 5.107)"
         },
         {
           "time": "03/09 06:00",
@@ -36747,7 +36747,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0211 (USDT R$ 5.107)"
+          "metric": "Spread: -0.0221 (USDT R$ 5.107)"
         },
         {
           "time": "03/09 06:00",
@@ -36755,7 +36755,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0241 (USDT R$ 5.104)"
+          "metric": "Spread: -0.0251 (USDT R$ 5.104)"
         },
         {
           "time": "03/09 07:00",
@@ -36763,7 +36763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0241 (USDT R$ 5.104)"
+          "metric": "Spread: -0.0251 (USDT R$ 5.104)"
         },
         {
           "time": "03/09 07:00",
@@ -36771,7 +36771,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0265 (USDT R$ 5.102)"
+          "metric": "Spread: -0.0275 (USDT R$ 5.102)"
         },
         {
           "time": "03/09 07:00",
@@ -36779,7 +36779,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0265 (USDT R$ 5.102)"
+          "metric": "Spread: -0.0275 (USDT R$ 5.102)"
         },
         {
           "time": "03/09 07:00",
@@ -36787,7 +36787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0258 (USDT R$ 5.102)"
+          "metric": "Spread: -0.0268 (USDT R$ 5.102)"
         },
         {
           "time": "03/09 08:00",
@@ -36795,7 +36795,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0258 (USDT R$ 5.102)"
+          "metric": "Spread: -0.0268 (USDT R$ 5.102)"
         },
         {
           "time": "03/09 08:00",
@@ -36803,7 +36803,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0291 (USDT R$ 5.099)"
+          "metric": "Spread: -0.0301 (USDT R$ 5.099)"
         },
         {
           "time": "03/09 08:00",
@@ -36811,7 +36811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0239 (USDT R$ 5.104)"
+          "metric": "Spread: -0.0249 (USDT R$ 5.104)"
         },
         {
           "time": "03/09 08:00",
@@ -36819,7 +36819,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0240 (USDT R$ 5.104)"
+          "metric": "Spread: -0.0250 (USDT R$ 5.104)"
         },
         {
           "time": "03/09 09:00",
@@ -36827,7 +36827,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0380 (USDT R$ 5.090)"
+          "metric": "Spread: -0.0390 (USDT R$ 5.090)"
         },
         {
           "time": "03/09 09:00",
@@ -36835,7 +36835,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0328 (USDT R$ 5.095)"
+          "metric": "Spread: -0.0338 (USDT R$ 5.095)"
         },
         {
           "time": "03/09 09:00",
@@ -36843,7 +36843,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0359 (USDT R$ 5.092)"
+          "metric": "Spread: -0.0369 (USDT R$ 5.092)"
         },
         {
           "time": "03/09 09:00",
@@ -36851,7 +36851,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0260 (USDT R$ 5.102)"
+          "metric": "Spread: -0.0270 (USDT R$ 5.102)"
         },
         {
           "time": "03/09 10:00",
@@ -36859,55 +36859,39 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0211 (USDT R$ 5.107)"
+          "metric": "Spread: -0.0221 (USDT R$ 5.107)"
         },
         {
           "time": "03/09 10:00",
           "label": "03/09 10:00",
-          "score": 71,
-          "score_a": 71,
-          "score_b": 0,
-          "metric": "Spread: -0.0142 (USDT R$ 5.114)"
-        },
-        {
-          "time": "03/09 10:00",
-          "label": "03/09 10:00",
-          "score": 49,
-          "score_a": 49,
-          "score_b": 0,
-          "metric": "Spread: -0.0098 (USDT R$ 5.118)"
-        },
-        {
-          "time": "03/09 10:00",
-          "label": "03/09 10:00",
-          "score": 49,
-          "score_a": 49,
-          "score_b": 0,
-          "metric": "Spread: -0.0098 (USDT R$ 5.118)"
-        },
-        {
-          "time": "03/09 11:00",
-          "label": "03/09 11:00",
           "score": 76,
           "score_a": 76,
           "score_b": 0,
-          "metric": "Spread: -0.0153 (USDT R$ 5.113)"
+          "metric": "Spread: -0.0152 (USDT R$ 5.114)"
+        },
+        {
+          "time": "03/09 10:00",
+          "label": "03/09 10:00",
+          "score": 54,
+          "score_a": 54,
+          "score_b": 0,
+          "metric": "Spread: -0.0108 (USDT R$ 5.118)"
+        },
+        {
+          "time": "03/09 10:00",
+          "label": "03/09 10:00",
+          "score": 54,
+          "score_a": 54,
+          "score_b": 0,
+          "metric": "Spread: -0.0108 (USDT R$ 5.118)"
         },
         {
           "time": "03/09 11:00",
           "label": "03/09 11:00",
-          "score": 76,
-          "score_a": 76,
+          "score": 82,
+          "score_a": 82,
           "score_b": 0,
-          "metric": "Spread: -0.0152 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 11:00",
-          "label": "03/09 11:00",
-          "score": 67,
-          "score_a": 67,
-          "score_b": 0,
-          "metric": "Spread: -0.0134 (USDT R$ 5.115)"
+          "metric": "Spread: -0.0163 (USDT R$ 5.113)"
         },
         {
           "time": "03/09 11:00",
@@ -36915,7 +36899,23 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 81,
           "score_a": 81,
           "score_b": 0,
-          "metric": "Spread: -0.0162 (USDT R$ 5.112)"
+          "metric": "Spread: -0.0162 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 11:00",
+          "label": "03/09 11:00",
+          "score": 72,
+          "score_a": 72,
+          "score_b": 0,
+          "metric": "Spread: -0.0144 (USDT R$ 5.115)"
+        },
+        {
+          "time": "03/09 11:00",
+          "label": "03/09 11:00",
+          "score": 86,
+          "score_a": 86,
+          "score_b": 0,
+          "metric": "Spread: -0.0172 (USDT R$ 5.112)"
         },
         {
           "time": "03/09 12:00",
@@ -36923,159 +36923,183 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0210 (USDT R$ 5.107)"
+          "metric": "Spread: -0.0220 (USDT R$ 5.107)"
         },
         {
           "time": "03/09 12:00",
           "label": "03/09 12:00",
-          "score": 76,
-          "score_a": 76,
+          "score": 82,
+          "score_a": 82,
           "score_b": 0,
-          "metric": "Spread: -0.0153 (USDT R$ 5.113)"
+          "metric": "Spread: -0.0163 (USDT R$ 5.113)"
         },
         {
           "time": "03/09 12:00",
           "label": "03/09 12:00",
-          "score": 47,
-          "score_a": 47,
+          "score": 52,
+          "score_a": 52,
           "score_b": 0,
-          "metric": "Spread: -0.0094 (USDT R$ 5.119)"
+          "metric": "Spread: -0.0104 (USDT R$ 5.119)"
         },
         {
           "time": "03/09 12:00",
           "label": "03/09 12:00",
-          "score": 35,
-          "score_a": 35,
+          "score": 40,
+          "score_a": 40,
           "score_b": 0,
-          "metric": "Spread: -0.0070 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0080 (USDT R$ 5.121)"
         },
         {
           "time": "03/09 13:00",
           "label": "03/09 13:00",
-          "score": 44,
-          "score_a": 44,
+          "score": 50,
+          "score_a": 50,
           "score_b": 0,
-          "metric": "Spread: -0.0089 (USDT R$ 5.119)"
+          "metric": "Spread: -0.0099 (USDT R$ 5.119)"
         },
         {
           "time": "03/09 13:00",
           "label": "03/09 13:00",
-          "score": 62,
-          "score_a": 62,
-          "score_b": 0,
-          "metric": "Spread: -0.0125 (USDT R$ 5.116)"
-        },
-        {
-          "time": "03/09 13:00",
-          "label": "03/09 13:00",
-          "score": 29,
-          "score_a": 29,
-          "score_b": 0,
-          "metric": "Spread: -0.0059 (USDT R$ 5.122)"
-        },
-        {
-          "time": "03/09 13:00",
-          "label": "03/09 13:00",
-          "score": 25,
-          "score_a": 25,
-          "score_b": 0,
-          "metric": "Spread: -0.0051 (USDT R$ 5.123)"
-        },
-        {
-          "time": "03/09 14:00",
-          "label": "03/09 14:00",
-          "score": 35,
-          "score_a": 35,
-          "score_b": 0,
-          "metric": "Spread: -0.0070 (USDT R$ 5.121)"
-        },
-        {
-          "time": "03/09 14:00",
-          "label": "03/09 14:00",
-          "score": 62,
-          "score_a": 62,
-          "score_b": 0,
-          "metric": "Spread: -0.0124 (USDT R$ 5.116)"
-        },
-        {
-          "time": "03/09 14:00",
-          "label": "03/09 14:00",
-          "score": 78,
-          "score_a": 78,
-          "score_b": 0,
-          "metric": "Spread: -0.0156 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 14:00",
-          "label": "03/09 14:00",
-          "score": 62,
-          "score_a": 62,
-          "score_b": 0,
-          "metric": "Spread: -0.0125 (USDT R$ 5.116)"
-        },
-        {
-          "time": "03/09 15:00",
-          "label": "03/09 15:00",
-          "score": 62,
-          "score_a": 62,
-          "score_b": 0,
-          "metric": "Spread: -0.0125 (USDT R$ 5.116)"
-        },
-        {
-          "time": "03/09 15:00",
-          "label": "03/09 15:00",
-          "score": 72,
-          "score_a": 72,
-          "score_b": 0,
-          "metric": "Spread: -0.0144 (USDT R$ 5.114)"
-        },
-        {
-          "time": "03/09 15:00",
-          "label": "03/09 15:00",
-          "score": 64,
-          "score_a": 64,
-          "score_b": 0,
-          "metric": "Spread: -0.0129 (USDT R$ 5.115)"
-        },
-        {
-          "time": "03/09 15:00",
-          "label": "03/09 15:00",
-          "score": 76,
-          "score_a": 76,
-          "score_b": 0,
-          "metric": "Spread: -0.0153 (USDT R$ 5.113)"
-        },
-        {
-          "time": "03/09 16:00",
-          "label": "03/09 16:00",
-          "score": 57,
-          "score_a": 57,
-          "score_b": 0,
-          "metric": "Spread: -0.0115 (USDT R$ 5.117)"
-        },
-        {
-          "time": "03/09 16:00",
-          "label": "03/09 16:00",
-          "score": 65,
-          "score_a": 65,
-          "score_b": 0,
-          "metric": "Spread: -0.0131 (USDT R$ 5.115)"
-        },
-        {
-          "time": "03/09 16:00",
-          "label": "03/09 16:00",
-          "score": 58,
-          "score_a": 58,
-          "score_b": 0,
-          "metric": "Spread: -0.0116 (USDT R$ 5.117)"
-        },
-        {
-          "time": "03/09 16:00",
-          "label": "03/09 16:00",
           "score": 67,
           "score_a": 67,
           "score_b": 0,
-          "metric": "Spread: -0.0133 (USDT R$ 5.115)"
+          "metric": "Spread: -0.0135 (USDT R$ 5.116)"
+        },
+        {
+          "time": "03/09 13:00",
+          "label": "03/09 13:00",
+          "score": 34,
+          "score_a": 34,
+          "score_b": 0,
+          "metric": "Spread: -0.0069 (USDT R$ 5.122)"
+        },
+        {
+          "time": "03/09 13:00",
+          "label": "03/09 13:00",
+          "score": 30,
+          "score_a": 30,
+          "score_b": 0,
+          "metric": "Spread: -0.0061 (USDT R$ 5.123)"
+        },
+        {
+          "time": "03/09 14:00",
+          "label": "03/09 14:00",
+          "score": 40,
+          "score_a": 40,
+          "score_b": 0,
+          "metric": "Spread: -0.0080 (USDT R$ 5.121)"
+        },
+        {
+          "time": "03/09 14:00",
+          "label": "03/09 14:00",
+          "score": 67,
+          "score_a": 67,
+          "score_b": 0,
+          "metric": "Spread: -0.0134 (USDT R$ 5.116)"
+        },
+        {
+          "time": "03/09 14:00",
+          "label": "03/09 14:00",
+          "score": 83,
+          "score_a": 83,
+          "score_b": 0,
+          "metric": "Spread: -0.0166 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 14:00",
+          "label": "03/09 14:00",
+          "score": 67,
+          "score_a": 67,
+          "score_b": 0,
+          "metric": "Spread: -0.0135 (USDT R$ 5.116)"
+        },
+        {
+          "time": "03/09 15:00",
+          "label": "03/09 15:00",
+          "score": 67,
+          "score_a": 67,
+          "score_b": 0,
+          "metric": "Spread: -0.0135 (USDT R$ 5.116)"
+        },
+        {
+          "time": "03/09 15:00",
+          "label": "03/09 15:00",
+          "score": 77,
+          "score_a": 77,
+          "score_b": 0,
+          "metric": "Spread: -0.0154 (USDT R$ 5.114)"
+        },
+        {
+          "time": "03/09 15:00",
+          "label": "03/09 15:00",
+          "score": 69,
+          "score_a": 69,
+          "score_b": 0,
+          "metric": "Spread: -0.0139 (USDT R$ 5.115)"
+        },
+        {
+          "time": "03/09 15:00",
+          "label": "03/09 15:00",
+          "score": 82,
+          "score_a": 82,
+          "score_b": 0,
+          "metric": "Spread: -0.0163 (USDT R$ 5.113)"
+        },
+        {
+          "time": "03/09 16:00",
+          "label": "03/09 16:00",
+          "score": 63,
+          "score_a": 63,
+          "score_b": 0,
+          "metric": "Spread: -0.0125 (USDT R$ 5.117)"
+        },
+        {
+          "time": "03/09 16:00",
+          "label": "03/09 16:00",
+          "score": 70,
+          "score_a": 70,
+          "score_b": 0,
+          "metric": "Spread: -0.0141 (USDT R$ 5.115)"
+        },
+        {
+          "time": "03/09 16:00",
+          "label": "03/09 16:00",
+          "score": 63,
+          "score_a": 63,
+          "score_b": 0,
+          "metric": "Spread: -0.0126 (USDT R$ 5.117)"
+        },
+        {
+          "time": "03/09 16:00",
+          "label": "03/09 16:00",
+          "score": 72,
+          "score_a": 72,
+          "score_b": 0,
+          "metric": "Spread: -0.0143 (USDT R$ 5.115)"
+        },
+        {
+          "time": "03/09 17:00",
+          "label": "03/09 17:00",
+          "score": 51,
+          "score_a": 51,
+          "score_b": 0,
+          "metric": "Spread: -0.0102 (USDT R$ 5.119)"
+        },
+        {
+          "time": "03/09 17:00",
+          "label": "03/09 17:00",
+          "score": 37,
+          "score_a": 37,
+          "score_b": 0,
+          "metric": "Spread: -0.0074 (USDT R$ 5.122)"
+        },
+        {
+          "time": "03/09 17:00",
+          "label": "03/09 17:00",
+          "score": 37,
+          "score_a": 37,
+          "score_b": 0,
+          "metric": "Spread: -0.0074 (USDT R$ 5.122)"
         },
         {
           "time": "03/09 17:00",
@@ -37083,239 +37107,223 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 46,
           "score_a": 46,
           "score_b": 0,
-          "metric": "Spread: -0.0092 (USDT R$ 5.119)"
+          "metric": "Spread: -0.0091 (USDT R$ 5.120)"
         },
         {
-          "time": "03/09 17:00",
-          "label": "03/09 17:00",
+          "time": "03/09 18:00",
+          "label": "03/09 18:00",
+          "score": 45,
+          "score_a": 45,
+          "score_b": 0,
+          "metric": "Spread: -0.0090 (USDT R$ 5.120)"
+        },
+        {
+          "time": "03/09 18:00",
+          "label": "03/09 18:00",
+          "score": 57,
+          "score_a": 57,
+          "score_b": 0,
+          "metric": "Spread: -0.0113 (USDT R$ 5.118)"
+        },
+        {
+          "time": "03/09 18:00",
+          "label": "03/09 18:00",
+          "score": 57,
+          "score_a": 57,
+          "score_b": 0,
+          "metric": "Spread: -0.0114 (USDT R$ 5.118)"
+        },
+        {
+          "time": "03/09 18:00",
+          "label": "03/09 18:00",
           "score": 32,
           "score_a": 32,
           "score_b": 0,
-          "metric": "Spread: -0.0064 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0064 (USDT R$ 5.123)"
         },
         {
-          "time": "03/09 17:00",
-          "label": "03/09 17:00",
-          "score": 32,
-          "score_a": 32,
+          "time": "03/09 19:00",
+          "label": "03/09 19:00",
+          "score": 16,
+          "score_a": 16,
           "score_b": 0,
-          "metric": "Spread: -0.0064 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
         },
         {
-          "time": "03/09 17:00",
-          "label": "03/09 17:00",
-          "score": 40,
-          "score_a": 40,
+          "time": "03/09 19:00",
+          "label": "03/09 19:00",
+          "score": 16,
+          "score_a": 16,
           "score_b": 0,
-          "metric": "Spread: -0.0081 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
         },
         {
-          "time": "03/09 18:00",
-          "label": "03/09 18:00",
-          "score": 40,
-          "score_a": 40,
+          "time": "03/09 19:00",
+          "label": "03/09 19:00",
+          "score": 16,
+          "score_a": 16,
           "score_b": 0,
-          "metric": "Spread: -0.0080 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
         },
         {
-          "time": "03/09 18:00",
-          "label": "03/09 18:00",
-          "score": 51,
-          "score_a": 51,
+          "time": "03/09 19:00",
+          "label": "03/09 19:00",
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0103 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
-          "time": "03/09 18:00",
-          "label": "03/09 18:00",
-          "score": 52,
-          "score_a": 52,
+          "time": "03/09 20:00",
+          "label": "03/09 20:00",
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0104 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0042 (USDT R$ 5.125)"
         },
         {
-          "time": "03/09 18:00",
-          "label": "03/09 18:00",
+          "time": "03/09 20:00",
+          "label": "03/09 20:00",
+          "score": 21,
+          "score_a": 21,
+          "score_b": 0,
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
+        },
+        {
+          "time": "03/09 20:00",
+          "label": "03/09 20:00",
+          "score": 21,
+          "score_a": 21,
+          "score_b": 0,
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
+        },
+        {
+          "time": "03/09 20:00",
+          "label": "03/09 20:00",
+          "score": 21,
+          "score_a": 21,
+          "score_b": 0,
+          "metric": "Spread: -0.0042 (USDT R$ 5.125)"
+        },
+        {
+          "time": "03/09 21:00",
+          "label": "03/09 21:00",
+          "score": 26,
+          "score_a": 26,
+          "score_b": 0,
+          "metric": "Spread: -0.0052 (USDT R$ 5.124)"
+        },
+        {
+          "time": "03/09 21:00",
+          "label": "03/09 21:00",
+          "score": 26,
+          "score_a": 26,
+          "score_b": 0,
+          "metric": "Spread: -0.0052 (USDT R$ 5.124)"
+        },
+        {
+          "time": "03/09 21:00",
+          "label": "03/09 21:00",
           "score": 27,
           "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0054 (USDT R$ 5.123)"
-        },
-        {
-          "time": "03/09 19:00",
-          "label": "03/09 19:00",
-          "score": 11,
-          "score_a": 11,
-          "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
-        },
-        {
-          "time": "03/09 19:00",
-          "label": "03/09 19:00",
-          "score": 11,
-          "score_a": 11,
-          "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
-        },
-        {
-          "time": "03/09 19:00",
-          "label": "03/09 19:00",
-          "score": 11,
-          "score_a": 11,
-          "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
-        },
-        {
-          "time": "03/09 19:00",
-          "label": "03/09 19:00",
-          "score": 16,
-          "score_a": 16,
-          "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
-        },
-        {
-          "time": "03/09 20:00",
-          "label": "03/09 20:00",
-          "score": 16,
-          "score_a": 16,
-          "score_b": 0,
-          "metric": "Spread: -0.0032 (USDT R$ 5.125)"
-        },
-        {
-          "time": "03/09 20:00",
-          "label": "03/09 20:00",
-          "score": 16,
-          "score_a": 16,
-          "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
-        },
-        {
-          "time": "03/09 20:00",
-          "label": "03/09 20:00",
-          "score": 16,
-          "score_a": 16,
-          "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
-        },
-        {
-          "time": "03/09 20:00",
-          "label": "03/09 20:00",
-          "score": 16,
-          "score_a": 16,
-          "score_b": 0,
-          "metric": "Spread: -0.0032 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0053 (USDT R$ 5.124)"
         },
         {
           "time": "03/09 21:00",
           "label": "03/09 21:00",
-          "score": 21,
-          "score_a": 21,
+          "score": 44,
+          "score_a": 44,
           "score_b": 0,
-          "metric": "Spread: -0.0042 (USDT R$ 5.124)"
-        },
-        {
-          "time": "03/09 21:00",
-          "label": "03/09 21:00",
-          "score": 21,
-          "score_a": 21,
-          "score_b": 0,
-          "metric": "Spread: -0.0042 (USDT R$ 5.124)"
-        },
-        {
-          "time": "03/09 21:00",
-          "label": "03/09 21:00",
-          "score": 21,
-          "score_a": 21,
-          "score_b": 0,
-          "metric": "Spread: -0.0043 (USDT R$ 5.124)"
-        },
-        {
-          "time": "03/09 21:00",
-          "label": "03/09 21:00",
-          "score": 39,
-          "score_a": 39,
-          "score_b": 0,
-          "metric": "Spread: -0.0078 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0088 (USDT R$ 5.120)"
         },
         {
           "time": "03/09 22:00",
           "label": "03/09 22:00",
-          "score": 37,
-          "score_a": 37,
+          "score": 42,
+          "score_a": 42,
           "score_b": 0,
-          "metric": "Spread: -0.0075 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0085 (USDT R$ 5.121)"
         },
         {
           "time": "03/09 22:00",
           "label": "03/09 22:00",
-          "score": 38,
-          "score_a": 38,
+          "score": 43,
+          "score_a": 43,
           "score_b": 0,
-          "metric": "Spread: -0.0076 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0086 (USDT R$ 5.121)"
         },
         {
           "time": "03/09 22:00",
           "label": "03/09 22:00",
-          "score": 22,
-          "score_a": 22,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0045 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0055 (USDT R$ 5.124)"
         },
         {
           "time": "03/09 22:00",
           "label": "03/09 22:00",
-          "score": 22,
-          "score_a": 22,
+          "score": 27,
+          "score_a": 27,
           "score_b": 0,
-          "metric": "Spread: -0.0045 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0055 (USDT R$ 5.124)"
         },
         {
           "time": "03/09 23:00",
           "label": "03/09 23:00",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "03/09 23:00",
           "label": "03/09 23:00",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "03/09 23:00",
           "label": "03/09 23:00",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "03/09 23:00",
           "label": "03/09 23:00",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "04/09 00:00",
           "label": "04/09 00:00",
-          "score": 3,
-          "score_a": 3,
+          "score": 8,
+          "score_a": 8,
           "score_b": 0,
-          "metric": "Spread: -0.0006 (USDT R$ 5.128)"
+          "metric": "Spread: -0.0016 (USDT R$ 5.128)"
         },
         {
           "time": "04/09 00:00",
           "label": "04/09 00:00",
-          "score": 0,
-          "score_a": 0,
+          "score": 6,
+          "score_a": 6,
           "score_b": 0,
-          "metric": "Spread: -0.0001 (USDT R$ 5.128)"
+          "metric": "Spread: -0.0011 (USDT R$ 5.128)"
+        },
+        {
+          "time": "04/09 00:00",
+          "label": "04/09 00:00",
+          "score": 2,
+          "score_a": 2,
+          "score_b": 0,
+          "metric": "Spread: -0.0003 (USDT R$ 5.129)"
         },
         {
           "time": "04/09 00:00",
@@ -37323,503 +37331,495 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 4,
           "score_a": 0,
           "score_b": 4,
-          "metric": "Spread: +0.0007 (USDT R$ 5.129)"
-        },
-        {
-          "time": "04/09 00:00",
-          "label": "04/09 00:00",
-          "score": 9,
-          "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "04/09 01:00",
           "label": "04/09 01:00",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "04/09 01:00",
           "label": "04/09 01:00",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "04/09 01:00",
           "label": "04/09 01:00",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0017 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0007 (USDT R$ 5.130)"
         },
         {
           "time": "04/09 01:00",
           "label": "04/09 01:00",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "04/09 02:00",
           "label": "04/09 02:00",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0009 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: -0.0001 (USDT R$ 5.129)"
         },
         {
           "time": "04/09 02:00",
           "label": "04/09 02:00",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "04/09 02:00",
           "label": "04/09 02:00",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "04/09 02:00",
           "label": "04/09 02:00",
-          "score": 8,
-          "score_a": 8,
-          "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
-        },
-        {
-          "time": "04/09 03:00",
-          "label": "04/09 03:00",
-          "score": 8,
-          "score_a": 8,
-          "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
-        },
-        {
-          "time": "04/09 03:00",
-          "label": "04/09 03:00",
-          "score": 8,
-          "score_a": 8,
-          "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
-        },
-        {
-          "time": "04/09 03:00",
-          "label": "04/09 03:00",
-          "score": 8,
-          "score_a": 8,
-          "score_b": 0,
-          "metric": "Spread: -0.0016 (USDT R$ 5.127)"
-        },
-        {
-          "time": "04/09 03:00",
-          "label": "04/09 03:00",
-          "score": 8,
-          "score_a": 8,
-          "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
-        },
-        {
-          "time": "04/09 04:00",
-          "label": "04/09 04:00",
-          "score": 8,
-          "score_a": 8,
-          "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
-        },
-        {
-          "time": "04/09 04:00",
-          "label": "04/09 04:00",
-          "score": 9,
-          "score_a": 9,
-          "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
-        },
-        {
-          "time": "04/09 04:00",
-          "label": "04/09 04:00",
-          "score": 10,
-          "score_a": 10,
-          "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
-        },
-        {
-          "time": "04/09 04:00",
-          "label": "04/09 04:00",
-          "score": 10,
-          "score_a": 10,
-          "score_b": 0,
-          "metric": "Spread: -0.0019 (USDT R$ 5.126)"
-        },
-        {
-          "time": "04/09 05:00",
-          "label": "04/09 05:00",
-          "score": 9,
-          "score_a": 9,
-          "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
-        },
-        {
-          "time": "04/09 05:00",
-          "label": "04/09 05:00",
-          "score": 9,
-          "score_a": 9,
-          "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
-        },
-        {
-          "time": "04/09 05:00",
-          "label": "04/09 05:00",
-          "score": 10,
-          "score_a": 10,
-          "score_b": 0,
-          "metric": "Spread: -0.0021 (USDT R$ 5.126)"
-        },
-        {
-          "time": "04/09 05:00",
-          "label": "04/09 05:00",
-          "score": 10,
-          "score_a": 10,
-          "score_b": 0,
-          "metric": "Spread: -0.0020 (USDT R$ 5.126)"
-        },
-        {
-          "time": "04/09 06:00",
-          "label": "04/09 06:00",
-          "score": 11,
-          "score_a": 11,
-          "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
-        },
-        {
-          "time": "04/09 06:00",
-          "label": "04/09 06:00",
           "score": 13,
           "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0027 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
-          "time": "04/09 06:00",
-          "label": "04/09 06:00",
-          "score": 14,
-          "score_a": 14,
-          "score_b": 0,
-          "metric": "Spread: -0.0028 (USDT R$ 5.125)"
-        },
-        {
-          "time": "04/09 06:00",
-          "label": "04/09 06:00",
-          "score": 14,
-          "score_a": 14,
-          "score_b": 0,
-          "metric": "Spread: -0.0028 (USDT R$ 5.125)"
-        },
-        {
-          "time": "04/09 07:00",
-          "label": "04/09 07:00",
-          "score": 14,
-          "score_a": 14,
-          "score_b": 0,
-          "metric": "Spread: -0.0028 (USDT R$ 5.125)"
-        },
-        {
-          "time": "04/09 07:00",
-          "label": "04/09 07:00",
-          "score": 14,
-          "score_a": 14,
-          "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
-        },
-        {
-          "time": "04/09 07:00",
-          "label": "04/09 07:00",
-          "score": 15,
-          "score_a": 15,
-          "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
-        },
-        {
-          "time": "04/09 07:00",
-          "label": "04/09 07:00",
-          "score": 15,
-          "score_a": 15,
-          "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
-        },
-        {
-          "time": "04/09 08:00",
-          "label": "04/09 08:00",
-          "score": 15,
-          "score_a": 15,
-          "score_b": 0,
-          "metric": "Spread: -0.0030 (USDT R$ 5.125)"
-        },
-        {
-          "time": "04/09 08:00",
-          "label": "04/09 08:00",
-          "score": 15,
-          "score_a": 15,
-          "score_b": 0,
-          "metric": "Spread: -0.0031 (USDT R$ 5.125)"
-        },
-        {
-          "time": "04/09 08:00",
-          "label": "04/09 08:00",
-          "score": 14,
-          "score_a": 14,
-          "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
-        },
-        {
-          "time": "04/09 08:00",
-          "label": "04/09 08:00",
-          "score": 15,
-          "score_a": 15,
-          "score_b": 0,
-          "metric": "Spread: -0.0031 (USDT R$ 5.125)"
-        },
-        {
-          "time": "04/09 09:00",
-          "label": "04/09 09:00",
-          "score": 9,
-          "score_a": 9,
-          "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
-        },
-        {
-          "time": "04/09 09:00",
-          "label": "04/09 09:00",
+          "time": "04/09 03:00",
+          "label": "04/09 03:00",
           "score": 13,
-          "score_a": 0,
-          "score_b": 13,
-          "metric": "Spread: +0.0027 (USDT R$ 5.131)"
+          "score_a": 13,
+          "score_b": 0,
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
+        },
+        {
+          "time": "04/09 03:00",
+          "label": "04/09 03:00",
+          "score": 13,
+          "score_a": 13,
+          "score_b": 0,
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
+        },
+        {
+          "time": "04/09 03:00",
+          "label": "04/09 03:00",
+          "score": 13,
+          "score_a": 13,
+          "score_b": 0,
+          "metric": "Spread: -0.0026 (USDT R$ 5.127)"
+        },
+        {
+          "time": "04/09 03:00",
+          "label": "04/09 03:00",
+          "score": 13,
+          "score_a": 13,
+          "score_b": 0,
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
+        },
+        {
+          "time": "04/09 04:00",
+          "label": "04/09 04:00",
+          "score": 13,
+          "score_a": 13,
+          "score_b": 0,
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
+        },
+        {
+          "time": "04/09 04:00",
+          "label": "04/09 04:00",
+          "score": 14,
+          "score_a": 14,
+          "score_b": 0,
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
+        },
+        {
+          "time": "04/09 04:00",
+          "label": "04/09 04:00",
+          "score": 15,
+          "score_a": 15,
+          "score_b": 0,
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
+        },
+        {
+          "time": "04/09 04:00",
+          "label": "04/09 04:00",
+          "score": 15,
+          "score_a": 15,
+          "score_b": 0,
+          "metric": "Spread: -0.0029 (USDT R$ 5.126)"
+        },
+        {
+          "time": "04/09 05:00",
+          "label": "04/09 05:00",
+          "score": 14,
+          "score_a": 14,
+          "score_b": 0,
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
+        },
+        {
+          "time": "04/09 05:00",
+          "label": "04/09 05:00",
+          "score": 14,
+          "score_a": 14,
+          "score_b": 0,
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
+        },
+        {
+          "time": "04/09 05:00",
+          "label": "04/09 05:00",
+          "score": 15,
+          "score_a": 15,
+          "score_b": 0,
+          "metric": "Spread: -0.0031 (USDT R$ 5.126)"
+        },
+        {
+          "time": "04/09 05:00",
+          "label": "04/09 05:00",
+          "score": 15,
+          "score_a": 15,
+          "score_b": 0,
+          "metric": "Spread: -0.0030 (USDT R$ 5.126)"
+        },
+        {
+          "time": "04/09 06:00",
+          "label": "04/09 06:00",
+          "score": 16,
+          "score_a": 16,
+          "score_b": 0,
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
+        },
+        {
+          "time": "04/09 06:00",
+          "label": "04/09 06:00",
+          "score": 19,
+          "score_a": 19,
+          "score_b": 0,
+          "metric": "Spread: -0.0037 (USDT R$ 5.125)"
+        },
+        {
+          "time": "04/09 06:00",
+          "label": "04/09 06:00",
+          "score": 19,
+          "score_a": 19,
+          "score_b": 0,
+          "metric": "Spread: -0.0038 (USDT R$ 5.125)"
+        },
+        {
+          "time": "04/09 06:00",
+          "label": "04/09 06:00",
+          "score": 19,
+          "score_a": 19,
+          "score_b": 0,
+          "metric": "Spread: -0.0038 (USDT R$ 5.125)"
+        },
+        {
+          "time": "04/09 07:00",
+          "label": "04/09 07:00",
+          "score": 19,
+          "score_a": 19,
+          "score_b": 0,
+          "metric": "Spread: -0.0038 (USDT R$ 5.125)"
+        },
+        {
+          "time": "04/09 07:00",
+          "label": "04/09 07:00",
+          "score": 19,
+          "score_a": 19,
+          "score_b": 0,
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
+        },
+        {
+          "time": "04/09 07:00",
+          "label": "04/09 07:00",
+          "score": 20,
+          "score_a": 20,
+          "score_b": 0,
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
+        },
+        {
+          "time": "04/09 07:00",
+          "label": "04/09 07:00",
+          "score": 20,
+          "score_a": 20,
+          "score_b": 0,
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
+        },
+        {
+          "time": "04/09 08:00",
+          "label": "04/09 08:00",
+          "score": 20,
+          "score_a": 20,
+          "score_b": 0,
+          "metric": "Spread: -0.0040 (USDT R$ 5.125)"
+        },
+        {
+          "time": "04/09 08:00",
+          "label": "04/09 08:00",
+          "score": 21,
+          "score_a": 21,
+          "score_b": 0,
+          "metric": "Spread: -0.0041 (USDT R$ 5.125)"
+        },
+        {
+          "time": "04/09 08:00",
+          "label": "04/09 08:00",
+          "score": 19,
+          "score_a": 19,
+          "score_b": 0,
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
+        },
+        {
+          "time": "04/09 08:00",
+          "label": "04/09 08:00",
+          "score": 21,
+          "score_a": 21,
+          "score_b": 0,
+          "metric": "Spread: -0.0041 (USDT R$ 5.125)"
         },
         {
           "time": "04/09 09:00",
           "label": "04/09 09:00",
-          "score": 55,
-          "score_a": 0,
-          "score_b": 55,
-          "metric": "Spread: +0.0110 (USDT R$ 5.139)"
+          "score": 14,
+          "score_a": 14,
+          "score_b": 0,
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04/09 09:00",
           "label": "04/09 09:00",
-          "score": 47,
+          "score": 8,
           "score_a": 0,
-          "score_b": 47,
-          "metric": "Spread: +0.0094 (USDT R$ 5.138)"
+          "score_b": 8,
+          "metric": "Spread: +0.0017 (USDT R$ 5.131)"
         },
         {
-          "time": "04/09 10:00",
-          "label": "04/09 10:00",
-          "score": 94,
-          "score_a": 0,
-          "score_b": 94,
-          "metric": "Spread: +0.0188 (USDT R$ 5.147)"
-        },
-        {
-          "time": "04/09 10:00",
-          "label": "04/09 10:00",
-          "score": 62,
-          "score_a": 0,
-          "score_b": 62,
-          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
-        },
-        {
-          "time": "04/09 10:00",
-          "label": "04/09 10:00",
-          "score": 37,
-          "score_a": 0,
-          "score_b": 37,
-          "metric": "Spread: +0.0073 (USDT R$ 5.136)"
-        },
-        {
-          "time": "04/09 10:00",
-          "label": "04/09 10:00",
-          "score": 70,
-          "score_a": 0,
-          "score_b": 70,
-          "metric": "Spread: +0.0141 (USDT R$ 5.142)"
-        },
-        {
-          "time": "04/09 11:00",
-          "label": "04/09 11:00",
-          "score": 70,
-          "score_a": 0,
-          "score_b": 70,
-          "metric": "Spread: +0.0141 (USDT R$ 5.142)"
-        },
-        {
-          "time": "04/09 11:00",
-          "label": "04/09 11:00",
-          "score": 51,
-          "score_a": 0,
-          "score_b": 51,
-          "metric": "Spread: +0.0101 (USDT R$ 5.138)"
-        },
-        {
-          "time": "04/09 11:00",
-          "label": "04/09 11:00",
-          "score": 28,
-          "score_a": 0,
-          "score_b": 28,
-          "metric": "Spread: +0.0055 (USDT R$ 5.134)"
-        },
-        {
-          "time": "04/09 11:00",
-          "label": "04/09 11:00",
-          "score": 28,
-          "score_a": 0,
-          "score_b": 28,
-          "metric": "Spread: +0.0055 (USDT R$ 5.134)"
-        },
-        {
-          "time": "04/09 12:00",
-          "label": "04/09 12:00",
-          "score": 10,
-          "score_a": 0,
-          "score_b": 10,
-          "metric": "Spread: +0.0020 (USDT R$ 5.130)"
-        },
-        {
-          "time": "04/09 12:00",
-          "label": "04/09 12:00",
-          "score": 34,
-          "score_a": 0,
-          "score_b": 34,
-          "metric": "Spread: +0.0068 (USDT R$ 5.135)"
-        },
-        {
-          "time": "04/09 12:00",
-          "label": "04/09 12:00",
+          "time": "04/09 09:00",
+          "label": "04/09 09:00",
           "score": 50,
           "score_a": 0,
           "score_b": 50,
-          "metric": "Spread: +0.0099 (USDT R$ 5.138)"
+          "metric": "Spread: +0.0100 (USDT R$ 5.139)"
+        },
+        {
+          "time": "04/09 09:00",
+          "label": "04/09 09:00",
+          "score": 42,
+          "score_a": 0,
+          "score_b": 42,
+          "metric": "Spread: +0.0084 (USDT R$ 5.138)"
+        },
+        {
+          "time": "04/09 10:00",
+          "label": "04/09 10:00",
+          "score": 89,
+          "score_a": 0,
+          "score_b": 89,
+          "metric": "Spread: +0.0178 (USDT R$ 5.147)"
+        },
+        {
+          "time": "04/09 10:00",
+          "label": "04/09 10:00",
+          "score": 57,
+          "score_a": 0,
+          "score_b": 57,
+          "metric": "Spread: +0.0113 (USDT R$ 5.141)"
+        },
+        {
+          "time": "04/09 10:00",
+          "label": "04/09 10:00",
+          "score": 32,
+          "score_a": 0,
+          "score_b": 32,
+          "metric": "Spread: +0.0063 (USDT R$ 5.136)"
+        },
+        {
+          "time": "04/09 10:00",
+          "label": "04/09 10:00",
+          "score": 65,
+          "score_a": 0,
+          "score_b": 65,
+          "metric": "Spread: +0.0131 (USDT R$ 5.142)"
+        },
+        {
+          "time": "04/09 11:00",
+          "label": "04/09 11:00",
+          "score": 65,
+          "score_a": 0,
+          "score_b": 65,
+          "metric": "Spread: +0.0131 (USDT R$ 5.142)"
+        },
+        {
+          "time": "04/09 11:00",
+          "label": "04/09 11:00",
+          "score": 46,
+          "score_a": 0,
+          "score_b": 46,
+          "metric": "Spread: +0.0091 (USDT R$ 5.138)"
+        },
+        {
+          "time": "04/09 11:00",
+          "label": "04/09 11:00",
+          "score": 23,
+          "score_a": 0,
+          "score_b": 23,
+          "metric": "Spread: +0.0045 (USDT R$ 5.134)"
+        },
+        {
+          "time": "04/09 11:00",
+          "label": "04/09 11:00",
+          "score": 23,
+          "score_a": 0,
+          "score_b": 23,
+          "metric": "Spread: +0.0045 (USDT R$ 5.134)"
         },
         {
           "time": "04/09 12:00",
           "label": "04/09 12:00",
+          "score": 5,
+          "score_a": 0,
+          "score_b": 5,
+          "metric": "Spread: +0.0010 (USDT R$ 5.130)"
+        },
+        {
+          "time": "04/09 12:00",
+          "label": "04/09 12:00",
+          "score": 29,
+          "score_a": 0,
+          "score_b": 29,
+          "metric": "Spread: +0.0058 (USDT R$ 5.135)"
+        },
+        {
+          "time": "04/09 12:00",
+          "label": "04/09 12:00",
+          "score": 44,
+          "score_a": 0,
+          "score_b": 44,
+          "metric": "Spread: +0.0089 (USDT R$ 5.138)"
+        },
+        {
+          "time": "04/09 12:00",
+          "label": "04/09 12:00",
+          "score": 43,
+          "score_a": 0,
+          "score_b": 43,
+          "metric": "Spread: +0.0086 (USDT R$ 5.138)"
+        },
+        {
+          "time": "04/09 13:00",
+          "label": "04/09 13:00",
+          "score": 36,
+          "score_a": 0,
+          "score_b": 36,
+          "metric": "Spread: +0.0073 (USDT R$ 5.136)"
+        },
+        {
+          "time": "04/09 13:00",
+          "label": "04/09 13:00",
+          "score": 2,
+          "score_a": 2,
+          "score_b": 0,
+          "metric": "Spread: -0.0004 (USDT R$ 5.129)"
+        },
+        {
+          "time": "04/09 13:00",
+          "label": "04/09 13:00",
+          "score": 9,
+          "score_a": 0,
+          "score_b": 9,
+          "metric": "Spread: +0.0018 (USDT R$ 5.131)"
+        },
+        {
+          "time": "04/09 13:00",
+          "label": "04/09 13:00",
+          "score": 19,
+          "score_a": 0,
+          "score_b": 19,
+          "metric": "Spread: +0.0037 (USDT R$ 5.133)"
+        },
+        {
+          "time": "04/09 14:00",
+          "label": "04/09 14:00",
+          "score": 37,
+          "score_a": 0,
+          "score_b": 37,
+          "metric": "Spread: +0.0074 (USDT R$ 5.137)"
+        },
+        {
+          "time": "04/09 14:00",
+          "label": "04/09 14:00",
           "score": 48,
           "score_a": 0,
           "score_b": 48,
-          "metric": "Spread: +0.0096 (USDT R$ 5.138)"
-        },
-        {
-          "time": "04/09 13:00",
-          "label": "04/09 13:00",
-          "score": 42,
-          "score_a": 0,
-          "score_b": 42,
-          "metric": "Spread: +0.0083 (USDT R$ 5.136)"
-        },
-        {
-          "time": "04/09 13:00",
-          "label": "04/09 13:00",
-          "score": 3,
-          "score_a": 0,
-          "score_b": 3,
-          "metric": "Spread: +0.0006 (USDT R$ 5.129)"
-        },
-        {
-          "time": "04/09 13:00",
-          "label": "04/09 13:00",
-          "score": 14,
-          "score_a": 0,
-          "score_b": 14,
-          "metric": "Spread: +0.0028 (USDT R$ 5.131)"
-        },
-        {
-          "time": "04/09 13:00",
-          "label": "04/09 13:00",
-          "score": 24,
-          "score_a": 0,
-          "score_b": 24,
-          "metric": "Spread: +0.0047 (USDT R$ 5.133)"
+          "metric": "Spread: +0.0095 (USDT R$ 5.139)"
         },
         {
           "time": "04/09 14:00",
           "label": "04/09 14:00",
-          "score": 42,
+          "score": 61,
           "score_a": 0,
-          "score_b": 42,
-          "metric": "Spread: +0.0084 (USDT R$ 5.137)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "04/09 14:00",
           "label": "04/09 14:00",
-          "score": 53,
+          "score": 61,
           "score_a": 0,
-          "score_b": 53,
-          "metric": "Spread: +0.0105 (USDT R$ 5.139)"
-        },
-        {
-          "time": "04/09 14:00",
-          "label": "04/09 14:00",
-          "score": 67,
-          "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
-        },
-        {
-          "time": "04/09 14:00",
-          "label": "04/09 14:00",
-          "score": 67,
-          "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "04/09 15:00",
           "label": "04/09 15:00",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "04/09 15:00",
           "label": "04/09 15:00",
-          "score": 53,
+          "score": 48,
           "score_a": 0,
-          "score_b": 53,
-          "metric": "Spread: +0.0106 (USDT R$ 5.139)"
+          "score_b": 48,
+          "metric": "Spread: +0.0096 (USDT R$ 5.139)"
         },
         {
           "time": "04/09 15:00",
           "label": "04/09 15:00",
-          "score": 67,
+          "score": 61,
           "score_a": 0,
-          "score_b": 67,
-          "metric": "Spread: +0.0133 (USDT R$ 5.141)"
+          "score_b": 61,
+          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
         },
         {
           "time": "04/09 15:00",
           "label": "04/09 15:00",
-          "score": 88,
+          "score": 83,
           "score_a": 0,
-          "score_b": 88,
-          "metric": "Spread: +0.0176 (USDT R$ 5.146)"
+          "score_b": 83,
+          "metric": "Spread: +0.0166 (USDT R$ 5.146)"
         },
         {
           "time": "04/09 16:00",
           "label": "04/09 16:00",
-          "score": 87,
+          "score": 82,
           "score_a": 0,
-          "score_b": 87,
-          "metric": "Spread: +0.0174 (USDT R$ 5.146)"
+          "score_b": 82,
+          "metric": "Spread: +0.0164 (USDT R$ 5.146)"
         }
       ],
       "30d": [
@@ -37829,7 +37829,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0899 (USDT R$ 5.218)"
+          "metric": "Spread: +0.0889 (USDT R$ 5.218)"
         },
         {
           "time": "28/08 17:00",
@@ -37837,7 +37837,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0844 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0834 (USDT R$ 5.213)"
         },
         {
           "time": "28/08 18:00",
@@ -37845,7 +37845,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0827 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0817 (USDT R$ 5.211)"
         },
         {
           "time": "28/08 19:00",
@@ -37853,7 +37853,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0755 (USDT R$ 5.204)"
+          "metric": "Spread: +0.0745 (USDT R$ 5.204)"
         },
         {
           "time": "28/08 20:00",
@@ -37861,7 +37861,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0768 (USDT R$ 5.205)"
+          "metric": "Spread: +0.0758 (USDT R$ 5.205)"
         },
         {
           "time": "28/08 21:00",
@@ -37869,7 +37869,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0883 (USDT R$ 5.216)"
+          "metric": "Spread: +0.0873 (USDT R$ 5.216)"
         },
         {
           "time": "28/08 22:00",
@@ -37877,7 +37877,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0889 (USDT R$ 5.217)"
+          "metric": "Spread: +0.0879 (USDT R$ 5.217)"
         },
         {
           "time": "28/08 23:00",
@@ -37885,7 +37885,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0829 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0819 (USDT R$ 5.211)"
         },
         {
           "time": "29/08 00:00",
@@ -37893,7 +37893,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0863 (USDT R$ 5.215)"
+          "metric": "Spread: +0.0853 (USDT R$ 5.215)"
         },
         {
           "time": "29/08 01:00",
@@ -37901,7 +37901,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0873 (USDT R$ 5.215)"
+          "metric": "Spread: +0.0863 (USDT R$ 5.215)"
         },
         {
           "time": "29/08 02:00",
@@ -37909,7 +37909,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0775 (USDT R$ 5.206)"
+          "metric": "Spread: +0.0765 (USDT R$ 5.206)"
         },
         {
           "time": "29/08 03:00",
@@ -37917,7 +37917,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0792 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0782 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 04:00",
@@ -37925,7 +37925,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0790 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0780 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 05:00",
@@ -37933,7 +37933,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 06:00",
@@ -37941,7 +37941,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 07:00",
@@ -37949,7 +37949,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 08:00",
@@ -37957,7 +37957,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0791 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0781 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 09:00",
@@ -37965,7 +37965,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0876 (USDT R$ 5.216)"
+          "metric": "Spread: +0.0866 (USDT R$ 5.216)"
         },
         {
           "time": "29/08 10:00",
@@ -37973,7 +37973,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0875 (USDT R$ 5.216)"
+          "metric": "Spread: +0.0865 (USDT R$ 5.216)"
         },
         {
           "time": "29/08 11:00",
@@ -37981,7 +37981,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0825 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0815 (USDT R$ 5.211)"
         },
         {
           "time": "29/08 12:00",
@@ -37989,7 +37989,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0824 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0814 (USDT R$ 5.211)"
         },
         {
           "time": "29/08 13:00",
@@ -37997,7 +37997,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0842 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0832 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 14:00",
@@ -38005,7 +38005,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0840 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0830 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 15:00",
@@ -38013,7 +38013,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0828 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0818 (USDT R$ 5.211)"
         },
         {
           "time": "29/08 16:00",
@@ -38021,7 +38021,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0790 (USDT R$ 5.207)"
+          "metric": "Spread: +0.0780 (USDT R$ 5.207)"
         },
         {
           "time": "29/08 17:00",
@@ -38029,7 +38029,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0797 (USDT R$ 5.208)"
+          "metric": "Spread: +0.0787 (USDT R$ 5.208)"
         },
         {
           "time": "29/08 18:00",
@@ -38037,7 +38037,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0798 (USDT R$ 5.208)"
+          "metric": "Spread: +0.0788 (USDT R$ 5.208)"
         },
         {
           "time": "29/08 19:00",
@@ -38045,7 +38045,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0805 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0795 (USDT R$ 5.209)"
         },
         {
           "time": "29/08 20:00",
@@ -38053,7 +38053,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0806 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0796 (USDT R$ 5.209)"
         },
         {
           "time": "29/08 21:00",
@@ -38061,7 +38061,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 22:00",
@@ -38069,7 +38069,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0834 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0824 (USDT R$ 5.212)"
         },
         {
           "time": "29/08 23:00",
@@ -38077,7 +38077,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 00:00",
@@ -38085,7 +38085,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 01:00",
@@ -38093,7 +38093,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 02:00",
@@ -38101,7 +38101,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 03:00",
@@ -38109,7 +38109,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 04:00",
@@ -38117,7 +38117,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 05:00",
@@ -38125,7 +38125,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0851 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0841 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 06:00",
@@ -38133,7 +38133,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 07:00",
@@ -38141,7 +38141,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 08:00",
@@ -38149,7 +38149,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0850 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0840 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 09:00",
@@ -38157,7 +38157,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0834 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0824 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 10:00",
@@ -38165,7 +38165,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0847 (USDT R$ 5.213)"
+          "metric": "Spread: +0.0837 (USDT R$ 5.213)"
         },
         {
           "time": "30/08 11:00",
@@ -38173,7 +38173,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0836 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0826 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 12:00",
@@ -38181,7 +38181,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 13:00",
@@ -38189,7 +38189,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 14:00",
@@ -38197,7 +38197,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 15:00",
@@ -38205,7 +38205,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "30/08 16:00",
@@ -38213,7 +38213,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0821 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0811 (USDT R$ 5.210)"
         },
         {
           "time": "30/08 17:00",
@@ -38221,7 +38221,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0824 (USDT R$ 5.211)"
+          "metric": "Spread: +0.0814 (USDT R$ 5.211)"
         },
         {
           "time": "30/08 18:00",
@@ -38229,7 +38229,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0823 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0813 (USDT R$ 5.210)"
         },
         {
           "time": "30/08 19:00",
@@ -38237,7 +38237,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0823 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0813 (USDT R$ 5.210)"
         },
         {
           "time": "30/08 20:00",
@@ -38245,7 +38245,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0857 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0847 (USDT R$ 5.214)"
         },
         {
           "time": "30/08 21:00",
@@ -38253,7 +38253,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0878 (USDT R$ 5.216)"
+          "metric": "Spread: +0.0868 (USDT R$ 5.216)"
         },
         {
           "time": "30/08 22:00",
@@ -38261,7 +38261,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0862 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0852 (USDT R$ 5.214)"
         },
         {
           "time": "30/08 23:00",
@@ -38269,7 +38269,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0862 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0852 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 00:00",
@@ -38277,7 +38277,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0863 (USDT R$ 5.215)"
+          "metric": "Spread: +0.0853 (USDT R$ 5.215)"
         },
         {
           "time": "31/08 01:00",
@@ -38285,7 +38285,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0861 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0851 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 02:00",
@@ -38293,7 +38293,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0859 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0849 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 03:00",
@@ -38301,7 +38301,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0859 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0849 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 04:00",
@@ -38309,7 +38309,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0859 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0849 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 05:00",
@@ -38317,7 +38317,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0862 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0852 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 06:00",
@@ -38325,7 +38325,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0861 (USDT R$ 5.214)"
+          "metric": "Spread: +0.0851 (USDT R$ 5.214)"
         },
         {
           "time": "31/08 07:00",
@@ -38333,7 +38333,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0835 (USDT R$ 5.212)"
+          "metric": "Spread: +0.0825 (USDT R$ 5.212)"
         },
         {
           "time": "31/08 08:00",
@@ -38341,7 +38341,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0806 (USDT R$ 5.209)"
+          "metric": "Spread: +0.0796 (USDT R$ 5.209)"
         },
         {
           "time": "31/08 09:00",
@@ -38349,7 +38349,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0565 (USDT R$ 5.185)"
+          "metric": "Spread: +0.0555 (USDT R$ 5.185)"
         },
         {
           "time": "31/08 10:00",
@@ -38357,7 +38357,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0617 (USDT R$ 5.190)"
+          "metric": "Spread: +0.0607 (USDT R$ 5.190)"
         },
         {
           "time": "31/08 11:00",
@@ -38365,7 +38365,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0698 (USDT R$ 5.198)"
+          "metric": "Spread: +0.0688 (USDT R$ 5.198)"
         },
         {
           "time": "31/08 12:00",
@@ -38373,7 +38373,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0670 (USDT R$ 5.195)"
+          "metric": "Spread: +0.0660 (USDT R$ 5.195)"
         },
         {
           "time": "31/08 13:00",
@@ -38381,7 +38381,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0650 (USDT R$ 5.193)"
+          "metric": "Spread: +0.0640 (USDT R$ 5.193)"
         },
         {
           "time": "31/08 14:00",
@@ -38389,7 +38389,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0675 (USDT R$ 5.196)"
+          "metric": "Spread: +0.0665 (USDT R$ 5.196)"
         },
         {
           "time": "31/08 15:00",
@@ -38397,7 +38397,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0703 (USDT R$ 5.199)"
+          "metric": "Spread: +0.0693 (USDT R$ 5.199)"
         },
         {
           "time": "31/08 16:00",
@@ -38405,7 +38405,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0689 (USDT R$ 5.197)"
+          "metric": "Spread: +0.0679 (USDT R$ 5.197)"
         },
         {
           "time": "31/08 17:00",
@@ -38413,7 +38413,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0692 (USDT R$ 5.197)"
+          "metric": "Spread: +0.0682 (USDT R$ 5.197)"
         },
         {
           "time": "31/08 18:00",
@@ -38421,7 +38421,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0728 (USDT R$ 5.201)"
+          "metric": "Spread: +0.0718 (USDT R$ 5.201)"
         },
         {
           "time": "31/08 19:00",
@@ -38429,7 +38429,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0755 (USDT R$ 5.204)"
+          "metric": "Spread: +0.0745 (USDT R$ 5.204)"
         },
         {
           "time": "31/08 20:00",
@@ -38437,7 +38437,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0763 (USDT R$ 5.205)"
+          "metric": "Spread: +0.0753 (USDT R$ 5.205)"
         },
         {
           "time": "31/08 21:00",
@@ -38445,7 +38445,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0737 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0727 (USDT R$ 5.202)"
         },
         {
           "time": "31/08 22:00",
@@ -38453,7 +38453,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0746 (USDT R$ 5.203)"
+          "metric": "Spread: +0.0736 (USDT R$ 5.203)"
         },
         {
           "time": "31/08 23:00",
@@ -38461,7 +38461,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0742 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0732 (USDT R$ 5.202)"
         },
         {
           "time": "01/09 00:00",
@@ -38469,7 +38469,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0738 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0728 (USDT R$ 5.202)"
         },
         {
           "time": "01/09 01:00",
@@ -38477,7 +38477,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 02:00",
@@ -38485,7 +38485,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 03:00",
@@ -38493,7 +38493,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 04:00",
@@ -38501,7 +38501,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0722 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0712 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 05:00",
@@ -38509,7 +38509,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 06:00",
@@ -38517,7 +38517,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0723 (USDT R$ 5.200)"
+          "metric": "Spread: +0.0713 (USDT R$ 5.200)"
         },
         {
           "time": "01/09 07:00",
@@ -38525,7 +38525,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0733 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0723 (USDT R$ 5.202)"
         },
         {
           "time": "01/09 08:00",
@@ -38533,7 +38533,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0733 (USDT R$ 5.202)"
+          "metric": "Spread: +0.0723 (USDT R$ 5.202)"
         },
         {
           "time": "01/09 09:00",
@@ -38541,7 +38541,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0820 (USDT R$ 5.210)"
+          "metric": "Spread: +0.0810 (USDT R$ 5.210)"
         },
         {
           "time": "01/09 10:00",
@@ -38549,7 +38549,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0635 (USDT R$ 5.192)"
+          "metric": "Spread: +0.0625 (USDT R$ 5.192)"
         },
         {
           "time": "01/09 11:00",
@@ -38557,7 +38557,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0366 (USDT R$ 5.165)"
+          "metric": "Spread: +0.0356 (USDT R$ 5.165)"
         },
         {
           "time": "01/09 12:00",
@@ -38565,7 +38565,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0331 (USDT R$ 5.161)"
+          "metric": "Spread: +0.0321 (USDT R$ 5.161)"
         },
         {
           "time": "01/09 13:00",
@@ -38573,7 +38573,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0345 (USDT R$ 5.163)"
+          "metric": "Spread: +0.0335 (USDT R$ 5.163)"
         },
         {
           "time": "01/09 14:00",
@@ -38581,7 +38581,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0273 (USDT R$ 5.155)"
+          "metric": "Spread: +0.0263 (USDT R$ 5.155)"
         },
         {
           "time": "01/09 15:00",
@@ -38589,7 +38589,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0269 (USDT R$ 5.155)"
+          "metric": "Spread: +0.0259 (USDT R$ 5.155)"
         },
         {
           "time": "01/09 16:00",
@@ -38597,7 +38597,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0348 (USDT R$ 5.163)"
+          "metric": "Spread: +0.0338 (USDT R$ 5.163)"
         },
         {
           "time": "01/09 17:00",
@@ -38605,7 +38605,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0388 (USDT R$ 5.167)"
+          "metric": "Spread: +0.0378 (USDT R$ 5.167)"
         },
         {
           "time": "01/09 18:00",
@@ -38613,7 +38613,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0339 (USDT R$ 5.162)"
+          "metric": "Spread: +0.0329 (USDT R$ 5.162)"
         },
         {
           "time": "01/09 19:00",
@@ -38621,7 +38621,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0440 (USDT R$ 5.172)"
+          "metric": "Spread: +0.0430 (USDT R$ 5.172)"
         },
         {
           "time": "01/09 20:00",
@@ -38629,7 +38629,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0418 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0408 (USDT R$ 5.170)"
         },
         {
           "time": "01/09 21:00",
@@ -38637,7 +38637,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0397 (USDT R$ 5.168)"
+          "metric": "Spread: +0.0387 (USDT R$ 5.168)"
         },
         {
           "time": "01/09 22:00",
@@ -38645,7 +38645,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0408 (USDT R$ 5.169)"
+          "metric": "Spread: +0.0398 (USDT R$ 5.169)"
         },
         {
           "time": "01/09 23:00",
@@ -38653,7 +38653,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0460 (USDT R$ 5.174)"
+          "metric": "Spread: +0.0450 (USDT R$ 5.174)"
         },
         {
           "time": "02/09 00:00",
@@ -38661,7 +38661,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0439 (USDT R$ 5.172)"
+          "metric": "Spread: +0.0429 (USDT R$ 5.172)"
         },
         {
           "time": "02/09 01:00",
@@ -38669,7 +38669,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0445 (USDT R$ 5.173)"
+          "metric": "Spread: +0.0435 (USDT R$ 5.173)"
         },
         {
           "time": "02/09 02:00",
@@ -38677,7 +38677,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0437 (USDT R$ 5.172)"
+          "metric": "Spread: +0.0427 (USDT R$ 5.172)"
         },
         {
           "time": "02/09 03:00",
@@ -38685,7 +38685,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0422 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0412 (USDT R$ 5.170)"
         },
         {
           "time": "02/09 04:00",
@@ -38693,7 +38693,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0416 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0406 (USDT R$ 5.170)"
         },
         {
           "time": "02/09 05:00",
@@ -38701,7 +38701,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0380 (USDT R$ 5.166)"
+          "metric": "Spread: +0.0370 (USDT R$ 5.166)"
         },
         {
           "time": "02/09 06:00",
@@ -38709,7 +38709,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0381 (USDT R$ 5.166)"
+          "metric": "Spread: +0.0371 (USDT R$ 5.166)"
         },
         {
           "time": "02/09 07:00",
@@ -38717,7 +38717,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0445 (USDT R$ 5.173)"
+          "metric": "Spread: +0.0435 (USDT R$ 5.173)"
         },
         {
           "time": "02/09 08:00",
@@ -38725,7 +38725,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0416 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0406 (USDT R$ 5.170)"
         },
         {
           "time": "02/09 09:00",
@@ -38733,7 +38733,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0411 (USDT R$ 5.169)"
+          "metric": "Spread: +0.0401 (USDT R$ 5.169)"
         },
         {
           "time": "02/09 10:00",
@@ -38741,63 +38741,63 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 0,
           "score_b": 100,
-          "metric": "Spread: +0.0414 (USDT R$ 5.170)"
+          "metric": "Spread: +0.0404 (USDT R$ 5.170)"
         },
         {
           "time": "02/09 11:00",
           "label": "02/09 11:00",
-          "score": 32,
+          "score": 27,
           "score_a": 0,
-          "score_b": 32,
-          "metric": "Spread: +0.0063 (USDT R$ 5.135)"
+          "score_b": 27,
+          "metric": "Spread: +0.0053 (USDT R$ 5.135)"
         },
         {
           "time": "02/09 12:00",
           "label": "02/09 12:00",
-          "score": 43,
-          "score_a": 43,
+          "score": 48,
+          "score_a": 48,
           "score_b": 0,
-          "metric": "Spread: -0.0086 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0096 (USDT R$ 5.120)"
         },
         {
           "time": "02/09 13:00",
           "label": "02/09 13:00",
-          "score": 79,
-          "score_a": 79,
+          "score": 84,
+          "score_a": 84,
           "score_b": 0,
-          "metric": "Spread: -0.0158 (USDT R$ 5.112)"
+          "metric": "Spread: -0.0168 (USDT R$ 5.112)"
         },
         {
           "time": "02/09 14:00",
           "label": "02/09 14:00",
-          "score": 50,
-          "score_a": 50,
+          "score": 55,
+          "score_a": 55,
           "score_b": 0,
-          "metric": "Spread: -0.0101 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0111 (USDT R$ 5.118)"
         },
         {
           "time": "02/09 15:00",
           "label": "02/09 15:00",
-          "score": 52,
-          "score_a": 52,
+          "score": 57,
+          "score_a": 57,
           "score_b": 0,
-          "metric": "Spread: -0.0104 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0114 (USDT R$ 5.118)"
         },
         {
           "time": "02/09 16:00",
           "label": "02/09 16:00",
-          "score": 43,
-          "score_a": 43,
+          "score": 48,
+          "score_a": 48,
           "score_b": 0,
-          "metric": "Spread: -0.0087 (USDT R$ 5.120)"
+          "metric": "Spread: -0.0097 (USDT R$ 5.120)"
         },
         {
           "time": "02/09 17:00",
           "label": "02/09 17:00",
-          "score": 86,
-          "score_a": 86,
+          "score": 91,
+          "score_a": 91,
           "score_b": 0,
-          "metric": "Spread: -0.0172 (USDT R$ 5.111)"
+          "metric": "Spread: -0.0182 (USDT R$ 5.111)"
         },
         {
           "time": "02/09 18:00",
@@ -38805,95 +38805,95 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0222 (USDT R$ 5.106)"
+          "metric": "Spread: -0.0232 (USDT R$ 5.106)"
         },
         {
           "time": "02/09 19:00",
           "label": "02/09 19:00",
-          "score": 62,
-          "score_a": 62,
+          "score": 67,
+          "score_a": 67,
           "score_b": 0,
-          "metric": "Spread: -0.0125 (USDT R$ 5.116)"
+          "metric": "Spread: -0.0135 (USDT R$ 5.116)"
         },
         {
           "time": "02/09 20:00",
           "label": "02/09 20:00",
-          "score": 64,
-          "score_a": 64,
+          "score": 69,
+          "score_a": 69,
           "score_b": 0,
-          "metric": "Spread: -0.0128 (USDT R$ 5.115)"
+          "metric": "Spread: -0.0138 (USDT R$ 5.115)"
         },
         {
           "time": "02/09 21:00",
           "label": "02/09 21:00",
-          "score": 59,
-          "score_a": 59,
+          "score": 65,
+          "score_a": 65,
           "score_b": 0,
-          "metric": "Spread: -0.0119 (USDT R$ 5.116)"
+          "metric": "Spread: -0.0129 (USDT R$ 5.116)"
         },
         {
           "time": "02/09 22:00",
           "label": "02/09 22:00",
-          "score": 73,
-          "score_a": 73,
+          "score": 78,
+          "score_a": 78,
           "score_b": 0,
-          "metric": "Spread: -0.0146 (USDT R$ 5.114)"
+          "metric": "Spread: -0.0156 (USDT R$ 5.114)"
         },
         {
           "time": "02/09 23:00",
           "label": "02/09 23:00",
-          "score": 67,
-          "score_a": 67,
+          "score": 72,
+          "score_a": 72,
           "score_b": 0,
-          "metric": "Spread: -0.0133 (USDT R$ 5.115)"
+          "metric": "Spread: -0.0143 (USDT R$ 5.115)"
         },
         {
           "time": "03/09 00:00",
           "label": "03/09 00:00",
-          "score": 72,
-          "score_a": 72,
+          "score": 78,
+          "score_a": 78,
           "score_b": 0,
-          "metric": "Spread: -0.0145 (USDT R$ 5.114)"
+          "metric": "Spread: -0.0155 (USDT R$ 5.114)"
         },
         {
           "time": "03/09 01:00",
           "label": "03/09 01:00",
-          "score": 78,
-          "score_a": 78,
+          "score": 83,
+          "score_a": 83,
           "score_b": 0,
-          "metric": "Spread: -0.0156 (USDT R$ 5.113)"
+          "metric": "Spread: -0.0166 (USDT R$ 5.113)"
         },
         {
           "time": "03/09 02:00",
           "label": "03/09 02:00",
-          "score": 78,
-          "score_a": 78,
+          "score": 83,
+          "score_a": 83,
           "score_b": 0,
-          "metric": "Spread: -0.0156 (USDT R$ 5.113)"
+          "metric": "Spread: -0.0166 (USDT R$ 5.113)"
         },
         {
           "time": "03/09 03:00",
           "label": "03/09 03:00",
-          "score": 78,
-          "score_a": 78,
+          "score": 83,
+          "score_a": 83,
           "score_b": 0,
-          "metric": "Spread: -0.0156 (USDT R$ 5.113)"
+          "metric": "Spread: -0.0166 (USDT R$ 5.113)"
         },
         {
           "time": "03/09 04:00",
           "label": "03/09 04:00",
-          "score": 78,
-          "score_a": 78,
+          "score": 83,
+          "score_a": 83,
           "score_b": 0,
-          "metric": "Spread: -0.0156 (USDT R$ 5.113)"
+          "metric": "Spread: -0.0166 (USDT R$ 5.113)"
         },
         {
           "time": "03/09 05:00",
           "label": "03/09 05:00",
-          "score": 88,
-          "score_a": 88,
+          "score": 93,
+          "score_a": 93,
           "score_b": 0,
-          "metric": "Spread: -0.0175 (USDT R$ 5.111)"
+          "metric": "Spread: -0.0185 (USDT R$ 5.111)"
         },
         {
           "time": "03/09 06:00",
@@ -38901,7 +38901,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0211 (USDT R$ 5.107)"
+          "metric": "Spread: -0.0221 (USDT R$ 5.107)"
         },
         {
           "time": "03/09 07:00",
@@ -38909,7 +38909,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0265 (USDT R$ 5.102)"
+          "metric": "Spread: -0.0275 (USDT R$ 5.102)"
         },
         {
           "time": "03/09 08:00",
@@ -38917,7 +38917,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0291 (USDT R$ 5.099)"
+          "metric": "Spread: -0.0301 (USDT R$ 5.099)"
         },
         {
           "time": "03/09 09:00",
@@ -38925,247 +38925,247 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "Spread: -0.0328 (USDT R$ 5.095)"
+          "metric": "Spread: -0.0338 (USDT R$ 5.095)"
         },
         {
           "time": "03/09 10:00",
           "label": "03/09 10:00",
-          "score": 71,
-          "score_a": 71,
+          "score": 76,
+          "score_a": 76,
           "score_b": 0,
-          "metric": "Spread: -0.0142 (USDT R$ 5.114)"
+          "metric": "Spread: -0.0152 (USDT R$ 5.114)"
         },
         {
           "time": "03/09 11:00",
           "label": "03/09 11:00",
-          "score": 76,
-          "score_a": 76,
+          "score": 81,
+          "score_a": 81,
           "score_b": 0,
-          "metric": "Spread: -0.0152 (USDT R$ 5.113)"
+          "metric": "Spread: -0.0162 (USDT R$ 5.113)"
         },
         {
           "time": "03/09 12:00",
           "label": "03/09 12:00",
-          "score": 76,
-          "score_a": 76,
+          "score": 82,
+          "score_a": 82,
           "score_b": 0,
-          "metric": "Spread: -0.0153 (USDT R$ 5.113)"
+          "metric": "Spread: -0.0163 (USDT R$ 5.113)"
         },
         {
           "time": "03/09 13:00",
           "label": "03/09 13:00",
-          "score": 62,
-          "score_a": 62,
+          "score": 67,
+          "score_a": 67,
           "score_b": 0,
-          "metric": "Spread: -0.0125 (USDT R$ 5.116)"
+          "metric": "Spread: -0.0135 (USDT R$ 5.116)"
         },
         {
           "time": "03/09 14:00",
           "label": "03/09 14:00",
-          "score": 62,
-          "score_a": 62,
+          "score": 67,
+          "score_a": 67,
           "score_b": 0,
-          "metric": "Spread: -0.0124 (USDT R$ 5.116)"
+          "metric": "Spread: -0.0134 (USDT R$ 5.116)"
         },
         {
           "time": "03/09 15:00",
           "label": "03/09 15:00",
-          "score": 72,
-          "score_a": 72,
+          "score": 77,
+          "score_a": 77,
           "score_b": 0,
-          "metric": "Spread: -0.0144 (USDT R$ 5.114)"
+          "metric": "Spread: -0.0154 (USDT R$ 5.114)"
         },
         {
           "time": "03/09 16:00",
           "label": "03/09 16:00",
-          "score": 65,
-          "score_a": 65,
+          "score": 70,
+          "score_a": 70,
           "score_b": 0,
-          "metric": "Spread: -0.0131 (USDT R$ 5.115)"
+          "metric": "Spread: -0.0141 (USDT R$ 5.115)"
         },
         {
           "time": "03/09 17:00",
           "label": "03/09 17:00",
-          "score": 32,
-          "score_a": 32,
+          "score": 37,
+          "score_a": 37,
           "score_b": 0,
-          "metric": "Spread: -0.0064 (USDT R$ 5.122)"
+          "metric": "Spread: -0.0074 (USDT R$ 5.122)"
         },
         {
           "time": "03/09 18:00",
           "label": "03/09 18:00",
-          "score": 51,
-          "score_a": 51,
+          "score": 57,
+          "score_a": 57,
           "score_b": 0,
-          "metric": "Spread: -0.0103 (USDT R$ 5.118)"
+          "metric": "Spread: -0.0113 (USDT R$ 5.118)"
         },
         {
           "time": "03/09 19:00",
           "label": "03/09 19:00",
-          "score": 11,
-          "score_a": 11,
+          "score": 16,
+          "score_a": 16,
           "score_b": 0,
-          "metric": "Spread: -0.0022 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0032 (USDT R$ 5.126)"
         },
         {
           "time": "03/09 20:00",
           "label": "03/09 20:00",
-          "score": 16,
-          "score_a": 16,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0033 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0043 (USDT R$ 5.125)"
         },
         {
           "time": "03/09 21:00",
           "label": "03/09 21:00",
-          "score": 21,
-          "score_a": 21,
+          "score": 26,
+          "score_a": 26,
           "score_b": 0,
-          "metric": "Spread: -0.0042 (USDT R$ 5.124)"
+          "metric": "Spread: -0.0052 (USDT R$ 5.124)"
         },
         {
           "time": "03/09 22:00",
           "label": "03/09 22:00",
-          "score": 38,
-          "score_a": 38,
+          "score": 43,
+          "score_a": 43,
           "score_b": 0,
-          "metric": "Spread: -0.0076 (USDT R$ 5.121)"
+          "metric": "Spread: -0.0086 (USDT R$ 5.121)"
         },
         {
           "time": "03/09 23:00",
           "label": "03/09 23:00",
-          "score": 12,
-          "score_a": 12,
+          "score": 17,
+          "score_a": 17,
           "score_b": 0,
-          "metric": "Spread: -0.0025 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0035 (USDT R$ 5.126)"
         },
         {
           "time": "04/09 00:00",
           "label": "04/09 00:00",
-          "score": 0,
-          "score_a": 0,
+          "score": 6,
+          "score_a": 6,
           "score_b": 0,
-          "metric": "Spread: -0.0001 (USDT R$ 5.128)"
+          "metric": "Spread: -0.0011 (USDT R$ 5.128)"
         },
         {
           "time": "04/09 01:00",
           "label": "04/09 01:00",
-          "score": 9,
+          "score": 4,
           "score_a": 0,
-          "score_b": 9,
-          "metric": "Spread: +0.0018 (USDT R$ 5.130)"
+          "score_b": 4,
+          "metric": "Spread: +0.0008 (USDT R$ 5.130)"
         },
         {
           "time": "04/09 02:00",
           "label": "04/09 02:00",
-          "score": 5,
+          "score": 0,
           "score_a": 0,
-          "score_b": 5,
-          "metric": "Spread: +0.0010 (USDT R$ 5.129)"
+          "score_b": 0,
+          "metric": "Spread: +0.0000 (USDT R$ 5.129)"
         },
         {
           "time": "04/09 03:00",
           "label": "04/09 03:00",
-          "score": 8,
-          "score_a": 8,
+          "score": 13,
+          "score_a": 13,
           "score_b": 0,
-          "metric": "Spread: -0.0015 (USDT R$ 5.127)"
+          "metric": "Spread: -0.0025 (USDT R$ 5.127)"
         },
         {
           "time": "04/09 04:00",
           "label": "04/09 04:00",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04/09 05:00",
           "label": "04/09 05:00",
-          "score": 9,
-          "score_a": 9,
+          "score": 14,
+          "score_a": 14,
           "score_b": 0,
-          "metric": "Spread: -0.0018 (USDT R$ 5.126)"
+          "metric": "Spread: -0.0028 (USDT R$ 5.126)"
         },
         {
           "time": "04/09 06:00",
           "label": "04/09 06:00",
-          "score": 13,
-          "score_a": 13,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0027 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0037 (USDT R$ 5.125)"
         },
         {
           "time": "04/09 07:00",
           "label": "04/09 07:00",
-          "score": 14,
-          "score_a": 14,
+          "score": 19,
+          "score_a": 19,
           "score_b": 0,
-          "metric": "Spread: -0.0029 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0039 (USDT R$ 5.125)"
         },
         {
           "time": "04/09 08:00",
           "label": "04/09 08:00",
-          "score": 15,
-          "score_a": 15,
+          "score": 21,
+          "score_a": 21,
           "score_b": 0,
-          "metric": "Spread: -0.0031 (USDT R$ 5.125)"
+          "metric": "Spread: -0.0041 (USDT R$ 5.125)"
         },
         {
           "time": "04/09 09:00",
           "label": "04/09 09:00",
-          "score": 13,
+          "score": 8,
           "score_a": 0,
-          "score_b": 13,
-          "metric": "Spread: +0.0027 (USDT R$ 5.131)"
+          "score_b": 8,
+          "metric": "Spread: +0.0017 (USDT R$ 5.131)"
         },
         {
           "time": "04/09 10:00",
           "label": "04/09 10:00",
-          "score": 62,
+          "score": 57,
           "score_a": 0,
-          "score_b": 62,
-          "metric": "Spread: +0.0123 (USDT R$ 5.141)"
+          "score_b": 57,
+          "metric": "Spread: +0.0113 (USDT R$ 5.141)"
         },
         {
           "time": "04/09 11:00",
           "label": "04/09 11:00",
-          "score": 51,
+          "score": 46,
           "score_a": 0,
-          "score_b": 51,
-          "metric": "Spread: +0.0101 (USDT R$ 5.138)"
+          "score_b": 46,
+          "metric": "Spread: +0.0091 (USDT R$ 5.138)"
         },
         {
           "time": "04/09 12:00",
           "label": "04/09 12:00",
-          "score": 34,
+          "score": 29,
           "score_a": 0,
-          "score_b": 34,
-          "metric": "Spread: +0.0068 (USDT R$ 5.135)"
+          "score_b": 29,
+          "metric": "Spread: +0.0058 (USDT R$ 5.135)"
         },
         {
           "time": "04/09 13:00",
           "label": "04/09 13:00",
-          "score": 3,
-          "score_a": 0,
-          "score_b": 3,
-          "metric": "Spread: +0.0006 (USDT R$ 5.129)"
+          "score": 2,
+          "score_a": 2,
+          "score_b": 0,
+          "metric": "Spread: -0.0004 (USDT R$ 5.129)"
         },
         {
           "time": "04/09 14:00",
           "label": "04/09 14:00",
-          "score": 53,
+          "score": 48,
           "score_a": 0,
-          "score_b": 53,
-          "metric": "Spread: +0.0105 (USDT R$ 5.139)"
+          "score_b": 48,
+          "metric": "Spread: +0.0095 (USDT R$ 5.139)"
         },
         {
           "time": "04/09 15:00",
           "label": "04/09 15:00",
-          "score": 53,
+          "score": 48,
           "score_a": 0,
-          "score_b": 53,
-          "metric": "Spread: +0.0106 (USDT R$ 5.139)"
+          "score_b": 48,
+          "metric": "Spread: +0.0096 (USDT R$ 5.139)"
         }
       ]
     }
@@ -45662,7 +45662,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "28/08 22:00",
@@ -45670,7 +45670,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "28/08 23:00",
@@ -45678,7 +45678,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "28/08 23:00",
@@ -45686,7 +45686,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "28/08 23:00",
@@ -45694,7 +45694,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "28/08 23:00",
@@ -45718,7 +45718,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 00:00",
@@ -45726,7 +45726,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 00:00",
@@ -45734,7 +45734,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 01:00",
@@ -45742,7 +45742,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 01:00",
@@ -45750,7 +45750,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 01:00",
@@ -45758,7 +45758,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 01:00",
@@ -45782,7 +45782,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 02:00",
@@ -45790,7 +45790,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 02:00",
@@ -45798,7 +45798,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 03:00",
@@ -45806,7 +45806,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 03:00",
@@ -45814,7 +45814,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 03:00",
@@ -45838,7 +45838,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 04:00",
@@ -45846,7 +45846,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 04:00",
@@ -45854,7 +45854,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 04:00",
@@ -45862,7 +45862,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 05:00",
@@ -45870,7 +45870,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 05:00",
@@ -45902,7 +45902,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 06:00",
@@ -45910,7 +45910,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 06:00",
@@ -45918,7 +45918,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 06:00",
@@ -45926,7 +45926,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+        },
+        {
+          "time": "29/08 07:00",
+          "label": "29/08 07:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 07:00",
@@ -45950,15 +45958,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
-        },
-        {
-          "time": "29/08 07:00",
-          "label": "29/08 07:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 08:00",
@@ -45966,7 +45966,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 08:00",
@@ -45974,7 +45974,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 08:00",
@@ -45982,7 +45982,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 08:00",
@@ -45990,7 +45990,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 09:00",
@@ -46014,7 +46014,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 09:00",
@@ -46022,7 +46022,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 10:00",
@@ -46030,7 +46030,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 10:00",
@@ -46038,7 +46038,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 10:00",
@@ -46046,7 +46046,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 10:00",
@@ -46054,7 +46054,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 11:00",
@@ -46078,7 +46078,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 11:00",
@@ -46086,7 +46086,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 12:00",
@@ -46094,7 +46094,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 12:00",
@@ -46102,7 +46102,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 12:00",
@@ -46110,7 +46110,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 12:00",
@@ -46134,7 +46134,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 13:00",
@@ -46142,7 +46142,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 13:00",
@@ -46150,7 +46150,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 14:00",
@@ -46158,7 +46158,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 14:00",
@@ -46166,7 +46166,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 14:00",
@@ -46198,7 +46198,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 15:00",
@@ -46206,7 +46206,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 15:00",
@@ -46214,7 +46214,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 16:00",
@@ -46222,7 +46222,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 16:00",
@@ -46230,7 +46230,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 16:00",
@@ -46254,7 +46254,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 17:00",
@@ -46262,7 +46262,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 17:00",
@@ -46270,7 +46270,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 17:00",
@@ -46278,7 +46278,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 18:00",
@@ -46286,7 +46286,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 18:00",
@@ -46318,7 +46318,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 19:00",
@@ -46326,7 +46326,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 19:00",
@@ -46334,7 +46334,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 19:00",
@@ -46342,7 +46342,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+        },
+        {
+          "time": "29/08 20:00",
+          "label": "29/08 20:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 20:00",
@@ -46366,15 +46374,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
-        },
-        {
-          "time": "29/08 20:00",
-          "label": "29/08 20:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 21:00",
@@ -46382,7 +46382,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 21:00",
@@ -46390,7 +46390,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 21:00",
@@ -46398,7 +46398,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 21:00",
@@ -46406,7 +46406,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 22:00",
@@ -46430,7 +46430,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 22:00",
@@ -46438,7 +46438,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 23:00",
@@ -46446,7 +46446,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 23:00",
@@ -46454,7 +46454,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 23:00",
@@ -46462,7 +46462,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 23:00",
@@ -46470,7 +46470,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 00:00",
@@ -46494,7 +46494,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 00:00",
@@ -46502,7 +46502,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 01:00",
@@ -46510,7 +46510,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 01:00",
@@ -46518,7 +46518,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 01:00",
@@ -46526,7 +46526,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 01:00",
@@ -46550,7 +46550,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 02:00",
@@ -46558,7 +46558,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 02:00",
@@ -46566,7 +46566,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 03:00",
@@ -46574,7 +46574,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 03:00",
@@ -46582,7 +46582,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 03:00",
@@ -46614,7 +46614,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 04:00",
@@ -46622,7 +46622,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 04:00",
@@ -46630,7 +46630,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 05:00",
@@ -46638,7 +46638,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 05:00",
@@ -46646,7 +46646,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 05:00",
@@ -46670,7 +46670,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 06:00",
@@ -46678,7 +46678,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 06:00",
@@ -46686,7 +46686,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 06:00",
@@ -46694,7 +46694,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 07:00",
@@ -46702,7 +46702,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 07:00",
@@ -46734,7 +46734,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 08:00",
@@ -46742,7 +46742,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 08:00",
@@ -46750,7 +46750,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 08:00",
@@ -46758,7 +46758,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+        },
+        {
+          "time": "30/08 09:00",
+          "label": "30/08 09:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 09:00",
@@ -46782,15 +46790,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
-        },
-        {
-          "time": "30/08 09:00",
-          "label": "30/08 09:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 10:00",
@@ -46798,7 +46798,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 10:00",
@@ -46806,7 +46806,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 10:00",
@@ -46814,7 +46814,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 10:00",
@@ -46822,7 +46822,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 11:00",
@@ -46846,7 +46846,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 11:00",
@@ -46854,7 +46854,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 12:00",
@@ -46862,7 +46862,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 12:00",
@@ -46870,7 +46870,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 12:00",
@@ -46878,7 +46878,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 12:00",
@@ -46886,7 +46886,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 13:00",
@@ -46910,7 +46910,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 13:00",
@@ -46918,7 +46918,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 14:00",
@@ -46926,7 +46926,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 14:00",
@@ -46934,7 +46934,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 14:00",
@@ -46942,7 +46942,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 14:00",
@@ -46966,7 +46966,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 15:00",
@@ -46974,7 +46974,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 15:00",
@@ -46982,7 +46982,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 16:00",
@@ -46990,7 +46990,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 16:00",
@@ -46998,7 +46998,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 16:00",
@@ -47030,7 +47030,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 17:00",
@@ -47038,7 +47038,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 17:00",
@@ -47046,7 +47046,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 18:00",
@@ -47054,7 +47054,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 18:00",
@@ -47062,7 +47062,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 18:00",
@@ -47086,7 +47086,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 19:00",
@@ -47094,7 +47094,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 19:00",
@@ -47102,7 +47102,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 19:00",
@@ -47110,7 +47110,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+        },
+        {
+          "time": "30/08 20:00",
+          "label": "30/08 20:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 20:00",
@@ -47134,15 +47142,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
-        },
-        {
-          "time": "30/08 20:00",
-          "label": "30/08 20:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 21:00",
@@ -47150,7 +47150,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 21:00",
@@ -47158,7 +47158,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 21:00",
@@ -47166,7 +47166,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 21:00",
@@ -47174,7 +47174,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+        },
+        {
+          "time": "30/08 22:00",
+          "label": "30/08 22:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 22:00",
@@ -47198,15 +47206,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
-        },
-        {
-          "time": "30/08 22:00",
-          "label": "30/08 22:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 23:00",
@@ -47214,7 +47214,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 23:00",
@@ -47222,7 +47222,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 23:00",
@@ -47230,7 +47230,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 23:00",
@@ -47238,7 +47238,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 00:00",
@@ -47262,7 +47262,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 00:00",
@@ -47270,7 +47270,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 01:00",
@@ -47278,7 +47278,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 01:00",
@@ -47286,7 +47286,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 01:00",
@@ -47294,7 +47294,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 01:00",
@@ -47326,7 +47326,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 02:00",
@@ -47334,7 +47334,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 03:00",
@@ -47342,7 +47342,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 03:00",
@@ -47350,7 +47350,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 03:00",
@@ -47358,7 +47358,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 03:00",
@@ -47382,7 +47382,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 04:00",
@@ -47390,7 +47390,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 04:00",
@@ -47398,7 +47398,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 05:00",
@@ -47406,7 +47406,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 05:00",
@@ -47414,7 +47414,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 05:00",
@@ -47446,7 +47446,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 06:00",
@@ -47454,7 +47454,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 06:00",
@@ -47462,7 +47462,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 07:00",
@@ -47470,7 +47470,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 07:00",
@@ -47478,7 +47478,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 07:00",
@@ -47502,7 +47502,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 08:00",
@@ -47510,7 +47510,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 08:00",
@@ -47518,7 +47518,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 08:00",
@@ -47526,7 +47526,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+        },
+        {
+          "time": "31/08 09:00",
+          "label": "31/08 09:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 09:00",
@@ -47550,15 +47558,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
-        },
-        {
-          "time": "31/08 09:00",
-          "label": "31/08 09:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 10:00",
@@ -47566,7 +47566,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 10:00",
@@ -47574,7 +47574,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 10:00",
@@ -47950,7 +47950,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
         },
         {
           "time": "31/08 22:00",
@@ -47974,7 +47974,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
         },
         {
           "time": "31/08 23:00",
@@ -47990,7 +47990,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+        },
+        {
+          "time": "31/08 23:00",
+          "label": "31/08 23:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
         },
         {
           "time": "31/08 23:00",
@@ -48001,12 +48009,12 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
-          "time": "31/08 23:00",
-          "label": "31/08 23:00",
+          "time": "01/09 00:00",
+          "label": "01/09 00:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
         },
         {
           "time": "01/09 00:00",
@@ -48030,15 +48038,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
-        },
-        {
-          "time": "01/09 00:00",
-          "label": "01/09 00:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
         },
         {
           "time": "01/09 01:00",
@@ -48054,7 +48054,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+        },
+        {
+          "time": "01/09 01:00",
+          "label": "01/09 01:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
         },
         {
           "time": "01/09 01:00",
@@ -48065,8 +48073,16 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
-          "time": "01/09 01:00",
-          "label": "01/09 01:00",
+          "time": "01/09 02:00",
+          "label": "01/09 02:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+        },
+        {
+          "time": "01/09 02:00",
+          "label": "01/09 02:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
@@ -48089,20 +48105,12 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "NVDAB: $230.15 (Z: +0.00σ)"
         },
         {
-          "time": "01/09 02:00",
-          "label": "01/09 02:00",
+          "time": "01/09 03:00",
+          "label": "01/09 03:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
-        },
-        {
-          "time": "01/09 02:00",
-          "label": "01/09 02:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 03:00",
@@ -48126,15 +48134,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
-        },
-        {
-          "time": "01/09 03:00",
-          "label": "01/09 03:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 04:00",
@@ -48150,7 +48150,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+        },
+        {
+          "time": "01/09 04:00",
+          "label": "01/09 04:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 04:00",
@@ -48161,12 +48169,12 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "NVDAB: $230.15 (Z: +0.00σ)"
         },
         {
-          "time": "01/09 04:00",
-          "label": "01/09 04:00",
+          "time": "01/09 05:00",
+          "label": "01/09 05:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 05:00",
@@ -48190,15 +48198,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
-        },
-        {
-          "time": "01/09 05:00",
-          "label": "01/09 05:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 06:00",
@@ -48214,7 +48214,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+        },
+        {
+          "time": "01/09 06:00",
+          "label": "01/09 06:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 06:00",
@@ -48225,12 +48233,12 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "NVDAB: $230.15 (Z: +0.00σ)"
         },
         {
-          "time": "01/09 06:00",
-          "label": "01/09 06:00",
+          "time": "01/09 07:00",
+          "label": "01/09 07:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 07:00",
@@ -48254,15 +48262,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
-        },
-        {
-          "time": "01/09 07:00",
-          "label": "01/09 07:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 08:00",
@@ -48278,7 +48278,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+        },
+        {
+          "time": "01/09 08:00",
+          "label": "01/09 08:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 08:00",
@@ -48289,12 +48297,12 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "NVDAB: $230.15 (Z: +0.00σ)"
         },
         {
-          "time": "01/09 08:00",
-          "label": "01/09 08:00",
+          "time": "01/09 09:00",
+          "label": "01/09 09:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 09:00",
@@ -48310,7 +48318,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 09:00",
@@ -48318,15 +48326,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
-        },
-        {
-          "time": "01/09 09:00",
-          "label": "01/09 09:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 10:00",
@@ -48342,7 +48342,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 10:00",
@@ -48726,7 +48726,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+        },
+        {
+          "time": "01/09 22:00",
+          "label": "01/09 22:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 22:00",
@@ -48737,14 +48745,6 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "NVDAB: $230.15 (Z: +0.00σ)"
         },
         {
-          "time": "01/09 22:00",
-          "label": "01/09 22:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
-        },
-        {
           "time": "01/09 23:00",
           "label": "01/09 23:00",
           "score": 0,
@@ -48758,7 +48758,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 23:00",
@@ -48782,7 +48782,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+        },
+        {
+          "time": "02/09 00:00",
+          "label": "02/09 00:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 00:00",
@@ -48801,12 +48809,12 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "NVDAB: $230.15 (Z: +0.00σ)"
         },
         {
-          "time": "02/09 00:00",
-          "label": "02/09 00:00",
+          "time": "02/09 01:00",
+          "label": "02/09 01:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 01:00",
@@ -48814,15 +48822,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
-        },
-        {
-          "time": "02/09 01:00",
-          "label": "02/09 01:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 01:00",
@@ -48846,7 +48846,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 02:00",
@@ -48870,7 +48870,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+        },
+        {
+          "time": "02/09 03:00",
+          "label": "02/09 03:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 03:00",
@@ -48894,15 +48902,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
-          "time": "02/09 03:00",
-          "label": "02/09 03:00",
+          "time": "02/09 04:00",
+          "label": "02/09 04:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 04:00",
@@ -48926,15 +48934,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
-        },
-        {
-          "time": "02/09 04:00",
-          "label": "02/09 04:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 05:00",
@@ -48958,7 +48958,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 05:00",
@@ -48966,7 +48966,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 06:00",
@@ -48990,7 +48990,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 06:00",
@@ -48998,7 +48998,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 07:00",
@@ -49014,7 +49014,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 07:00",
@@ -49022,7 +49022,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 07:00",
@@ -49046,7 +49046,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 08:00",
@@ -49054,7 +49054,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 08:00",
@@ -49078,7 +49078,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 09:00",
@@ -49086,7 +49086,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 09:00",
@@ -49102,7 +49102,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 10:00",
@@ -49110,7 +49110,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 10:00",
@@ -50896,7 +50896,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 00:00",
@@ -50904,7 +50904,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 01:00",
@@ -50912,7 +50912,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 02:00",
@@ -50920,7 +50920,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 03:00",
@@ -50928,7 +50928,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 04:00",
@@ -50936,7 +50936,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 05:00",
@@ -50952,7 +50952,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 07:00",
@@ -50968,7 +50968,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 09:00",
@@ -50984,7 +50984,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 11:00",
@@ -51000,7 +51000,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 13:00",
@@ -51008,7 +51008,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 14:00",
@@ -51016,7 +51016,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 15:00",
@@ -51024,7 +51024,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 16:00",
@@ -51032,7 +51032,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 17:00",
@@ -51040,7 +51040,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 18:00",
@@ -51056,7 +51056,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 20:00",
@@ -51072,7 +51072,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "29/08 22:00",
@@ -51088,7 +51088,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 00:00",
@@ -51104,7 +51104,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 02:00",
@@ -51112,7 +51112,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 03:00",
@@ -51120,7 +51120,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 04:00",
@@ -51128,7 +51128,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 05:00",
@@ -51136,7 +51136,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 06:00",
@@ -51144,7 +51144,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 07:00",
@@ -51160,7 +51160,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 09:00",
@@ -51176,7 +51176,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 11:00",
@@ -51192,7 +51192,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 13:00",
@@ -51208,7 +51208,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 15:00",
@@ -51216,7 +51216,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 16:00",
@@ -51224,7 +51224,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 17:00",
@@ -51232,7 +51232,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 18:00",
@@ -51240,7 +51240,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 19:00",
@@ -51248,7 +51248,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 20:00",
@@ -51264,7 +51264,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "30/08 22:00",
@@ -51280,7 +51280,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 00:00",
@@ -51296,7 +51296,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 02:00",
@@ -51312,7 +51312,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 04:00",
@@ -51320,7 +51320,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 05:00",
@@ -51328,7 +51328,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 06:00",
@@ -51336,7 +51336,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 07:00",
@@ -51344,7 +51344,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 08:00",
@@ -51352,7 +51352,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 09:00",
@@ -51368,7 +51368,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "31/08 11:00",
@@ -51472,7 +51472,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
         },
         {
           "time": "01/09 00:00",
@@ -51488,7 +51488,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
         },
         {
           "time": "01/09 02:00",
@@ -51496,7 +51496,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 03:00",
@@ -51512,7 +51512,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 05:00",
@@ -51528,7 +51528,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 07:00",
@@ -51544,7 +51544,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 09:00",
@@ -51560,7 +51560,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 11:00",
@@ -51656,7 +51656,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "01/09 23:00",
@@ -51664,7 +51664,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 00:00",
@@ -51672,7 +51672,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 01:00",
@@ -51680,7 +51680,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 02:00",
@@ -51728,7 +51728,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 08:00",
@@ -51736,7 +51736,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 09:00",
@@ -51744,7 +51744,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 10:00",
@@ -51752,7 +51752,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "NVDAB: $230.15 (Z: +0.00σ)"
+          "metric": "NVDAB: $230.15 (Z: -0.00σ)"
         },
         {
           "time": "02/09 11:00",
@@ -71708,14 +71708,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "XLE: $92.40 (Z: -0.00σ)"
-        },
-        {
-          "time": "28/08 23:00",
-          "label": "28/08 23:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "XLE: $92.40 (Z: +0.00σ)"
         },
         {
@@ -71727,6 +71719,14 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "XLE: $92.40 (Z: +0.00σ)"
         },
         {
+          "time": "28/08 23:00",
+          "label": "28/08 23:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "XLE: $92.40 (Z: +0.00σ)"
+        },
+        {
           "time": "29/08 00:00",
           "label": "29/08 00:00",
           "score": 0,
@@ -71740,7 +71740,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "XLE: $92.40 (Z: -0.00σ)"
+          "metric": "XLE: $92.40 (Z: +0.00σ)"
         },
         {
           "time": "29/08 00:00",
@@ -71748,7 +71748,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "XLE: $92.40 (Z: -0.00σ)"
+          "metric": "XLE: $92.40 (Z: +0.00σ)"
         },
         {
           "time": "29/08 00:00",
@@ -76918,7 +76918,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "XLE: $92.40 (Z: -0.00σ)"
+          "metric": "XLE: $92.40 (Z: +0.00σ)"
         },
         {
           "time": "29/08 00:00",
@@ -76926,7 +76926,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "XLE: $92.40 (Z: -0.00σ)"
+          "metric": "XLE: $92.40 (Z: +0.00σ)"
         },
         {
           "time": "29/08 01:00",
@@ -104241,7 +104241,7 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Simple Earn Flexible (3.5% a.a.)",
     "ponta_b_score": 100,
     "proximidade_score": 100,
-    "valor_atual_str": "Ouro PAXG: R$ 22788.56 (Piso Ratchet Ativo)",
+    "valor_atual_str": "Ouro PAXG: R$ 22786.19 (Piso Ratchet Ativo)",
     "distancia_display": "DCA Ativo (R$ 50 a cada 5 dias)",
     "status": "GESTAO_PASSIVA",
     "icone": "🥇",
@@ -144212,7 +144212,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "18:12",
@@ -144220,7 +144220,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "18:14",
@@ -144292,7 +144292,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "18:32",
@@ -144300,7 +144300,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "18:34",
@@ -144308,7 +144308,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "18:36",
@@ -144380,7 +144380,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "18:54",
@@ -144388,7 +144388,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "18:56",
@@ -144468,7 +144468,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "19:16",
@@ -144476,7 +144476,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "19:18",
@@ -144548,7 +144548,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "19:36",
@@ -144556,7 +144556,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "19:38",
@@ -144564,7 +144564,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "19:40",
@@ -144636,7 +144636,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "19:58",
@@ -144644,7 +144644,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "20:00",
@@ -144724,7 +144724,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "20:20",
@@ -144732,7 +144732,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "20:22",
@@ -144804,7 +144804,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "20:40",
@@ -144812,7 +144812,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "20:42",
@@ -144820,7 +144820,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "20:44",
@@ -144892,7 +144892,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "21:02",
@@ -144900,7 +144900,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "21:04",
@@ -144980,7 +144980,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "21:24",
@@ -144988,7 +144988,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "21:26",
@@ -145060,7 +145060,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "21:44",
@@ -145068,7 +145068,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "21:46",
@@ -145076,7 +145076,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "21:48",
@@ -145148,7 +145148,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "22:06",
@@ -145156,7 +145156,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "22:08",
@@ -145236,7 +145236,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "22:28",
@@ -145244,7 +145244,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "22:30",
@@ -145316,7 +145316,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "22:48",
@@ -145324,7 +145324,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "22:50",
@@ -145332,7 +145332,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "22:52",
@@ -145404,7 +145404,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "23:10",
@@ -145412,7 +145412,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "23:12",
@@ -145492,7 +145492,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "23:32",
@@ -145500,7 +145500,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "23:34",
@@ -145572,7 +145572,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "23:52",
@@ -145580,7 +145580,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "23:54",
@@ -145588,7 +145588,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "23:56",
@@ -145660,7 +145660,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "00:14",
@@ -145668,7 +145668,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "00:16",
@@ -145748,7 +145748,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "00:36",
@@ -145756,7 +145756,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "00:38",
@@ -145828,7 +145828,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "00:56",
@@ -145836,7 +145836,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "00:58",
@@ -145844,7 +145844,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "01:00",
@@ -145916,7 +145916,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "01:18",
@@ -145924,7 +145924,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "01:20",
@@ -146004,7 +146004,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "01:40",
@@ -146012,7 +146012,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "01:42",
@@ -146084,7 +146084,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "02:00",
@@ -146092,7 +146092,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "02:02",
@@ -146100,7 +146100,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "02:04",
@@ -146172,7 +146172,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "02:22",
@@ -146180,7 +146180,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "02:24",
@@ -146260,7 +146260,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "02:44",
@@ -146268,7 +146268,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "02:46",
@@ -146340,7 +146340,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "03:04",
@@ -146348,7 +146348,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "03:06",
@@ -146356,7 +146356,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "03:08",
@@ -146428,7 +146428,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "03:26",
@@ -146436,7 +146436,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "03:28",
@@ -146516,7 +146516,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "03:48",
@@ -146524,7 +146524,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "03:50",
@@ -146596,7 +146596,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04:08",
@@ -146604,7 +146604,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04:10",
@@ -146612,7 +146612,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04:12",
@@ -146684,7 +146684,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04:30",
@@ -146692,7 +146692,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04:32",
@@ -146772,7 +146772,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04:52",
@@ -146780,7 +146780,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04:54",
@@ -146852,7 +146852,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "05:12",
@@ -146860,7 +146860,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "05:14",
@@ -146868,7 +146868,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "05:16",
@@ -146940,7 +146940,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "05:34",
@@ -146948,7 +146948,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "05:36",
@@ -147028,7 +147028,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "05:56",
@@ -147036,7 +147036,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "05:58",
@@ -147108,7 +147108,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "06:16",
@@ -147116,7 +147116,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "06:18",
@@ -147124,7 +147124,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "06:20",
@@ -147196,7 +147196,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "06:38",
@@ -147204,7 +147204,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "06:40",
@@ -147284,7 +147284,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "07:00",
@@ -147292,7 +147292,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "07:02",
@@ -147364,7 +147364,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "07:20",
@@ -147372,7 +147372,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "07:22",
@@ -147380,7 +147380,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "07:24",
@@ -147452,7 +147452,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "07:42",
@@ -147460,7 +147460,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "07:44",
@@ -147540,7 +147540,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "08:04",
@@ -147548,7 +147548,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "08:06",
@@ -147620,7 +147620,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "08:24",
@@ -147628,7 +147628,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "08:26",
@@ -147636,7 +147636,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "08:28",
@@ -147708,7 +147708,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "08:46",
@@ -147716,7 +147716,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "08:48",
@@ -147796,7 +147796,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "09:08",
@@ -147804,7 +147804,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "09:10",
@@ -147876,7 +147876,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "09:28",
@@ -147884,7 +147884,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "09:30",
@@ -147892,7 +147892,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "09:32",
@@ -147964,7 +147964,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "09:50",
@@ -147972,7 +147972,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "09:52",
@@ -148052,7 +148052,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "10:12",
@@ -148060,7 +148060,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "10:14",
@@ -148132,7 +148132,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "10:32",
@@ -149630,14 +149630,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "28/08 19:00",
-          "label": "28/08 19:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -149654,7 +149646,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
+          "time": "28/08 19:00",
+          "label": "28/08 19:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "28/08 19:00",
@@ -149678,14 +149678,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "28/08 20:00",
-          "label": "28/08 20:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -149697,12 +149689,20 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "28/08 20:00",
+          "label": "28/08 20:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "28/08 21:00",
           "label": "28/08 21:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "28/08 21:00",
@@ -149726,7 +149726,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "28/08 22:00",
@@ -149750,7 +149750,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "28/08 22:00",
@@ -149774,14 +149774,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "28/08 23:00",
-          "label": "28/08 23:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -149793,12 +149785,20 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "28/08 23:00",
+          "label": "28/08 23:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "29/08 00:00",
           "label": "29/08 00:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 00:00",
@@ -149822,7 +149822,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 01:00",
@@ -149846,7 +149846,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 01:00",
@@ -149870,14 +149870,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 02:00",
-          "label": "29/08 02:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -149889,12 +149881,20 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "29/08 02:00",
+          "label": "29/08 02:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "29/08 03:00",
           "label": "29/08 03:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 03:00",
@@ -149918,7 +149918,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 04:00",
@@ -149942,7 +149942,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 04:00",
@@ -149966,14 +149966,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 05:00",
-          "label": "29/08 05:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -149985,12 +149977,20 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "29/08 05:00",
+          "label": "29/08 05:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "29/08 06:00",
           "label": "29/08 06:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 06:00",
@@ -150014,7 +150014,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 07:00",
@@ -150038,7 +150038,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 07:00",
@@ -150062,7 +150062,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 08:00",
@@ -150086,7 +150086,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 09:00",
@@ -150142,14 +150142,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 11:00",
-          "label": "29/08 11:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -150166,7 +150158,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
+          "time": "29/08 11:00",
+          "label": "29/08 11:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 11:00",
@@ -150190,14 +150190,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 12:00",
-          "label": "29/08 12:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -150209,12 +150201,20 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "29/08 12:00",
+          "label": "29/08 12:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "29/08 13:00",
           "label": "29/08 13:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 13:00",
@@ -150238,7 +150238,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 14:00",
@@ -150262,7 +150262,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 14:00",
@@ -150286,14 +150286,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 15:00",
-          "label": "29/08 15:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -150305,12 +150297,20 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "29/08 15:00",
+          "label": "29/08 15:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "29/08 16:00",
           "label": "29/08 16:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 16:00",
@@ -150334,7 +150334,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 17:00",
@@ -150358,7 +150358,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 17:00",
@@ -150382,14 +150382,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 18:00",
-          "label": "29/08 18:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -150401,12 +150393,20 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "29/08 18:00",
+          "label": "29/08 18:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "29/08 19:00",
           "label": "29/08 19:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 19:00",
@@ -150430,7 +150430,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 20:00",
@@ -150454,7 +150454,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 20:00",
@@ -150478,14 +150478,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 21:00",
-          "label": "29/08 21:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -150497,12 +150489,20 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "29/08 21:00",
+          "label": "29/08 21:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "29/08 22:00",
           "label": "29/08 22:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 22:00",
@@ -150526,7 +150526,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 23:00",
@@ -150550,7 +150550,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 23:00",
@@ -150574,7 +150574,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 00:00",
@@ -150598,7 +150598,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 01:00",
@@ -150654,14 +150654,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 03:00",
-          "label": "30/08 03:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -150678,7 +150670,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
+          "time": "30/08 03:00",
+          "label": "30/08 03:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 03:00",
@@ -150702,14 +150702,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 04:00",
-          "label": "30/08 04:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -150721,12 +150713,20 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "30/08 04:00",
+          "label": "30/08 04:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "30/08 05:00",
           "label": "30/08 05:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 05:00",
@@ -150750,7 +150750,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 06:00",
@@ -150774,7 +150774,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 06:00",
@@ -150798,14 +150798,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 07:00",
-          "label": "30/08 07:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -150817,12 +150809,20 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "30/08 07:00",
+          "label": "30/08 07:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "30/08 08:00",
           "label": "30/08 08:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 08:00",
@@ -150846,7 +150846,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 09:00",
@@ -150870,7 +150870,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 09:00",
@@ -150894,14 +150894,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 10:00",
-          "label": "30/08 10:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -150913,12 +150905,20 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "30/08 10:00",
+          "label": "30/08 10:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "30/08 11:00",
           "label": "30/08 11:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 11:00",
@@ -150942,7 +150942,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 12:00",
@@ -150966,7 +150966,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 12:00",
@@ -150990,14 +150990,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 13:00",
-          "label": "30/08 13:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -151009,12 +151001,20 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "30/08 13:00",
+          "label": "30/08 13:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "30/08 14:00",
           "label": "30/08 14:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 14:00",
@@ -151038,7 +151038,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 15:00",
@@ -151062,7 +151062,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 15:00",
@@ -151086,7 +151086,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 16:00",
@@ -151110,7 +151110,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 17:00",
@@ -151166,14 +151166,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 19:00",
-          "label": "30/08 19:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -151190,7 +151182,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
+          "time": "30/08 19:00",
+          "label": "30/08 19:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 19:00",
@@ -151214,14 +151214,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 20:00",
-          "label": "30/08 20:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -151233,12 +151225,20 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "30/08 20:00",
+          "label": "30/08 20:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "30/08 21:00",
           "label": "30/08 21:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 21:00",
@@ -151262,7 +151262,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 22:00",
@@ -151286,7 +151286,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 22:00",
@@ -151310,14 +151310,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 23:00",
-          "label": "30/08 23:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -151329,12 +151321,20 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "30/08 23:00",
+          "label": "30/08 23:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "31/08 00:00",
           "label": "31/08 00:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 00:00",
@@ -151358,7 +151358,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 01:00",
@@ -151382,7 +151382,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 01:00",
@@ -151406,14 +151406,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "31/08 02:00",
-          "label": "31/08 02:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -151425,12 +151417,20 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "31/08 02:00",
+          "label": "31/08 02:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "31/08 03:00",
           "label": "31/08 03:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 03:00",
@@ -151454,7 +151454,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 04:00",
@@ -151478,7 +151478,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 04:00",
@@ -151502,14 +151502,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "31/08 05:00",
-          "label": "31/08 05:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -151521,12 +151513,20 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "31/08 05:00",
+          "label": "31/08 05:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "31/08 06:00",
           "label": "31/08 06:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 06:00",
@@ -151550,7 +151550,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 07:00",
@@ -151574,7 +151574,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 07:00",
@@ -151598,7 +151598,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 08:00",
@@ -151622,7 +151622,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 09:00",
@@ -151918,15 +151918,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "31/08 18:00",
-          "label": "31/08 18:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 18:00",
@@ -151937,8 +151929,8 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
-          "time": "31/08 19:00",
-          "label": "31/08 19:00",
+          "time": "31/08 18:00",
+          "label": "31/08 18:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
@@ -151966,7 +151958,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
+          "time": "31/08 19:00",
+          "label": "31/08 19:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 20:00",
@@ -152006,14 +152006,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "31/08 21:00",
-          "label": "31/08 21:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -152033,6 +152025,14 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "31/08 21:00",
+          "label": "31/08 21:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "31/08 22:00",
           "label": "31/08 22:00",
           "score": 0,
@@ -152046,7 +152046,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 22:00",
@@ -152054,7 +152054,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 22:00",
@@ -152094,7 +152094,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "01/09 00:00",
@@ -152134,14 +152134,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "01/09 01:00",
-          "label": "01/09 01:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -152161,6 +152153,14 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "01/09 01:00",
+          "label": "01/09 01:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "01/09 02:00",
           "label": "01/09 02:00",
           "score": 0,
@@ -152174,7 +152174,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "01/09 02:00",
@@ -152182,7 +152182,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "01/09 02:00",
@@ -152222,7 +152222,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "01/09 04:00",
@@ -152262,14 +152262,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
-        },
-        {
-          "time": "01/09 05:00",
-          "label": "01/09 05:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
@@ -152289,6 +152281,14 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
+          "time": "01/09 05:00",
+          "label": "01/09 05:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+        },
+        {
           "time": "01/09 06:00",
           "label": "01/09 06:00",
           "score": 0,
@@ -152302,7 +152302,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "01/09 06:00",
@@ -152310,7 +152310,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "01/09 06:00",
@@ -152350,7 +152350,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "01/09 08:00",
@@ -152390,7 +152390,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "01/09 09:00",
@@ -152430,7 +152430,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "01/09 10:00",
@@ -154222,7 +154222,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "03/09 18:00",
@@ -154262,7 +154262,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "03/09 19:00",
@@ -154294,7 +154294,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "03/09 20:00",
@@ -154334,7 +154334,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "03/09 22:00",
@@ -154374,7 +154374,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "03/09 23:00",
@@ -154414,7 +154414,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04/09 00:00",
@@ -154454,7 +154454,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04/09 01:00",
@@ -154494,7 +154494,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04/09 03:00",
@@ -154534,7 +154534,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04/09 04:00",
@@ -154574,7 +154574,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04/09 05:00",
@@ -154614,7 +154614,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04/09 06:00",
@@ -154654,7 +154654,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04/09 08:00",
@@ -154694,7 +154694,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04/09 09:00",
@@ -154734,7 +154734,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04/09 10:00",
@@ -154960,7 +154960,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "28/08 21:00",
@@ -154984,7 +154984,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 00:00",
@@ -155008,7 +155008,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 03:00",
@@ -155032,7 +155032,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 06:00",
@@ -155056,7 +155056,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 09:00",
@@ -155088,7 +155088,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 13:00",
@@ -155112,7 +155112,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 16:00",
@@ -155136,7 +155136,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 19:00",
@@ -155160,7 +155160,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "29/08 22:00",
@@ -155184,7 +155184,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 01:00",
@@ -155216,7 +155216,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 05:00",
@@ -155240,7 +155240,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 08:00",
@@ -155264,7 +155264,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 11:00",
@@ -155288,7 +155288,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 14:00",
@@ -155312,7 +155312,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 17:00",
@@ -155344,7 +155344,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "30/08 21:00",
@@ -155368,7 +155368,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 00:00",
@@ -155392,7 +155392,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 03:00",
@@ -155416,7 +155416,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 06:00",
@@ -155440,7 +155440,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 09:00",
@@ -155520,7 +155520,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 19:00",
@@ -155552,7 +155552,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "31/08 23:00",
@@ -155584,7 +155584,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "01/09 03:00",
@@ -155616,7 +155616,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "01/09 07:00",
@@ -155648,7 +155648,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
         },
         {
           "time": "01/09 11:00",
@@ -156096,7 +156096,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "03/09 19:00",
@@ -156144,7 +156144,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04/09 01:00",
@@ -156184,7 +156184,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04/09 06:00",
@@ -156224,7 +156224,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SQQQB: $38.45 (Z: +0.00σ)"
+          "metric": "SQQQB: $38.45 (Z: -0.00σ)"
         },
         {
           "time": "04/09 11:00",
@@ -170227,7 +170227,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "18:10",
@@ -170251,7 +170251,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "18:16",
@@ -170275,7 +170275,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "18:22",
@@ -170299,7 +170299,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "18:28",
@@ -170307,7 +170307,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "18:30",
@@ -170331,7 +170331,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "18:36",
@@ -170355,7 +170355,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "18:42",
@@ -170379,7 +170379,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "18:48",
@@ -170403,7 +170403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "18:54",
@@ -170427,7 +170427,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "19:00",
@@ -170435,7 +170435,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "19:02",
@@ -170459,7 +170459,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "19:08",
@@ -170483,7 +170483,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "19:14",
@@ -170507,7 +170507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "19:20",
@@ -170531,7 +170531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "19:26",
@@ -170555,7 +170555,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "19:32",
@@ -170563,7 +170563,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "19:34",
@@ -170587,7 +170587,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "19:40",
@@ -170611,7 +170611,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "19:46",
@@ -170635,7 +170635,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "19:52",
@@ -170659,7 +170659,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "19:58",
@@ -170683,7 +170683,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "20:04",
@@ -170691,7 +170691,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "20:06",
@@ -170715,7 +170715,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "20:12",
@@ -170739,7 +170739,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "20:18",
@@ -170763,7 +170763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "20:24",
@@ -170787,7 +170787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "20:30",
@@ -170811,7 +170811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "20:36",
@@ -170819,7 +170819,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "20:38",
@@ -170843,7 +170843,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "20:44",
@@ -170867,7 +170867,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "20:50",
@@ -170891,7 +170891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "20:56",
@@ -170915,7 +170915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "21:02",
@@ -170939,7 +170939,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "21:08",
@@ -170947,7 +170947,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "21:10",
@@ -170971,7 +170971,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "21:16",
@@ -170995,7 +170995,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "21:22",
@@ -171019,7 +171019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "21:28",
@@ -171043,7 +171043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "21:34",
@@ -171067,7 +171067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "21:40",
@@ -171075,7 +171075,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "21:42",
@@ -171099,7 +171099,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "21:48",
@@ -171123,7 +171123,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "21:54",
@@ -171147,7 +171147,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "22:00",
@@ -171171,7 +171171,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "22:06",
@@ -171195,7 +171195,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "22:12",
@@ -171203,7 +171203,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "22:14",
@@ -171227,7 +171227,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "22:20",
@@ -171251,7 +171251,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "22:26",
@@ -171275,7 +171275,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "22:32",
@@ -171299,7 +171299,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "22:38",
@@ -171323,7 +171323,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "22:44",
@@ -171331,7 +171331,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "22:46",
@@ -171355,7 +171355,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "22:52",
@@ -171379,7 +171379,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "22:58",
@@ -171403,7 +171403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "23:04",
@@ -171427,7 +171427,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "23:10",
@@ -171451,7 +171451,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "23:16",
@@ -171459,7 +171459,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "23:18",
@@ -171483,7 +171483,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "23:24",
@@ -171507,7 +171507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "23:30",
@@ -171531,7 +171531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "23:36",
@@ -171555,7 +171555,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "23:42",
@@ -171579,7 +171579,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "23:48",
@@ -171587,7 +171587,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "23:50",
@@ -171611,7 +171611,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "23:56",
@@ -171635,7 +171635,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "00:02",
@@ -171659,7 +171659,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "00:08",
@@ -171683,7 +171683,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "00:14",
@@ -171707,7 +171707,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "00:20",
@@ -171715,7 +171715,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "00:22",
@@ -171739,7 +171739,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "00:28",
@@ -171763,7 +171763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "00:34",
@@ -171787,7 +171787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "00:40",
@@ -171811,7 +171811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "00:46",
@@ -171835,7 +171835,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "00:52",
@@ -171843,7 +171843,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "00:54",
@@ -171867,7 +171867,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01:00",
@@ -171891,7 +171891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01:06",
@@ -171915,7 +171915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01:12",
@@ -171939,7 +171939,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01:18",
@@ -171963,7 +171963,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01:24",
@@ -171971,7 +171971,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01:26",
@@ -171995,7 +171995,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01:32",
@@ -172019,7 +172019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01:38",
@@ -172043,7 +172043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01:44",
@@ -172067,7 +172067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01:50",
@@ -172091,7 +172091,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01:56",
@@ -172099,7 +172099,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01:58",
@@ -172123,7 +172123,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "02:04",
@@ -172147,7 +172147,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "02:10",
@@ -172171,7 +172171,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "02:16",
@@ -172195,7 +172195,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "02:22",
@@ -172219,7 +172219,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "02:28",
@@ -172227,7 +172227,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "02:30",
@@ -172251,7 +172251,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "02:36",
@@ -172275,7 +172275,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "02:42",
@@ -172299,7 +172299,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "02:48",
@@ -172323,7 +172323,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "02:54",
@@ -172347,7 +172347,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03:00",
@@ -172355,7 +172355,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03:02",
@@ -172379,7 +172379,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03:08",
@@ -172403,7 +172403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03:14",
@@ -172427,7 +172427,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03:20",
@@ -172451,7 +172451,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03:26",
@@ -172475,7 +172475,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03:32",
@@ -172483,7 +172483,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03:34",
@@ -172507,7 +172507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03:40",
@@ -172531,7 +172531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03:46",
@@ -172555,7 +172555,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03:52",
@@ -172579,7 +172579,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03:58",
@@ -172603,7 +172603,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04:04",
@@ -172611,7 +172611,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04:06",
@@ -172635,7 +172635,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04:12",
@@ -172659,7 +172659,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04:18",
@@ -172683,7 +172683,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04:24",
@@ -172707,7 +172707,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04:30",
@@ -172731,7 +172731,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04:36",
@@ -172739,7 +172739,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04:38",
@@ -172763,7 +172763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04:44",
@@ -172787,7 +172787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04:50",
@@ -172811,7 +172811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04:56",
@@ -172835,7 +172835,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "05:02",
@@ -172859,7 +172859,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "05:08",
@@ -172867,7 +172867,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "05:10",
@@ -172891,7 +172891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "05:16",
@@ -172915,7 +172915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "05:22",
@@ -172939,7 +172939,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "05:28",
@@ -172963,7 +172963,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "05:34",
@@ -172987,7 +172987,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "05:40",
@@ -172995,7 +172995,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "05:42",
@@ -173019,7 +173019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "05:48",
@@ -173043,7 +173043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "05:54",
@@ -173067,7 +173067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "06:00",
@@ -173091,7 +173091,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "06:06",
@@ -173115,7 +173115,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "06:12",
@@ -173123,7 +173123,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "06:14",
@@ -173147,7 +173147,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "06:20",
@@ -173171,7 +173171,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "06:26",
@@ -173195,7 +173195,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "06:32",
@@ -173219,7 +173219,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "06:38",
@@ -173243,7 +173243,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "06:44",
@@ -173251,7 +173251,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "06:46",
@@ -173275,7 +173275,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "06:52",
@@ -173299,7 +173299,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "06:58",
@@ -173323,7 +173323,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "07:04",
@@ -173347,7 +173347,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "07:10",
@@ -173371,7 +173371,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "07:16",
@@ -173379,7 +173379,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "07:18",
@@ -173403,7 +173403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "07:24",
@@ -173427,7 +173427,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "07:30",
@@ -173451,7 +173451,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "07:36",
@@ -173475,7 +173475,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "07:42",
@@ -173499,7 +173499,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "07:48",
@@ -173507,7 +173507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "07:50",
@@ -173531,7 +173531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "07:56",
@@ -173555,7 +173555,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "08:02",
@@ -173579,7 +173579,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "08:08",
@@ -173603,7 +173603,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "08:14",
@@ -173627,7 +173627,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "08:20",
@@ -173635,7 +173635,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "08:22",
@@ -173659,7 +173659,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "08:28",
@@ -173683,7 +173683,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "08:34",
@@ -173707,7 +173707,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "08:40",
@@ -173731,7 +173731,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "08:46",
@@ -173755,7 +173755,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "08:52",
@@ -173763,7 +173763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "08:54",
@@ -173787,7 +173787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "09:00",
@@ -173811,7 +173811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "09:06",
@@ -173835,7 +173835,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "09:12",
@@ -173859,7 +173859,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "09:18",
@@ -173883,7 +173883,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "09:24",
@@ -173891,7 +173891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "09:26",
@@ -173915,7 +173915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "09:32",
@@ -173939,7 +173939,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "09:38",
@@ -173963,7 +173963,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "09:44",
@@ -173987,7 +173987,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "09:50",
@@ -174011,7 +174011,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "09:56",
@@ -174019,7 +174019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "09:58",
@@ -174043,7 +174043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "10:04",
@@ -174067,7 +174067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "10:10",
@@ -174091,7 +174091,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "10:16",
@@ -174115,7 +174115,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "10:22",
@@ -174139,7 +174139,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "10:28",
@@ -174147,7 +174147,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "10:30",
@@ -175637,15 +175637,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "28/08 18:00",
-          "label": "28/08 18:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "28/08 18:00",
@@ -175656,8 +175648,8 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
-          "time": "28/08 19:00",
-          "label": "28/08 19:00",
+          "time": "28/08 18:00",
+          "label": "28/08 18:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
@@ -175685,7 +175677,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "28/08 19:00",
+          "label": "28/08 19:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "28/08 20:00",
@@ -175693,7 +175693,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "28/08 20:00",
@@ -175733,15 +175733,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "28/08 21:00",
-          "label": "28/08 21:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "28/08 21:00",
@@ -175752,8 +175744,8 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
-          "time": "28/08 22:00",
-          "label": "28/08 22:00",
+          "time": "28/08 21:00",
+          "label": "28/08 21:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
@@ -175781,7 +175773,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "28/08 22:00",
+          "label": "28/08 22:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "28/08 23:00",
@@ -175789,7 +175789,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "28/08 23:00",
@@ -175829,14 +175829,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 00:00",
-          "label": "29/08 00:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
@@ -175848,6 +175840,22 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
+          "time": "29/08 00:00",
+          "label": "29/08 00:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "29/08 01:00",
+          "label": "29/08 01:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
           "time": "29/08 01:00",
           "label": "29/08 01:00",
           "score": 0,
@@ -175869,15 +175877,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 01:00",
-          "label": "29/08 01:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 02:00",
@@ -175917,15 +175917,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 03:00",
-          "label": "29/08 03:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 03:00",
@@ -175944,6 +175936,22 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
+          "time": "29/08 03:00",
+          "label": "29/08 03:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "29/08 04:00",
+          "label": "29/08 04:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
           "time": "29/08 04:00",
           "label": "29/08 04:00",
           "score": 0,
@@ -175965,15 +175973,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 04:00",
-          "label": "29/08 04:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 05:00",
@@ -176013,15 +176013,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 06:00",
-          "label": "29/08 06:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 06:00",
@@ -176040,6 +176032,22 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
+          "time": "29/08 06:00",
+          "label": "29/08 06:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "29/08 07:00",
+          "label": "29/08 07:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
           "time": "29/08 07:00",
           "label": "29/08 07:00",
           "score": 0,
@@ -176061,15 +176069,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 07:00",
-          "label": "29/08 07:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 08:00",
@@ -176101,7 +176101,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 09:00",
@@ -176109,7 +176109,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 09:00",
@@ -176149,15 +176149,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 10:00",
-          "label": "29/08 10:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 10:00",
@@ -176168,8 +176160,8 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
-          "time": "29/08 11:00",
-          "label": "29/08 11:00",
+          "time": "29/08 10:00",
+          "label": "29/08 10:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
@@ -176197,7 +176189,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "29/08 11:00",
+          "label": "29/08 11:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 12:00",
@@ -176205,7 +176205,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 12:00",
@@ -176245,15 +176245,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 13:00",
-          "label": "29/08 13:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 13:00",
@@ -176264,8 +176256,8 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
-          "time": "29/08 14:00",
-          "label": "29/08 14:00",
+          "time": "29/08 13:00",
+          "label": "29/08 13:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
@@ -176293,7 +176285,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "29/08 14:00",
+          "label": "29/08 14:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 15:00",
@@ -176301,7 +176301,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 15:00",
@@ -176341,14 +176341,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 16:00",
-          "label": "29/08 16:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
@@ -176360,6 +176352,22 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
+          "time": "29/08 16:00",
+          "label": "29/08 16:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "29/08 17:00",
+          "label": "29/08 17:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
           "time": "29/08 17:00",
           "label": "29/08 17:00",
           "score": 0,
@@ -176381,15 +176389,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 17:00",
-          "label": "29/08 17:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 18:00",
@@ -176429,15 +176429,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 19:00",
-          "label": "29/08 19:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 19:00",
@@ -176456,6 +176448,22 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
+          "time": "29/08 19:00",
+          "label": "29/08 19:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "29/08 20:00",
+          "label": "29/08 20:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
           "time": "29/08 20:00",
           "label": "29/08 20:00",
           "score": 0,
@@ -176477,15 +176485,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 20:00",
-          "label": "29/08 20:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 21:00",
@@ -176525,15 +176525,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 22:00",
-          "label": "29/08 22:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 22:00",
@@ -176552,6 +176544,22 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
+          "time": "29/08 22:00",
+          "label": "29/08 22:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "29/08 23:00",
+          "label": "29/08 23:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
           "time": "29/08 23:00",
           "label": "29/08 23:00",
           "score": 0,
@@ -176573,15 +176581,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "29/08 23:00",
-          "label": "29/08 23:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 00:00",
@@ -176613,7 +176613,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 01:00",
@@ -176621,7 +176621,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 01:00",
@@ -176661,15 +176661,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 02:00",
-          "label": "30/08 02:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 02:00",
@@ -176680,8 +176672,8 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
-          "time": "30/08 03:00",
-          "label": "30/08 03:00",
+          "time": "30/08 02:00",
+          "label": "30/08 02:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
@@ -176709,7 +176701,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "30/08 03:00",
+          "label": "30/08 03:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 04:00",
@@ -176717,7 +176717,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 04:00",
@@ -176757,15 +176757,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 05:00",
-          "label": "30/08 05:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 05:00",
@@ -176776,8 +176768,8 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
-          "time": "30/08 06:00",
-          "label": "30/08 06:00",
+          "time": "30/08 05:00",
+          "label": "30/08 05:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
@@ -176805,7 +176797,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "30/08 06:00",
+          "label": "30/08 06:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 07:00",
@@ -176813,7 +176813,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 07:00",
@@ -176853,14 +176853,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 08:00",
-          "label": "30/08 08:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
@@ -176872,6 +176864,22 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
+          "time": "30/08 08:00",
+          "label": "30/08 08:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "30/08 09:00",
+          "label": "30/08 09:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
           "time": "30/08 09:00",
           "label": "30/08 09:00",
           "score": 0,
@@ -176893,15 +176901,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 09:00",
-          "label": "30/08 09:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 10:00",
@@ -176941,15 +176941,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 11:00",
-          "label": "30/08 11:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 11:00",
@@ -176968,6 +176960,22 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
+          "time": "30/08 11:00",
+          "label": "30/08 11:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "30/08 12:00",
+          "label": "30/08 12:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
           "time": "30/08 12:00",
           "label": "30/08 12:00",
           "score": 0,
@@ -176989,15 +176997,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 12:00",
-          "label": "30/08 12:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 13:00",
@@ -177037,15 +177037,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 14:00",
-          "label": "30/08 14:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 14:00",
@@ -177064,6 +177056,22 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
+          "time": "30/08 14:00",
+          "label": "30/08 14:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "30/08 15:00",
+          "label": "30/08 15:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
           "time": "30/08 15:00",
           "label": "30/08 15:00",
           "score": 0,
@@ -177085,15 +177093,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 15:00",
-          "label": "30/08 15:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 16:00",
@@ -177125,7 +177125,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 17:00",
@@ -177133,7 +177133,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 17:00",
@@ -177173,15 +177173,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 18:00",
-          "label": "30/08 18:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 18:00",
@@ -177192,8 +177184,8 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
-          "time": "30/08 19:00",
-          "label": "30/08 19:00",
+          "time": "30/08 18:00",
+          "label": "30/08 18:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
@@ -177221,7 +177213,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "30/08 19:00",
+          "label": "30/08 19:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 20:00",
@@ -177229,7 +177229,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 20:00",
@@ -177269,15 +177269,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "30/08 21:00",
-          "label": "30/08 21:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 21:00",
@@ -177288,8 +177280,8 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
-          "time": "30/08 22:00",
-          "label": "30/08 22:00",
+          "time": "30/08 21:00",
+          "label": "30/08 21:00",
           "score": 0,
           "score_a": 0,
           "score_b": 0,
@@ -177317,7 +177309,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "30/08 22:00",
+          "label": "30/08 22:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 23:00",
@@ -177325,7 +177325,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 23:00",
@@ -177365,14 +177365,6 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "31/08 00:00",
-          "label": "31/08 00:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
@@ -177384,6 +177376,22 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
+          "time": "31/08 00:00",
+          "label": "31/08 00:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "31/08 01:00",
+          "label": "31/08 01:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
           "time": "31/08 01:00",
           "label": "31/08 01:00",
           "score": 0,
@@ -177405,15 +177413,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "31/08 01:00",
-          "label": "31/08 01:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "31/08 02:00",
@@ -177453,15 +177453,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "31/08 03:00",
-          "label": "31/08 03:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "31/08 03:00",
@@ -177480,6 +177472,22 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
+          "time": "31/08 03:00",
+          "label": "31/08 03:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "31/08 04:00",
+          "label": "31/08 04:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
           "time": "31/08 04:00",
           "label": "31/08 04:00",
           "score": 0,
@@ -177501,15 +177509,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "31/08 04:00",
-          "label": "31/08 04:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "31/08 05:00",
@@ -177549,15 +177549,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "31/08 06:00",
-          "label": "31/08 06:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "31/08 06:00",
@@ -177576,6 +177568,22 @@ window.PLANOS_TACTICAL_DATA = [
           "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
+          "time": "31/08 06:00",
+          "label": "31/08 06:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "31/08 07:00",
+          "label": "31/08 07:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
           "time": "31/08 07:00",
           "label": "31/08 07:00",
           "score": 0,
@@ -177597,15 +177605,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
-        },
-        {
-          "time": "31/08 07:00",
-          "label": "31/08 07:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "31/08 08:00",
@@ -177637,7 +177637,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "31/08 09:00",
@@ -177645,7 +177645,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "31/08 09:00",
@@ -177685,7 +177685,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "31/08 10:00",
@@ -177957,7 +177957,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "31/08 19:00",
@@ -177965,7 +177965,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "31/08 19:00",
@@ -177973,7 +177973,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "31/08 19:00",
@@ -177981,7 +177981,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "31/08 19:00",
@@ -178029,7 +178029,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "31/08 21:00",
@@ -178037,7 +178037,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "31/08 21:00",
@@ -178045,7 +178045,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "31/08 21:00",
@@ -178053,7 +178053,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "31/08 22:00",
@@ -178101,7 +178101,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "31/08 23:00",
@@ -178109,7 +178109,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "31/08 23:00",
@@ -178117,7 +178117,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 00:00",
@@ -178125,7 +178125,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 00:00",
@@ -178173,7 +178173,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 01:00",
@@ -178181,7 +178181,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 02:00",
@@ -178189,7 +178189,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 02:00",
@@ -178197,7 +178197,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 02:00",
@@ -178245,7 +178245,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 04:00",
@@ -178253,7 +178253,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 04:00",
@@ -178261,7 +178261,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 04:00",
@@ -178269,7 +178269,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 04:00",
@@ -178317,7 +178317,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 06:00",
@@ -178325,7 +178325,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 06:00",
@@ -178333,7 +178333,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 06:00",
@@ -178341,7 +178341,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 07:00",
@@ -178397,7 +178397,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 08:00",
@@ -178405,7 +178405,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 09:00",
@@ -178413,7 +178413,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 09:00",
@@ -178421,7 +178421,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 09:00",
@@ -178789,73 +178789,81 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "01/09 21:00",
+          "label": "01/09 21:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "01/09 21:00",
+          "label": "01/09 21:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "01/09 21:00",
+          "label": "01/09 21:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "01/09 21:00",
+          "label": "01/09 21:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "01/09 22:00",
+          "label": "01/09 22:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "01/09 22:00",
+          "label": "01/09 22:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "01/09 22:00",
+          "label": "01/09 22:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "01/09 22:00",
+          "label": "01/09 22:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+        },
+        {
+          "time": "01/09 23:00",
+          "label": "01/09 23:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
           "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
-          "time": "01/09 21:00",
-          "label": "01/09 21:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
-        },
-        {
-          "time": "01/09 21:00",
-          "label": "01/09 21:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
-        },
-        {
-          "time": "01/09 21:00",
-          "label": "01/09 21:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
-        },
-        {
-          "time": "01/09 21:00",
-          "label": "01/09 21:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
-        },
-        {
-          "time": "01/09 22:00",
-          "label": "01/09 22:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
-        },
-        {
-          "time": "01/09 22:00",
-          "label": "01/09 22:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
-        },
-        {
-          "time": "01/09 22:00",
-          "label": "01/09 22:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
-        },
-        {
-          "time": "01/09 22:00",
-          "label": "01/09 22:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
-        },
-        {
           "time": "01/09 23:00",
           "label": "01/09 23:00",
           "score": 0,
@@ -178869,15 +178877,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
-        },
-        {
-          "time": "01/09 23:00",
-          "label": "01/09 23:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 23:00",
@@ -178925,7 +178925,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "02/09 01:00",
@@ -179029,7 +179029,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "02/09 04:00",
@@ -179061,7 +179061,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "02/09 05:00",
@@ -179125,7 +179125,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "02/09 07:00",
@@ -179165,7 +179165,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "02/09 08:00",
@@ -180237,7 +180237,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03/09 18:00",
@@ -180261,7 +180261,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03/09 19:00",
@@ -180285,7 +180285,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03/09 19:00",
@@ -180309,7 +180309,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03/09 20:00",
@@ -180325,7 +180325,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+        },
+        {
+          "time": "03/09 21:00",
+          "label": "03/09 21:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03/09 21:00",
@@ -180341,7 +180349,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03/09 21:00",
@@ -180349,15 +180357,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
-        },
-        {
-          "time": "03/09 21:00",
-          "label": "03/09 21:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03/09 22:00",
@@ -180373,7 +180373,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03/09 22:00",
@@ -180397,7 +180397,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03/09 23:00",
@@ -180421,7 +180421,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 00:00",
@@ -180445,7 +180445,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 00:00",
@@ -180469,7 +180469,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 01:00",
@@ -180493,7 +180493,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 02:00",
@@ -180517,7 +180517,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 03:00",
@@ -180541,7 +180541,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 03:00",
@@ -180565,7 +180565,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 04:00",
@@ -180581,7 +180581,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+        },
+        {
+          "time": "04/09 05:00",
+          "label": "04/09 05:00",
+          "score": 0,
+          "score_a": 0,
+          "score_b": 0,
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 05:00",
@@ -180597,7 +180605,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 05:00",
@@ -180605,15 +180613,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
-        },
-        {
-          "time": "04/09 05:00",
-          "label": "04/09 05:00",
-          "score": 0,
-          "score_a": 0,
-          "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 06:00",
@@ -180629,7 +180629,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 06:00",
@@ -180653,7 +180653,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 07:00",
@@ -180677,7 +180677,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 08:00",
@@ -180701,7 +180701,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 08:00",
@@ -180725,7 +180725,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 09:00",
@@ -180749,7 +180749,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 10:00",
@@ -180967,7 +180967,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "28/08 19:00",
@@ -180991,7 +180991,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "28/08 22:00",
@@ -181015,7 +181015,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 01:00",
@@ -181039,7 +181039,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 04:00",
@@ -181063,7 +181063,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 07:00",
@@ -181095,7 +181095,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 11:00",
@@ -181119,7 +181119,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 14:00",
@@ -181143,7 +181143,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 17:00",
@@ -181167,7 +181167,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 20:00",
@@ -181191,7 +181191,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "29/08 23:00",
@@ -181223,7 +181223,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 03:00",
@@ -181247,7 +181247,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 06:00",
@@ -181271,7 +181271,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 09:00",
@@ -181295,7 +181295,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 12:00",
@@ -181319,7 +181319,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 15:00",
@@ -181351,7 +181351,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 19:00",
@@ -181375,7 +181375,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "30/08 22:00",
@@ -181399,7 +181399,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "31/08 01:00",
@@ -181423,7 +181423,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "31/08 04:00",
@@ -181447,7 +181447,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "31/08 07:00",
@@ -181479,7 +181479,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "31/08 11:00",
@@ -181551,7 +181551,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "31/08 20:00",
@@ -181567,7 +181567,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "31/08 22:00",
@@ -181583,7 +181583,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 00:00",
@@ -181607,7 +181607,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 03:00",
@@ -181623,7 +181623,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 05:00",
@@ -181639,7 +181639,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 07:00",
@@ -181663,7 +181663,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "01/09 10:00",
@@ -181815,7 +181815,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "02/09 05:00",
@@ -181823,7 +181823,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: -0.00σ)"
+          "metric": "SPYB: $769.68 (Z: +0.00σ)"
         },
         {
           "time": "02/09 06:00",
@@ -181839,7 +181839,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "02/09 08:00",
@@ -182135,7 +182135,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03/09 21:00",
@@ -182151,7 +182151,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "03/09 23:00",
@@ -182175,7 +182175,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 02:00",
@@ -182199,7 +182199,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 05:00",
@@ -182215,7 +182215,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 07:00",
@@ -182239,7 +182239,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.68 (Z: +0.00σ)"
+          "metric": "SPYB: $769.68 (Z: -0.00σ)"
         },
         {
           "time": "04/09 10:00",
