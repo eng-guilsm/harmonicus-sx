@@ -1,6 +1,6 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-04 15:00:39)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-04 15:00:51)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-09-04 15:00:39",
+  "timestamp_str": "2026-09-04 15:00:51",
   "total_brl": 2199.06,
   "aportado_brl": 2230.0,
   "lucro_liquido_real_brl": -30.94,
@@ -19,7 +19,7 @@ window.PORTFOLIO_STATE = {
   "paxg_qtd": 0.02174631,
   "paxg_pct": 22.46,
   "usdt_brl": 1013.06,
-  "usdt_qtd": 197.0362,
+  "usdt_qtd": 197.0363,
   "usdt_pct": 46.07,
   "eth_brl": 8.41,
   "eth_qtd": 0.0006688,
@@ -121,7 +121,7 @@ window.PORTFOLIO_STATE = {
     "ETHBRL": 12576.87,
     "BNBBRL": 3687.0,
     "NVDABUSDT": 230.2,
-    "SPYBUSDT": 769.35,
+    "SPYBUSDT": 769.26,
     "SQQQBUSDT": 38.48,
     "VIX": 15.130000114440918,
     "USDBRL_COMERCIAL": 5.1243
@@ -169297,7 +169297,7 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Realização SPYB ➔ USDT",
     "ponta_b_score": 0,
     "proximidade_score": 100,
-    "valor_atual_str": "SPYB: $769.35 (Z: -1.17σ)",
+    "valor_atual_str": "SPYB: $769.26 (Z: -1.17σ)",
     "distancia_display": "Z = -1.17σ (Meta: -0.95σ / +0.37σ)",
     "status": "SENTINELA_QUENTE",
     "icone": "📈",
@@ -169313,7 +169313,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.10σ)"
+          "metric": "SPYB: $769.26 (Z: +1.10σ)"
         },
         {
           "time": "14:00",
@@ -169321,7 +169321,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.07σ)"
+          "metric": "SPYB: $769.26 (Z: +1.07σ)"
         },
         {
           "time": "14:01",
@@ -169329,7 +169329,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.64σ)"
+          "metric": "SPYB: $769.26 (Z: +0.64σ)"
         },
         {
           "time": "14:02",
@@ -169337,7 +169337,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.62σ)"
+          "metric": "SPYB: $769.26 (Z: +0.62σ)"
         },
         {
           "time": "14:03",
@@ -169345,7 +169345,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.59σ)"
+          "metric": "SPYB: $769.26 (Z: +0.59σ)"
         },
         {
           "time": "14:04",
@@ -169353,7 +169353,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.57σ)"
+          "metric": "SPYB: $769.26 (Z: +0.57σ)"
         },
         {
           "time": "14:05",
@@ -169361,7 +169361,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.55σ)"
+          "metric": "SPYB: $769.26 (Z: +0.55σ)"
         },
         {
           "time": "14:06",
@@ -169369,7 +169369,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.96σ)"
+          "metric": "SPYB: $769.26 (Z: -0.96σ)"
         },
         {
           "time": "14:07",
@@ -169377,7 +169377,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.06σ)"
+          "metric": "SPYB: $769.26 (Z: -1.06σ)"
         },
         {
           "time": "14:08",
@@ -169385,7 +169385,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.20σ)"
+          "metric": "SPYB: $769.26 (Z: -1.20σ)"
         },
         {
           "time": "14:09",
@@ -169393,7 +169393,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.37σ)"
+          "metric": "SPYB: $769.26 (Z: -1.37σ)"
         },
         {
           "time": "14:10",
@@ -169401,7 +169401,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.40σ)"
+          "metric": "SPYB: $769.26 (Z: -1.40σ)"
         },
         {
           "time": "14:11",
@@ -169409,7 +169409,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.73σ)"
+          "metric": "SPYB: $769.26 (Z: -1.73σ)"
         },
         {
           "time": "14:12",
@@ -169417,7 +169417,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.75σ)"
+          "metric": "SPYB: $769.26 (Z: -1.75σ)"
         },
         {
           "time": "14:13",
@@ -169425,7 +169425,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.76σ)"
+          "metric": "SPYB: $769.26 (Z: -1.76σ)"
         },
         {
           "time": "14:14",
@@ -169433,7 +169433,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.77σ)"
+          "metric": "SPYB: $769.26 (Z: -1.77σ)"
         },
         {
           "time": "14:15",
@@ -169441,7 +169441,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.73σ)"
+          "metric": "SPYB: $769.26 (Z: -1.73σ)"
         },
         {
           "time": "14:16",
@@ -169449,7 +169449,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.87σ)"
+          "metric": "SPYB: $769.26 (Z: -1.87σ)"
         },
         {
           "time": "14:17",
@@ -169457,7 +169457,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.82σ)"
+          "metric": "SPYB: $769.26 (Z: -1.82σ)"
         },
         {
           "time": "14:18",
@@ -169465,7 +169465,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.77σ)"
+          "metric": "SPYB: $769.26 (Z: -1.77σ)"
         },
         {
           "time": "14:19",
@@ -169473,7 +169473,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.72σ)"
+          "metric": "SPYB: $769.26 (Z: -1.72σ)"
         },
         {
           "time": "14:20",
@@ -169481,7 +169481,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.65σ)"
+          "metric": "SPYB: $769.26 (Z: -1.65σ)"
         },
         {
           "time": "14:21",
@@ -169489,7 +169489,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.77σ)"
+          "metric": "SPYB: $769.26 (Z: -1.77σ)"
         },
         {
           "time": "14:22",
@@ -169497,7 +169497,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.70σ)"
+          "metric": "SPYB: $769.26 (Z: -1.70σ)"
         },
         {
           "time": "14:23",
@@ -169505,7 +169505,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.63σ)"
+          "metric": "SPYB: $769.26 (Z: -1.63σ)"
         },
         {
           "time": "14:24",
@@ -169513,7 +169513,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.57σ)"
+          "metric": "SPYB: $769.26 (Z: -1.57σ)"
         },
         {
           "time": "14:25",
@@ -169521,7 +169521,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.51σ)"
+          "metric": "SPYB: $769.26 (Z: -1.51σ)"
         },
         {
           "time": "14:26",
@@ -169529,7 +169529,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.09σ)"
+          "metric": "SPYB: $769.26 (Z: -2.09σ)"
         },
         {
           "time": "14:27",
@@ -169537,7 +169537,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.98σ)"
+          "metric": "SPYB: $769.26 (Z: -1.98σ)"
         },
         {
           "time": "14:28",
@@ -169545,7 +169545,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.88σ)"
+          "metric": "SPYB: $769.26 (Z: -1.88σ)"
         },
         {
           "time": "14:29",
@@ -169553,7 +169553,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.80σ)"
+          "metric": "SPYB: $769.26 (Z: -1.80σ)"
         },
         {
           "time": "14:30",
@@ -169561,7 +169561,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.72σ)"
+          "metric": "SPYB: $769.26 (Z: -1.72σ)"
         },
         {
           "time": "14:31",
@@ -169569,7 +169569,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.58σ)"
+          "metric": "SPYB: $769.26 (Z: -2.58σ)"
         },
         {
           "time": "14:32",
@@ -169577,7 +169577,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.41σ)"
+          "metric": "SPYB: $769.26 (Z: -2.41σ)"
         },
         {
           "time": "14:33",
@@ -169585,7 +169585,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.26σ)"
+          "metric": "SPYB: $769.26 (Z: -2.26σ)"
         },
         {
           "time": "14:34",
@@ -169593,7 +169593,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.14σ)"
+          "metric": "SPYB: $769.26 (Z: -2.14σ)"
         },
         {
           "time": "14:35",
@@ -169601,7 +169601,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.02σ)"
+          "metric": "SPYB: $769.26 (Z: -2.02σ)"
         },
         {
           "time": "14:36",
@@ -169609,7 +169609,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.19σ)"
+          "metric": "SPYB: $769.26 (Z: -2.19σ)"
         },
         {
           "time": "14:37",
@@ -169617,7 +169617,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.07σ)"
+          "metric": "SPYB: $769.26 (Z: -2.07σ)"
         },
         {
           "time": "14:38",
@@ -169625,7 +169625,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.97σ)"
+          "metric": "SPYB: $769.26 (Z: -1.97σ)"
         },
         {
           "time": "14:39",
@@ -169633,7 +169633,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.87σ)"
+          "metric": "SPYB: $769.26 (Z: -1.87σ)"
         },
         {
           "time": "14:40",
@@ -169641,7 +169641,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.78σ)"
+          "metric": "SPYB: $769.26 (Z: -1.78σ)"
         },
         {
           "time": "14:41",
@@ -169649,7 +169649,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.80σ)"
+          "metric": "SPYB: $769.26 (Z: -1.80σ)"
         },
         {
           "time": "14:42",
@@ -169657,7 +169657,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.72σ)"
+          "metric": "SPYB: $769.26 (Z: -1.72σ)"
         },
         {
           "time": "14:43",
@@ -169665,7 +169665,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.65σ)"
+          "metric": "SPYB: $769.26 (Z: -1.65σ)"
         },
         {
           "time": "14:44",
@@ -169673,7 +169673,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.58σ)"
+          "metric": "SPYB: $769.26 (Z: -1.58σ)"
         },
         {
           "time": "14:45",
@@ -169681,7 +169681,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.52σ)"
+          "metric": "SPYB: $769.26 (Z: -1.52σ)"
         },
         {
           "time": "14:46",
@@ -169689,7 +169689,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.01σ)"
+          "metric": "SPYB: $769.26 (Z: -2.01σ)"
         },
         {
           "time": "14:47",
@@ -169697,7 +169697,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.91σ)"
+          "metric": "SPYB: $769.26 (Z: -1.91σ)"
         },
         {
           "time": "14:48",
@@ -169705,7 +169705,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.82σ)"
+          "metric": "SPYB: $769.26 (Z: -1.82σ)"
         },
         {
           "time": "14:49",
@@ -169713,7 +169713,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.75σ)"
+          "metric": "SPYB: $769.26 (Z: -1.75σ)"
         },
         {
           "time": "14:50",
@@ -169721,7 +169721,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.68σ)"
+          "metric": "SPYB: $769.26 (Z: -1.68σ)"
         },
         {
           "time": "14:51",
@@ -169729,7 +169729,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.35σ)"
+          "metric": "SPYB: $769.26 (Z: -1.35σ)"
         },
         {
           "time": "14:52",
@@ -169737,7 +169737,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.31σ)"
+          "metric": "SPYB: $769.26 (Z: -1.31σ)"
         },
         {
           "time": "14:53",
@@ -169745,7 +169745,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.28σ)"
+          "metric": "SPYB: $769.26 (Z: -1.28σ)"
         },
         {
           "time": "14:54",
@@ -169753,7 +169753,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.24σ)"
+          "metric": "SPYB: $769.26 (Z: -1.24σ)"
         },
         {
           "time": "14:55",
@@ -169761,7 +169761,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.21σ)"
+          "metric": "SPYB: $769.26 (Z: -1.21σ)"
         },
         {
           "time": "14:56",
@@ -169769,7 +169769,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.18σ)"
+          "metric": "SPYB: $769.26 (Z: -1.18σ)"
         },
         {
           "time": "14:57",
@@ -169777,7 +169777,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.23σ)"
+          "metric": "SPYB: $769.26 (Z: -1.23σ)"
         },
         {
           "time": "14:58",
@@ -169785,7 +169785,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.20σ)"
+          "metric": "SPYB: $769.26 (Z: -1.20σ)"
         },
         {
           "time": "14:59",
@@ -169793,7 +169793,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.17σ)"
+          "metric": "SPYB: $769.26 (Z: -1.17σ)"
         }
       ],
       "24h": [
@@ -169803,7 +169803,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.58σ)"
+          "metric": "SPYB: $769.26 (Z: +1.58σ)"
         },
         {
           "time": "15:01",
@@ -169811,7 +169811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.48σ)"
+          "metric": "SPYB: $769.26 (Z: +1.48σ)"
         },
         {
           "time": "15:03",
@@ -169819,7 +169819,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.38σ)"
+          "metric": "SPYB: $769.26 (Z: +1.38σ)"
         },
         {
           "time": "15:05",
@@ -169827,7 +169827,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +2.15σ)"
+          "metric": "SPYB: $769.26 (Z: +2.15σ)"
         },
         {
           "time": "15:07",
@@ -169835,7 +169835,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.94σ)"
+          "metric": "SPYB: $769.26 (Z: +1.94σ)"
         },
         {
           "time": "15:09",
@@ -169843,7 +169843,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.82σ)"
+          "metric": "SPYB: $769.26 (Z: +1.82σ)"
         },
         {
           "time": "15:11",
@@ -169851,7 +169851,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.66σ)"
+          "metric": "SPYB: $769.26 (Z: +1.66σ)"
         },
         {
           "time": "15:13",
@@ -169859,7 +169859,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.53σ)"
+          "metric": "SPYB: $769.26 (Z: +1.53σ)"
         },
         {
           "time": "15:15",
@@ -169867,7 +169867,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.54σ)"
+          "metric": "SPYB: $769.26 (Z: +1.54σ)"
         },
         {
           "time": "15:17",
@@ -169875,7 +169875,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.43σ)"
+          "metric": "SPYB: $769.26 (Z: +1.43σ)"
         },
         {
           "time": "15:19",
@@ -169883,7 +169883,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.44σ)"
+          "metric": "SPYB: $769.26 (Z: +1.44σ)"
         },
         {
           "time": "15:21",
@@ -169891,7 +169891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.34σ)"
+          "metric": "SPYB: $769.26 (Z: +1.34σ)"
         },
         {
           "time": "15:23",
@@ -169899,7 +169899,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.26σ)"
+          "metric": "SPYB: $769.26 (Z: +1.26σ)"
         },
         {
           "time": "15:25",
@@ -169907,7 +169907,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.74σ)"
+          "metric": "SPYB: $769.26 (Z: +0.74σ)"
         },
         {
           "time": "15:27",
@@ -169915,7 +169915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.69σ)"
+          "metric": "SPYB: $769.26 (Z: +0.69σ)"
         },
         {
           "time": "15:29",
@@ -169923,7 +169923,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.65σ)"
+          "metric": "SPYB: $769.26 (Z: +0.65σ)"
         },
         {
           "time": "15:31",
@@ -169931,7 +169931,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.06σ)"
+          "metric": "SPYB: $769.26 (Z: +1.06σ)"
         },
         {
           "time": "15:33",
@@ -169939,7 +169939,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.03σ)"
+          "metric": "SPYB: $769.26 (Z: +1.03σ)"
         },
         {
           "time": "15:35",
@@ -169947,7 +169947,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.10σ)"
+          "metric": "SPYB: $769.26 (Z: +1.10σ)"
         },
         {
           "time": "15:37",
@@ -169955,7 +169955,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.04σ)"
+          "metric": "SPYB: $769.26 (Z: +1.04σ)"
         },
         {
           "time": "15:39",
@@ -169963,7 +169963,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.98σ)"
+          "metric": "SPYB: $769.26 (Z: +0.98σ)"
         },
         {
           "time": "15:41",
@@ -169971,7 +169971,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.99σ)"
+          "metric": "SPYB: $769.26 (Z: +0.99σ)"
         },
         {
           "time": "15:43",
@@ -169979,7 +169979,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.95σ)"
+          "metric": "SPYB: $769.26 (Z: +0.95σ)"
         },
         {
           "time": "15:45",
@@ -169987,7 +169987,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 1,
           "score_a": 1,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.01σ)"
+          "metric": "SPYB: $769.26 (Z: -0.01σ)"
         },
         {
           "time": "15:47",
@@ -169995,7 +169995,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 7,
           "score_a": 7,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.07σ)"
+          "metric": "SPYB: $769.26 (Z: -0.07σ)"
         },
         {
           "time": "15:49",
@@ -170003,7 +170003,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 16,
           "score_a": 16,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.15σ)"
+          "metric": "SPYB: $769.26 (Z: -0.15σ)"
         },
         {
           "time": "15:51",
@@ -170011,7 +170011,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.13σ)"
+          "metric": "SPYB: $769.26 (Z: +0.13σ)"
         },
         {
           "time": "15:53",
@@ -170019,7 +170019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.02σ)"
+          "metric": "SPYB: $769.26 (Z: +0.02σ)"
         },
         {
           "time": "15:55",
@@ -170027,7 +170027,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 41,
           "score_a": 41,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.39σ)"
+          "metric": "SPYB: $769.26 (Z: -0.39σ)"
         },
         {
           "time": "15:57",
@@ -170035,7 +170035,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 47,
           "score_a": 47,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.44σ)"
+          "metric": "SPYB: $769.26 (Z: -0.44σ)"
         },
         {
           "time": "15:59",
@@ -170043,7 +170043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 57,
           "score_a": 57,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.54σ)"
+          "metric": "SPYB: $769.26 (Z: -0.54σ)"
         },
         {
           "time": "16:01",
@@ -170051,7 +170051,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 72,
           "score_a": 72,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.68σ)"
+          "metric": "SPYB: $769.26 (Z: -0.68σ)"
         },
         {
           "time": "16:03",
@@ -170059,7 +170059,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.98σ)"
+          "metric": "SPYB: $769.26 (Z: -0.98σ)"
         },
         {
           "time": "16:05",
@@ -170067,7 +170067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.82σ)"
+          "metric": "SPYB: $769.26 (Z: -1.82σ)"
         },
         {
           "time": "16:07",
@@ -170075,7 +170075,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.68σ)"
+          "metric": "SPYB: $769.26 (Z: -1.68σ)"
         },
         {
           "time": "16:09",
@@ -170083,7 +170083,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.55σ)"
+          "metric": "SPYB: $769.26 (Z: -1.55σ)"
         },
         {
           "time": "16:11",
@@ -170091,7 +170091,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.24σ)"
+          "metric": "SPYB: $769.26 (Z: -1.24σ)"
         },
         {
           "time": "16:13",
@@ -170099,7 +170099,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.16σ)"
+          "metric": "SPYB: $769.26 (Z: -1.16σ)"
         },
         {
           "time": "16:15",
@@ -170107,7 +170107,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.61σ)"
+          "metric": "SPYB: $769.26 (Z: -2.61σ)"
         },
         {
           "time": "16:17",
@@ -170115,7 +170115,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.29σ)"
+          "metric": "SPYB: $769.26 (Z: -2.29σ)"
         },
         {
           "time": "16:19",
@@ -170123,7 +170123,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.05σ)"
+          "metric": "SPYB: $769.26 (Z: -2.05σ)"
         },
         {
           "time": "16:21",
@@ -170131,7 +170131,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 73,
           "score_a": 73,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.69σ)"
+          "metric": "SPYB: $769.26 (Z: -0.69σ)"
         },
         {
           "time": "16:23",
@@ -170139,7 +170139,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 67,
           "score_a": 67,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.64σ)"
+          "metric": "SPYB: $769.26 (Z: -0.64σ)"
         },
         {
           "time": "16:25",
@@ -170147,7 +170147,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -3.17σ)"
+          "metric": "SPYB: $769.26 (Z: -3.17σ)"
         },
         {
           "time": "16:27",
@@ -170155,7 +170155,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.66σ)"
+          "metric": "SPYB: $769.26 (Z: -2.66σ)"
         },
         {
           "time": "16:29",
@@ -170163,7 +170163,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.32σ)"
+          "metric": "SPYB: $769.26 (Z: -2.32σ)"
         },
         {
           "time": "16:31",
@@ -170171,7 +170171,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.97σ)"
+          "metric": "SPYB: $769.26 (Z: -0.97σ)"
         },
         {
           "time": "16:33",
@@ -170179,7 +170179,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 96,
           "score_a": 96,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.91σ)"
+          "metric": "SPYB: $769.26 (Z: -0.91σ)"
         },
         {
           "time": "16:35",
@@ -170187,7 +170187,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.13σ)"
+          "metric": "SPYB: $769.26 (Z: -1.13σ)"
         },
         {
           "time": "16:37",
@@ -170195,7 +170195,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.07σ)"
+          "metric": "SPYB: $769.26 (Z: -1.07σ)"
         },
         {
           "time": "16:39",
@@ -170203,7 +170203,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.01σ)"
+          "metric": "SPYB: $769.26 (Z: -1.01σ)"
         },
         {
           "time": "16:41",
@@ -170211,7 +170211,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 14,
           "score_a": 14,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.13σ)"
+          "metric": "SPYB: $769.26 (Z: -0.13σ)"
         },
         {
           "time": "16:43",
@@ -170219,7 +170219,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 7,
           "score_a": 7,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.06σ)"
+          "metric": "SPYB: $769.26 (Z: -0.06σ)"
         },
         {
           "time": "16:45",
@@ -170227,7 +170227,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 1,
           "score_a": 1,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.01σ)"
+          "metric": "SPYB: $769.26 (Z: -0.01σ)"
         },
         {
           "time": "16:47",
@@ -170235,7 +170235,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.00σ)"
+          "metric": "SPYB: $769.26 (Z: -1.00σ)"
         },
         {
           "time": "16:49",
@@ -170243,7 +170243,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 98,
           "score_a": 98,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.93σ)"
+          "metric": "SPYB: $769.26 (Z: -0.93σ)"
         },
         {
           "time": "16:51",
@@ -170251,7 +170251,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.66σ)"
+          "metric": "SPYB: $769.26 (Z: -1.66σ)"
         },
         {
           "time": "16:53",
@@ -170259,7 +170259,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.55σ)"
+          "metric": "SPYB: $769.26 (Z: -1.55σ)"
         },
         {
           "time": "16:55",
@@ -170267,7 +170267,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.45σ)"
+          "metric": "SPYB: $769.26 (Z: -1.45σ)"
         },
         {
           "time": "16:57",
@@ -170275,7 +170275,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.93σ)"
+          "metric": "SPYB: $769.26 (Z: -2.93σ)"
         },
         {
           "time": "16:59",
@@ -170283,7 +170283,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.53σ)"
+          "metric": "SPYB: $769.26 (Z: -2.53σ)"
         },
         {
           "time": "17:01",
@@ -170291,7 +170291,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.22σ)"
+          "metric": "SPYB: $769.26 (Z: -1.22σ)"
         },
         {
           "time": "17:03",
@@ -170299,7 +170299,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.14σ)"
+          "metric": "SPYB: $769.26 (Z: -1.14σ)"
         },
         {
           "time": "17:05",
@@ -170307,7 +170307,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.07σ)"
+          "metric": "SPYB: $769.26 (Z: -1.07σ)"
         },
         {
           "time": "17:07",
@@ -170315,7 +170315,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.95σ)"
+          "metric": "SPYB: $769.26 (Z: -0.95σ)"
         },
         {
           "time": "17:09",
@@ -170323,7 +170323,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 94,
           "score_a": 94,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.89σ)"
+          "metric": "SPYB: $769.26 (Z: -0.89σ)"
         },
         {
           "time": "17:11",
@@ -170331,7 +170331,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 88,
           "score_a": 88,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.83σ)"
+          "metric": "SPYB: $769.26 (Z: -0.83σ)"
         },
         {
           "time": "17:13",
@@ -170339,7 +170339,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 82,
           "score_a": 82,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.78σ)"
+          "metric": "SPYB: $769.26 (Z: -0.78σ)"
         },
         {
           "time": "17:15",
@@ -170347,7 +170347,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 77,
           "score_a": 77,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.73σ)"
+          "metric": "SPYB: $769.26 (Z: -0.73σ)"
         },
         {
           "time": "17:17",
@@ -170355,7 +170355,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 72,
           "score_a": 72,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.68σ)"
+          "metric": "SPYB: $769.26 (Z: -0.68σ)"
         },
         {
           "time": "17:19",
@@ -170363,7 +170363,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 67,
           "score_a": 67,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.64σ)"
+          "metric": "SPYB: $769.26 (Z: -0.64σ)"
         },
         {
           "time": "17:21",
@@ -170371,7 +170371,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 62,
           "score_a": 62,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.59σ)"
+          "metric": "SPYB: $769.26 (Z: -0.59σ)"
         },
         {
           "time": "17:23",
@@ -170379,7 +170379,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 57,
           "score_a": 57,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.54σ)"
+          "metric": "SPYB: $769.26 (Z: -0.54σ)"
         },
         {
           "time": "17:25",
@@ -170387,7 +170387,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 54,
           "score_a": 54,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.51σ)"
+          "metric": "SPYB: $769.26 (Z: -0.51σ)"
         },
         {
           "time": "17:27",
@@ -170395,7 +170395,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 53,
           "score_a": 53,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.50σ)"
+          "metric": "SPYB: $769.26 (Z: -0.50σ)"
         },
         {
           "time": "17:29",
@@ -170403,7 +170403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 52,
           "score_a": 52,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.50σ)"
+          "metric": "SPYB: $769.26 (Z: -0.50σ)"
         },
         {
           "time": "17:31",
@@ -170411,7 +170411,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 47,
           "score_a": 47,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.45σ)"
+          "metric": "SPYB: $769.26 (Z: -0.45σ)"
         },
         {
           "time": "17:33",
@@ -170419,7 +170419,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 42,
           "score_a": 42,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.40σ)"
+          "metric": "SPYB: $769.26 (Z: -0.40σ)"
         },
         {
           "time": "17:35",
@@ -170427,7 +170427,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 37,
           "score_a": 37,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.36σ)"
+          "metric": "SPYB: $769.26 (Z: -0.36σ)"
         },
         {
           "time": "17:37",
@@ -170435,7 +170435,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 33,
           "score_a": 33,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.31σ)"
+          "metric": "SPYB: $769.26 (Z: -0.31σ)"
         },
         {
           "time": "17:39",
@@ -170443,7 +170443,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 28,
           "score_a": 28,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.27σ)"
+          "metric": "SPYB: $769.26 (Z: -0.27σ)"
         },
         {
           "time": "17:41",
@@ -170451,7 +170451,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 22,
           "score_a": 22,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.21σ)"
+          "metric": "SPYB: $769.26 (Z: -0.21σ)"
         },
         {
           "time": "17:43",
@@ -170459,7 +170459,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 14,
           "score_a": 14,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.14σ)"
+          "metric": "SPYB: $769.26 (Z: -0.14σ)"
         },
         {
           "time": "17:45",
@@ -170467,7 +170467,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 4,
           "score_a": 4,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.04σ)"
+          "metric": "SPYB: $769.26 (Z: -0.04σ)"
         },
         {
           "time": "17:47",
@@ -170475,7 +170475,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.04σ)"
+          "metric": "SPYB: $769.26 (Z: +0.04σ)"
         },
         {
           "time": "17:49",
@@ -170483,7 +170483,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.13σ)"
+          "metric": "SPYB: $769.26 (Z: +0.13σ)"
         },
         {
           "time": "17:51",
@@ -170491,7 +170491,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.21σ)"
+          "metric": "SPYB: $769.26 (Z: +0.21σ)"
         },
         {
           "time": "17:53",
@@ -170499,7 +170499,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.26σ)"
+          "metric": "SPYB: $769.26 (Z: +0.26σ)"
         },
         {
           "time": "17:55",
@@ -170507,7 +170507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.31σ)"
+          "metric": "SPYB: $769.26 (Z: +0.31σ)"
         },
         {
           "time": "17:57",
@@ -170515,7 +170515,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.25σ)"
+          "metric": "SPYB: $769.26 (Z: +0.25σ)"
         },
         {
           "time": "17:59",
@@ -170523,7 +170523,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.16σ)"
+          "metric": "SPYB: $769.26 (Z: +0.16σ)"
         },
         {
           "time": "18:01",
@@ -170531,7 +170531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.27σ)"
+          "metric": "SPYB: $769.26 (Z: +0.27σ)"
         },
         {
           "time": "18:03",
@@ -170539,7 +170539,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.18σ)"
+          "metric": "SPYB: $769.26 (Z: +0.18σ)"
         },
         {
           "time": "18:05",
@@ -170547,7 +170547,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:07",
@@ -170555,7 +170555,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:09",
@@ -170563,7 +170563,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:11",
@@ -170571,7 +170571,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:13",
@@ -170579,7 +170579,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:15",
@@ -170587,7 +170587,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:17",
@@ -170595,7 +170595,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:19",
@@ -170603,7 +170603,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:21",
@@ -170611,7 +170611,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:23",
@@ -170619,7 +170619,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:25",
@@ -170627,7 +170627,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:27",
@@ -170635,7 +170635,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:29",
@@ -170643,7 +170643,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:31",
@@ -170651,7 +170651,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:33",
@@ -170659,7 +170659,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:35",
@@ -170667,7 +170667,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:37",
@@ -170675,7 +170675,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:39",
@@ -170683,7 +170683,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:41",
@@ -170691,7 +170691,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:43",
@@ -170699,7 +170699,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:45",
@@ -170707,7 +170707,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:47",
@@ -170715,7 +170715,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:49",
@@ -170723,7 +170723,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:51",
@@ -170731,7 +170731,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:53",
@@ -170739,7 +170739,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:55",
@@ -170747,7 +170747,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:57",
@@ -170755,7 +170755,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "18:59",
@@ -170763,7 +170763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:01",
@@ -170771,7 +170771,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "19:03",
@@ -170779,7 +170779,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "19:05",
@@ -170787,7 +170787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:07",
@@ -170795,7 +170795,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:09",
@@ -170803,7 +170803,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:11",
@@ -170811,7 +170811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:13",
@@ -170819,7 +170819,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:15",
@@ -170827,7 +170827,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:17",
@@ -170835,7 +170835,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:19",
@@ -170843,7 +170843,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:21",
@@ -170851,7 +170851,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:23",
@@ -170859,7 +170859,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:25",
@@ -170867,7 +170867,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:27",
@@ -170875,7 +170875,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:29",
@@ -170883,7 +170883,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:31",
@@ -170891,7 +170891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:33",
@@ -170899,7 +170899,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:35",
@@ -170907,7 +170907,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:37",
@@ -170915,7 +170915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:39",
@@ -170923,7 +170923,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:41",
@@ -170931,7 +170931,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:43",
@@ -170939,7 +170939,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:45",
@@ -170947,7 +170947,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:47",
@@ -170955,7 +170955,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:49",
@@ -170963,7 +170963,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:51",
@@ -170971,7 +170971,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:53",
@@ -170979,7 +170979,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:55",
@@ -170987,7 +170987,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:57",
@@ -170995,7 +170995,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "19:59",
@@ -171003,7 +171003,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:01",
@@ -171011,7 +171011,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:03",
@@ -171019,7 +171019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:05",
@@ -171027,7 +171027,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "20:07",
@@ -171035,7 +171035,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "20:09",
@@ -171043,7 +171043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:11",
@@ -171051,7 +171051,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:13",
@@ -171059,7 +171059,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:15",
@@ -171067,7 +171067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:17",
@@ -171075,7 +171075,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:19",
@@ -171083,7 +171083,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:21",
@@ -171091,7 +171091,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:23",
@@ -171099,7 +171099,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:25",
@@ -171107,7 +171107,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:27",
@@ -171115,7 +171115,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:29",
@@ -171123,7 +171123,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:31",
@@ -171131,7 +171131,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:33",
@@ -171139,7 +171139,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:35",
@@ -171147,7 +171147,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:37",
@@ -171155,7 +171155,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:39",
@@ -171163,7 +171163,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:41",
@@ -171171,7 +171171,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:43",
@@ -171179,7 +171179,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:45",
@@ -171187,7 +171187,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:47",
@@ -171195,7 +171195,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:49",
@@ -171203,7 +171203,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:51",
@@ -171211,7 +171211,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:53",
@@ -171219,7 +171219,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:55",
@@ -171227,7 +171227,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:57",
@@ -171235,7 +171235,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "20:59",
@@ -171243,7 +171243,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:01",
@@ -171251,7 +171251,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:03",
@@ -171259,7 +171259,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:05",
@@ -171267,7 +171267,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:07",
@@ -171275,7 +171275,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:09",
@@ -171283,7 +171283,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "21:11",
@@ -171291,7 +171291,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "21:13",
@@ -171299,7 +171299,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:15",
@@ -171307,7 +171307,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:17",
@@ -171315,7 +171315,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:19",
@@ -171323,7 +171323,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:21",
@@ -171331,7 +171331,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:23",
@@ -171339,7 +171339,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:25",
@@ -171347,7 +171347,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:27",
@@ -171355,7 +171355,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:29",
@@ -171363,7 +171363,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:31",
@@ -171371,7 +171371,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:33",
@@ -171379,7 +171379,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:35",
@@ -171387,7 +171387,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:37",
@@ -171395,7 +171395,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:39",
@@ -171403,7 +171403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:41",
@@ -171411,7 +171411,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:43",
@@ -171419,7 +171419,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:45",
@@ -171427,7 +171427,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:47",
@@ -171435,7 +171435,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:49",
@@ -171443,7 +171443,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:51",
@@ -171451,7 +171451,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:53",
@@ -171459,7 +171459,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:55",
@@ -171467,7 +171467,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:57",
@@ -171475,7 +171475,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "21:59",
@@ -171483,7 +171483,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:01",
@@ -171491,7 +171491,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:03",
@@ -171499,7 +171499,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:05",
@@ -171507,7 +171507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:07",
@@ -171515,7 +171515,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:09",
@@ -171523,7 +171523,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:11",
@@ -171531,7 +171531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:13",
@@ -171539,7 +171539,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "22:15",
@@ -171547,7 +171547,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "22:17",
@@ -171555,7 +171555,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:19",
@@ -171563,7 +171563,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:21",
@@ -171571,7 +171571,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:23",
@@ -171579,7 +171579,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:25",
@@ -171587,7 +171587,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:27",
@@ -171595,7 +171595,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:29",
@@ -171603,7 +171603,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:31",
@@ -171611,7 +171611,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:33",
@@ -171619,7 +171619,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:35",
@@ -171627,7 +171627,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:37",
@@ -171635,7 +171635,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:39",
@@ -171643,7 +171643,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:41",
@@ -171651,7 +171651,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:43",
@@ -171659,7 +171659,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:45",
@@ -171667,7 +171667,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:47",
@@ -171675,7 +171675,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:49",
@@ -171683,7 +171683,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:51",
@@ -171691,7 +171691,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:53",
@@ -171699,7 +171699,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:55",
@@ -171707,7 +171707,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:57",
@@ -171715,7 +171715,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "22:59",
@@ -171723,7 +171723,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:01",
@@ -171731,7 +171731,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:03",
@@ -171739,7 +171739,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:05",
@@ -171747,7 +171747,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:07",
@@ -171755,7 +171755,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:09",
@@ -171763,7 +171763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:11",
@@ -171771,7 +171771,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:13",
@@ -171779,7 +171779,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:15",
@@ -171787,7 +171787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:17",
@@ -171795,7 +171795,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "23:19",
@@ -171803,7 +171803,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "23:21",
@@ -171811,7 +171811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:23",
@@ -171819,7 +171819,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:25",
@@ -171827,7 +171827,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:27",
@@ -171835,7 +171835,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:29",
@@ -171843,7 +171843,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:31",
@@ -171851,7 +171851,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:33",
@@ -171859,7 +171859,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:35",
@@ -171867,7 +171867,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:37",
@@ -171875,7 +171875,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:39",
@@ -171883,7 +171883,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:41",
@@ -171891,7 +171891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:43",
@@ -171899,7 +171899,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:45",
@@ -171907,7 +171907,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:47",
@@ -171915,7 +171915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:49",
@@ -171923,7 +171923,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:51",
@@ -171931,7 +171931,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:53",
@@ -171939,7 +171939,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:55",
@@ -171947,7 +171947,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:57",
@@ -171955,7 +171955,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "23:59",
@@ -171963,7 +171963,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:01",
@@ -171971,7 +171971,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:03",
@@ -171979,7 +171979,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:05",
@@ -171987,7 +171987,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:07",
@@ -171995,7 +171995,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:09",
@@ -172003,7 +172003,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:11",
@@ -172011,7 +172011,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:13",
@@ -172019,7 +172019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:15",
@@ -172027,7 +172027,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:17",
@@ -172035,7 +172035,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:19",
@@ -172043,7 +172043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:21",
@@ -172051,7 +172051,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "00:23",
@@ -172059,7 +172059,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "00:25",
@@ -172067,7 +172067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:27",
@@ -172075,7 +172075,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:29",
@@ -172083,7 +172083,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:31",
@@ -172091,7 +172091,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:33",
@@ -172099,7 +172099,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:35",
@@ -172107,7 +172107,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:37",
@@ -172115,7 +172115,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:39",
@@ -172123,7 +172123,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:41",
@@ -172131,7 +172131,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:43",
@@ -172139,7 +172139,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:45",
@@ -172147,7 +172147,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:47",
@@ -172155,7 +172155,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:49",
@@ -172163,7 +172163,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:51",
@@ -172171,7 +172171,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:53",
@@ -172179,7 +172179,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:55",
@@ -172187,7 +172187,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:57",
@@ -172195,7 +172195,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "00:59",
@@ -172203,7 +172203,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:01",
@@ -172211,7 +172211,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:03",
@@ -172219,7 +172219,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:05",
@@ -172227,7 +172227,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:07",
@@ -172235,7 +172235,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:09",
@@ -172243,7 +172243,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:11",
@@ -172251,7 +172251,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:13",
@@ -172259,7 +172259,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:15",
@@ -172267,7 +172267,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:17",
@@ -172275,7 +172275,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:19",
@@ -172283,7 +172283,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:21",
@@ -172291,7 +172291,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:23",
@@ -172299,7 +172299,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:25",
@@ -172307,7 +172307,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "01:27",
@@ -172315,7 +172315,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "01:29",
@@ -172323,7 +172323,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:31",
@@ -172331,7 +172331,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:33",
@@ -172339,7 +172339,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:35",
@@ -172347,7 +172347,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:37",
@@ -172355,7 +172355,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:39",
@@ -172363,7 +172363,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:41",
@@ -172371,7 +172371,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:43",
@@ -172379,7 +172379,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:45",
@@ -172387,7 +172387,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:47",
@@ -172395,7 +172395,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:49",
@@ -172403,7 +172403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:51",
@@ -172411,7 +172411,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:53",
@@ -172419,7 +172419,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:55",
@@ -172427,7 +172427,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:57",
@@ -172435,7 +172435,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01:59",
@@ -172443,7 +172443,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:01",
@@ -172451,7 +172451,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:03",
@@ -172459,7 +172459,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:05",
@@ -172467,7 +172467,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:07",
@@ -172475,7 +172475,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:09",
@@ -172483,7 +172483,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:11",
@@ -172491,7 +172491,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:13",
@@ -172499,7 +172499,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:15",
@@ -172507,7 +172507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:17",
@@ -172515,7 +172515,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:19",
@@ -172523,7 +172523,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:21",
@@ -172531,7 +172531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:23",
@@ -172539,7 +172539,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:25",
@@ -172547,7 +172547,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:27",
@@ -172555,7 +172555,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:29",
@@ -172563,7 +172563,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "02:31",
@@ -172571,7 +172571,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "02:33",
@@ -172579,7 +172579,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:35",
@@ -172587,7 +172587,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:37",
@@ -172595,7 +172595,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:39",
@@ -172603,7 +172603,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:41",
@@ -172611,7 +172611,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:43",
@@ -172619,7 +172619,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:45",
@@ -172627,7 +172627,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:47",
@@ -172635,7 +172635,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:49",
@@ -172643,7 +172643,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:51",
@@ -172651,7 +172651,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:53",
@@ -172659,7 +172659,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:55",
@@ -172667,7 +172667,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:57",
@@ -172675,7 +172675,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02:59",
@@ -172683,7 +172683,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:01",
@@ -172691,7 +172691,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:03",
@@ -172699,7 +172699,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:05",
@@ -172707,7 +172707,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:07",
@@ -172715,7 +172715,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:09",
@@ -172723,7 +172723,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:11",
@@ -172731,7 +172731,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:13",
@@ -172739,7 +172739,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:15",
@@ -172747,7 +172747,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:17",
@@ -172755,7 +172755,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:19",
@@ -172763,7 +172763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:21",
@@ -172771,7 +172771,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:23",
@@ -172779,7 +172779,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:25",
@@ -172787,7 +172787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:27",
@@ -172795,7 +172795,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:29",
@@ -172803,7 +172803,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:31",
@@ -172811,7 +172811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:33",
@@ -172819,7 +172819,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "03:35",
@@ -172827,7 +172827,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "03:37",
@@ -172835,7 +172835,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:39",
@@ -172843,7 +172843,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:41",
@@ -172851,7 +172851,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:43",
@@ -172859,7 +172859,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:45",
@@ -172867,7 +172867,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:47",
@@ -172875,7 +172875,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:49",
@@ -172883,7 +172883,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:51",
@@ -172891,7 +172891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:53",
@@ -172899,7 +172899,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:55",
@@ -172907,7 +172907,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:57",
@@ -172915,7 +172915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03:59",
@@ -172923,7 +172923,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:01",
@@ -172931,7 +172931,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:03",
@@ -172939,7 +172939,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:05",
@@ -172947,7 +172947,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:07",
@@ -172955,7 +172955,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:09",
@@ -172963,7 +172963,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:11",
@@ -172971,7 +172971,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:13",
@@ -172979,7 +172979,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:15",
@@ -172987,7 +172987,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:17",
@@ -172995,7 +172995,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:19",
@@ -173003,7 +173003,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:21",
@@ -173011,7 +173011,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:23",
@@ -173019,7 +173019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:25",
@@ -173027,7 +173027,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:27",
@@ -173035,7 +173035,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:29",
@@ -173043,7 +173043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:31",
@@ -173051,7 +173051,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:33",
@@ -173059,7 +173059,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:35",
@@ -173067,7 +173067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:37",
@@ -173075,7 +173075,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "04:39",
@@ -173083,7 +173083,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "04:41",
@@ -173091,7 +173091,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:43",
@@ -173099,7 +173099,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:45",
@@ -173107,7 +173107,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:47",
@@ -173115,7 +173115,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:49",
@@ -173123,7 +173123,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:51",
@@ -173131,7 +173131,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:53",
@@ -173139,7 +173139,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:55",
@@ -173147,7 +173147,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:57",
@@ -173155,7 +173155,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04:59",
@@ -173163,7 +173163,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:01",
@@ -173171,7 +173171,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:03",
@@ -173179,7 +173179,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:05",
@@ -173187,7 +173187,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:07",
@@ -173195,7 +173195,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:09",
@@ -173203,7 +173203,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:11",
@@ -173211,7 +173211,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:13",
@@ -173219,7 +173219,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:15",
@@ -173227,7 +173227,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:17",
@@ -173235,7 +173235,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:19",
@@ -173243,7 +173243,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:21",
@@ -173251,7 +173251,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:23",
@@ -173259,7 +173259,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:25",
@@ -173267,7 +173267,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:27",
@@ -173275,7 +173275,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:29",
@@ -173283,7 +173283,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:31",
@@ -173291,7 +173291,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:33",
@@ -173299,7 +173299,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:35",
@@ -173307,7 +173307,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:37",
@@ -173315,7 +173315,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:39",
@@ -173323,7 +173323,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:41",
@@ -173331,7 +173331,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "05:43",
@@ -173339,7 +173339,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "05:45",
@@ -173347,7 +173347,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:47",
@@ -173355,7 +173355,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:49",
@@ -173363,7 +173363,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:51",
@@ -173371,7 +173371,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:53",
@@ -173379,7 +173379,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:55",
@@ -173387,7 +173387,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:57",
@@ -173395,7 +173395,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "05:59",
@@ -173403,7 +173403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:01",
@@ -173411,7 +173411,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:03",
@@ -173419,7 +173419,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:05",
@@ -173427,7 +173427,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:07",
@@ -173435,7 +173435,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:09",
@@ -173443,7 +173443,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:11",
@@ -173451,7 +173451,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:13",
@@ -173459,7 +173459,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:15",
@@ -173467,7 +173467,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:17",
@@ -173475,7 +173475,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:19",
@@ -173483,7 +173483,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:21",
@@ -173491,7 +173491,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:23",
@@ -173499,7 +173499,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:25",
@@ -173507,7 +173507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:27",
@@ -173515,7 +173515,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:29",
@@ -173523,7 +173523,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:31",
@@ -173531,7 +173531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:33",
@@ -173539,7 +173539,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:35",
@@ -173547,7 +173547,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:37",
@@ -173555,7 +173555,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:39",
@@ -173563,7 +173563,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:41",
@@ -173571,7 +173571,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:43",
@@ -173579,7 +173579,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:45",
@@ -173587,7 +173587,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "06:47",
@@ -173595,7 +173595,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "06:49",
@@ -173603,7 +173603,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:51",
@@ -173611,7 +173611,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:53",
@@ -173619,7 +173619,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:55",
@@ -173627,7 +173627,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:57",
@@ -173635,7 +173635,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "06:59",
@@ -173643,7 +173643,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:01",
@@ -173651,7 +173651,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:03",
@@ -173659,7 +173659,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:05",
@@ -173667,7 +173667,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:07",
@@ -173675,7 +173675,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:09",
@@ -173683,7 +173683,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:11",
@@ -173691,7 +173691,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:13",
@@ -173699,7 +173699,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:15",
@@ -173707,7 +173707,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:17",
@@ -173715,7 +173715,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:19",
@@ -173723,7 +173723,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:21",
@@ -173731,7 +173731,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:23",
@@ -173739,7 +173739,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:25",
@@ -173747,7 +173747,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:27",
@@ -173755,7 +173755,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:29",
@@ -173763,7 +173763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:31",
@@ -173771,7 +173771,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:33",
@@ -173779,7 +173779,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:35",
@@ -173787,7 +173787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:37",
@@ -173795,7 +173795,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:39",
@@ -173803,7 +173803,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:41",
@@ -173811,7 +173811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:43",
@@ -173819,7 +173819,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:45",
@@ -173827,7 +173827,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:47",
@@ -173835,7 +173835,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:49",
@@ -173843,7 +173843,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "07:51",
@@ -173851,7 +173851,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "07:53",
@@ -173859,7 +173859,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:55",
@@ -173867,7 +173867,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:57",
@@ -173875,7 +173875,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "07:59",
@@ -173883,7 +173883,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:01",
@@ -173891,7 +173891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:03",
@@ -173899,7 +173899,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:05",
@@ -173907,7 +173907,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:07",
@@ -173915,7 +173915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:09",
@@ -173923,7 +173923,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:11",
@@ -173931,7 +173931,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:13",
@@ -173939,7 +173939,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:15",
@@ -173947,7 +173947,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:17",
@@ -173955,7 +173955,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:19",
@@ -173963,7 +173963,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:21",
@@ -173971,7 +173971,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:23",
@@ -173979,7 +173979,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:25",
@@ -173987,7 +173987,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:27",
@@ -173995,7 +173995,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:29",
@@ -174003,7 +174003,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:31",
@@ -174011,7 +174011,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:33",
@@ -174019,7 +174019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:35",
@@ -174027,7 +174027,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:37",
@@ -174035,7 +174035,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:39",
@@ -174043,7 +174043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:41",
@@ -174051,7 +174051,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:43",
@@ -174059,7 +174059,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:45",
@@ -174067,7 +174067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:47",
@@ -174075,7 +174075,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:49",
@@ -174083,7 +174083,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:51",
@@ -174091,7 +174091,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:53",
@@ -174099,7 +174099,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "08:55",
@@ -174107,7 +174107,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "08:57",
@@ -174115,7 +174115,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "08:59",
@@ -174123,7 +174123,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:01",
@@ -174131,7 +174131,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:03",
@@ -174139,7 +174139,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:05",
@@ -174147,7 +174147,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:07",
@@ -174155,7 +174155,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:09",
@@ -174163,7 +174163,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:11",
@@ -174171,7 +174171,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:13",
@@ -174179,7 +174179,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:15",
@@ -174187,7 +174187,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:17",
@@ -174195,7 +174195,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:19",
@@ -174203,7 +174203,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:21",
@@ -174211,7 +174211,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:23",
@@ -174219,7 +174219,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:25",
@@ -174227,7 +174227,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:27",
@@ -174235,7 +174235,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:29",
@@ -174243,7 +174243,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:31",
@@ -174251,7 +174251,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:33",
@@ -174259,7 +174259,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:35",
@@ -174267,7 +174267,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:37",
@@ -174275,7 +174275,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:39",
@@ -174283,7 +174283,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:41",
@@ -174291,7 +174291,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:43",
@@ -174299,7 +174299,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:45",
@@ -174307,7 +174307,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:47",
@@ -174315,7 +174315,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:49",
@@ -174323,7 +174323,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:51",
@@ -174331,7 +174331,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:53",
@@ -174339,7 +174339,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:55",
@@ -174347,7 +174347,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "09:57",
@@ -174355,7 +174355,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "09:59",
@@ -174363,7 +174363,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "10:01",
@@ -174371,7 +174371,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "10:03",
@@ -174379,7 +174379,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "10:05",
@@ -174387,7 +174387,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "10:07",
@@ -174395,7 +174395,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "10:09",
@@ -174403,7 +174403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "10:11",
@@ -174411,7 +174411,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "10:13",
@@ -174419,7 +174419,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "10:15",
@@ -174427,7 +174427,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "10:17",
@@ -174435,7 +174435,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "10:19",
@@ -174443,7 +174443,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "10:21",
@@ -174451,7 +174451,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "10:23",
@@ -174459,7 +174459,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "10:25",
@@ -174467,7 +174467,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "10:27",
@@ -174475,7 +174475,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "10:29",
@@ -174483,7 +174483,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "10:31",
@@ -174491,7 +174491,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -7.62σ)"
+          "metric": "SPYB: $769.26 (Z: -7.62σ)"
         },
         {
           "time": "10:33",
@@ -174499,7 +174499,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -4.32σ)"
+          "metric": "SPYB: $769.26 (Z: -4.32σ)"
         },
         {
           "time": "10:35",
@@ -174507,7 +174507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -3.29σ)"
+          "metric": "SPYB: $769.26 (Z: -3.29σ)"
         },
         {
           "time": "10:37",
@@ -174515,7 +174515,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 88,
           "score_a": 88,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.84σ)"
+          "metric": "SPYB: $769.26 (Z: -0.84σ)"
         },
         {
           "time": "10:39",
@@ -174523,7 +174523,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 83,
           "score_a": 83,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.79σ)"
+          "metric": "SPYB: $769.26 (Z: -0.79σ)"
         },
         {
           "time": "10:41",
@@ -174531,7 +174531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 79,
           "score_a": 79,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.75σ)"
+          "metric": "SPYB: $769.26 (Z: -0.75σ)"
         },
         {
           "time": "10:43",
@@ -174539,7 +174539,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.31σ)"
+          "metric": "SPYB: $769.26 (Z: -2.31σ)"
         },
         {
           "time": "10:45",
@@ -174547,7 +174547,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.05σ)"
+          "metric": "SPYB: $769.26 (Z: -2.05σ)"
         },
         {
           "time": "10:47",
@@ -174555,7 +174555,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.49σ)"
+          "metric": "SPYB: $769.26 (Z: -2.49σ)"
         },
         {
           "time": "10:49",
@@ -174563,7 +174563,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.19σ)"
+          "metric": "SPYB: $769.26 (Z: -2.19σ)"
         },
         {
           "time": "10:51",
@@ -174571,7 +174571,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.96σ)"
+          "metric": "SPYB: $769.26 (Z: -1.96σ)"
         },
         {
           "time": "10:53",
@@ -174579,7 +174579,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.13σ)"
+          "metric": "SPYB: $769.26 (Z: -1.13σ)"
         },
         {
           "time": "10:55",
@@ -174587,7 +174587,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.06σ)"
+          "metric": "SPYB: $769.26 (Z: -1.06σ)"
         },
         {
           "time": "10:57",
@@ -174595,7 +174595,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 62,
           "score_a": 62,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.59σ)"
+          "metric": "SPYB: $769.26 (Z: -0.59σ)"
         },
         {
           "time": "10:59",
@@ -174603,7 +174603,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 58,
           "score_a": 58,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.55σ)"
+          "metric": "SPYB: $769.26 (Z: -0.55σ)"
         },
         {
           "time": "11:01",
@@ -174611,7 +174611,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 53,
           "score_a": 53,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.51σ)"
+          "metric": "SPYB: $769.26 (Z: -0.51σ)"
         },
         {
           "time": "11:03",
@@ -174619,7 +174619,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.19σ)"
+          "metric": "SPYB: $769.26 (Z: -1.19σ)"
         },
         {
           "time": "11:05",
@@ -174627,7 +174627,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.11σ)"
+          "metric": "SPYB: $769.26 (Z: -1.11σ)"
         },
         {
           "time": "11:07",
@@ -174635,7 +174635,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.25σ)"
+          "metric": "SPYB: $769.26 (Z: -1.25σ)"
         },
         {
           "time": "11:09",
@@ -174643,7 +174643,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.17σ)"
+          "metric": "SPYB: $769.26 (Z: -1.17σ)"
         },
         {
           "time": "11:11",
@@ -174651,7 +174651,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.09σ)"
+          "metric": "SPYB: $769.26 (Z: -1.09σ)"
         },
         {
           "time": "11:13",
@@ -174659,7 +174659,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.40σ)"
+          "metric": "SPYB: $769.26 (Z: -2.40σ)"
         },
         {
           "time": "11:15",
@@ -174667,7 +174667,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.15σ)"
+          "metric": "SPYB: $769.26 (Z: -2.15σ)"
         },
         {
           "time": "11:17",
@@ -174675,7 +174675,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.95σ)"
+          "metric": "SPYB: $769.26 (Z: -1.95σ)"
         },
         {
           "time": "11:19",
@@ -174683,7 +174683,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.79σ)"
+          "metric": "SPYB: $769.26 (Z: -1.79σ)"
         },
         {
           "time": "11:21",
@@ -174691,7 +174691,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.66σ)"
+          "metric": "SPYB: $769.26 (Z: -1.66σ)"
         },
         {
           "time": "11:23",
@@ -174699,7 +174699,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.66σ)"
+          "metric": "SPYB: $769.26 (Z: -1.66σ)"
         },
         {
           "time": "11:25",
@@ -174707,7 +174707,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.56σ)"
+          "metric": "SPYB: $769.26 (Z: -1.56σ)"
         },
         {
           "time": "11:27",
@@ -174715,7 +174715,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.48σ)"
+          "metric": "SPYB: $769.26 (Z: -1.48σ)"
         },
         {
           "time": "11:29",
@@ -174723,7 +174723,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.83σ)"
+          "metric": "SPYB: $769.26 (Z: -1.83σ)"
         },
         {
           "time": "11:31",
@@ -174731,7 +174731,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.71σ)"
+          "metric": "SPYB: $769.26 (Z: -1.71σ)"
         },
         {
           "time": "11:33",
@@ -174739,7 +174739,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.69σ)"
+          "metric": "SPYB: $769.26 (Z: -1.69σ)"
         },
         {
           "time": "11:35",
@@ -174747,7 +174747,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.55σ)"
+          "metric": "SPYB: $769.26 (Z: -1.55σ)"
         },
         {
           "time": "11:37",
@@ -174755,7 +174755,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.46σ)"
+          "metric": "SPYB: $769.26 (Z: -1.46σ)"
         },
         {
           "time": "11:39",
@@ -174763,7 +174763,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.28σ)"
+          "metric": "SPYB: $769.26 (Z: -1.28σ)"
         },
         {
           "time": "11:41",
@@ -174771,7 +174771,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.22σ)"
+          "metric": "SPYB: $769.26 (Z: -1.22σ)"
         },
         {
           "time": "11:43",
@@ -174779,7 +174779,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.18σ)"
+          "metric": "SPYB: $769.26 (Z: -1.18σ)"
         },
         {
           "time": "11:45",
@@ -174787,7 +174787,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.10σ)"
+          "metric": "SPYB: $769.26 (Z: -1.10σ)"
         },
         {
           "time": "11:47",
@@ -174795,7 +174795,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.03σ)"
+          "metric": "SPYB: $769.26 (Z: -1.03σ)"
         },
         {
           "time": "11:49",
@@ -174803,7 +174803,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.92σ)"
+          "metric": "SPYB: $769.26 (Z: -1.92σ)"
         },
         {
           "time": "11:51",
@@ -174811,7 +174811,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.75σ)"
+          "metric": "SPYB: $769.26 (Z: -1.75σ)"
         },
         {
           "time": "11:53",
@@ -174819,7 +174819,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.99σ)"
+          "metric": "SPYB: $769.26 (Z: -1.99σ)"
         },
         {
           "time": "11:55",
@@ -174827,7 +174827,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.83σ)"
+          "metric": "SPYB: $769.26 (Z: -1.83σ)"
         },
         {
           "time": "11:57",
@@ -174835,7 +174835,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.71σ)"
+          "metric": "SPYB: $769.26 (Z: -1.71σ)"
         },
         {
           "time": "11:59",
@@ -174843,7 +174843,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.07σ)"
+          "metric": "SPYB: $769.26 (Z: -2.07σ)"
         },
         {
           "time": "12:01",
@@ -174851,7 +174851,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.95σ)"
+          "metric": "SPYB: $769.26 (Z: -1.95σ)"
         },
         {
           "time": "12:03",
@@ -174859,7 +174859,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.39σ)"
+          "metric": "SPYB: $769.26 (Z: -2.39σ)"
         },
         {
           "time": "12:05",
@@ -174867,7 +174867,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.17σ)"
+          "metric": "SPYB: $769.26 (Z: -2.17σ)"
         },
         {
           "time": "12:07",
@@ -174875,7 +174875,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.00σ)"
+          "metric": "SPYB: $769.26 (Z: -2.00σ)"
         },
         {
           "time": "12:09",
@@ -174883,7 +174883,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.30σ)"
+          "metric": "SPYB: $769.26 (Z: -1.30σ)"
         },
         {
           "time": "12:11",
@@ -174891,7 +174891,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.25σ)"
+          "metric": "SPYB: $769.26 (Z: -1.25σ)"
         },
         {
           "time": "12:13",
@@ -174899,7 +174899,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.17σ)"
+          "metric": "SPYB: $769.26 (Z: -1.17σ)"
         },
         {
           "time": "12:15",
@@ -174907,7 +174907,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 87,
           "score_a": 87,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.83σ)"
+          "metric": "SPYB: $769.26 (Z: -0.83σ)"
         },
         {
           "time": "12:17",
@@ -174915,7 +174915,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 81,
           "score_a": 81,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.77σ)"
+          "metric": "SPYB: $769.26 (Z: -0.77σ)"
         },
         {
           "time": "12:19",
@@ -174923,7 +174923,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.11σ)"
+          "metric": "SPYB: $769.26 (Z: -1.11σ)"
         },
         {
           "time": "12:21",
@@ -174931,7 +174931,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.05σ)"
+          "metric": "SPYB: $769.26 (Z: -1.05σ)"
         },
         {
           "time": "12:23",
@@ -174939,7 +174939,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.98σ)"
+          "metric": "SPYB: $769.26 (Z: -0.98σ)"
         },
         {
           "time": "12:25",
@@ -174947,7 +174947,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.02σ)"
+          "metric": "SPYB: $769.26 (Z: -1.02σ)"
         },
         {
           "time": "12:27",
@@ -174955,7 +174955,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.96σ)"
+          "metric": "SPYB: $769.26 (Z: -0.96σ)"
         },
         {
           "time": "12:29",
@@ -174963,7 +174963,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.00σ)"
+          "metric": "SPYB: $769.26 (Z: -1.00σ)"
         },
         {
           "time": "12:31",
@@ -174971,7 +174971,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 99,
           "score_a": 99,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.94σ)"
+          "metric": "SPYB: $769.26 (Z: -0.94σ)"
         },
         {
           "time": "12:33",
@@ -174979,7 +174979,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 93,
           "score_a": 93,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.88σ)"
+          "metric": "SPYB: $769.26 (Z: -0.88σ)"
         },
         {
           "time": "12:35",
@@ -174987,7 +174987,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.28σ)"
+          "metric": "SPYB: $769.26 (Z: -1.28σ)"
         },
         {
           "time": "12:37",
@@ -174995,7 +174995,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.21σ)"
+          "metric": "SPYB: $769.26 (Z: -1.21σ)"
         },
         {
           "time": "12:39",
@@ -175003,7 +175003,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 53,
           "score_a": 53,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.50σ)"
+          "metric": "SPYB: $769.26 (Z: -0.50σ)"
         },
         {
           "time": "12:41",
@@ -175011,7 +175011,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 47,
           "score_a": 47,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.45σ)"
+          "metric": "SPYB: $769.26 (Z: -0.45σ)"
         },
         {
           "time": "12:43",
@@ -175019,7 +175019,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 42,
           "score_a": 42,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.39σ)"
+          "metric": "SPYB: $769.26 (Z: -0.39σ)"
         },
         {
           "time": "12:45",
@@ -175027,7 +175027,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.01σ)"
+          "metric": "SPYB: $769.26 (Z: +1.01σ)"
         },
         {
           "time": "12:47",
@@ -175035,7 +175035,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.31σ)"
+          "metric": "SPYB: $769.26 (Z: +1.31σ)"
         },
         {
           "time": "12:49",
@@ -175043,7 +175043,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.54σ)"
+          "metric": "SPYB: $769.26 (Z: +0.54σ)"
         },
         {
           "time": "12:51",
@@ -175051,7 +175051,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.64σ)"
+          "metric": "SPYB: $769.26 (Z: +0.64σ)"
         },
         {
           "time": "12:53",
@@ -175059,7 +175059,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.71σ)"
+          "metric": "SPYB: $769.26 (Z: +0.71σ)"
         },
         {
           "time": "12:55",
@@ -175067,7 +175067,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.35σ)"
+          "metric": "SPYB: $769.26 (Z: +1.35σ)"
         },
         {
           "time": "12:57",
@@ -175075,7 +175075,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.36σ)"
+          "metric": "SPYB: $769.26 (Z: +1.36σ)"
         },
         {
           "time": "12:59",
@@ -175083,7 +175083,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.26σ)"
+          "metric": "SPYB: $769.26 (Z: +1.26σ)"
         },
         {
           "time": "13:01",
@@ -175091,7 +175091,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.19σ)"
+          "metric": "SPYB: $769.26 (Z: +1.19σ)"
         },
         {
           "time": "13:03",
@@ -175099,7 +175099,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.12σ)"
+          "metric": "SPYB: $769.26 (Z: +1.12σ)"
         },
         {
           "time": "13:05",
@@ -175107,7 +175107,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.86σ)"
+          "metric": "SPYB: $769.26 (Z: +0.86σ)"
         },
         {
           "time": "13:07",
@@ -175115,7 +175115,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.81σ)"
+          "metric": "SPYB: $769.26 (Z: +0.81σ)"
         },
         {
           "time": "13:09",
@@ -175123,7 +175123,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.77σ)"
+          "metric": "SPYB: $769.26 (Z: +0.77σ)"
         },
         {
           "time": "13:11",
@@ -175131,7 +175131,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +2.30σ)"
+          "metric": "SPYB: $769.26 (Z: +2.30σ)"
         },
         {
           "time": "13:13",
@@ -175139,7 +175139,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +2.04σ)"
+          "metric": "SPYB: $769.26 (Z: +2.04σ)"
         },
         {
           "time": "13:15",
@@ -175147,7 +175147,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +2.44σ)"
+          "metric": "SPYB: $769.26 (Z: +2.44σ)"
         },
         {
           "time": "13:17",
@@ -175155,7 +175155,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +2.16σ)"
+          "metric": "SPYB: $769.26 (Z: +2.16σ)"
         },
         {
           "time": "13:19",
@@ -175163,7 +175163,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.95σ)"
+          "metric": "SPYB: $769.26 (Z: +1.95σ)"
         },
         {
           "time": "13:21",
@@ -175171,7 +175171,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +2.19σ)"
+          "metric": "SPYB: $769.26 (Z: +2.19σ)"
         },
         {
           "time": "13:23",
@@ -175179,7 +175179,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.97σ)"
+          "metric": "SPYB: $769.26 (Z: +1.97σ)"
         },
         {
           "time": "13:25",
@@ -175187,7 +175187,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.78σ)"
+          "metric": "SPYB: $769.26 (Z: +1.78σ)"
         },
         {
           "time": "13:27",
@@ -175195,7 +175195,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.63σ)"
+          "metric": "SPYB: $769.26 (Z: +1.63σ)"
         },
         {
           "time": "13:29",
@@ -175203,7 +175203,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.51σ)"
+          "metric": "SPYB: $769.26 (Z: +1.51σ)"
         },
         {
           "time": "13:31",
@@ -175211,7 +175211,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.13σ)"
+          "metric": "SPYB: $769.26 (Z: +1.13σ)"
         },
         {
           "time": "13:33",
@@ -175219,7 +175219,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.06σ)"
+          "metric": "SPYB: $769.26 (Z: +1.06σ)"
         },
         {
           "time": "13:35",
@@ -175227,7 +175227,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.48σ)"
+          "metric": "SPYB: $769.26 (Z: +1.48σ)"
         },
         {
           "time": "13:37",
@@ -175235,7 +175235,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.43σ)"
+          "metric": "SPYB: $769.26 (Z: +1.43σ)"
         },
         {
           "time": "13:39",
@@ -175243,7 +175243,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.37σ)"
+          "metric": "SPYB: $769.26 (Z: +1.37σ)"
         },
         {
           "time": "13:41",
@@ -175251,7 +175251,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.10σ)"
+          "metric": "SPYB: $769.26 (Z: +1.10σ)"
         },
         {
           "time": "13:43",
@@ -175259,7 +175259,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.05σ)"
+          "metric": "SPYB: $769.26 (Z: +1.05σ)"
         },
         {
           "time": "13:45",
@@ -175267,7 +175267,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.31σ)"
+          "metric": "SPYB: $769.26 (Z: +1.31σ)"
         },
         {
           "time": "13:47",
@@ -175275,7 +175275,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.22σ)"
+          "metric": "SPYB: $769.26 (Z: +1.22σ)"
         },
         {
           "time": "13:49",
@@ -175283,7 +175283,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.15σ)"
+          "metric": "SPYB: $769.26 (Z: +1.15σ)"
         },
         {
           "time": "13:51",
@@ -175291,7 +175291,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.66σ)"
+          "metric": "SPYB: $769.26 (Z: +1.66σ)"
         },
         {
           "time": "13:53",
@@ -175299,7 +175299,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.56σ)"
+          "metric": "SPYB: $769.26 (Z: +1.56σ)"
         },
         {
           "time": "13:55",
@@ -175307,7 +175307,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.23σ)"
+          "metric": "SPYB: $769.26 (Z: +1.23σ)"
         },
         {
           "time": "13:57",
@@ -175315,7 +175315,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.16σ)"
+          "metric": "SPYB: $769.26 (Z: +1.16σ)"
         },
         {
           "time": "13:59",
@@ -175323,7 +175323,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.10σ)"
+          "metric": "SPYB: $769.26 (Z: +1.10σ)"
         },
         {
           "time": "14:01",
@@ -175331,7 +175331,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.64σ)"
+          "metric": "SPYB: $769.26 (Z: +0.64σ)"
         },
         {
           "time": "14:03",
@@ -175339,7 +175339,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.59σ)"
+          "metric": "SPYB: $769.26 (Z: +0.59σ)"
         },
         {
           "time": "14:05",
@@ -175347,7 +175347,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.55σ)"
+          "metric": "SPYB: $769.26 (Z: +0.55σ)"
         },
         {
           "time": "14:07",
@@ -175355,7 +175355,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.06σ)"
+          "metric": "SPYB: $769.26 (Z: -1.06σ)"
         },
         {
           "time": "14:09",
@@ -175363,7 +175363,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.37σ)"
+          "metric": "SPYB: $769.26 (Z: -1.37σ)"
         },
         {
           "time": "14:11",
@@ -175371,7 +175371,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.73σ)"
+          "metric": "SPYB: $769.26 (Z: -1.73σ)"
         },
         {
           "time": "14:13",
@@ -175379,7 +175379,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.76σ)"
+          "metric": "SPYB: $769.26 (Z: -1.76σ)"
         },
         {
           "time": "14:15",
@@ -175387,7 +175387,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.73σ)"
+          "metric": "SPYB: $769.26 (Z: -1.73σ)"
         },
         {
           "time": "14:17",
@@ -175395,7 +175395,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.82σ)"
+          "metric": "SPYB: $769.26 (Z: -1.82σ)"
         },
         {
           "time": "14:19",
@@ -175403,7 +175403,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.72σ)"
+          "metric": "SPYB: $769.26 (Z: -1.72σ)"
         },
         {
           "time": "14:21",
@@ -175411,7 +175411,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.77σ)"
+          "metric": "SPYB: $769.26 (Z: -1.77σ)"
         },
         {
           "time": "14:23",
@@ -175419,7 +175419,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.63σ)"
+          "metric": "SPYB: $769.26 (Z: -1.63σ)"
         },
         {
           "time": "14:25",
@@ -175427,7 +175427,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.51σ)"
+          "metric": "SPYB: $769.26 (Z: -1.51σ)"
         },
         {
           "time": "14:27",
@@ -175435,7 +175435,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.98σ)"
+          "metric": "SPYB: $769.26 (Z: -1.98σ)"
         },
         {
           "time": "14:29",
@@ -175443,7 +175443,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.80σ)"
+          "metric": "SPYB: $769.26 (Z: -1.80σ)"
         },
         {
           "time": "14:31",
@@ -175451,7 +175451,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.58σ)"
+          "metric": "SPYB: $769.26 (Z: -2.58σ)"
         },
         {
           "time": "14:33",
@@ -175459,7 +175459,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.26σ)"
+          "metric": "SPYB: $769.26 (Z: -2.26σ)"
         },
         {
           "time": "14:35",
@@ -175467,7 +175467,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.02σ)"
+          "metric": "SPYB: $769.26 (Z: -2.02σ)"
         },
         {
           "time": "14:37",
@@ -175475,7 +175475,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.07σ)"
+          "metric": "SPYB: $769.26 (Z: -2.07σ)"
         },
         {
           "time": "14:39",
@@ -175483,7 +175483,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.87σ)"
+          "metric": "SPYB: $769.26 (Z: -1.87σ)"
         },
         {
           "time": "14:41",
@@ -175491,7 +175491,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.80σ)"
+          "metric": "SPYB: $769.26 (Z: -1.80σ)"
         },
         {
           "time": "14:43",
@@ -175499,7 +175499,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.65σ)"
+          "metric": "SPYB: $769.26 (Z: -1.65σ)"
         },
         {
           "time": "14:45",
@@ -175507,7 +175507,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.52σ)"
+          "metric": "SPYB: $769.26 (Z: -1.52σ)"
         },
         {
           "time": "14:47",
@@ -175515,7 +175515,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.91σ)"
+          "metric": "SPYB: $769.26 (Z: -1.91σ)"
         },
         {
           "time": "14:49",
@@ -175523,7 +175523,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.75σ)"
+          "metric": "SPYB: $769.26 (Z: -1.75σ)"
         },
         {
           "time": "14:51",
@@ -175531,7 +175531,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.35σ)"
+          "metric": "SPYB: $769.26 (Z: -1.35σ)"
         },
         {
           "time": "14:53",
@@ -175539,7 +175539,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.28σ)"
+          "metric": "SPYB: $769.26 (Z: -1.28σ)"
         },
         {
           "time": "14:55",
@@ -175547,7 +175547,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.21σ)"
+          "metric": "SPYB: $769.26 (Z: -1.21σ)"
         },
         {
           "time": "14:57",
@@ -175555,7 +175555,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.23σ)"
+          "metric": "SPYB: $769.26 (Z: -1.23σ)"
         },
         {
           "time": "14:59",
@@ -175563,7 +175563,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.17σ)"
+          "metric": "SPYB: $769.26 (Z: -1.17σ)"
         }
       ],
       "7d": [
@@ -175573,7 +175573,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.88σ)"
+          "metric": "SPYB: $769.26 (Z: -1.88σ)"
         },
         {
           "time": "28/08 15:00",
@@ -175581,7 +175581,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.40σ)"
+          "metric": "SPYB: $769.26 (Z: +1.40σ)"
         },
         {
           "time": "28/08 15:00",
@@ -175589,7 +175589,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.64σ)"
+          "metric": "SPYB: $769.26 (Z: -1.64σ)"
         },
         {
           "time": "28/08 15:00",
@@ -175597,7 +175597,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.70σ)"
+          "metric": "SPYB: $769.26 (Z: -1.70σ)"
         },
         {
           "time": "28/08 16:00",
@@ -175605,7 +175605,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.74σ)"
+          "metric": "SPYB: $769.26 (Z: -1.74σ)"
         },
         {
           "time": "28/08 16:00",
@@ -175613,7 +175613,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.49σ)"
+          "metric": "SPYB: $769.26 (Z: +0.49σ)"
         },
         {
           "time": "28/08 16:00",
@@ -175621,7 +175621,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.83σ)"
+          "metric": "SPYB: $769.26 (Z: +1.83σ)"
         },
         {
           "time": "28/08 16:00",
@@ -175629,7 +175629,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.74σ)"
+          "metric": "SPYB: $769.26 (Z: +1.74σ)"
         },
         {
           "time": "28/08 17:00",
@@ -175637,7 +175637,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.07σ)"
+          "metric": "SPYB: $769.26 (Z: +1.07σ)"
         },
         {
           "time": "28/08 17:00",
@@ -175645,7 +175645,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.42σ)"
+          "metric": "SPYB: $769.26 (Z: +0.42σ)"
         },
         {
           "time": "28/08 17:00",
@@ -175653,7 +175653,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.21σ)"
+          "metric": "SPYB: $769.26 (Z: +0.21σ)"
         },
         {
           "time": "28/08 17:00",
@@ -175661,7 +175661,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.24σ)"
+          "metric": "SPYB: $769.26 (Z: +0.24σ)"
         },
         {
           "time": "28/08 18:00",
@@ -175669,7 +175669,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 20,
           "score_a": 20,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.19σ)"
+          "metric": "SPYB: $769.26 (Z: -0.19σ)"
         },
         {
           "time": "28/08 18:00",
@@ -175677,7 +175677,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 18:00",
@@ -175685,7 +175685,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 18:00",
@@ -175693,7 +175693,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 19:00",
@@ -175701,7 +175701,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 19:00",
@@ -175709,7 +175709,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 19:00",
@@ -175717,7 +175717,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 19:00",
@@ -175725,7 +175725,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 20:00",
@@ -175733,7 +175733,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 20:00",
@@ -175741,7 +175741,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 20:00",
@@ -175749,7 +175749,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 20:00",
@@ -175757,7 +175757,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 21:00",
@@ -175765,7 +175765,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 21:00",
@@ -175773,7 +175773,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 21:00",
@@ -175781,7 +175781,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 21:00",
@@ -175789,7 +175789,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 22:00",
@@ -175797,7 +175797,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 22:00",
@@ -175805,7 +175805,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 22:00",
@@ -175813,7 +175813,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 22:00",
@@ -175821,7 +175821,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 23:00",
@@ -175829,7 +175829,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 23:00",
@@ -175837,7 +175837,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 23:00",
@@ -175845,7 +175845,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 23:00",
@@ -175853,7 +175853,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 00:00",
@@ -175861,7 +175861,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 00:00",
@@ -175869,7 +175869,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 00:00",
@@ -175877,7 +175877,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 00:00",
@@ -175885,7 +175885,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 01:00",
@@ -175893,7 +175893,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 01:00",
@@ -175901,7 +175901,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 01:00",
@@ -175909,7 +175909,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 01:00",
@@ -175917,7 +175917,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 02:00",
@@ -175925,7 +175925,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 02:00",
@@ -175933,7 +175933,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 02:00",
@@ -175941,7 +175941,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 02:00",
@@ -175949,7 +175949,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 03:00",
@@ -175957,7 +175957,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 03:00",
@@ -175965,7 +175965,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 03:00",
@@ -175973,7 +175973,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 03:00",
@@ -175981,7 +175981,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 04:00",
@@ -175989,7 +175989,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 04:00",
@@ -175997,7 +175997,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 04:00",
@@ -176005,7 +176005,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 04:00",
@@ -176013,7 +176013,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 05:00",
@@ -176021,7 +176021,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 05:00",
@@ -176029,7 +176029,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 05:00",
@@ -176037,7 +176037,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 05:00",
@@ -176045,7 +176045,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 06:00",
@@ -176053,7 +176053,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 06:00",
@@ -176061,7 +176061,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 06:00",
@@ -176069,7 +176069,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 06:00",
@@ -176077,7 +176077,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 07:00",
@@ -176085,7 +176085,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 07:00",
@@ -176093,7 +176093,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 07:00",
@@ -176101,7 +176101,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 07:00",
@@ -176109,7 +176109,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 08:00",
@@ -176117,7 +176117,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 08:00",
@@ -176125,7 +176125,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 08:00",
@@ -176133,7 +176133,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 08:00",
@@ -176141,7 +176141,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 09:00",
@@ -176149,7 +176149,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 09:00",
@@ -176157,7 +176157,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 09:00",
@@ -176165,7 +176165,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 09:00",
@@ -176173,7 +176173,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 10:00",
@@ -176181,7 +176181,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 10:00",
@@ -176189,7 +176189,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 10:00",
@@ -176197,7 +176197,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 10:00",
@@ -176205,7 +176205,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 11:00",
@@ -176213,7 +176213,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 11:00",
@@ -176221,7 +176221,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 11:00",
@@ -176229,7 +176229,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 11:00",
@@ -176237,7 +176237,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 12:00",
@@ -176245,7 +176245,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 12:00",
@@ -176253,7 +176253,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 12:00",
@@ -176261,7 +176261,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 12:00",
@@ -176269,7 +176269,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 13:00",
@@ -176277,7 +176277,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 13:00",
@@ -176285,7 +176285,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 13:00",
@@ -176293,7 +176293,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 13:00",
@@ -176301,7 +176301,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 14:00",
@@ -176309,7 +176309,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 14:00",
@@ -176317,7 +176317,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 14:00",
@@ -176325,7 +176325,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 14:00",
@@ -176333,7 +176333,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 15:00",
@@ -176341,7 +176341,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 15:00",
@@ -176349,7 +176349,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 15:00",
@@ -176357,7 +176357,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 15:00",
@@ -176365,7 +176365,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 16:00",
@@ -176373,7 +176373,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 16:00",
@@ -176381,7 +176381,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 16:00",
@@ -176389,7 +176389,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 16:00",
@@ -176397,7 +176397,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 17:00",
@@ -176405,7 +176405,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 17:00",
@@ -176413,7 +176413,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 17:00",
@@ -176421,7 +176421,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 17:00",
@@ -176429,7 +176429,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 18:00",
@@ -176437,7 +176437,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 18:00",
@@ -176445,7 +176445,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 18:00",
@@ -176453,7 +176453,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 18:00",
@@ -176461,7 +176461,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 19:00",
@@ -176469,7 +176469,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 19:00",
@@ -176477,7 +176477,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 19:00",
@@ -176485,7 +176485,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 19:00",
@@ -176493,7 +176493,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 20:00",
@@ -176501,7 +176501,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 20:00",
@@ -176509,7 +176509,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 20:00",
@@ -176517,7 +176517,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 20:00",
@@ -176525,7 +176525,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 21:00",
@@ -176533,7 +176533,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 21:00",
@@ -176541,7 +176541,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 21:00",
@@ -176549,7 +176549,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 21:00",
@@ -176557,7 +176557,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 22:00",
@@ -176565,7 +176565,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 22:00",
@@ -176573,7 +176573,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 22:00",
@@ -176581,7 +176581,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 22:00",
@@ -176589,7 +176589,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 23:00",
@@ -176597,7 +176597,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 23:00",
@@ -176605,7 +176605,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 23:00",
@@ -176613,7 +176613,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 23:00",
@@ -176621,7 +176621,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 00:00",
@@ -176629,7 +176629,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 00:00",
@@ -176637,7 +176637,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 00:00",
@@ -176645,7 +176645,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 00:00",
@@ -176653,7 +176653,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 01:00",
@@ -176661,7 +176661,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 01:00",
@@ -176669,7 +176669,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 01:00",
@@ -176677,7 +176677,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 01:00",
@@ -176685,7 +176685,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 02:00",
@@ -176693,7 +176693,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 02:00",
@@ -176701,7 +176701,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 02:00",
@@ -176709,7 +176709,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 02:00",
@@ -176717,7 +176717,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 03:00",
@@ -176725,7 +176725,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 03:00",
@@ -176733,7 +176733,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 03:00",
@@ -176741,7 +176741,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 03:00",
@@ -176749,7 +176749,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 04:00",
@@ -176757,7 +176757,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 04:00",
@@ -176765,7 +176765,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 04:00",
@@ -176773,7 +176773,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 04:00",
@@ -176781,7 +176781,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 05:00",
@@ -176789,7 +176789,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 05:00",
@@ -176797,7 +176797,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 05:00",
@@ -176805,7 +176805,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 05:00",
@@ -176813,7 +176813,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 06:00",
@@ -176821,7 +176821,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 06:00",
@@ -176829,7 +176829,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 06:00",
@@ -176837,7 +176837,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 06:00",
@@ -176845,7 +176845,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 07:00",
@@ -176853,7 +176853,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 07:00",
@@ -176861,7 +176861,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 07:00",
@@ -176869,7 +176869,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 07:00",
@@ -176877,7 +176877,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 08:00",
@@ -176885,7 +176885,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 08:00",
@@ -176893,7 +176893,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 08:00",
@@ -176901,7 +176901,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 08:00",
@@ -176909,7 +176909,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 09:00",
@@ -176917,7 +176917,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 09:00",
@@ -176925,7 +176925,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 09:00",
@@ -176933,7 +176933,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 09:00",
@@ -176941,7 +176941,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 10:00",
@@ -176949,7 +176949,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 10:00",
@@ -176957,7 +176957,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 10:00",
@@ -176965,7 +176965,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 10:00",
@@ -176973,7 +176973,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 11:00",
@@ -176981,7 +176981,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 11:00",
@@ -176989,7 +176989,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 11:00",
@@ -176997,7 +176997,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 11:00",
@@ -177005,7 +177005,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 12:00",
@@ -177013,7 +177013,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 12:00",
@@ -177021,7 +177021,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 12:00",
@@ -177029,7 +177029,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 12:00",
@@ -177037,7 +177037,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 13:00",
@@ -177045,7 +177045,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 13:00",
@@ -177053,7 +177053,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 13:00",
@@ -177061,7 +177061,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 13:00",
@@ -177069,7 +177069,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 14:00",
@@ -177077,7 +177077,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 14:00",
@@ -177085,7 +177085,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 14:00",
@@ -177093,7 +177093,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 14:00",
@@ -177101,7 +177101,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 15:00",
@@ -177109,7 +177109,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 15:00",
@@ -177117,7 +177117,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 15:00",
@@ -177125,7 +177125,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 15:00",
@@ -177133,7 +177133,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 16:00",
@@ -177141,7 +177141,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 16:00",
@@ -177149,7 +177149,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 16:00",
@@ -177157,7 +177157,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 16:00",
@@ -177165,7 +177165,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 17:00",
@@ -177173,7 +177173,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 17:00",
@@ -177181,7 +177181,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 17:00",
@@ -177189,7 +177189,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 17:00",
@@ -177197,7 +177197,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 18:00",
@@ -177205,7 +177205,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 18:00",
@@ -177213,7 +177213,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 18:00",
@@ -177221,7 +177221,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 18:00",
@@ -177229,7 +177229,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 19:00",
@@ -177237,7 +177237,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 19:00",
@@ -177245,7 +177245,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 19:00",
@@ -177253,7 +177253,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 19:00",
@@ -177261,7 +177261,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 20:00",
@@ -177269,7 +177269,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 20:00",
@@ -177277,7 +177277,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 20:00",
@@ -177285,7 +177285,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 20:00",
@@ -177293,7 +177293,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 21:00",
@@ -177301,7 +177301,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 21:00",
@@ -177309,7 +177309,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 21:00",
@@ -177317,7 +177317,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 21:00",
@@ -177325,7 +177325,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 22:00",
@@ -177333,7 +177333,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 22:00",
@@ -177341,7 +177341,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 22:00",
@@ -177349,7 +177349,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 22:00",
@@ -177357,7 +177357,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 23:00",
@@ -177365,7 +177365,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 23:00",
@@ -177373,7 +177373,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 23:00",
@@ -177381,7 +177381,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 23:00",
@@ -177389,7 +177389,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 00:00",
@@ -177397,7 +177397,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 00:00",
@@ -177405,7 +177405,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 00:00",
@@ -177413,7 +177413,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 00:00",
@@ -177421,7 +177421,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 01:00",
@@ -177429,7 +177429,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 01:00",
@@ -177437,7 +177437,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 01:00",
@@ -177445,7 +177445,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 01:00",
@@ -177453,7 +177453,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 02:00",
@@ -177461,7 +177461,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 02:00",
@@ -177469,7 +177469,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 02:00",
@@ -177477,7 +177477,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 02:00",
@@ -177485,7 +177485,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 03:00",
@@ -177493,7 +177493,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 03:00",
@@ -177501,7 +177501,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 03:00",
@@ -177509,7 +177509,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 03:00",
@@ -177517,7 +177517,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 04:00",
@@ -177525,7 +177525,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 04:00",
@@ -177533,7 +177533,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 04:00",
@@ -177541,7 +177541,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 04:00",
@@ -177549,7 +177549,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 05:00",
@@ -177557,7 +177557,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 05:00",
@@ -177565,7 +177565,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 05:00",
@@ -177573,7 +177573,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 05:00",
@@ -177581,7 +177581,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 06:00",
@@ -177589,7 +177589,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 06:00",
@@ -177597,7 +177597,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 06:00",
@@ -177605,7 +177605,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 06:00",
@@ -177613,7 +177613,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 07:00",
@@ -177621,7 +177621,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 07:00",
@@ -177629,7 +177629,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 07:00",
@@ -177637,7 +177637,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 07:00",
@@ -177645,7 +177645,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 08:00",
@@ -177653,7 +177653,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 08:00",
@@ -177661,7 +177661,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 08:00",
@@ -177669,7 +177669,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 08:00",
@@ -177677,7 +177677,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 09:00",
@@ -177685,7 +177685,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 09:00",
@@ -177693,7 +177693,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 09:00",
@@ -177701,7 +177701,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 09:00",
@@ -177709,7 +177709,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 10:00",
@@ -177717,7 +177717,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 10:00",
@@ -177725,7 +177725,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 10:00",
@@ -177733,7 +177733,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 10:00",
@@ -177741,7 +177741,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.71σ)"
+          "metric": "SPYB: $769.26 (Z: -1.71σ)"
         },
         {
           "time": "31/08 11:00",
@@ -177749,7 +177749,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.06σ)"
+          "metric": "SPYB: $769.26 (Z: -1.06σ)"
         },
         {
           "time": "31/08 11:00",
@@ -177757,7 +177757,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.07σ)"
+          "metric": "SPYB: $769.26 (Z: -1.07σ)"
         },
         {
           "time": "31/08 11:00",
@@ -177765,7 +177765,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.93σ)"
+          "metric": "SPYB: $769.26 (Z: -1.93σ)"
         },
         {
           "time": "31/08 11:00",
@@ -177773,7 +177773,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.07σ)"
+          "metric": "SPYB: $769.26 (Z: +0.07σ)"
         },
         {
           "time": "31/08 12:00",
@@ -177781,7 +177781,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.15σ)"
+          "metric": "SPYB: $769.26 (Z: +1.15σ)"
         },
         {
           "time": "31/08 12:00",
@@ -177789,7 +177789,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.06σ)"
+          "metric": "SPYB: $769.26 (Z: +0.06σ)"
         },
         {
           "time": "31/08 12:00",
@@ -177797,7 +177797,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.70σ)"
+          "metric": "SPYB: $769.26 (Z: +0.70σ)"
         },
         {
           "time": "31/08 12:00",
@@ -177805,7 +177805,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.22σ)"
+          "metric": "SPYB: $769.26 (Z: -1.22σ)"
         },
         {
           "time": "31/08 13:00",
@@ -177813,7 +177813,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.02σ)"
+          "metric": "SPYB: $769.26 (Z: -1.02σ)"
         },
         {
           "time": "31/08 13:00",
@@ -177821,7 +177821,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 29,
           "score_a": 29,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.28σ)"
+          "metric": "SPYB: $769.26 (Z: -0.28σ)"
         },
         {
           "time": "31/08 13:00",
@@ -177829,7 +177829,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.61σ)"
+          "metric": "SPYB: $769.26 (Z: +0.61σ)"
         },
         {
           "time": "31/08 13:00",
@@ -177837,7 +177837,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 15,
           "score_a": 15,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.14σ)"
+          "metric": "SPYB: $769.26 (Z: -0.14σ)"
         },
         {
           "time": "31/08 14:00",
@@ -177845,7 +177845,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.72σ)"
+          "metric": "SPYB: $769.26 (Z: +1.72σ)"
         },
         {
           "time": "31/08 14:00",
@@ -177853,7 +177853,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.23σ)"
+          "metric": "SPYB: $769.26 (Z: +1.23σ)"
         },
         {
           "time": "31/08 14:00",
@@ -177861,7 +177861,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.95σ)"
+          "metric": "SPYB: $769.26 (Z: -1.95σ)"
         },
         {
           "time": "31/08 14:00",
@@ -177869,7 +177869,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +2.41σ)"
+          "metric": "SPYB: $769.26 (Z: +2.41σ)"
         },
         {
           "time": "31/08 15:00",
@@ -177877,7 +177877,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.59σ)"
+          "metric": "SPYB: $769.26 (Z: +1.59σ)"
         },
         {
           "time": "31/08 15:00",
@@ -177885,7 +177885,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.26σ)"
+          "metric": "SPYB: $769.26 (Z: +1.26σ)"
         },
         {
           "time": "31/08 15:00",
@@ -177893,7 +177893,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.64σ)"
+          "metric": "SPYB: $769.26 (Z: +0.64σ)"
         },
         {
           "time": "31/08 15:00",
@@ -177901,7 +177901,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.65σ)"
+          "metric": "SPYB: $769.26 (Z: -2.65σ)"
         },
         {
           "time": "31/08 16:00",
@@ -177909,7 +177909,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.01σ)"
+          "metric": "SPYB: $769.26 (Z: -1.01σ)"
         },
         {
           "time": "31/08 16:00",
@@ -177917,7 +177917,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.12σ)"
+          "metric": "SPYB: $769.26 (Z: +0.12σ)"
         },
         {
           "time": "31/08 16:00",
@@ -177925,7 +177925,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.43σ)"
+          "metric": "SPYB: $769.26 (Z: +1.43σ)"
         },
         {
           "time": "31/08 16:00",
@@ -177933,7 +177933,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.71σ)"
+          "metric": "SPYB: $769.26 (Z: +1.71σ)"
         },
         {
           "time": "31/08 17:00",
@@ -177941,7 +177941,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.55σ)"
+          "metric": "SPYB: $769.26 (Z: +1.55σ)"
         },
         {
           "time": "31/08 17:00",
@@ -177949,7 +177949,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.60σ)"
+          "metric": "SPYB: $769.26 (Z: +0.60σ)"
         },
         {
           "time": "31/08 17:00",
@@ -177957,7 +177957,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.19σ)"
+          "metric": "SPYB: $769.26 (Z: +0.19σ)"
         },
         {
           "time": "31/08 17:00",
@@ -177965,7 +177965,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 55,
           "score_a": 55,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.53σ)"
+          "metric": "SPYB: $769.26 (Z: -0.53σ)"
         },
         {
           "time": "31/08 18:00",
@@ -177973,7 +177973,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 21,
           "score_a": 21,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.20σ)"
+          "metric": "SPYB: $769.26 (Z: -0.20σ)"
         },
         {
           "time": "31/08 18:00",
@@ -177981,7 +177981,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 18:00",
@@ -177989,7 +177989,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 18:00",
@@ -177997,7 +177997,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 19:00",
@@ -178005,7 +178005,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 19:00",
@@ -178013,7 +178013,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 19:00",
@@ -178021,7 +178021,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 19:00",
@@ -178029,7 +178029,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 20:00",
@@ -178037,7 +178037,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 20:00",
@@ -178045,7 +178045,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 20:00",
@@ -178053,7 +178053,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 20:00",
@@ -178061,7 +178061,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 21:00",
@@ -178069,7 +178069,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 21:00",
@@ -178077,7 +178077,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 21:00",
@@ -178085,7 +178085,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 21:00",
@@ -178093,7 +178093,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 22:00",
@@ -178101,7 +178101,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 22:00",
@@ -178109,7 +178109,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 22:00",
@@ -178117,7 +178117,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 22:00",
@@ -178125,7 +178125,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 23:00",
@@ -178133,7 +178133,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 23:00",
@@ -178141,7 +178141,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 23:00",
@@ -178149,7 +178149,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 23:00",
@@ -178157,7 +178157,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 00:00",
@@ -178165,7 +178165,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 00:00",
@@ -178173,7 +178173,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 00:00",
@@ -178181,7 +178181,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 00:00",
@@ -178189,7 +178189,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 01:00",
@@ -178197,7 +178197,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 01:00",
@@ -178205,7 +178205,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 01:00",
@@ -178213,7 +178213,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 01:00",
@@ -178221,7 +178221,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 02:00",
@@ -178229,7 +178229,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 02:00",
@@ -178237,7 +178237,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 02:00",
@@ -178245,7 +178245,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 02:00",
@@ -178253,7 +178253,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 03:00",
@@ -178261,7 +178261,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 03:00",
@@ -178269,7 +178269,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 03:00",
@@ -178277,7 +178277,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 03:00",
@@ -178285,7 +178285,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 04:00",
@@ -178293,7 +178293,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 04:00",
@@ -178301,7 +178301,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 04:00",
@@ -178309,7 +178309,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 04:00",
@@ -178317,7 +178317,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 05:00",
@@ -178325,7 +178325,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 05:00",
@@ -178333,7 +178333,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 05:00",
@@ -178341,7 +178341,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 05:00",
@@ -178349,7 +178349,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 06:00",
@@ -178357,7 +178357,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 06:00",
@@ -178365,7 +178365,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 06:00",
@@ -178373,7 +178373,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 06:00",
@@ -178381,7 +178381,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 07:00",
@@ -178389,7 +178389,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 07:00",
@@ -178397,7 +178397,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 07:00",
@@ -178405,7 +178405,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 07:00",
@@ -178413,7 +178413,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 08:00",
@@ -178421,7 +178421,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 08:00",
@@ -178429,7 +178429,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 08:00",
@@ -178437,7 +178437,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 08:00",
@@ -178445,7 +178445,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 09:00",
@@ -178453,7 +178453,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 09:00",
@@ -178461,7 +178461,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 09:00",
@@ -178469,7 +178469,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 09:00",
@@ -178477,7 +178477,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 10:00",
@@ -178485,7 +178485,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 10:00",
@@ -178493,7 +178493,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 10:00",
@@ -178501,7 +178501,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 10:00",
@@ -178509,7 +178509,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.06σ)"
+          "metric": "SPYB: $769.26 (Z: -2.06σ)"
         },
         {
           "time": "01/09 11:00",
@@ -178517,7 +178517,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.14σ)"
+          "metric": "SPYB: $769.26 (Z: -1.14σ)"
         },
         {
           "time": "01/09 11:00",
@@ -178525,7 +178525,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 34,
           "score_a": 34,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.32σ)"
+          "metric": "SPYB: $769.26 (Z: -0.32σ)"
         },
         {
           "time": "01/09 11:00",
@@ -178533,7 +178533,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.93σ)"
+          "metric": "SPYB: $769.26 (Z: +0.93σ)"
         },
         {
           "time": "01/09 11:00",
@@ -178541,7 +178541,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.11σ)"
+          "metric": "SPYB: $769.26 (Z: +1.11σ)"
         },
         {
           "time": "01/09 12:00",
@@ -178549,7 +178549,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.04σ)"
+          "metric": "SPYB: $769.26 (Z: +0.04σ)"
         },
         {
           "time": "01/09 12:00",
@@ -178557,7 +178557,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.03σ)"
+          "metric": "SPYB: $769.26 (Z: -1.03σ)"
         },
         {
           "time": "01/09 12:00",
@@ -178565,7 +178565,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 11,
           "score_a": 11,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.11σ)"
+          "metric": "SPYB: $769.26 (Z: -0.11σ)"
         },
         {
           "time": "01/09 12:00",
@@ -178573,7 +178573,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.69σ)"
+          "metric": "SPYB: $769.26 (Z: +1.69σ)"
         },
         {
           "time": "01/09 13:00",
@@ -178581,7 +178581,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.58σ)"
+          "metric": "SPYB: $769.26 (Z: +1.58σ)"
         },
         {
           "time": "01/09 13:00",
@@ -178589,7 +178589,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 17,
           "score_a": 17,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.16σ)"
+          "metric": "SPYB: $769.26 (Z: -0.16σ)"
         },
         {
           "time": "01/09 13:00",
@@ -178597,7 +178597,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.74σ)"
+          "metric": "SPYB: $769.26 (Z: -1.74σ)"
         },
         {
           "time": "01/09 13:00",
@@ -178605,7 +178605,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.18σ)"
+          "metric": "SPYB: $769.26 (Z: -1.18σ)"
         },
         {
           "time": "01/09 14:00",
@@ -178613,7 +178613,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 73,
           "score_a": 73,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.69σ)"
+          "metric": "SPYB: $769.26 (Z: -0.69σ)"
         },
         {
           "time": "01/09 14:00",
@@ -178621,7 +178621,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 57,
           "score_a": 57,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.54σ)"
+          "metric": "SPYB: $769.26 (Z: -0.54σ)"
         },
         {
           "time": "01/09 14:00",
@@ -178629,7 +178629,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.74σ)"
+          "metric": "SPYB: $769.26 (Z: -1.74σ)"
         },
         {
           "time": "01/09 14:00",
@@ -178637,7 +178637,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.56σ)"
+          "metric": "SPYB: $769.26 (Z: +1.56σ)"
         },
         {
           "time": "01/09 15:00",
@@ -178645,7 +178645,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.24σ)"
+          "metric": "SPYB: $769.26 (Z: -1.24σ)"
         },
         {
           "time": "01/09 15:00",
@@ -178653,7 +178653,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.98σ)"
+          "metric": "SPYB: $769.26 (Z: -1.98σ)"
         },
         {
           "time": "01/09 15:00",
@@ -178661,7 +178661,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.71σ)"
+          "metric": "SPYB: $769.26 (Z: -2.71σ)"
         },
         {
           "time": "01/09 15:00",
@@ -178669,7 +178669,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -3.39σ)"
+          "metric": "SPYB: $769.26 (Z: -3.39σ)"
         },
         {
           "time": "01/09 16:00",
@@ -178677,7 +178677,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.10σ)"
+          "metric": "SPYB: $769.26 (Z: -1.10σ)"
         },
         {
           "time": "01/09 16:00",
@@ -178685,7 +178685,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.45σ)"
+          "metric": "SPYB: $769.26 (Z: +0.45σ)"
         },
         {
           "time": "01/09 16:00",
@@ -178693,7 +178693,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.00σ)"
+          "metric": "SPYB: $769.26 (Z: +1.00σ)"
         },
         {
           "time": "01/09 16:00",
@@ -178701,7 +178701,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.42σ)"
+          "metric": "SPYB: $769.26 (Z: +0.42σ)"
         },
         {
           "time": "01/09 17:00",
@@ -178709,7 +178709,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.93σ)"
+          "metric": "SPYB: $769.26 (Z: -1.93σ)"
         },
         {
           "time": "01/09 17:00",
@@ -178717,7 +178717,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.34σ)"
+          "metric": "SPYB: $769.26 (Z: +1.34σ)"
         },
         {
           "time": "01/09 17:00",
@@ -178725,7 +178725,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.99σ)"
+          "metric": "SPYB: $769.26 (Z: +0.99σ)"
         },
         {
           "time": "01/09 17:00",
@@ -178733,7 +178733,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.59σ)"
+          "metric": "SPYB: $769.26 (Z: +0.59σ)"
         },
         {
           "time": "01/09 18:00",
@@ -178741,7 +178741,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.18σ)"
+          "metric": "SPYB: $769.26 (Z: +0.18σ)"
         },
         {
           "time": "01/09 18:00",
@@ -178749,7 +178749,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 18:00",
@@ -178757,7 +178757,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 18:00",
@@ -178765,7 +178765,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 19:00",
@@ -178773,7 +178773,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 19:00",
@@ -178781,7 +178781,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 19:00",
@@ -178789,7 +178789,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 19:00",
@@ -178797,7 +178797,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 20:00",
@@ -178805,7 +178805,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 20:00",
@@ -178813,7 +178813,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 20:00",
@@ -178821,7 +178821,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 20:00",
@@ -178829,7 +178829,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 21:00",
@@ -178837,7 +178837,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 21:00",
@@ -178845,7 +178845,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 21:00",
@@ -178853,7 +178853,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 21:00",
@@ -178861,7 +178861,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 22:00",
@@ -178869,7 +178869,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 22:00",
@@ -178877,7 +178877,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 22:00",
@@ -178885,7 +178885,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 22:00",
@@ -178893,7 +178893,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 23:00",
@@ -178901,7 +178901,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 23:00",
@@ -178909,7 +178909,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 23:00",
@@ -178917,7 +178917,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 23:00",
@@ -178925,7 +178925,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 00:00",
@@ -178933,7 +178933,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 00:00",
@@ -178941,7 +178941,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 00:00",
@@ -178949,7 +178949,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 00:00",
@@ -178957,7 +178957,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 01:00",
@@ -178965,7 +178965,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 01:00",
@@ -178973,7 +178973,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 01:00",
@@ -178981,7 +178981,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 01:00",
@@ -178989,7 +178989,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 02:00",
@@ -178997,7 +178997,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 02:00",
@@ -179005,7 +179005,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 02:00",
@@ -179013,7 +179013,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 02:00",
@@ -179021,7 +179021,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 03:00",
@@ -179029,7 +179029,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 03:00",
@@ -179037,7 +179037,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 03:00",
@@ -179045,7 +179045,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 03:00",
@@ -179053,7 +179053,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 04:00",
@@ -179061,7 +179061,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 04:00",
@@ -179069,7 +179069,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 04:00",
@@ -179077,7 +179077,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 04:00",
@@ -179085,7 +179085,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 05:00",
@@ -179093,7 +179093,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 05:00",
@@ -179101,7 +179101,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 05:00",
@@ -179109,7 +179109,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 05:00",
@@ -179117,7 +179117,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 06:00",
@@ -179125,7 +179125,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 06:00",
@@ -179133,7 +179133,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 06:00",
@@ -179141,7 +179141,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 06:00",
@@ -179149,7 +179149,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 07:00",
@@ -179157,7 +179157,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 07:00",
@@ -179165,7 +179165,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 07:00",
@@ -179173,7 +179173,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 07:00",
@@ -179181,7 +179181,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 08:00",
@@ -179189,7 +179189,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 08:00",
@@ -179197,7 +179197,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 08:00",
@@ -179205,7 +179205,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 08:00",
@@ -179213,7 +179213,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 09:00",
@@ -179221,7 +179221,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 09:00",
@@ -179229,7 +179229,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 09:00",
@@ -179237,7 +179237,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 09:00",
@@ -179245,7 +179245,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 10:00",
@@ -179253,7 +179253,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 10:00",
@@ -179261,7 +179261,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 10:00",
@@ -179269,7 +179269,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 10:00",
@@ -179277,7 +179277,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +2.66σ)"
+          "metric": "SPYB: $769.26 (Z: +2.66σ)"
         },
         {
           "time": "02/09 11:00",
@@ -179285,7 +179285,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.80σ)"
+          "metric": "SPYB: $769.26 (Z: +1.80σ)"
         },
         {
           "time": "02/09 11:00",
@@ -179293,7 +179293,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.96σ)"
+          "metric": "SPYB: $769.26 (Z: +1.96σ)"
         },
         {
           "time": "02/09 11:00",
@@ -179301,7 +179301,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.95σ)"
+          "metric": "SPYB: $769.26 (Z: +1.95σ)"
         },
         {
           "time": "02/09 11:00",
@@ -179309,7 +179309,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.77σ)"
+          "metric": "SPYB: $769.26 (Z: +1.77σ)"
         },
         {
           "time": "02/09 12:00",
@@ -179317,7 +179317,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.39σ)"
+          "metric": "SPYB: $769.26 (Z: +0.39σ)"
         },
         {
           "time": "02/09 12:00",
@@ -179325,7 +179325,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.23σ)"
+          "metric": "SPYB: $769.26 (Z: +0.23σ)"
         },
         {
           "time": "02/09 12:00",
@@ -179333,7 +179333,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.01σ)"
+          "metric": "SPYB: $769.26 (Z: +1.01σ)"
         },
         {
           "time": "02/09 12:00",
@@ -179341,7 +179341,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.34σ)"
+          "metric": "SPYB: $769.26 (Z: +0.34σ)"
         },
         {
           "time": "02/09 13:00",
@@ -179349,7 +179349,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.07σ)"
+          "metric": "SPYB: $769.26 (Z: -1.07σ)"
         },
         {
           "time": "02/09 13:00",
@@ -179357,7 +179357,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.31σ)"
+          "metric": "SPYB: $769.26 (Z: +0.31σ)"
         },
         {
           "time": "02/09 13:00",
@@ -179365,7 +179365,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.58σ)"
+          "metric": "SPYB: $769.26 (Z: -1.58σ)"
         },
         {
           "time": "02/09 13:00",
@@ -179373,7 +179373,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.19σ)"
+          "metric": "SPYB: $769.26 (Z: -1.19σ)"
         },
         {
           "time": "02/09 14:00",
@@ -179381,7 +179381,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 52,
           "score_a": 52,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.49σ)"
+          "metric": "SPYB: $769.26 (Z: -0.49σ)"
         },
         {
           "time": "02/09 14:00",
@@ -179389,7 +179389,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.53σ)"
+          "metric": "SPYB: $769.26 (Z: -1.53σ)"
         },
         {
           "time": "02/09 14:00",
@@ -179397,7 +179397,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.81σ)"
+          "metric": "SPYB: $769.26 (Z: -1.81σ)"
         },
         {
           "time": "02/09 14:00",
@@ -179405,7 +179405,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 97,
           "score_a": 97,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.92σ)"
+          "metric": "SPYB: $769.26 (Z: -0.92σ)"
         },
         {
           "time": "02/09 15:00",
@@ -179413,7 +179413,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.19σ)"
+          "metric": "SPYB: $769.26 (Z: +1.19σ)"
         },
         {
           "time": "02/09 15:00",
@@ -179421,7 +179421,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.05σ)"
+          "metric": "SPYB: $769.26 (Z: +1.05σ)"
         },
         {
           "time": "02/09 15:00",
@@ -179429,7 +179429,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.83σ)"
+          "metric": "SPYB: $769.26 (Z: +0.83σ)"
         },
         {
           "time": "02/09 15:00",
@@ -179437,7 +179437,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.01σ)"
+          "metric": "SPYB: $769.26 (Z: -2.01σ)"
         },
         {
           "time": "02/09 16:00",
@@ -179445,7 +179445,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.34σ)"
+          "metric": "SPYB: $769.26 (Z: -1.34σ)"
         },
         {
           "time": "02/09 16:00",
@@ -179453,7 +179453,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.56σ)"
+          "metric": "SPYB: $769.26 (Z: +1.56σ)"
         },
         {
           "time": "02/09 16:00",
@@ -179461,7 +179461,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.42σ)"
+          "metric": "SPYB: $769.26 (Z: +1.42σ)"
         },
         {
           "time": "02/09 16:00",
@@ -179469,7 +179469,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.03σ)"
+          "metric": "SPYB: $769.26 (Z: +1.03σ)"
         },
         {
           "time": "02/09 17:00",
@@ -179477,7 +179477,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.98σ)"
+          "metric": "SPYB: $769.26 (Z: -0.98σ)"
         },
         {
           "time": "02/09 17:00",
@@ -179485,7 +179485,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.18σ)"
+          "metric": "SPYB: $769.26 (Z: -1.18σ)"
         },
         {
           "time": "02/09 17:00",
@@ -179493,7 +179493,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 78,
           "score_a": 78,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.74σ)"
+          "metric": "SPYB: $769.26 (Z: -0.74σ)"
         },
         {
           "time": "02/09 17:00",
@@ -179501,7 +179501,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 44,
           "score_a": 44,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.42σ)"
+          "metric": "SPYB: $769.26 (Z: -0.42σ)"
         },
         {
           "time": "02/09 18:00",
@@ -179509,7 +179509,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 18,
           "score_a": 18,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.17σ)"
+          "metric": "SPYB: $769.26 (Z: -0.17σ)"
         },
         {
           "time": "02/09 18:00",
@@ -179517,7 +179517,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 18:00",
@@ -179525,7 +179525,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 18:00",
@@ -179533,7 +179533,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 19:00",
@@ -179541,7 +179541,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 19:00",
@@ -179549,7 +179549,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 19:00",
@@ -179557,7 +179557,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 19:00",
@@ -179565,7 +179565,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 20:00",
@@ -179573,7 +179573,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 20:00",
@@ -179581,7 +179581,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 20:00",
@@ -179589,7 +179589,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 20:00",
@@ -179597,7 +179597,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 21:00",
@@ -179605,7 +179605,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 21:00",
@@ -179613,7 +179613,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 21:00",
@@ -179621,7 +179621,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 21:00",
@@ -179629,7 +179629,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 22:00",
@@ -179637,7 +179637,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 22:00",
@@ -179645,7 +179645,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 22:00",
@@ -179653,7 +179653,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 22:00",
@@ -179661,7 +179661,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 23:00",
@@ -179669,7 +179669,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 23:00",
@@ -179677,7 +179677,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 23:00",
@@ -179685,7 +179685,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 23:00",
@@ -179693,7 +179693,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 00:00",
@@ -179701,7 +179701,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 00:00",
@@ -179709,7 +179709,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 00:00",
@@ -179717,7 +179717,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 00:00",
@@ -179725,7 +179725,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 01:00",
@@ -179733,7 +179733,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 01:00",
@@ -179741,7 +179741,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 01:00",
@@ -179749,7 +179749,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 01:00",
@@ -179757,7 +179757,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 02:00",
@@ -179765,7 +179765,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 02:00",
@@ -179773,7 +179773,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 02:00",
@@ -179781,7 +179781,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 02:00",
@@ -179789,7 +179789,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 03:00",
@@ -179797,7 +179797,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 03:00",
@@ -179805,7 +179805,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 03:00",
@@ -179813,7 +179813,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 03:00",
@@ -179821,7 +179821,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 04:00",
@@ -179829,7 +179829,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 04:00",
@@ -179837,7 +179837,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 04:00",
@@ -179845,7 +179845,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 04:00",
@@ -179853,7 +179853,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 05:00",
@@ -179861,7 +179861,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 05:00",
@@ -179869,7 +179869,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 05:00",
@@ -179877,7 +179877,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 05:00",
@@ -179885,7 +179885,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 06:00",
@@ -179893,7 +179893,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 06:00",
@@ -179901,7 +179901,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 06:00",
@@ -179909,7 +179909,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 06:00",
@@ -179917,7 +179917,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 07:00",
@@ -179925,7 +179925,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 07:00",
@@ -179933,7 +179933,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 07:00",
@@ -179941,7 +179941,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 07:00",
@@ -179949,7 +179949,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 08:00",
@@ -179957,7 +179957,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 08:00",
@@ -179965,7 +179965,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 08:00",
@@ -179973,7 +179973,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 08:00",
@@ -179981,7 +179981,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 09:00",
@@ -179989,7 +179989,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 09:00",
@@ -179997,7 +179997,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 09:00",
@@ -180005,7 +180005,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 09:00",
@@ -180013,7 +180013,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 10:00",
@@ -180021,7 +180021,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 10:00",
@@ -180029,7 +180029,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 10:00",
@@ -180037,7 +180037,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 10:00",
@@ -180045,7 +180045,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +2.08σ)"
+          "metric": "SPYB: $769.26 (Z: +2.08σ)"
         },
         {
           "time": "03/09 11:00",
@@ -180053,7 +180053,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.88σ)"
+          "metric": "SPYB: $769.26 (Z: +0.88σ)"
         },
         {
           "time": "03/09 11:00",
@@ -180061,7 +180061,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.05σ)"
+          "metric": "SPYB: $769.26 (Z: +0.05σ)"
         },
         {
           "time": "03/09 11:00",
@@ -180069,7 +180069,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 11,
           "score_a": 11,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.11σ)"
+          "metric": "SPYB: $769.26 (Z: -0.11σ)"
         },
         {
           "time": "03/09 11:00",
@@ -180077,7 +180077,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 72,
           "score_a": 72,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.68σ)"
+          "metric": "SPYB: $769.26 (Z: -0.68σ)"
         },
         {
           "time": "03/09 12:00",
@@ -180085,7 +180085,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.32σ)"
+          "metric": "SPYB: $769.26 (Z: +1.32σ)"
         },
         {
           "time": "03/09 12:00",
@@ -180093,7 +180093,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +2.92σ)"
+          "metric": "SPYB: $769.26 (Z: +2.92σ)"
         },
         {
           "time": "03/09 12:00",
@@ -180101,7 +180101,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.91σ)"
+          "metric": "SPYB: $769.26 (Z: +1.91σ)"
         },
         {
           "time": "03/09 12:00",
@@ -180109,7 +180109,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.15σ)"
+          "metric": "SPYB: $769.26 (Z: +1.15σ)"
         },
         {
           "time": "03/09 13:00",
@@ -180117,7 +180117,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.01σ)"
+          "metric": "SPYB: $769.26 (Z: +1.01σ)"
         },
         {
           "time": "03/09 13:00",
@@ -180125,7 +180125,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 16,
           "score_a": 16,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.15σ)"
+          "metric": "SPYB: $769.26 (Z: -0.15σ)"
         },
         {
           "time": "03/09 13:00",
@@ -180133,7 +180133,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.81σ)"
+          "metric": "SPYB: $769.26 (Z: -1.81σ)"
         },
         {
           "time": "03/09 13:00",
@@ -180141,7 +180141,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.43σ)"
+          "metric": "SPYB: $769.26 (Z: +1.43σ)"
         },
         {
           "time": "03/09 14:00",
@@ -180149,7 +180149,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.17σ)"
+          "metric": "SPYB: $769.26 (Z: +0.17σ)"
         },
         {
           "time": "03/09 14:00",
@@ -180157,7 +180157,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.27σ)"
+          "metric": "SPYB: $769.26 (Z: -1.27σ)"
         },
         {
           "time": "03/09 14:00",
@@ -180165,7 +180165,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 64,
           "score_a": 64,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.60σ)"
+          "metric": "SPYB: $769.26 (Z: -0.60σ)"
         },
         {
           "time": "03/09 14:00",
@@ -180173,7 +180173,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.40σ)"
+          "metric": "SPYB: $769.26 (Z: +1.40σ)"
         },
         {
           "time": "03/09 15:00",
@@ -180181,7 +180181,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.53σ)"
+          "metric": "SPYB: $769.26 (Z: +1.53σ)"
         },
         {
           "time": "03/09 15:00",
@@ -180189,7 +180189,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.54σ)"
+          "metric": "SPYB: $769.26 (Z: +1.54σ)"
         },
         {
           "time": "03/09 15:00",
@@ -180197,7 +180197,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.08σ)"
+          "metric": "SPYB: $769.26 (Z: +1.08σ)"
         },
         {
           "time": "03/09 15:00",
@@ -180205,7 +180205,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 1,
           "score_a": 1,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.01σ)"
+          "metric": "SPYB: $769.26 (Z: -0.01σ)"
         },
         {
           "time": "03/09 16:00",
@@ -180213,7 +180213,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 62,
           "score_a": 62,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.59σ)"
+          "metric": "SPYB: $769.26 (Z: -0.59σ)"
         },
         {
           "time": "03/09 16:00",
@@ -180221,7 +180221,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.61σ)"
+          "metric": "SPYB: $769.26 (Z: -2.61σ)"
         },
         {
           "time": "03/09 16:00",
@@ -180229,7 +180229,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.01σ)"
+          "metric": "SPYB: $769.26 (Z: -1.01σ)"
         },
         {
           "time": "03/09 16:00",
@@ -180237,7 +180237,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 1,
           "score_a": 1,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.01σ)"
+          "metric": "SPYB: $769.26 (Z: -0.01σ)"
         },
         {
           "time": "03/09 17:00",
@@ -180245,7 +180245,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.38σ)"
+          "metric": "SPYB: $769.26 (Z: -2.38σ)"
         },
         {
           "time": "03/09 17:00",
@@ -180253,7 +180253,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 77,
           "score_a": 77,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.73σ)"
+          "metric": "SPYB: $769.26 (Z: -0.73σ)"
         },
         {
           "time": "03/09 17:00",
@@ -180261,7 +180261,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 50,
           "score_a": 50,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.47σ)"
+          "metric": "SPYB: $769.26 (Z: -0.47σ)"
         },
         {
           "time": "03/09 17:00",
@@ -180269,7 +180269,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 4,
           "score_a": 4,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.04σ)"
+          "metric": "SPYB: $769.26 (Z: -0.04σ)"
         },
         {
           "time": "03/09 18:00",
@@ -180277,7 +180277,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.30σ)"
+          "metric": "SPYB: $769.26 (Z: +0.30σ)"
         },
         {
           "time": "03/09 18:00",
@@ -180285,7 +180285,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 18:00",
@@ -180293,7 +180293,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 18:00",
@@ -180301,7 +180301,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 19:00",
@@ -180309,7 +180309,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "03/09 19:00",
@@ -180317,7 +180317,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 19:00",
@@ -180325,7 +180325,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 19:00",
@@ -180333,7 +180333,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 20:00",
@@ -180341,7 +180341,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 20:00",
@@ -180349,7 +180349,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 20:00",
@@ -180357,7 +180357,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 20:00",
@@ -180365,7 +180365,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 21:00",
@@ -180373,7 +180373,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 21:00",
@@ -180381,7 +180381,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 21:00",
@@ -180389,7 +180389,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 21:00",
@@ -180397,7 +180397,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 22:00",
@@ -180405,7 +180405,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 22:00",
@@ -180413,7 +180413,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "03/09 22:00",
@@ -180421,7 +180421,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 22:00",
@@ -180429,7 +180429,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 23:00",
@@ -180437,7 +180437,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 23:00",
@@ -180445,7 +180445,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 23:00",
@@ -180453,7 +180453,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 23:00",
@@ -180461,7 +180461,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 00:00",
@@ -180469,7 +180469,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 00:00",
@@ -180477,7 +180477,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 00:00",
@@ -180485,7 +180485,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 00:00",
@@ -180493,7 +180493,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 01:00",
@@ -180501,7 +180501,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 01:00",
@@ -180509,7 +180509,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 01:00",
@@ -180517,7 +180517,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 01:00",
@@ -180525,7 +180525,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 02:00",
@@ -180533,7 +180533,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 02:00",
@@ -180541,7 +180541,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 02:00",
@@ -180549,7 +180549,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "04/09 02:00",
@@ -180557,7 +180557,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 03:00",
@@ -180565,7 +180565,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 03:00",
@@ -180573,7 +180573,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 03:00",
@@ -180581,7 +180581,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 03:00",
@@ -180589,7 +180589,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 04:00",
@@ -180597,7 +180597,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 04:00",
@@ -180605,7 +180605,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 04:00",
@@ -180613,7 +180613,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 04:00",
@@ -180621,7 +180621,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 05:00",
@@ -180629,7 +180629,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 05:00",
@@ -180637,7 +180637,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 05:00",
@@ -180645,7 +180645,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 05:00",
@@ -180653,7 +180653,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 06:00",
@@ -180661,7 +180661,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 06:00",
@@ -180669,7 +180669,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 06:00",
@@ -180677,7 +180677,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 06:00",
@@ -180685,7 +180685,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "04/09 07:00",
@@ -180693,7 +180693,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 07:00",
@@ -180701,7 +180701,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 07:00",
@@ -180709,7 +180709,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 07:00",
@@ -180717,7 +180717,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 08:00",
@@ -180725,7 +180725,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 08:00",
@@ -180733,7 +180733,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 08:00",
@@ -180741,7 +180741,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 08:00",
@@ -180749,7 +180749,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 09:00",
@@ -180757,7 +180757,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 09:00",
@@ -180765,7 +180765,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 09:00",
@@ -180773,7 +180773,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 09:00",
@@ -180781,7 +180781,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 10:00",
@@ -180789,7 +180789,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "04/09 10:00",
@@ -180797,7 +180797,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 10:00",
@@ -180805,7 +180805,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 10:00",
@@ -180813,7 +180813,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.05σ)"
+          "metric": "SPYB: $769.26 (Z: -2.05σ)"
         },
         {
           "time": "04/09 11:00",
@@ -180821,7 +180821,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 55,
           "score_a": 55,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.53σ)"
+          "metric": "SPYB: $769.26 (Z: -0.53σ)"
         },
         {
           "time": "04/09 11:00",
@@ -180829,7 +180829,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.15σ)"
+          "metric": "SPYB: $769.26 (Z: -2.15σ)"
         },
         {
           "time": "04/09 11:00",
@@ -180837,7 +180837,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.78σ)"
+          "metric": "SPYB: $769.26 (Z: -1.78σ)"
         },
         {
           "time": "04/09 11:00",
@@ -180845,7 +180845,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.10σ)"
+          "metric": "SPYB: $769.26 (Z: -1.10σ)"
         },
         {
           "time": "04/09 12:00",
@@ -180853,7 +180853,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.01σ)"
+          "metric": "SPYB: $769.26 (Z: -2.01σ)"
         },
         {
           "time": "04/09 12:00",
@@ -180861,7 +180861,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 87,
           "score_a": 87,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.83σ)"
+          "metric": "SPYB: $769.26 (Z: -0.83σ)"
         },
         {
           "time": "04/09 12:00",
@@ -180869,7 +180869,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.97σ)"
+          "metric": "SPYB: $769.26 (Z: -0.97σ)"
         },
         {
           "time": "04/09 12:00",
@@ -180877,7 +180877,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.01σ)"
+          "metric": "SPYB: $769.26 (Z: +1.01σ)"
         },
         {
           "time": "04/09 13:00",
@@ -180885,7 +180885,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.22σ)"
+          "metric": "SPYB: $769.26 (Z: +1.22σ)"
         },
         {
           "time": "04/09 13:00",
@@ -180893,7 +180893,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +2.44σ)"
+          "metric": "SPYB: $769.26 (Z: +2.44σ)"
         },
         {
           "time": "04/09 13:00",
@@ -180901,7 +180901,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.17σ)"
+          "metric": "SPYB: $769.26 (Z: +1.17σ)"
         },
         {
           "time": "04/09 13:00",
@@ -180909,7 +180909,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.31σ)"
+          "metric": "SPYB: $769.26 (Z: +1.31σ)"
         },
         {
           "time": "04/09 14:00",
@@ -180917,15 +180917,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.07σ)"
-        },
-        {
-          "time": "04/09 14:00",
-          "label": "04/09 14:00",
-          "score": 100,
-          "score_a": 100,
-          "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.73σ)"
+          "metric": "SPYB: $769.26 (Z: +1.07σ)"
         },
         {
           "time": "04/09 14:00",
@@ -180933,7 +180925,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.72σ)"
+          "metric": "SPYB: $769.26 (Z: -1.73σ)"
         },
         {
           "time": "04/09 14:00",
@@ -180941,7 +180933,15 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.52σ)"
+          "metric": "SPYB: $769.26 (Z: -1.72σ)"
+        },
+        {
+          "time": "04/09 14:00",
+          "label": "04/09 14:00",
+          "score": 100,
+          "score_a": 100,
+          "score_b": 0,
+          "metric": "SPYB: $769.26 (Z: -1.52σ)"
         }
       ],
       "30d": [
@@ -180951,7 +180951,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.88σ)"
+          "metric": "SPYB: $769.26 (Z: -1.88σ)"
         },
         {
           "time": "28/08 16:00",
@@ -180959,7 +180959,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.74σ)"
+          "metric": "SPYB: $769.26 (Z: -1.74σ)"
         },
         {
           "time": "28/08 17:00",
@@ -180967,7 +180967,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.07σ)"
+          "metric": "SPYB: $769.26 (Z: +1.07σ)"
         },
         {
           "time": "28/08 18:00",
@@ -180975,7 +180975,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 20,
           "score_a": 20,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.19σ)"
+          "metric": "SPYB: $769.26 (Z: -0.19σ)"
         },
         {
           "time": "28/08 19:00",
@@ -180983,7 +180983,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 20:00",
@@ -180991,7 +180991,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 21:00",
@@ -180999,7 +180999,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 22:00",
@@ -181007,7 +181007,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "28/08 23:00",
@@ -181015,7 +181015,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 00:00",
@@ -181023,7 +181023,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 01:00",
@@ -181031,7 +181031,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 02:00",
@@ -181039,7 +181039,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 03:00",
@@ -181047,7 +181047,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 04:00",
@@ -181055,7 +181055,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 05:00",
@@ -181063,7 +181063,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 06:00",
@@ -181071,7 +181071,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 07:00",
@@ -181079,7 +181079,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 08:00",
@@ -181087,7 +181087,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 09:00",
@@ -181095,7 +181095,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 10:00",
@@ -181103,7 +181103,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 11:00",
@@ -181111,7 +181111,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 12:00",
@@ -181119,7 +181119,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 13:00",
@@ -181127,7 +181127,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 14:00",
@@ -181135,7 +181135,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 15:00",
@@ -181143,7 +181143,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 16:00",
@@ -181151,7 +181151,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 17:00",
@@ -181159,7 +181159,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 18:00",
@@ -181167,7 +181167,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 19:00",
@@ -181175,7 +181175,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 20:00",
@@ -181183,7 +181183,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 21:00",
@@ -181191,7 +181191,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 22:00",
@@ -181199,7 +181199,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "29/08 23:00",
@@ -181207,7 +181207,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 00:00",
@@ -181215,7 +181215,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 01:00",
@@ -181223,7 +181223,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 02:00",
@@ -181231,7 +181231,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 03:00",
@@ -181239,7 +181239,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 04:00",
@@ -181247,7 +181247,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 05:00",
@@ -181255,7 +181255,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 06:00",
@@ -181263,7 +181263,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 07:00",
@@ -181271,7 +181271,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 08:00",
@@ -181279,7 +181279,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 09:00",
@@ -181287,7 +181287,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 10:00",
@@ -181295,7 +181295,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 11:00",
@@ -181303,7 +181303,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 12:00",
@@ -181311,7 +181311,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 13:00",
@@ -181319,7 +181319,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 14:00",
@@ -181327,7 +181327,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 15:00",
@@ -181335,7 +181335,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 16:00",
@@ -181343,7 +181343,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 17:00",
@@ -181351,7 +181351,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 18:00",
@@ -181359,7 +181359,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 19:00",
@@ -181367,7 +181367,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 20:00",
@@ -181375,7 +181375,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 21:00",
@@ -181383,7 +181383,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 22:00",
@@ -181391,7 +181391,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "30/08 23:00",
@@ -181399,7 +181399,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 00:00",
@@ -181407,7 +181407,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 01:00",
@@ -181415,7 +181415,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 02:00",
@@ -181423,7 +181423,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 03:00",
@@ -181431,7 +181431,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 04:00",
@@ -181439,7 +181439,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 05:00",
@@ -181447,7 +181447,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 06:00",
@@ -181455,7 +181455,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 07:00",
@@ -181463,7 +181463,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 08:00",
@@ -181471,7 +181471,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 09:00",
@@ -181479,7 +181479,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 10:00",
@@ -181487,7 +181487,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 11:00",
@@ -181495,7 +181495,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.06σ)"
+          "metric": "SPYB: $769.26 (Z: -1.06σ)"
         },
         {
           "time": "31/08 12:00",
@@ -181503,7 +181503,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.15σ)"
+          "metric": "SPYB: $769.26 (Z: +1.15σ)"
         },
         {
           "time": "31/08 13:00",
@@ -181511,7 +181511,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.02σ)"
+          "metric": "SPYB: $769.26 (Z: -1.02σ)"
         },
         {
           "time": "31/08 14:00",
@@ -181519,7 +181519,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.72σ)"
+          "metric": "SPYB: $769.26 (Z: +1.72σ)"
         },
         {
           "time": "31/08 15:00",
@@ -181527,7 +181527,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.59σ)"
+          "metric": "SPYB: $769.26 (Z: +1.59σ)"
         },
         {
           "time": "31/08 16:00",
@@ -181535,7 +181535,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.01σ)"
+          "metric": "SPYB: $769.26 (Z: -1.01σ)"
         },
         {
           "time": "31/08 17:00",
@@ -181543,7 +181543,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.55σ)"
+          "metric": "SPYB: $769.26 (Z: +1.55σ)"
         },
         {
           "time": "31/08 18:00",
@@ -181551,7 +181551,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 21,
           "score_a": 21,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.20σ)"
+          "metric": "SPYB: $769.26 (Z: -0.20σ)"
         },
         {
           "time": "31/08 19:00",
@@ -181559,7 +181559,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 20:00",
@@ -181567,7 +181567,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 21:00",
@@ -181575,7 +181575,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 22:00",
@@ -181583,7 +181583,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "31/08 23:00",
@@ -181591,7 +181591,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 00:00",
@@ -181599,7 +181599,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 01:00",
@@ -181607,7 +181607,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 02:00",
@@ -181615,7 +181615,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 03:00",
@@ -181623,7 +181623,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 04:00",
@@ -181631,7 +181631,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 05:00",
@@ -181639,7 +181639,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 06:00",
@@ -181647,7 +181647,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 07:00",
@@ -181655,7 +181655,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 08:00",
@@ -181663,7 +181663,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 09:00",
@@ -181671,7 +181671,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 10:00",
@@ -181679,7 +181679,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 11:00",
@@ -181687,7 +181687,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.14σ)"
+          "metric": "SPYB: $769.26 (Z: -1.14σ)"
         },
         {
           "time": "01/09 12:00",
@@ -181695,7 +181695,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.04σ)"
+          "metric": "SPYB: $769.26 (Z: +0.04σ)"
         },
         {
           "time": "01/09 13:00",
@@ -181703,7 +181703,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.58σ)"
+          "metric": "SPYB: $769.26 (Z: +1.58σ)"
         },
         {
           "time": "01/09 14:00",
@@ -181711,7 +181711,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 73,
           "score_a": 73,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.69σ)"
+          "metric": "SPYB: $769.26 (Z: -0.69σ)"
         },
         {
           "time": "01/09 15:00",
@@ -181719,7 +181719,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.24σ)"
+          "metric": "SPYB: $769.26 (Z: -1.24σ)"
         },
         {
           "time": "01/09 16:00",
@@ -181727,7 +181727,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.10σ)"
+          "metric": "SPYB: $769.26 (Z: -1.10σ)"
         },
         {
           "time": "01/09 17:00",
@@ -181735,7 +181735,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.93σ)"
+          "metric": "SPYB: $769.26 (Z: -1.93σ)"
         },
         {
           "time": "01/09 18:00",
@@ -181743,7 +181743,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.18σ)"
+          "metric": "SPYB: $769.26 (Z: +0.18σ)"
         },
         {
           "time": "01/09 19:00",
@@ -181751,7 +181751,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 20:00",
@@ -181759,7 +181759,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 21:00",
@@ -181767,7 +181767,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 22:00",
@@ -181775,7 +181775,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "01/09 23:00",
@@ -181783,7 +181783,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 00:00",
@@ -181791,7 +181791,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 01:00",
@@ -181799,7 +181799,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 02:00",
@@ -181807,7 +181807,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 03:00",
@@ -181815,7 +181815,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 04:00",
@@ -181823,7 +181823,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 05:00",
@@ -181831,7 +181831,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 06:00",
@@ -181839,7 +181839,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 07:00",
@@ -181847,7 +181847,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 08:00",
@@ -181855,7 +181855,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 09:00",
@@ -181863,7 +181863,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 10:00",
@@ -181871,7 +181871,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 11:00",
@@ -181879,7 +181879,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.80σ)"
+          "metric": "SPYB: $769.26 (Z: +1.80σ)"
         },
         {
           "time": "02/09 12:00",
@@ -181887,7 +181887,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.39σ)"
+          "metric": "SPYB: $769.26 (Z: +0.39σ)"
         },
         {
           "time": "02/09 13:00",
@@ -181895,7 +181895,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.07σ)"
+          "metric": "SPYB: $769.26 (Z: -1.07σ)"
         },
         {
           "time": "02/09 14:00",
@@ -181903,7 +181903,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 52,
           "score_a": 52,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.49σ)"
+          "metric": "SPYB: $769.26 (Z: -0.49σ)"
         },
         {
           "time": "02/09 15:00",
@@ -181911,7 +181911,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.19σ)"
+          "metric": "SPYB: $769.26 (Z: +1.19σ)"
         },
         {
           "time": "02/09 16:00",
@@ -181919,7 +181919,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -1.34σ)"
+          "metric": "SPYB: $769.26 (Z: -1.34σ)"
         },
         {
           "time": "02/09 17:00",
@@ -181927,7 +181927,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.98σ)"
+          "metric": "SPYB: $769.26 (Z: -0.98σ)"
         },
         {
           "time": "02/09 18:00",
@@ -181935,7 +181935,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 18,
           "score_a": 18,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.17σ)"
+          "metric": "SPYB: $769.26 (Z: -0.17σ)"
         },
         {
           "time": "02/09 19:00",
@@ -181943,7 +181943,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 20:00",
@@ -181951,7 +181951,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 21:00",
@@ -181959,7 +181959,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 22:00",
@@ -181967,7 +181967,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "02/09 23:00",
@@ -181975,7 +181975,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 00:00",
@@ -181983,7 +181983,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 01:00",
@@ -181991,7 +181991,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 02:00",
@@ -181999,7 +181999,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 03:00",
@@ -182007,7 +182007,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 04:00",
@@ -182015,7 +182015,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 05:00",
@@ -182023,7 +182023,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 06:00",
@@ -182031,7 +182031,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 07:00",
@@ -182039,7 +182039,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 08:00",
@@ -182047,7 +182047,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 09:00",
@@ -182055,7 +182055,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 10:00",
@@ -182063,7 +182063,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 11:00",
@@ -182071,7 +182071,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.88σ)"
+          "metric": "SPYB: $769.26 (Z: +0.88σ)"
         },
         {
           "time": "03/09 12:00",
@@ -182079,7 +182079,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.32σ)"
+          "metric": "SPYB: $769.26 (Z: +1.32σ)"
         },
         {
           "time": "03/09 13:00",
@@ -182087,7 +182087,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.01σ)"
+          "metric": "SPYB: $769.26 (Z: +1.01σ)"
         },
         {
           "time": "03/09 14:00",
@@ -182095,7 +182095,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.17σ)"
+          "metric": "SPYB: $769.26 (Z: +0.17σ)"
         },
         {
           "time": "03/09 15:00",
@@ -182103,7 +182103,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.53σ)"
+          "metric": "SPYB: $769.26 (Z: +1.53σ)"
         },
         {
           "time": "03/09 16:00",
@@ -182111,7 +182111,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 62,
           "score_a": 62,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.59σ)"
+          "metric": "SPYB: $769.26 (Z: -0.59σ)"
         },
         {
           "time": "03/09 17:00",
@@ -182119,7 +182119,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.38σ)"
+          "metric": "SPYB: $769.26 (Z: -2.38σ)"
         },
         {
           "time": "03/09 18:00",
@@ -182127,7 +182127,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.30σ)"
+          "metric": "SPYB: $769.26 (Z: +0.30σ)"
         },
         {
           "time": "03/09 19:00",
@@ -182135,7 +182135,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "03/09 20:00",
@@ -182143,7 +182143,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 21:00",
@@ -182151,7 +182151,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 22:00",
@@ -182159,7 +182159,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "03/09 23:00",
@@ -182167,7 +182167,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 00:00",
@@ -182175,7 +182175,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 01:00",
@@ -182183,7 +182183,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 02:00",
@@ -182191,7 +182191,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 03:00",
@@ -182199,7 +182199,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 04:00",
@@ -182207,7 +182207,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 05:00",
@@ -182215,7 +182215,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 06:00",
@@ -182223,7 +182223,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 07:00",
@@ -182231,7 +182231,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 08:00",
@@ -182239,7 +182239,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 09:00",
@@ -182247,7 +182247,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: +0.00σ)"
         },
         {
           "time": "04/09 10:00",
@@ -182255,7 +182255,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +0.00σ)"
+          "metric": "SPYB: $769.26 (Z: -0.00σ)"
         },
         {
           "time": "04/09 11:00",
@@ -182263,7 +182263,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 55,
           "score_a": 55,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -0.53σ)"
+          "metric": "SPYB: $769.26 (Z: -0.53σ)"
         },
         {
           "time": "04/09 12:00",
@@ -182271,7 +182271,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 100,
           "score_a": 100,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: -2.01σ)"
+          "metric": "SPYB: $769.26 (Z: -2.01σ)"
         },
         {
           "time": "04/09 13:00",
@@ -182279,7 +182279,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.22σ)"
+          "metric": "SPYB: $769.26 (Z: +1.22σ)"
         },
         {
           "time": "04/09 14:00",
@@ -182287,7 +182287,7 @@ window.PLANOS_TACTICAL_DATA = [
           "score": 0,
           "score_a": 0,
           "score_b": 0,
-          "metric": "SPYB: $769.35 (Z: +1.07σ)"
+          "metric": "SPYB: $769.26 (Z: +1.07σ)"
         }
       ]
     }
