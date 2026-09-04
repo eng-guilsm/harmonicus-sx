@@ -1,9 +1,9 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-03 23:06:42)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-03 23:06:57)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-09-03 23:06:42",
-  "total_brl": 2073.66,
+  "timestamp_str": "2026-09-03 23:06:57",
+  "total_brl": 2073.84,
   "aportado_brl": 2220.0,
-  "lucro_liquido_real_brl": -146.34,
+  "lucro_liquido_real_brl": -146.16,
   "caixa_brl": 31.94,
   "caixa_pct": 1.54,
   "btc_brl": 217.07,
@@ -15,12 +15,12 @@ window.PORTFOLIO_STATE = {
   "sol_brl": 0.09,
   "sol_qtd": 0.000175,
   "sol_pct": 0.0,
-  "paxg_brl": 499.09,
+  "paxg_brl": 499.27,
   "paxg_qtd": 0.0217463,
   "paxg_pct": 24.07,
   "usdt_brl": 1009.8,
   "usdt_qtd": 197.0071,
-  "usdt_pct": 48.7,
+  "usdt_pct": 48.69,
   "eth_brl": 226.42,
   "eth_qtd": 0.0176688,
   "eth_pct": 10.92,
@@ -44,7 +44,7 @@ window.PORTFOLIO_STATE = {
       "asset": "PAXG",
       "nome": "Ouro PAXG (Simple Earn)",
       "qtd": 0.0217463,
-      "valor_brl": 499.09,
+      "valor_brl": 499.27,
       "pct": 24.07,
       "cor": "#EAB308",
       "icone": "🥇"
@@ -108,7 +108,7 @@ window.PORTFOLIO_STATE = {
       "nome": "Tether USD (Pátria Volátil)",
       "qtd": 197.01,
       "valor_brl": 1009.8,
-      "pct": 48.7,
+      "pct": 48.69,
       "cor": "#06B6D4",
       "icone": "💵"
     }
@@ -116,7 +116,7 @@ window.PORTFOLIO_STATE = {
   "cotacoes_ao_vivo": {
     "BTCBRL": 414386.0,
     "USDTBRL": 5.1257,
-    "PAXGBRL": 22950.783063000003,
+    "PAXGBRL": 22958.625384,
     "SOLBRL": 530.9,
     "ETHBRL": 12814.4,
     "LINKBRL": 60.73,
@@ -104244,7 +104244,7 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Simple Earn Flexible (3.5% a.a.)",
     "ponta_b_score": 100,
     "proximidade_score": 0,
-    "valor_atual_str": "Ouro PAXG: R$ 22950.78 (Piso Ratchet Ativo)",
+    "valor_atual_str": "Ouro PAXG: R$ 22958.63 (Piso Ratchet Ativo)",
     "distancia_display": "DCA Ativo (R$ 50 a cada 5 dias)",
     "status": "ACUMULADOR_PERPETUO_ATIVO",
     "icone": "🥇",
