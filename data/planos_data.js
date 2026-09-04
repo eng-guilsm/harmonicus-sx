@@ -1,9 +1,9 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-04 18:33:20)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-04 18:33:36)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-09-04 18:33:20",
-  "total_brl": 2202.68,
+  "timestamp_str": "2026-09-04 18:33:36",
+  "total_brl": 2202.67,
   "aportado_brl": 2230.0,
-  "lucro_liquido_real_brl": -27.32,
+  "lucro_liquido_real_brl": -27.33,
   "caixa_brl": 154.03,
   "caixa_pct": 6.99,
   "btc_brl": 179.1,
@@ -15,7 +15,7 @@ window.PORTFOLIO_STATE = {
   "sol_brl": 0.09,
   "sol_qtd": 0.000175,
   "sol_pct": 0.0,
-  "paxg_brl": 630.22,
+  "paxg_brl": 630.21,
   "paxg_qtd": 0.02764631,
   "paxg_pct": 28.61,
   "usdt_brl": 1013.7,
@@ -44,7 +44,7 @@ window.PORTFOLIO_STATE = {
       "asset": "PAXG",
       "nome": "Ouro PAXG (Simple Earn)",
       "qtd": 0.02764631,
-      "valor_brl": 630.22,
+      "valor_brl": 630.21,
       "pct": 28.61,
       "cor": "#EAB308",
       "icone": "🥇"
@@ -116,7 +116,7 @@ window.PORTFOLIO_STATE = {
   "cotacoes_ao_vivo": {
     "BTCBRL": 410520.0,
     "USDTBRL": 5.1447,
-    "PAXGBRL": 22795.65123,
+    "PAXGBRL": 22795.599783,
     "SOLBRL": 523.6,
     "ETHBRL": 12627.09,
     "BNBBRL": 3697.0,
@@ -104241,7 +104241,7 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Simple Earn Flexible (3.5% a.a.)",
     "ponta_b_score": 100,
     "proximidade_score": 100,
-    "valor_atual_str": "Ouro PAXG: R$ 22795.65 (Piso Ratchet Ativo)",
+    "valor_atual_str": "Ouro PAXG: R$ 22795.60 (Piso Ratchet Ativo)",
     "distancia_display": "DCA Ativo (R$ 50 a cada 5 dias)",
     "status": "GESTAO_PASSIVA",
     "icone": "🥇",
