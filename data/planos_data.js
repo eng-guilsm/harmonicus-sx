@@ -1,9 +1,9 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-03 22:47:05)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-03 22:47:40)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-09-03 22:47:05",
-  "total_brl": 2071.34,
+  "timestamp_str": "2026-09-03 22:47:40",
+  "total_brl": 2070.96,
   "aportado_brl": 2220.0,
-  "lucro_liquido_real_brl": -148.66,
+  "lucro_liquido_real_brl": -149.04,
   "caixa_brl": 31.94,
   "caixa_pct": 1.54,
   "btc_brl": 216.79,
@@ -15,12 +15,12 @@ window.PORTFOLIO_STATE = {
   "sol_brl": 0.09,
   "sol_qtd": 0.000175,
   "sol_pct": 0.0,
-  "paxg_brl": 498.1,
+  "paxg_brl": 497.72,
   "paxg_qtd": 0.0217463,
-  "paxg_pct": 24.05,
+  "paxg_pct": 24.03,
   "usdt_brl": 1009.38,
   "usdt_qtd": 197.0069,
-  "usdt_pct": 48.73,
+  "usdt_pct": 48.74,
   "eth_brl": 226.2,
   "eth_qtd": 0.0176688,
   "eth_pct": 10.92,
@@ -44,8 +44,8 @@ window.PORTFOLIO_STATE = {
       "asset": "PAXG",
       "nome": "Ouro PAXG (Simple Earn)",
       "qtd": 0.0217463,
-      "valor_brl": 498.1,
-      "pct": 24.05,
+      "valor_brl": 497.72,
+      "pct": 24.03,
       "cor": "#EAB308",
       "icone": "🥇"
     },
@@ -108,7 +108,7 @@ window.PORTFOLIO_STATE = {
       "nome": "Tether USD (Pátria Volátil)",
       "qtd": 197.01,
       "valor_brl": 1009.38,
-      "pct": 48.73,
+      "pct": 48.74,
       "cor": "#06B6D4",
       "icone": "💵"
     }
@@ -116,7 +116,7 @@ window.PORTFOLIO_STATE = {
   "cotacoes_ao_vivo": {
     "BTCBRL": 413855.0,
     "USDTBRL": 5.1236,
-    "PAXGBRL": 22904.951327999996,
+    "PAXGBRL": 22887.787268,
     "SOLBRL": 529.2,
     "ETHBRL": 12802.18,
     "LINKBRL": 60.4,
@@ -104244,7 +104244,7 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Simple Earn Flexible (3.5% a.a.)",
     "ponta_b_score": 100,
     "proximidade_score": 0,
-    "valor_atual_str": "Ouro PAXG: R$ 22904.95 (Piso Ratchet Ativo)",
+    "valor_atual_str": "Ouro PAXG: R$ 22887.79 (Piso Ratchet Ativo)",
     "distancia_display": "DCA Ativo (R$ 50 a cada 5 dias)",
     "status": "ACUMULADOR_PERPETUO_ATIVO",
     "icone": "🥇",
