@@ -141,7 +141,7 @@ function renderLiveThermometer(plans, filter) {
   const sortedPlans = [...filteredPlans].sort((a, b) => b.proximidade_score - a.proximidade_score);
 
   container.innerHTML = sortedPlans.map((plan, idx) => {
-    const isDesativado = plan.desativado || plan.status === 'DESATIVADO' || plan.status === 'DESATIVADO_TEMPORARIAMENTE' || plan.id === 13 || plan.id === 15 || (plan.nome && (plan.nome.includes('Bruce Wayne') || plan.nome.includes('Adeus, Perry')));
+    const isDesativado = plan.desativado || plan.status === 'DESATIVADO' || plan.status === 'DESATIVADO_TEMPORARIAMENTE' || plan.id === 9 || plan.id === 13 || plan.id === 15 || (plan.nome && (plan.nome.includes('Bruce Wayne') || plan.nome.includes('Adeus, Perry') || plan.nome.includes('Cofre de Midas')));
     const isLow = plan.categoria === 'baixo_risco';
     const badgeClass = isDesativado ? 'badge-paused' : (isLow ? 'badge-low' : 'badge-mid');
     const badgeText = isDesativado ? '⏸️ DESATIVADO PELA GOVERNANÇA' : (isLow ? '🛡️ BAIXO RISCO' : '⚡ MÉDIO RISCO');
@@ -280,7 +280,7 @@ function renderModalLayout(plan, tf) {
   const content = document.getElementById('planModalContent');
   if (!content) return;
 
-  const isDesativado = plan.desativado || plan.status === 'DESATIVADO' || plan.status === 'DESATIVADO_TEMPORARIAMENTE' || plan.id === 13 || plan.id === 15 || (plan.nome && (plan.nome.includes('Bruce Wayne') || plan.nome.includes('Adeus, Perry')));
+  const isDesativado = plan.desativado || plan.status === 'DESATIVADO' || plan.status === 'DESATIVADO_TEMPORARIAMENTE' || plan.id === 9 || plan.id === 13 || plan.id === 15 || (plan.nome && (plan.nome.includes('Bruce Wayne') || plan.nome.includes('Adeus, Perry') || plan.nome.includes('Cofre de Midas')));
   const isLow = plan.categoria === 'baixo_risco';
   const badgeClass = isDesativado ? 'badge-paused' : (isLow ? 'badge-low' : 'badge-mid');
   const badgeText = isDesativado ? '⏸️ DESATIVADO PELA GOVERNANÇA' : (isLow ? '🛡️ BAIXO RISCO' : '⚡ MÉDIO RISCO');
