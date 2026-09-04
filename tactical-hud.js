@@ -141,9 +141,13 @@ function renderLiveThermometer(plans, filter) {
   const sortedPlans = [...filteredPlans].sort((a, b) => b.proximidade_score - a.proximidade_score);
 
   container.innerHTML = sortedPlans.map((plan, idx) => {
+    const isDesativado = plan.desativado || plan.status === 'DESATIVADO' || plan.status === 'DESATIVADO_TEMPORARIAMENTE' || plan.id === 13 || plan.id === 15 || (plan.nome && (plan.nome.includes('Bruce Wayne') || plan.nome.includes('Adeus, Perry')));
     const isLow = plan.categoria === 'baixo_risco';
-    const badgeClass = isLow ? 'badge-low' : 'badge-mid';
-    const badgeText = isLow ? '🛡️ BAIXO RISCO' : '⚡ MÉDIO RISCO';
+    const badgeClass = isDesativado ? 'badge-paused' : (isLow ? 'badge-low' : 'badge-mid');
+    const badgeText = isDesativado ? '⏸️ DESATIVADO PELA GOVERNANÇA' : (isLow ? '🛡️ BAIXO RISCO' : '⚡ MÉDIO RISCO');
+    const borderTopColor = isDesativado ? '#EF4444' : plan.cor;
+    const cardExtraClass = isDesativado ? ' plan-card-desativado' : '';
+    const cardExtraStyle = '';
 
     const pA_score = plan.ponta_a_score !== undefined ? plan.ponta_a_score : plan.proximidade_score;
     const pB_score = plan.ponta_b_score !== undefined ? plan.ponta_b_score : 0;
@@ -151,27 +155,35 @@ function renderLiveThermometer(plans, filter) {
     const pB_label = plan.ponta_b_label || 'Ponta B: Venda / Rotação B';
 
     return `
-      <div class="thermo-card" data-plan-id="${plan.id}" style="border-top: 3px solid ${plan.cor};" title="Clique para abrir análise executiva e histórico">
+      <div class="thermo-card${cardExtraClass}" data-plan-id="${plan.id}" style="border-top: 3px solid ${borderTopColor}; ${cardExtraStyle}" title="${isDesativado ? 'Plano temporariamente desativado pela Governança' : 'Clique para abrir análise executiva e histórico'}">
         <div class="thermo-header">
-          <span class="thermo-rank">#${idx + 1} AO VIVO</span>
+          <span class="thermo-rank" style="${isDesativado ? 'color: #F87171;' : ''}">${isDesativado ? '⛔ PAUSADO' : '#' + (idx + 1) + ' AO VIVO'}</span>
           <span class="plan-badge ${badgeClass}">${badgeText}</span>
         </div>
+        
+        ${isDesativado ? `
+          <div class="desativado-banner-tag">
+            <span>🚫</span>
+            <span>OPERAÇÕES SUSPENSAS PELA GOVERNANÇA</span>
+          </div>
+        ` : ''}
+
         <div>
-          <div class="thermo-name">${plan.icone} ${plan.nome}</div>
-          <div class="thermo-par-tag">${plan.par} • Lote: R$ ${plan.lote_brl.toFixed(2)}</div>
+          <div class="thermo-name" style="${isDesativado ? 'color: #CBD5E1;' : ''}">${plan.icone} ${plan.nome}</div>
+          <div class="thermo-par-tag" style="${isDesativado ? 'color: #94A3B8;' : ''}">${plan.par} • Lote: R$ ${plan.lote_brl.toFixed(2)}</div>
         </div>
-        <div class="thermo-dist">${plan.valor_atual_str || ''}</div>
+        <div class="thermo-dist" style="${isDesativado ? 'color: #F87171; font-weight: 700;' : ''}">${isDesativado ? '⚠️ Motor 100% Inativo (Sem novos trades)' : (plan.valor_atual_str || '')}</div>
         
         <!-- DUAS METAS BIDIRECIONAIS (PONTA A vs PONTA B) -->
-        <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 4px;">
+        <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 4px; ${isDesativado ? 'opacity: 0.4;' : ''}">
           <!-- PONTA A (COMPRA / ENTRADA) -->
           <div>
             <div style="display: flex; justify-content: space-between; align-items: center; font-family: var(--font-mono); font-size: 0.65rem; margin-bottom: 3px;">
               <span style="color: #10B981; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 75%;">🟢 ${pA_label}</span>
-              <span style="color: #10B981; font-weight: 700; font-size: 0.72rem;">${pA_score}%</span>
+              <span style="color: #10B981; font-weight: 700; font-size: 0.72rem;">${isDesativado ? '0%' : pA_score + '%'}</span>
             </div>
             <div class="thermo-bar-track" style="height: 6px; background: rgba(16, 185, 129, 0.15);">
-              <div class="thermo-bar-fill" style="width: ${pA_score}%; background: #10B981;"></div>
+              <div class="thermo-bar-fill" style="width: ${isDesativado ? 0 : pA_score}%; background: #10B981;"></div>
             </div>
           </div>
 
@@ -179,17 +191,17 @@ function renderLiveThermometer(plans, filter) {
           <div>
             <div style="display: flex; justify-content: space-between; align-items: center; font-family: var(--font-mono); font-size: 0.65rem; margin-bottom: 3px;">
               <span style="color: #3B82F6; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 75%;">🔵 ${pB_label}</span>
-              <span style="color: #3B82F6; font-weight: 700; font-size: 0.72rem;">${pB_score}%</span>
+              <span style="color: #3B82F6; font-weight: 700; font-size: 0.72rem;">${isDesativado ? '0%' : pB_score + '%'}</span>
             </div>
             <div class="thermo-bar-track" style="height: 6px; background: rgba(59, 130, 246, 0.15);">
-              <div class="thermo-bar-fill" style="width: ${pB_score}%; background: #3B82F6;"></div>
+              <div class="thermo-bar-fill" style="width: ${isDesativado ? 0 : pB_score}%; background: #3B82F6;"></div>
             </div>
           </div>
         </div>
 
         <div class="thermo-hint" style="margin-top: 8px;">
           <span>🔍</span>
-          <span>Clique para abrir gráfico histórico bidirecional</span>
+          <span>${isDesativado ? 'Clique para ver detalhes do motivo de desativação' : 'Clique para abrir gráfico histórico bidirecional'}</span>
         </div>
       </div>
     `;
@@ -268,9 +280,10 @@ function renderModalLayout(plan, tf) {
   const content = document.getElementById('planModalContent');
   if (!content) return;
 
+  const isDesativado = plan.desativado || plan.status === 'DESATIVADO' || plan.status === 'DESATIVADO_TEMPORARIAMENTE' || plan.id === 13 || plan.id === 15 || (plan.nome && (plan.nome.includes('Bruce Wayne') || plan.nome.includes('Adeus, Perry')));
   const isLow = plan.categoria === 'baixo_risco';
-  const badgeClass = isLow ? 'badge-low' : 'badge-mid';
-  const badgeText = isLow ? '🛡️ BAIXO RISCO' : '⚡ MÉDIO RISCO';
+  const badgeClass = isDesativado ? 'badge-paused' : (isLow ? 'badge-low' : 'badge-mid');
+  const badgeText = isDesativado ? '⏸️ DESATIVADO PELA GOVERNANÇA' : (isLow ? '🛡️ BAIXO RISCO' : '⚡ MÉDIO RISCO');
 
   content.innerHTML = `
     <div class="modal-header-box">
@@ -278,6 +291,12 @@ function renderModalLayout(plan, tf) {
         <span class="plan-badge ${badgeClass}">${badgeText}</span>
         <h3 class="modal-plan-title">${plan.icone} ${plan.nome}</h3>
         <span class="plan-par-tag">PAR SINTÉTICO: <b>${plan.par}</b> | Lote: <b>R$ ${plan.lote_brl.toFixed(2)}</b> | Meta Lucro: <b>+${plan.lucro_min_pct.toFixed(2)}%</b></span>
+        ${isDesativado ? `
+          <div class="desativado-banner-tag" style="margin-top: 10px; font-size: 0.72rem;">
+            <span>🚫</span>
+            <span>PLANO DESATIVADO TEMPORARIAMENTE — MOTORES E COMPRAS SUSPENSOS</span>
+          </div>
+        ` : ''}
       </div>
     </div>
 
