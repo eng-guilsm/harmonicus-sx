@@ -1,9 +1,9 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-05 00:45:11)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-05 00:46:26)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-09-05 00:45:11",
-  "total_brl": 2205.83,
+  "timestamp_str": "2026-09-05 00:46:26",
+  "total_brl": 2205.82,
   "aportado_brl": 2230.0,
-  "lucro_liquido_real_brl": -24.17,
+  "lucro_liquido_real_brl": -24.18,
   "caixa_brl": 154.03,
   "caixa_pct": 6.98,
   "btc_brl": 178.9,
@@ -15,11 +15,11 @@ window.PORTFOLIO_STATE = {
   "sol_brl": 0.09,
   "sol_qtd": 0.000175,
   "sol_pct": 0.0,
-  "paxg_brl": 631.55,
+  "paxg_brl": 631.54,
   "paxg_qtd": 0.02764631,
   "paxg_pct": 28.63,
   "usdt_brl": 1014.93,
-  "usdt_qtd": 197.0426,
+  "usdt_qtd": 197.0427,
   "usdt_pct": 46.01,
   "eth_brl": 8.45,
   "eth_qtd": 0.0006688,
@@ -44,7 +44,7 @@ window.PORTFOLIO_STATE = {
       "asset": "PAXG",
       "nome": "Ouro PAXG (Simple Earn)",
       "qtd": 0.02764631,
-      "valor_brl": 631.55,
+      "valor_brl": 631.54,
       "pct": 28.63,
       "cor": "#EAB308",
       "icone": "🥇"
@@ -116,7 +116,7 @@ window.PORTFOLIO_STATE = {
   "cotacoes_ao_vivo": {
     "BTCBRL": 410066.0,
     "USDTBRL": 5.1508,
-    "PAXGBRL": 22843.849508000003,
+    "PAXGBRL": 22843.694983999998,
     "SOLBRL": 525.0,
     "ETHBRL": 12639.83,
     "BNBBRL": 3730.0,
@@ -127,8 +127,8 @@ window.PORTFOLIO_STATE = {
     "USDBRL_COMERCIAL": 5.1249
   },
   "harmonicus_sensores": {
-    "pc1": 0.4141,
-    "entropia": 1.7034,
+    "pc1": 0.4128,
+    "entropia": 1.7065,
     "energia_wavelet_morlet": -0.0673,
     "fluxo_ste": 0.0783,
     "regime": "CALIBRAÇÃO_G500_ATIVA",
@@ -104241,7 +104241,7 @@ window.PLANOS_TACTICAL_DATA = [
     "ponta_b_label": "Simple Earn Flexible (3.5% a.a.)",
     "ponta_b_score": 100,
     "proximidade_score": 100,
-    "valor_atual_str": "Ouro PAXG: R$ 22843.85 (Piso Ratchet Ativo)",
+    "valor_atual_str": "Ouro PAXG: R$ 22843.69 (Piso Ratchet Ativo)",
     "distancia_display": "DCA Ativo (R$ 50 a cada 5 dias)",
     "status": "GESTAO_PASSIVA",
     "icone": "🥇",
