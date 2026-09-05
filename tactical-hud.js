@@ -41,10 +41,45 @@ function renderHeroPatrimony(p) {
   const elGatekeeperBadge = document.getElementById('gatekeeperBadge');
   const elGatekeeperDetail = document.getElementById('gatekeeperDetail');
 
-  const fmt = (v) => v ? v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '--';
+  const fmt = (v) => (v !== undefined && v !== null && !isNaN(v)) ? v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '--';
 
-  if (elPatrimonio) elPatrimonio.textContent = fmt(p.total_brl || 1709.72);
-  if (elCaixa) elCaixa.textContent = fmt(p.caixa_brl || 1150.00);
+  const total = (p.total_brl !== undefined && !isNaN(p.total_brl)) ? p.total_brl : 2205.22;
+  const aportado = (p.aportado_brl !== undefined && !isNaN(p.aportado_brl)) ? p.aportado_brl : 2230.00;
+  const diff = total - aportado;
+  const diffPct = aportado > 0 ? (diff / aportado) * 100 : 0;
+  const recPct = aportado > 0 ? (total / aportado) * 100 : 100;
+
+  if (elPatrimonio) elPatrimonio.textContent = fmt(total);
+  if (elCaixa) elCaixa.textContent = fmt(p.caixa_brl !== undefined ? p.caixa_brl : 154.03);
+
+  const elRecuperacaoTag = document.getElementById('patrimonioRecuperacaoTag');
+  if (elRecuperacaoTag) {
+    if (diff >= 0) {
+      elRecuperacaoTag.className = 'hero-tag positive';
+      elRecuperacaoTag.textContent = `LUCRO +${diffPct.toFixed(1)}%`;
+    } else {
+      elRecuperacaoTag.className = 'hero-tag positive';
+      elRecuperacaoTag.textContent = `RECUPERAÇÃO ${recPct.toFixed(1)}%`;
+    }
+  }
+
+  const elSubtext = document.getElementById('patrimonioSubtext');
+  if (elSubtext) {
+    const aportadoStr = `R$ ${fmt(aportado)}`;
+    if (diff >= 0) {
+      const lucroStr = `R$ ${fmt(diff)}`;
+      elSubtext.innerHTML = `Total Aportado: ${aportadoStr} | Lucro acumulado: <b style="color: #10B981;">+${lucroStr} (+${diffPct.toFixed(2)}%)</b>.`;
+    } else {
+      const prejStr = `R$ ${fmt(Math.abs(diff))}`;
+      elSubtext.innerHTML = `Total Aportado: ${aportadoStr} | Prejuízo residual reduzido para apenas <b style="color: #F87171;">${prejStr} (${diffPct.toFixed(2)}%)</b>.`;
+    }
+  }
+
+  const elCaixaTag = document.getElementById('caixaPctTag');
+  if (elCaixaTag) {
+    const cPct = p.caixa_pct !== undefined ? p.caixa_pct : (total > 0 ? ((p.caixa_brl || 154.03) / total) * 100 : 0);
+    elCaixaTag.textContent = `${cPct.toFixed(1)}% DO CAPITAL`;
+  }
 
   const c = p.cotacoes_ao_vivo || {};
   if (elBtc && c.BTCBRL) elBtc.textContent = `R$ ${Math.round(c.BTCBRL).toLocaleString('pt-BR')}`;
