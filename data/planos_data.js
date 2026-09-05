@@ -1,6 +1,6 @@
-// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-05 00:55:16)
+// Gerado automaticamente pelo Harmonicus SX Engine (2026-09-05 00:56:31)
 window.PORTFOLIO_STATE = {
-  "timestamp_str": "2026-09-05 00:55:16",
+  "timestamp_str": "2026-09-05 00:56:31",
   "total_brl": 2206.14,
   "aportado_brl": 2230.0,
   "lucro_liquido_real_brl": -23.86,
@@ -19,7 +19,7 @@ window.PORTFOLIO_STATE = {
   "paxg_qtd": 0.02764631,
   "paxg_pct": 28.63,
   "usdt_brl": 1015.05,
-  "usdt_qtd": 197.0427,
+  "usdt_qtd": 197.0428,
   "usdt_pct": 46.01,
   "eth_brl": 8.45,
   "eth_qtd": 0.0006688,
@@ -128,7 +128,7 @@ window.PORTFOLIO_STATE = {
   },
   "harmonicus_sensores": {
     "pc1": 0.4128,
-    "entropia": 1.7065,
+    "entropia": 1.7057,
     "energia_wavelet_morlet": -0.0673,
     "fluxo_ste": 0.0783,
     "regime": "CALIBRAÇÃO_G500_ATIVA",
